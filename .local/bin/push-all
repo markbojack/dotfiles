@@ -1,0 +1,72 @@
+#!/bin/bash
+
+# NB for dotfiles, to add a file, you need to modify an
+# existing file first, then push
+isChanged="$(git --git-dir=$HOME/dotfiles/ --work-tree=$HOME status --porcelain | wc -l)"
+if [ "$isChanged" -ne 0 ]; then
+	echo "dotfiles"
+	git --git-dir=$HOME/dotfiles/ --work-tree=$HOME add ~/README.md ~/.bashrc ~/.config/nvim/init.vim ~/.vim/sessions/* ~/.Xresources  ~/.config/sxiv/exec/* ~/.config/alacritty/alacritty.yml ~/.config/i3/config ~/.config/i3status/i3status.conf ~/.config/picom/picom.conf ~/.config/i3blocks/* ~/.gtkrc-2.0 ~/.config/gtk-3.0/settings.ini ~/.config/i3-scrot.conf ~/.local/bin
+	git --git-dir=$HOME/dotfiles/ --work-tree=$HOME commit -m "update" -a
+	git --git-dir=$HOME/dotfiles/ --work-tree=$HOME push -u origin main -q
+	echo -e "\n"
+fi
+
+cd ~/finwiki
+isChanged="$(git status --porcelain | wc -l)"
+if [ "$isChanged" -ne 0 ]; then
+	echo "finwiki"
+	git add .
+	git commit -m "update"
+	git push -u origin main -q
+	echo -e "\n"
+fi
+
+cd ~/seasonality
+isChanged="$(git status --porcelain | wc -l)"
+if [ "$isChanged" -ne 0 ]; then
+	echo "seasonality"
+	git add .
+	git commit -m "update"
+	git push -u origin main -q
+	echo -e "\n"
+fi
+
+cd ~/tendril
+isChanged="$(git status --porcelain | wc -l)"
+if [ "$isChanged" -ne 0 ]; then
+	echo "tendril"
+	git add .
+	git commit -m "update"
+	git push -u origin main -q
+	echo -e "\n"
+fi
+
+cd ~/copper-ingot
+isChanged="$(git status --porcelain | wc -l)"
+if [ "$isChanged" -ne 0 ]; then
+	echo "copper-ingot"
+	git add .
+	git commit -m "update"
+	git push -u origin main -q
+	echo -e "\n"
+fi
+
+cd ~/vimwiki
+isChanged="$(git status --porcelain | wc -l)"
+if [ "$isChanged" -ne 0 ]; then
+	echo "vimwiki"
+	git add .
+	git commit -m "update"
+	git push -u origin main -q
+	echo -e "\n"
+fi
+
+cd ~/p-dot-script
+isChanged="$(git status --porcelain | wc -l)"
+if [ "$isChanged" -ne 0 ]; then
+	echo "p-dot-script"
+	git add .
+	git commit -m "update"
+	git push -u origin main -q
+	echo -e "\n"
+fi

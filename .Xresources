@@ -1,0 +1,12 @@
+# you need to run 
+# `cd && xrdb -load .Xresources`
+# after changing this file
+
+# also here is a cool reference
+# https://github.com/manjaro/desktop-settings/blob/master/community/i3/skel/.Xresources
+
+*foreground: rgb:e5/e5/e5
+*background: rgb:00/00/00
+
+Sxiv.foreground: #bbbbbb
+Sxiv.background: #222222

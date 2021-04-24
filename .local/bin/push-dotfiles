@@ -1,0 +1,5 @@
+#!/bin/bash
+
+git --git-dir=$HOME/dotfiles/ --work-tree=$HOME add ~/.bashrc ~/.config/nvim/init.vim ~/README.md
+git --git-dir=$HOME/dotfiles/ --work-tree=$HOME commit -m "update" -a
+git --git-dir=$HOME/dotfiles/ --work-tree=$HOME push -u origin main
