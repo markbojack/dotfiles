@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 # NB for dotfiles, to add a file, you need to modify an
 # existing file first, then push bc you check for changes first
 isChangedDot="$(git --git-dir=$HOME/dotfiles/ --work-tree=$HOME status --porcelain | wc -l)"
