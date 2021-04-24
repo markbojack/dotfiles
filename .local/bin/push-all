@@ -1,10 +1,9 @@
 #!/bin/bash
 
-isChangedDot="$(git --git-dir=$HOME/dotfiles/ --work-tree=$HOME status --porcelain | wc -l)"
-isChanged="$(git status --porcelain | wc -l)"
 
 # NB for dotfiles, to add a file, you need to modify an
 # existing file first, then push bc you check for changes first
+isChangedDot="$(git --git-dir=$HOME/dotfiles/ --work-tree=$HOME status --porcelain | wc -l)"
 if [ "$isChangedDot" -ne 0 ]; then
 	echo "dotfiles"
 	git --git-dir=$HOME/dotfiles/ --work-tree=$HOME add ~/README.md ~/.bashrc ~/.config/nvim/init.vim ~/.vim/sessions/* ~/.Xresources  ~/.config/sxiv/exec/* ~/.config/alacritty/alacritty.yml ~/.config/i3/config ~/.config/i3status/i3status.conf ~/.config/picom/picom.conf ~/.config/i3blocks/* ~/.gtkrc-2.0 ~/.config/gtk-3.0/settings.ini ~/.config/i3-scrot.conf ~/.local/bin
@@ -14,6 +13,7 @@ if [ "$isChangedDot" -ne 0 ]; then
 fi
 
 cd ~/finwiki
+isChanged="$(git status --porcelain | wc -l)"
 if [ "$isChanged" -ne 0 ]; then
 	echo "finwiki"
 	git add .
@@ -23,6 +23,7 @@ if [ "$isChanged" -ne 0 ]; then
 fi
 
 cd ~/seasonality
+isChanged="$(git status --porcelain | wc -l)"
 if [ "$isChanged" -ne 0 ]; then
 	echo "seasonality"
 	git add .
@@ -32,6 +33,7 @@ if [ "$isChanged" -ne 0 ]; then
 fi
 
 cd ~/tendril
+isChanged="$(git status --porcelain | wc -l)"
 if [ "$isChanged" -ne 0 ]; then
 	echo "tendril"
 	git add .
@@ -41,6 +43,7 @@ if [ "$isChanged" -ne 0 ]; then
 fi
 
 cd ~/copper-ingot
+isChanged="$(git status --porcelain | wc -l)"
 if [ "$isChanged" -ne 0 ]; then
 	echo "copper-ingot"
 	git add .
@@ -50,6 +53,7 @@ if [ "$isChanged" -ne 0 ]; then
 fi
 
 cd ~/vimwiki
+isChanged="$(git status --porcelain | wc -l)"
 if [ "$isChanged" -ne 0 ]; then
 	echo "vimwiki"
 	git add .
@@ -59,6 +63,7 @@ if [ "$isChanged" -ne 0 ]; then
 fi
 
 cd ~/p-dot-script
+isChanged="$(git status --porcelain | wc -l)"
 if [ "$isChanged" -ne 0 ]; then
 	echo "p-dot-script"
 	git add .
