@@ -218,7 +218,7 @@ bindsym $mod+r mode "resize"
 # Startup
 exec_always --no-startup-id picom --experimental-backend
 exec_always --no-startup-id feh --bg-fill /home/mark/Documents/new.jpeg
-exec --no-startup-id alacritty -e mw -y; neomutt
+exec --no-startup-id alacritty -e neomutt
 exec --no-startup-id alacritty
 exec --no-startup-id brave
 
