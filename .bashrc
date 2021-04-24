@@ -224,6 +224,8 @@ alias xrc='nvim ~/.Xresources'
 alias sc='nvim ~/.config/i3-scrot.conf'
 alias pa='nvim ~/.local/bin/push-all'
 alias mrc='nvim ~/p-dot-script/muttrc'
+alias pic1='nvim ~/.config/sxiv/exec/image-info'
+alias pic2='nvim ~/.config/sxiv/exec/key-handler'
 
 # PATH
 # actually, i would rather hide this in
@@ -267,12 +269,6 @@ echo "Terminal opened on:" `date` >> ~/terminal.log
 #alias parsyu='paru -Syu --noconfirm'             # update standard pkgs and AUR pkgs (paru)
 #alias unlock='sudo rm /var/lib/pacman/db.lck'    # remove pacman lock
 #alias cleanup='sudo pacman -Rns (pacman -Qtdq)'  # remove orphaned packages
-
-# get fastest mirrors
-alias mirror="sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist"
-alias mirrord="sudo reflector --latest 50 --number 20 --sort delay --save /etc/pacman.d/mirrorlist"
-alias mirrors="sudo reflector --latest 50 --number 20 --sort score --save /etc/pacman.d/mirrorlist"
-alias mirrora="sudo reflector --latest 50 --number 20 --sort age --save /etc/pacman.d/mirrorlist"
 
 # Colorize grep output (good for log files)
 alias grep='grep --color=auto'

@@ -27,6 +27,18 @@
 		endfunction
 		nmap gz :call ZoomWindow()<CR>
 
+	let s:wrap=0
+	function! ToggleWrap()
+		if s:wrap==0
+			let s:wrap=1
+			set wrap
+		else
+			let s:wrap=0
+			set nowrap
+		endif
+	endfunction
+	nnoremap <leader>h :call ToggleWrap()<cr>
+
 " Indentation
 	set shiftwidth=4 tabstop=4
 	set smartindent
