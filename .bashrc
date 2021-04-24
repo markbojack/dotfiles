@@ -223,7 +223,7 @@ alias pc='nvim ~/.config/picom/picom.conf'
 alias xrc='nvim ~/.Xresources'
 alias sc='nvim ~/.config/i3-scrot.conf'
 alias pa='nvim ~/.local/bin/push-all'
-alias mrc='nvim ~/.config/neomutt/neomuttrc'
+alias mrc='nvim ~/p-dot-script/muttrc'
 
 # PATH
 # actually, i would rather hide this in

@@ -143,6 +143,7 @@ bindsym $mod+a focus parent
 set $ws1 ""
 set $ws2 ""
 set $ws3 ""
+#set $ws4 ""
 set $ws4 "4"
 set $ws5 "5"
 set $ws6 "6"
@@ -218,6 +219,7 @@ bindsym $mod+r mode "resize"
 # Startup
 exec_always --no-startup-id picom --experimental-backend
 exec_always --no-startup-id feh --bg-fill /home/mark/Documents/new.jpeg
+#exec --no-startup-id i3-msg 'workspace $ws1; exec --no-startup-id alacritty'
 exec --no-startup-id alacritty -e neomutt
 exec --no-startup-id alacritty
 exec --no-startup-id brave
