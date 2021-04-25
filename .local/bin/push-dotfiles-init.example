@@ -1,10 +1,11 @@
 #!/bin/bash
 
-curl -u markbojack:<YOUR API KEY> https://api.github.com/user/repos -d '{"name":"dotfiles", "has_wiki":false, "has_issues":false, "has_projects":false}'
+curl -u markbojack:YOUR-API-TOKEN https://api.github.com/user/repos -d '{"name":"dotfiles", "has_wiki":false, "has_issues":false, "has_projects":false}'
 mkdir ~/dotfiles
+touch README.md
+echo "# dotfiles" > ~/README.md
 git init --bare $HOME/dotfiles
 git --git-dir=$HOME/dotfiles/ --work-tree=$HOME config --local status.showUntrackedFiles no
-echo "# dotfiles" > ~/README.md
 git --git-dir=$HOME/dotfiles/ --work-tree=$HOME add ~/README.md
 git --git-dir=$HOME/dotfiles/ --work-tree=$HOME commit -m "first commit"
 git --git-dir=$HOME/dotfiles/ --work-tree=$HOME branch -M main

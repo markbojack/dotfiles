@@ -78,7 +78,7 @@
 		map <A-,> :vertical resize -5<cr>
 
 	" Misc
-		imap jj 
+		inoremap jj 
 		map <leader>wq :wqa!<cr>
 		map <leader>qa :qa!<cr>
 		map <leader>wr :wa<cr>:so %<cr>

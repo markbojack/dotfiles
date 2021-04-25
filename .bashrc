@@ -201,7 +201,8 @@ alias gpa='~/.local/bin/push-all'
 alias v='nvim'
 alias vw='nvim -c VimwikiIndex'
 alias tu='sudo timeshift --create && sudo pacman -Syu --noconfirm && pamac upgrade --no-confirm'
-alias po='poweroff'
+alias po='killall brave && poweroff'
+alias reboot='killall brave && reboot'
 alias pic='~/.local/bin/show-pic.sh'
 alias bkp='~/.local/bin/backup-phone.sh'
 alias fzf='fzf -e'
@@ -226,6 +227,7 @@ alias pa='nvim ~/.local/bin/push-all'
 alias mrc='nvim ~/p-dot-script/muttrc'
 alias pic1='nvim ~/.config/sxiv/exec/image-info'
 alias pic2='nvim ~/.config/sxiv/exec/key-handler'
+alias nm='neomutt'
 
 # PATH
 # actually, i would rather hide this in

@@ -35,8 +35,12 @@ floating_modifier $mod
 # start a terminal
 bindsym $mod+Return exec --no-startup-id alacritty
 
-# kill focused window
+# Close focused window
 bindsym $mod+Shift+q kill
+# Close all windows on all workspaces (any class string)
+#bindsym $mod+Shift+q [class=”.*”] kill
+# Close all windows on workspace 1 (name stored in $ws1)
+#bindsym $mod+Ctrl+1 [workspace=$ws1] kill
 
 # screenshot
 # scrot does work, it just puts the pic in home
@@ -62,9 +66,10 @@ mode "command" {
 # bindsym $mod+d exec rofi -show run
 
 # other keybindings
-bindsym $mod+b exec --no-startup-id blueman-manager
-bindsym $mod+i exec --no-startup-id brave
-bindsym $mod+t exec --no-startup-id thunar
+bindsym $mod+b exec --no-startup-id brave; workspace $ws2
+bindsym $mod+e exec --no-startup-id alacritty -e neomutt #; workspace $ws3
+bindsym $mod+t exec --no-startup-id thunar; workspace $ws4
+bindsym $mod+u exec --no-startup-id blueman-manager; workspace $ws5
 
 # for keyindicator
 bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
@@ -109,9 +114,9 @@ bindsym $mod+v split v
 bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
-bindsym $mod+e layout toggle split
+#bindsym $mod+s layout stacking
+#bindsym $mod+w layout tabbed
+#bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
@@ -141,11 +146,10 @@ bindsym $mod+a focus parent
 ### exit and restart i3
 
 set $ws1 ""
-set $ws2 ""
-set $ws3 ""
-#set $ws4 ""
-set $ws4 "4"
-set $ws5 "5"
+set $ws2 ""
+set $ws3 ""
+set $ws4 ""
+set $ws5 ""
 set $ws6 "6"
 set $ws7 "7"
 set $ws8 "8"
@@ -214,15 +218,15 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-
 # CUSTOM ===========================================================
 # Startup
 exec_always --no-startup-id picom --experimental-backend
 exec_always --no-startup-id feh --bg-fill /home/mark/Documents/new.jpeg
-#exec --no-startup-id i3-msg 'workspace $ws1; exec --no-startup-id alacritty'
-exec --no-startup-id alacritty -e neomutt
+#exec --no-startup-id i3-msg 'workspace $ws4; exec --no-startup-id alacritty -e "neomutt"'
+exec --no-startup-id alacritty
 exec --no-startup-id alacritty
 exec --no-startup-id brave
+#exec --no-startup-id alacritty -t neomutt -e neomutt
 
 # Lock
 # if you have i3lock
@@ -235,7 +239,8 @@ exec --no-startup-id brave
 ## look for: WM_CLASS <look at 2nd result>
 #for_window [class="Alacritty"] move to workspace $ws1
 for_window [class="Brave-browser"] move to workspace $ws2
-for_window [class="Thunar"] move to workspace $ws3
+assign [title="neomutt"] $ws3
+for_window [class="Thunar"] move to workspace $ws4
 
 # here's how you set floating and positioning:
 ## exec --no-startup-id /usr/bin/Pcmanfm
