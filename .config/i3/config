@@ -1,7 +1,7 @@
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
 set $mod Mod4
-font pango:monospace 8
+font pango:Roboto Mono Nerd Font 8
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
@@ -67,10 +67,10 @@ mode "command" {
 
 # other keybindings
 bindsym $mod+b exec --no-startup-id brave; workspace $ws2
-bindsym $mod+e exec --no-startup-id alacritty -e neomutt #; workspace $ws3
-bindsym $mod+t exec --no-startup-id thunar; workspace $ws4
-bindsym $mod+u exec --no-startup-id blueman-manager; workspace $ws5
 bindsym $mod+q exec --no-startup-id qutebrowser; workspace $ws2
+bindsym $mod+t exec --no-startup-id thunar; workspace $ws3
+bindsym $mod+e exec --no-startup-id alacritty -t neomutt -e neomutt #; workspace $ws4
+bindsym $mod+u exec --no-startup-id blueman-manager; workspace $ws5
 
 # for keyindicator
 bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
@@ -148,8 +148,8 @@ bindsym $mod+a focus parent
 
 set $ws1 ""
 set $ws2 ""
-set $ws3 ""
-set $ws4 ""
+set $ws3 ""
+set $ws4 ""
 set $ws5 ""
 set $ws6 "6"
 set $ws7 "7"
@@ -223,7 +223,6 @@ bindsym $mod+r mode "resize"
 # Startup
 exec_always --no-startup-id picom --experimental-backend
 exec_always --no-startup-id feh --bg-fill /home/mark/Documents/new.jpeg
-#exec --no-startup-id i3-msg 'workspace $ws4; exec --no-startup-id alacritty -e "neomutt"'
 exec --no-startup-id alacritty
 exec --no-startup-id alacritty
 exec --no-startup-id brave
@@ -240,8 +239,8 @@ exec --no-startup-id brave
 ## look for: WM_CLASS <look at 2nd result>
 #for_window [class="Alacritty"] move to workspace $ws1
 for_window [class="Brave-browser"] move to workspace $ws2
-assign [title="neomutt"] $ws3
-for_window [class="Thunar"] move to workspace $ws4
+for_window [class="Thunar"] move to workspace $ws3
+assign [title="neomutt"] $ws4
 
 # here's how you set floating and positioning:
 ## exec --no-startup-id /usr/bin/Pcmanfm
