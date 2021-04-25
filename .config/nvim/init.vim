@@ -85,6 +85,9 @@
 		map <leader>zz :wa<cr>
 		nnoremap c "_c
 		vnoremap . :norm .<cr>
+		
+		" ripgrep for searching vimwiki
+		map <leader>g :Rg <Right>
 
 		" for R... what about \d???
 		vmap <Space> <Plug>RDSendSelection

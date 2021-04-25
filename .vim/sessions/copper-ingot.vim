@@ -1,6 +1,6 @@
 " ~/.vim/sessions/copper-ingot.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 18 Tháng 4 2021 at 14:55:51.
+" Created by session.vim 2.13.1 on 25 Tháng 4 2021 at 15:48:30.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -25,7 +25,7 @@ badd +145 ~/.config/nvim/init.vim
 badd +9 portfolio13F.R
 badd +16 R/packagesAndOptions.R
 badd +1 watchlist.md
-badd +13 portfolioTips.R
+badd +1 portfolioTips.R
 badd +4 reference.R
 badd +30 watchlist13F.md
 badd +15 R/status.R
@@ -45,8 +45,8 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe 'vert 1resize ' . ((&columns * 31 + 113) / 226)
-exe 'vert 2resize ' . ((&columns * 194 + 113) / 226)
+exe 'vert 1resize ' . ((&columns * 31 + 54) / 108)
+exe 'vert 2resize ' . ((&columns * 76 + 54) / 108)
 argglobal
 enew
 " file NERD_tree_3
@@ -70,7 +70,7 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 13 - ((12 * winheight(0) + 30) / 60)
+let s:l = 13 - ((11 * winheight(0) + 26) / 53)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
@@ -78,8 +78,8 @@ normal! zt
 normal! 0
 lcd ~/copper-ingot
 wincmd w
-exe 'vert 1resize ' . ((&columns * 31 + 113) / 226)
-exe 'vert 2resize ' . ((&columns * 194 + 113) / 226)
+exe 'vert 1resize ' . ((&columns * 31 + 54) / 108)
+exe 'vert 2resize ' . ((&columns * 76 + 54) / 108)
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
@@ -108,7 +108,7 @@ if !getbufvar(s:bufnr_save, '&modified')
   endif
 endif
 execute "cd" fnameescape(s:cwd_save)
-1resize 60|vert 1resize 31|2resize 60|vert 2resize 194|
+1resize 53|vert 1resize 31|2resize 53|vert 2resize 76|
 1wincmd w
 tabnext 1
 if exists('s:wipebuf')

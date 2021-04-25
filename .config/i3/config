@@ -254,8 +254,9 @@ for_window [class="Thunar"] move to workspace $ws4
 set $bgcolor    #00897b33
 set $ibgcolor   #363636
 set $fws		#000000
-set $barcolor	#2E3440bf
-set $textcolor  #ffffff
+set $barcolor 	#151515bf # chalk
+#set $barcolor	#2E3440bf # nord
+set $textcolor  #ffffff  
 set $itextcolor #969696
 set $ubgcolor   #ff0000
 
@@ -274,7 +275,7 @@ bar {
 		status_command SCRIPT_DIR=~/.config/i3blocks i3blocks -c /home/mark/.config/i3blocks/i3blocks.conf #i3blocks
 		i3bar_command i3bar -t
 		#tray_output none
-		font pango:Noto Sans Mono Nerd Font 8
+		font pango:Roboto Mono Nerd Font 8
 		position top
         colors {
                 background $barcolor

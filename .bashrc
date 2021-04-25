@@ -1,6 +1,10 @@
-#
-# ~/.bashrc
-#
+# ============================================================================
+#  _               _
+# | |__   __ _ ___| |__  _ __ ___
+# | '_ \ / _` / __| '_ \| '__/ __|
+# | |_) | (_| \__ \ | | | | | (__
+# |_.__/ \__,_|___/_| |_|_|  \___|
+# ============================================================================
 
 [[ $- != *i* ]] && return
 
@@ -172,10 +176,10 @@ export MANPAGER="nvim -c 'set ft=man' -"
 
 
 # some more ls aliases
-alias ls='ls --color=auto'
-alias la='ls -la'
-alias ll='ls -lah'
-alias l='ls -CF'
+#alias ls='lsd --color=auto'
+alias ls='lsd'
+alias ll='lsd -lah'
+alias lt='lsd --tree'
 
 # Abduco
 alias a='abduco'
@@ -228,6 +232,7 @@ alias mrc='nvim ~/p-dot-script/muttrc'
 alias pic1='nvim ~/.config/sxiv/exec/image-info'
 alias pic2='nvim ~/.config/sxiv/exec/key-handler'
 alias nm='neomutt'
+alias sr='nvim ~/p-dot-script/system-restore.sh'
 
 # PATH
 # actually, i would rather hide this in
