@@ -233,6 +233,12 @@ alias pic1='nvim ~/.config/sxiv/exec/image-info'
 alias pic2='nvim ~/.config/sxiv/exec/key-handler'
 alias nm='neomutt'
 alias sr='nvim ~/p-dot-script/system-restore.sh'
+# qutebrowser alises
+alias qq='nvim ~/.config/qutebrowser/quickmarks'
+alias qb='nvim ~/.config/qutebrowser/bookmarks/urls'
+alias qpy='nvim ~/.config/qutebrowser/config.py'
+alias qa='nvim ~/.config/qutebrowser/autoconfig.yml'
+
 
 # PATH
 # actually, i would rather hide this in

@@ -56,9 +56,9 @@ mode "command" {
     bindsym c exec ~/.local/bin/dmconf; mode "default"
     bindsym f exec ~/.local/bin/dmenufm/dmenufm; mode "default"
     bindsym k exec ~/.local/bin/dmkill; mode "default"
-    bindsym i exec ~/.local/bin/dmsearch; mode "default"
+    bindsym s exec ~/.local/bin/dmsearch; mode "default"
     bindsym q exec ~/.local/bin/dmqute; mode "default"
-    #bindsym s exec ~/.local/bin/dmscrot; mode "default"
+    #bindsym r exec ~/.local/bin/dmscrot; mode "default"
     bindsym Escape mode "default"
 }
 
