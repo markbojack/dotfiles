@@ -10,17 +10,46 @@
 #   qute://help/configuring.html
 #   qute://help/settings.html
 
+# https://gist.github.com/Gavinok/f9c310a66576dc00329dd7bef2b122a1
+import subprocess
+import os
+from qutebrowser.api import interceptor
+
+"""
+qutebrowser settings for video
+for more settings check out
+https://qutebrowser.org/doc/help/settings.html
+"""
+
+# ================== Youtube Add Blocking ======================= {{{
+def filter_yt(info: interceptor.Request):
+    """Block the given request if necessary."""
+    url = info.request_url
+    if (
+        url.host() == "www.youtube.com"
+        and url.path() == "/get_video_info"
+        and "&adformat=" in url.query()
+    ):
+        info.block()
+
+
+interceptor.register(filter_yt)
+# }}}
+
+# ====================== Special Format Yanking =========== {{{
+config.bind("<y><o>", "yank inline [[{url}][{title}]]")
+# }}}
 
 # default zoom
 # zoom.levels (Current: ["25%", "33%", "50%", "67%", "75%", "90%", "100%", "110%", "125%", "150%", "175%", "200%",...)  
 c.zoom.default = "75%"
 
 ## The page(s) to open at the start.
-c.url.start_pages = 'file:///home/mark/p-dot-script/qutebrowser/homepage.html'
+c.url.start_pages = 'file:///home/mark/p-dot-script/qutebrowser/html/homepage.html'
 
 # Setting default page for when opening new tabs or new windows with
 # commands like :open -t and :open -w .
-c.url.default_page = 'file:///home/mark/p-dot-script/qutebrowser/homepage.html'
+c.url.default_page = 'file:///home/mark/p-dot-script/qutebrowser/html/homepage.html'
 
 # Uncomment this to still load settings configured via autoconfig.yml
 # config.load_autoconfig()
@@ -223,7 +252,7 @@ c.downloads.location.directory = '~/Downloads'
 # the search engine name to the search term, e.g. `:open google
 # qutebrowser`.
 # Type: Dict
-c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q={}', 'am': 'https://www.amazon.com/s?k={}', 'aw': 'https://wiki.archlinux.org/?search={}', 'goog': 'https://www.google.com/search?q={}', 'hoog': 'https://hoogle.haskell.org/?hoogle={}', 're': 'https://www.reddit.com/r/{}', 'ub': 'https://www.urbandictionary.com/define.php?term={}', 'wiki': 'https://en.wikipedia.org/wiki/{}', 'yt': 'https://www.youtube.com/results?search_query={}'}
+c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q={}', 'aw': 'https://wiki.archlinux.org/?search={}', 'goog': 'https://www.google.com/search?q={}', 'yt': 'https://www.youtube.com/results?search_query={}'}
 
 # Text color of the completion widget. May be a single color to use for
 # all columns or a list of three colors, one for each column.
@@ -390,10 +419,15 @@ config.bind('O', 'spawn --userscript dmenu-open -t')
 # Bindings for normal mode
 config.bind('M', 'hint links spawn mpv {hint-url}')
 config.bind('Z', 'hint links spawn alacritty -e youtube-dl {hint-url}')
+# hint images download; hint images yank
+# cd to remove downloadbar; :download to see other options
+config.bind('yi', 'hint images download')
 config.bind('t', 'set-cmd-text -s :open -t')
 config.bind('xb', 'config-cycle statusbar.show always never')
 config.bind('xt', 'config-cycle tabs.show always never')
 config.bind('xx', 'config-cycle statusbar.show always never;; config-cycle tabs.show always never')
+# prompt download
+config.bind('pd', 'config-cycle downloads.location.prompt True False')
 
 # Bindings for cycling through CSS stylesheets from Solarized Everything CSS:
 # https://github.com/alphapapa/solarized-everything-css
@@ -504,18 +538,14 @@ config.bind('xx', 'config-cycle statusbar.show always never;; config-cycle tabs.
 ## A list of user stylesheet filenames to use.
 #c.content.user_stylesheets = "user.css"
 #
-## The directory to save downloads to. If unset, a sensible os-specific
-## default is used.
-#c.downloads.location.directory = "/tmp/ape"
-#
 ## Prompt the user for the download location. If set to false,
 ## `downloads.location.directory` will be used.
-#c.downloads.location.prompt = False
-#
+c.downloads.location.prompt = False
+
 ## The editor (and arguments) to use for the `open-editor` command. `{}`
 ## gets replaced by the filename of the file to be edited.
-#c.editor.command = ["termite", "-e", "vim '{}'"]
-#
+c.editor.command = ["alacritty", "-e", "nvim '{}'"]
+
 #monospace = "8px 'Bok MonteCarlo'"
 #
 ## Font used in the completion categories.

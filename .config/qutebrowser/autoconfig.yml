@@ -6,10 +6,5 @@
 
 config_version: 2
 settings:
-  aliases:
-    global:
-      q: quit
-      w: session-save
-      wq: quit --save
-  tabs.show:
-    global: always
+  downloads.location.prompt:
+    global: true
