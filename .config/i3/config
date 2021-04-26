@@ -54,12 +54,12 @@ bindsym $mod+d exec --no-startup-id dmenu_run -fn "Noto Sans Mono Nerd Font-8" -
 
 bindsym $mod+Shift+d mode "command"
 mode "command" {
-    bindsym c exec ~/.local/bin/dmconf; mode "default"
-    bindsym f exec ~/.local/bin/dmenufm/dmenufm; mode "default"
-    bindsym k exec ~/.local/bin/dmkill; mode "default"
-    bindsym s exec ~/.local/bin/dmsearch; mode "default"
-    bindsym q exec ~/.local/bin/dmqute; mode "default"
-    #bindsym r exec ~/.local/bin/dmscrot; mode "default"
+    bindsym c exec --no-startup-id ~/.local/bin/dmconf; mode "default"
+    bindsym f exec --no-startup-id ~/.local/bin/dmenufm/dmenufm; mode "default"
+    bindsym k exec --no-startup-id ~/.local/bin/dmkill; mode "default"
+    bindsym s exec --no-startup-id ~/.local/bin/dmsearch; mode "default"
+    bindsym q exec --no-startup-id ~/.local/bin/dmqute; mode "default"
+    #bindsym r exec --no-startup-id ~/.local/bin/dmscrot; mode "default"
     bindsym Escape mode "default"
 }
 
