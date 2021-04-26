@@ -11,6 +11,7 @@
 #   qute://help/settings.html
 
 # https://gist.github.com/Gavinok/f9c310a66576dc00329dd7bef2b122a1
+# qute-pass for password manangement (if you care)
 import subprocess
 import os
 from qutebrowser.api import interceptor
@@ -419,15 +420,35 @@ config.bind('O', 'spawn --userscript dmenu-open -t')
 # Bindings for normal mode
 config.bind('M', 'hint links spawn mpv {hint-url}')
 config.bind('Z', 'hint links spawn alacritty -e youtube-dl {hint-url}')
-# hint images download; hint images yank
-# cd to remove downloadbar; :download to see other options
-config.bind('yi', 'hint images download')
 config.bind('t', 'set-cmd-text -s :open -t')
 config.bind('xb', 'config-cycle statusbar.show always never')
 config.bind('xt', 'config-cycle tabs.show always never')
 config.bind('xx', 'config-cycle statusbar.show always never;; config-cycle tabs.show always never')
+# hint images download; hint images yank
+# cd to remove downloadbar; :download to see other options
+config.bind('yi', 'hint images download')
 # prompt download
 config.bind('pd', 'config-cycle downloads.location.prompt True False')
+# open stuff in nvim
+config.bind('e', 'hint links spawn alacritty -e nvim {hint-url}')
+
+# Redline insert mode like BASH
+config.bind("<Ctrl-h>", "fake-key <Backspace>", "insert")
+config.bind("<Ctrl-a>", "fake-key <Home>", "insert")
+config.bind("<Ctrl-e>", "fake-key <End>", "insert")
+config.bind("<Ctrl-b>", "fake-key <Left>", "insert")
+config.bind("<Mod1-b>", "fake-key <Ctrl-Left>", "insert")
+config.bind("<Ctrl-f>", "fake-key <Right>", "insert")
+config.bind("<Mod1-f>", "fake-key <Ctrl-Right>", "insert")
+config.bind("<Ctrl-p>", "fake-key <Up>", "insert")
+config.bind("<Ctrl-n>", "fake-key <Down>", "insert")
+config.bind("<Mod1-d>", "fake-key <Ctrl-Delete>", "insert")
+config.bind("<Ctrl-d>", "fake-key <Delete>", "insert")
+config.bind("<Ctrl-w>", "fake-key <Ctrl-Backspace>", "insert")
+config.bind("<Ctrl-u>", "fake-key <Shift-Home><Delete>", "insert")
+config.bind("<Ctrl-k>", "fake-key <Shift-End><Delete>", "insert")
+#config.bind("<Ctrl-x><Ctrl-e>", "open-editor", "insert")
+
 
 # Bindings for cycling through CSS stylesheets from Solarized Everything CSS:
 # https://github.com/alphapapa/solarized-everything-css

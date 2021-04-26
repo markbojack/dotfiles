@@ -6,5 +6,5 @@
 
 config_version: 2
 settings:
-  downloads.location.prompt:
-    global: true
+  tabs.show:
+    global: always
