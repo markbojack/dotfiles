@@ -177,9 +177,9 @@ export MANPAGER="nvim -c 'set ft=man' -"
 
 # some more ls aliases
 #alias ls='lsd --color=auto'
-alias ls='lsd'
-alias ll='lsd -lah'
-alias lt='lsd --tree'
+alias ls='lsd --color always --group-dirs first'
+alias ll='lsd -lah --color always --group-dirs first'
+alias lt='lsd --tree --color always'
 
 # Abduco
 alias a='abduco'
@@ -205,7 +205,8 @@ alias gpa='~/.local/bin/push-all'
 alias v='nvim'
 alias vw='nvim -c VimwikiIndex'
 alias tu='sudo timeshift --create && sudo pacman -Syu --noconfirm && pamac upgrade --no-confirm'
-alias pow='killall brave && poweroff'
+alias bpow='killall brave && poweroff'
+alias pow='poweroff'
 alias reboot='killall brave && reboot'
 alias pic='~/.local/bin/show-pic.sh'
 alias bkp='~/.local/bin/backup-phone.sh'
@@ -238,6 +239,7 @@ alias qq='nvim ~/p-dot-script/quickmarks'
 alias qb='nvim ~/p-dot-script/urls'
 alias qpy='nvim ~/.config/qutebrowser/config.py'
 alias qa='nvim ~/.config/qutebrowser/autoconfig.yml'
+alias hp='nvim ~/p-dot-script/homepage.html'
 
 
 # PATH

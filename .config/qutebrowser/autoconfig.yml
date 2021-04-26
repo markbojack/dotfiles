@@ -11,3 +11,5 @@ settings:
       q: quit
       w: session-save
       wq: quit --save
+  tabs.show:
+    global: always
