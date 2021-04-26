@@ -381,8 +381,8 @@ c.fonts.prompts = 'default_size sans-serif'
 c.fonts.statusbar = '8pt "Roboto Mono Nerd Font"'
 
 # Bindings to use dmenu rather than qutebrowser's builtin search.
-#config.bind('o', 'spawn --userscript dmenu-open')
-#config.bind('O', 'spawn --userscript dmenu-open --tab')
+config.bind('o', 'spawn --userscript dmqute')
+config.bind('O', 'spawn --userscript dmqute -t')
 
 # Bindings for normal mode
 config.bind('M', 'hint links spawn mpv {hint-url}')
@@ -394,12 +394,11 @@ config.bind('xx', 'config-cycle statusbar.show always never;; config-cycle tabs.
 
 # Bindings for cycling through CSS stylesheets from Solarized Everything CSS:
 # https://github.com/alphapapa/solarized-everything-css
-config.bind(',ap', 'config-cycle content.user_stylesheets ~/solarized-everything-css/css/apprentice/apprentice-all-sites.css ""')
-config.bind(',dr', 'config-cycle content.user_stylesheets ~/solarized-everything-css/css/darculized/darculized-all-sites.css ""')
-config.bind(',gr', 'config-cycle content.user_stylesheets ~/solarized-everything-css/css/gruvbox/gruvbox-all-sites.css ""')
-config.bind(',sd', 'config-cycle content.user_stylesheets ~/solarized-everything-css/css/solarized-dark/solarized-dark-all-sites.css ""')
-config.bind(',sl', 'config-cycle content.user_stylesheets ~/solarized-everything-css/css/solarized-light/solarized-light-all-sites.css ""')
-
+#config.bind(',ap', 'config-cycle content.user_stylesheets ~/solarized-everything-css/css/apprentice/apprentice-all-sites.css ""')
+#config.bind(',dr', 'config-cycle content.user_stylesheets ~/solarized-everything-css/css/darculized/darculized-all-sites.css ""')
+#config.bind(',gr', 'config-cycle content.user_stylesheets ~/solarized-everything-css/css/gruvbox/gruvbox-all-sites.css ""')
+#config.bind(',sd', 'config-cycle content.user_stylesheets ~/solarized-everything-css/css/solarized-dark/solarized-dark-all-sites.css ""')
+#config.bind(',sl', 'config-cycle content.user_stylesheets ~/solarized-everything-css/css/solarized-light/solarized-light-all-sites.css ""')
 
 # some rando's config.py ======================================================================
 # nah actually he's cool
