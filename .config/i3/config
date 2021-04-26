@@ -2,6 +2,7 @@
 
 set $mod Mod4
 font pango:Roboto Mono Nerd Font 8
+focus_follows_mouse no
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
@@ -68,9 +69,9 @@ mode "command" {
 # other keybindings
 bindsym $mod+b exec --no-startup-id brave; workspace $ws2
 bindsym $mod+q exec --no-startup-id qutebrowser; workspace $ws2
-bindsym $mod+t exec --no-startup-id thunar; workspace $ws3
+bindsym $mod+p exec --no-startup-id pcmanfm #; workspace $ws3
 bindsym $mod+e exec --no-startup-id alacritty -t neomutt -e neomutt #; workspace $ws4
-bindsym $mod+u exec --no-startup-id blueman-manager; workspace $ws5
+bindsym $mod+u exec --no-startup-id blueman-manager; workspace $ws4
 
 # for keyindicator
 bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
@@ -148,9 +149,10 @@ bindsym $mod+a focus parent
 
 set $ws1 ""
 set $ws2 ""
-set $ws3 ""
-set $ws4 ""
-set $ws5 ""
+set $ws3 ""
+set $ws4 ""
+set $ws5 "5"
+#set $ws5 ""
 set $ws6 "6"
 set $ws7 "7"
 set $ws8 "8"
@@ -160,6 +162,7 @@ set $ws10 "10"
 # switch to workspace
 ## this is default but leave out `number` to just have icons
 ## bindsym $mod+1 workspace number $ws1
+## remember you can also set these to letters; $mod+b for example
 bindsym $mod+1 workspace $ws1
 bindsym $mod+2 workspace $ws2
 bindsym $mod+3 workspace $ws3
@@ -239,14 +242,14 @@ exec --no-startup-id brave
 ## look for: WM_CLASS <look at 2nd result>
 #for_window [class="Alacritty"] move to workspace $ws1
 for_window [class="Brave-browser"] move to workspace $ws2
-for_window [class="Thunar"] move to workspace $ws3
-assign [title="neomutt"] $ws4
+#for_window [class="Pcmanfm"] move to workspace $ws3
+assign [title="neomutt"] $ws3
 
 # here's how you set floating and positioning:
 ## exec --no-startup-id /usr/bin/Pcmanfm
-## for_window [class="Pcmanfm"] floating enable
-## for_window [class="Pcmanfm"] resize set 2500 1920
-## for_window [class="Pcmanfm"] move position center
+for_window [class="Pcmanfm"] floating enable
+for_window [class="Pcmanfm"] resize set 800 600
+for_window [class="Pcmanfm"] move position center
 
 # Window colors
 ## the last 2 digits is transparency
