@@ -20,7 +20,7 @@ if [ -f "$DMCONFIG" ]; then
 	source "$DMCONFIG" 
 else
 # Defining our web browser, by default we are using brave.
-	DMBROWSER="${BROWSER:-brave}"
+	DMBROWSER="${BROWSER:-qutebrowser}"
 # An array of search engines.  You can edit this list to add/remove
 # search engines. The format must be: "engine_name]="url".
 # The url format must allow for the search keywords at the end of the url.

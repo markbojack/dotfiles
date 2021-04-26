@@ -11,6 +11,10 @@
 #   qute://help/settings.html
 
 
+# default zoom
+# zoom.levels (Current: ["25%", "33%", "50%", "67%", "75%", "90%", "100%", "110%", "125%", "150%", "175%", "200%",...)  
+c.zoom.default = "75%"
+
 ## The page(s) to open at the start.
 c.url.start_pages = "https://startpage.com/"
 
