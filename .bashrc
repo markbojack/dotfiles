@@ -236,6 +236,8 @@ alias mrc='nvim ~/p-dot-script/muttrc'
 alias sr='nvim ~/p-dot-script/system-restore.sh'
 alias srr='nvim ~/p-dot-script/README.md'
 alias pa='nvim ~/.local/bin/push-all'
+alias mpvc='nvim ~/.config/mpv/input.conf'
+
 # qutebrowser alises
 alias qq='nvim ~/p-dot-script/quickmarks'
 alias qb='nvim ~/p-dot-script/urls'
