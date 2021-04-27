@@ -1,10 +1,11 @@
 # ============================================================================
-#  _               _
-# | |__   __ _ ___| |__  _ __ ___
-# | '_ \ / _` / __| '_ \| '__/ __|
-# | |_) | (_| \__ \ | | | | | (__
-# |_.__/ \__,_|___/_| |_|_|  \___|
+# ▄▄▄▄▄    ▄▄    ▄▄▄▄  ▄    ▄ ▄▄▄▄▄    ▄▄▄
+# █    █   ██   █▀   ▀ █    █ █   ▀█ ▄▀   ▀
+# █▄▄▄▄▀  █  █  ▀█▄▄▄  █▄▄▄▄█ █▄▄▄▄▀ █
+# █    █  █▄▄█      ▀█ █    █ █   ▀▄ █
+# █▄▄▄▄▀ █    █ ▀▄▄▄█▀ █    █ █    ▀  ▀▄▄▄▀
 # ============================================================================
+# toilet -f mono9 
 
 [[ $- != *i* ]] && return
 
@@ -233,6 +234,7 @@ alias pic2='nvim ~/.config/sxiv/exec/key-handler'
 alias nm='neomutt'
 alias mrc='nvim ~/p-dot-script/muttrc'
 alias sr='nvim ~/p-dot-script/system-restore.sh'
+alias srr='nvim ~/p-dot-script/README.md'
 alias pa='nvim ~/.local/bin/push-all'
 # qutebrowser alises
 alias qq='nvim ~/p-dot-script/quickmarks'

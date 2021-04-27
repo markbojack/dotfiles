@@ -10,6 +10,17 @@
 #   qute://help/configuring.html
 #   qute://help/settings.html
 
+
+# NOTES
+# e         spawn nvim
+# m         quickmark save (not recommended bc it breaks link)
+# M         spawn mpv
+# Ctrl+p    pin tab (tabs not persistent!)
+# pd        download prompt
+# yi        download image
+# Z         spawn youtube-dl
+
+
 # https://gist.github.com/Gavinok/f9c310a66576dc00329dd7bef2b122a1
 # qute-pass for password manangement (if you care)
 import subprocess
