@@ -6,5 +6,8 @@
 
 config_version: 2
 settings:
-  tabs.show:
-    global: always
+  aliases:
+    global:
+      q: quit
+      w: session-save
+      wq: quit --save

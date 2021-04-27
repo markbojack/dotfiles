@@ -20,20 +20,30 @@ else
 # You can edit this list to add/remove config files.
 	declare -A options
 	options[alacritty]="$HOME/.config/alacritty/alacritty.yml"
-	options[bash]="$HOME/.bashrc"
+	options[bashrc]="$HOME/.bashrc"
+	options[dmconf]="$HOME/.local/bin/dmconf"
 	options[gtk2]="$HOME/.gtkrc-2.0"
 	options[gtk3]="$HOME/.config/gtk-3.0/settings.ini"
 	options[i3]="$HOME/.config/i3/config"
 	#options[i3status]="$HOME/.config/i3status/i3status.conf"
 	options[i3blocks]="$HOME/.config/i3blocks/i3blocks.conf"
+	options[i3scrot]="$HOME/.config/i3-scrot.conf"
+	options[muttrc]="$HOME/p-dot-script/muttrc"
 	options[neovim]="$HOME/.config/nvim/init.vim"
 	options[picom]="$HOME/.config/picom/picom.conf"
 	#options[polybar]="$HOME/.config/polybar/config"
-	options[qutebrowser bookmarks]="$HOME/.config/qutebrowser/bookmarks/urls"
-	options[qutebrowser quickmarks]="$HOME/.config/qutebrowser/quickmarks"
-	options[qutebrowser config.py]="$HOME/.config/qutebrowser/config.py"
+	options[q bookmarks]="$HOME/p-dot-script/urls"
+	options[q config.py]="$HOME/.config/qutebrowser/config.py"
+	options[q homepage]="$HOME/p-dot-script/qutebrowser/html/homepage.html"
+	options[q quickmarks]="$HOME/p-dot-script/quickmarks"
+	options[sxiv image-info]="$HOME/.config/sxiv/exec/image-info"
+	options[sxiv key-handler]="$HOME/.config/sxiv/exec/key-handler"
+	options[sys push-all]="$HOME/.local/bin/push-all"
+	options[sys restore]="$HOME/p-dot-script/system-restore.sh"
+	options[sys readme]="$HOME/p-dot-script/README.md"
 	options[xresources]="$HOME/.Xresources"
 	#options[zsh]="$HOME/.zshrc"
+
 fi
 # Clean options array making sure that the files exist
 declare -A options_clean

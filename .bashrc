@@ -220,8 +220,8 @@ alias vs='nvim -S ~/.vim/sessions/seasonality.vim -c NERDTree ~/seasonality'
 # Conf file aliases (or just use dmenu now)
 alias brc='nvim ~/.bashrc'
 alias vrc='nvim ~/.config/nvim/init.vim'
-alias gtk1='nvim ~/.gtkrc-2.0'
-alias gtk2='nvim ~/.config/gtk-3.0/settings.ini'
+alias gtk2='nvim ~/.gtkrc-2.0'
+alias gtk3='nvim ~/.config/gtk-3.0/settings.ini'
 alias i3c='nvim ~/.config/i3/config'
 alias i3s='nvim ~/.config/i3status/i3status.conf'
 alias i3b='nvim ~/.config/i3blocks/i3blocks.conf'
@@ -243,8 +243,8 @@ alias qq='nvim ~/p-dot-script/quickmarks'
 alias qb='nvim ~/p-dot-script/urls'
 alias qpy='nvim ~/.config/qutebrowser/config.py'
 alias qa='nvim ~/.config/qutebrowser/autoconfig.yml'
-alias hp='nvim ~/p-dot-script/homepage.html'
-
+alias hp='nvim ~/p-dot-script/qutebrowser/html/homepage.html'
+	
 
 # PATH
 # actually, i would rather hide this in

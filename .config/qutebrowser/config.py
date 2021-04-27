@@ -18,6 +18,7 @@
 # Ctrl+p    pin tab (tabs not persistent!)
 # pd        download prompt
 # yi        download image
+# yo        yank inline (pretty site url/title)
 # Z         spawn youtube-dl
 
 
@@ -47,6 +48,11 @@ def filter_yt(info: interceptor.Request):
 
 interceptor.register(filter_yt)
 # }}}
+
+# Moar ad blocking
+c.content.blocking.adblock.lists = [
+    "https://easylist.to/easylist/easylist.txt", 
+    "https://easylist.to/easylist/easyprivacy.txt"]
 
 # ====================== Special Format Yanking =========== {{{
 config.bind("<y><o>", "yank inline [[{url}][{title}]]")
