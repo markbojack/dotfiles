@@ -236,6 +236,7 @@ alias sr='nvim ~/p-dot-script/system-restore.sh'
 alias srr='nvim ~/p-dot-script/README.md'
 alias pa='nvim ~/.local/bin/push-all'
 alias mpvc='nvim ~/.config/mpv/input.conf'
+alias rem='nvim ~/p-dot-script/remind.rem'
 
 # qutebrowser alises
 alias qq='nvim ~/.config/qutebrowser/quickmarks'

@@ -36,6 +36,7 @@ else
 	options[q config.py]="$HOME/.config/qutebrowser/config.py"
 	options[q homepage]="$HOME/p-dot-script/qutebrowser/html/homepage.html"
 	options[q quickmarks]="$HOME/.config/qutebrowser/quickmarks"
+	options[remind]="$HOME/p-dot-script/remind.rem"
 	options[sxiv image-info]="$HOME/.config/sxiv/exec/image-info"
 	options[sxiv key-handler]="$HOME/.config/sxiv/exec/key-handler"
 	options[sys push-all]="$HOME/.local/bin/push-all"

@@ -1,37 +1,31 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAAAqMAAAGAAAAADwAAACAAAAKjAAABgAAAAAAAAAAABVYAAAAPAAAA
-    IAAAAqMAAAGA
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    IAAABUYAAALw
   tabs:
-  - active: true
-    history:
-    - active: true
-      last_visited: '2021-04-28T22:22:31'
-      pinned: true
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'Inbox: Todoist'
-      url: https://todoist.com/app/project/2259674000
-      zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-04-28T22:22:33'
-      pinned: true
-      scroll-pos:
-        x: 0
-        y: 0
-      title: (2649) Feeder
-      url: https://feeder.co/reader?logged_in=yes
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-04-28T22:22:30'
+      last_visited: '2021-04-29T00:21:21'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Bash check if process is running or not on Linux / Unix - nixCraft
-      url: https://www.cyberciti.biz/faq/bash-check-if-process-is-running-or-notonlinuxunix/
+      title: Home
+      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
+      zoom: 0.75
+  - active: true
+    history:
+    - last_visited: '2021-04-29T00:21:42'
+      pinned: false
+      title: remind linux x days from today - Google Search
+      url: https://www.google.com/search?q=%20remind%20linux%20x%20days%20from%20today
+    - active: true
+      last_visited: '2021-04-29T00:21:58'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 1040
+      title: 'remind: examples/defs.rem | Fossies'
+      url: https://fossies.org/linux/remind/examples/defs.rem
       zoom: 0.75
