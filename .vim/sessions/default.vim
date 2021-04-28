@@ -1,6 +1,6 @@
 " ~/.vim/sessions/default.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 28 Tháng 4 2021 at 13:15:07.
+" Created by session.vim 2.13.1 on 28 Tháng 4 2021 at 22:22:58.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -16,16 +16,16 @@ let SessionLoad = 1
 let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
 let v:this_session=expand("<sfile>:p")
 silent only
-cd ~/.local/share/qutebrowser/sessions
+cd ~/.local/bin
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +0 default.yml
+badd +0 poweroff.sh
 argglobal
 %argdel
-$argadd default.yml
-edit default.yml
+$argadd poweroff.sh
+edit poweroff.sh
 set splitbelow splitright
 wincmd t
 set winminheight=0
@@ -42,11 +42,11 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 20 - ((8 * winheight(0) + 26) / 53)
+let s:l = 12 - ((11 * winheight(0) + 12) / 25)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-20
+12
 normal! 0
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'

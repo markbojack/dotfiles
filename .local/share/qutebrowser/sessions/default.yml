@@ -1,12 +1,13 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAKyAAAAIAAABUYAAALwAAACsgAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAKyAAAA
-    IAAABUYAAALw
+    AdnQywADAAAAAAAPAAAAIAAAAqMAAAGAAAAADwAAACAAAAKjAAABgAAAAAAAAAAABVYAAAAPAAAA
+    IAAAAqMAAAGA
   tabs:
-  - history:
+  - active: true
+    history:
     - active: true
-      last_visited: '2021-04-28T13:14:40'
+      last_visited: '2021-04-28T22:22:31'
       pinned: true
       scroll-pos:
         x: 0
@@ -16,53 +17,21 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-04-28T13:14:40'
+      last_visited: '2021-04-28T22:22:33'
       pinned: true
       scroll-pos:
         x: 0
         y: 0
-      title: (2648) Feeder
+      title: (2649) Feeder
       url: https://feeder.co/reader?logged_in=yes
       zoom: 0.75
-  - active: true
-    history:
-    - active: true
-      last_visited: '2021-04-28T13:14:39'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Essential Shell/Bash Tips 2 Make U Smart on the Internet! - YouTube
-      url: https://www.youtube.com/watch?v=QXineadwG4E
-      zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-04-28T13:14:39'
+      last_visited: '2021-04-28T22:22:30'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Some bashrc recommendations and what I use - YouTube
-      url: https://www.youtube.com/watch?v=_UrDsbs0-OE
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-04-28T13:14:39'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Never say "If" writing a Bash script! (Exit codes & logical operators)
-        - YouTube
-      url: https://www.youtube.com/watch?v=p0KKBmfiVl0
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-04-28T13:14:39'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: My Manjaro i3 setup - Tech Knowledge Base - jaytaala.com Confluence
-      url: https://confluence.jaytaala.com/display/TKB/My+Manjaro+i3+setup
+      title: Bash check if process is running or not on Linux / Unix - nixCraft
+      url: https://www.cyberciti.biz/faq/bash-check-if-process-is-running-or-notonlinuxunix/
       zoom: 0.75
