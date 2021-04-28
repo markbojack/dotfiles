@@ -1,0 +1,68 @@
+windows:
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAKyAAAAIAAABUYAAALwAAACsgAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAKyAAAA
+    IAAABUYAAALw
+  tabs:
+  - history:
+    - active: true
+      last_visited: '2021-04-28T13:14:40'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Inbox: Todoist'
+      url: https://todoist.com/app/project/2259674000
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-04-28T13:14:40'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 0
+      title: (2648) Feeder
+      url: https://feeder.co/reader?logged_in=yes
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-04-28T13:14:39'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Essential Shell/Bash Tips 2 Make U Smart on the Internet! - YouTube
+      url: https://www.youtube.com/watch?v=QXineadwG4E
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-04-28T13:14:39'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Some bashrc recommendations and what I use - YouTube
+      url: https://www.youtube.com/watch?v=_UrDsbs0-OE
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-04-28T13:14:39'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Never say "If" writing a Bash script! (Exit codes & logical operators)
+        - YouTube
+      url: https://www.youtube.com/watch?v=p0KKBmfiVl0
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-04-28T13:14:39'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: My Manjaro i3 setup - Tech Knowledge Base - jaytaala.com Confluence
+      url: https://confluence.jaytaala.com/display/TKB/My+Manjaro+i3+setup
+      zoom: 0.75
