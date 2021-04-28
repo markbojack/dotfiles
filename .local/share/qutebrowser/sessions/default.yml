@@ -6,7 +6,7 @@ windows:
   tabs:
   - history:
     - active: true
-      last_visited: '2021-04-29T00:21:21'
+      last_visited: '2021-04-29T02:16:32'
       pinned: false
       scroll-pos:
         x: 0
@@ -16,16 +16,12 @@ windows:
       zoom: 0.75
   - active: true
     history:
-    - last_visited: '2021-04-29T00:21:42'
-      pinned: false
-      title: remind linux x days from today - Google Search
-      url: https://www.google.com/search?q=%20remind%20linux%20x%20days%20from%20today
     - active: true
-      last_visited: '2021-04-29T00:21:58'
+      last_visited: '2021-04-29T02:16:46'
       pinned: false
       scroll-pos:
         x: 0
-        y: 1040
+        y: 0
       title: 'remind: examples/defs.rem | Fossies'
       url: https://fossies.org/linux/remind/examples/defs.rem
       zoom: 0.75
