@@ -52,6 +52,7 @@
 # co          close all tabs but current
 # <NUM>T      move to <NUM> tab
 # <NUM>J,K    move <NUM> tabs forward/back
+# th          restore previously closed tab
 
 # HOMEPAGE
 # <Space>     search google (can configure in homepage.html)
