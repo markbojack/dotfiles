@@ -19,7 +19,7 @@
 # w         session-save
 # yi        download image
 # yo        yank inline (pretty site url/title)
-# Z         spawn youtube-dl
+# Y         spawn youtube-dl
 
 # MOAR https://www.shortcutfoo.com/app/dojos/qutebrowser/cheatsheet
 # ;b          open in background tab
@@ -46,8 +46,8 @@
 # Ctrl+s      stop loading tab or <NUM> tab
 
 # TABS
-# Ctrl+p    pin tab (tabs not persistent!)
-# <NUM>gm  move tab to <NUMBER> position
+# Ctrl+p      pin tab (tabs not persistent!)
+# <NUM>gm     move tab to <NUMBER> position
 # gC          clone tab
 # co          close all tabs but current
 # <NUM>T      move to <NUM> tab
@@ -89,10 +89,6 @@ interceptor.register(filter_yt)
 c.content.blocking.adblock.lists = [
     "https://easylist.to/easylist/easylist.txt", 
     "https://easylist.to/easylist/easyprivacy.txt"]
-
-# ====================== Special Format Yanking =========== {{{
-config.bind('yo', 'yank inline [[{url}]][[{title}]]')
-# }}}
 
 # default zoom
 # zoom.levels (Current: ["25%", "33%", "50%", "67%", "75%", "90%", "100%", "110%", "125%", "150%", "175%", "200%",...)  
@@ -472,11 +468,17 @@ config.bind('O', 'spawn --userscript dmenu-open -t')
 
 # Bindings for normal mode
 config.bind('M', 'hint links spawn mpv {hint-url}')
-config.bind('Z', 'hint links spawn alacritty -e youtube-dl {hint-url}')
-#config.bind('t', 'set-cmd-text -s :open -t')
+config.bind('Y', 'hint links spawn alacritty -e youtube-dl {hint-url}')
+config.bind('t', 'set-cmd-text -s :open -t')
 config.bind('xb', 'config-cycle statusbar.show always never')
 config.bind('xt', 'config-cycle tabs.show always never')
 config.bind('xx', 'config-cycle statusbar.show always never;; config-cycle tabs.show always never')
+
+config.bind('yo', 'yank inline [[{url}]][[{title}]]')
+config.bind(',ss', 'session-save default')
+config.bind(',sl', 'session-load default')
+config.bind('ZZ', 'quit --save')
+
 # hint images download; hint images yank
 # cd to remove downloadbar; :download to see other options
 config.bind('yi', 'hint images download')

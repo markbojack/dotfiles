@@ -228,7 +228,7 @@ exec_always --no-startup-id picom --experimental-backend
 exec_always --no-startup-id feh --bg-fill /home/mark/Documents/new.jpeg
 exec --no-startup-id alacritty
 exec --no-startup-id alacritty
-exec --no-startup-id brave
+exec --no-startup-id qutebrowser
 #exec --no-startup-id alacritty -t neomutt -e neomutt
 
 # Lock
@@ -242,6 +242,7 @@ exec --no-startup-id brave
 ## look for: WM_CLASS <look at 2nd result>
 #for_window [class="Alacritty"] move to workspace $ws1
 for_window [class="Brave-browser"] move to workspace $ws2
+for_window [class="qutebrowser"] move to workspace $ws2
 #for_window [class="Pcmanfm"] move to workspace $ws3
 assign [title="neomutt"] $ws3
 
