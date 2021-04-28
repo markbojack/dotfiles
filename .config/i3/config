@@ -70,7 +70,7 @@ mode "command" {
 bindsym $mod+b exec --no-startup-id brave; workspace $ws2
 bindsym $mod+q exec --no-startup-id qutebrowser; workspace $ws2
 bindsym $mod+p exec --no-startup-id pcmanfm
-bindsym $mod+e exec --no-startup-id alacritty -t neomutt -e neomutt
+bindsym $mod+e exec --no-startup-id alacritty -t neomutt -e neomutt; workspace $ws3
 bindsym $mod+u exec --no-startup-id blueman-manager; workspace $ws4
 
 # for keyindicator

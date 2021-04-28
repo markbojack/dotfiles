@@ -7,6 +7,18 @@
 " ==============================================================================
 " toilet -f mono9 
 
+"https://stackoverflow.com/questions/2024443/saving-vim-macros
+"let @c ="I// \<Esc>j"
+"let @u = "I\<Del>\<Del>\<Del>\<Esc>j"
+
+"in your vimrc. If you have your macros already made, you could type
+"ilet @a='<C-r><C-r>a'<esc>
+
+" pasting macros
+" in insert mode <C-r><C-r><MACRO LETTER>
+" in normal mode "<MACRO LETTER>p
+let @h = 'I<a class="bookmarkllcw href="f]cw" target="_blank">A€kb€kb</a'
+
 " Compulsory
 	let mapleader=","
 	let g:mapleader=","

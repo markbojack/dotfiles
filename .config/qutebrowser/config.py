@@ -15,11 +15,46 @@
 # e         spawn nvim
 # m         quickmark save (not recommended bc it breaks link)
 # M         spawn mpv
-# Ctrl+p    pin tab (tabs not persistent!)
 # pd        download prompt
+# w         session-save
 # yi        download image
 # yo        yank inline (pretty site url/title)
 # Z         spawn youtube-dl
+
+# MOAR https://www.shortcutfoo.com/app/dojos/qutebrowser/cheatsheet
+# ;b          open in background tab
+# ;f          open in foreground tab
+
+# OPEN URL
+# pp          Open URL from clipboard
+# pP          Open URL from selection
+# Pp          Open URL from clipboard in new tab
+# PP          Open URL from selection in new tab
+# wp          Open URL from clipboard in new window
+# wP          Open URL from selection in new window
+
+# NAV
+# [[          Click "previous"-link on page
+# ]]          Click "next"-link on page
+# {{          Click "preious"-link on page in new tab
+# }}          Click "next"-link on page in new tab
+
+# MISC
+# Ss          :set
+# gd          Download page
+# ad          Cancel download
+# Ctrl+s      stop loading tab or <NUM> tab
+
+# TABS
+# Ctrl+p    pin tab (tabs not persistent!)
+# <NUM>gm  move tab to <NUMBER> position
+# gC          clone tab
+# co          close all tabs but current
+# <NUM>T      move to <NUM> tab
+# <NUM>J,K    move <NUM> tabs forward/back
+
+# HOMEPAGE
+# <Space>     search google (can configure in homepage.html)
 
 
 # https://gist.github.com/Gavinok/f9c310a66576dc00329dd7bef2b122a1
@@ -55,7 +90,7 @@ c.content.blocking.adblock.lists = [
     "https://easylist.to/easylist/easyprivacy.txt"]
 
 # ====================== Special Format Yanking =========== {{{
-config.bind("<y><o>", "yank inline [[{url}][{title}]]")
+config.bind('yo', 'yank inline [[{url}]][[{title}]]')
 # }}}
 
 # default zoom
@@ -84,7 +119,7 @@ config.set("colors.webpage.darkmode.enabled", True)
 
 # Hide statusbar/tabs by default
 c.statusbar.show = "never"
-c.tabs.show = "never"
+#c.tabs.show = "never"
 #config.set("statusbar.show", "never")
 #config.set("tabs.show", "never")
 
@@ -379,11 +414,11 @@ c.colors.tabs.even.bg = '#282c34'
 
 # Background color of selected odd tabs.
 # Type: QtColor
-c.colors.tabs.selected.odd.bg = '#282c34'
+c.colors.tabs.selected.odd.bg = '#595959'
 
 # Background color of selected even tabs.
 # Type: QtColor
-c.colors.tabs.selected.even.bg = '#282c34'
+c.colors.tabs.selected.even.bg = '#595959'
 
 # Background color of pinned unselected odd tabs.
 # Type: QtColor
@@ -437,7 +472,7 @@ config.bind('O', 'spawn --userscript dmenu-open -t')
 # Bindings for normal mode
 config.bind('M', 'hint links spawn mpv {hint-url}')
 config.bind('Z', 'hint links spawn alacritty -e youtube-dl {hint-url}')
-config.bind('t', 'set-cmd-text -s :open -t')
+#config.bind('t', 'set-cmd-text -s :open -t')
 config.bind('xb', 'config-cycle statusbar.show always never')
 config.bind('xt', 'config-cycle tabs.show always never')
 config.bind('xx', 'config-cycle statusbar.show always never;; config-cycle tabs.show always never')
