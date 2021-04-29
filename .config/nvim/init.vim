@@ -7,18 +7,6 @@
 " ==============================================================================
 " toilet -f mono9 
 
-"https://stackoverflow.com/questions/2024443/saving-vim-macros
-"let @c ="I// \<Esc>j"
-"let @u = "I\<Del>\<Del>\<Del>\<Esc>j"
-
-"in your vimrc. If you have your macros already made, you could type
-"ilet @a='<C-r><C-r>a'<esc>
-
-" pasting macros
-" in insert mode <C-r><C-r><MACRO LETTER>
-" in normal mode "<MACRO LETTER>p
-let @h = 'I<a class="bookmarkllcw href="f]cw" target="_blank">A€kb€kb</a'
-
 " Compulsory
 	let mapleader=","
 	let g:mapleader=","
@@ -51,7 +39,7 @@ let @h = 'I<a class="bookmarkllcw href="f]cw" target="_blank">A€kb€kb</a'
 			set nowrap
 		endif
 	endfunction
-	nnoremap <leader>h :call ToggleWrap()<cr>
+	nnoremap <leader>wp :call ToggleWrap()<cr>
 
 " Indentation
 	set shiftwidth=4 tabstop=4
@@ -96,7 +84,6 @@ let @h = 'I<a class="bookmarkllcw href="f]cw" target="_blank">A€kb€kb</a'
 		map <leader>wq :wqa!<cr>
 		map <leader>qa :qa!<cr>
 		map <leader>wr :wa<cr>:so %<cr>
-		map <leader>zz :wa<cr>
 		nnoremap c "_c
 		vnoremap . :norm .<cr>
 		
@@ -122,6 +109,12 @@ let @h = 'I<a class="bookmarkllcw href="f]cw" target="_blank">A€kb€kb</a'
         map <leader>tws :%s/\s\+$//e<cr>:%s/\n\+\%$//e<cr>
 		"email
 		map <leader>sft :r !figlet -f small sent from the terminal<cr>
+
+	" Macros
+		let @h = 'I<a class="bookmarkllcw href="f]cw" target="_blank">Aâ‚¬kbâ‚¬kb</a'
+		let @d = 'bi%"jjea%"jj'
+		map <leader>hh @h
+		map <leader>dd @d
 
 " Navigation
 	set scrolloff=8

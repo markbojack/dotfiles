@@ -4,24 +4,14 @@ windows:
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
     IAAABUYAAALw
   tabs:
-  - history:
+  - active: true
+    history:
     - active: true
-      last_visited: '2021-04-29T02:16:32'
+      last_visited: '2021-04-29T16:05:45'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
       title: Home
       url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
-      zoom: 0.75
-  - active: true
-    history:
-    - active: true
-      last_visited: '2021-04-29T02:16:46'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'remind: examples/defs.rem | Fossies'
-      url: https://fossies.org/linux/remind/examples/defs.rem
       zoom: 0.75
