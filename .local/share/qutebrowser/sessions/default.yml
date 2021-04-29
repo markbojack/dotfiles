@@ -4,14 +4,54 @@ windows:
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
     IAAABUYAAALw
   tabs:
-  - active: true
-    history:
+  - history:
     - active: true
-      last_visited: '2021-04-29T16:05:45'
+      last_visited: '2021-04-29T20:38:47'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
       title: Home
       url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-04-29T20:38:47'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 20899
+      title: How I use remind(1) | Tim's blog
+      url: https://blog.thechases.com/posts/remind/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-04-29T20:38:47'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 20071
+      title: How I use remind(1) | Tim's blog
+      url: https://blog.thechases.com/posts/remind/#labels
+      zoom: 0.75
+  - active: true
+    history:
+    - last_visited: '2021-04-29T21:07:49'
+      pinned: false
+      title: ansi terminal 16 color rgb at DuckDuckGo
+      url: https://duckduckgo.com/?q=ansi+terminal+16+color+rgb&ia=web&iai=r1-3&page=1&sexp=%7B%22biaexp%22%3A%22b%22%2C%22msvrtexp%22%3A%22b%22%7D
+    - last_visited: '2021-04-29T21:08:08'
+      pinned: false
+      title: ansi terminal 16 color 255 at DuckDuckGo
+      url: https://duckduckgo.com/?q=ansi+terminal+16+color+255&ia=web&iai=r1-0&page=1&sexp=%7B%22biaexp%22%3A%22b%22%2C%22msvrtexp%22%3A%22b%22%7D
+    - active: true
+      last_visited: '2021-04-29T21:08:08'
+      original-url: https://duckduckgo.com/?q=ansi+terminal+16+color+255&ia=web&iai=r1-0&page=1&sexp=%7B%22biaexp%22%3A%22b%22%2C%22msvrtexp%22%3A%22b%22%7D
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 1640
+      title: bash - RGB values of the colors in the Ansi extended colors index (17-255)
+        - Stack Overflow
+      url: https://stackoverflow.com/questions/27159322/rgb-values-of-the-colors-in-the-ansi-extended-colors-index-17-255
       zoom: 0.75

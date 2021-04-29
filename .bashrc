@@ -236,6 +236,11 @@ alias srr='nvim ~/p-dot-script/README.md'
 alias pa='nvim ~/.local/bin/push-all'
 alias mpvc='nvim ~/.config/mpv/input.conf'
 alias rem='nvim ~/p-dot-script/remind.rem'
+alias ra='remind -@ ~/p-dot-script/remind.rem'
+alias raw='remind -@ ~/p-dot-script/remind.rem *7'
+alias rc='remind -c@ ~/p-dot-script/remind.rem'
+alias rc2='remind -c2@ ~/p-dot-script/remind.rem'
+alias rw='remind -c+2@ ~/p-dot-script/remind.rem'
 
 # qutebrowser alises
 alias qq='nvim ~/.config/qutebrowser/quickmarks'

@@ -226,7 +226,7 @@ bindsym $mod+r mode "resize"
 # Startup
 exec_always --no-startup-id picom --experimental-backend
 exec_always --no-startup-id feh --bg-fill /home/mark/Documents/new.jpeg
-exec --no-startup-id alacritty
+exec --no-startup-id alacritty -e remind -@ ~/p-dot-script/remind.rem
 exec --no-startup-id alacritty
 exec --no-startup-id qutebrowser
 #exec --no-startup-id alacritty -t neomutt -e neomutt
