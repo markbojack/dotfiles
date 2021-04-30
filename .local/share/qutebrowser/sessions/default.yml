@@ -6,7 +6,7 @@ windows:
   tabs:
   - history:
     - active: true
-      last_visited: '2021-04-29T20:38:47'
+      last_visited: '2021-04-30T16:04:59'
       pinned: false
       scroll-pos:
         x: 0
@@ -16,42 +16,42 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-04-29T20:38:47'
+      last_visited: '2021-04-30T16:07:12'
       pinned: false
       scroll-pos:
         x: 0
-        y: 20899
-      title: How I use remind(1) | Tim's blog
-      url: https://blog.thechases.com/posts/remind/
+        y: 0
+      title: qutebrowser select text - Google Search
+      url: https://www.google.com/search?q=%20qutebrowser%20select%20text
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-04-29T20:38:47'
+      last_visited: '2021-04-30T16:07:20'
       pinned: false
       scroll-pos:
         x: 0
-        y: 20071
-      title: How I use remind(1) | Tim's blog
-      url: https://blog.thechases.com/posts/remind/#labels
+        y: 0
+      title: 'Selecting text in Qutebrowser : qutebrowser'
+      url: https://www.reddit.com/r/qutebrowser/comments/f5a7oj/selecting_text_in_qutebrowser/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-04-30T16:07:21'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: qutebrowser select text - Google Search
+      url: https://www.google.com/search?q=%20qutebrowser%20select%20text
       zoom: 0.75
   - active: true
     history:
-    - last_visited: '2021-04-29T21:07:49'
-      pinned: false
-      title: ansi terminal 16 color rgb at DuckDuckGo
-      url: https://duckduckgo.com/?q=ansi+terminal+16+color+rgb&ia=web&iai=r1-3&page=1&sexp=%7B%22biaexp%22%3A%22b%22%2C%22msvrtexp%22%3A%22b%22%7D
-    - last_visited: '2021-04-29T21:08:08'
-      pinned: false
-      title: ansi terminal 16 color 255 at DuckDuckGo
-      url: https://duckduckgo.com/?q=ansi+terminal+16+color+255&ia=web&iai=r1-0&page=1&sexp=%7B%22biaexp%22%3A%22b%22%2C%22msvrtexp%22%3A%22b%22%7D
     - active: true
-      last_visited: '2021-04-29T21:08:08'
-      original-url: https://duckduckgo.com/?q=ansi+terminal+16+color+255&ia=web&iai=r1-0&page=1&sexp=%7B%22biaexp%22%3A%22b%22%2C%22msvrtexp%22%3A%22b%22%7D
+      last_visited: '2021-04-30T16:07:27'
       pinned: false
       scroll-pos:
         x: 0
-        y: 1640
-      title: bash - RGB values of the colors in the Ansi extended colors index (17-255)
-        - Stack Overflow
-      url: https://stackoverflow.com/questions/27159322/rgb-values-of-the-colors-in-the-ansi-extended-colors-index-17-255
+        y: 6
+      title: How to select all the text in a page in QuteBrowser? - Javaer101
+      url: https://www.javaer101.com/en/article/17311175.html
       zoom: 0.75

@@ -238,9 +238,9 @@ alias mpvc='nvim ~/.config/mpv/input.conf'
 alias rem='nvim ~/p-dot-script/remind.rem'
 alias ra='remind -@ ~/p-dot-script/remind.rem'
 alias raw='remind -@ ~/p-dot-script/remind.rem *7'
-alias rc='remind -c@ ~/p-dot-script/remind.rem'
-alias rc2='remind -c2@ ~/p-dot-script/remind.rem'
-alias rw='remind -c+2@ ~/p-dot-script/remind.rem'
+alias rc='remind -clm@ ~/p-dot-script/remind.rem'
+alias rc2='remind -cl2m@ ~/p-dot-script/remind.rem'
+alias rw='remind -cl+2m@ ~/p-dot-script/remind.rem'
 
 # qutebrowser alises
 alias qq='nvim ~/.config/qutebrowser/quickmarks'
@@ -257,8 +257,9 @@ PATH=$HOME/p-dot-script:$PATH
 
 # Startup
 #neofetch # or even abduco -a r
-#pfetch
-colorscript -r
+pfetch
+#colorscript -e space-invaders
+#colorscript -r
 
 # VI mode
 #set -o vi

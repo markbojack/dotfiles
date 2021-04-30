@@ -302,7 +302,7 @@ c.downloads.location.directory = '~/Downloads'
 # the search engine name to the search term, e.g. `:open google
 # qutebrowser`.
 # Type: Dict
-c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q={}', 'aw': 'https://wiki.archlinux.org/?search={}', 'goog': 'https://www.google.com/search?q={}', 'yt': 'https://www.youtube.com/results?search_query={}'}
+c.url.searchengines = {'DEFAULT': 'https://www.google.com/search?q={}', 'ddg': 'https://duckduckgo.com/?q={}', 'aw': 'https://wiki.archlinux.org/?search={}', 'yt': 'https://www.youtube.com/results?search_query={}'}
 
 # Text color of the completion widget. May be a single color to use for
 # all columns or a list of three colors, one for each column.
@@ -486,6 +486,8 @@ config.bind('yi', 'hint images download')
 config.bind('pd', 'config-cycle downloads.location.prompt True False')
 # open stuff in nvim
 config.bind('e', 'hint links spawn alacritty -e nvim {hint-url}')
+# go home
+config.bind('h', 'open file:///home/mark/p-dot-script/qutebrowser/html/homepage.html')
 
 # Redline insert mode like BASH
 config.bind("<Ctrl-h>", "fake-key <Backspace>", "insert")

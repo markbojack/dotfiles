@@ -108,7 +108,7 @@
 		"rm trailing whitespace
         map <leader>tws :%s/\s\+$//e<cr>:%s/\n\+\%$//e<cr>
 		"email
-		map <leader>sft :r !figlet -f small sent from the terminal<cr>
+		map <leader>sft :r !toilet -f future sent with neomutt<cr>
 
 	" Macros
 		let @h = 'I<a class="bookmarkllcw href="f]cw" target="_blank">A€kb€kb</a'

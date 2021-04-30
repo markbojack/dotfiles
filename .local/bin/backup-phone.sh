@@ -9,6 +9,7 @@ adb pull /storage/self/primary/Download/
 adb pull /storage/self/primary/Movies/
 adb pull /storage/self/primary/Pictures/
 adb pull /storage/self/primary/Snapseed/
+adb pull /storage/self/primary/SNOW/
 adb pull /storage/self/primary/Videos/
 adb pull /storage/self/primary/zalo/
 
