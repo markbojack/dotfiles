@@ -489,7 +489,7 @@ config.bind('pd', 'config-cycle downloads.location.prompt True False')
 # open stuff in nvim
 config.bind('e', 'hint links spawn alacritty -e nvim {hint-url}')
 # go home
-config.bind('h', 'open file:///home/mark/p-dot-script/qutebrowser/html/homepage.html')
+config.bind(',h', 'open file:///home/mark/p-dot-script/qutebrowser/html/homepage.html')
 
 # Redline insert mode like BASH
 config.bind("<Ctrl-h>", "fake-key <Backspace>", "insert")

@@ -1,13 +1,46 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
-    IAAABUYAAALw
+    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAADwAAACAAAAKjAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    IAAAAqMAAALw
   tabs:
   - active: true
     history:
+    - last_visited: '2021-05-01T01:26:20'
+      pinned: false
+      title: Home
+      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
+    - last_visited: '2021-05-01T01:26:39'
+      pinned: false
+      title: Crontab.guru - The cron schedule expression editor
+      url: https://crontab.guru/
+    - last_visited: '2021-05-01T01:26:52'
+      pinned: false
+      title: Linux / UNIX Change Crontab Email Settings ( MAILTO ) - nixCraft
+      url: https://www.cyberciti.biz/faq/linux-unix-crontab-change-mailto-settings/
+    - last_visited: '2021-05-01T01:27:11'
+      pinned: false
+      title: 'Linux/Mac Tutorial: Cron Jobs - How to Schedule Commands with crontab
+        - YouTube'
+      url: https://www.youtube.com/watch?v=QZJ1drMQz1A
+    - last_visited: '2021-05-01T01:27:18'
+      pinned: false
+      title: Home
+      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
+    - last_visited: '2021-05-01T01:27:31'
+      pinned: false
+      title: Crontab.guru - The cron schedule expression editor
+      url: https://crontab.guru/
+    - last_visited: '2021-05-01T01:27:50'
+      pinned: false
+      title: Linux / UNIX Change Crontab Email Settings ( MAILTO ) - nixCraft
+      url: https://www.cyberciti.biz/faq/linux-unix-crontab-change-mailto-settings/
+    - last_visited: '2021-05-01T01:28:01'
+      pinned: false
+      title: crontab - Google Search
+      url: https://www.google.com/search?q=crontab
     - active: true
-      last_visited: '2021-04-30T23:04:02'
+      last_visited: '2021-05-01T01:36:24'
       pinned: false
       scroll-pos:
         x: 0
