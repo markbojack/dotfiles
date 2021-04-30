@@ -468,7 +468,9 @@ config.bind('O', 'spawn --userscript dmenu-open -t')
 
 # Bindings for normal mode
 config.bind('M', 'hint links spawn mpv {hint-url}')
+config.bind(',m', 'spawn mpv {url}')
 config.bind('Y', 'hint links spawn alacritty -e youtube-dl {hint-url}')
+config.bind(',y', 'spawn alacritty -e youtube-dl {url}')
 config.bind('t', 'set-cmd-text -s :open -t')
 config.bind('xb', 'config-cycle statusbar.show always never')
 config.bind('xt', 'config-cycle tabs.show always never')

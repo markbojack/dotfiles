@@ -4,114 +4,14 @@ windows:
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
     IAAABUYAAALw
   tabs:
-  - history:
+  - active: true
+    history:
     - active: true
-      last_visited: '2021-04-30T17:41:48'
+      last_visited: '2021-04-30T23:04:02'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
       title: Home
       url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-04-30T17:41:48'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: qutebrowser select text - Google Search
-      url: https://www.google.com/search?q=%20qutebrowser%20select%20text
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-04-30T17:41:49'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'Selecting text in Qutebrowser : qutebrowser'
-      url: https://www.reddit.com/r/qutebrowser/comments/f5a7oj/selecting_text_in_qutebrowser/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-04-30T17:41:49'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: qutebrowser select text - Google Search
-      url: https://www.google.com/search?q=%20qutebrowser%20select%20text
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-04-30T17:41:48'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: How I use remind(1) | Tim's blog
-      url: https://blog.thechases.com/posts/remind/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-04-30T17:41:49'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: crontab email - Google Search
-      url: https://www.google.com/search?q=crontab+email&ei=gtmLYMa2BqLxhwP835_gDQ&oq=crontab+email&gs_lcp=Cgdnd3Mtd2l6EAMyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAOgcIIRAKEKABUI2kAVjBpwFgrKsBaABwAngAgAGdAYgB5gaSAQMwLjeYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=gws-wiz&ved=0ahUKEwjG_6X93qXwAhWi-GEKHfzvB9wQ4dUDCA4&uact=5
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-04-30T17:41:48'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Linux / UNIX Change Crontab Email Settings ( MAILTO ) - nixCraft
-      url: https://www.cyberciti.biz/faq/linux-unix-crontab-change-mailto-settings/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-04-30T17:41:49'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: crontab - Google Search
-      url: https://www.google.com/search?q=crontab
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-04-30T17:41:48'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Crontab.guru - The cron schedule expression editor
-      url: https://crontab.guru/
-      zoom: 0.75
-  - active: true
-    history:
-    - active: true
-      last_visited: '2021-04-30T17:41:49'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: How to use cron in Linux | Opensource.com
-      url: https://opensource.com/article/17/11/how-use-cron-linux
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-04-30T17:41:48'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Linux crontab command help and examples
-      url: https://www.computerhope.com/unix/ucrontab.htm
       zoom: 0.75

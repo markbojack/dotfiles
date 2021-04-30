@@ -171,8 +171,9 @@ set page-completions off
 set completion-query-items 350
 export AUTOFEATURE=true
 
-export BROWSER='/usr/bin/brave'
-export EDITOR=/usr/bin/nvim
+export BROWSER="/usr/bin/qutebrowser"
+export VISUAL="/usr/bin/nvim"
+export EDITOR="$VISUAL"
 export MANPAGER="nvim -c 'set ft=man' -"
 
 
@@ -206,8 +207,8 @@ alias gpa='~/.local/bin/push-all'
 alias v='nvim'
 alias vw='nvim -c VimwikiIndex'
 alias tu='sudo timeshift --create && sudo pacman -Syu --noconfirm && pamac upgrade --no-confirm'
-alias pow='~/.local/bin/poweroff.sh'
 alias pic='~/.local/bin/show-pic.sh'
+alias pow='~/.local/bin/poweroff.sh'
 alias bkp='~/.local/bin/backup-phone.sh'
 alias fzf='fzf -e'
 
@@ -248,7 +249,6 @@ alias qb='nvim ~/.config/qutebrowser/bookmarks/urls'
 alias qpy='nvim ~/.config/qutebrowser/config.py'
 alias qa='nvim ~/.config/qutebrowser/autoconfig.yml'
 alias hp='nvim ~/p-dot-script/qutebrowser/html/homepage.html'
-	
 
 # PATH
 # actually, i would rather hide this in
@@ -319,6 +319,7 @@ alias gpg-check="gpg2 --keyserver-options auto-key-retrieve --verify"
 alias gpg-retrieve="gpg2 --keyserver-options auto-key-retrieve --receive-keys"
 
 # youtube-dl
+alias yt='youtube-dl'
 alias yta-aac="youtube-dl --extract-audio --audio-format aac "
 alias yta-best="youtube-dl --extract-audio --audio-format best "
 alias yta-flac="youtube-dl --extract-audio --audio-format flac "
