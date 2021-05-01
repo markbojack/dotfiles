@@ -6,34 +6,52 @@ windows:
   tabs:
   - history:
     - active: true
-      last_visited: '2021-05-01T13:14:22'
+      last_visited: '2021-05-01T20:09:08'
       pinned: false
       scroll-pos:
         x: 0
-        y: 760
+        y: 0
       title: Debloat Android – Chris Titus Tech
       url: https://christitus.com/debloat-android/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-01T20:09:08'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: i3 numlock startup - Google Search
+      url: https://www.google.com/search?q=i3%20numlock%20startup
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-01T20:09:10'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Num lock keyboard LED light to turn on on startup : i3wm'
+      url: https://www.reddit.com/r/i3wm/comments/4acmok/num_lock_keyboard_led_light_to_turn_on_on_startup/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-01T20:09:08'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'trizen/youtube-viewer: Lightweight YouTube client for Linux'
+      url: https://github.com/trizen/youtube-viewer
       zoom: 0.75
   - active: true
     history:
     - active: true
-      last_visited: '2021-05-01T14:10:21'
+      last_visited: '2021-05-01T20:09:09'
       pinned: false
       scroll-pos:
         x: 0
-        y: 800
-      title: 'husixu1/vimrc: A vim configuration (supports Termux)'
-      url: https://github.com/husixu1/vimrc
+        y: 0
+      title: My Manjaro i3 setup - Tech Knowledge Base - jaytaala.com Confluence
+      url: https://confluence.jaytaala.com/display/TKB/My+Manjaro+i3+setup
       zoom: 0.75
-    - last_visited: '2021-05-01T14:10:20'
-      pinned: false
-      title: 'husixu1/dotfiles-part: Some of my personal dotfiles.'
-      url: https://github.com/husixu1/dotfiles-part
-    - last_visited: '2021-05-01T14:10:17'
-      pinned: false
-      title: dotfiles-part/vim at master · husixu1/dotfiles-part
-      url: https://github.com/husixu1/dotfiles-part/tree/master/vim
-    - last_visited: '2021-05-01T14:10:08'
-      pinned: false
-      title: dotfiles-part/vimrc at master · husixu1/dotfiles-part
-      url: https://github.com/husixu1/dotfiles-part/blob/master/vim/vimrc

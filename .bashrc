@@ -171,9 +171,10 @@ set page-completions off
 set completion-query-items 350
 export AUTOFEATURE=true
 
-export BROWSER="/usr/bin/qutebrowser"
-export VISUAL="/usr/bin/nvim"
+export BROWSER="qutebrowser"
+export VISUAL="nvim"
 export EDITOR="$VISUAL"
+export TERMINAL="alacritty"
 export MANPAGER="nvim -c 'set ft=man' -"
 
 
@@ -324,6 +325,7 @@ alias gpg-retrieve="gpg2 --keyserver-options auto-key-retrieve --receive-keys"
 
 # youtube-dl
 alias yt='youtube-dl'
+alias yta='youtube-dl -a ~/p-dot-script/youtube'
 alias yta-aac="youtube-dl --extract-audio --audio-format aac "
 alias yta-best="youtube-dl --extract-audio --audio-format best "
 alias yta-flac="youtube-dl --extract-audio --audio-format flac "

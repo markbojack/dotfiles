@@ -28,6 +28,7 @@ else
 	#options[i3status]="$HOME/.config/i3status/i3status.conf"
 	options[i3blocks]="$HOME/.config/i3blocks/i3blocks.conf"
 	options[i3scrot]="$HOME/.config/i3-scrot.conf"
+	options[mpv]="$HOME/.config/mpv/input.conf"
 	options[muttrc]="$HOME/.config/mutt/muttrc"
 	options[neovim]="$HOME/.config/nvim/init.vim"
 	options[notes]="$HOME/p-dot-script/notes"
