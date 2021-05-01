@@ -30,6 +30,7 @@ else
 	options[i3scrot]="$HOME/.config/i3-scrot.conf"
 	options[muttrc]="$HOME/.config/mutt/muttrc"
 	options[neovim]="$HOME/.config/nvim/init.vim"
+	options[notes]="$HOME/p-dot-script/notes"
 	options[picom]="$HOME/.config/picom/picom.conf"
 	#options[polybar]="$HOME/.config/polybar/config"
 	options[q bookmarks]="$HOME/.config/qutebrowser/bookmarks/urls"

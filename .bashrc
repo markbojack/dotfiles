@@ -236,6 +236,8 @@ alias sr='nvim ~/p-dot-script/system-restore.sh'
 alias srr='nvim ~/p-dot-script/README.md'
 alias pa='nvim ~/.local/bin/push-all'
 alias mpvc='nvim ~/.config/mpv/input.conf'
+alias cal='cal -m'
+alias no='nvim ~/p-dot-script/notes'
 
 # remind aliases
 alias rem='nvim ~/p-dot-script/remind.rem'

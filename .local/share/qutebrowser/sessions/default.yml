@@ -1,50 +1,39 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAADwAAACAAAAKjAAAC8AAAAAAAAAAABVYAAAAPAAAA
-    IAAAAqMAAALw
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    IAAABUYAAALw
   tabs:
-  - active: true
-    history:
-    - last_visited: '2021-05-01T01:26:20'
-      pinned: false
-      title: Home
-      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
-    - last_visited: '2021-05-01T01:26:39'
-      pinned: false
-      title: Crontab.guru - The cron schedule expression editor
-      url: https://crontab.guru/
-    - last_visited: '2021-05-01T01:26:52'
-      pinned: false
-      title: Linux / UNIX Change Crontab Email Settings ( MAILTO ) - nixCraft
-      url: https://www.cyberciti.biz/faq/linux-unix-crontab-change-mailto-settings/
-    - last_visited: '2021-05-01T01:27:11'
-      pinned: false
-      title: 'Linux/Mac Tutorial: Cron Jobs - How to Schedule Commands with crontab
-        - YouTube'
-      url: https://www.youtube.com/watch?v=QZJ1drMQz1A
-    - last_visited: '2021-05-01T01:27:18'
-      pinned: false
-      title: Home
-      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
-    - last_visited: '2021-05-01T01:27:31'
-      pinned: false
-      title: Crontab.guru - The cron schedule expression editor
-      url: https://crontab.guru/
-    - last_visited: '2021-05-01T01:27:50'
-      pinned: false
-      title: Linux / UNIX Change Crontab Email Settings ( MAILTO ) - nixCraft
-      url: https://www.cyberciti.biz/faq/linux-unix-crontab-change-mailto-settings/
-    - last_visited: '2021-05-01T01:28:01'
-      pinned: false
-      title: crontab - Google Search
-      url: https://www.google.com/search?q=crontab
+  - history:
     - active: true
-      last_visited: '2021-05-01T01:36:24'
+      last_visited: '2021-05-01T13:14:22'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: Home
-      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
+        y: 760
+      title: Debloat Android – Chris Titus Tech
+      url: https://christitus.com/debloat-android/
       zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-05-01T14:10:21'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 800
+      title: 'husixu1/vimrc: A vim configuration (supports Termux)'
+      url: https://github.com/husixu1/vimrc
+      zoom: 0.75
+    - last_visited: '2021-05-01T14:10:20'
+      pinned: false
+      title: 'husixu1/dotfiles-part: Some of my personal dotfiles.'
+      url: https://github.com/husixu1/dotfiles-part
+    - last_visited: '2021-05-01T14:10:17'
+      pinned: false
+      title: dotfiles-part/vim at master · husixu1/dotfiles-part
+      url: https://github.com/husixu1/dotfiles-part/tree/master/vim
+    - last_visited: '2021-05-01T14:10:08'
+      pinned: false
+      title: dotfiles-part/vimrc at master · husixu1/dotfiles-part
+      url: https://github.com/husixu1/dotfiles-part/blob/master/vim/vimrc
