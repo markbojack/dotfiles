@@ -35,16 +35,16 @@ else
 	#options[cliki]="https://www.cliki.net/site/search?query="
 	#options[debianpkg]="https://packages.debian.org/search?suite=default&section=all&arch=any&searchon=names&keywords="
 	#options[discogs]="https://www.discogs.com/search/?&type=all&q="
-	options[duckduckgo]="https://duckduckgo.com/?q="
+	#options[duckduckgo]="https://duckduckgo.com/?q="
 	#options[ebay]="https://www.ebay.com/sch/i.html?&_nkw="
 	#options[github]="https://github.com/search?q="
 	#options[gitlab]="https://gitlab.com/search?search="
-#	options[lbry]="https://lbry.tv/$/search?q="
+	#options[lbry]="https://lbry.tv/$/search?q="
 	#options[odysee]="https://odysee.com/$/search?q="
 	#options[slashdot]="https://slashdot.org/index2.pl?fhfilter="
 	#options[socialblade]="https://socialblade.com/youtube/user/"
 	#options[sourceforge]="https://sourceforge.net/directory/?q="
-	options[stackoverflow]="https://stackoverflow.com/search?q="
+	#options[stackoverflow]="https://stackoverflow.com/search?q="
 	#options[startpage]="https://www.startpage.com/do/dsearch?query="
 	options[thesaurus]="https://www.thesaurus.com/misspelling?term="
 	#options[translate]="https://translate.google.com/?sl=auto&tl=en&text="
@@ -67,7 +67,7 @@ else
 	#options[googleOpenSource]="https://opensource.google/projects/search?q="
 	#options[googleExperimentswithGoogle]="https://experiments.withgoogle.com/search?q="
 	#options[googleDataset]="https://datasetsearch.research.google.com/search?query="
-	options[yahoo]="https://finance.yahoo.com/quote/"
+	#options[yahoo]="https://finance.yahoo.com/quote/"
 fi
 
 # Picking a search engine.

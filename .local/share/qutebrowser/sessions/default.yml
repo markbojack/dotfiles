@@ -1,17 +1,27 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    AdnQywADAAAAAAKyAAAAIAAABUYAAALwAAACsgAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAKyAAAA
     IAAABUYAAALw
   tabs:
-  - active: true
-    history:
+  - history:
     - active: true
-      last_visited: '2021-05-03T12:35:25'
+      last_visited: '2021-05-03T14:10:45'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
       title: Debloat Android – Chris Titus Tech
       url: https://christitus.com/debloat-android/
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-05-03T14:10:45'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Home
+      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
       zoom: 0.75
