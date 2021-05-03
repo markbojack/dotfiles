@@ -32,6 +32,7 @@ else
 	options[muttrc]="$HOME/.config/mutt/muttrc"
 	options[neovim]="$HOME/.config/nvim/init.vim"
 	options[notes]="$HOME/p-dot-script/notes"
+	options[phone]="$HOME/.local/bin/backup-phone.sh"
 	options[picom]="$HOME/.config/picom/picom.conf"
 	#options[polybar]="$HOME/.config/polybar/config"
 	options[qBookmarks]="$HOME/.config/qutebrowser/bookmarks/urls"
