@@ -224,7 +224,7 @@ bindsym $mod+r mode "resize"
 
 # CUSTOM ===========================================================
 # Startup
-numlockx on
+exec_always --no-startup-id numlockx on
 exec_always --no-startup-id picom --experimental-backend
 exec_always --no-startup-id feh --bg-fill /home/mark/Documents/new.jpeg
 exec --no-startup-id alacritty -e bash -c 'bat ~/p-dot-script/notes && remind -@ ~/p-dot-script/remind.rem *3 && echo -e "\n" && bash'
