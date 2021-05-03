@@ -7,6 +7,13 @@
 " ==============================================================================
 " toilet -f mono9 
 
+" NB
+" ,dsp	scratchpad
+" gx	follow link under cursor
+" ,g	rip grep
+" ,wp	wrap
+" ,o 	spellcheck
+
 " Compulsory
 	let mapleader=","
 	let g:mapleader=","
@@ -98,17 +105,18 @@
 		map <leader>o :setlocal spell! spelllang=en_us<cr>
 
 		map Q gq
-		"search and replace
+		" search and replace
 		map <leader>sr :%s//g<Left><Left>
-		"norm everything
-		"new way!
+		" norm everything
+		"" new way!
 		map <leader>ne :%norm <Right>
-		"old way for reference
-		"map <leader>ne :g/^/norm<Right>
-		"rm trailing whitespace
+		" map <leader>ne :g/^/norm<Right> " old way for reference
+		" rm trailing whitespace
         map <leader>tws :%s/\s\+$//e<cr>:%s/\n\+\%$//e<cr>
-		"email
-		map <leader>sft :r !toilet -f future sent with neomutt<cr>
+		" email signature
+		" map <leader>sft :r !toilet -f future sent with neomutt<cr>
+		" get notes from phone, PN for phone notes
+		map <leader>pn :r ~/p-dot-script/notes<cr>
 
 	" Macros
 		let @h = 'I<a class="bookmarkllcw href="f]cw" target="_blank">A€kb€kb</a'
