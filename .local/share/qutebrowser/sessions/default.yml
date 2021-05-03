@@ -7,11 +7,11 @@ windows:
   - active: true
     history:
     - active: true
-      last_visited: '2021-05-03T17:43:03'
+      last_visited: '2021-05-03T21:42:05'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Pacman Overview - Manjaro
+      title: wiki.manjaro.org
       url: https://wiki.manjaro.org/index.php/Pacman_Overview#Installing_Updates
       zoom: 0.75
