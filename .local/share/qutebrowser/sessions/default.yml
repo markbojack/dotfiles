@@ -1,27 +1,17 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAKyAAAAIAAABUYAAALwAAACsgAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAKyAAAA
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
     IAAABUYAAALw
   tabs:
-  - history:
-    - active: true
-      last_visited: '2021-05-03T14:10:45'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Debloat Android – Chris Titus Tech
-      url: https://christitus.com/debloat-android/
-      zoom: 0.75
   - active: true
     history:
     - active: true
-      last_visited: '2021-05-03T14:10:45'
+      last_visited: '2021-05-03T17:43:03'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Home
-      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
+      title: Pacman Overview - Manjaro
+      url: https://wiki.manjaro.org/index.php/Pacman_Overview#Installing_Updates
       zoom: 0.75

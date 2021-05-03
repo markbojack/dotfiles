@@ -296,7 +296,7 @@ echo "Terminal opened on:" `date` >> ~/terminal.log
 #alias parsua='paru -Sua --noconfirm'             # update only AUR pkgs (paru)
 #alias parsyu='paru -Syu --noconfirm'             # update standard pkgs and AUR pkgs (paru)
 #alias unlock='sudo rm /var/lib/pacman/db.lck'    # remove pacman lock
-#alias cleanup='sudo pacman -Rns (pacman -Qtdq)'  # remove orphaned packages
+alias cleanup='sudo pacman -Rns (pacman -Qtdq)'  # remove orphaned packages
 
 # Colorize grep output (good for log files)
 alias grep='grep --color=auto'
