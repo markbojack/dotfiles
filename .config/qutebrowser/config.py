@@ -81,7 +81,6 @@ def filter_yt(info: interceptor.Request):
     ):
         info.block()
 
-
 interceptor.register(filter_yt)
 # }}}
 
@@ -89,6 +88,9 @@ interceptor.register(filter_yt)
 c.content.blocking.adblock.lists = [
     "https://easylist.to/easylist/easylist.txt", 
     "https://easylist.to/easylist/easyprivacy.txt"]
+
+c.content.blocking.whitelist = [
+    "https://www.etf.com"]
 
 # default zoom
 # zoom.levels (Current: ["25%", "33%", "50%", "67%", "75%", "90%", "100%", "110%", "125%", "150%", "175%", "200%",...)  
@@ -491,6 +493,7 @@ config.bind('e', 'hint links spawn alacritty -e nvim {hint-url}')
 # go home
 config.bind(',h', 'open file:///home/mark/p-dot-script/qutebrowser/html/homepage.html')
 config.bind(',o', 'set-cmd-text -s :open')
+config.bind(',a', 'config-cycle content.blocking.enabled true false')
 
 # Redline insert mode like BASH
 config.bind("<Ctrl-h>", "fake-key <Backspace>", "insert")

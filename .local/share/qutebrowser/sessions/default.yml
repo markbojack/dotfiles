@@ -1,17 +1,32 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
-    IAAABUYAAALw
+    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAADwAAACAAAAKjAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    IAAAAqMAAALw
   tabs:
-  - active: true
-    history:
+  - history:
     - active: true
-      last_visited: '2021-05-03T21:42:05'
+      last_visited: '2021-05-03T22:32:43'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: wiki.manjaro.org
-      url: https://wiki.manjaro.org/index.php/Pacman_Overview#Installing_Updates
+      title: Home
+      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
       zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-05-03T22:37:25'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 5661
+      title: 'ETF.com: Find the Right ETF - Tools, Ratings, News'
+      url: https://www.etf.com/
+      zoom: 0.75
+    - last_visited: '2021-05-03T22:33:07'
+      original-url: qute://settings
+      pinned: false
+      title: settings
+      url: qute://settings/
