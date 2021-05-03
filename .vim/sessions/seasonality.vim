@@ -1,6 +1,6 @@
 " ~/.vim/sessions/seasonality.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 04 Tháng 5 2021 at 00:27:10.
+" Created by session.vim 2.13.1 on 04 Tháng 5 2021 at 00:28:44.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -52,9 +52,9 @@ badd +2 data/high-prev/jun-long.md
 badd +2 data/high-prev/jun-short.md
 badd +1 README.md
 badd +1 data/high-prev/calendar.md
-badd +3 ~/seasonality/data/high-prev/long-cal.md
-badd +1 ~/seasonality/data/high-prev/jan-long.md
-badd +1 ~/seasonality/data/high-prev/feb-long.md
+badd +3 data/high-prev/long-cal.md
+badd +1 data/high-prev/jan-long.md
+badd +1 data/high-prev/feb-long.md
 badd +2 data/high-prev/short-cal.md
 argglobal
 %argdel
@@ -94,11 +94,11 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 64 - ((44 * winheight(0) + 26) / 53)
+let s:l = 22 - ((21 * winheight(0) + 26) / 53)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-64
+22
 normal! 0
 wincmd w
 2wincmd w
