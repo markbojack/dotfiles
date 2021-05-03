@@ -1,74 +1,31 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
-    IAAABUYAAALw
+    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAADwAAACAAAAKjAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    IAAAAqMAAALw
   tabs:
-  - active: true
-    history:
-    - last_visited: '2021-05-03T22:43:16'
-      pinned: false
-      title: 'ETF Database: The Original & Comprehensive Guide to ETFs'
-      url: https://etfdb.com/
-    - last_visited: '2021-05-03T22:44:25'
-      pinned: false
-      title: List of All ETFs - Exchange Traded Funds | ETF Database
-      url: https://etfdb.com/etfs/
-    - last_visited: '2021-05-03T22:44:43'
-      pinned: false
-      title: Top 96 Commodity ETFs - ETF Database
-      url: https://etfdb.com/etfs/asset-class/commodity/#issuer-ranking
-    - last_visited: '2021-05-03T22:45:00'
-      original-url: https://etfdb.com/search?utf8=%E2%9C%93&q=igsb&button=
-      pinned: false
-      title: IGSB ETF Guide | Stock Quote, Holdings, Fact Sheet and More
-      url: https://etfdb.com/etf/IGSB/
-    - last_visited: '2021-05-03T22:46:22'
-      pinned: false
-      title: IGSB ETF Guide | Stock Quote, Holdings, Fact Sheet and More
-      url: https://etfdb.com/etf/IGSB/#etf-ticker-profile
-    - last_visited: '2021-05-03T22:46:24'
-      pinned: false
-      title: IGSB ETF Guide | Stock Quote, Holdings, Fact Sheet and More
-      url: https://etfdb.com/etf/IGSB/#etf-ticker-profile
-    - last_visited: '2021-05-03T22:51:03'
-      original-url: https://etfdb.com/search?utf8=%E2%9C%93&q=usig&button=
-      pinned: false
-      title: USIG ETF Guide | Stock Quote, Holdings, Fact Sheet and More
-      url: https://etfdb.com/etf/USIG/
-    - last_visited: '2021-05-03T22:51:05'
-      pinned: false
-      title: USIG ETF Guide | Stock Quote, Holdings, Fact Sheet and More
-      url: https://etfdb.com/etf/USIG/#etf-ticker-profile
-    - last_visited: '2021-05-03T22:51:35'
-      original-url: https://etfdb.com/search?utf8=%E2%9C%93&q=vym&button=
-      pinned: false
-      title: 'VYM ETF: Quote, Holdings, Fact Sheet, Rating & Analysis'
-      url: https://etfdb.com/etf/VYM/
-    - last_visited: '2021-05-03T22:51:37'
-      pinned: false
-      title: 'VYM ETF: Quote, Holdings, Fact Sheet, Rating & Analysis'
-      url: https://etfdb.com/etf/VYM/#etf-ticker-profile
-    - last_visited: '2021-05-03T22:51:54'
-      original-url: https://etfdb.com/search?utf8=%E2%9C%93&q=vig&button=
-      pinned: false
-      title: VIG ETF Guide | Stock Quote, Holdings, Fact Sheet and More
-      url: https://etfdb.com/etf/VIG/
-    - last_visited: '2021-05-03T22:51:56'
-      pinned: false
-      title: VIG ETF Guide | Stock Quote, Holdings, Fact Sheet and More
-      url: https://etfdb.com/etf/VIG/#etf-ticker-profile
-    - last_visited: '2021-05-03T22:52:11'
-      original-url: https://etfdb.com/search?utf8=%E2%9C%93&q=mgv&button=
+  - history:
+    - last_visited: '2021-05-04T00:30:19'
       pinned: false
       title: MGV ETF Guide | Stock Quote, Holdings, Fact Sheet and More
-      url: https://etfdb.com/etf/MGV/
+      url: https://etfdb.com/etf/MGV/#etf-ticker-profile
     - active: true
-      last_visited: '2021-05-03T22:52:13'
+      last_visited: '2021-05-04T00:30:22'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
       title: MGV ETF Guide | Stock Quote, Holdings, Fact Sheet and More
       url: https://etfdb.com/etf/MGV/#etf-ticker-profile
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-05-04T00:30:47'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: HYD 62.44 ▼ −0.38% Unnamed
+      url: https://www.tradingview.com/chart/vpYiBxKy/
       zoom: 0.75
