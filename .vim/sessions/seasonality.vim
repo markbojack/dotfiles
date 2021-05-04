@@ -1,6 +1,6 @@
 " ~/.vim/sessions/seasonality.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 04 Tháng 5 2021 at 19:59:39.
+" Created by session.vim 2.13.1 on 04 Tháng 5 2021 at 20:25:59.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -11,7 +11,7 @@ if &background != 'dark'
 	set background=dark
 endif
 if !exists('g:colors_name') || g:colors_name != 'delek' | colorscheme delek | endif
-call setqflist([{'lnum': 14, 'col': 28, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '	get_tradeSign <- function(get_tradeRet_out, long_or_short) {'}, {'lnum': 15, 'col': 22, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '		out_long <- ( sign(get_tradeRet_out) + 1 ) / 2'}, {'lnum': 15, 'col': 24, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '		out_short <- -( sign(get_tradeRet_out) - 1 ) / 2 '}, {'lnum': 22, 'col': 4, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '			get_tradeRet %>%'}, {'lnum': 32, 'col': 4, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '			get_tradeRet %>%'}, {'lnum': 49, 'col': 7, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '					#get_tradeRet %>%'}, {'lnum': 54, 'col': 3, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '		get_tradeRet %>%'}, {'lnum': 61, 'col': 3, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '		get_tradeRet %>%'}, {'lnum': 68, 'col': 3, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '		get_tradeRet %>%'}, {'lnum': 83, 'col': 10, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '		lapply(get_tradeRet) %>%'}, {'lnum': 92, 'col': 4, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '			get_tradeRet %>%'}, {'lnum': 102, 'col': 4, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '			get_tradeRet %>%'}, {'lnum': 118, 'col': 10, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '		lapply(get_tradeRet) %>%'}, {'lnum': 127, 'col': 4, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '			get_tradeRet %>%'}, {'lnum': 143, 'col': 10, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '		lapply(get_tradeRet) %>%'}, {'lnum': 157, 'col': 10, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '		lapply(get_tradeRet) %>%'}, {'lnum': 14, 'col': 2, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighSharpe.R', 'text': '	get_tradeRet <- function(cal_fn_out) {'}, {'lnum': 24, 'col': 5, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighSharpe.R', 'text': '	 		get_tradeRet %>%'}, {'lnum': 33, 'col': 4, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighSharpe.R', 'text': '			get_tradeRet %>%'}, {'lnum': 41, 'col': 3, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighSharpe.R', 'text': '		get_tradeRet %>%'}, {'lnum': 46, 'col': 3, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighSharpe.R', 'text': '		get_tradeRet %>%'}, {'lnum': 51, 'col': 3, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighSharpe.R', 'text': '		get_tradeRet %>%'}, {'lnum': 64, 'col': 10, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighSharpe.R', 'text': '		lapply(get_tradeRet) %>%'}, {'lnum': 72, 'col': 4, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighSharpe.R', 'text': '			get_tradeRet %>%'}, {'lnum': 81, 'col': 4, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighSharpe.R', 'text': '			get_tradeRet %>%'}, {'lnum': 96, 'col': 10, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighSharpe.R', 'text': '		lapply(get_tradeRet) %>%'}, {'lnum': 104, 'col': 4, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighSharpe.R', 'text': '			get_tradeRet %>%'}, {'lnum': 119, 'col': 10, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighSharpe.R', 'text': '		lapply(get_tradeRet) %>%'}, {'lnum': 132, 'col': 10, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighSharpe.R', 'text': '		lapply(get_tradeRet) %>%'}, {'lnum': 4, 'col': 4, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'model-gen.R', 'text': '		#get_tradeRet'}])
+call setqflist([{'lnum': 12, 'col': 28, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '	get_tradeSign <- function(get_tradeRet_out, long_or_short) {'}, {'lnum': 13, 'col': 22, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '		out_long <- ( sign(get_tradeRet_out) + 1 ) / 2'}, {'lnum': 13, 'col': 24, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '		out_short <- -( sign(get_tradeRet_out) - 1 ) / 2 '}, {'lnum': 20, 'col': 4, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '			get_tradeRet %>%'}, {'lnum': 30, 'col': 4, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '			get_tradeRet %>%'}, {'lnum': 47, 'col': 7, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '					#get_tradeRet %>%'}, {'lnum': 52, 'col': 3, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '		get_tradeRet %>%'}, {'lnum': 59, 'col': 3, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '		get_tradeRet %>%'}, {'lnum': 66, 'col': 3, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '		get_tradeRet %>%'}, {'lnum': 81, 'col': 10, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '		lapply(get_tradeRet) %>%'}, {'lnum': 90, 'col': 4, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '			get_tradeRet %>%'}, {'lnum': 100, 'col': 4, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '			get_tradeRet %>%'}, {'lnum': 116, 'col': 10, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '		lapply(get_tradeRet) %>%'}, {'lnum': 125, 'col': 4, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '			get_tradeRet %>%'}, {'lnum': 141, 'col': 10, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '		lapply(get_tradeRet) %>%'}, {'lnum': 155, 'col': 10, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '		lapply(get_tradeRet) %>%'}, {'lnum': 14, 'col': 2, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighSharpe.R', 'text': '	get_tradeRet <- function(cal_fn_out) {'}, {'lnum': 24, 'col': 5, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighSharpe.R', 'text': '	 		get_tradeRet %>%'}, {'lnum': 33, 'col': 4, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighSharpe.R', 'text': '			get_tradeRet %>%'}, {'lnum': 41, 'col': 3, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighSharpe.R', 'text': '		get_tradeRet %>%'}, {'lnum': 46, 'col': 3, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighSharpe.R', 'text': '		get_tradeRet %>%'}, {'lnum': 51, 'col': 3, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighSharpe.R', 'text': '		get_tradeRet %>%'}, {'lnum': 64, 'col': 10, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighSharpe.R', 'text': '		lapply(get_tradeRet) %>%'}, {'lnum': 72, 'col': 4, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighSharpe.R', 'text': '			get_tradeRet %>%'}, {'lnum': 81, 'col': 4, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighSharpe.R', 'text': '			get_tradeRet %>%'}, {'lnum': 96, 'col': 10, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighSharpe.R', 'text': '		lapply(get_tradeRet) %>%'}, {'lnum': 104, 'col': 4, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighSharpe.R', 'text': '			get_tradeRet %>%'}, {'lnum': 119, 'col': 10, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighSharpe.R', 'text': '		lapply(get_tradeRet) %>%'}, {'lnum': 132, 'col': 10, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighSharpe.R', 'text': '		lapply(get_tradeRet) %>%'}, {'lnum': 4, 'col': 4, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'model-gen.R', 'text': '		#get_tradeRet'}])
 let SessionLoad = 1
 let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
 let v:this_session=expand("<sfile>:p")
@@ -21,9 +21,9 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +159 R/getHighPrev.R
+badd +1 R/getHighPrev.R
 badd +126 R/getHighSharpe.R
-badd +95 model-gen.R
+badd +104 model-gen.R
 badd +145 ~/.config/nvim/init.vim
 badd +13 ~/copper-ingot/portfolio13F.R
 badd +1 data/NOTES.md
@@ -65,14 +65,7 @@ edit model-gen.R
 set splitbelow splitright
 wincmd _ | wincmd |
 vsplit
-wincmd _ | wincmd |
-vsplit
-2wincmd h
-wincmd w
-wincmd w
-wincmd _ | wincmd |
-split
-1wincmd k
+1wincmd h
 wincmd w
 wincmd t
 set winminheight=0
@@ -80,11 +73,7 @@ set winheight=1
 set winminwidth=0
 set winwidth=1
 exe 'vert 1resize ' . ((&columns * 31 + 110) / 221)
-exe 'vert 2resize ' . ((&columns * 80 + 110) / 221)
-exe '3resize ' . ((&lines * 26 + 27) / 55)
-exe 'vert 3resize ' . ((&columns * 108 + 110) / 221)
-exe '4resize ' . ((&lines * 26 + 27) / 55)
-exe 'vert 4resize ' . ((&columns * 108 + 110) / 221)
+exe 'vert 2resize ' . ((&columns * 189 + 110) / 221)
 argglobal
 enew
 " file NERD_tree_3
@@ -98,23 +87,6 @@ setlocal fdn=20
 setlocal nofen
 wincmd w
 argglobal
-if bufexists("term://.//3920929:R\ ") | buffer term://.//3920929:R\  | else | edit term://.//3920929:R\  | endif
-setlocal fdm=manual
-setlocal fde=0
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=0
-setlocal fml=1
-setlocal fdn=20
-setlocal fen
-let s:l = 1373 - ((52 * winheight(0) + 26) / 53)
-if s:l < 1 | let s:l = 1 | endif
-exe s:l
-normal! zt
-1373
-normal! 0
-wincmd w
-argglobal
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -124,38 +96,16 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 95 - ((13 * winheight(0) + 13) / 26)
+let s:l = 95 - ((15 * winheight(0) + 26) / 53)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
 95
-normal! 0
+normal! 015|
 wincmd w
-argglobal
-if bufexists("R/getHighPrev.R") | buffer R/getHighPrev.R | else | edit R/getHighPrev.R | endif
-setlocal fdm=manual
-setlocal fde=0
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=0
-setlocal fml=1
-setlocal fdn=20
-setlocal fen
-silent! normal! zE
-let s:l = 3 - ((2 * winheight(0) + 13) / 26)
-if s:l < 1 | let s:l = 1 | endif
-exe s:l
-normal! zt
-3
-normal! 0
-wincmd w
-4wincmd w
+2wincmd w
 exe 'vert 1resize ' . ((&columns * 31 + 110) / 221)
-exe 'vert 2resize ' . ((&columns * 80 + 110) / 221)
-exe '3resize ' . ((&lines * 26 + 27) / 55)
-exe 'vert 3resize ' . ((&columns * 108 + 110) / 221)
-exe '4resize ' . ((&lines * 26 + 27) / 55)
-exe 'vert 4resize ' . ((&columns * 108 + 110) / 221)
+exe 'vert 2resize ' . ((&columns * 189 + 110) / 221)
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
@@ -184,8 +134,8 @@ if !getbufvar(s:bufnr_save, '&modified')
   endif
 endif
 execute "cd" fnameescape(s:cwd_save)
-1resize 53|vert 1resize 31|2resize 53|vert 2resize 80|3resize 26|vert 3resize 108|4resize 26|vert 4resize 108|
-4wincmd w
+1resize 53|vert 1resize 31|2resize 53|vert 2resize 189|
+2wincmd w
 tabnext 1
 if exists('s:wipebuf')
   if empty(bufname(s:wipebuf))
