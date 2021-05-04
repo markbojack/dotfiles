@@ -6,16 +6,8 @@ windows:
   tabs:
   - active: true
     history:
-    - last_visited: '2021-05-04T13:04:45'
-      pinned: false
-      title: ETF Hub | Financial Times
-      url: https://etf.ft.com/
-    - last_visited: '2021-05-04T13:05:48'
-      pinned: false
-      title: ETF Screener | Financial Times
-      url: https://etf.ft.com/search/?q=spy&o=bm
     - active: true
-      last_visited: '2021-05-04T13:06:03'
+      last_visited: '2021-05-04T16:15:13'
       pinned: false
       scroll-pos:
         x: 0

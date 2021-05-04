@@ -307,7 +307,8 @@ alias fgrep='fgrep --color=auto'
 # confirm before overwriting something
 alias cp="cp -i"
 alias mv='mv -i'
-#alias rm='rm -i'
+alias rm='rm -iv'
+alias tt='gio trash' # to trash
 
 ## get top process eating memory
 alias psmem='ps auxf | sort -nr -k 4'
