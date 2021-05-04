@@ -4,28 +4,22 @@ windows:
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
     IAAABUYAAALw
   tabs:
-  - history:
-    - last_visited: '2021-05-04T01:05:04'
-      pinned: false
-      title: MGV ETF Guide | Stock Quote, Holdings, Fact Sheet and More
-      url: https://etfdb.com/etf/MGV/#etf-ticker-profile
-    - active: true
-      last_visited: '2021-05-04T01:05:07'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: MGV ETF Guide | Stock Quote, Holdings, Fact Sheet and More
-      url: https://etfdb.com/etf/MGV/#etf-ticker-profile
-      zoom: 0.75
   - active: true
     history:
+    - last_visited: '2021-05-04T13:04:45'
+      pinned: false
+      title: ETF Hub | Financial Times
+      url: https://etf.ft.com/
+    - last_visited: '2021-05-04T13:05:48'
+      pinned: false
+      title: ETF Screener | Financial Times
+      url: https://etf.ft.com/search/?q=spy&o=bm
     - active: true
-      last_visited: '2021-05-04T01:05:03'
+      last_visited: '2021-05-04T13:06:03'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: SPIB 36.44 ▼ −0.08% Unnamed
-      url: https://www.tradingview.com/chart/vpYiBxKy/
+      title: 'SPY ETF: SPDR S&P 500 ETF - USD | Financial Times'
+      url: https://etf.ft.com/funds/4942/
       zoom: 0.75
