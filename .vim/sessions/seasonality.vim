@@ -1,6 +1,6 @@
 " ~/.vim/sessions/seasonality.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 04 Tháng 5 2021 at 21:59:21.
+" Created by session.vim 2.13.1 on 04 Tháng 5 2021 at 22:53:47.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -21,9 +21,9 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +1 R/getHighPrev.R
+badd +166 R/getHighPrev.R
 badd +138 R/getHighSharpe.R
-badd +133 model-gen.R
+badd +132 model-gen.R
 badd +145 ~/.config/nvim/init.vim
 badd +13 ~/copper-ingot/portfolio13F.R
 badd +1 data/NOTES.md
@@ -59,13 +59,16 @@ badd +1 data/high-prev/feb-long.md
 badd +2 data/high-prev/short-cal.md
 badd +2 data/high-prev/jul-long.md
 badd +0 /data/longs
-badd +0 shorts
 badd +1 data/high-prev/shorts
-badd +920 data/high-prev/longs
+badd +1 data/high-prev/longs
+badd +2655 longs
+badd +1 shorts
+badd +917 data/high-sharpe/longs
+badd +1 data/high-sharpe/shorts
 argglobal
 %argdel
 $argadd ~/.config/nvim/init.vim
-edit data/high-prev/longs
+edit prev-performance.R
 set splitbelow splitright
 wincmd _ | wincmd |
 vsplit
@@ -100,11 +103,11 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 920 - ((33 * winheight(0) + 26) / 53)
+let s:l = 11 - ((10 * winheight(0) + 26) / 53)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-920
+11
 normal! 0
 wincmd w
 2wincmd w
