@@ -24,6 +24,4 @@ adb push ~/p-dot-script/remind.rem /storage/self/primary/DCIM
 # notes and yt download links to p-dot-script
 cp DCIM/notes ~/p-dot-script/notes
 #cp DCIM/youtube ~/p-dot-script/youtube
-date >> ~/p-dot-script/youtube
 cat DCIM/youtube >> ~/p-dot-script/youtube
-echo -e "\n" >> ~/p-dot-script/youtube

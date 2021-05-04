@@ -307,7 +307,7 @@ alias fgrep='fgrep --color=auto'
 # confirm before overwriting something
 alias cp="cp -i"
 alias mv='mv -i'
-alias rm='rm -i'
+#alias rm='rm -i'
 
 ## get top process eating memory
 alias psmem='ps auxf | sort -nr -k 4'
@@ -325,7 +325,7 @@ alias gpg-retrieve="gpg2 --keyserver-options auto-key-retrieve --receive-keys"
 
 # youtube-dl
 alias yt='youtube-dl'
-alias yta='youtube-dl -a ~/p-dot-script/youtube'
+alias yta='youtube-dl -a ~/p-dot-script/youtube && rm ~/p-dot-script/youtube && touch ~/p-dot-script/youtube'
 alias yta-aac="youtube-dl --extract-audio --audio-format aac "
 alias yta-best="youtube-dl --extract-audio --audio-format best "
 alias yta-flac="youtube-dl --extract-audio --audio-format flac "
