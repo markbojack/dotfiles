@@ -1,27 +1,27 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAKyAAAAIAAABUYAAALwAAACsgAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAKyAAAA
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
     IAAABUYAAALw
   tabs:
   - history:
     - active: true
-      last_visited: '2021-05-04T18:40:59'
+      last_visited: '2021-05-04T20:56:35'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: 'SPY ETF: SPDR S&P 500 ETF - USD | Financial Times'
+      title: etf.ft.com
       url: https://etf.ft.com/funds/4942/
       zoom: 0.75
   - active: true
     history:
     - active: true
-      last_visited: '2021-05-04T18:40:57'
+      last_visited: '2021-05-04T20:56:35'
       pinned: false
       scroll-pos:
         x: 0
-        y: 2447
-      title: Pacman Overview - Manjaro
+        y: 0
+      title: wiki.manjaro.org
       url: https://wiki.manjaro.org/index.php/Pacman_Overview#Installing_Updates
       zoom: 0.75
