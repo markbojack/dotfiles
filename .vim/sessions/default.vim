@@ -1,6 +1,6 @@
 " ~/.vim/sessions/default.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 04 Tháng 5 2021 at 18:42:18.
+" Created by session.vim 2.13.1 on 04 Tháng 5 2021 at 19:58:03.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -11,20 +11,19 @@ if &background != 'dark'
 	set background=dark
 endif
 if !exists('g:colors_name') || g:colors_name != 'delek' | colorscheme delek | endif
-call setqflist([])
+call setqflist([{'lnum': 14, 'col': 28, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '	get_tradeSign <- function(get_tradeRet_out, long_or_short) {'}, {'lnum': 15, 'col': 22, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '		out_long <- ( sign(get_tradeRet_out) + 1 ) / 2'}, {'lnum': 15, 'col': 24, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '		out_short <- -( sign(get_tradeRet_out) - 1 ) / 2 '}, {'lnum': 22, 'col': 4, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '			get_tradeRet %>%'}, {'lnum': 32, 'col': 4, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '			get_tradeRet %>%'}, {'lnum': 49, 'col': 7, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '					#get_tradeRet %>%'}, {'lnum': 54, 'col': 3, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '		get_tradeRet %>%'}, {'lnum': 61, 'col': 3, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '		get_tradeRet %>%'}, {'lnum': 68, 'col': 3, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '		get_tradeRet %>%'}, {'lnum': 83, 'col': 10, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '		lapply(get_tradeRet) %>%'}, {'lnum': 92, 'col': 4, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '			get_tradeRet %>%'}, {'lnum': 102, 'col': 4, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '			get_tradeRet %>%'}, {'lnum': 118, 'col': 10, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '		lapply(get_tradeRet) %>%'}, {'lnum': 127, 'col': 4, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '			get_tradeRet %>%'}, {'lnum': 143, 'col': 10, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '		lapply(get_tradeRet) %>%'}, {'lnum': 157, 'col': 10, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighPrev.R', 'text': '		lapply(get_tradeRet) %>%'}, {'lnum': 14, 'col': 2, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighSharpe.R', 'text': '	get_tradeRet <- function(cal_fn_out) {'}, {'lnum': 24, 'col': 5, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighSharpe.R', 'text': '	 		get_tradeRet %>%'}, {'lnum': 33, 'col': 4, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighSharpe.R', 'text': '			get_tradeRet %>%'}, {'lnum': 41, 'col': 3, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighSharpe.R', 'text': '		get_tradeRet %>%'}, {'lnum': 46, 'col': 3, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighSharpe.R', 'text': '		get_tradeRet %>%'}, {'lnum': 51, 'col': 3, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighSharpe.R', 'text': '		get_tradeRet %>%'}, {'lnum': 64, 'col': 10, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighSharpe.R', 'text': '		lapply(get_tradeRet) %>%'}, {'lnum': 72, 'col': 4, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighSharpe.R', 'text': '			get_tradeRet %>%'}, {'lnum': 81, 'col': 4, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighSharpe.R', 'text': '			get_tradeRet %>%'}, {'lnum': 96, 'col': 10, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighSharpe.R', 'text': '		lapply(get_tradeRet) %>%'}, {'lnum': 104, 'col': 4, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighSharpe.R', 'text': '			get_tradeRet %>%'}, {'lnum': 119, 'col': 10, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighSharpe.R', 'text': '		lapply(get_tradeRet) %>%'}, {'lnum': 132, 'col': 10, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getHighSharpe.R', 'text': '		lapply(get_tradeRet) %>%'}, {'lnum': 4, 'col': 4, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'model-gen.R', 'text': '		#get_tradeRet'}])
 let SessionLoad = 1
 let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
 let v:this_session=expand("<sfile>:p")
 silent only
-cd ~/vimwiki
+cd ~/seasonality
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +0 index.md
 argglobal
 %argdel
-edit index.md
+$argadd ~/.config/nvim/init.vim
 set splitbelow splitright
 wincmd t
 set winminheight=0
@@ -32,6 +31,7 @@ set winheight=1
 set winminwidth=0
 set winwidth=1
 argglobal
+enew
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -40,13 +40,6 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-silent! normal! zE
-let s:l = 8 - ((7 * winheight(0) + 26) / 53)
-if s:l < 1 | let s:l = 1 | endif
-exe s:l
-normal! zt
-8
-normal! 0
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
