@@ -8,11 +8,12 @@
 " toilet -f mono9 
 
 " NB
-" ,dsp	scratchpad
-" gx	follow link under cursor
-" ,g	rip grep
-" ,wp	wrap
-" ,o 	spellcheck
+" ,dsp		scratchpad
+" gx		follow link under cursor
+" ,g		rip grep
+" ,wp		wrap
+" ,o 		spellcheck
+" <select in visual mode> :sort u   sort
 
 " Compulsory
 	let mapleader=","
