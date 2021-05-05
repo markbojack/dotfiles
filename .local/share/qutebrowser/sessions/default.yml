@@ -6,23 +6,97 @@ windows:
   tabs:
   - history:
     - active: true
-      last_visited: '2021-05-05T11:29:48'
+      last_visited: '2021-05-05T18:59:52'
+      original-url: https://etf.com/agg
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: Home
-      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
+        y: 240
+      title: 'AGG ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/AGG
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-05-05T19:00:08'
+      original-url: https://etf.com/iwd
+      pinned: false
+      title: 'IWD ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/IWD
+    - last_visited: '2021-05-05T19:01:55'
+      pinned: false
+      title: 'IWD ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/IWD#overview
+    - last_visited: '2021-05-05T19:10:18'
+      pinned: false
+      title: 'IWD ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/IWD#overview
+    - active: true
+      last_visited: '2021-05-05T19:10:25'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 1680
+      title: 'IWD ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/IWD#overview
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-05-05T19:00:56'
+      original-url: https://etf.com/mgv
+      pinned: false
+      title: 'MGV ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/MGV
+    - last_visited: '2021-05-05T19:01:25'
+      pinned: false
+      title: 'MGV ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/MGV#overview
+    - active: true
+      last_visited: '2021-05-05T19:10:12'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 1720
+      title: 'MGV ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/MGV#overview
       zoom: 0.75
   - active: true
     history:
+    - last_visited: '2021-05-05T19:01:00'
+      original-url: https://etf.com/vig
+      pinned: false
+      title: 'VIG ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/VIG
+    - last_visited: '2021-05-05T19:03:21'
+      pinned: false
+      title: 'VIG ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/VIG#overview
+    - last_visited: '2021-05-05T19:03:31'
+      pinned: false
+      title: 'VIG ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/VIG#overview
     - active: true
-      last_visited: '2021-05-05T11:29:52'
-      original-url: https://etf.com/jkf
+      last_visited: '2021-05-05T19:05:10'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: 'ILCV ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/JKF
+        y: 440
+      title: 'VIG ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/VIG#overview
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-05-05T19:01:06'
+      original-url: https://etf.com/vym
+      pinned: false
+      title: 'VYM ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/VYM
+    - last_visited: '2021-05-05T19:03:08'
+      pinned: false
+      title: 'VYM ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/VYM#overview
+    - active: true
+      last_visited: '2021-05-05T19:03:37'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 1160
+      title: 'VYM ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/VYM#overview
       zoom: 0.75
