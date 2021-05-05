@@ -6,7 +6,7 @@ windows:
   tabs:
   - history:
     - active: true
-      last_visited: '2021-05-04T21:56:43'
+      last_visited: '2021-05-05T00:34:32'
       pinned: false
       scroll-pos:
         x: 0
@@ -16,7 +16,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-05-04T21:56:40'
+      last_visited: '2021-05-05T00:34:32'
       pinned: false
       scroll-pos:
         x: 0
@@ -26,8 +26,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-05-04T21:56:41'
-      original-url: https://www.startpage.com/sp/search
+      last_visited: '2021-05-05T00:34:32'
       pinned: false
       scroll-pos:
         x: 0
@@ -37,7 +36,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-05-04T21:56:41'
+      last_visited: '2021-05-05T00:34:32'
       pinned: false
       scroll-pos:
         x: 0
@@ -47,12 +46,8 @@ windows:
       zoom: 0.75
   - active: true
     history:
-    - last_visited: '2021-05-04T21:56:40'
-      pinned: false
-      title: vim sort - Google Search
-      url: https://www.google.com/search?q=vim%20sort
     - active: true
-      last_visited: '2021-05-04T21:56:50'
+      last_visited: '2021-05-05T00:34:31'
       pinned: false
       scroll-pos:
         x: 0

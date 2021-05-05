@@ -494,6 +494,7 @@ config.bind('e', 'hint links spawn alacritty -e nvim {hint-url}')
 config.bind(',h', 'open file:///home/mark/p-dot-script/qutebrowser/html/homepage.html')
 config.bind(',o', 'set-cmd-text -s :open')
 config.bind(',a', 'config-cycle content.blocking.enabled true false')
+config.bind(',g', 'open https://www.google.com/')
 
 # Redline insert mode like BASH
 config.bind("<Ctrl-h>", "fake-key <Backspace>", "insert")
