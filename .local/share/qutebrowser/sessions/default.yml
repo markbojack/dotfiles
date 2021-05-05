@@ -4,14 +4,25 @@ windows:
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
     IAAABUYAAALw
   tabs:
-  - active: true
-    history:
+  - history:
     - active: true
-      last_visited: '2021-05-05T11:27:51'
+      last_visited: '2021-05-05T11:29:48'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
       title: Home
       url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-05-05T11:29:52'
+      original-url: https://etf.com/jkf
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'ILCV ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/JKF
       zoom: 0.75

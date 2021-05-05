@@ -5,7 +5,7 @@ windows:
   tabs:
   - history:
     - active: true
-      last_visited: '2021-05-05T11:29:48'
+      last_visited: '2021-05-05T18:29:02'
       pinned: false
       scroll-pos:
         x: 0
@@ -16,12 +16,11 @@ windows:
   - active: true
     history:
     - active: true
-      last_visited: '2021-05-05T11:29:52'
-      original-url: https://etf.com/jkf
+      last_visited: '2021-05-05T18:29:02'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: 'ILCV ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      title: www.etf.com
       url: https://www.etf.com/JKF
       zoom: 0.75

@@ -22,6 +22,8 @@ adb shell content query --uri content://com.android.contacts/data --projection d
 adb push ~/p-dot-script/remind.rem /storage/self/primary/DCIM
 
 # notes and yt download links to p-dot-script
-cp DCIM/notes ~/p-dot-script/notes
+#cp DCIM/notes ~/p-dot-script/notes
 #cp DCIM/youtube ~/p-dot-script/youtube
+echo -e "\n" >> ~/vimwiki/index.md
+cat DCIM/notes >> ~/vimwiki/index.md
 cat DCIM/youtube >> ~/p-dot-script/youtube
