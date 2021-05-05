@@ -1,11 +1,12 @@
 windows:
-- geometry: !!binary |
+- active: true
+  geometry: !!binary |
     AdnQywADAAAAAAKyAAAAIAAABUYAAALwAAACsgAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAKyAAAA
     IAAABUYAAALw
   tabs:
   - history:
     - active: true
-      last_visited: '2021-05-05T23:54:59'
+      last_visited: '2021-05-06T00:59:55'
       pinned: false
       scroll-pos:
         x: 0
@@ -15,48 +16,12 @@ windows:
       zoom: 0.75
   - active: true
     history:
-    - last_visited: '2021-05-05T23:55:00'
-      pinned: false
-      title: Login | ProtonMail
-      url: https://mail.protonmail.com/login
-    - last_visited: '2021-05-05T23:55:06'
-      pinned: false
-      title: td https://www.tdameritrade.com/home.page - Google Search
-      url: https://www.google.com/search?q=td%20https%3A//www.tdameritrade.com/home.page
-    - last_visited: '2021-05-05T23:55:24'
-      pinned: false
-      title: markbojack@tutanota.com - Tutanota
-      url: https://mail.tutanota.com/login?requestedPath=%2Fmail%2FMYx8wZd-1R-2
-    - last_visited: '2021-05-05T23:55:27'
-      pinned: false
-      title: markbojack@tutanota.com - Tutanota
-      url: https://mail.tutanota.com/mail/MYx8wZd-1R-2
     - active: true
-      last_visited: '2021-05-05T23:55:39'
+      last_visited: '2021-05-06T00:59:55'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: jjj rrr - Google Search
-      url: https://www.google.com/search?q=jjj%20rrr
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-05T23:55:00'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: My qutebrowser config
-      url: https://gist.github.com/Ape/d0c48b3f7ec9c8efaecf48eaa1e75d0d
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-05T23:55:00'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: My qutebrowser config
-      url: https://gist.github.com/Ape/d0c48b3f7ec9c8efaecf48eaa1e75d0d
+      title: Home
+      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
       zoom: 0.75

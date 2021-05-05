@@ -6,7 +6,7 @@ windows:
   tabs:
   - history:
     - active: true
-      last_visited: '2021-05-05T23:52:28'
+      last_visited: '2021-05-06T00:57:45'
       pinned: false
       scroll-pos:
         x: 0
@@ -16,53 +16,16 @@ windows:
       zoom: 0.75
   - active: true
     history:
-    - last_visited: '2021-05-05T23:52:29'
+    - last_visited: '2021-05-06T00:57:46'
       pinned: false
-      title: 0 - Google Search
-      url: https://www.google.com/search?q=0
-    - last_visited: '2021-05-05T23:53:03'
-      pinned: false
-      title: Outlook
-      url: https://outlook.live.com/mail/0/inbox
-    - last_visited: '2021-05-05T23:53:15'
-      original-url: https://outlook.live.com/owa/0/?state=1&redirectTo=aHR0cHM6Ly9vdXRsb29rLmxpdmUuY29tL21haWwvMC9pbmJveA&RpsCsrfState=c107b2cd-3480-f442-397f-30adac8feaca&wa=wsignin1.0
-      pinned: false
-      title: Mail - Mark Bojack - Outlook
-      url: https://outlook.live.com/mail/0/inbox
-    - last_visited: '2021-05-05T23:53:36'
-      pinned: false
-      title: this - Google Search
-      url: https://www.google.com/search?q=this
-    - last_visited: '2021-05-05T23:54:37'
-      pinned: false
-      title: Login - ProtonMail
-      url: https://mail.protonmail.com/inbox
+      title: cat - Google Search
+      url: https://www.google.com/search?q=cat
     - active: true
-      last_visited: '2021-05-05T23:54:41'
+      last_visited: '2021-05-06T00:57:52'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Login | ProtonMail
-      url: https://mail.protonmail.com/login
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-05T23:52:29'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: My qutebrowser config
-      url: https://gist.github.com/Ape/d0c48b3f7ec9c8efaecf48eaa1e75d0d
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-05T23:52:29'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: My qutebrowser config
-      url: https://gist.github.com/Ape/d0c48b3f7ec9c8efaecf48eaa1e75d0d
+      title: Home
+      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
       zoom: 0.75
