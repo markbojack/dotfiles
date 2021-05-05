@@ -304,7 +304,7 @@ c.downloads.location.directory = '~/Downloads'
 # the search engine name to the search term, e.g. `:open google
 # qutebrowser`.
 # Type: Dict
-c.url.searchengines = {'DEFAULT': 'https://www.google.com/search?q={}', 'ddg': 'https://duckduckgo.com/?q={}', 'aw': 'https://wiki.archlinux.org/?search={}', 'yt': 'https://www.youtube.com/results?search_query={}'}
+c.url.searchengines = {'DEFAULT': 'https://www.google.com/search?q={}'} #, 'ddg': 'https://duckduckgo.com/?q={}', 'aw': 'https://wiki.archlinux.org/?search={}', 'yt': 'https://www.youtube.com/results?search_query={}'}
 
 # Text color of the completion widget. May be a single color to use for
 # all columns or a list of three colors, one for each column.
@@ -466,14 +466,15 @@ c.fonts.statusbar = '8pt "Roboto Mono Nerd Font"'
 
 # Bindings to use dmenu rather than qutebrowser's builtin search.
 config.bind('o', 'spawn --userscript dmenu-open')
-config.bind('O', 'spawn --userscript dmenu-open -t')
+config.bind('t', 'spawn --userscript dmenu-open -t')
 
 # Bindings for normal mode
 config.bind('M', 'hint links spawn mpv {hint-url}')
 config.bind(',m', 'spawn mpv {url}')
 config.bind('Y', 'hint links spawn alacritty -e youtube-dl {hint-url}')
 config.bind(',y', 'spawn alacritty -e youtube-dl {url}')
-config.bind('t', 'set-cmd-text -s :open -t')
+#config.bind('T', 'set-cmd-text -s :open -t')
+config.bind('O', 'set-cmd-text -s :open ')
 config.bind('xb', 'config-cycle statusbar.show always never')
 config.bind('xt', 'config-cycle tabs.show always never')
 config.bind('xx', 'config-cycle statusbar.show always never;; config-cycle tabs.show always never')
@@ -494,7 +495,8 @@ config.bind('e', 'hint links spawn alacritty -e nvim {hint-url}')
 config.bind(',h', 'open file:///home/mark/p-dot-script/qutebrowser/html/homepage.html')
 config.bind(',o', 'set-cmd-text -s :open')
 config.bind(',a', 'config-cycle content.blocking.enabled true false')
-config.bind(',g', 'open https://www.google.com/')
+config.bind(',t', 'set-cmd-text -s :tab-focus')
+#config.bind(',g', 'open https://www.google.com/')
 
 # Redline insert mode like BASH
 config.bind("<Ctrl-h>", "fake-key <Backspace>", "insert")

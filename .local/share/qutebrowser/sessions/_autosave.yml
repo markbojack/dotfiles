@@ -1,71 +1,62 @@
 windows:
-- active: true
-  geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
+- geometry: !!binary |
+    AdnQywADAAAAAAKyAAAAIAAABUYAAALwAAACsgAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAKyAAAA
     IAAABUYAAALw
   tabs:
   - history:
     - active: true
-      last_visited: '2021-05-05T22:52:48'
+      last_visited: '2021-05-05T23:54:59'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: 'AGG ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/AGG
-      zoom: 0.75
-  - history:
-    - last_visited: '2021-05-05T22:52:48'
-      pinned: false
-      title: 'IWD ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/IWD#overview
-    - active: true
-      last_visited: '2021-05-05T22:52:51'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'IWD ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/IWD#overview
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-05T22:52:48'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'MGV ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/MGV#overview
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-05T22:52:48'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 480
-      title: 'VIG ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/VIG#overview
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-05T22:52:48'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'VYM ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/VYM#overview
+      title: Home
+      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
       zoom: 0.75
   - active: true
     history:
+    - last_visited: '2021-05-05T23:55:00'
+      pinned: false
+      title: Login | ProtonMail
+      url: https://mail.protonmail.com/login
+    - last_visited: '2021-05-05T23:55:06'
+      pinned: false
+      title: td https://www.tdameritrade.com/home.page - Google Search
+      url: https://www.google.com/search?q=td%20https%3A//www.tdameritrade.com/home.page
+    - last_visited: '2021-05-05T23:55:24'
+      pinned: false
+      title: markbojack@tutanota.com - Tutanota
+      url: https://mail.tutanota.com/login?requestedPath=%2Fmail%2FMYx8wZd-1R-2
+    - last_visited: '2021-05-05T23:55:27'
+      pinned: false
+      title: markbojack@tutanota.com - Tutanota
+      url: https://mail.tutanota.com/mail/MYx8wZd-1R-2
     - active: true
-      last_visited: '2021-05-05T22:58:12'
+      last_visited: '2021-05-05T23:55:39'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: HYD VanEck Vectors High Yield Muni ETF Stock Quote
-      url: https://finviz.com/quote.ashx?t=hyd
+      title: jjj rrr - Google Search
+      url: https://www.google.com/search?q=jjj%20rrr
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-05T23:55:00'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: My qutebrowser config
+      url: https://gist.github.com/Ape/d0c48b3f7ec9c8efaecf48eaa1e75d0d
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-05T23:55:00'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: My qutebrowser config
+      url: https://gist.github.com/Ape/d0c48b3f7ec9c8efaecf48eaa1e75d0d
       zoom: 0.75

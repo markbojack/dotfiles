@@ -8,10 +8,9 @@ url=$({
     cat "$QUTE_CONFIG_DIR"/bookmarks/urls
 	echo -e "\n"
 	echo "HISTORY -------------------------------------------------------------"
-    awk '{ tmp = $1; $1 = $2; $2 = tmp; print $0 }' "$QUTE_CONFIG_DIR"/quickmarks
     sqlite3 -separator ' ' "$QUTE_DATA_DIR"/history.sqlite 'SELECT url, title FROM CompletionHistory'
-} | dmenu -l 30 -p "open $* " | cut -d ' ' -f 1)
+} | dmenu -l 30 -p "open $* ") #| cut -d ' ' -f 1)
 
 if [ $? = 0 ] && [ -n "$url" ]; then
-    printf 'open %s %s\n' "$*" "$url" >>"$QUTE_FIFO"
+	printf 'open %s %s\n' "$*" "$url" >> "$QUTE_FIFO"
 fi

@@ -1,102 +1,68 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    AdnQywADAAAAAAKyAAAAIAAABUYAAALwAAACsgAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAKyAAAA
     IAAABUYAAALw
   tabs:
   - history:
     - active: true
-      last_visited: '2021-05-05T18:59:52'
-      original-url: https://etf.com/agg
+      last_visited: '2021-05-05T23:52:28'
       pinned: false
       scroll-pos:
         x: 0
-        y: 240
-      title: 'AGG ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/AGG
-      zoom: 0.75
-  - history:
-    - last_visited: '2021-05-05T19:00:08'
-      original-url: https://etf.com/iwd
-      pinned: false
-      title: 'IWD ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/IWD
-    - last_visited: '2021-05-05T19:01:55'
-      pinned: false
-      title: 'IWD ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/IWD#overview
-    - last_visited: '2021-05-05T19:10:18'
-      pinned: false
-      title: 'IWD ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/IWD#overview
-    - active: true
-      last_visited: '2021-05-05T19:10:25'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 1680
-      title: 'IWD ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/IWD#overview
-      zoom: 0.75
-  - history:
-    - last_visited: '2021-05-05T19:00:56'
-      original-url: https://etf.com/mgv
-      pinned: false
-      title: 'MGV ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/MGV
-    - last_visited: '2021-05-05T19:01:25'
-      pinned: false
-      title: 'MGV ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/MGV#overview
-    - active: true
-      last_visited: '2021-05-05T19:10:12'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 1720
-      title: 'MGV ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/MGV#overview
+        y: 0
+      title: Home
+      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
       zoom: 0.75
   - active: true
     history:
-    - last_visited: '2021-05-05T19:01:00'
-      original-url: https://etf.com/vig
+    - last_visited: '2021-05-05T23:52:29'
       pinned: false
-      title: 'VIG ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/VIG
-    - last_visited: '2021-05-05T19:03:21'
+      title: 0 - Google Search
+      url: https://www.google.com/search?q=0
+    - last_visited: '2021-05-05T23:53:03'
       pinned: false
-      title: 'VIG ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/VIG#overview
-    - last_visited: '2021-05-05T19:03:31'
+      title: Outlook
+      url: https://outlook.live.com/mail/0/inbox
+    - last_visited: '2021-05-05T23:53:15'
+      original-url: https://outlook.live.com/owa/0/?state=1&redirectTo=aHR0cHM6Ly9vdXRsb29rLmxpdmUuY29tL21haWwvMC9pbmJveA&RpsCsrfState=c107b2cd-3480-f442-397f-30adac8feaca&wa=wsignin1.0
       pinned: false
-      title: 'VIG ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/VIG#overview
+      title: Mail - Mark Bojack - Outlook
+      url: https://outlook.live.com/mail/0/inbox
+    - last_visited: '2021-05-05T23:53:36'
+      pinned: false
+      title: this - Google Search
+      url: https://www.google.com/search?q=this
+    - last_visited: '2021-05-05T23:54:37'
+      pinned: false
+      title: Login - ProtonMail
+      url: https://mail.protonmail.com/inbox
     - active: true
-      last_visited: '2021-05-05T19:05:10'
+      last_visited: '2021-05-05T23:54:41'
       pinned: false
       scroll-pos:
         x: 0
-        y: 440
-      title: 'VIG ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/VIG#overview
+        y: 0
+      title: Login | ProtonMail
+      url: https://mail.protonmail.com/login
       zoom: 0.75
   - history:
-    - last_visited: '2021-05-05T19:01:06'
-      original-url: https://etf.com/vym
-      pinned: false
-      title: 'VYM ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/VYM
-    - last_visited: '2021-05-05T19:03:08'
-      pinned: false
-      title: 'VYM ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/VYM#overview
     - active: true
-      last_visited: '2021-05-05T19:03:37'
+      last_visited: '2021-05-05T23:52:29'
       pinned: false
       scroll-pos:
         x: 0
-        y: 1160
-      title: 'VYM ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/VYM#overview
+        y: 0
+      title: My qutebrowser config
+      url: https://gist.github.com/Ape/d0c48b3f7ec9c8efaecf48eaa1e75d0d
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-05T23:52:29'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: My qutebrowser config
+      url: https://gist.github.com/Ape/d0c48b3f7ec9c8efaecf48eaa1e75d0d
       zoom: 0.75
