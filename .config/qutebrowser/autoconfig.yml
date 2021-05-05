@@ -11,5 +11,3 @@ settings:
       q: quit
       w: session-save
       wq: quit --save
-  content.blocking.enabled:
-    global: true

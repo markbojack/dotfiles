@@ -4,54 +4,14 @@ windows:
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
     IAAABUYAAALw
   tabs:
-  - history:
-    - active: true
-      last_visited: '2021-05-05T00:34:32'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'SPY ETF: SPDR S&P 500 ETF - USD | Financial Times'
-      url: https://etf.ft.com/funds/4942/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-05T00:34:32'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Pacman Overview - Manjaro
-      url: https://wiki.manjaro.org/index.php/Pacman_Overview#Installing_Updates
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-05T00:34:32'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Startpage.com - The world's most private search engine
-      url: https://www.startpage.com/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-05T00:34:32'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'Error: Missign value where TRUE/FALSE needed when using rbind in R'
-      url: https://www.biostars.org/p/261898/
-      zoom: 0.75
   - active: true
     history:
     - active: true
-      last_visited: '2021-05-05T00:34:31'
+      last_visited: '2021-05-05T11:27:51'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Sort lines | Vim Tips Wiki | Fandom
-      url: https://vim.fandom.com/wiki/Sort_lines
+      title: Home
+      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
       zoom: 0.75

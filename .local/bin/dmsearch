@@ -56,7 +56,7 @@ else
 	#options[wolfram]="https://www.wolframalpha.com/input/?i="
 	options[youtube]="https://www.youtube.com/results?search_query="
 	options[0google]="https://www.google.com/search?q="
-	options[etf]="https://etfdb.com/etf/"
+	options[etf]="https://etf.com/"
 	options[finviz]="https://finviz.com/quote.ashx?t="
 	#options[images]="https://www.google.com/search?hl=en&tbm=isch&q="
 	#options[googlenews]="https://news.google.com/search?q="
