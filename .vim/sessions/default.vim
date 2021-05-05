@@ -1,6 +1,6 @@
 " ~/.vim/sessions/default.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 05 Tháng 5 2021 at 10:59:02.
+" Created by session.vim 2.13.1 on 05 Tháng 5 2021 at 11:21:17.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -21,11 +21,11 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +0 .config/qutebrowser/config.py
+badd +0 .config/qutebrowser/quickmarks
 argglobal
 %argdel
-$argadd .config/qutebrowser/config.py
-edit .config/qutebrowser/config.py
+$argadd .config/qutebrowser/quickmarks
+edit .config/qutebrowser/quickmarks
 set splitbelow splitright
 wincmd t
 set winminheight=0
@@ -42,12 +42,12 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 307 - ((16 * winheight(0) + 12) / 25)
+let s:l = 3 - ((2 * winheight(0) + 26) / 53)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-307
-normal! 013|
+3
+normal! 0
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
