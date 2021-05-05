@@ -1,0 +1,71 @@
+windows:
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    IAAABUYAAALw
+  tabs:
+  - history:
+    - active: true
+      last_visited: '2021-05-05T22:52:48'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'AGG ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/AGG
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-05-05T22:52:48'
+      pinned: false
+      title: 'IWD ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/IWD#overview
+    - active: true
+      last_visited: '2021-05-05T22:52:51'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'IWD ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/IWD#overview
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-05T22:52:48'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'MGV ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/MGV#overview
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-05T22:52:48'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 480
+      title: 'VIG ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/VIG#overview
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-05T22:52:48'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'VYM ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/VYM#overview
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-05-05T22:58:12'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: HYD VanEck Vectors High Yield Muni ETF Stock Quote
+      url: https://finviz.com/quote.ashx?t=hyd
+      zoom: 0.75
