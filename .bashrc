@@ -177,6 +177,11 @@ export TERMINAL="alacritty"
 export MANPAGER="nvim -c 'set ft=man' -"
 
 
+# fzf
+#https://github.com/junegunn/fzf/issues/337
+#export FZF_DEFAULT_COMMAND='rg --hidden -l ""' # doesn't work...
+alias fzf='rg --hidden -l "" | fzf'
+
 # some more ls aliases
 #alias ls='lsd --color=auto'
 alias ls='lsd --color always --group-dirs first'

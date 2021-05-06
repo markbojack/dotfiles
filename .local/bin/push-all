@@ -11,13 +11,14 @@ if [ "$isChangedDot" -ne 0 ]; then
 	echo -e "\n"
 fi
 
-# NB conjobs only backed up with change of p-dot-script repo,
-# but who cares
+# NB cronjobs only backed up with change of p-dot-script repo, but who cares
+# NB same for pamac.conf backup
 cd ~/p-dot-script
 isChanged="$(git status --porcelain | wc -l)"
 if [ "$isChanged" -ne 0 ]; then
 	echo "p-dot-script"
  	cp /var/spool/cron/mark ~/p-dot-script/mark
+ 	cp /etc/pamac.conf ~/p-dot-script/pamac.conf
 	git add .
 	git commit -m "update"
 	git push -u origin main -q
