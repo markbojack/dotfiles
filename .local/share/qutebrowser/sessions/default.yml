@@ -1,12 +1,12 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAADwAAACAAAAKjAAAC8AAAAAAAAAAABVYAAAAPAAAA
-    IAAAAqMAAALw
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    IAAABUYAAALw
   tabs:
   - history:
     - active: true
-      last_visited: '2021-05-06T21:55:27'
+      last_visited: '2021-05-06T22:52:46'
       pinned: false
       scroll-pos:
         x: 0
@@ -16,18 +16,38 @@ windows:
       zoom: 0.75
   - active: true
     history:
+    - last_visited: '2021-05-06T22:52:47'
+      pinned: false
+      title: this isii - Google Search
+      url: https://www.google.com/search?q=this%20isii
+    - last_visited: '2021-05-06T22:52:51'
+      pinned: false
+      title: this 11 - Google Search
+      url: https://www.google.com/search?q=this%2011
+    - last_visited: '2021-05-06T22:52:58'
+      pinned: false
+      title: markbojack (Mark Bojack)
+      url: https://github.com/markbojack
+    - last_visited: '2021-05-06T22:53:02'
+      pinned: false
+      title: Login - ProtonMail
+      url: https://mail.protonmail.com/inbox
+    - last_visited: '2021-05-06T22:53:02'
+      pinned: false
+      title: Login | ProtonMail
+      url: https://mail.protonmail.com/login
     - active: true
-      last_visited: '2021-05-06T21:55:29'
+      last_visited: '2021-05-06T22:53:12'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: this isii - Google Search
-      url: https://www.google.com/search?q=this%20isii
+      title: testff the tttt - Google Search
+      url: https://www.google.com/search?q=testff%20the%20tttt
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-05-06T21:55:29'
+      last_visited: '2021-05-06T22:52:47'
       pinned: false
       scroll-pos:
         x: 0

@@ -11,21 +11,4 @@ url=$({
     sqlite3 -separator ' ' "$QUTE_DATA_DIR"/history.sqlite 'SELECT url, title FROM CompletionHistory'
 } | dmenu -l 30 -p "open $* " | awk '{ if ($2 ~ /^http/) print $2; else print }')
 
-if [ $? = 0 ] && [ -n "$url" ]; then
-	printf 'open %s %s\n' "$*" "$url" >> "$QUTE_FIFO"
-fi
-
-#url=$({
-	#echo "QUICKMARKS ----------------------------------------------------------"
-	#cat "$QUTE_CONFIG_DIR"/quickmarks
-	#echo -e "\n"
-	#echo "BOOKMARKS -----------------------------------------------------------"
-    #cat "$QUTE_CONFIG_DIR"/bookmarks/urls
-	#echo -e "\n"
-	#echo "HISTORY -------------------------------------------------------------"
-    #sqlite3 -separator ' ' "$QUTE_DATA_DIR"/history.sqlite 'SELECT url, title FROM CompletionHistory'
-#} | dmenu -l 30 -p "open $* " | cut -d ' ' -f 1)
-#
-#if [ $? = 0 ] && [ -n "$url" ]; then
-	#printf 'open %s %s\n' "$*" "$url" >> "$QUTE_FIFO"
-#fi
+[ $? = 0 ] && [ -n "$url" ] && printf 'open %s %s\n' "$*" "$url" >> "$QUTE_FIFO"

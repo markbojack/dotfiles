@@ -1,6 +1,6 @@
 " ~/.vim/sessions/default.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 06 Tháng 5 2021 at 13:26:02.
+" Created by session.vim 2.13.1 on 06 Tháng 5 2021 at 22:59:20.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -16,16 +16,16 @@ let SessionLoad = 1
 let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
 let v:this_session=expand("<sfile>:p")
 silent only
-cd ~/.config/qutebrowser/userscripts
+cd ~/
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +0 dmenu-open
+badd +0 .config/qutebrowser/userscripts/dmenu-open
 argglobal
 %argdel
-$argadd dmenu-open
-edit dmenu-open
+$argadd .config/qutebrowser/userscripts/dmenu-open
+edit .config/qutebrowser/userscripts/dmenu-open
 set splitbelow splitright
 wincmd t
 set winminheight=0
