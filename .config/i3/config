@@ -280,7 +280,8 @@ bar {
         ## status_command i3status -c /home/mark/.config/i3status/i3status.conf #custom status
 		status_command SCRIPT_DIR=~/.config/i3blocks i3blocks -c /home/mark/.config/i3blocks/i3blocks.conf #i3blocks
 		i3bar_command i3bar -t
-		#tray_output none
+		# THIS IS FOR WIFI/INTERNET ICON ON STATUS BAR THAT LOOKS WEIRD
+		tray_output none
 		font pango:Roboto Mono Nerd Font 8
 		position top
         colors {

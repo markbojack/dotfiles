@@ -4,54 +4,14 @@ windows:
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
     IAAABUYAAALw
   tabs:
-  - history:
+  - active: true
+    history:
     - active: true
-      last_visited: '2021-05-06T22:52:46'
+      last_visited: '2021-05-06T23:00:08'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
       title: Home
       url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
-      zoom: 0.75
-  - active: true
-    history:
-    - last_visited: '2021-05-06T22:52:47'
-      pinned: false
-      title: this isii - Google Search
-      url: https://www.google.com/search?q=this%20isii
-    - last_visited: '2021-05-06T22:52:51'
-      pinned: false
-      title: this 11 - Google Search
-      url: https://www.google.com/search?q=this%2011
-    - last_visited: '2021-05-06T22:52:58'
-      pinned: false
-      title: markbojack (Mark Bojack)
-      url: https://github.com/markbojack
-    - last_visited: '2021-05-06T22:53:02'
-      pinned: false
-      title: Login - ProtonMail
-      url: https://mail.protonmail.com/inbox
-    - last_visited: '2021-05-06T22:53:02'
-      pinned: false
-      title: Login | ProtonMail
-      url: https://mail.protonmail.com/login
-    - active: true
-      last_visited: '2021-05-06T22:53:12'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: testff the tttt - Google Search
-      url: https://www.google.com/search?q=testff%20the%20tttt
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-06T22:52:47'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: awk statement to match all lines starting with "#"
-      url: https://www.unix.com/shell-programming-and-scripting/121651-awk-statement-match-all-lines-starting.html
       zoom: 0.75
