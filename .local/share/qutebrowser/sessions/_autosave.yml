@@ -1,0 +1,28 @@
+windows:
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAKyAAABjwAABUYAAALwAAACsgAAAY8AAAVGAAAC8AAAAAAAAAAABVYAAAKyAAAB
+    jwAABUYAAALw
+  tabs:
+  - history:
+    - active: true
+      last_visited: '2021-05-06T13:26:12'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Home
+      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-05-06T13:26:12'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 20 awk examples – Linux Hint
+      url: https://linuxhint.com/20_awk_examples/#a12
+      zoom: 0.75
+  - history: []

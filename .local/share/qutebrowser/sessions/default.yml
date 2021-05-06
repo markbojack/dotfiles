@@ -1,132 +1,53 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAADwAAACAAAAKjAAAC8AAAAAAAAAAABVYAAAAPAAAA
-    IAAAAqMAAALw
+    AdnQywADAAAAAAKyAAABjwAABUYAAALwAAACsgAAAY8AAAVGAAAC8AAAAAAAAAAABVYAAAKyAAAB
+    jwAABUYAAALw
   tabs:
   - history:
-    - last_visited: '2021-05-06T12:33:56'
-      pinned: false
-      title: Home
-      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
-    - last_visited: '2021-05-06T12:33:59'
-      pinned: false
-      title: markbojack (Mark Bojack)
-      url: https://github.com/markbojack
-    - last_visited: '2021-05-06T12:34:04'
-      pinned: false
-      title: Login - ProtonMail
-      url: https://mail.protonmail.com/inbox
     - active: true
-      last_visited: '2021-05-06T12:34:05'
+      last_visited: '2021-05-06T13:14:45'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Login | ProtonMail
-      url: https://mail.protonmail.com/login
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-06T12:33:56'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Home
-      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
-      zoom: 0.75
-  - history:
-    - last_visited: '2021-05-06T12:34:20'
-      pinned: false
-      title: bash cut before - Google Search
-      url: https://www.google.com/search?q=bash%20cut%20before
-    - active: true
-      last_visited: '2021-05-06T12:34:23'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 840
-      title: shell - Cut one word before delimiter - Bash - Stack Overflow
-      url: https://stackoverflow.com/questions/33009491/cut-one-word-before-delimiter-bash
-      zoom: 0.75
-  - history:
-    - last_visited: '2021-05-06T12:40:29'
-      pinned: false
-      title: bash cut multi character delimiter - Google Search
-      url: https://www.google.com/search?q=bash%20cut%20multi%20character%20delimiter
-    - last_visited: '2021-05-06T12:40:37'
-      pinned: false
-      title: sed - How to use cut with multiple character delimiter in Unix? - Stack
-        Overflow
-      url: https://stackoverflow.com/questions/25447324/how-to-use-cut-with-multiple-character-delimiter-in-unix
-    - active: true
-      last_visited: '2021-05-06T12:44:19'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 240
-      title: Home
-      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
-      zoom: 0.75
-  - history:
-    - last_visited: '2021-05-06T12:44:29'
-      pinned: false
-      title: pipe to awk - Google Search
-      url: https://www.google.com/search?q=%20pipe%20to%20awk
-    - last_visited: '2021-05-06T12:44:33'
-      pinned: false
-      title: bash - Piping from grep to awk not working - Unix & Linux Stack Exchange
-      url: https://unix.stackexchange.com/questions/46715/piping-from-grep-to-awk-not-working
-    - active: true
-      last_visited: '2021-05-06T12:47:24'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 800
       title: Home
       url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
       zoom: 0.75
   - active: true
     history:
-    - last_visited: '2021-05-06T12:49:20'
+    - last_visited: '2021-05-06T13:15:04'
       pinned: false
-      title: awk no delimiter - Google Search
-      url: https://www.google.com/search?q=%20awk%20no%20delimiter
-    - last_visited: '2021-05-06T12:49:29'
+      title: awk some lines without delimitr - Google Search
+      url: https://www.google.com/search?q=%20awk%20some%20lines%20without%20delimitr
+    - last_visited: '2021-05-06T13:16:54'
+      pinned: false
+      title: awk sum lines without delimiter - Google Search
+      url: https://www.google.com/search?q=awk+sum+lines+without+delimiter&spell=1&sa=X&ved=2ahUKEwix-eDas7TwAhUDVH0KHesvA1kQBSgAegQIARAw&biw=1821&bih=1005
+    - last_visited: '2021-05-06T13:17:06'
       pinned: false
       title: 20 awk examples – Linux Hint
       url: https://linuxhint.com/20_awk_examples/
-    - last_visited: '2021-05-06T12:51:24'
-      pinned: false
-      title: markbojack (Mark Bojack)
-      url: https://github.com/markbojack
-    - last_visited: '2021-05-06T12:51:40'
-      pinned: false
-      title: Login - ProtonMail
-      url: https://mail.protonmail.com/inbox
-    - last_visited: '2021-05-06T12:51:41'
-      pinned: false
-      title: Login | ProtonMail
-      url: https://mail.protonmail.com/login
-    - last_visited: '2021-05-06T12:51:54'
-      pinned: false
-      title: hello - Google Search
-      url: https://www.google.com/search?q=hello
-    - last_visited: '2021-05-06T12:52:12'
-      pinned: false
-      title: '"hello - Google Search'
-      url: https://www.google.com/search?q=%22hello
-    - last_visited: '2021-05-06T12:52:18'
-      pinned: false
-      title: hello_google - Google Search
-      url: https://www.google.com/search?q=hello_google
     - active: true
-      last_visited: '2021-05-06T12:52:30'
+      last_visited: '2021-05-06T13:24:07'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: test_test_test - Google Search
-      url: https://www.google.com/search?q=test_test_test
+        y: 11049
+      title: 20 awk examples – Linux Hint
+      url: https://linuxhint.com/20_awk_examples/#a12
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-05-06T13:21:01'
+      pinned: false
+      title: awk starts with - Google Search
+      url: https://www.google.com/search?q=awk%20starts%20with
+    - active: true
+      last_visited: '2021-05-06T13:21:14'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 1920
+      title: awk statement to match all lines starting with "#"
+      url: https://www.unix.com/shell-programming-and-scripting/121651-awk-statement-match-all-lines-starting.html
       zoom: 0.75
