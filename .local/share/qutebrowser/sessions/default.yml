@@ -1,17 +1,17 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAKyAAABjwAABUYAAALwAAACsgAAAY8AAAVGAAAC8AAAAAAAAAAABVYAAAKyAAAB
-    jwAABUYAAALw
+    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAADwAAACAAAAKjAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    IAAAAqMAAALw
   tabs:
   - active: true
     history:
     - active: true
-      last_visited: '2021-05-07T03:45:55'
+      last_visited: '2021-05-07T04:10:36'
       pinned: false
       scroll-pos:
         x: 0
-        y: 40
-      title: Home
-      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
+        y: 0
+      title: 569850-street_light-winter-snow-warm-depth_of_field.jpg (3840×2160)
+      url: https://wallup.net/wp-content/uploads/2018/09/25/569850-street_light-winter-snow-warm-depth_of_field.jpg
       zoom: 0.75
