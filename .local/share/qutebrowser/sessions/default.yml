@@ -1,12 +1,12 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAKyAAABjwAABUYAAALwAAACsgAAAY8AAAVGAAAC8AAAAAAAAAAABVYAAAKyAAAB
-    jwAABUYAAALw
+    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAADwAAACAAAAKjAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    IAAAAqMAAALw
   tabs:
   - history:
     - active: true
-      last_visited: '2021-05-06T13:14:45'
+      last_visited: '2021-05-06T21:55:27'
       pinned: false
       scroll-pos:
         x: 0
@@ -16,38 +16,22 @@ windows:
       zoom: 0.75
   - active: true
     history:
-    - last_visited: '2021-05-06T13:15:04'
-      pinned: false
-      title: awk some lines without delimitr - Google Search
-      url: https://www.google.com/search?q=%20awk%20some%20lines%20without%20delimitr
-    - last_visited: '2021-05-06T13:16:54'
-      pinned: false
-      title: awk sum lines without delimiter - Google Search
-      url: https://www.google.com/search?q=awk+sum+lines+without+delimiter&spell=1&sa=X&ved=2ahUKEwix-eDas7TwAhUDVH0KHesvA1kQBSgAegQIARAw&biw=1821&bih=1005
-    - last_visited: '2021-05-06T13:17:06'
-      pinned: false
-      title: 20 awk examples – Linux Hint
-      url: https://linuxhint.com/20_awk_examples/
     - active: true
-      last_visited: '2021-05-06T13:24:07'
+      last_visited: '2021-05-06T21:55:29'
       pinned: false
       scroll-pos:
         x: 0
-        y: 11049
-      title: 20 awk examples – Linux Hint
-      url: https://linuxhint.com/20_awk_examples/#a12
+        y: 0
+      title: this isii - Google Search
+      url: https://www.google.com/search?q=this%20isii
       zoom: 0.75
   - history:
-    - last_visited: '2021-05-06T13:21:01'
-      pinned: false
-      title: awk starts with - Google Search
-      url: https://www.google.com/search?q=awk%20starts%20with
     - active: true
-      last_visited: '2021-05-06T13:21:14'
+      last_visited: '2021-05-06T21:55:29'
       pinned: false
       scroll-pos:
         x: 0
-        y: 1920
+        y: 0
       title: awk statement to match all lines starting with "#"
       url: https://www.unix.com/shell-programming-and-scripting/121651-awk-statement-match-all-lines-starting.html
       zoom: 0.75
