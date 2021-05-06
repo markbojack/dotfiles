@@ -1,0 +1,100 @@
+windows:
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAAAAAAAAAAABVUAAAL/AAAADwAAACAAAAKjAAAC8AAAAAAABAAABVYAAAAAAAAA
+    AAAABVUAAAL/
+  tabs:
+  - history:
+    - active: true
+      last_visited: '2021-05-07T00:16:24'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Home
+      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-05-07T00:16:26'
+      pinned: false
+      title: pamac no confirm aur - Google Search
+      url: https://www.google.com/search?q=pamac%20no%20confirm%20aur
+    - last_visited: '2021-05-07T00:20:53'
+      pinned: false
+      title: pamac.conf - Google Search
+      url: https://www.google.com/search?q=pamac.conf&ei=aSSUYPnNDNHYhwPN6KDICg&oq=pamac.conf&gs_lcp=Cgdnd3Mtd2l6EAMyBAgAEB4yBAgAEB4yBggAEAgQHjIECAAQHjoCCAA6BggAEBYQHjoICC4QxwEQrwE6BQgAEJECOgQIABAKOgYIABAFEB46BAgAEA06BggAEA0QHlCylhBY_aUQYK-nEGgAcAJ4AIABnwGIAeEJkgEEMTIuMpgBAKABAaoBB2d3cy13aXrAAQE&sclient=gws-wiz&ved=0ahUKEwi5ptnEx7XwAhVR7GEKHU00CKkQ4dUDCA4&uact=5
+    - last_visited: '2021-05-07T00:21:06'
+      pinned: false
+      title: where is pamac.conf - Google Search
+      url: https://www.google.com/search?q=where+is+pamac.conf&ei=dSWUYKu8E8KsoATLr5fwBw&oq=where+is+pamac.conf&gs_lcp=Cgdnd3Mtd2l6EAMyBAgAEB46BggAEAcQHjoGCAAQDRAeOggIABAIEA0QHlCMTFikVmDNV2gAcAB4AIABf4gBiQeSAQM4LjKYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=gws-wiz&ved=0ahUKEwjrysXEyLXwAhVCFogKHcvXBX4Q4dUDCA4&uact=5
+    - active: true
+      last_visited: '2021-05-07T00:21:17'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 92
+      title: pamac/pamac.conf at master · manjaro/pamac
+      url: https://github.com/manjaro/pamac/blob/master/data/config/pamac.conf
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-07T00:24:47'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 1240
+      title: 'Question: Including hidden files in search · Issue #337 · junegunn/fzf'
+      url: https://github.com/junegunn/fzf/issues/337
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-07T00:24:50'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 2000
+      title: 'can''t find dot files? · Issue #634 · junegunn/fzf'
+      url: https://github.com/junegunn/fzf/issues/634
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-07T00:24:53'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 600
+      title: '[fzf] How to show hidden files? : neovim'
+      url: https://www.reddit.com/r/neovim/comments/48ymsn/fzf_how_to_show_hidden_files/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-07T00:33:20'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Question: Including hidden files in search · Issue #337 · junegunn/fzf'
+      url: https://github.com/junegunn/fzf/issues/337
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-07T00:34:11'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Diffview.nvim - Cycle through diffs for all modified files for any git
+        rev : neovim'
+      url: https://www.reddit.com/r/neovim/comments/n2vww8/diffviewnvim_cycle_through_diffs_for_all_modified/
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-05-07T00:34:14'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 4xjg39fqslw61.png (2566×1419)
+      url: https://i.redd.it/4xjg39fqslw61.png
+      zoom: 1.0
