@@ -1,0 +1,17 @@
+windows:
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAKyAAAAIAAABUYAAALwAAACsgAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAKyAAAA
+    IAAABUYAAALw
+  tabs:
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-05-07T04:02:51'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: fancy desktop wallpaper at DuckDuckGo
+      url: https://duckduckgo.com/?q=fancy+desktop+wallpaper&ia=web
+      zoom: 0.75

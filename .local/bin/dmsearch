@@ -35,7 +35,7 @@ else
 	#options[cliki]="https://www.cliki.net/site/search?query="
 	#options[debianpkg]="https://packages.debian.org/search?suite=default&section=all&arch=any&searchon=names&keywords="
 	#options[discogs]="https://www.discogs.com/search/?&type=all&q="
-	#options[duckduckgo]="https://duckduckgo.com/?q="
+	options[duckduckgo]="https://duckduckgo.com/?q="
 	#options[ebay]="https://www.ebay.com/sch/i.html?&_nkw="
 	#options[github]="https://github.com/search?q="
 	#options[gitlab]="https://gitlab.com/search?search="
