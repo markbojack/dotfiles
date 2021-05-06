@@ -227,7 +227,7 @@ bindsym $mod+r mode "resize"
 exec_always --no-startup-id numlockx on
 exec_always --no-startup-id autotiling
 exec_always --no-startup-id picom --experimental-backend
-exec_always --no-startup-id feh --bg-fill /home/mark/Documents/new.jpeg
+exec_always --no-startup-id feh --bg-fill /home/mark/Downloads/new.jpg
 exec --no-startup-id alacritty -e bash -c 'remind -@ ~/p-dot-script/remind.rem *5 && echo -e "\n" && bash'
 exec --no-startup-id alacritty
 exec --no-startup-id qutebrowser

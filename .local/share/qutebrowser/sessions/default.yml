@@ -1,17 +1,17 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAADwAAACAAAAKjAAAC8AAAAAAAAAAABVYAAAAPAAAA
-    IAAAAqMAAALw
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    IAAABUYAAALw
   tabs:
   - active: true
     history:
     - active: true
-      last_visited: '2021-05-07T04:10:36'
+      last_visited: '2021-05-07T04:19:35'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: 569850-street_light-winter-snow-warm-depth_of_field.jpg (3840×2160)
-      url: https://wallup.net/wp-content/uploads/2018/09/25/569850-street_light-winter-snow-warm-depth_of_field.jpg
+      title: terminal.sexy - Terminal Color Scheme Designer
+      url: http://terminal.sexy/
       zoom: 0.75
