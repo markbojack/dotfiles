@@ -1,27 +1,17 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAADwAAACAAAAKjAAAC8AAAAAAAAAAABVYAAAAPAAAA
-    IAAAAqMAAALw
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    IAAABUYAAALw
   tabs:
-  - history:
+  - active: true
+    history:
     - active: true
-      last_visited: '2021-05-07T02:48:05'
+      last_visited: '2021-05-07T02:56:01'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
       title: Home
       url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
-      zoom: 0.75
-  - active: true
-    history:
-    - active: true
-      last_visited: '2021-05-07T02:48:06'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: pamac/pamac.conf at master · manjaro/pamac
-      url: https://github.com/manjaro/pamac/blob/master/data/config/pamac.conf
       zoom: 0.75
