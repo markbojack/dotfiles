@@ -9,18 +9,11 @@ url=$({
 	echo -e "\n"
 	echo "HISTORY -------------------------------------------------------------"
     sqlite3 -separator ' ' "$QUTE_DATA_DIR"/history.sqlite 'SELECT url, title FROM CompletionHistory'
-} | 
-	if [ $? = 0 ]; then
-		printf 'open %s %s\n' "$*" >> "$QUTE_FIFO"
-	else
-		dmenu -l 30 -p "open $* " | cut -d ' ' -f 1
-	fi
-)
+} | dmenu -l 30 -p "open $* " | awk -F 'http' '{print "http" $2}')
 
-
-
-
-
+if [ $? = 0 ] && [ -n "$url" ]; then
+	printf 'open %s %s\n' "$*" "$url" >> "$QUTE_FIFO"
+fi
 
 #url=$({
 	#echo "QUICKMARKS ----------------------------------------------------------"
