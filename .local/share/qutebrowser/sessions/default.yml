@@ -1,31 +1,17 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAKyAAAAIAAABUYAAAGAAAACsgAAACAAAAVGAAABgAAAAAAAAAAABVYAAAKyAAAA
-    IAAABUYAAAGA
+    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAADwAAACAAAAKjAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    IAAAAqMAAALw
   tabs:
-  - history:
+  - active: true
+    history:
     - active: true
-      last_visited: '2021-05-07T18:50:12'
+      last_visited: '2021-05-07T19:40:23'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: terminal.sexy - Terminal Color Scheme Designer
-      url: http://terminal.sexy/#AAAAz83NMDAwsOMAAGylAHCGZ1GmkT6IAGGxxsbGXl5e_5_JO9b_AN301bj__6f2k8n_____
-      zoom: 0.75
-  - active: true
-    history:
-    - last_visited: '2021-05-07T18:50:12'
-      pinned: false
-      title: i3 tdrop - Google Search
-      url: https://www.google.com/search?q=i3%20tdrop
-    - active: true
-      last_visited: '2021-05-07T18:50:24'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 6240
-      title: 'noctuid/tdrop: A Glorified WM-Independent Dropdown Creator'
-      url: https://github.com/noctuid/tdrop
+      title: 'floating windows dropdown (popup) terminal : i3wm'
+      url: https://www.reddit.com/r/i3wm/comments/4v3lkg/floating_windows_dropdown_popup_terminal/
       zoom: 0.75
