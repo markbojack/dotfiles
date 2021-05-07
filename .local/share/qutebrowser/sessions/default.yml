@@ -4,36 +4,14 @@ windows:
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
     IAAABUYAAALw
   tabs:
-  - history:
+  - active: true
+    history:
     - active: true
-      last_visited: '2021-05-07T17:51:51'
+      last_visited: '2021-05-07T18:10:00'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
       title: terminal.sexy - Terminal Color Scheme Designer
-      url: http://terminal.sexy/
-      zoom: 0.75
-  - active: true
-    history:
-    - last_visited: '2021-05-07T17:52:07'
-      pinned: false
-      title: beautiful city wallpaper at DuckDuckGo
-      url: https://duckduckgo.com/?q=beautiful+city+wallpaper&ia=web
-    - last_visited: '2021-05-07T17:52:24'
-      pinned: false
-      title: beautiful city wallpaper at DuckDuckGo
-      url: https://duckduckgo.com/?q=beautiful+city+wallpaper&iax=images&ia=images&iaf=size%3ALarge&iai=http%3A%2F%2Fthewowstyle.com%2Fwp-content%2Fuploads%2F2015%2F01%2Fbeautiful-cities..jpg
-    - last_visited: '2021-05-07T17:53:29'
-      pinned: false
-      title: beautiful city wallpaper asia at DuckDuckGo
-      url: https://duckduckgo.com/?q=beautiful+city+wallpaper+asia&iar=images&iaf=size%3ALarge&iax=images&ia=images&iai=https%3A%2F%2F4.bp.blogspot.com%2F-6S4mVGHsJY0%2FTbCPrMytAvI%2FAAAAAAAAAeE%2FmQgXTU37Uu8%2Fs1600%2F52.jpg&pn=1
-    - active: true
-      last_visited: '2021-05-07T17:56:19'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 9918
-      title: beautiful city wallpaper ho chi minh at DuckDuckGo
-      url: https://duckduckgo.com/?q=beautiful+city+wallpaper+ho+chi+minh&iar=images&iaf=size%3ALarge&iax=images&ia=images&iai=https%3A%2F%2Fwww.citypassguide.com%2Fmedia%2Fslideshow%2Fhcmc-what-to-see-shutterstock_362736344.jpg.1400x800_q85_crop.jpg
+      url: http://terminal.sexy/#AAAAz83NMDAwsOMAAGylAHCGZ1GmkT6IAGGxxsbGXl5e_5_JO9b_AN301bj__6f2k8n_____
       zoom: 0.75

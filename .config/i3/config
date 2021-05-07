@@ -224,6 +224,8 @@ bindsym $mod+r mode "resize"
 
 # CUSTOM ===========================================================
 # Startup
+exec_always --no-startup-id setxkbmp -option caps:escape
+#exec_always --no-startup-id setxkbmp -option caps:swapescape
 exec_always --no-startup-id numlockx on
 exec_always --no-startup-id autotiling
 exec_always --no-startup-id picom --experimental-backend
@@ -443,3 +445,9 @@ bindsym $mod+m bar mode toggle
 
 # fix yad bug
 for_window [class="Yad"] floating enable
+
+# moar keybindings
+bindsym $mod+Escape			workspace prev
+bindsym $mod+Tab			workspace back_and_forth
+bindsym $mod+BackSpace		exec --no-startup-id bash ~/.local/bin/flash-win
+#bindsym $mod+Shift+Escape	exec sudo poweroff
