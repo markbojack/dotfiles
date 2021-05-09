@@ -1,17 +1,17 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAADwAAACAAAAKjAAAC8AAAAAAAAAAABVYAAAAPAAAA
-    IAAAAqMAAALw
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    IAAABUYAAALw
   tabs:
   - active: true
     history:
     - active: true
-      last_visited: '2021-05-07T19:40:23'
+      last_visited: '2021-05-09T13:42:32'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: 'floating windows dropdown (popup) terminal : i3wm'
-      url: https://www.reddit.com/r/i3wm/comments/4v3lkg/floating_windows_dropdown_popup_terminal/
+      title: Home
+      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
       zoom: 0.75

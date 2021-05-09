@@ -282,7 +282,7 @@ pfetch
 xset r rate 220 100 # faster keys 
 
 #to make caps escape
-#setxkbmap -option caps:swapescape 
+setxkbmap -option caps:swapescape 
 
 # make caps super...
 #setxkbmap -option caps:super -variant altgr-intl
