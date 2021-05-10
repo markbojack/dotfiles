@@ -266,10 +266,10 @@ alias hp='nvim ~/p-dot-script/qutebrowser/html/homepage.html'
 PATH=$HOME/p-dot-script:$PATH
 
 # Startup
-#neofetch # or even abduco -a r
-pfetch
 #colorscript -e space-invaders
-#colorscript -r
+colorscript -r
+#neofetch # or even abduco -a r
+#pfetch
 
 # VI mode
 #set -o vi
