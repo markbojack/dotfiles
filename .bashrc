@@ -215,6 +215,7 @@ alias tu='sudo timeshift --create && sudo pacman -Syu --noconfirm && pamac upgra
 alias pic='~/.local/bin/show-pic.sh'
 alias pow='~/.local/bin/poweroff.sh'
 alias bkp='~/.local/bin/backup-phone.sh'
+alias bkpc='nvim ~/.local/bin/backup-phone.sh'
 alias fzf='fzf -e'
 
 # Vim sessions aliases

@@ -15,7 +15,7 @@ adb pull /storage/self/primary/SNOW/
 adb pull /storage/self/primary/zalo/
 
 touch contacts
-adb shell content query --uri content://com.android.contacts/data --projection display_name:data1:data4:contact_id >> contacts
+adb shell content query --uri content://com.android.contacts/data --projection display_name:data1:data4:contact_id > contacts
 
 # push =======================================================================
 # remind.rem to phone
@@ -24,4 +24,17 @@ adb push ~/p-dot-script/remind.rem /storage/self/primary/DCIM
 # notes and yt download on computer
 echo -e "\n" >> ~/vimwiki/index.md
 cat DCIM/notes >> ~/vimwiki/index.md
+
+# clear youtube on phone
+adb shell
+echo "" > /storage/self/primary/DCIM/youtube
+exit
+
+# msg
+toilet -f mono9 UNPLUG PHONE
+
+# youtube
 youtube-dl -ak DCIM/youtube
+
+# msg
+toilet -f mono9 YT DOWNLOADS COMPLETE

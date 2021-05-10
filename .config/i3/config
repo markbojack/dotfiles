@@ -213,7 +213,7 @@ exec_always --no-startup-id numlockx on
 exec_always --no-startup-id autotiling
 exec_always --no-startup-id picom --experimental-backend
 exec_always --no-startup-id feh --bg-fill /home/mark/Downloads/hcmc-what-to-see-shutterstock_362736344.jpg.1400x800_q85_crop.jpg
-exec --no-startup-id tdrop -am -w 60% -y 30% -x 20% -h 40% -n 3 alacritty -e bash -c 'remind -cl+2m@ ~/p-dot-script/remind.rem *5 && echo -e "\n" && sleep 1000'
+exec --no-startup-id tdrop -am -w 60% -y 30% -x 20% -h 40% -n 3 alacritty -e bash -c 'remind -cl+2m@ ~/p-dot-script/remind.rem *5 && echo -e "\n" && sleep 10'
 #exec --no-startup-id alacritty
 #exec --no-startup-id qutebrowser; workspace $ws2
 #exec --no-startup-id alacritty -t neomutt -e neomutt
@@ -436,7 +436,7 @@ bindsym $mod+BackSpace		exec --no-startup-id bash ~/.local/bin/flash-win
 #bindsym $mod+Shift+Escape	exec sudo poweroff
 bindsym $mod+Shift+c		exec --no-startup-id tdrop -am -w 30% -y 30% -x 35% -n 0 alacritty -e R -q --vanilla
 bindsym $mod+Shift+e 		exec --no-startup-id tdrop -am -w 70% -y 10% -x 15% -h 80% -n 1 alacritty -e neomutt
-bindsym $mod+Shift+v 		exec --no-startup-id tdrop -am -w 40% -y 20% -x 30% -h 60% -n 2 alacritty -e nvim -c VimwikiIndex -e :set wrap
+bindsym $mod+Shift+v 		exec --no-startup-id tdrop -am -w 40% -y 20% -x 30% -h 60% -n 2 alacritty -e nvim -c VimwikiIndex
 bindsym $mod+Shift+p 		exec --no-startup-id tdrop -am -w 60% -y 30% -x 20% -h 40% -n 3 alacritty -e bash -c 'remind -cl+2m@ ~/p-dot-script/remind.rem *5 && echo -e "\n" && sleep 1000'
 bindsym $mod+Shift+q 		exec --no-startup-id tdrop -am -w 98% -y 4% -x 1% -h 95% -n 4 qutebrowser
 
