@@ -37,7 +37,7 @@ floating_modifier $mod
 bindsym $mod+Return exec --no-startup-id alacritty
 
 # Close focused window
-bindsym $mod+Shift+q kill
+bindsym $mod+Shift+0 kill
 # Close all windows on all workspaces (any class string)
 #bindsym $mod+Shift+q [class=”.*”] kill
 # Close all windows on workspace 1 (name stored in $ws1)
@@ -153,11 +153,6 @@ set $ws3 ""
 set $ws4 ""
 set $ws5 "5"
 #set $ws5 ""
-set $ws6 "6"
-set $ws7 "7"
-set $ws8 "8"
-set $ws9 "9"
-set $ws10 "10"
 
 # switch to workspace
 ## this is default but leave out `number` to just have icons
@@ -168,11 +163,6 @@ bindsym $mod+2 workspace $ws2
 bindsym $mod+3 workspace $ws3
 bindsym $mod+4 workspace $ws4
 bindsym $mod+5 workspace $ws5
-bindsym $mod+6 workspace $ws6
-bindsym $mod+7 workspace $ws7
-bindsym $mod+8 workspace $ws8
-bindsym $mod+9 workspace $ws9
-bindsym $mod+0 workspace $ws10
 
 # move focused container to workspace
 ## this is default but leave out `number` to just have icons
@@ -182,11 +172,6 @@ bindsym $mod+Shift+2 move container to workspace $ws2
 bindsym $mod+Shift+3 move container to workspace $ws3
 bindsym $mod+Shift+4 move container to workspace $ws4
 bindsym $mod+Shift+5 move container to workspace $ws5
-bindsym $mod+Shift+6 move container to workspace $ws6
-bindsym $mod+Shift+7 move container to workspace $ws7
-bindsym $mod+Shift+8 move container to workspace $ws8
-bindsym $mod+Shift+9 move container to workspace $ws9
-bindsym $mod+Shift+0 move container to workspace $ws10
 
 # reload the configuration file
 #bindsym $mod+Shift+c reload
@@ -229,9 +214,8 @@ exec_always --no-startup-id autotiling
 exec_always --no-startup-id picom --experimental-backend
 exec_always --no-startup-id feh --bg-fill /home/mark/Downloads/hcmc-what-to-see-shutterstock_362736344.jpg.1400x800_q85_crop.jpg
 exec --no-startup-id tdrop -am -w 60% -y 30% -x 20% -h 40% -n 3 alacritty -e bash -c 'remind -cl+2m@ ~/p-dot-script/remind.rem *5 && echo -e "\n" && sleep 1000'
-exec --no-startup-id alacritty
-exec --no-startup-id alacritty
-exec --no-startup-id qutebrowser
+#exec --no-startup-id alacritty
+#exec --no-startup-id qutebrowser; workspace $ws2
 #exec --no-startup-id alacritty -t neomutt -e neomutt
 
 # Lock
@@ -245,7 +229,7 @@ exec --no-startup-id qutebrowser
 ## look for: WM_CLASS <look at 2nd result>
 #for_window [class="Alacritty"] move to workspace $ws1
 for_window [class="Brave-browser"] move to workspace $ws2
-for_window [class="qutebrowser"] move to workspace $ws2
+#for_window [class="qutebrowser"] move to workspace $ws2
 #for_window [class="Pcmanfm"] move to workspace $ws3
 assign [title="neomutt"] $ws3
 
@@ -452,6 +436,10 @@ bindsym $mod+BackSpace		exec --no-startup-id bash ~/.local/bin/flash-win
 #bindsym $mod+Shift+Escape	exec sudo poweroff
 bindsym $mod+Shift+c		exec --no-startup-id tdrop -am -w 30% -y 30% -x 35% -n 0 alacritty -e R -q --vanilla
 bindsym $mod+Shift+e 		exec --no-startup-id tdrop -am -w 70% -y 10% -x 15% -h 80% -n 1 alacritty -e neomutt
-bindsym $mod+Shift+v 		exec --no-startup-id tdrop -am -w 70% -y 10% -x 15% -h 80% -n 2 alacritty -e nvim -c VimwikiIndex
-bindsym $mod+Shift+a 		exec --no-startup-id tdrop -am -w 70% -y 10% -x 15% -h 80% -n 3 alacritty
+bindsym $mod+Shift+v 		exec --no-startup-id tdrop -am -w 40% -y 20% -x 30% -h 60% -n 2 alacritty -e nvim -c VimwikiIndex -e :set wrap
 bindsym $mod+Shift+p 		exec --no-startup-id tdrop -am -w 60% -y 30% -x 20% -h 40% -n 3 alacritty -e bash -c 'remind -cl+2m@ ~/p-dot-script/remind.rem *5 && echo -e "\n" && sleep 1000'
+bindsym $mod+Shift+q 		exec --no-startup-id tdrop -am -w 98% -y 4% -x 1% -h 95% -n 4 qutebrowser
+
+bindsym $mod+Shift+u 		exec --no-startup-id tdrop -am -w 98% -y 4% -x 1% -h 95% -n 5 alacritty
+bindsym $mod+Shift+i 		exec --no-startup-id tdrop -am -w 48% -y 4% -x 1% -h 95% -n 6 alacritty
+bindsym $mod+Shift+o 		exec --no-startup-id tdrop -am -w 49% -y 4% -x 50% -h 95% -n 7 alacritty
