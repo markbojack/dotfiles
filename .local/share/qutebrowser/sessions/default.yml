@@ -1,70 +1,45 @@
 windows:
-- geometry: !!binary |
+- active: true
+  geometry: !!binary |
     AdnQywADAAAAAAANAAAAHgAABUYAAAL2AAAADQAAAB4AAAVGAAAC9gAAAAAAAAAABVYAAAANAAAA
     HgAABUYAAAL2
   tabs:
   - history:
     - active: true
-      last_visited: '2021-05-10T15:39:46'
+      last_visited: '2021-05-10T19:03:52'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Last 100 filings received from Edgars
-      url: https://whalewisdom.com/filing/latest_filings
+      title: why is ungoogled chromium so big - Google Search
+      url: https://www.google.com/search?q=why%20is%20ungoogled%20chromium%20so%20big
       zoom: 0.75
+    - last_visited: '2021-05-10T19:03:28'
+      pinned: false
+      title: 'ungoogled-chromium taking a long time to build : archlinux'
+      url: https://www.reddit.com/r/archlinux/comments/gdeiui/ungoogledchromium_taking_a_long_time_to_build/
   - history:
+    - last_visited: '2021-05-10T19:04:05'
+      pinned: false
+      title: stop building ungoogled chromium - Google Search
+      url: https://www.google.com/search?q=stop%20building%20ungoogled%20chromium
     - active: true
-      last_visited: '2021-05-10T15:40:01'
+      last_visited: '2021-05-10T19:04:27'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Last 100 filings received from Edgars
-      url: https://whalewisdom.com/filing/latest_filings
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-10T15:40:19'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: markbojack (Mark Bojack)
-      url: https://github.com/markbojack
-      zoom: 0.75
-  - history:
-    - last_visited: '2021-05-10T15:40:30'
-      pinned: false
-      title: Login - ProtonMail
-      url: https://mail.protonmail.com/inbox
-    - active: true
-      last_visited: '2021-05-10T15:40:32'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Login | ProtonMail
-      url: https://mail.protonmail.com/login
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-10T15:41:03'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 682
-      title: Pacman Overview - Manjaro
-      url: https://wiki.manjaro.org/index.php/Pacman_Overview#Installing_Updates
+      title: cancel building chromium - Google Search
+      url: https://www.google.com/search?q=cancel+building+chromium&ei=NCGZYJbKA8v7hwOPgZHIBw&oq=cancel+building+chromium&gs_lcp=Cgdnd3Mtd2l6EAMyBQghEKABOggIIRAWEB0QHjoECAAQQzoFCAAQkQI6CAgAELEDEIMBOggILhDHARCjAjoNCC4QxwEQrwEQQxCTAjoOCC4QsQMQgwEQxwEQrwE6BQgAELEDOgQILhBDOgUILhCxAzoLCC4QsQMQxwEQowI6CAguELEDEIMBOgcIABCxAxBDOgIIADoCCC46BggAEBYQHjoECCEQFToHCCEQChCgAVDoVliSpgFg6KcBaA9wAngEgAGdAYgBqySSAQQxLjM5mAEAoAEBqgEHZ3dzLXdperABAMABAQ&sclient=gws-wiz&ved=0ahUKEwiWtJKXib_wAhXL_WEKHY9ABHkQ4dUDCA4&uact=5
       zoom: 0.75
   - active: true
     history:
     - active: true
-      last_visited: '2021-05-10T15:41:09'
+      last_visited: '2021-05-10T19:04:40'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: TEST - Google Search
-      url: https://www.google.com/search?q=TEST
+      title: What's the correct way to cancel a ninja build in progress?
+      url: https://groups.google.com/a/chromium.org/g/chromium-dev/c/Yqak1T1x2bY?pli=1
       zoom: 0.75
