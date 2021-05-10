@@ -433,7 +433,7 @@ for_window [class="Yad"] floating enable
 bindsym $mod+Escape			workspace prev
 bindsym $mod+Tab			workspace back_and_forth
 bindsym $mod+BackSpace		exec --no-startup-id bash ~/.local/bin/flash-win
-bindsym $mod+Shift+Ctrl+Escape	exec sudo poweroff
+#bindsym $mod+Shift+Escape	exec sudo poweroff
 bindsym $mod+Shift+c		exec --no-startup-id tdrop -am -w 30% -y 30% -x 35% -n 0 alacritty -e R -q --vanilla
 bindsym $mod+Shift+e 		exec --no-startup-id tdrop -am -w 70% -y 10% -x 15% -h 80% -n 1 alacritty -e neomutt
 bindsym $mod+Shift+v 		exec --no-startup-id tdrop -am -w 40% -y 20% -x 30% -h 60% -n 2 alacritty -e nvim -c VimwikiIndex
