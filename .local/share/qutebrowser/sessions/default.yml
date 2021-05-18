@@ -1,27 +1,21 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
-    IAAABUYAAALw
+    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAADwAAACAAAAKjAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    IAAAAqMAAALw
   tabs:
-  - history:
-    - active: true
-      last_visited: '2021-05-18T20:25:14'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Home
-      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
-      zoom: 0.75
   - active: true
     history:
+    - last_visited: '2021-05-18T22:02:29'
+      pinned: false
+      title: How To Deal With Drawdowns – Quantified Strategies
+      url: https://www.quantifiedstrategies.com/how-to-deal-with-drawdowns/
     - active: true
-      last_visited: '2021-05-18T20:25:15'
+      last_visited: '2021-05-18T22:27:42'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: Frequently Asked Questions | Accounts - HSBC VN
-      url: https://www.hsbc.com.vn/en-vn/accounts/faq/
+        y: 4560
+      title: Home
+      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
       zoom: 0.75
