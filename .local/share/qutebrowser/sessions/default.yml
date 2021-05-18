@@ -1,45 +1,31 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAANAAAAHgAABUYAAAL2AAAADQAAAB4AAAVGAAAC9gAAAAAAAAAABVYAAAANAAAA
-    HgAABUYAAAL2
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    IAAABUYAAALw
   tabs:
   - history:
+    - last_visited: '2021-05-18T18:23:24'
+      pinned: false
+      title: Outlook
+      url: https://outlook.live.com/mail/0/inbox
     - active: true
-      last_visited: '2021-05-10T19:03:52'
+      last_visited: '2021-05-18T18:54:07'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: why is ungoogled chromium so big - Google Search
-      url: https://www.google.com/search?q=why%20is%20ungoogled%20chromium%20so%20big
-      zoom: 0.75
-    - last_visited: '2021-05-10T19:03:28'
-      pinned: false
-      title: 'ungoogled-chromium taking a long time to build : archlinux'
-      url: https://www.reddit.com/r/archlinux/comments/gdeiui/ungoogledchromium_taking_a_long_time_to_build/
-  - history:
-    - last_visited: '2021-05-10T19:04:05'
-      pinned: false
-      title: stop building ungoogled chromium - Google Search
-      url: https://www.google.com/search?q=stop%20building%20ungoogled%20chromium
-    - active: true
-      last_visited: '2021-05-10T19:04:27'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: cancel building chromium - Google Search
-      url: https://www.google.com/search?q=cancel+building+chromium&ei=NCGZYJbKA8v7hwOPgZHIBw&oq=cancel+building+chromium&gs_lcp=Cgdnd3Mtd2l6EAMyBQghEKABOggIIRAWEB0QHjoECAAQQzoFCAAQkQI6CAgAELEDEIMBOggILhDHARCjAjoNCC4QxwEQrwEQQxCTAjoOCC4QsQMQgwEQxwEQrwE6BQgAELEDOgQILhBDOgUILhCxAzoLCC4QsQMQxwEQowI6CAguELEDEIMBOgcIABCxAxBDOgIIADoCCC46BggAEBYQHjoECCEQFToHCCEQChCgAVDoVliSpgFg6KcBaA9wAngEgAGdAYgBqySSAQQxLjM5mAEAoAEBqgEHZ3dzLXdperABAMABAQ&sclient=gws-wiz&ved=0ahUKEwiWtJKXib_wAhXL_WEKHY9ABHkQ4dUDCA4&uact=5
+      title: Home
+      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
       zoom: 0.75
   - active: true
     history:
     - active: true
-      last_visited: '2021-05-10T19:04:40'
+      last_visited: '2021-05-18T18:44:49'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: What's the correct way to cancel a ninja build in progress?
-      url: https://groups.google.com/a/chromium.org/g/chromium-dev/c/Yqak1T1x2bY?pli=1
+        y: 601
+      title: Frequently Asked Questions | Accounts - HSBC VN
+      url: https://www.hsbc.com.vn/en-vn/accounts/faq/
       zoom: 0.75
