@@ -1,0 +1,41 @@
+windows:
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAADwAAACAAAAKjAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    IAAAAqMAAALw
+  tabs:
+  - history:
+    - last_visited: '2021-05-18T18:23:24'
+      pinned: false
+      title: Outlook
+      url: https://outlook.live.com/mail/0/inbox
+    - active: true
+      last_visited: '2021-05-18T18:54:07'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Home
+      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-18T18:44:49'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 120
+      title: Frequently Asked Questions | Accounts - HSBC VN
+      url: https://www.hsbc.com.vn/en-vn/accounts/faq/
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-05-18T18:55:44'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: https://www.youtube.com/results?search_query=distrotube
+      url: https://www.youtube.com/results?search_query=distrotube
+      zoom: 0.75

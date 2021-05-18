@@ -214,7 +214,7 @@ exec_always --no-startup-id autotiling
 exec_always --no-startup-id picom --experimental-backend
 exec_always --no-startup-id feh --bg-fill /home/mark/Downloads/hcmc-what-to-see-shutterstock_362736344.jpg.1400x800_q85_crop.jpg
 exec --no-startup-id tdrop -am -w 60% -y 30% -x 20% -h 40% -n 3 alacritty -e bash -c 'remind -cl+2m@ ~/p-dot-script/remind.rem *5 && echo -e "\n" && sleep 10'
-#exec --no-startup-id alacritty
+exec --no-startup-id alacritty
 #exec --no-startup-id qutebrowser; workspace $ws2
 #exec --no-startup-id alacritty -t neomutt -e neomutt
 
