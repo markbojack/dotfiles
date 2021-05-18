@@ -1,12 +1,11 @@
 windows:
-- active: true
-  geometry: !!binary |
+- geometry: !!binary |
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
     IAAABUYAAALw
   tabs:
   - history:
     - active: true
-      last_visited: '2021-05-18T20:25:14'
+      last_visited: '2021-05-18T21:58:53'
       pinned: false
       scroll-pos:
         x: 0
@@ -17,11 +16,11 @@ windows:
   - active: true
     history:
     - active: true
-      last_visited: '2021-05-18T20:25:15'
+      last_visited: '2021-05-18T21:59:08'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: Frequently Asked Questions | Accounts - HSBC VN
-      url: https://www.hsbc.com.vn/en-vn/accounts/faq/
+        y: 120
+      title: technical trader - Google Search
+      url: https://www.google.com/search?q=%20technical%20trader
       zoom: 0.75

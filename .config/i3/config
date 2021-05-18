@@ -69,7 +69,7 @@ mode "command" {
 # other keybindings
 bindsym $mod+b exec --no-startup-id brave; workspace $ws2
 bindsym $mod+q exec --no-startup-id qutebrowser; workspace $ws2
-bindsym $mod+p exec --no-startup-id pcmanfm
+#bindsym $mod+p exec --no-startup-id pcmanfm
 bindsym $mod+e exec --no-startup-id alacritty -e bash -c 'export EDITOR=nvim && neomutt'; workspace $ws3
 bindsym $mod+u exec --no-startup-id blueman-manager; workspace $ws4
 
@@ -235,9 +235,9 @@ assign [title="neomutt"] $ws3
 
 # here's how you set floating and positioning:
 ## exec --no-startup-id /usr/bin/Pcmanfm
-for_window [class="Pcmanfm"] floating enable
-for_window [class="Pcmanfm"] resize set 800 600
-for_window [class="Pcmanfm"] move position center
+#for_window [class="Pcmanfm"] floating enable
+#for_window [class="Pcmanfm"] resize set 800 600
+#for_window [class="Pcmanfm"] move position center
 
 # Window colors
 ## the last 2 digits is transparency
@@ -439,6 +439,7 @@ bindsym $mod+Shift+e 		exec --no-startup-id tdrop -am -w 70% -y 10% -x 15% -h 80
 bindsym $mod+Shift+v 		exec --no-startup-id tdrop -am -w 40% -y 20% -x 30% -h 60% -n 2 alacritty -e nvim -c VimwikiIndex
 bindsym $mod+Shift+p 		exec --no-startup-id tdrop -am -w 60% -y 30% -x 20% -h 40% -n 3 alacritty -e bash -c 'remind -cl+2m@ ~/p-dot-script/remind.rem *5 && echo -e "\n" && sleep 1000'
 bindsym $mod+Shift+q 		exec --no-startup-id tdrop -am -w 98% -y 4% -x 1% -h 95% -n 4 qutebrowser
+bindsym $mod+p 				exec --no-startup-id tdrop -am -w 70% -y 10% -x 15% -h 80% -n 8 pcmanfm
 
 bindsym $mod+Shift+u 		exec --no-startup-id tdrop -am -w 98% -y 4% -x 1% -h 95% -n 5 alacritty
 bindsym $mod+Shift+i 		exec --no-startup-id tdrop -am -w 48% -y 4% -x 1% -h 95% -n 6 alacritty
