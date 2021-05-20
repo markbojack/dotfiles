@@ -229,6 +229,7 @@
 	Plug 'justinmk/vim-sneak'
 		let g:sneak#label = 1
 	Plug 'tpope/vim-repeat'
+	Plug 'psliwka/vim-smoothie'
 
 	" Visuals
 	Plug 'bling/vim-airline'

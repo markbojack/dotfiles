@@ -6,16 +6,16 @@ windows:
   tabs:
   - active: true
     history:
-    - last_visited: '2021-05-18T22:02:29'
+    - last_visited: '2021-05-20T16:02:17'
       pinned: false
-      title: How To Deal With Drawdowns – Quantified Strategies
-      url: https://www.quantifiedstrategies.com/how-to-deal-with-drawdowns/
+      title: vim smoothie plugin - Google Search
+      url: https://www.google.com/search?q=vim%20smoothie%20plugin
     - active: true
-      last_visited: '2021-05-18T22:27:42'
+      last_visited: '2021-05-20T16:02:21'
       pinned: false
       scroll-pos:
         x: 0
-        y: 4560
-      title: Home
-      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
+        y: 0
+      title: "psliwka/vim-smoothie: Smooth scrolling for Vim done right\U0001F964"
+      url: https://github.com/psliwka/vim-smoothie
       zoom: 0.75
