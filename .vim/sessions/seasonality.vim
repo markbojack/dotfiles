@@ -1,6 +1,6 @@
 " ~/.vim/sessions/seasonality.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 20 Tháng 5 2021 at 16:05:42.
+" Created by session.vim 2.13.1 on 22 Tháng 5 2021 at 18:57:01.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -23,15 +23,15 @@ endif
 set shortmess=aoO
 badd +166 R/getHighPrev.R
 badd +138 R/getHighSharpe.R
-badd +1 model-gen.R
+badd +26 model-gen.R
 badd +145 ~/.config/nvim/init.vim
 badd +13 ~/copper-ingot/portfolio13F.R
-badd +5 data/NOTES.md
+badd +46 data/NOTES.md
 badd +130 data/high-sharpe075/null.md
 badd +21 data/high-prev/apr-long.md
 badd +1 data/high-prev/apr-short.md
 badd +39 R/h-report.R
-badd +16 prev-performance.R
+badd +1 prev-performance.R
 badd +22 data/high-prev/may-long.md
 badd +1 data/high-prev/may-short.md
 badd +10 sharpe-performance/sharpe1.0-performance.R
@@ -59,25 +59,34 @@ badd +1 data/high-prev/feb-long.md
 badd +2 data/high-prev/short-cal.md
 badd +2 data/high-prev/jul-long.md
 badd +1 /data/longs
-badd +145 data/high-prev/shorts
-badd +920 data/high-prev/longs
+badd +111 data/high-prev/shorts
+badd +1084 data/high-prev/longs
 badd +2655 longs
 badd +1 shorts
-badd +654 data/high-sharpe/longs
-badd +153 data/high-sharpe/shorts
+badd +849 data/high-sharpe/longs
+badd +176 data/high-sharpe/shorts
 badd +1 R/h-WoMoY.R
 badd +1 R/h-dec-betweenholiday.R
 badd +1 R/h-DoW.R
 badd +1 R/h-DoWoM.R
 badd +1 R/h-MoY.R
+badd +1 sharpe-perforance.R
+badd +33 analysis.R
 argglobal
 %argdel
 $argadd ~/.config/nvim/init.vim
-edit data/NOTES.md
+edit analysis.R
 set splitbelow splitright
 wincmd _ | wincmd |
 vsplit
-1wincmd h
+wincmd _ | wincmd |
+vsplit
+2wincmd h
+wincmd w
+wincmd w
+wincmd _ | wincmd |
+split
+1wincmd k
 wincmd w
 wincmd t
 set winminheight=0
@@ -85,7 +94,11 @@ set winheight=1
 set winminwidth=0
 set winwidth=1
 exe 'vert 1resize ' . ((&columns * 31 + 110) / 221)
-exe 'vert 2resize ' . ((&columns * 189 + 110) / 221)
+exe 'vert 2resize ' . ((&columns * 75 + 110) / 221)
+exe '3resize ' . ((&lines * 26 + 27) / 55)
+exe 'vert 3resize ' . ((&columns * 113 + 110) / 221)
+exe '4resize ' . ((&lines * 26 + 27) / 55)
+exe 'vert 4resize ' . ((&columns * 113 + 110) / 221)
 argglobal
 enew
 " file NERD_tree_3
@@ -99,6 +112,23 @@ setlocal fdn=20
 setlocal nofen
 wincmd w
 argglobal
+if bufexists("term://.//2154933:R\ ") | buffer term://.//2154933:R\  | else | edit term://.//2154933:R\  | endif
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+let s:l = 1244 - ((52 * winheight(0) + 26) / 53)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+1244
+normal! 0
+wincmd w
+argglobal
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -108,16 +138,38 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 1448 - ((52 * winheight(0) + 26) / 53)
+let s:l = 23 - ((14 * winheight(0) + 13) / 26)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-1448
+23
 normal! 0
 wincmd w
-2wincmd w
+argglobal
+if bufexists("data/NOTES.md") | buffer data/NOTES.md | else | edit data/NOTES.md | endif
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+silent! normal! zE
+let s:l = 36 - ((8 * winheight(0) + 13) / 26)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+36
+normal! 0
+wincmd w
+3wincmd w
 exe 'vert 1resize ' . ((&columns * 31 + 110) / 221)
-exe 'vert 2resize ' . ((&columns * 189 + 110) / 221)
+exe 'vert 2resize ' . ((&columns * 75 + 110) / 221)
+exe '3resize ' . ((&lines * 26 + 27) / 55)
+exe 'vert 3resize ' . ((&columns * 113 + 110) / 221)
+exe '4resize ' . ((&lines * 26 + 27) / 55)
+exe 'vert 4resize ' . ((&columns * 113 + 110) / 221)
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
@@ -146,8 +198,8 @@ if !getbufvar(s:bufnr_save, '&modified')
   endif
 endif
 execute "cd" fnameescape(s:cwd_save)
-1resize 53|vert 1resize 31|2resize 53|vert 2resize 189|
-2wincmd w
+1resize 53|vert 1resize 31|2resize 53|vert 2resize 75|3resize 26|vert 3resize 113|4resize 26|vert 4resize 113|
+3wincmd w
 tabnext 1
 if exists('s:wipebuf')
   if empty(bufname(s:wipebuf))
