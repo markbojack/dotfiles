@@ -26,15 +26,16 @@ echo -e "\n" >> ~/vimwiki/index.md
 cat DCIM/notes >> ~/vimwiki/index.md
 
 # clear youtube on phone
-adb shell
-echo "" > /storage/self/primary/DCIM/youtube
-exit
+# doesn't work...
+#adb shell
+#echo "" > /storage/self/primary/DCIM/youtube
+#exit
 
 # msg
 toilet -f mono9 UNPLUG PHONE
 
 # youtube
-youtube-dl -ak DCIM/youtube
+youtube-dl -a DCIM/youtube
 
 # msg
 toilet -f mono9 YT DOWNLOADS COMPLETE

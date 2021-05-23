@@ -1,21 +1,144 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAADwAAACAAAAKjAAAC8AAAAAAAAAAABVYAAAAPAAAA
-    IAAAAqMAAALw
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    IAAABUYAAALw
   tabs:
-  - active: true
-    history:
-    - last_visited: '2021-05-20T16:02:17'
-      pinned: false
-      title: vim smoothie plugin - Google Search
-      url: https://www.google.com/search?q=vim%20smoothie%20plugin
+  - history:
     - active: true
-      last_visited: '2021-05-20T16:02:21'
+      last_visited: '2021-05-23T15:15:27'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: "psliwka/vim-smoothie: Smooth scrolling for Vim done right\U0001F964"
-      url: https://github.com/psliwka/vim-smoothie
+      title: Installing nvidia-utils (460.80-1) breaks dependency 'nvidia-utils=460.73.01'
+        required by linux59-nvidia - Support / Software & Applications - Manjaro Linux
+        Forum
+      url: https://forum.manjaro.org/t/installing-nvidia-utils-460-80-1-breaks-dependency-nvidia-utils-460-73-01-required-by-linux59-nvidia/67105
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-23T15:15:25'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Home
+      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-23T15:15:26'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Installing nvidia-utils (460.80-1) breaks dependency ‘nvidia-utils=460.73.01’
+        required by linux59-nvidia - Google Search
+      url: https://www.google.com/search?q=%20Installing%20nvidia-utils%20(460.80-1)%20breaks%20dependency%20%E2%80%98nvidia-utils=460.73.01%E2%80%99%20required%20by%20linux59-nvidia
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-23T15:15:33'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 120
+      title: 'Update loop (can''t upgrade system because it breaks dependency from
+        EOL kernel) : ManjaroLinux'
+      url: https://www.reddit.com/r/ManjaroLinux/comments/nggldc/update_loop_cant_upgrade_system_because_it_breaks/
+      zoom: 0.75
+    - last_visited: '2021-05-23T15:15:30'
+      pinned: false
+      title: Google
+      url: https://www.google.com/
+  - history:
+    - last_visited: '2021-05-23T15:19:01'
+      pinned: false
+      title: Can't upgrade the system because it breaks a dependency required by an
+        EOL kernel (linux59) - Support / Graphics & Display - Manjaro Linux Forum
+      url: https://forum.manjaro.org/t/cant-upgrade-the-system-because-it-breaks-a-dependency-required-by-an-eol-kernel-linux59/67220/4
+    - last_visited: '2021-05-23T15:19:32'
+      pinned: false
+      title: Google
+      url: https://www.google.com/
+    - last_visited: '2021-05-23T15:19:43'
+      pinned: false
+      title: install new linux kernel terminal - Google Search
+      url: https://www.google.com/search?q=install+new+linux+kernel+terminal&source=hp&ei=FBCqYJSKC4zW0ASRpaKgCw&iflsig=AINFCbYAAAAAYKoeJJzwHR4BPoOsI9jf2-bUeYuDdpPi&oq=install+new+linux+kernel+terminal&gs_lcp=Cgdnd3Mtd2l6EAM6CAgAELEDEIMBOggILhCxAxCDAToFCAAQsQM6AggAOggILhDHARCjAjoLCC4QsQMQxwEQowI6AgguOgUILhCxAzoICC4QxwEQrwE6BggAEBYQHjoICCEQFhAdEB46BAgAEA06CAgAEAgQDRAeOgUIIRCgAToHCCEQChCgAVDcCFjATGDMTmgIcAB4AIABf4gB1CCSAQUyMC4yMZgBAKABAaoBB2d3cy13aXqwAQA&sclient=gws-wiz&ved=0ahUKEwiU5N-er9_wAhUMK5QKHZGSCLQQ4dUDCAc&uact=5
+    - active: true
+      last_visited: '2021-05-23T15:21:51'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 560
+      title: install kernel manjaro terminal - Google Search
+      url: https://www.google.com/search?q=install+kernel+manjaro+terminal&ei=HhCqYPSZL43Y0ASRnqu4CQ&oq=install+kernel+manjaro+terminal&gs_lcp=Cgdnd3Mtd2l6EAMyBggAEBYQHjoHCCEQChCgAToECCEQFToCCAA6BQgAEJECOgUIABCxAzoICC4QxwEQowI6CAgAELEDEIMBOgQIABBDOgcIABCxAxBDOgsILhCxAxDHARCjAjoICC4QsQMQgwE6CggAELEDEIMBEEM6CAguEMcBEK8BOgQIABAKUOaoB1i23wdgq-EHaAJwAngEgAGFAYgB_SGSAQUyMC4yM5gBAKABAaoBB2d3cy13aXqwAQDAAQE&sclient=gws-wiz&ved=0ahUKEwj0oOajr9_wAhUNLJQKHRHPCpcQ4dUDCBE&uact=5
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-23T15:21:58'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 1833
+      title: Manjaro Kernels - Manjaro
+      url: https://wiki.manjaro.org/index.php/Manjaro_Kernels
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-23T15:22:01'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: How To Change To Another Kernel - Support / Kernel - Manjaro Linux Forum
+      url: https://forum.manjaro.org/t/how-to-change-to-another-kernel/30792
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-23T15:22:05'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: How to Change Kernel Version in Manjaro – Linux Hint
+      url: https://linuxhint.com/change-kernel-version-manjaro/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-23T15:22:19'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Does Manjaro update kernel automatically? : ManjaroLinux'
+      url: https://www.reddit.com/r/ManjaroLinux/comments/9kcbxu/does_manjaro_update_kernel_automatically/
+      zoom: 0.75
+  - active: true
+    history:
+    - last_visited: '2021-05-23T15:25:11'
+      pinned: false
+      title: Pacman Overview - Manjaro
+      url: https://wiki.manjaro.org/index.php/Pacman_Overview#Installing_Updates
+    - last_visited: '2021-05-23T15:31:14'
+      pinned: false
+      title: Google
+      url: https://www.google.com/
+    - last_visited: '2021-05-23T15:31:23'
+      pinned: false
+      title: manjaro iso - Google Search
+      url: https://www.google.com/search?q=manjaro+iso&source=hp&ei=0RKqYInuLrC2mAW8nYngDQ&iflsig=AINFCbYAAAAAYKog4ePllAMWMsYLMnpYgmrQBV26ITcH&oq=manjaro+iso&gs_lcp=Cgdnd3Mtd2l6EAMyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAOgUIABCxAzoICAAQsQMQgwE6CAguELEDEIMBOgIILjoLCC4QsQMQxwEQowI6BQguELEDOgQIABADOggILhDHARCvAToECAAQCjoFCCEQoAFQ5BtYoUNg2EVoA3AAeACAAZwBiAGfD5IBBDAuMTSYAQCgAQGqAQdnd3Mtd2l6&sclient=gws-wiz&ved=0ahUKEwjJmqXtsd_wAhUwG6YKHbxOAtwQ4dUDCAc&uact=5
+    - last_visited: '2021-05-23T15:31:26'
+      pinned: false
+      title: Manjaro - Downloads
+      url: https://manjaro.org/download/
+    - active: true
+      last_visited: '2021-05-23T15:31:43'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 120
+      title: Manjaro - XFCE
+      url: https://manjaro.org/downloads/official/xfce/
       zoom: 0.75
