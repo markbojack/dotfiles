@@ -1,6 +1,6 @@
 " ~/.vim/sessions/seasonality.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 23 Tháng 5 2021 at 13:59:34.
+" Created by session.vim 2.13.1 on 23 Tháng 5 2021 at 14:59:12.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -26,7 +26,7 @@ badd +138 R/getHighSharpe.R
 badd +26 model-gen.R
 badd +145 ~/.config/nvim/init.vim
 badd +13 ~/copper-ingot/portfolio13F.R
-badd +55 data/NOTES.md
+badd +53 data/NOTES.md
 badd +130 data/high-sharpe075/null.md
 badd +21 data/high-prev/apr-long.md
 badd +1 data/high-prev/apr-short.md
@@ -72,7 +72,7 @@ badd +1 R/h-DoWoM.R
 badd +1 R/h-MoY.R
 badd +1 sharpe-perforance.R
 badd +1 analysis.R
-badd +24 data/model-gen.R
+badd +16 data/model-gen.R
 argglobal
 %argdel
 $argadd ~/.config/nvim/init.vim
@@ -115,7 +115,7 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 31 - ((30 * winheight(0) + 26) / 53)
+let s:l = 31 - ((26 * winheight(0) + 26) / 53)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
@@ -132,11 +132,11 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 1283 - ((52 * winheight(0) + 26) / 53)
+let s:l = 10053 - ((52 * winheight(0) + 26) / 53)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-1283
+10053
 normal! 0
 wincmd w
 2wincmd w

@@ -67,7 +67,6 @@ mode "command" {
 # bindsym $mod+d exec rofi -show run
 
 # other keybindings
-bindsym $mod+b exec --no-startup-id brave; workspace $ws2
 bindsym $mod+q exec --no-startup-id qutebrowser; workspace $ws2
 #bindsym $mod+p exec --no-startup-id pcmanfm
 bindsym $mod+e exec --no-startup-id alacritty -e bash -c 'export EDITOR=nvim && neomutt'; workspace $ws3
@@ -229,7 +228,7 @@ exec --no-startup-id alacritty
 ## look for: WM_CLASS <look at 2nd result>
 #for_window [class="Alacritty"] move to workspace $ws1
 for_window [class="Brave-browser"] move to workspace $ws2
-#for_window [class="qutebrowser"] move to workspace $ws2
+for_window [class="qutebrowser"] move to workspace $ws2
 #for_window [class="Pcmanfm"] move to workspace $ws3
 assign [title="neomutt"] $ws3
 
@@ -438,7 +437,7 @@ bindsym $mod+Shift+c		exec --no-startup-id tdrop -am -w 30% -y 30% -x 35% -n 0 a
 bindsym $mod+Shift+e 		exec --no-startup-id tdrop -am -w 70% -y 10% -x 15% -h 80% -n 1 alacritty -e neomutt
 bindsym $mod+Shift+v 		exec --no-startup-id tdrop -am -w 40% -y 20% -x 30% -h 60% -n 2 alacritty -e nvim -c VimwikiIndex
 bindsym $mod+Shift+p 		exec --no-startup-id tdrop -am -w 60% -y 30% -x 20% -h 40% -n 3 alacritty -e bash -c 'remind -cl+2m@ ~/p-dot-script/remind.rem *5 && echo -e "\n" && sleep 1000'
-bindsym $mod+Shift+q 		exec --no-startup-id tdrop -am -w 98% -y 4% -x 1% -h 95% -n 4 qutebrowser
+#bindsym $mod+Shift+q 		exec --no-startup-id tdrop -am -w 98% -y 4% -x 1% -h 95% -n 4 qutebrowser
 bindsym $mod+p 				exec --no-startup-id tdrop -am -w 70% -y 10% -x 15% -h 80% -n 8 pcmanfm
 
 bindsym $mod+Shift+u 		exec --no-startup-id tdrop -am -w 98% -y 4% -x 1% -h 95% -n 5 alacritty
