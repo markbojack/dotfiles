@@ -1,12 +1,11 @@
 windows:
-- active: true
-  geometry: !!binary |
+- geometry: !!binary |
     AdnQywADAAAAAAAUAAAADQAABVUAAAL/AAAAGQAAACoAAAVQAAAC+gAAAAAAAAAABVYAAAAZAAAA
     KgAABVAAAAL6
   tabs:
   - history:
     - active: true
-      last_visited: '2021-05-23T20:53:54'
+      last_visited: '2021-05-23T20:58:52'
       pinned: false
       scroll-pos:
         x: 0
@@ -18,7 +17,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-05-23T20:53:53'
+      last_visited: '2021-05-23T20:58:50'
       pinned: false
       scroll-pos:
         x: 0
@@ -28,7 +27,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-05-23T20:53:53'
+      last_visited: '2021-05-23T20:58:51'
       pinned: false
       scroll-pos:
         x: 0
@@ -39,7 +38,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-05-23T20:53:57'
+      last_visited: '2021-05-23T20:58:53'
       pinned: false
       scroll-pos:
         x: 0
@@ -50,7 +49,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-05-23T20:53:53'
+      last_visited: '2021-05-23T20:58:51'
       pinned: false
       scroll-pos:
         x: 0
@@ -60,7 +59,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-05-23T20:53:54'
+      last_visited: '2021-05-23T20:58:51'
       pinned: false
       scroll-pos:
         x: 0
@@ -70,7 +69,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-05-23T20:53:55'
+      last_visited: '2021-05-23T20:58:53'
       pinned: false
       scroll-pos:
         x: 0
@@ -80,7 +79,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-05-23T20:53:54'
+      last_visited: '2021-05-23T20:58:51'
       pinned: false
       scroll-pos:
         x: 0
@@ -90,7 +89,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-05-23T20:54:07'
+      last_visited: '2021-05-23T20:58:55'
       pinned: false
       scroll-pos:
         x: 0
@@ -99,12 +98,8 @@ windows:
       url: https://www.reddit.com/r/ManjaroLinux/comments/9kcbxu/does_manjaro_update_kernel_automatically/
       zoom: 0.75
   - history:
-    - last_visited: '2021-05-23T20:53:53'
-      pinned: false
-      title: Manjaro - XFCE
-      url: https://manjaro.org/downloads/official/xfce/
     - active: true
-      last_visited: '2021-05-23T20:53:57'
+      last_visited: '2021-05-23T20:58:50'
       pinned: false
       scroll-pos:
         x: 0
@@ -114,20 +109,17 @@ windows:
       zoom: 0.75
   - active: true
     history:
-    - last_visited: '2021-05-23T20:54:06'
+    - last_visited: '2021-05-23T20:59:30'
       pinned: false
-      title: manjaro update kernal - Google Search
-      url: https://www.google.com/search?q=%20manjaro%20update%20kernal
-    - last_visited: '2021-05-23T20:54:08'
-      pinned: false
-      title: Manjaro Kernels - Manjaro
-      url: https://wiki.manjaro.org/index.php/Manjaro_Kernels
+      title: manjaro select new kernel - Google Search
+      url: https://www.google.com/search?q=%20manjaro%20select%20new%20kernel
     - active: true
-      last_visited: '2021-05-23T20:57:55'
+      last_visited: '2021-05-23T20:59:34'
       pinned: false
       scroll-pos:
         x: 0
-        y: 2944
-      title: Manjaro Kernels - Manjaro
-      url: https://wiki.manjaro.org/index.php/Manjaro_Kernels#Selecting_Kernels
+        y: 0
+      title: How to change kernel if grub not showing - Support / Installation & Boot
+        - Manjaro Linux Forum
+      url: https://forum.manjaro.org/t/how-to-change-kernel-if-grub-not-showing/14118
       zoom: 0.75
