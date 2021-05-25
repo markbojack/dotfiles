@@ -24,6 +24,7 @@ else
 	options[dmconf]="$HOME/.local/bin/dmconf"
 	options[dmsearch]="$HOME/.local/bin/dmsearch"
 	options[dmqute]="$HOME/.local/bin/dmqute"
+	options[grub]="/etc/default/grub"
 	options[gtk2]="$HOME/.gtkrc-2.0"
 	options[gtk3]="$HOME/.config/gtk-3.0/settings.ini"
 	options[i3]="$HOME/.config/i3/config"

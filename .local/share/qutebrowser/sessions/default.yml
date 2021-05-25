@@ -1,12 +1,12 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAUAAAADQAABVUAAAL/AAAAGQAAACoAAAVQAAAC+gAAAAAAAAAABVYAAAAZAAAA
-    KgAABVAAAAL6
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    IAAABUYAAALw
   tabs:
   - history:
     - active: true
-      last_visited: '2021-05-23T20:53:54'
+      last_visited: '2021-05-25T12:28:31'
       pinned: false
       scroll-pos:
         x: 0
@@ -18,7 +18,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-05-23T20:53:53'
+      last_visited: '2021-05-25T12:28:28'
       pinned: false
       scroll-pos:
         x: 0
@@ -28,7 +28,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-05-23T20:53:53'
+      last_visited: '2021-05-25T12:28:30'
       pinned: false
       scroll-pos:
         x: 0
@@ -39,7 +39,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-05-23T20:53:57'
+      last_visited: '2021-05-25T12:28:30'
       pinned: false
       scroll-pos:
         x: 0
@@ -50,7 +50,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-05-23T20:53:53'
+      last_visited: '2021-05-25T12:28:30'
       pinned: false
       scroll-pos:
         x: 0
@@ -60,7 +60,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-05-23T20:53:54'
+      last_visited: '2021-05-25T12:28:29'
       pinned: false
       scroll-pos:
         x: 0
@@ -70,7 +70,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-05-23T20:53:55'
+      last_visited: '2021-05-25T12:28:30'
       pinned: false
       scroll-pos:
         x: 0
@@ -80,7 +80,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-05-23T20:53:54'
+      last_visited: '2021-05-25T12:28:29'
       pinned: false
       scroll-pos:
         x: 0
@@ -90,7 +90,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-05-23T20:54:07'
+      last_visited: '2021-05-25T12:28:31'
       pinned: false
       scroll-pos:
         x: 0
@@ -99,12 +99,8 @@ windows:
       url: https://www.reddit.com/r/ManjaroLinux/comments/9kcbxu/does_manjaro_update_kernel_automatically/
       zoom: 0.75
   - history:
-    - last_visited: '2021-05-23T20:53:53'
-      pinned: false
-      title: Manjaro - XFCE
-      url: https://manjaro.org/downloads/official/xfce/
     - active: true
-      last_visited: '2021-05-23T20:53:57'
+      last_visited: '2021-05-25T12:28:28'
       pinned: false
       scroll-pos:
         x: 0
@@ -112,22 +108,35 @@ windows:
       title: Home
       url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
       zoom: 0.75
-  - active: true
-    history:
-    - last_visited: '2021-05-23T20:54:06'
-      pinned: false
-      title: manjaro update kernal - Google Search
-      url: https://www.google.com/search?q=%20manjaro%20update%20kernal
-    - last_visited: '2021-05-23T20:54:08'
-      pinned: false
-      title: Manjaro Kernels - Manjaro
-      url: https://wiki.manjaro.org/index.php/Manjaro_Kernels
+  - history:
     - active: true
-      last_visited: '2021-05-23T20:57:55'
+      last_visited: '2021-05-25T12:28:30'
       pinned: false
       scroll-pos:
         x: 0
-        y: 2944
-      title: Manjaro Kernels - Manjaro
-      url: https://wiki.manjaro.org/index.php/Manjaro_Kernels#Selecting_Kernels
+        y: 0
+      title: How to change kernel if grub not showing - Support / Installation & Boot
+        - Manjaro Linux Forum
+      url: https://forum.manjaro.org/t/how-to-change-kernel-if-grub-not-showing/14118/4
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-25T12:34:46'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 209831.jpg (1920×1080)
+      url: https://backiee.com/static/wpdb/wallpapers/1920x1080/209831.jpg
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-05-25T12:33:59'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 611702-taxi-rain-street-bokeh-car-water-macro-blurred-cityscape.jpg (1920×1080)
+      url: https://wallup.net/wp-content/uploads/2018/09/25/611702-taxi-rain-street-bokeh-car-water-macro-blurred-cityscape.jpg
       zoom: 0.75

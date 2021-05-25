@@ -1,125 +1,36 @@
 windows:
-- geometry: !!binary |
-    AdnQywADAAAAAAAUAAAADQAABVUAAAL/AAAAGQAAACoAAAVQAAAC+gAAAAAAAAAABVYAAAAZAAAA
-    KgAABVAAAAL6
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAAAAAAAAAAABVUAAAL/AAAADwAAACAAAAKjAAAC8AAAAAAABAAABVYAAAAAAAAA
+    AAAABVUAAAL/
   tabs:
   - history:
+    - last_visited: '2021-05-25T12:46:37'
+      pinned: false
+      title: terminal colors - Google Search
+      url: https://www.google.com/search?q=terminal%20colors
+    - last_visited: '2021-05-25T12:52:27'
+      pinned: false
+      title: color scheme alacritty - Google Search
+      url: https://www.google.com/search?q=color+scheme+alacritty&ei=PI-sYMi7Eov70gThsYu4Aw&oq=color+scheme+alacritty&gs_lcp=Cgdnd3Mtd2l6EAMyBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjoHCAAQRxCwAzoHCAAQsAMQQzoECAAQQzoKCAAQsQMQgwEQQzoCCAA6CAgAELEDEIMBOggILhCxAxCDAToFCC4QkQI6BQgAEJECOgcIABCxAxBDOgUIABCxAzoLCC4QsQMQkQIQkwI6DgguELEDEIMBEMcBEK8BOgUILhCxAzoICC4QxwEQowI6CwgAELEDEIMBEJECOgQIABAKOggIABAIEA0QHlD-nxRY04gVYOelFWgOcAJ4BIABsQGIAcQvkgEEMC40NZgBAKABAaoBB2d3cy13aXqwAQDIAQrAAQE&sclient=gws-wiz&ved=0ahUKEwjIyefkkOTwAhWLvZQKHeHYAjcQ4dUDCBE&uact=5
     - active: true
-      last_visited: '2021-05-23T20:58:52'
+      last_visited: '2021-05-25T12:53:45'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: Installing nvidia-utils (460.80-1) breaks dependency 'nvidia-utils=460.73.01'
-        required by linux59-nvidia - Support / Software & Applications - Manjaro Linux
-        Forum
-      url: https://forum.manjaro.org/t/installing-nvidia-utils-460-80-1-breaks-dependency-nvidia-utils-460-73-01-required-by-linux59-nvidia/67105
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-23T20:58:50'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Home
-      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-23T20:58:51'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Installing nvidia-utils (460.80-1) breaks dependency ‘nvidia-utils=460.73.01’
-        required by linux59-nvidia - Google Search
-      url: https://www.google.com/search?q=%20Installing%20nvidia-utils%20(460.80-1)%20breaks%20dependency%20%E2%80%98nvidia-utils=460.73.01%E2%80%99%20required%20by%20linux59-nvidia
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-23T20:58:53'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'Update loop (can''t upgrade system because it breaks dependency from
-        EOL kernel) : ManjaroLinux'
-      url: https://www.reddit.com/r/ManjaroLinux/comments/nggldc/update_loop_cant_upgrade_system_because_it_breaks/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-23T20:58:51'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: install kernel manjaro terminal - Google Search
-      url: https://www.google.com/search?q=install+kernel+manjaro+terminal&ei=HhCqYPSZL43Y0ASRnqu4CQ&oq=install+kernel+manjaro+terminal&gs_lcp=Cgdnd3Mtd2l6EAMyBggAEBYQHjoHCCEQChCgAToECCEQFToCCAA6BQgAEJECOgUIABCxAzoICC4QxwEQowI6CAgAELEDEIMBOgQIABBDOgcIABCxAxBDOgsILhCxAxDHARCjAjoICC4QsQMQgwE6CggAELEDEIMBEEM6CAguEMcBEK8BOgQIABAKUOaoB1i23wdgq-EHaAJwAngEgAGFAYgB_SGSAQUyMC4yM5gBAKABAaoBB2d3cy13aXqwAQDAAQE&sclient=gws-wiz&ved=0ahUKEwj0oOajr9_wAhUNLJQKHRHPCpcQ4dUDCBE&uact=5
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-23T20:58:51'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Manjaro Kernels - Manjaro
-      url: https://wiki.manjaro.org/index.php/Manjaro_Kernels
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-23T20:58:53'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: How To Change To Another Kernel - Support / Kernel - Manjaro Linux Forum
-      url: https://forum.manjaro.org/t/how-to-change-to-another-kernel/30792
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-23T20:58:51'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: How to Change Kernel Version in Manjaro – Linux Hint
-      url: https://linuxhint.com/change-kernel-version-manjaro/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-23T20:58:55'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'Does Manjaro update kernel automatically? : ManjaroLinux'
-      url: https://www.reddit.com/r/ManjaroLinux/comments/9kcbxu/does_manjaro_update_kernel_automatically/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-23T20:58:50'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Home
-      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
+        y: 800
+      title: blue color scheme alacritty - Google Search
+      url: https://www.google.com/search?q=blue+color+scheme+alacritty&ei=mpCsYNCjDdLm-Abi64OoDA&oq=blue+color+scheme+alacritty&gs_lcp=Cgdnd3Mtd2l6EAM6CAgAEAgQBxAeOggIABANEAUQHjoICAAQCBANEB5Q5doEWMLfBGD04ARoAHACeACAAaQBiAGvBpIBAzAuNpgBAKABAaoBB2d3cy13aXrAAQE&sclient=gws-wiz&ved=0ahUKEwjQ2NSLkuTwAhVSM94KHeL1AMUQ4dUDCBE&uact=5
       zoom: 0.75
   - active: true
     history:
-    - last_visited: '2021-05-23T20:59:30'
-      pinned: false
-      title: manjaro select new kernel - Google Search
-      url: https://www.google.com/search?q=%20manjaro%20select%20new%20kernel
     - active: true
-      last_visited: '2021-05-23T20:59:34'
+      last_visited: '2021-05-25T12:53:51'
+      original-url: https://github.com/jwilm/alacritty/wiki/Color-schemes
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: How to change kernel if grub not showing - Support / Installation & Boot
-        - Manjaro Linux Forum
-      url: https://forum.manjaro.org/t/how-to-change-kernel-if-grub-not-showing/14118
+        y: 880
+      title: Color schemes · alacritty/alacritty Wiki
+      url: https://github.com/alacritty/alacritty/wiki/Color-schemes
       zoom: 0.75
