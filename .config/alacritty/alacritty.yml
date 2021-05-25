@@ -247,63 +247,39 @@ draw_bold_text_with_bright_colors: true
 #cyan:    '0x8FBCBB'
 #white:   '0xECEFF4'
 
-# Colors (Tomorrow Night Eighties)
-#colors:
-## Default colors
-#primary:
-#background: '0x151515'
-#foreground: '0xd0d0d0'
-#
-## Normal colors
-#normal:
-#black:   '0x151515'
-#red:     '0xfb9fb1'
-#green:   '0xacc267'
-#yellow:  '0xddb26f'
-#blue:    '0x6fc2ef'
-#magenta: '0xe1a3ee'
-#cyan:    '0x12cfc0'
-#white:   '0xd0d0d0'
-#
-## Bright colors
-#bright:
-#black:   '0x505050'
-#red:     '0xfb9fb1'
-#green:   '0xacc267'
-#yellow:  '0xddb26f'
-#blue:    '0x6fc2ef'
-#magenta: '0xe1a3ee'
-#cyan:    '0x12cfc0'
-#white:   '0xf5f5f5'
-
+# Colors (Oceanic Next)
 colors:
   # Default colors
   primary:
-    background: '0x2b303b'
-    foreground: '0xc0c5ce'
+    background: '#1b2b34'
+    foreground: '#d8dee9'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '#1b2b34'
+    cursor: '#ffffff'
 
   # Normal colors
   normal:
-    black:   '0x2b303b'
-    red:     '0x8fa1b3'
-    green:   '0xe9b2e1'
-    yellow:  '0xebcb8b'
-    blue:    '0x8fa1b3'
-    magenta: '0xb48ead'
-    cyan:    '0x96b5b4'
-    white:   '0xc0c5ce'
+    black:   '#343d46'
+    red:    '#6699cc'
+    green:   '#99C794'
+    yellow:  '#FAC863'
+    blue:    '#6699cc'
+    magenta: '#c594c5'
+    cyan:    '#5fb3b3'
+    white:   '#d8dee9'
 
   # Bright colors
   bright:
-    black:   '0x65737e'
-    red:     '0x8fa1b3'
-    green:   '0xe9b2e1'
-    yellow:  '0xebcb8b'
-    blue:    '0x8fa1b3'
-    magenta: '0xb48ead'
-    cyan:    '0x96b5b4'
-    white:   '0xeff1f5'
-
+    black:   '#343d46'
+    red:    '#6699cc'
+    green:   '#99C794'
+    yellow:  '#FAC863'
+    blue:    '#6699cc'
+    magenta: '#c594c5'
+    cyan:    '#5fb3b3'
+    white:   '#d8dee9'
 
 # Visual Bell
 #

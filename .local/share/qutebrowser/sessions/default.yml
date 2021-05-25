@@ -4,139 +4,18 @@ windows:
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
     IAAABUYAAALw
   tabs:
-  - history:
-    - active: true
-      last_visited: '2021-05-25T12:28:31'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Installing nvidia-utils (460.80-1) breaks dependency 'nvidia-utils=460.73.01'
-        required by linux59-nvidia - Support / Software & Applications - Manjaro Linux
-        Forum
-      url: https://forum.manjaro.org/t/installing-nvidia-utils-460-80-1-breaks-dependency-nvidia-utils-460-73-01-required-by-linux59-nvidia/67105
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-25T12:28:28'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Home
-      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-25T12:28:30'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Installing nvidia-utils (460.80-1) breaks dependency ‘nvidia-utils=460.73.01’
-        required by linux59-nvidia - Google Search
-      url: https://www.google.com/search?q=%20Installing%20nvidia-utils%20(460.80-1)%20breaks%20dependency%20%E2%80%98nvidia-utils=460.73.01%E2%80%99%20required%20by%20linux59-nvidia
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-25T12:28:30'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'Update loop (can''t upgrade system because it breaks dependency from
-        EOL kernel) : ManjaroLinux'
-      url: https://www.reddit.com/r/ManjaroLinux/comments/nggldc/update_loop_cant_upgrade_system_because_it_breaks/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-25T12:28:30'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: install kernel manjaro terminal - Google Search
-      url: https://www.google.com/search?q=install+kernel+manjaro+terminal&ei=HhCqYPSZL43Y0ASRnqu4CQ&oq=install+kernel+manjaro+terminal&gs_lcp=Cgdnd3Mtd2l6EAMyBggAEBYQHjoHCCEQChCgAToECCEQFToCCAA6BQgAEJECOgUIABCxAzoICC4QxwEQowI6CAgAELEDEIMBOgQIABBDOgcIABCxAxBDOgsILhCxAxDHARCjAjoICC4QsQMQgwE6CggAELEDEIMBEEM6CAguEMcBEK8BOgQIABAKUOaoB1i23wdgq-EHaAJwAngEgAGFAYgB_SGSAQUyMC4yM5gBAKABAaoBB2d3cy13aXqwAQDAAQE&sclient=gws-wiz&ved=0ahUKEwj0oOajr9_wAhUNLJQKHRHPCpcQ4dUDCBE&uact=5
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-25T12:28:29'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Manjaro Kernels - Manjaro
-      url: https://wiki.manjaro.org/index.php/Manjaro_Kernels
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-25T12:28:30'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: How To Change To Another Kernel - Support / Kernel - Manjaro Linux Forum
-      url: https://forum.manjaro.org/t/how-to-change-to-another-kernel/30792
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-25T12:28:29'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: How to Change Kernel Version in Manjaro – Linux Hint
-      url: https://linuxhint.com/change-kernel-version-manjaro/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-25T12:28:31'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'Does Manjaro update kernel automatically? : ManjaroLinux'
-      url: https://www.reddit.com/r/ManjaroLinux/comments/9kcbxu/does_manjaro_update_kernel_automatically/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-25T12:28:28'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Home
-      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-25T12:28:30'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: How to change kernel if grub not showing - Support / Installation & Boot
-        - Manjaro Linux Forum
-      url: https://forum.manjaro.org/t/how-to-change-kernel-if-grub-not-showing/14118/4
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-25T12:34:46'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 209831.jpg (1920×1080)
-      url: https://backiee.com/static/wpdb/wallpapers/1920x1080/209831.jpg
-      zoom: 0.75
   - active: true
     history:
+    - last_visited: '2021-05-25T13:08:26'
+      pinned: false
+      title: vim go back to previous location - Google Search
+      url: https://www.google.com/search?q=vim%20go%20back%20to%20previous%20location
     - active: true
-      last_visited: '2021-05-25T12:33:59'
+      last_visited: '2021-05-25T13:08:30'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: 611702-taxi-rain-street-bokeh-car-water-macro-blurred-cityscape.jpg (1920×1080)
-      url: https://wallup.net/wp-content/uploads/2018/09/25/611702-taxi-rain-street-bokeh-car-water-macro-blurred-cityscape.jpg
+        y: 360
+      title: Vim - Go to previous location - Stack Overflow
+      url: https://stackoverflow.com/questions/11018713/vim-go-to-previous-location
       zoom: 0.75
