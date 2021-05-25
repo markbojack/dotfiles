@@ -35,7 +35,7 @@ cat DCIM/notes >> ~/vimwiki/index.md
 toilet -f mono9 UNPLUG PHONE
 
 # youtube
-youtube-dl -a DCIM/youtube
+#youtube-dl -a DCIM/youtube
 
 # msg
-toilet -f mono9 YT DOWNLOADS COMPLETE
+#toilet -f mono9 YT DOWNLOADS COMPLETE

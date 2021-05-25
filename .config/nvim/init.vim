@@ -9,7 +9,8 @@
 
 " NB
 " ,dsp		scratchpad
-" gx		follow link under cursor
+" gx		follow link under cursor to website
+" gf		follow link under cursor to file
 " ,g		rip grep
 " ,wp		wrap
 " ,o 		spellcheck
@@ -94,7 +95,7 @@
 		map <leader>wr :wa<cr>:so %<cr>
 		nnoremap c "_c
 		vnoremap . :norm .<cr>
-		
+
 		" ripgrep for searching vimwiki
 		map <leader>g :Rg <Right>
 
