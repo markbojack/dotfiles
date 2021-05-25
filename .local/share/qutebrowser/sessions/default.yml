@@ -4,18 +4,38 @@ windows:
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
     IAAABUYAAALw
   tabs:
-  - active: true
-    history:
-    - last_visited: '2021-05-25T13:08:26'
-      pinned: false
-      title: vim go back to previous location - Google Search
-      url: https://www.google.com/search?q=vim%20go%20back%20to%20previous%20location
+  - history:
     - active: true
-      last_visited: '2021-05-25T13:08:30'
+      last_visited: '2021-05-25T22:44:31'
       pinned: false
       scroll-pos:
         x: 0
-        y: 360
+        y: 0
       title: Vim - Go to previous location - Stack Overflow
       url: https://stackoverflow.com/questions/11018713/vim-go-to-previous-location
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-25T22:44:31'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Market Capitalization Definition
+      url: https://www.investopedia.com/terms/m/marketcapitalization.asp
+      zoom: 0.75
+  - active: true
+    history:
+    - last_visited: '2021-05-25T22:44:32'
+      pinned: false
+      title: market cap micro - Google Search
+      url: https://www.google.com/search?q=market%20cap%20micro
+    - active: true
+      last_visited: '2021-05-25T22:44:36'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Microcap stock - Wikipedia
+      url: https://en.wikipedia.org/wiki/Microcap_stock
       zoom: 0.75

@@ -1,6 +1,6 @@
 " ~/.vim/sessions/seasonality.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 25 Tháng 5 2021 at 21:56:26.
+" Created by session.vim 2.13.1 on 25 Tháng 5 2021 at 22:47:15.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -79,7 +79,6 @@ badd +1 .scratchpads/scratchpad.R
 argglobal
 %argdel
 $argadd ~/.config/nvim/init.vim
-set stal=2
 edit data/model-gen.R
 set splitbelow splitright
 wincmd _ | wincmd |
@@ -103,11 +102,11 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 52 - ((51 * winheight(0) + 26) / 52)
+let s:l = 10053 - ((52 * winheight(0) + 26) / 53)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-52
+10053
 normal! 0
 wincmd w
 argglobal
@@ -120,41 +119,17 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 76 - ((21 * winheight(0) + 26) / 52)
+let s:l = 49 - ((19 * winheight(0) + 26) / 53)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-76
-normal! 014|
+49
+normal! 016|
 wincmd w
 2wincmd w
 exe 'vert 1resize ' . ((&columns * 80 + 110) / 221)
 exe 'vert 2resize ' . ((&columns * 140 + 110) / 221)
-tabedit .scratchpads/scratchpad.R
-set splitbelow splitright
-wincmd t
-set winminheight=0
-set winheight=1
-set winminwidth=0
-set winwidth=1
-argglobal
-setlocal fdm=manual
-setlocal fde=0
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=0
-setlocal fml=1
-setlocal fdn=20
-setlocal fen
-silent! normal! zE
-let s:l = 1 - ((0 * winheight(0) + 26) / 52)
-if s:l < 1 | let s:l = 1 | endif
-exe s:l
-normal! zt
-1
-normal! 0
 tabnext 1
-set stal=1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
 endif
