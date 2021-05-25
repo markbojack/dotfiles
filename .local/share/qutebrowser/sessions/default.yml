@@ -6,7 +6,7 @@ windows:
   tabs:
   - history:
     - active: true
-      last_visited: '2021-05-25T23:15:04'
+      last_visited: '2021-05-25T23:51:26'
       pinned: false
       scroll-pos:
         x: 0
@@ -16,7 +16,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-05-25T23:15:04'
+      last_visited: '2021-05-25T23:51:26'
       pinned: false
       scroll-pos:
         x: 0
@@ -24,14 +24,28 @@ windows:
       title: Market Capitalization Definition
       url: https://www.investopedia.com/terms/m/marketcapitalization.asp
       zoom: 0.75
-  - active: true
-    history:
+  - history:
     - active: true
-      last_visited: '2021-05-25T23:15:04'
+      last_visited: '2021-05-25T23:51:25'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
       title: Microcap stock - Wikipedia
       url: https://en.wikipedia.org/wiki/Microcap_stock
+      zoom: 0.75
+  - active: true
+    history:
+    - last_visited: '2021-05-25T23:51:26'
+      pinned: false
+      title: r getsymbols try - Google Search
+      url: https://www.google.com/search?q=r%20getsymbols%20try
+    - active: true
+      last_visited: '2021-05-25T23:51:32'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 1800
+      title: r - How to wrap quantmod's getSymbols() in tryCatch - Stack Overflow
+      url: https://stackoverflow.com/questions/27236055/how-to-wrap-quantmods-getsymbols-in-trycatch
       zoom: 0.75
