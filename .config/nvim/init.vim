@@ -113,12 +113,12 @@
 		"" new way!
 		map <leader>ne :%norm <Right>
 		" map <leader>ne :g/^/norm<Right> " old way for reference
+		" sort everything
+		map <leader>se :%sort u<cr>
 		" rm trailing whitespace
         map <leader>tws :%s/\s\+$//e<cr>:%s/\n\+\%$//e<cr>
 		" email signature
 		" map <leader>sft :r !toilet -f future sent with neomutt<cr>
-		" get notes from phone, PN for phone notes
-		map <leader>pn :r ~/p-dot-script/notes<cr>
 
 	" Macros
 		let @h = 'I<a class="bookmarkllcw href="f]cw" target="_blank">A€kb€kb</a'
