@@ -196,8 +196,7 @@ windows:
       title: r average spread finance - Google Search
       url: https://www.google.com/search?q=r+average+spread+finance&ei=wk6uYP2uNdGQr7wP7reeCA&oq=r+average+spread+finance&gs_lcp=Cgdnd3Mtd2l6EAM6CAghEBYQHRAeUKxXWPFjYItlaABwAngAgAGbAYgB0AiSAQMwLjmYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=gws-wiz&ved=0ahUKEwj9l7TKu-fwAhVRyIsBHe6bBwEQ4dUDCBE&uact=5
       zoom: 0.75
-  - active: true
-    history:
+  - history:
     - last_visited: '2021-05-26T20:37:37'
       pinned: false
       title: average spread formula - Google Search
@@ -218,4 +217,25 @@ windows:
         y: 0
       title: r average "spread" quantmod - Google Search
       url: https://www.google.com/search?q=r+average+%22spread%22+quantmod&sa=X&ved=2ahUKEwid3oadvOfwAhWsGKYKHYeWBmgQ5t4CMAB6BAgFEAY&biw=1781&bih=942&dpr=0.75
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-26T21:04:18'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: NOVT Novanta Inc. Stock Quote
+      url: https://finviz.com/quote.ashx?t=novt
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-05-26T21:04:40'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: MCN Madison Covered Call & Equity Strategy Fund Stock Quote
+      url: https://finviz.com/quote.ashx?t=mcn
       zoom: 0.75
