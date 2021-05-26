@@ -1,6 +1,6 @@
 " ~/.vim/sessions/seasonality.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 26 Tháng 5 2021 at 11:59:33.
+" Created by session.vim 2.13.1 on 26 Tháng 5 2021 at 12:03:16.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -47,7 +47,7 @@ badd +1 sharpe0.75-performance.R
 badd +1 R/h-dec-xmasnyd.R
 badd +1 R/h-WoM.R
 badd +1 sharpe1.0-performance.R
-badd +1 R/getAndProcessSymbols.R
+badd +13 R/getAndProcessSymbols.R
 badd +22 R/packagesAndOptions.R
 badd +27 ~/copper-ingot/docs/fees.md
 badd +2 data/high-prev/jun-long.md
@@ -73,7 +73,7 @@ badd +1 R/h-DoWoM.R
 badd +1 R/h-MoY.R
 badd +1 sharpe-perforance.R
 badd +30 analysis.R
-badd +26 data/model-gen.R
+badd +7 data/model-gen.R
 badd +260 ~/.config/picom/picom.conf
 badd +1 .scratchpads/scratchpad.R
 argglobal
@@ -135,12 +135,12 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 9 - ((8 * winheight(0) + 26) / 53)
+let s:l = 7 - ((6 * winheight(0) + 26) / 53)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-9
-normal! 04|
+7
+normal! 0
 wincmd w
 3wincmd w
 exe 'vert 1resize ' . ((&columns * 31 + 110) / 221)
