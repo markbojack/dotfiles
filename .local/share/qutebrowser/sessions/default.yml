@@ -6,16 +6,16 @@ windows:
   tabs:
   - active: true
     history:
-    - last_visited: '2021-05-26T16:10:02'
+    - last_visited: '2021-05-26T17:45:06'
       pinned: false
-      title: vim delete surround quote - Google Search
-      url: https://www.google.com/search?q=vim%20delete%20surround%20quote
+      title: market cap - Google Search
+      url: https://www.google.com/search?q=market%20cap
     - active: true
-      last_visited: '2021-05-26T16:10:06'
+      last_visited: '2021-05-26T17:45:10'
       pinned: false
       scroll-pos:
         x: 0
-        y: 480
-      title: 'tpope/vim-surround: surround.vim: quoting/parenthesizing made simple'
-      url: https://github.com/tpope/vim-surround
+        y: 1520
+      title: Market Capitalization Definition
+      url: https://www.investopedia.com/terms/m/marketcapitalization.asp
       zoom: 0.75
