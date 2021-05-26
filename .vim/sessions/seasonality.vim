@@ -1,6 +1,6 @@
 " ~/.vim/sessions/seasonality.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 26 Tháng 5 2021 at 10:38:13.
+" Created by session.vim 2.13.1 on 26 Tháng 5 2021 at 11:59:33.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -21,7 +21,7 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +1 R/getHighPrev.R
+badd +130 R/getHighPrev.R
 badd +138 R/getHighSharpe.R
 badd +26 model-gen.R
 badd +11 NERD_tree_1
@@ -47,7 +47,7 @@ badd +1 sharpe0.75-performance.R
 badd +1 R/h-dec-xmasnyd.R
 badd +1 R/h-WoM.R
 badd +1 sharpe1.0-performance.R
-badd +31 R/getAndProcessSymbols.R
+badd +1 R/getAndProcessSymbols.R
 badd +22 R/packagesAndOptions.R
 badd +27 ~/copper-ingot/docs/fees.md
 badd +2 data/high-prev/jun-long.md
@@ -88,10 +88,6 @@ vsplit
 2wincmd h
 wincmd w
 wincmd w
-wincmd _ | wincmd |
-split
-1wincmd k
-wincmd w
 wincmd t
 set winminheight=0
 set winheight=1
@@ -99,10 +95,7 @@ set winminwidth=0
 set winwidth=1
 exe 'vert 1resize ' . ((&columns * 31 + 110) / 221)
 exe 'vert 2resize ' . ((&columns * 80 + 110) / 221)
-exe '3resize ' . ((&lines * 26 + 27) / 55)
 exe 'vert 3resize ' . ((&columns * 108 + 110) / 221)
-exe '4resize ' . ((&lines * 26 + 27) / 55)
-exe 'vert 4resize ' . ((&columns * 108 + 110) / 221)
 argglobal
 enew
 " file NERD_tree_3
@@ -125,11 +118,11 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 1264 - ((52 * winheight(0) + 26) / 53)
+let s:l = 10053 - ((52 * winheight(0) + 26) / 53)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-1264
+10053
 normal! 0
 wincmd w
 argglobal
@@ -142,38 +135,17 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 26 - ((12 * winheight(0) + 13) / 26)
+let s:l = 9 - ((8 * winheight(0) + 26) / 53)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-26
-normal! 0
+9
+normal! 04|
 wincmd w
-argglobal
-if bufexists("R/getAndProcessSymbols.R") | buffer R/getAndProcessSymbols.R | else | edit R/getAndProcessSymbols.R | endif
-setlocal fdm=manual
-setlocal fde=0
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=0
-setlocal fml=1
-setlocal fdn=20
-setlocal fen
-silent! normal! zE
-let s:l = 31 - ((25 * winheight(0) + 13) / 26)
-if s:l < 1 | let s:l = 1 | endif
-exe s:l
-normal! zt
-31
-normal! 0
-wincmd w
-4wincmd w
+3wincmd w
 exe 'vert 1resize ' . ((&columns * 31 + 110) / 221)
 exe 'vert 2resize ' . ((&columns * 80 + 110) / 221)
-exe '3resize ' . ((&lines * 26 + 27) / 55)
 exe 'vert 3resize ' . ((&columns * 108 + 110) / 221)
-exe '4resize ' . ((&lines * 26 + 27) / 55)
-exe 'vert 4resize ' . ((&columns * 108 + 110) / 221)
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
@@ -202,8 +174,8 @@ if !getbufvar(s:bufnr_save, '&modified')
   endif
 endif
 execute "cd" fnameescape(s:cwd_save)
-1resize 53|vert 1resize 31|2resize 53|vert 2resize 80|3resize 26|vert 3resize 108|4resize 26|vert 4resize 108|
-4wincmd w
+1resize 53|vert 1resize 31|2resize 53|vert 2resize 80|3resize 53|vert 3resize 108|
+3wincmd w
 tabnext 1
 if exists('s:wipebuf')
   if empty(bufname(s:wipebuf))
