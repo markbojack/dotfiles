@@ -1,0 +1,221 @@
+windows:
+- geometry: !!binary |
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    IAAABUYAAALw
+  tabs:
+  - history:
+    - active: true
+      last_visited: '2021-05-27T13:37:04'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Market Capitalization Definition
+      url: https://www.investopedia.com/terms/m/marketcapitalization.asp
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-27T13:37:05'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: CFBK CF Bankshares Inc. Stock Quote
+      url: https://finviz.com/quote.ashx?t=cfbk#statements
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-27T13:37:05'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: ONCY Oncolytics Biotech Inc. Stock Quote
+      url: https://finviz.com/quote.ashx?t=oncy
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-27T13:37:06'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: NOA North American Construction Group Ltd. Stock Quote
+      url: https://finviz.com/quote.ashx?t=noa
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-27T13:37:06'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: GDOT Green Dot Corporation Stock Quote
+      url: https://finviz.com/quote.ashx?t=gdot
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-27T13:37:05'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: GCV The Gabelli Convertible and Income Securities Fund Inc. Stock Quote
+      url: https://finviz.com/quote.ashx?t=gcv
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-27T13:37:05'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: r readable numbers - Google Search
+      url: https://www.google.com/search?q=r%20readable%20numbers
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-27T13:37:04'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: r - How to display numbers in a human readable format? - Stack Overflow
+      url: https://stackoverflow.com/questions/14124167/how-to-display-numbers-in-a-human-readable-format
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-27T13:37:07'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Display Large Numbers Separated with Comma in R (2 Example Codes)
+      url: https://statisticsglobe.com/display-large-numbers-separated-with-comma-in-r
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-27T13:37:06'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: XHE SPDR S&P Health Care Equipment ETF Stock Quote
+      url: https://finviz.com/quote.ashx?t=xhe
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-27T13:37:04'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'XHE ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/XHE
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-27T13:57:10'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: SPY - S&P 500 SPDR ETF Price - Barchart.com
+      url: https://www.barchart.com/etfs-funds/quotes/SPY/overview
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-27T13:37:05'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: SPY | SharpChart | StockCharts.com
+      url: https://stockcharts.com/h-sc/ui?s=SPY
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-27T13:37:06'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: average stock spread - Google Search
+      url: https://www.google.com/search?q=average%20stock%20spread
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-27T13:37:06'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: average big-ask spread stock - Google Search
+      url: https://www.google.com/search?q=average%20big-ask%20spread%20stock
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-27T13:37:05'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: r average spread finance - Google Search
+      url: https://www.google.com/search?q=r+average+spread+finance&ei=wk6uYP2uNdGQr7wP7reeCA&oq=r+average+spread+finance&gs_lcp=Cgdnd3Mtd2l6EAM6CAghEBYQHRAeUKxXWPFjYItlaABwAngAgAGbAYgB0AiSAQMwLjmYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=gws-wiz&ved=0ahUKEwj9l7TKu-fwAhVRyIsBHe6bBwEQ4dUDCBE&uact=5
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-27T13:37:05'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: r average "spread" quantmod - Google Search
+      url: https://www.google.com/search?q=r+average+%22spread%22+quantmod&sa=X&ved=2ahUKEwid3oadvOfwAhWsGKYKHYeWBmgQ5t4CMAB6BAgFEAY&biw=1781&bih=942&dpr=0.75
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-27T13:37:05'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: NOVT Novanta Inc. Stock Quote
+      url: https://finviz.com/quote.ashx?t=novt
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-27T13:37:05'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: MCN Madison Covered Call & Equity Strategy Fund Stock Quote
+      url: https://finviz.com/quote.ashx?t=mcn
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-05-27T13:43:06'
+      pinned: false
+      title: ggplot vertical line - Google Search
+      url: https://www.google.com/search?q=ggplot%20vertical%20line
+    - active: true
+      last_visited: '2021-05-27T13:43:15'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: r - Adding vertical line in plot ggplot - Stack Overflow
+      url: https://stackoverflow.com/questions/19622063/adding-vertical-line-in-plot-ggplot
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-05-27T13:43:13'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 4881
+      title: 'Reference lines: horizontal, vertical, and diagonal — geom_abline •
+        ggplot2'
+      url: https://ggplot2.tidyverse.org/reference/geom_abline.html
+      zoom: 0.75
