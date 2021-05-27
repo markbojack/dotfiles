@@ -1,6 +1,6 @@
 " ~/.vim/sessions/seasonality.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 26 Tháng 5 2021 at 21:06:23.
+" Created by session.vim 2.13.1 on 27 Tháng 5 2021 at 12:59:42.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -31,7 +31,7 @@ badd +92 data/NOTES.md
 badd +130 data/high-sharpe075/null.md
 badd +21 data/high-prev/apr-long.md
 badd +1 data/high-prev/apr-short.md
-badd +15 R/h-report.R
+badd +280 R/h-report.R
 badd +1 prev-performance.R
 badd +22 data/high-prev/may-long.md
 badd +1 data/high-prev/may-short.md
@@ -72,7 +72,7 @@ badd +1 R/h-DoW.R
 badd +1 R/h-DoWoM.R
 badd +1 R/h-MoY.R
 badd +1 sharpe-perforance.R
-badd +63 analysis.R
+badd +128 analysis.R
 badd +115 data/model-gen.R
 badd +260 ~/.config/picom/picom.conf
 badd +1471 data/prev-etf-long
@@ -88,11 +88,50 @@ argglobal
 $argadd ~/.config/nvim/init.vim
 edit analysis.R
 set splitbelow splitright
+wincmd _ | wincmd |
+vsplit
+wincmd _ | wincmd |
+vsplit
+2wincmd h
+wincmd w
+wincmd w
 wincmd t
 set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
+exe 'vert 1resize ' . ((&columns * 31 + 110) / 221)
+exe 'vert 2resize ' . ((&columns * 90 + 110) / 221)
+exe 'vert 3resize ' . ((&columns * 98 + 110) / 221)
+argglobal
+enew
+" file NERD_tree_2
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal nofen
+wincmd w
+argglobal
+if bufexists("term://.//55233:R\ ") | buffer term://.//55233:R\  | else | edit term://.//55233:R\  | endif
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+let s:l = 561 - ((52 * winheight(0) + 26) / 53)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+561
+normal! 0
+wincmd w
 argglobal
 setlocal fdm=manual
 setlocal fde=0
@@ -103,12 +142,17 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 129 - ((41 * winheight(0) + 26) / 53)
+let s:l = 128 - ((35 * winheight(0) + 26) / 53)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-129
-normal! 04|
+128
+normal! 042|
+wincmd w
+3wincmd w
+exe 'vert 1resize ' . ((&columns * 31 + 110) / 221)
+exe 'vert 2resize ' . ((&columns * 90 + 110) / 221)
+exe 'vert 3resize ' . ((&columns * 98 + 110) / 221)
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
@@ -126,6 +170,19 @@ let &so = s:so_save | let &siso = s:siso_save
 " by :mksession out of the box).
 
 1wincmd w
+tabnext 1
+let s:bufnr_save = bufnr("%")
+let s:cwd_save = getcwd()
+NERDTree ~/seasonality
+if !getbufvar(s:bufnr_save, '&modified')
+  let s:wipebuflines = getbufline(s:bufnr_save, 1, '$')
+  if len(s:wipebuflines) <= 1 && empty(get(s:wipebuflines, 0, ''))
+    silent execute 'bwipeout' s:bufnr_save
+  endif
+endif
+execute "cd" fnameescape(s:cwd_save)
+1resize 53|vert 1resize 31|2resize 53|vert 2resize 90|3resize 53|vert 3resize 98|
+3wincmd w
 tabnext 1
 if exists('s:wipebuf')
   if empty(bufname(s:wipebuf))
