@@ -1,6 +1,6 @@
 " ~/.vim/sessions/seasonality.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 27 Tháng 5 2021 at 15:58:35.
+" Created by session.vim 2.13.1 on 27 Tháng 5 2021 at 16:14:00.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -101,8 +101,8 @@ set winheight=1
 set winminwidth=0
 set winwidth=1
 exe 'vert 1resize ' . ((&columns * 26 + 110) / 221)
-exe 'vert 2resize ' . ((&columns * 94 + 110) / 221)
-exe 'vert 3resize ' . ((&columns * 99 + 110) / 221)
+exe 'vert 2resize ' . ((&columns * 84 + 110) / 221)
+exe 'vert 3resize ' . ((&columns * 109 + 110) / 221)
 argglobal
 enew
 " file NERD_tree_2
@@ -125,11 +125,11 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 10053 - ((52 * winheight(0) + 26) / 53)
+let s:l = 10029 - ((28 * winheight(0) + 26) / 53)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-10053
+10029
 normal! 0
 wincmd w
 argglobal
@@ -142,17 +142,17 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 332 - ((33 * winheight(0) + 26) / 53)
+let s:l = 194 - ((23 * winheight(0) + 26) / 53)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-332
-normal! 0
+194
+normal! 065|
 wincmd w
 3wincmd w
 exe 'vert 1resize ' . ((&columns * 26 + 110) / 221)
-exe 'vert 2resize ' . ((&columns * 94 + 110) / 221)
-exe 'vert 3resize ' . ((&columns * 99 + 110) / 221)
+exe 'vert 2resize ' . ((&columns * 84 + 110) / 221)
+exe 'vert 3resize ' . ((&columns * 109 + 110) / 221)
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
@@ -181,7 +181,7 @@ if !getbufvar(s:bufnr_save, '&modified')
   endif
 endif
 execute "cd" fnameescape(s:cwd_save)
-1resize 53|vert 1resize 26|2resize 53|vert 2resize 94|3resize 53|vert 3resize 99|
+1resize 53|vert 1resize 26|2resize 53|vert 2resize 84|3resize 53|vert 3resize 109|
 3wincmd w
 tabnext 1
 if exists('s:wipebuf')
