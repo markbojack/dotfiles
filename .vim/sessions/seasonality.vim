@@ -1,6 +1,6 @@
 " ~/.vim/sessions/seasonality.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 27 Tháng 5 2021 at 18:59:15.
+" Created by session.vim 2.13.1 on 27 Tháng 5 2021 at 19:59:35.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -21,6 +21,16 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
+badd +1 R/h-DoW.R
+badd +1 R/h-WoMoY.R
+badd +1 R/h-dec-xmasnyd.R
+badd +1 R/h-dec-betweenholiday.R
+badd +1 R/h-dec-preholiday.R
+badd +1 R/h-WoM.R
+badd +1 R/h-DoWoM.R
+badd +1 R/h-holiday.R
+badd +1 R/h-MoY.R
+badd +278 R/h-report.R
 badd +130 R/getHighPrev.R
 badd +134 R/getHighSharpe.R
 badd +26 model-gen.R
@@ -31,7 +41,6 @@ badd +92 data/NOTES.md
 badd +130 data/high-sharpe075/null.md
 badd +21 data/high-prev/apr-long.md
 badd +1 data/high-prev/apr-short.md
-badd +83 R/h-report.R
 badd +1 prev-performance.R
 badd +22 data/high-prev/may-long.md
 badd +1 data/high-prev/may-short.md
@@ -41,11 +50,7 @@ badd +1 sharpe-performance/sharpe0.75-performance.R
 badd +5 sharpe-performance/NULL/dowom.R
 badd +7 sharpe-performance/NULL/wom.R
 badd +1 sharpe-performance/NULL/dow.R
-badd +1 R/h-dec-preholiday.R
-badd +1 R/h-holiday.R
 badd +1 sharpe0.75-performance.R
-badd +1 R/h-dec-xmasnyd.R
-badd +1 R/h-WoM.R
 badd +1 sharpe1.0-performance.R
 badd +13 R/getAndProcessSymbols.R
 badd +22 R/packagesAndOptions.R
@@ -66,26 +71,22 @@ badd +2655 longs
 badd +1 shorts
 badd +849 data/high-sharpe/longs
 badd +176 data/high-sharpe/shorts
-badd +1 R/h-WoMoY.R
-badd +1 R/h-dec-betweenholiday.R
-badd +1 R/h-DoW.R
-badd +1 R/h-DoWoM.R
-badd +1 R/h-MoY.R
 badd +1 sharpe-perforance.R
-badd +194 analysis.R
+badd +65 analysis.R
 badd +115 data/model-gen.R
 badd +260 ~/.config/picom/picom.conf
 badd +1471 data/prev-etf-long
 badd +313 data/prev-etf-short
-badd +2393 data/prev-stock-long
+badd +2389 data/prev-stock-long
 badd +529 data/prev-stock-short
 badd +1019 data/sharpe-etf-long
 badd +301 data/sharpe-etf-short
-badd +1445 data/sharpe-stock-long
+badd +1822 data/sharpe-stock-long
 badd +746 data/sharpe-stock-short
 argglobal
 %argdel
 $argadd ~/.config/nvim/init.vim
+set stal=2
 edit analysis.R
 set splitbelow splitright
 wincmd _ | wincmd |
@@ -100,9 +101,9 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe 'vert 1resize ' . ((&columns * 26 + 110) / 221)
-exe 'vert 2resize ' . ((&columns * 84 + 110) / 221)
-exe 'vert 3resize ' . ((&columns * 109 + 110) / 221)
+exe 'vert 1resize ' . ((&columns * 31 + 110) / 221)
+exe 'vert 2resize ' . ((&columns * 74 + 110) / 221)
+exe 'vert 3resize ' . ((&columns * 114 + 110) / 221)
 argglobal
 enew
 " file NERD_tree_2
@@ -116,7 +117,7 @@ setlocal fdn=20
 setlocal nofen
 wincmd w
 argglobal
-if bufexists("term://.//55233:R\ ") | buffer term://.//55233:R\  | else | edit term://.//55233:R\  | endif
+if bufexists("term://.//801019:R\ ") | buffer term://.//801019:R\  | else | edit term://.//801019:R\  | endif
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -125,11 +126,11 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 10053 - ((52 * winheight(0) + 26) / 53)
+let s:l = 1267 - ((51 * winheight(0) + 26) / 52)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-10053
+1267
 normal! 0
 wincmd w
 argglobal
@@ -142,18 +143,42 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 213 - ((38 * winheight(0) + 26) / 53)
+let s:l = 68 - ((51 * winheight(0) + 26) / 52)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-213
-normal! 014|
+68
+normal! 0
 wincmd w
 3wincmd w
-exe 'vert 1resize ' . ((&columns * 26 + 110) / 221)
-exe 'vert 2resize ' . ((&columns * 84 + 110) / 221)
-exe 'vert 3resize ' . ((&columns * 109 + 110) / 221)
+exe 'vert 1resize ' . ((&columns * 31 + 110) / 221)
+exe 'vert 2resize ' . ((&columns * 74 + 110) / 221)
+exe 'vert 3resize ' . ((&columns * 114 + 110) / 221)
+tabedit .scratchpads/scratchpad.R
+set splitbelow splitright
+wincmd t
+set winminheight=0
+set winheight=1
+set winminwidth=0
+set winwidth=1
+argglobal
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+silent! normal! zE
+let s:l = 1 - ((0 * winheight(0) + 26) / 52)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+1
+normal! 0
 tabnext 1
+set stal=1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
 endif
@@ -181,7 +206,7 @@ if !getbufvar(s:bufnr_save, '&modified')
   endif
 endif
 execute "cd" fnameescape(s:cwd_save)
-1resize 53|vert 1resize 26|2resize 53|vert 2resize 84|3resize 53|vert 3resize 109|
+1resize 52|vert 1resize 31|2resize 52|vert 2resize 74|3resize 52|vert 3resize 114|
 3wincmd w
 tabnext 1
 if exists('s:wipebuf')
