@@ -1,98 +1,9 @@
 windows:
-- geometry: !!binary |
+- active: true
+  geometry: !!binary |
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
     IAAABUYAAALw
   tabs:
-  - history:
-    - active: true
-      last_visited: '2021-05-27T20:05:04'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: HIFS Hingham Institution for Savings Stock Quote
-      url: https://finviz.com/quote.ashx?t=hifs
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-27T20:05:04'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: MFL BlackRock MuniHoldings Investment Quality Fund Stock Quote
-      url: https://finviz.com/quote.ashx?t=mfl
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-27T20:05:03'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: MQT BlackRock MuniYield Quality Fund II, Inc. Stock Quote
-      url: https://finviz.com/quote.ashx?t=mqt
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-27T20:05:05'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: NEV Nuveen Enhanced Municipal Value Fund Stock Quote
-      url: https://finviz.com/quote.ashx?t=nev
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-27T20:05:03'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: NKX Nuveen California AMT-Free Quality Municipal Income Fund Stock Quote
-      url: https://finviz.com/quote.ashx?t=nkx
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-27T20:05:03'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: VTN Invesco Trust for Investment Grade New York Municipals Stock Quote
-      url: https://finviz.com/quote.ashx?t=vtn
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-27T20:05:03'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: WIA Western Asset Inflation-Linked Income Fund Stock Quote
-      url: https://finviz.com/quote.ashx?t=wia
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-27T20:05:04'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: r cancel running process - Google Search
-      url: https://www.google.com/search?q=r%20cancel%20running%20process
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-27T20:05:22'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 927
-      title: How to kill an R process without forcing R to quit on mac - blog
-      url: https://justinbagley.rbind.io/2016/04/06/kill-r-process-without-forcing-r-quit-mac/
-      zoom: 0.75
   - history:
     - last_visited: '2021-05-27T20:20:07'
       original-url: https://www.tdameritrade.com/home.page
@@ -109,68 +20,52 @@ windows:
       pinned: false
       title: TD Ameritrade
       url: https://invest.ameritrade.com/grid/p/site#r=home
+    - last_visited: '2021-05-27T20:21:41'
+      original-url: https://invest.ameritrade.com/grid/p/site#r=home
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/grid/p/site#r=search?query=securities%20with%20special%20margin%20requirement
+    - last_visited: '2021-05-27T21:21:49'
+      original-url: https://invest.ameritrade.com/grid/p/site#r=search?query=securities%20with%20special%20margin%20requirement
+      pinned: false
+      title: TD Ameritrade Login
+      url: https://invest.ameritrade.com/grid/p/login?dboxId=grdLogout&logout=T
+    - last_visited: '2021-05-27T21:57:17'
+      original-url: https://invest.ameritrade.com/grid/p/site
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/grid/p/site#r=home
+    - last_visited: '2021-05-27T21:57:17'
+      original-url: https://invest.ameritrade.com/grid/p/site
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/grid/p/site#r=home
     - active: true
-      last_visited: '2021-05-27T20:21:41'
+      last_visited: '2021-05-27T21:58:43'
       original-url: https://invest.ameritrade.com/grid/p/site#r=home
       pinned: false
       scroll-pos:
         x: 0
-        y: 120
+        y: 0
       title: TD Ameritrade
       url: https://invest.ameritrade.com/grid/p/site#r=search?query=securities%20with%20special%20margin%20requirement
       zoom: 0.75
   - active: true
     history:
-    - last_visited: '2021-05-27T20:21:49'
+    - last_visited: '2021-05-27T21:58:47'
       pinned: false
       title: TD Ameritrade
       url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?filter=A
-    - last_visited: '2021-05-27T20:22:01'
-      pinned: false
-      title: TD Ameritrade
-      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=D
-    - last_visited: '2021-05-27T20:22:13'
-      pinned: false
-      title: TD Ameritrade
-      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=P
-    - last_visited: '2021-05-27T20:22:26'
-      pinned: false
-      title: TD Ameritrade
-      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=T
-    - last_visited: '2021-05-27T20:22:41'
-      pinned: false
-      title: TD Ameritrade
-      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=W
-    - last_visited: '2021-05-27T20:23:53'
+    - last_visited: '2021-05-27T21:59:29'
       pinned: false
       title: TD Ameritrade
       url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=C
-    - last_visited: '2021-05-27T20:25:14'
-      pinned: false
-      title: TD Ameritrade
-      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=P
-    - last_visited: '2021-05-27T20:25:37'
-      pinned: false
-      title: TD Ameritrade
-      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=H
-    - last_visited: '2021-05-27T20:25:52'
-      pinned: false
-      title: TD Ameritrade
-      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=N
-    - last_visited: '2021-05-27T20:26:03'
-      pinned: false
-      title: TD Ameritrade
-      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=A
-    - last_visited: '2021-05-27T20:26:10'
-      pinned: false
-      title: TD Ameritrade
-      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=D
     - active: true
-      last_visited: '2021-05-27T20:26:34'
+      last_visited: '2021-05-27T21:59:41'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
+        y: 2549
       title: TD Ameritrade
       url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=P
       zoom: 0.75

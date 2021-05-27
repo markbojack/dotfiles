@@ -1,6 +1,6 @@
 " ~/.vim/sessions/seasonality.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 27 Tháng 5 2021 at 20:39:42.
+" Created by session.vim 2.13.1 on 27 Tháng 5 2021 at 21:59:19.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -102,8 +102,8 @@ set winheight=1
 set winminwidth=0
 set winwidth=1
 exe 'vert 1resize ' . ((&columns * 17 + 110) / 221)
-exe 'vert 2resize ' . ((&columns * 74 + 110) / 221)
-exe 'vert 3resize ' . ((&columns * 128 + 110) / 221)
+exe 'vert 2resize ' . ((&columns * 89 + 110) / 221)
+exe 'vert 3resize ' . ((&columns * 113 + 110) / 221)
 argglobal
 enew
 " file NERD_tree_2
@@ -126,11 +126,11 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 2274 - ((51 * winheight(0) + 26) / 52)
+let s:l = 2456 - ((51 * winheight(0) + 26) / 52)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-2274
+2456
 normal! 0
 wincmd w
 argglobal
@@ -143,17 +143,17 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 73 - ((45 * winheight(0) + 26) / 52)
+let s:l = 88 - ((39 * winheight(0) + 26) / 52)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-73
-normal! 044|
+88
+normal! 011|
 wincmd w
 3wincmd w
 exe 'vert 1resize ' . ((&columns * 17 + 110) / 221)
-exe 'vert 2resize ' . ((&columns * 74 + 110) / 221)
-exe 'vert 3resize ' . ((&columns * 128 + 110) / 221)
+exe 'vert 2resize ' . ((&columns * 89 + 110) / 221)
+exe 'vert 3resize ' . ((&columns * 113 + 110) / 221)
 tabedit .scratchpads/scratchpad.R
 set splitbelow splitright
 wincmd t
@@ -171,11 +171,11 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 2 - ((1 * winheight(0) + 26) / 52)
+let s:l = 1 - ((0 * winheight(0) + 26) / 52)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-2
+1
 normal! 0
 tabnext 1
 set stal=1
@@ -206,7 +206,7 @@ if !getbufvar(s:bufnr_save, '&modified')
   endif
 endif
 execute "cd" fnameescape(s:cwd_save)
-1resize 52|vert 1resize 17|2resize 52|vert 2resize 74|3resize 52|vert 3resize 128|
+1resize 52|vert 1resize 17|2resize 52|vert 2resize 89|3resize 52|vert 3resize 113|
 3wincmd w
 tabnext 1
 if exists('s:wipebuf')
