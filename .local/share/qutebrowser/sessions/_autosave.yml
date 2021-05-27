@@ -207,8 +207,7 @@ windows:
       title: r - Adding vertical line in plot ggplot - Stack Overflow
       url: https://stackoverflow.com/questions/19622063/adding-vertical-line-in-plot-ggplot
       zoom: 0.75
-  - active: true
-    history:
+  - history:
     - active: true
       last_visited: '2021-05-27T13:43:13'
       pinned: false
@@ -218,4 +217,113 @@ windows:
       title: 'Reference lines: horizontal, vertical, and diagonal — geom_abline •
         ggplot2'
       url: https://ggplot2.tidyverse.org/reference/geom_abline.html
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-27T15:25:49'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: CEM ClearBridge MLP and Midstream Fund Inc Stock Quote
+      url: https://finviz.com/quote.ashx?t=CEM
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-27T15:25:59'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: CSR Investors Real Estate Trust Stock Quote
+      url: https://finviz.com/quote.ashx?t=csr
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-27T15:26:08'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: VPV Invesco Pennsylvania Value Municipal Income Trust Stock Quote
+      url: https://finviz.com/quote.ashx?t=vpv
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-27T15:46:48'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: vim insert text - Google Search
+      url: https://www.google.com/search?q=vim%20insert%20text
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-27T15:48:55'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: vim shift key - Google Search
+      url: https://www.google.com/search?q=vim%20shift%20key
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-05-27T15:50:43'
+      pinned: false
+      title: vim capital c - Google Search
+      url: https://www.google.com/search?q=vim%20capital%20c
+    - active: true
+      last_visited: '2021-05-27T15:50:52'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: what is the difference between C, cc, and S commands in vim - Stack Overflow
+      url: https://stackoverflow.com/questions/1421217/what-is-the-difference-between-c-cc-and-s-commands-in-vim
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-05-27T15:51:12'
+      pinned: false
+      title: vim map capital c - Google Search
+      url: https://www.google.com/search?q=vim%20map%20capital%20c
+    - active: true
+      last_visited: '2021-05-27T15:51:29'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 480
+      title: What is the correct casing of mapping in vim? - Stack Overflow
+      url: https://stackoverflow.com/questions/23884205/what-is-the-correct-casing-of-mapping-in-vim
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-27T15:55:39'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: INFY Infosys Limited Stock Quote
+      url: https://finviz.com/quote.ashx?t=infy
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-27T15:56:21'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: PHK PIMCO High Income Fund Stock Quote
+      url: https://finviz.com/quote.ashx?t=phk
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-05-27T15:56:28'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: PTY PIMCO Corporate & Income Opportunity Fund Stock Quote
+      url: https://finviz.com/quote.ashx?t=pty
       zoom: 0.75

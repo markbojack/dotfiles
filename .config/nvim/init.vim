@@ -89,6 +89,9 @@
 		map <A-,> :vertical resize -5<cr>
 
 	" Misc
+		"R STUFF
+		inoremap <C-m> %>%
+		inoremap <C-c> c(
 		inoremap jj 
 		map <leader>wq :wqa!<cr>
 		map <leader>qa :qa!<cr>
@@ -119,7 +122,7 @@
         map <leader>tws :%s/\s\+$//e<cr>:%s/\n\+\%$//e<cr>
 		" email signature
 		" map <leader>sft :r !toilet -f future sent with neomutt<cr>
-
+		
 	" Macros
 		let @h = 'I<a class="bookmarkllcw href="f]cw" target="_blank">A€kb€kb</a'
 		let @d = 'bi%"jjea%"jj'

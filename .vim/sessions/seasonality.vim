@@ -1,6 +1,6 @@
 " ~/.vim/sessions/seasonality.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 27 Tháng 5 2021 at 14:16:14.
+" Created by session.vim 2.13.1 on 27 Tháng 5 2021 at 15:58:35.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -31,7 +31,7 @@ badd +92 data/NOTES.md
 badd +130 data/high-sharpe075/null.md
 badd +21 data/high-prev/apr-long.md
 badd +1 data/high-prev/apr-short.md
-badd +47 R/h-report.R
+badd +83 R/h-report.R
 badd +1 prev-performance.R
 badd +22 data/high-prev/may-long.md
 badd +1 data/high-prev/may-short.md
@@ -72,7 +72,7 @@ badd +1 R/h-DoW.R
 badd +1 R/h-DoWoM.R
 badd +1 R/h-MoY.R
 badd +1 sharpe-perforance.R
-badd +133 analysis.R
+badd +120 analysis.R
 badd +115 data/model-gen.R
 badd +260 ~/.config/picom/picom.conf
 badd +1471 data/prev-etf-long
@@ -100,9 +100,9 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe 'vert 1resize ' . ((&columns * 31 + 110) / 221)
-exe 'vert 2resize ' . ((&columns * 74 + 110) / 221)
-exe 'vert 3resize ' . ((&columns * 114 + 110) / 221)
+exe 'vert 1resize ' . ((&columns * 26 + 110) / 221)
+exe 'vert 2resize ' . ((&columns * 94 + 110) / 221)
+exe 'vert 3resize ' . ((&columns * 99 + 110) / 221)
 argglobal
 enew
 " file NERD_tree_2
@@ -142,17 +142,17 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 142 - ((35 * winheight(0) + 26) / 53)
+let s:l = 332 - ((33 * winheight(0) + 26) / 53)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-142
+332
 normal! 0
 wincmd w
 3wincmd w
-exe 'vert 1resize ' . ((&columns * 31 + 110) / 221)
-exe 'vert 2resize ' . ((&columns * 74 + 110) / 221)
-exe 'vert 3resize ' . ((&columns * 114 + 110) / 221)
+exe 'vert 1resize ' . ((&columns * 26 + 110) / 221)
+exe 'vert 2resize ' . ((&columns * 94 + 110) / 221)
+exe 'vert 3resize ' . ((&columns * 99 + 110) / 221)
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
@@ -181,7 +181,7 @@ if !getbufvar(s:bufnr_save, '&modified')
   endif
 endif
 execute "cd" fnameescape(s:cwd_save)
-1resize 53|vert 1resize 31|2resize 53|vert 2resize 74|3resize 53|vert 3resize 114|
+1resize 53|vert 1resize 26|2resize 53|vert 2resize 94|3resize 53|vert 3resize 99|
 3wincmd w
 tabnext 1
 if exists('s:wipebuf')
