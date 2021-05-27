@@ -1,6 +1,6 @@
 " ~/.vim/sessions/seasonality.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 27 Tháng 5 2021 at 23:07:05.
+" Created by session.vim 2.13.1 on 28 Tháng 5 2021 at 01:01:55.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -90,10 +90,7 @@ edit analysis.R
 set splitbelow splitright
 wincmd _ | wincmd |
 vsplit
-wincmd _ | wincmd |
-vsplit
-2wincmd h
-wincmd w
+1wincmd h
 wincmd w
 wincmd t
 set winminheight=0
@@ -101,8 +98,7 @@ set winheight=1
 set winminwidth=0
 set winwidth=1
 exe 'vert 1resize ' . ((&columns * 21 + 110) / 221)
-exe 'vert 2resize ' . ((&columns * 97 + 110) / 221)
-exe 'vert 3resize ' . ((&columns * 101 + 110) / 221)
+exe 'vert 2resize ' . ((&columns * 199 + 110) / 221)
 argglobal
 enew
 " file NERD_tree_2
@@ -116,23 +112,6 @@ setlocal fdn=20
 setlocal nofen
 wincmd w
 argglobal
-if bufexists("term://.//801019:R\ ") | buffer term://.//801019:R\  | else | edit term://.//801019:R\  | endif
-setlocal fdm=manual
-setlocal fde=0
-setlocal fmr={{{,}}}
-setlocal fdi=#
-setlocal fdl=0
-setlocal fml=1
-setlocal fdn=20
-setlocal fen
-let s:l = 4170 - ((52 * winheight(0) + 26) / 53)
-if s:l < 1 | let s:l = 1 | endif
-exe s:l
-normal! zt
-4170
-normal! 0
-wincmd w
-argglobal
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -142,17 +121,16 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 101 - ((37 * winheight(0) + 26) / 53)
+let s:l = 98 - ((34 * winheight(0) + 26) / 53)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-101
+98
 normal! 0
 wincmd w
-3wincmd w
+2wincmd w
 exe 'vert 1resize ' . ((&columns * 21 + 110) / 221)
-exe 'vert 2resize ' . ((&columns * 97 + 110) / 221)
-exe 'vert 3resize ' . ((&columns * 101 + 110) / 221)
+exe 'vert 2resize ' . ((&columns * 199 + 110) / 221)
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
@@ -181,8 +159,8 @@ if !getbufvar(s:bufnr_save, '&modified')
   endif
 endif
 execute "cd" fnameescape(s:cwd_save)
-1resize 53|vert 1resize 21|2resize 53|vert 2resize 97|3resize 53|vert 3resize 101|
-3wincmd w
+1resize 53|vert 1resize 21|2resize 53|vert 2resize 199|
+2wincmd w
 tabnext 1
 if exists('s:wipebuf')
   if empty(bufname(s:wipebuf))
