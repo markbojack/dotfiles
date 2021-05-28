@@ -1,5 +1,6 @@
 windows:
-- geometry: !!binary |
+- active: true
+  geometry: !!binary |
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
     IAAABUYAAALw
   tabs:
@@ -114,8 +115,7 @@ windows:
       title: SGC Superior Group of Companies, Inc. Stock Quote
       url: https://finviz.com/quote.ashx?t=sgc
       zoom: 0.75
-  - active: true
-    history:
+  - history:
     - active: true
       last_visited: '2021-05-28T11:32:20'
       pinned: false
@@ -124,4 +124,15 @@ windows:
         y: 0
       title: NTG Tortoise Midstream Energy Fund, Inc. Stock Quote
       url: https://finviz.com/quote.ashx?t=ntg
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-05-28T12:25:10'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: PHK PIMCO High Income Fund Stock Quote
+      url: https://finviz.com/quote.ashx?t=phk
       zoom: 0.75
