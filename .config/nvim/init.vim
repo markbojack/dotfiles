@@ -90,8 +90,8 @@
 
 	" Misc
 		"R STUFF
-		inoremap <C-n> %>%
-		inoremap <C-c> c(
+		"inoremap <C-n> %>%
+		inoremap <C-n> c(
 		inoremap jj 
 		map <leader>wq :wqa!<cr>
 		map <leader>qa :qa!<cr>

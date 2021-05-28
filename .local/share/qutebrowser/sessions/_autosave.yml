@@ -1,0 +1,127 @@
+windows:
+- geometry: !!binary |
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    IAAABUYAAALw
+  tabs:
+  - history:
+    - active: true
+      last_visited: '2021-05-28T11:19:24'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: TD Ameritrade Login
+      url: https://invest.ameritrade.com/grid/p/login?dboxId=grdLogout&logout=T
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-28T11:19:24'
+      original-url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=D
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: TD Ameritrade Login
+      url: https://invest.ameritrade.com/grid/p/login
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-28T11:19:24'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: HIFS Hingham Institution for Savings Stock Quote
+      url: https://finviz.com/quote.ashx?t=hifs
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-28T11:19:23'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: MFL BlackRock MuniHoldings Investment Quality Fund Stock Quote
+      url: https://finviz.com/quote.ashx?t=mfl
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-28T11:19:24'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: MQT BlackRock MuniYield Quality Fund II, Inc. Stock Quote
+      url: https://finviz.com/quote.ashx?t=mqt
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-28T11:19:23'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: WIA Western Asset Inflation-Linked Income Fund Stock Quote
+      url: https://finviz.com/quote.ashx?t=wia
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-28T11:19:23'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: PHK PIMCO High Income Fund Stock Quote
+      url: https://finviz.com/quote.ashx?t=phk
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-28T11:19:24'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: CSR Investors Real Estate Trust Stock Quote
+      url: https://finviz.com/quote.ashx?t=csr
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-28T11:19:24'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: AYRO Ayro, Inc. Stock Quote
+      url: https://finviz.com/quote.ashx?t=ayro
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-28T11:30:28'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: BBN BlackRock Taxable Municipal Bond Trust Stock Quote
+      url: https://finviz.com/quote.ashx?t=bbn
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-28T11:32:13'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: SGC Superior Group of Companies, Inc. Stock Quote
+      url: https://finviz.com/quote.ashx?t=sgc
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-05-28T11:32:20'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: NTG Tortoise Midstream Energy Fund, Inc. Stock Quote
+      url: https://finviz.com/quote.ashx?t=ntg
+      zoom: 0.75
