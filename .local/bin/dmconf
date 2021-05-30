@@ -48,7 +48,6 @@ else
 	options[sys push-all]="$HOME/.local/bin/push-all"
 	options[sys restore]="$HOME/p-dot-script/system-restore.sh"
 	options[sys readme]="$HOME/p-dot-script/README.md"
-	options[vifm]="$HOME/.config/vifm/vifmrc"
 	options[xresources]="$HOME/.Xresources"
 	#options[zsh]="$HOME/.zshrc"
 
