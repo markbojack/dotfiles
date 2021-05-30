@@ -15,14 +15,18 @@ windows:
       url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
       zoom: 0.75
   - history:
+    - last_visited: '2021-05-30T20:01:52'
+      pinned: false
+      title: .config/vifm · master · Derek Taylor / Dotfiles · GitLab
+      url: https://gitlab.com/dwt1/dotfiles/tree/master/.config/vifm
     - active: true
-      last_visited: '2021-05-30T20:01:52'
+      last_visited: '2021-05-30T20:08:39'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: .config/vifm · master · Derek Taylor / Dotfiles · GitLab
-      url: https://gitlab.com/dwt1/dotfiles/tree/master/.config/vifm
+      title: .config/vifm/scripts · master · Derek Taylor / Dotfiles · GitLab
+      url: https://gitlab.com/dwt1/dotfiles/-/tree/master/.config/vifm/scripts
       zoom: 0.75
   - active: true
     history:
