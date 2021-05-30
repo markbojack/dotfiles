@@ -4,14 +4,125 @@ windows:
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
     IAAABUYAAALw
   tabs:
-  - active: true
-    history:
+  - history:
     - active: true
-      last_visited: '2021-05-30T21:05:13'
+      last_visited: '2021-05-30T23:08:44'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
       title: Home
       url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-30T23:09:12'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 2520
+      title: How to Withdraw Money from a PayPal Account - Tips and Tricks HQ
+      url: https://www.tipsandtricks-hq.com/withdraw-money-from-paypal-account-10392
+      zoom: 0.75
+  - active: true
+    history:
+    - last_visited: '2021-05-30T23:19:28'
+      pinned: false
+      title: paypal fees https://www.paypal.com/us/myaccount/bundle/fees - Google
+        Search
+      url: https://www.google.com/search?q=paypal%20fees%20https%3A//www.paypal.com/us/myaccount/bundle/fees
+    - last_visited: '2021-05-30T23:22:26'
+      pinned: false
+      title: 'PayPal: PayPal Cash Card, Direct Deposit, and Cash Load'
+      url: https://www.paypal.com/us/myaccount/bundle/fees
+    - last_visited: '2021-05-30T23:22:29'
+      original-url: https://www.paypal.com/us/myaccount/bundle/fees
+      pinned: false
+      title: Log in to your PayPal account
+      url: https://www.paypal.com/signin?returnUri=https%3A%2F%2Fwww.paypal.com%2Fmyaccount%2Fsummary&state=
+    - last_visited: '2021-05-30T23:23:03'
+      pinned: false
+      title: Summary - PayPal
+      url: https://www.paypal.com/mep/dashboard
+    - last_visited: '2021-05-30T23:25:03'
+      pinned: false
+      title: Money
+      url: https://www.paypal.com/businesswallet/money
+    - last_visited: '2021-05-30T23:25:29'
+      pinned: false
+      title: 'PayPal: Wallet'
+      url: https://www.paypal.com/myaccount/money/flow/banks/new?flow=eyJyZXR1cm5VcmwiOiJodHRwczovL3d3dy5wYXlwYWwuY29tL2J1c2luZXNzd2FsbGV0L21vbmV5IiwiY2FuY2VsVXJsIjoiaHR0cHM6Ly93d3cucGF5cGFsLmNvbS9idXNpbmVzc3dhbGxldC9tb25leSIsImZsYWdzIjpbImlzSW5Nb25leVdpdGhDaG9pY2UiXX0=
+    - last_visited: '2021-05-30T23:26:34'
+      original-url: https://www.paypal.com/vn/webapps/mpp/merchant
+      pinned: false
+      title: Log in to your PayPal account
+      url: https://www.paypal.com/signin?returnUri=https%3A%2F%2Fwww.paypal.com%2Fbusinesswallet%2Fmoney
+    - last_visited: '2021-05-30T23:26:39'
+      original-url: https://www.paypal.com/signin?returnUri=https%3A%2F%2Fwww.paypal.com%2Fbusinesswallet%2Fmoney
+      pinned: false
+      title: Log in to your PayPal account
+      url: https://www.paypal.com/signin?returnUri=https%3A%2F%2Fwww.paypal.com%2Fbusinesswallet%2Fmoney&country.x=VN&locale.x=en_US&langTgl=en
+    - last_visited: '2021-05-30T23:30:05'
+      original-url: https://www.paypal.com/signin?returnUri=https%3A%2F%2Fwww.paypal.com%2Fbusinesswallet%2Fmoney&country.x=VN&locale.x=en_US&langTgl=en
+      pinned: false
+      title: 'Sign Up: Create a PayPal Account - PayPal Vietnam'
+      url: https://www.paypal.com/vn/webapps/mpp/account-selection
+    - last_visited: '2021-05-30T23:30:26'
+      original-url: https://www.paypal.com/vn/webapps/mpp/account-selection
+      pinned: false
+      title: 'Sign Up for PayPal: Create a Business or Personal Account Now With PayPal'
+      url: https://www.paypal.com/vn/welcome/signup
+    - last_visited: '2021-05-30T23:30:26'
+      original-url: https://www.paypal.com/vn/welcome/signup
+      pinned: false
+      title: 'Sign Up for PayPal: Create a Business or Personal Account Now With PayPal'
+      url: https://www.paypal.com/vn/welcome/signup/#/mobile_conf
+    - last_visited: '2021-05-30T23:30:40'
+      original-url: https://www.paypal.com/vn/welcome/signup/#/mobile_conf
+      pinned: false
+      title: 'Sign Up for PayPal: Create a Business or Personal Account Now With PayPal'
+      url: https://www.paypal.com/vn/welcome/signup/#/complete_phone_confirmation
+    - last_visited: '2021-05-30T23:31:31'
+      pinned: false
+      title: 'Sign Up for PayPal: Create a Business or Personal Account Now With PayPal'
+      url: https://www.paypal.com/vn/welcome/signup/#/email_password
+    - last_visited: '2021-05-30T23:35:30'
+      pinned: false
+      title: 'Sign Up for PayPal: Create a Business or Personal Account Now With PayPal'
+      url: https://www.paypal.com/vn/welcome/signup/#/name_address
+    - last_visited: '2021-05-30T23:39:31'
+      pinned: false
+      title: 'Sign Up for PayPal: Create a Business or Personal Account Now With PayPal'
+      url: https://www.paypal.com/vn/welcome/signup/#/email_password
+    - last_visited: '2021-05-30T23:39:45'
+      pinned: false
+      title: 'Sign Up for PayPal: Create a Business or Personal Account Now With PayPal'
+      url: https://www.paypal.com/vn/welcome/signup/#/mobile_conf
+    - last_visited: '2021-05-30T23:40:06'
+      original-url: https://www.paypal.com/auth/validatecaptcha
+      pinned: false
+      title: 'Sign Up for PayPal: Create a Business or Personal Account Now With PayPal'
+      url: https://www.paypal.com/US/welcome/signup?countryVerified=true&Z3JncnB0=
+    - active: true
+      last_visited: '2021-05-30T23:40:06'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Sign Up for PayPal: Create a Business or Personal Account Now With PayPal'
+      url: https://www.paypal.com/us/welcome/signup/#/mobile_conf
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-05-30T23:33:57'
+      pinned: false
+      title: random password - Google Search
+      url: https://www.google.com/search?q=random%20password
+    - active: true
+      last_visited: '2021-05-30T23:34:01'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Strong Random Password Generator
+      url: https://passwordsgenerator.net/
       zoom: 0.75
