@@ -1,36 +1,17 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAKyAAAAIAAABUYAAALwAAACsgAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAKyAAAA
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
     IAAABUYAAALw
   tabs:
-  - history:
+  - active: true
+    history:
     - active: true
-      last_visited: '2021-05-30T21:02:50'
+      last_visited: '2021-05-30T21:05:13'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
       title: Home
       url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
-      zoom: 0.75
-  - active: true
-    history:
-    - last_visited: '2021-05-30T21:02:51'
-      pinned: false
-      title: default vifmrc - Google Search
-      url: https://www.google.com/search?q=default%20vifmrc
-    - last_visited: '2021-05-30T21:03:21'
-      pinned: false
-      title: vifm/vifmrc at master · vifm/vifm
-      url: https://github.com/vifm/vifm/blob/master/data/vifmrc
-    - active: true
-      last_visited: '2021-05-30T21:03:24'
-      original-url: https://github.com/vifm/vifm/raw/master/data/vifmrc
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 4791
-      title: https://raw.githubusercontent.com/vifm/vifm/master/data/vifmrc
-      url: https://raw.githubusercontent.com/vifm/vifm/master/data/vifmrc
       zoom: 0.75
