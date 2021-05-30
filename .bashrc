@@ -243,11 +243,10 @@ alias srr='nvim ~/p-dot-script/README.md'
 alias pa='nvim ~/.local/bin/push-all'
 alias mpvc='nvim ~/.config/mpv/input.conf'
 alias cal='cal -m'
-alias no='nvim ~/p-dot-script/notes'
 alias R='R --vanilla -q'
 alias grubc='sudo nvim /etc/default/grub'
 alias pdf='qpdfview'
-alias vifm='~/.config/vifm/scripts/vifmrun'
+alias vif='~/.config/vifm/scripts/vifmrun'
 
 # remind aliases
 alias rem='nvim ~/p-dot-script/remind.rem'
@@ -267,7 +266,7 @@ alias hp='nvim ~/p-dot-script/qutebrowser/html/homepage.html'
 # PATH
 # actually, i would rather hide this in
 # ~/.local/bin/
-PATH=$HOME/p-dot-script:$PATH
+PATH=$HOME/.config/vifm/scripts:$HOME/p-dot-script:$PATH
 
 # Startup
 #colorscript -e space-invaders

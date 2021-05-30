@@ -22,6 +22,7 @@ else
 	options[alacritty]="$HOME/.config/alacritty/alacritty.yml"
 	options[bashrc]="$HOME/.bashrc"
 	options[dmconf]="$HOME/.local/bin/dmconf"
+	options[dmkill]="$HOME/.local/bin/dmkill"
 	options[dmsearch]="$HOME/.local/bin/dmsearch"
 	options[dmqute]="$HOME/.local/bin/dmqute"
 	options[grub]="/etc/default/grub"
@@ -34,7 +35,6 @@ else
 	options[mpv]="$HOME/.config/mpv/input.conf"
 	options[muttrc]="$HOME/.config/mutt/muttrc"
 	options[neovim]="$HOME/.config/nvim/init.vim"
-	options[notes]="$HOME/p-dot-script/notes"
 	options[phone]="$HOME/.local/bin/backup-phone.sh"
 	options[picom]="$HOME/.config/picom/picom.conf"
 	#options[polybar]="$HOME/.config/polybar/config"
@@ -48,6 +48,7 @@ else
 	options[sys push-all]="$HOME/.local/bin/push-all"
 	options[sys restore]="$HOME/p-dot-script/system-restore.sh"
 	options[sys readme]="$HOME/p-dot-script/README.md"
+	options[vifm]="$HOME/.config/vifm/vifmrc"
 	options[xresources]="$HOME/.Xresources"
 	#options[zsh]="$HOME/.zshrc"
 
@@ -60,7 +61,7 @@ declare -A options_clean
 
 # Piping the above array (cleaned) into dmenu.
 # We use "printf '%s\n'" to format the array one item to a line.
-choice=$(printf '%s\n' "${!options_clean[@]}" | sort | dmenu -i -l 20 -p 'Edit config:' "$@")
+choice=$(printf '%s\n' "${!options_clean[@]}" | sort | dmenu -i -l 40 -p 'Edit config:' "$@")
 
 
 # What to do when/if we choose a file to edit.
