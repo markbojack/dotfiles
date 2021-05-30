@@ -1,0 +1,35 @@
+windows:
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    IAAABUYAAALw
+  tabs:
+  - active: true
+    history:
+    - last_visited: '2021-05-30T19:58:54'
+      pinned: false
+      title: vifm and uberzug image previews - YouTube
+      url: https://www.youtube.com/results?search_query=vifm+and+uberzug+image+previews
+    - active: true
+      last_visited: '2021-05-30T19:59:42'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Vifm and Überzug (Ueberzug) Image Previews - YouTube
+      url: https://www.youtube.com/watch?v=qgxsduCO1pE
+      zoom: 0.75
+    - last_visited: '2021-05-30T19:59:37'
+      pinned: false
+      title: Home
+      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
+  - history:
+    - active: true
+      last_visited: '2021-05-30T19:59:17'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 240
+      title: Derek Taylor · GitLab
+      url: https://gitlab.com/dwt1
+      zoom: 0.75
