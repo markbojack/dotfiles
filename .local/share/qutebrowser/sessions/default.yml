@@ -4,121 +4,22 @@ windows:
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
     IAAABUYAAALw
   tabs:
-  - history:
-    - active: true
-      last_visited: '2021-05-31T20:17:19'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Home
-      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-31T20:17:20'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: How to Withdraw Money from a PayPal Account - Tips and Tricks HQ
-      url: https://www.tipsandtricks-hq.com/withdraw-money-from-paypal-account-10392
-      zoom: 0.75
-  - history:
-    - last_visited: '2021-05-31T20:17:19'
-      pinned: false
-      title: 'Sign Up for PayPal: Create a Business or Personal Account Now With PayPal'
-      url: https://www.paypal.com/us/welcome/signup/#/mobile_conf
-    - active: true
-      last_visited: '2021-05-31T20:17:20'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'Sign Up for PayPal: Create a Business or Personal Account Now With PayPal'
-      url: https://www.paypal.com/us/welcome/signup/#/mobile_conf
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-31T20:17:20'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Strong Random Password Generator
-      url: https://passwordsgenerator.net/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-31T20:17:20'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Search results for "dragon drag and drop" - ArchWiki
-      url: https://wiki.archlinux.org/index.php?search=dragon%20drag%20and%20drop
-      zoom: 0.75
-  - history:
-    - last_visited: '2021-05-31T20:17:47'
-      pinned: false
-      title: aur dragon-drag-and-drop - Google Search
-      url: https://www.google.com/search?q=aur%20dragon-drag-and-drop
-    - active: true
-      last_visited: '2021-05-31T20:20:29'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: AUR (en) - dragon-drag-and-drop
-      url: https://aur.archlinux.org/packages/dragon-drag-and-drop/
-      zoom: 0.75
-    - last_visited: '2021-05-31T20:20:06'
-      pinned: false
-      title: PKGBUILD - aur.git - AUR Package Repositories
-      url: https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=dragon-drag-and-drop
-  - history:
-    - active: true
-      last_visited: '2021-05-31T20:26:36'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 2360
-      title: How to install PKGBUILD file downloaded manually? - Technical Issues
-        and Assistance / AUR - Manjaro Linux Forum
-      url: https://archived.forum.manjaro.org/t/how-to-install-pkgbuild-file-downloaded-manually/69365/8
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-31T20:20:52'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 1640
-      title: PKGBUILD - ArchWiki
-      url: https://wiki.archlinux.org/title/PKGBUILD
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-05-31T20:20:53'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 1000
-      title: Creating packages - ArchWiki
-      url: https://wiki.archlinux.org/title/creating_packages
-      zoom: 0.75
   - active: true
     history:
-    - last_visited: '2021-05-31T20:28:07'
+    - last_visited: '2021-05-31T20:52:45'
       pinned: false
-      title: linux terminal extract tarball - Google Search
-      url: https://www.google.com/search?q=linux%20terminal%20extract%20tarball
+      title: Video Previews · ranger/ranger Wiki
+      url: https://github.com/ranger/ranger/wiki/Video-Previews
+    - last_visited: '2021-05-31T20:52:46'
+      pinned: false
+      title: Common Changes · ranger/ranger Wiki
+      url: https://github.com/ranger/ranger/wiki/Common-Changes
     - active: true
-      last_visited: '2021-05-31T20:28:13'
+      last_visited: '2021-05-31T20:53:05'
       pinned: false
       scroll-pos:
         x: 0
-        y: 1440
-      title: How To Extract / Unzip tar.gz Files From Linux Command Line
-      url: https://phoenixnap.com/kb/extract-tar-gz-files-linux-command-line
+        y: 3600
+      title: Custom Commands · ranger/ranger Wiki
+      url: https://github.com/ranger/ranger/wiki/Custom-Commands
       zoom: 0.75
