@@ -263,10 +263,13 @@ alias qpy='nvim ~/.config/qutebrowser/config.py'
 alias qa='nvim ~/.config/qutebrowser/autoconfig.yml'
 alias hp='nvim ~/p-dot-script/qutebrowser/html/homepage.html'
 
+# source fancy bash prompt
+source ~/.local/bin/fancy-bash-prompt.sh
+
 # PATH
 # actually, i would rather hide this in
 # ~/.local/bin/
-PATH=$HOME/.config/vifm/scripts:$HOME/p-dot-script:$PATH
+PATH=$HOME/p-dot-script:$PATH
 
 # Startup
 #colorscript -e space-invaders

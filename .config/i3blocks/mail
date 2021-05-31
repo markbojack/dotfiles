@@ -1,0 +1,5 @@
+#!/bin/sh
+case $BLOCK_BUTTON in
+	1) $TERMINAL -e neomutt ;;
+esac
+ls ~/.local/share/mail/markbojack.si@gmail.com/INBOX/new/* | wc -l

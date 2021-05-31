@@ -4,22 +4,39 @@ windows:
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
     IAAABUYAAALw
   tabs:
-  - active: true
-    history:
-    - last_visited: '2021-05-31T20:52:45'
-      pinned: false
-      title: Video Previews · ranger/ranger Wiki
-      url: https://github.com/ranger/ranger/wiki/Video-Previews
-    - last_visited: '2021-05-31T20:52:46'
-      pinned: false
-      title: Common Changes · ranger/ranger Wiki
-      url: https://github.com/ranger/ranger/wiki/Common-Changes
+  - history:
     - active: true
-      last_visited: '2021-05-31T20:53:05'
+      last_visited: '2021-06-01T00:07:28'
       pinned: false
       scroll-pos:
         x: 0
-        y: 3600
+        y: 0
       title: Custom Commands · ranger/ranger Wiki
       url: https://github.com/ranger/ranger/wiki/Custom-Commands
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-06-01T00:07:28'
+      pinned: false
+      title: fancy bash prompt chris titus tech - Google Search
+      url: https://www.google.com/search?q=fancy%20bash%20prompt%20chris%20titus%20tech
+    - active: true
+      last_visited: '2021-06-01T00:08:25'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 507
+      title: Customizing Your Terminal | Linux Terminal Beautification - YouTube
+      url: https://www.youtube.com/watch?v=iaXQdyHRL8M
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-01T00:08:25'
+      original-url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqblI4aUtRVk5zUnh5dkRtQ184V2hUN2VtRmdqd3xBQ3Jtc0tsWndTZ3AyMF8yeEQybllHV3ZhX3FWQ1JtWVlQbWp5ZEdNLWwtU18zWkhoYVZaZkgzNDdFN3JFeW9BNUVEbVVmVTFEVmlyZlJkeHljSmJUcWtSNTd1c3gtMXMyanIta3lUOF82bGJzMXM4S1VEMndDVQ&q=https%3A%2F%2Fraw.githubusercontent.com%2FChrisTitusTech%2Fscripts%2Fmaster%2Ffancy-bash-promt.sh
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 1900
+      title: https://raw.githubusercontent.com/ChrisTitusTech/scripts/master/fancy-bash-promt.sh
+      url: https://raw.githubusercontent.com/ChrisTitusTech/scripts/master/fancy-bash-promt.sh
       zoom: 0.75

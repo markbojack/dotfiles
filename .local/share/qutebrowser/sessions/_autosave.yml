@@ -1,0 +1,24 @@
+windows:
+- geometry: !!binary |
+    AdnQywADAAAAAAAPAAAADwAABUYAAALwAAAADwAAAA8AAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    DwAABUYAAALw
+  tabs:
+  - active: true
+    history:
+    - last_visited: '2021-06-01T00:57:54'
+      pinned: false
+      title: font awesome cheat sheet - Google Search
+      url: https://www.google.com/search?q=font%20awesome%20cheat%20sheet
+    - active: true
+      last_visited: '2021-06-01T00:58:41'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 1482
+      title: Cheatsheet | Font Awesome
+      url: https://fontawesome.com/v5/cheatsheet
+      zoom: 0.75
+    - last_visited: '2021-06-01T00:58:29'
+      pinned: false
+      title: Home
+      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html

@@ -1,6 +1,6 @@
 " ~/.vim/sessions/default.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 31 Tháng 5 2021 at 20:53:56.
+" Created by session.vim 2.13.1 on 01 Tháng 6 2021 at 00:56:55.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -21,10 +21,13 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +0 index.md
+badd +6 index.md
+badd +8 ~/vimwiki/Packages.md
+badd +8 ~/vimwiki/vim.md
+badd +0 ~/vimwiki/vim-notes.md
 argglobal
 %argdel
-edit index.md
+edit ~/vimwiki/vim-notes.md
 set splitbelow splitright
 wincmd t
 set winminheight=0
@@ -41,11 +44,11 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 28 - ((27 * winheight(0) + 16) / 33)
+let s:l = 22 - ((21 * winheight(0) + 26) / 53)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-28
+22
 normal! 0
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
