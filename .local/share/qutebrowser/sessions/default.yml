@@ -6,7 +6,7 @@ windows:
   tabs:
   - history:
     - active: true
-      last_visited: '2021-05-30T23:08:44'
+      last_visited: '2021-05-31T20:17:19'
       pinned: false
       scroll-pos:
         x: 0
@@ -16,95 +16,21 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-05-30T23:09:12'
+      last_visited: '2021-05-31T20:17:20'
       pinned: false
       scroll-pos:
         x: 0
-        y: 2520
+        y: 0
       title: How to Withdraw Money from a PayPal Account - Tips and Tricks HQ
       url: https://www.tipsandtricks-hq.com/withdraw-money-from-paypal-account-10392
       zoom: 0.75
-  - active: true
-    history:
-    - last_visited: '2021-05-30T23:19:28'
-      pinned: false
-      title: paypal fees https://www.paypal.com/us/myaccount/bundle/fees - Google
-        Search
-      url: https://www.google.com/search?q=paypal%20fees%20https%3A//www.paypal.com/us/myaccount/bundle/fees
-    - last_visited: '2021-05-30T23:22:26'
-      pinned: false
-      title: 'PayPal: PayPal Cash Card, Direct Deposit, and Cash Load'
-      url: https://www.paypal.com/us/myaccount/bundle/fees
-    - last_visited: '2021-05-30T23:22:29'
-      original-url: https://www.paypal.com/us/myaccount/bundle/fees
-      pinned: false
-      title: Log in to your PayPal account
-      url: https://www.paypal.com/signin?returnUri=https%3A%2F%2Fwww.paypal.com%2Fmyaccount%2Fsummary&state=
-    - last_visited: '2021-05-30T23:23:03'
-      pinned: false
-      title: Summary - PayPal
-      url: https://www.paypal.com/mep/dashboard
-    - last_visited: '2021-05-30T23:25:03'
-      pinned: false
-      title: Money
-      url: https://www.paypal.com/businesswallet/money
-    - last_visited: '2021-05-30T23:25:29'
-      pinned: false
-      title: 'PayPal: Wallet'
-      url: https://www.paypal.com/myaccount/money/flow/banks/new?flow=eyJyZXR1cm5VcmwiOiJodHRwczovL3d3dy5wYXlwYWwuY29tL2J1c2luZXNzd2FsbGV0L21vbmV5IiwiY2FuY2VsVXJsIjoiaHR0cHM6Ly93d3cucGF5cGFsLmNvbS9idXNpbmVzc3dhbGxldC9tb25leSIsImZsYWdzIjpbImlzSW5Nb25leVdpdGhDaG9pY2UiXX0=
-    - last_visited: '2021-05-30T23:26:34'
-      original-url: https://www.paypal.com/vn/webapps/mpp/merchant
-      pinned: false
-      title: Log in to your PayPal account
-      url: https://www.paypal.com/signin?returnUri=https%3A%2F%2Fwww.paypal.com%2Fbusinesswallet%2Fmoney
-    - last_visited: '2021-05-30T23:26:39'
-      original-url: https://www.paypal.com/signin?returnUri=https%3A%2F%2Fwww.paypal.com%2Fbusinesswallet%2Fmoney
-      pinned: false
-      title: Log in to your PayPal account
-      url: https://www.paypal.com/signin?returnUri=https%3A%2F%2Fwww.paypal.com%2Fbusinesswallet%2Fmoney&country.x=VN&locale.x=en_US&langTgl=en
-    - last_visited: '2021-05-30T23:30:05'
-      original-url: https://www.paypal.com/signin?returnUri=https%3A%2F%2Fwww.paypal.com%2Fbusinesswallet%2Fmoney&country.x=VN&locale.x=en_US&langTgl=en
-      pinned: false
-      title: 'Sign Up: Create a PayPal Account - PayPal Vietnam'
-      url: https://www.paypal.com/vn/webapps/mpp/account-selection
-    - last_visited: '2021-05-30T23:30:26'
-      original-url: https://www.paypal.com/vn/webapps/mpp/account-selection
+  - history:
+    - last_visited: '2021-05-31T20:17:19'
       pinned: false
       title: 'Sign Up for PayPal: Create a Business or Personal Account Now With PayPal'
-      url: https://www.paypal.com/vn/welcome/signup
-    - last_visited: '2021-05-30T23:30:26'
-      original-url: https://www.paypal.com/vn/welcome/signup
-      pinned: false
-      title: 'Sign Up for PayPal: Create a Business or Personal Account Now With PayPal'
-      url: https://www.paypal.com/vn/welcome/signup/#/mobile_conf
-    - last_visited: '2021-05-30T23:30:40'
-      original-url: https://www.paypal.com/vn/welcome/signup/#/mobile_conf
-      pinned: false
-      title: 'Sign Up for PayPal: Create a Business or Personal Account Now With PayPal'
-      url: https://www.paypal.com/vn/welcome/signup/#/complete_phone_confirmation
-    - last_visited: '2021-05-30T23:31:31'
-      pinned: false
-      title: 'Sign Up for PayPal: Create a Business or Personal Account Now With PayPal'
-      url: https://www.paypal.com/vn/welcome/signup/#/email_password
-    - last_visited: '2021-05-30T23:35:30'
-      pinned: false
-      title: 'Sign Up for PayPal: Create a Business or Personal Account Now With PayPal'
-      url: https://www.paypal.com/vn/welcome/signup/#/name_address
-    - last_visited: '2021-05-30T23:39:31'
-      pinned: false
-      title: 'Sign Up for PayPal: Create a Business or Personal Account Now With PayPal'
-      url: https://www.paypal.com/vn/welcome/signup/#/email_password
-    - last_visited: '2021-05-30T23:39:45'
-      pinned: false
-      title: 'Sign Up for PayPal: Create a Business or Personal Account Now With PayPal'
-      url: https://www.paypal.com/vn/welcome/signup/#/mobile_conf
-    - last_visited: '2021-05-30T23:40:06'
-      original-url: https://www.paypal.com/auth/validatecaptcha
-      pinned: false
-      title: 'Sign Up for PayPal: Create a Business or Personal Account Now With PayPal'
-      url: https://www.paypal.com/US/welcome/signup?countryVerified=true&Z3JncnB0=
+      url: https://www.paypal.com/us/welcome/signup/#/mobile_conf
     - active: true
-      last_visited: '2021-05-30T23:40:06'
+      last_visited: '2021-05-31T20:17:20'
       pinned: false
       scroll-pos:
         x: 0
@@ -113,16 +39,86 @@ windows:
       url: https://www.paypal.com/us/welcome/signup/#/mobile_conf
       zoom: 0.75
   - history:
-    - last_visited: '2021-05-30T23:33:57'
-      pinned: false
-      title: random password - Google Search
-      url: https://www.google.com/search?q=random%20password
     - active: true
-      last_visited: '2021-05-30T23:34:01'
+      last_visited: '2021-05-31T20:17:20'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
       title: Strong Random Password Generator
       url: https://passwordsgenerator.net/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-31T20:17:20'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Search results for "dragon drag and drop" - ArchWiki
+      url: https://wiki.archlinux.org/index.php?search=dragon%20drag%20and%20drop
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-05-31T20:17:47'
+      pinned: false
+      title: aur dragon-drag-and-drop - Google Search
+      url: https://www.google.com/search?q=aur%20dragon-drag-and-drop
+    - active: true
+      last_visited: '2021-05-31T20:20:29'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: AUR (en) - dragon-drag-and-drop
+      url: https://aur.archlinux.org/packages/dragon-drag-and-drop/
+      zoom: 0.75
+    - last_visited: '2021-05-31T20:20:06'
+      pinned: false
+      title: PKGBUILD - aur.git - AUR Package Repositories
+      url: https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=dragon-drag-and-drop
+  - history:
+    - active: true
+      last_visited: '2021-05-31T20:26:36'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 2360
+      title: How to install PKGBUILD file downloaded manually? - Technical Issues
+        and Assistance / AUR - Manjaro Linux Forum
+      url: https://archived.forum.manjaro.org/t/how-to-install-pkgbuild-file-downloaded-manually/69365/8
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-31T20:20:52'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 1640
+      title: PKGBUILD - ArchWiki
+      url: https://wiki.archlinux.org/title/PKGBUILD
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-05-31T20:20:53'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 1000
+      title: Creating packages - ArchWiki
+      url: https://wiki.archlinux.org/title/creating_packages
+      zoom: 0.75
+  - active: true
+    history:
+    - last_visited: '2021-05-31T20:28:07'
+      pinned: false
+      title: linux terminal extract tarball - Google Search
+      url: https://www.google.com/search?q=linux%20terminal%20extract%20tarball
+    - active: true
+      last_visited: '2021-05-31T20:28:13'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 1440
+      title: How To Extract / Unzip tar.gz Files From Linux Command Line
+      url: https://phoenixnap.com/kb/extract-tar-gz-files-linux-command-line
       zoom: 0.75

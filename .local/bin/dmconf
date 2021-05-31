@@ -42,6 +42,7 @@ else
 	options[qConfig.py]="$HOME/.config/qutebrowser/config.py"
 	options[qHomepage]="$HOME/p-dot-script/qutebrowser/html/homepage.html"
 	options[qQuickmarks]="$HOME/.config/qutebrowser/quickmarks"
+	options[ranger]="$HOME/.config/ranger/rc.conf"
 	options[remind]="$HOME/p-dot-script/remind.rem"
 	options[sxiv image-info]="$HOME/.config/sxiv/exec/image-info"
 	options[sxiv key-handler]="$HOME/.config/sxiv/exec/key-handler"

@@ -246,6 +246,7 @@ alias cal='cal -m'
 alias R='R --vanilla -q'
 alias grubc='sudo nvim /etc/default/grub'
 alias pdf='qpdfview'
+alias tar='tar -xvzf'
 
 # remind aliases
 alias rem='nvim ~/p-dot-script/remind.rem'
