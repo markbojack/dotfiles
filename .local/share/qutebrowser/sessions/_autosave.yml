@@ -3,22 +3,32 @@ windows:
     AdnQywADAAAAAAAPAAAADwAABUYAAALwAAAADwAAAA8AAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
     DwAABUYAAALw
   tabs:
-  - active: true
-    history:
-    - last_visited: '2021-06-01T00:57:54'
+  - history:
+    - last_visited: '2021-06-01T12:56:59'
       pinned: false
-      title: font awesome cheat sheet - Google Search
-      url: https://www.google.com/search?q=font%20awesome%20cheat%20sheet
+      title: 'Colors not showing in bar · Issue #173 · vivien/i3blocks'
+      url: https://github.com/vivien/i3blocks/issues/173
     - active: true
-      last_visited: '2021-06-01T00:58:41'
+      last_visited: '2021-06-01T12:57:00'
       pinned: false
       scroll-pos:
         x: 0
-        y: 1482
-      title: Cheatsheet | Font Awesome
-      url: https://fontawesome.com/v5/cheatsheet
+        y: 1960
+      title: 'Color key has no effect. · Issue #146 · vivien/i3blocks'
+      url: https://github.com/vivien/i3blocks/issues/146
       zoom: 0.75
-    - last_visited: '2021-06-01T00:58:29'
+  - active: true
+    history:
+    - last_visited: '2021-06-01T12:57:35'
       pinned: false
-      title: Home
-      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
+      title: i3blocks script color - Google Search
+      url: https://www.google.com/search?q=i3blocks%20script%20color
+    - active: true
+      last_visited: '2021-06-01T12:57:39'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 440
+      title: colors - i3Blocks script (coloring) - Unix & Linux Stack Exchange
+      url: https://unix.stackexchange.com/questions/583409/i3blocks-script-coloring
+      zoom: 0.75
