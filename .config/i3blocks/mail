@@ -1,21 +1,9 @@
 #!/usr/bin/env bash
-#case "$BLOCK_BUTTON" in
-	#1) i3-msg -q "exec --no-startup-id tdrop -am -w 70% -y 10% -x 15% -h 80% -n 1 alacritty -e neomutt"
-#esac
 
+case "$BLOCK_BUTTON" in
+	1) i3-msg -q "exec --no-startup-id tdrop -am -w 70% -y 10% -x 15% -h 80% -n 1 alacritty -e neomutt"
+esac
 
 LSWC=$(ls ~/.local/share/mail/markbojack.si@gmail.com/INBOX/new/* | wc -l)
-COLOR_DOWN=${COLOR_DOWN:-#FF0000}
-#[[ "$LSWC" -ne 0]] && exit
-#[[ "$LSWC" -ne 0]] && echo $LSWC% && echo $COLOR_DOWN
-
-echo $LSWC && echo "#FF8000"
-
-#if [[ "$LSWC" -ne 0 ]]; then
-    #printf "${RED}HELLO{NC}\n"
-#else
-    #printf "${RED}HELLO{NC}\n"
-#fi
-
-
-
+# to span you can also add bgcolor='#01A252'
+[[ $LSWC -ne 0 ]] && echo -e "<span color='red'>  $LSWC</span>\n"
