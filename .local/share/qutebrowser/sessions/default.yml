@@ -5,51 +5,27 @@ windows:
     IAAABUYAAALw
   tabs:
   - history:
-    - last_visited: '2021-06-01T12:56:59'
-      pinned: false
-      title: 'Colors not showing in bar · Issue #173 · vivien/i3blocks'
-      url: https://github.com/vivien/i3blocks/issues/173
     - active: true
-      last_visited: '2021-06-01T12:57:00'
+      last_visited: '2021-06-02T15:56:42'
       pinned: false
       scroll-pos:
         x: 0
-        y: 1960
-      title: 'Color key has no effect. · Issue #146 · vivien/i3blocks'
-      url: https://github.com/vivien/i3blocks/issues/146
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-01T13:03:32'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 440
-      title: i3blocks script color - Google Search
-      url: https://www.google.com/search?q=i3blocks%20script%20color
-      zoom: 0.75
-    - last_visited: '2021-06-01T12:57:39'
-      pinned: false
-      title: colors - i3Blocks script (coloring) - Unix & Linux Stack Exchange
-      url: https://unix.stackexchange.com/questions/583409/i3blocks-script-coloring
-  - history:
-    - active: true
-      last_visited: '2021-06-01T13:03:42'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'Can''t figure out how to change the color of i3blocks : i3wm'
-      url: https://www.reddit.com/r/i3wm/comments/51rwo2/cant_figure_out_how_to_change_the_color_of/
+        y: 1086
+      title: powerline-extra-symbols/README.md at master · ryanoasis/powerline-extra-symbols
+      url: https://github.com/ryanoasis/powerline-extra-symbols/blob/master/README.md
       zoom: 0.75
   - active: true
     history:
+    - last_visited: '2021-06-02T16:07:01'
+      pinned: false
+      title: 256 font color - Google Search
+      url: https://www.google.com/search?q=256%20font%20color
     - active: true
-      last_visited: '2021-06-01T13:03:43'
+      last_visited: '2021-06-02T16:07:04'
       pinned: false
       scroll-pos:
         x: 0
-        y: 880
-      title: 'How to specify background color for blocks · Issue #106 · vivien/i3blocks'
-      url: https://github.com/vivien/i3blocks/issues/106
+        y: 2480
+      title: 256 Colors - Cheat Sheet - Xterm, HEX, RGB, HSL
+      url: https://jonasjacek.github.io/colors/
       zoom: 0.75

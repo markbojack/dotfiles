@@ -78,6 +78,9 @@ bash_prompt() {
 	## These can be used in the configuration below                           ##
 	############################################################################
 	
+	# cheat sheet
+	# https://jonasjacek.github.io/colors/
+
 	## FONT EFFECT
 	local      NONE='0'
 	local      BOLD='1'
@@ -129,32 +132,22 @@ bash_prompt() {
 	
 	
 	
-	
-	
-	##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  
-	  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##
-	##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ## 
-
-	
-	
 	##                          CONFIGURE HERE                                ##
-
-	
 	
 	############################################################################
 	## CONFIGURATION                                                          ##
 	## Choose your color combination here                                     ##
 	############################################################################
-	local FONT_COLOR_1=$BLUE
-	local BACKGROUND_1=$D_GRAY
+	local FONT_COLOR_1=$BLACK
+	local BACKGROUND_1=$BLUE
 	local TEXTEFFECT_1=$BOLD
 	
-	local FONT_COLOR_2=$BLUE
-	local BACKGROUND_2=$D_GRAY
+	local FONT_COLOR_2=$BLACK
+	local BACKGROUND_2=$GREEN
 	local TEXTEFFECT_2=$BOLD
 	
-	local FONT_COLOR_3=$D_GRAY
-	local BACKGROUND_3=$BLUE
+	local FONT_COLOR_3=$BLACK
+	local BACKGROUND_3=$MAGENTA
 	local TEXTEFFECT_3=$BOLD
 	
 	local PROMT_FORMAT=$NO_FORMAT
@@ -172,51 +165,6 @@ bash_prompt() {
 		FONT_COLOR_3=$D_GRAY; BACKGROUND_3=$WHITE; TEXTEFFECT_3=$BOLD	
 		PROMT_FORMAT=$CYAN_BOLD
 	fi
-	
-	## CONFIGURATION: BLACK-RED
-	if [ "$HOSTNAME" = giraff6 ]; then
-		FONT_COLOR_1=$WHITE; BACKGROUND_1=$BLACK; TEXTEFFECT_1=$BOLD
-		FONT_COLOR_2=$WHITE; BACKGROUND_2=$D_GRAY; TEXTEFFECT_2=$BOLD
-		FONT_COLOR_3=$WHITE; BACKGROUND_3=$RED; TEXTEFFECT_3=$BOLD
-		PROMT_FORMAT=$RED_BOLD
-	fi
-	
-	## CONFIGURATION: RED-BLACK
-	#FONT_COLOR_1=$WHITE; BACKGROUND_1=$RED; TEXTEFFECT_1=$BOLD
-	#FONT_COLOR_2=$WHITE; BACKGROUND_2=$D_GRAY; TEXTEFFECT_2=$BOLD
-	#FONT_COLOR_3=$WHITE; BACKGROUND_3=$BLACK; TEXTEFFECT_3=$BOLD
-	#PROMT_FORMAT=$RED_BOLD
-
-	## CONFIGURATION: CYAN-BLUE
-	if [ "$HOSTNAME" = sharkoon ]; then
-		FONT_COLOR_1=$BLACK; BACKGROUND_1=$L_CYAN; TEXTEFFECT_1=$BOLD
-		FONT_COLOR_2=$WHITE; BACKGROUND_2=$L_BLUE; TEXTEFFECT_2=$BOLD
-		FONT_COLOR_3=$WHITE; BACKGROUND_3=$BLUE; TEXTEFFECT_3=$BOLD
-		PROMT_FORMAT=$CYAN_BOLD
-	fi
-	
-	## CONFIGURATION: GRAY-SCALE
-	if [ "$HOSTNAME" = giraff ]; then
-		FONT_COLOR_1=$WHITE; BACKGROUND_1=$BLACK; TEXTEFFECT_1=$BOLD
-		FONT_COLOR_2=$WHITE; BACKGROUND_2=$D_GRAY; TEXTEFFECT_2=$BOLD
-		FONT_COLOR_3=$WHITE; BACKGROUND_3=$L_GRAY; TEXTEFFECT_3=$BOLD
-		PROMT_FORMAT=$BLACK_BOLD
-	fi
-	
-	## CONFIGURATION: GRAY-CYAN
-	if [ "$HOSTNAME" = light ]; then
-		FONT_COLOR_1=$WHITE; BACKGROUND_1=$BLACK; TEXTEFFECT_1=$BOLD
-		FONT_COLOR_2=$WHITE; BACKGROUND_2=$D_GRAY; TEXTEFFECT_2=$BOLD
-		FONT_COLOR_3=$BLACK; BACKGROUND_3=$L_CYAN; TEXTEFFECT_3=$BOLD
-		PROMT_FORMAT=$CYAN_BOLD
-	fi
-	
-	
-	##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  
-	  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##
-	##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ## 	
-
-	
 	
 	
 	############################################################################
@@ -287,10 +235,15 @@ bash_prompt() {
 	
 
 	# GENERATE SEPARATORS WITH FANCY TRIANGLE
+	## FOR THIN: make the last digit +1:
+	## for example uE0B4 to uE0B5 OR uE0BC to uE0BD
 	#local TRIANGLE=$'\uE0B0'	# triangle
-	#local TRIANGLE=$'\uE0B4'	# curvy
-	#local TRIANGLE=$'\uE0B8'	# diagnoal
-	local TRIANGLE=$'\uE0BC'	# diagnoal
+	local TRIANGLE=$'\uE0B4'	# curvy
+	#local TRIANGLE=$'\uE0B8'	# diagnoal back slash
+	#local TRIANGLE=$'\uE0BC'	# diagnoal forward slash
+	#local TRIANGLE=$'\uE0C0'	# flamey
+	#local TRIANGLE=$'\uE0CE'	# lego
+	#local TRIANGLE=$'\uE0C6'	# grainy
 	local SEPARATOR_1=$SEPARATOR_FORMAT_1$TRIANGLE
 	local SEPARATOR_2=$SEPARATOR_FORMAT_2$TRIANGLE
 	local SEPARATOR_3=$SEPARATOR_FORMAT_3$TRIANGLE
