@@ -212,7 +212,7 @@ exec_always --no-startup-id numlockx on
 exec_always --no-startup-id autotiling
 exec_always --no-startup-id picom --experimental-backend
 exec_always --no-startup-id feh --bg-fill /home/mark/Downloads/Really-Cool-Wallpapers-HD.jpg
-exec --no-startup-id tdrop -am -w 60% -y 25% -x 20% -h 50% -n 3 alacritty -e bash -c 'remind -cl+2m@ ~/p-dot-script/remind.rem *5 && echo -e "\n" && sleep 10'
+exec --no-startup-id tdrop -am -w 60% -y 25% -x 20% -h 50% -n 1 alacritty -e bash -c 'remind -cl+2m@ ~/p-dot-script/remind.rem *5 && echo -e "\n" && sleep 10'
 exec --no-startup-id alacritty
 #exec --no-startup-id qutebrowser; workspace $ws2
 #exec --no-startup-id alacritty -t neomutt -e neomutt
@@ -433,14 +433,14 @@ for_window [class="Yad"] floating enable
 bindsym $mod+Escape			workspace prev
 bindsym $mod+Tab			workspace back_and_forth
 bindsym $mod+BackSpace		exec --no-startup-id bash ~/.local/bin/flash-win
-#bindsym $mod+Shift+Escape	exec sudo poweroff
-bindsym $mod+Shift+c		exec --no-startup-id tdrop -am -w 30% -y 30% -x 35% -n 0 alacritty -e R -q --vanilla
-bindsym $mod+Shift+e 		exec --no-startup-id tdrop -am -w 70% -y 10% -x 15% -h 80% -n 1 alacritty -e neomutt
-bindsym $mod+Shift+v 		exec --no-startup-id tdrop -am -w 40% -y 20% -x 30% -h 60% -n 2 alacritty -e nvim -c VimwikiIndex
-bindsym $mod+Shift+p 		exec --no-startup-id tdrop -am -w 60% -y 25% -x 20% -h 50% -n 3 alacritty -e bash -c 'remind -cl+2m@ ~/p-dot-script/remind.rem *5 && echo -e "\n" && sleep 100000000000'
-#bindsym $mod+Shift+q 		exec --no-startup-id tdrop -am -w 98% -y 4% -x 1% -h 95% -n 4 qutebrowser
-bindsym $mod+p 				exec --no-startup-id tdrop -am -w 70% -y 10% -x 15% -h 80% -n 8 pcmanfm
+#bindsym $mod+Shift+Escape	exec sudo poweroff # OR ~/.local/bin/poweroff.sh
+bindsym $mod+Shift+c		exec --no-startup-id tdrop -am -w 30% -y 30% -x 35% -n 2 alacritty -e R -q --vanilla
+bindsym $mod+Shift+e 		exec --no-startup-id tdrop -am -w 70% -y 10% -x 15% -h 80% -n 3 alacritty -e neomutt
+bindsym $mod+Shift+v 		exec --no-startup-id tdrop -am -w 40% -y 20% -x 30% -h 60% -n 4 alacritty -e nvim -c VimwikiIndex
+bindsym $mod+Shift+p 		exec --no-startup-id tdrop -am -w 60% -y 25% -x 20% -h 50% -n 5 alacritty -e bash -c 'remind -cl+2m@ ~/p-dot-script/remind.rem *5 && echo -e "\n" && sleep 100000000000'
+bindsym $mod+p 				exec --no-startup-id tdrop -am -w 70% -y 10% -x 15% -h 80% -n 6 pcmanfm
 
-bindsym $mod+Shift+u 		exec --no-startup-id tdrop -am -w 98% -y 4% -x 1% -h 95% -n 5 alacritty
-bindsym $mod+Shift+i 		exec --no-startup-id tdrop -am -w 48% -y 4% -x 1% -h 95% -n 6 alacritty
-bindsym $mod+Shift+o 		exec --no-startup-id tdrop -am -w 49% -y 4% -x 50% -h 95% -n 7 alacritty
+bindsym $mod+Shift+u 		exec --no-startup-id tdrop -am -w 98% -y 4% -x 1% -h 95% -n 7 alacritty
+bindsym $mod+Shift+i 		exec --no-startup-id tdrop -am -w 48% -y 4% -x 1% -h 95% -n 8 alacritty
+bindsym $mod+Shift+o 		exec --no-startup-id tdrop -am -w 49% -y 4% -x 50% -h 95% -n 9 alacritty
+#bindsym $mod+Shift+q 		exec --no-startup-id tdrop -am -w 98% -y 4% -x 1% -h 95% -n 10 qutebrowser
