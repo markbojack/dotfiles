@@ -287,7 +287,10 @@ bash_prompt() {
 	
 
 	# GENERATE SEPARATORS WITH FANCY TRIANGLE
-	local TRIANGLE=$'\uE0B0'	
+	#local TRIANGLE=$'\uE0B0'	# triangle
+	#local TRIANGLE=$'\uE0B4'	# curvy
+	#local TRIANGLE=$'\uE0B8'	# diagnoal
+	local TRIANGLE=$'\uE0BC'	# diagnoal
 	local SEPARATOR_1=$SEPARATOR_FORMAT_1$TRIANGLE
 	local SEPARATOR_2=$SEPARATOR_FORMAT_2$TRIANGLE
 	local SEPARATOR_3=$SEPARATOR_FORMAT_3$TRIANGLE
