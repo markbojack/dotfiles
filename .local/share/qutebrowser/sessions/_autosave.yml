@@ -6,32 +6,23 @@ windows:
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-03T19:12:56'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: linux see if script is running - Google Search
-      url: https://www.google.com/search?q=linux%20see%20if%20script%20is%20running
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-03T19:13:01'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 360
-      title: Linux command to check if a shell script is running or not - Stack Overflow
-      url: https://stackoverflow.com/questions/16828035/linux-command-to-check-if-a-shell-script-is-running-or-not
-      zoom: 0.75
-  - active: true
-    history:
-    - active: true
-      last_visited: '2021-06-03T19:39:58'
+      last_visited: '2021-06-03T19:39:59'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
       title: bash if statement or - Google Search
       url: https://www.google.com/search?q=bash%20if%20statement%20or
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-03T19:40:05'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 320
+      title: In a bash script, using the conditional "or" in an "if" statement - Unix
+        & Linux Stack Exchange
+      url: https://unix.stackexchange.com/questions/47584/in-a-bash-script-using-the-conditional-or-in-an-if-statement
       zoom: 0.75
