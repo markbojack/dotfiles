@@ -1,49 +1,37 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
-    IAAABUYAAALw
+    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAADwAAACAAAAKjAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    IAAAAqMAAALw
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-03T19:42:09'
+      last_visited: '2021-06-03T19:56:59'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: bash if statement or - Google Search
-      url: https://www.google.com/search?q=bash%20if%20statement%20or
+        y: 640
+      title: linux check memory - Google Search
+      url: https://www.google.com/search?q=linux%20check%20memory
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-03T19:42:08'
+      last_visited: '2021-06-03T19:57:06'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: In a bash script, using the conditional "or" in an "if" statement - Unix
-        & Linux Stack Exchange
-      url: https://unix.stackexchange.com/questions/47584/in-a-bash-script-using-the-conditional-or-in-an-if-statement
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-03T19:42:09'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: i3blocks interval persist - Google Search
-      url: https://www.google.com/search?q=i3blocks%20interval%20persist
+      title: 5 Commands to Check Memory Usage in Linux {Easy Way}
+      url: https://phoenixnap.com/kb/linux-commands-check-memory-usage
       zoom: 0.75
   - active: true
     history:
     - active: true
-      last_visited: '2021-06-03T19:42:14'
+      last_visited: '2021-06-03T19:57:07'
       pinned: false
       scroll-pos:
         x: 0
-        y: 2496
-      title: 'block with interval=persist does not work as expected · Issue #190 ·
-        vivien/i3blocks'
-      url: https://github.com/vivien/i3blocks/issues/190
+        y: 2400
+      title: 5 Commands for Checking Memory Usage in Linux - Linux.com
+      url: https://www.linux.com/training-tutorials/5-commands-checking-memory-usage-linux/
       zoom: 0.75
