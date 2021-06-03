@@ -32,7 +32,7 @@ cat DCIM/notes >> ~/vimwiki/index.md
 #exit
 
 # msg
-toilet -f mono9 UNPLUG PHONE
+toilet -f mono9 COMPLETE
 
 # youtube
 #youtube-dl -a DCIM/youtube
