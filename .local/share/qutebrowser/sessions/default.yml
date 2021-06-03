@@ -1,22 +1,22 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAADwAAACAAAAKjAAAC8AAAAAAAAAAABVYAAAAPAAAA
-    IAAAAqMAAALw
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    IAAABUYAAALw
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-03T19:56:59'
+      last_visited: '2021-06-03T23:12:38'
       pinned: false
       scroll-pos:
         x: 0
-        y: 640
+        y: 0
       title: linux check memory - Google Search
       url: https://www.google.com/search?q=linux%20check%20memory
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-03T19:57:06'
+      last_visited: '2021-06-03T23:12:38'
       pinned: false
       scroll-pos:
         x: 0
@@ -24,14 +24,44 @@ windows:
       title: 5 Commands to Check Memory Usage in Linux {Easy Way}
       url: https://phoenixnap.com/kb/linux-commands-check-memory-usage
       zoom: 0.75
-  - active: true
-    history:
+  - history:
     - active: true
-      last_visited: '2021-06-03T19:57:07'
+      last_visited: '2021-06-03T23:12:37'
       pinned: false
       scroll-pos:
         x: 0
-        y: 2400
+        y: 0
       title: 5 Commands for Checking Memory Usage in Linux - Linux.com
       url: https://www.linux.com/training-tutorials/5-commands-checking-memory-usage-linux/
       zoom: 0.75
+  - active: true
+    history:
+    - last_visited: '2021-06-03T23:12:58'
+      pinned: false
+      title: keyboard
+      url: https://emojipedia.org/search/?q=keyboard
+    - last_visited: '2021-06-03T23:13:04'
+      pinned: false
+      title: ram
+      url: https://emojipedia.org/search/?q=ram
+    - last_visited: '2021-06-03T23:14:20'
+      pinned: false
+      title: sync
+      url: https://emojipedia.org/search/?q=sync
+    - last_visited: '2021-06-03T23:14:26'
+      pinned: false
+      title: internet
+      url: https://emojipedia.org/search/?q=internet
+    - active: true
+      last_visited: '2021-06-03T23:14:59'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 240
+      title: globe
+      url: https://emojipedia.org/search/?q=globe
+      zoom: 1.25
+    - last_visited: '2021-06-03T23:14:57'
+      pinned: false
+      title: net
+      url: https://emojipedia.org/search/?q=net
