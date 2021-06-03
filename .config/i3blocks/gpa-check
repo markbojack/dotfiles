@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 gpa_check=$(pgrep -fl push-all | wc -l)
 [[ $gpa_check -ne 0 ]] && echo -e "<span>✴️</span>\n"
