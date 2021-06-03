@@ -6,7 +6,7 @@ windows:
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-03T17:48:40'
+      last_visited: '2021-06-03T18:05:48'
       pinned: false
       scroll-pos:
         x: 0
@@ -16,7 +16,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-03T17:48:41'
+      last_visited: '2021-06-03T18:05:48'
       pinned: false
       scroll-pos:
         x: 0
@@ -26,20 +26,26 @@ windows:
       zoom: 0.75
   - active: true
     history:
-    - last_visited: '2021-06-03T17:48:40'
+    - last_visited: '2021-06-03T18:05:48'
       pinned: false
-      title: tweezer
-      url: https://emojipedia.org/search/?q=tweezer
-    - last_visited: '2021-06-03T17:54:13'
-      pinned: false
-      title: cpu
-      url: https://emojipedia.org/search/?q=cpu
+      title: meter
+      url: https://emojipedia.org/search/?q=meter
     - active: true
-      last_visited: '2021-06-03T17:55:02'
+      last_visited: '2021-06-03T18:05:54'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: folder
-      url: https://emojipedia.org/search/?q=folder
+      title: link
+      url: https://emojipedia.org/search/?q=link
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-03T18:05:49'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: cpu symbol - Google Search
+      url: https://www.google.com/search?q=cpu%20symbol
       zoom: 0.75
