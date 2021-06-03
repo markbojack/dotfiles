@@ -1,51 +1,28 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
-    IAAABUYAAALw
+    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAADwAAACAAAAKjAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    IAAAAqMAAALw
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-03T18:05:48'
+      last_visited: '2021-06-03T19:39:59'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Home
-      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-03T18:05:48'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: google emoji search - Google Search
-      url: https://www.google.com/search?q=google%20emoji%20search
+      title: bash if statement or - Google Search
+      url: https://www.google.com/search?q=bash%20if%20statement%20or
       zoom: 0.75
   - active: true
     history:
-    - last_visited: '2021-06-03T18:05:48'
-      pinned: false
-      title: meter
-      url: https://emojipedia.org/search/?q=meter
     - active: true
-      last_visited: '2021-06-03T18:05:54'
+      last_visited: '2021-06-03T19:40:05'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: link
-      url: https://emojipedia.org/search/?q=link
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-03T18:05:49'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: cpu symbol - Google Search
-      url: https://www.google.com/search?q=cpu%20symbol
+        y: 840
+      title: In a bash script, using the conditional "or" in an "if" statement - Unix
+        & Linux Stack Exchange
+      url: https://unix.stackexchange.com/questions/47584/in-a-bash-script-using-the-conditional-or-in-an-if-statement
       zoom: 0.75
