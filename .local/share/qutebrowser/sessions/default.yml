@@ -1,12 +1,12 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAADwAAACAAAAKjAAAC8AAAAAAAAAAABVYAAAAPAAAA
-    IAAAAqMAAALw
+    AdnQywADAAAAAAKyAAABjwAABUYAAALwAAACsgAAAY8AAAVGAAAC8AAAAAAAAAAABVYAAAKyAAAB
+    jwAABUYAAALw
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-03T23:53:38'
+      last_visited: '2021-06-04T00:00:00'
       pinned: false
       scroll-pos:
         x: 0
@@ -16,7 +16,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-03T23:53:39'
+      last_visited: '2021-06-04T00:00:01'
       pinned: false
       scroll-pos:
         x: 0
@@ -27,11 +27,11 @@ windows:
   - active: true
     history:
     - active: true
-      last_visited: '2021-06-03T23:53:42'
+      last_visited: '2021-06-04T00:00:00'
       pinned: false
       scroll-pos:
         x: 0
-        y: 600
+        y: 0
       title: configuration - Custom font with dmenu_run in i3 - Unix & Linux Stack
         Exchange
       url: https://unix.stackexchange.com/questions/287391/custom-font-with-dmenu-run-in-i3

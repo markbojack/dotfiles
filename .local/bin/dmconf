@@ -41,6 +41,7 @@ else
 	#options[polybar]="$HOME/.config/polybar/config"
 	options[qBookmarks]="$HOME/.config/qutebrowser/bookmarks/urls"
 	options[qConfig.py]="$HOME/.config/qutebrowser/config.py"
+	options[qDmenu]="$HOME/.config/qutebrowser/userscripts/dmenu-open"
 	options[qHomepage]="$HOME/p-dot-script/qutebrowser/html/homepage.html"
 	options[qQuickmarks]="$HOME/.config/qutebrowser/quickmarks"
 	options[ranger]="$HOME/.config/ranger/rc.conf"
