@@ -244,9 +244,16 @@ assign [title="neomutt"] $ws3
 set $bgcolor    #00897b33
 set $ibgcolor   #363636
 set $fws		#000000
+
+# I3 BAR COLOR ----------------------------
+# NOW GO TO THIS FILE AND SEARCH TAG :bar:
+# file:///home/mark/.config/i3blocks/i3blocks.conf
+
 set $barcolor   #1b2b34bf # oceanic
 #set $barcolor 	#151515bf # chalk
 #set $barcolor	#2E3440bf # nord
+# -----------------------------------------
+
 set $textcolor  #ffffff  
 set $itextcolor #969696
 set $ubgcolor   #ff0000
