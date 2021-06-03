@@ -465,7 +465,7 @@ c.fonts.prompts = 'default_size sans-serif'
 c.fonts.statusbar = '8pt "Roboto Mono Nerd Font"'
 
 # Bindings to use dmenu rather than qutebrowser's builtin search.
-config.bind('o', ' spawn --userscript dmenu -fn "Roboto Mono Nerd Font-8" ')
+config.bind('o', 'spawn --userscript dmenu-open')
 config.bind('O', 'spawn --userscript dmenu-open -t')
 
 # Bindings for normal mode
