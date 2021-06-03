@@ -1,12 +1,12 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
-    IAAABUYAAALw
+    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAADwAAACAAAAKjAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    IAAAAqMAAALw
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-03T16:44:41'
+      last_visited: '2021-06-03T16:55:11'
       pinned: false
       scroll-pos:
         x: 0
@@ -16,7 +16,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-03T16:44:41'
+      last_visited: '2021-06-03T16:55:10'
       pinned: false
       scroll-pos:
         x: 0
@@ -26,7 +26,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-03T16:44:41'
+      last_visited: '2021-06-03T16:55:11'
       pinned: false
       scroll-pos:
         x: 0
@@ -36,7 +36,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-03T16:44:41'
+      last_visited: '2021-06-03T16:55:11'
       pinned: false
       scroll-pos:
         x: 0
@@ -46,7 +46,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-03T16:44:41'
+      last_visited: '2021-06-03T16:55:10'
       pinned: false
       scroll-pos:
         x: 0
@@ -56,7 +56,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-03T16:44:41'
+      last_visited: '2021-06-03T16:55:10'
       pinned: false
       scroll-pos:
         x: 0
@@ -66,7 +66,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-03T16:44:42'
+      last_visited: '2021-06-03T16:55:12'
       pinned: false
       scroll-pos:
         x: 0
@@ -76,7 +76,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-03T16:44:41'
+      last_visited: '2021-06-03T16:55:10'
       pinned: false
       scroll-pos:
         x: 0
@@ -86,7 +86,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-03T16:44:41'
+      last_visited: '2021-06-03T16:55:11'
       pinned: false
       scroll-pos:
         x: 0
@@ -96,7 +96,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-03T16:44:42'
+      last_visited: '2021-06-03T16:55:10'
       pinned: false
       scroll-pos:
         x: 0
@@ -106,12 +106,20 @@ windows:
       zoom: 0.75
   - active: true
     history:
+    - last_visited: '2021-06-03T16:58:15'
+      pinned: false
+      title: 404 Page not found – Chris Titus Tech
+      url: https://christitus.com/emojis
     - active: true
-      last_visited: '2021-06-03T16:44:42'
+      last_visited: '2021-06-03T16:58:19'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: How to Install Emojis on Linux - YouTube
-      url: https://www.youtube.com/watch?v=ny8N5mxk7aY
+        y: 537
+      title: Emoji – Chris Titus Tech
+      url: https://christitus.com/emoji/
       zoom: 0.75
+    - last_visited: '2021-06-03T16:57:53'
+      pinned: false
+      title: Home
+      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html

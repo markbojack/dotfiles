@@ -469,10 +469,10 @@ config.bind('o', 'spawn --userscript dmenu-open')
 config.bind('O', 'spawn --userscript dmenu-open -t')
 
 # Bindings for normal mode
-config.bind('M', 'hint links spawn mpv {hint-url}')
-config.bind(',m', 'spawn mpv {url}')
-config.bind('Y', 'hint links spawn alacritty -e youtube-dl {hint-url}')
-config.bind(',y', 'spawn alacritty -e youtube-dl {url}')
+config.bind('M', 'hint links spawn mpv {hint-url}') # if you're clicking the link
+config.bind(',m', 'spawn mpv {url}') # if you're already on the page
+config.bind('Y', 'hint links spawn alacritty -e youtube-dl {hint-url}') # if you're clicking the link
+config.bind(',y', 'spawn alacritty -e youtube-dl {url}') # if you're already on the page
 config.bind('t', 'set-cmd-text -s :open -t')
 config.bind('xb', 'config-cycle statusbar.show always never')
 config.bind('xt', 'config-cycle tabs.show always never')
@@ -491,7 +491,7 @@ config.bind('pd', 'config-cycle downloads.location.prompt True False')
 # open stuff in nvim
 config.bind('e', 'hint links spawn alacritty -e nvim {hint-url}')
 # go home
-config.bind('h', 'open file:///home/mark/p-dot-script/qutebrowser/html/homepage.html')
+config.bind(',h', 'open file:///home/mark/p-dot-script/qutebrowser/html/homepage.html')
 config.bind('go', 'open https://google.com')
 config.bind(',o', 'set-cmd-text -s :open')
 config.bind(',a', 'config-cycle content.blocking.enabled true false')
