@@ -6,4 +6,7 @@ esac
 
 LSWC=$(ls ~/.local/share/mail/markbojack.si@gmail.com/INBOX/new/* | wc -l)
 # to span you can also add bgcolor='#01A252'
-[[ $LSWC -ne 0 ]] && echo -e "<span color='red'>  $LSWC</span>\n"
+# more on pango:
+# https://developer.gnome.org/pygtk/stable/pango-markup-language.html
+[[ $LSWC -ne 0 ]] && echo -e "<span size='x-large' weight='heavy' color='#FF0000' bgcolor='black'>📬  $LSWC</span>\n"
+

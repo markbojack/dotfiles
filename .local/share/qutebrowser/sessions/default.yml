@@ -6,112 +6,40 @@ windows:
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-03T16:44:41'
+      last_visited: '2021-06-03T17:48:40'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: powerline-extra-symbols/README.md at master · ryanoasis/powerline-extra-symbols
-      url: https://github.com/ryanoasis/powerline-extra-symbols/blob/master/README.md
+      title: Home
+      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-03T16:44:41'
+      last_visited: '2021-06-03T17:48:41'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: 256 Colors - Cheat Sheet - Xterm, HEX, RGB, HSL
-      url: https://jonasjacek.github.io/colors/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-03T16:44:41'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: linux color font awesome - Google Search
-      url: https://www.google.com/search?q=linux%20color%20font%20awesome
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-03T16:44:41'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: linux color emojis - Google Search
-      url: https://www.google.com/search?q=linux%20color%20emojis
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-03T16:44:41'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Colorful emojis on Linux · wireapp/wire-desktop Wiki
-      url: https://github.com/wireapp/wire-desktop/wiki/Colorful-emojis-on-Linux
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-03T16:44:41'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: JoyPixels® - Freemium emoji icons. Emoji font licensing.
-      url: https://www.joypixels.com/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-03T16:44:42'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'How to better enable Color Emojis! : linux'
-      url: https://www.reddit.com/r/linux/comments/ao0mp3/how_to_better_enable_color_emojis/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-03T16:44:41'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Noto Color Emoji – Google Noto Fonts
-      url: https://www.google.com/get/noto/help/emoji/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-03T16:44:41'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'googlefonts/noto-emoji: Noto Emoji fonts'
-      url: https://github.com/googlefonts/noto-emoji/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-03T16:44:42'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: linux color emoji - YouTube
-      url: https://www.youtube.com/results?search_query=linux+color+emoji
+      title: google emoji search - Google Search
+      url: https://www.google.com/search?q=google%20emoji%20search
       zoom: 0.75
   - active: true
     history:
+    - last_visited: '2021-06-03T17:48:40'
+      pinned: false
+      title: tweezer
+      url: https://emojipedia.org/search/?q=tweezer
+    - last_visited: '2021-06-03T17:54:13'
+      pinned: false
+      title: cpu
+      url: https://emojipedia.org/search/?q=cpu
     - active: true
-      last_visited: '2021-06-03T16:44:42'
+      last_visited: '2021-06-03T17:55:02'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: How to Install Emojis on Linux - YouTube
-      url: https://www.youtube.com/watch?v=ny8N5mxk7aY
+      title: folder
+      url: https://emojipedia.org/search/?q=folder
       zoom: 0.75
