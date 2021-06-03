@@ -435,6 +435,9 @@ bindsym $mod+Escape			workspace prev
 bindsym $mod+Tab			workspace back_and_forth
 bindsym $mod+BackSpace		exec --no-startup-id bash ~/.local/bin/flash-win
 #bindsym $mod+Shift+Escape	exec sudo poweroff # OR exec bash ~/.local/bin/poweroff.sh
+bindsym $mod+g				exec --no-startup-id bash ~/.local/bin/push-all
+bindsym $mod+b				exec --no-startup-id bash ~/.local/bin/backup-phone.sh
+
 bindsym $mod+Shift+c		exec --no-startup-id tdrop -am -w 30% -y 30% -x 35% -n 2 alacritty -e R -q --vanilla
 bindsym $mod+Shift+e 		exec --no-startup-id tdrop -am -w 70% -y 10% -x 15% -h 80% -n 3 alacritty -e neomutt
 bindsym $mod+Shift+v 		exec --no-startup-id tdrop -am -w 40% -y 20% -x 30% -h 60% -n 4 alacritty -e nvim -c VimwikiIndex

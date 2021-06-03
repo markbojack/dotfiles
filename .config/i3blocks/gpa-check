@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 
 gpa_check=$(pgrep -fl push-all | wc -l)
-[[ $gpa_check -ne 0 ]] && echo "✴️"
+bkp_check=$(pgrep -fl backup-phone.sh | wc -l)
+[[ $gpa_check -ne 0 & bkp_check -ne 0 ]] && echo "✴️"
