@@ -18,7 +18,7 @@ bmlist=$(printf '%s\n' "${bmarks[@]}")
 
 # Piping the lists into dmenu.
 # We use "printf '%s\n'" to format the array one item to a line.
-choice=$(printf '%s\n' "$QSEP" "$qmlist" "" "$BSEP" "$bmlist" | dmenu -i -l 20 -p 'Qutebrowser open:' "$@" ) || exit
+choice=$(printf '%s\n' "$QSEP" "$qmlist" "" "$BSEP" "$bmlist" | dmenu -i -l 40 -fn "Roboto Mono Nerd Font-8" -p 'Qutebrowser open:' "$@" ) || exit
 
 # What to do if the separator is chosen from the list.
 # We simply launch qutebrowser without any url arguments.

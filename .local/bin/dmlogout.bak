@@ -1,5 +1,25 @@
 #!/usr/bin/env bash
+#
+# Script name: dmlogout
+# Description: Logout, shutdown, reboot or lock screen.
+# Dependencies: dmenu, systemd, slock, notify-send
+# GitLab: https://www.gitlab.com/dwt1/dmscripts
+# License: https://www.gitlab.com/dwt1/dmscripts/LICENSE
+# Contributors: Derek Taylor, 
+#               Simon Ingelsson
 
+# Define LOCKER in .xprofile to set to different LOCKER program
+: "${LOCKER:=slock}"
+
+# use notify-send if run in dumb term
+OUTPUT="echo"
+if [[ ${TERM} == 'dumb' ]]; then
+    OUTPUT="notify-send"
+fi
+export OUTPUT
+
+
+# look up what managers are used (makes it more dynamic)
 declare -a MANAGERS
 while IFS= read -r manager
 do
@@ -7,12 +27,15 @@ do
 done < <(grep 'Name' /usr/share/xsessions/*.desktop | awk -F"=" '{print $2}')
 
 
+
 # An array of options to choose.
 declare -a options=(
+"Lock screen"
 "Logout"
-"Poweroff"
 "Reboot"
+"Shutdown"
 "Suspend"
+"Quit"
 )
 
 
@@ -23,7 +46,7 @@ output(){
 
 # Piping the above array into dmenu.
 # We use "printf '%s\n'" to format the array one item to a line.
-choice=$(printf '%s\n' "${options[@]}" | dmenu -i -fn "Roboto Mono Nerd Font-8" -p 'Shutdown menu:' "${@}")
+choice=$(printf '%s\n' "${options[@]}" | dmenu -i -p 'Shutdown menu:' "${@}")
 
 
 # What to do when/if we choose one of the options.
@@ -37,16 +60,19 @@ case $choice in
             output "User chose not to logout." && exit 1
         fi
         ;;
+    'Lock screen')
+        ${LOCKER}
+        ;;
     'Reboot')
         if [[ "$(echo -e "No\nYes" | dmenu -i -p "${choice}?" "${@}" )" == "Yes" ]]; then
-            ~/.local/bin/reboot.sh
+            systemctl reboot
         else
             output "User chose not to reboot." && exit 0
         fi
         ;;
-    'Poweroff')
+    'Shutdown')
         if [[ "$(echo -e "No\nYes" | dmenu -i -p "${choice}?" "${@}" )" == "Yes" ]]; then
-            ~/.local/bin/poweroff.sh
+            systemctl poweroff
         else
             output "User chose not to shutdown." && exit 0
         fi
@@ -58,6 +84,11 @@ case $choice in
             output "User chose not to suspend." && exit 0
         fi
         ;;
+    'Quit')
+        output "Program terminated." && exit 0
+    ;;
+        # It is a common practice to use the wildcard asterisk symbol (*) as a final
+    # pattern to define the default case. This pattern will always match.
     *)
         exit 0
     ;;

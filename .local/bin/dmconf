@@ -23,6 +23,7 @@ else
 	options[bashrc]="$HOME/.bashrc"
 	options[dmconf]="$HOME/.local/bin/dmconf"
 	options[dmkill]="$HOME/.local/bin/dmkill"
+	options[dmlogout]="$HOME/.local/bin/dmlogout"
 	options[dmsearch]="$HOME/.local/bin/dmsearch"
 	options[dmqute]="$HOME/.local/bin/dmqute"
 	options[grub]="/etc/default/grub"
@@ -61,7 +62,7 @@ declare -A options_clean
 
 # Piping the above array (cleaned) into dmenu.
 # We use "printf '%s\n'" to format the array one item to a line.
-choice=$(printf '%s\n' "${!options_clean[@]}" | sort | dmenu -i -l 40 -p 'Edit config:' "$@")
+choice=$(printf '%s\n' "${!options_clean[@]}" | sort | dmenu -i -l 40 -fn "Roboto Mono Nerd Font-8" -p 'Edit config:' "$@")
 
 
 # What to do when/if we choose a file to edit.

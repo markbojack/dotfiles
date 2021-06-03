@@ -1,67 +1,38 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
-    IAAABUYAAALw
+    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAADwAAACAAAAKjAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    IAAAAqMAAALw
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-03T23:12:38'
+      last_visited: '2021-06-03T23:53:38'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: linux check memory - Google Search
-      url: https://www.google.com/search?q=linux%20check%20memory
+      title: Home
+      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-03T23:12:38'
+      last_visited: '2021-06-03T23:53:39'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: 5 Commands to Check Memory Usage in Linux {Easy Way}
-      url: https://phoenixnap.com/kb/linux-commands-check-memory-usage
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-03T23:12:37'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 5 Commands for Checking Memory Usage in Linux - Linux.com
-      url: https://www.linux.com/training-tutorials/5-commands-checking-memory-usage-linux/
+      title: change dmenu font i3 - Google Search
+      url: https://www.google.com/search?q=change%20dmenu%20font%20i3
       zoom: 0.75
   - active: true
     history:
-    - last_visited: '2021-06-03T23:12:58'
-      pinned: false
-      title: keyboard
-      url: https://emojipedia.org/search/?q=keyboard
-    - last_visited: '2021-06-03T23:13:04'
-      pinned: false
-      title: ram
-      url: https://emojipedia.org/search/?q=ram
-    - last_visited: '2021-06-03T23:14:20'
-      pinned: false
-      title: sync
-      url: https://emojipedia.org/search/?q=sync
-    - last_visited: '2021-06-03T23:14:26'
-      pinned: false
-      title: internet
-      url: https://emojipedia.org/search/?q=internet
     - active: true
-      last_visited: '2021-06-03T23:14:59'
+      last_visited: '2021-06-03T23:53:42'
       pinned: false
       scroll-pos:
         x: 0
-        y: 240
-      title: globe
-      url: https://emojipedia.org/search/?q=globe
-      zoom: 1.25
-    - last_visited: '2021-06-03T23:14:57'
-      pinned: false
-      title: net
-      url: https://emojipedia.org/search/?q=net
+        y: 600
+      title: configuration - Custom font with dmenu_run in i3 - Unix & Linux Stack
+        Exchange
+      url: https://unix.stackexchange.com/questions/287391/custom-font-with-dmenu-run-in-i3
+      zoom: 0.75

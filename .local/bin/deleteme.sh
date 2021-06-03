@@ -1,3 +1,3 @@
 #!/bin/sh
 
-sleep 60
+alacritty -e nvim

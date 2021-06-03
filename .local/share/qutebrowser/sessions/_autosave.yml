@@ -1,0 +1,19 @@
+windows:
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAKyAAABjwAABUYAAALwAAACsgAAAY8AAAVGAAAC8AAAAAAAAAAABVYAAAKyAAAB
+    jwAABUYAAALw
+  tabs:
+  - history:
+    - active: true
+      last_visited: '2021-06-04T00:00:00'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Home
+      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
+      zoom: 0.75
+  - history: []
+  - active: true
+    history: []

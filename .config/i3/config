@@ -50,7 +50,7 @@ bindsym --release $mod+z exec --no-startup-id flameshot gui
 
 # start dmenu (a program launcher)
 #bindsym $mod+d exec --no-startup-id dmenu_run
-bindsym $mod+d exec --no-startup-id dmenu_run -fn "Noto Sans Mono Nerd Font-8" -sb black -h 20
+bindsym $mod+d exec --no-startup-id dmenu_run -fn "Roboto Mono Nerd Font-8" -sb black -h 18
 
 bindsym $mod+Shift+d mode "command"
 mode "command" {
@@ -59,6 +59,7 @@ mode "command" {
     bindsym k exec --no-startup-id ~/.local/bin/dmkill; mode "default"
     bindsym s exec --no-startup-id ~/.local/bin/dmsearch; mode "default"
     bindsym q exec --no-startup-id ~/.local/bin/dmqute; mode "default"
+    bindsym l exec --no-startup-id ~/.local/bin/dmlogout; mode "default"
     #bindsym r exec --no-startup-id ~/.local/bin/dmscrot; mode "default"
     bindsym Escape mode "default"
 }
@@ -456,3 +457,4 @@ bindsym $mod+Shift+u 		exec --no-startup-id tdrop -am -w 98% -y 4% -x 1% -h 95% 
 bindsym $mod+Shift+i 		exec --no-startup-id tdrop -am -w 48% -y 4% -x 1% -h 95% -n 8 alacritty
 bindsym $mod+Shift+o 		exec --no-startup-id tdrop -am -w 49% -y 4% -x 50% -h 95% -n 9 alacritty
 #bindsym $mod+Shift+q 		exec --no-startup-id tdrop -am -w 98% -y 4% -x 1% -h 95% -n 10 qutebrowser
+bindsym $mod+Shift+n 		exec --no-startup-id tdrop -am -w 98% -y 4% -x 1% -h 95% -n 11 alacritty -e ranger
