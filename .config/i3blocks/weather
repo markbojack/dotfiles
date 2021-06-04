@@ -1,5 +1,29 @@
 #!/bin/bash
 
-weather=$( /home/mark/i3-weather/.env/bin/python weather.py --api-key adf1c6f61c4833557f00d1fb683298ad --city-id 1566083 --format {sunrise} )
-echo -e "<span size='x-large' weight='heavy' color='#FF0000' bgcolor='black'>📬  $weather</span>\n"
+# https://home.openweathermap.org/
+# https://github.com/calzoneman/i3-weather
+#	The following format specifiers are supported:
+#	{city} - city name associated with the input location
+#	{country} - country name associated with the input location
+#	{wind_direction} - direction (in degrees) of the wind
+#	{wind_direction_fuzzy} - fuzzy direction of the wind (N, NE, etc.)
+#	{wind_direction_arrow} - arrow direction of the wind (↓, , etc.)
+#	{wind_speed_mph} - speed of the wind in miles per hour
+#	{wind_speed_ms} - speed of the wind in meters per second
+#	{humidity} - relative humidity
+#	{pressure} - atmospheric pressure in hectopascals (millibars)
+#	{sunrise} - sunrise time (in current time zone)
+#	{sunset} - sunset time (in current time zone)
+#	{text} - basic description of condition (e.g "Fair" or "Partly cloudy")
+#	{temp_f} - temperature in Fahrenheit
+#	{temp_c} - temperature in Celsius
+#	{temp_k} - temperature in Kelvin
 
+cd ~/i3-weather
+sunrise=$(.env/bin/python weather.py --api-key adf1c6f61c4833557f00d1fb683298ad --city-id 1566083 --format {sunrise})
+sunset=$(.env/bin/python weather.py --api-key adf1c6f61c4833557f00d1fb683298ad --city-id 1566083 --format {sunset})
+wind_speed=$(.env/bin/python weather.py --api-key adf1c6f61c4833557f00d1fb683298ad --city-id 1566083 --format {wind_speed_mph})
+humidity=$(.env/bin/python weather.py --api-key adf1c6f61c4833557f00d1fb683298ad --city-id 1566083 --format {humidity})
+text=$(.env/bin/python weather.py --api-key adf1c6f61c4833557f00d1fb683298ad --city-id 1566083 --format {text})
+temp=$(.env/bin/python weather.py --api-key adf1c6f61c4833557f00d1fb683298ad --city-id 1566083 --format {temp_f})
+echo -e 💬  $text  🌡️   $temp   💧   $humidity   🌪️  $wind_speed   🌅  $sunrise  🌇 $sunset

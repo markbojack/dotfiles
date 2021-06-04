@@ -1,12 +1,12 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    AdnQywADAAAAAAKyAAAAIAAABUYAAALwAAACsgAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAKyAAAA
     IAAABUYAAALw
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-05T02:42:43'
+      last_visited: '2021-06-05T04:14:53'
       pinned: false
       scroll-pos:
         x: 0
@@ -16,7 +16,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-05T02:42:42'
+      last_visited: '2021-06-05T04:14:52'
       pinned: false
       scroll-pos:
         x: 0
@@ -24,35 +24,14 @@ windows:
       title: Dividend Calendar • 2021 • Updated Daily • Benzinga
       url: https://www.benzinga.com/calendars/dividends
       zoom: 0.75
-  - history:
+  - active: true
+    history:
     - active: true
-      last_visited: '2021-06-05T02:42:43'
+      last_visited: '2021-06-05T04:14:52'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
       title: arrow
       url: https://emojipedia.org/search/?q=arrow
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-05T02:42:42'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: vim map tab - Google Search
-      url: https://www.google.com/search?q=vim%20map%20tab
-      zoom: 0.75
-  - active: true
-    history:
-    - active: true
-      last_visited: '2021-06-05T02:42:53'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 200
-      title: In vim, how can I remap <tab> without also remapping <Ctrl+i>? - Super
-        User
-      url: https://superuser.com/questions/770068/in-vim-how-can-i-remap-tab-without-also-remapping-ctrli
       zoom: 0.75

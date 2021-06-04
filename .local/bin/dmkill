@@ -18,7 +18,7 @@ if [[ -n $selected ]]; then
 
     # Piping No/Yes into dmenu as a safety measure, in case you
     # select a process that you don't actually want killed.
-    answer="$(echo -e "No\nYes" | dmenu -i -p "Kill $selected?" "$@")"
+    answer="$(echo -e "No\nYes" | dmenu -i -h 18 -fn "Roboto Mono Nerd Font-8" -p "Kill $selected?" "$@")"
 
     if [[ $answer == "Yes" ]]; then
         selpid="$(awk '{print $1}' <<< "$selected")";

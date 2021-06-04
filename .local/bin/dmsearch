@@ -58,6 +58,7 @@ else
 	options[0google]="https://www.google.com/search?q="
 	options[etf]="https://etf.com/"
 	options[finviz]="https://finviz.com/quote.ashx?t="
+	options[emoji]="https://emojipedia.org/search/?q="
 	#options[images]="https://www.google.com/search?hl=en&tbm=isch&q="
 	#options[googlenews]="https://news.google.com/search?q="
 	#options[googleSupport]="https://support.google.com/search?q="
@@ -82,7 +83,7 @@ done
 # Searching the chosen engine.
 # shellcheck disable=SC2154
 while [ -z "$query" ]; do
-    query=$(echo "$engine" | dmenu -p 'Enter search query:') "$@" || exit
+    query=$(echo "$engine" | dmenu -h 18 -fn "Roboto Mono Nerd Font-8" -p 'Enter search query:') "$@" || exit
 done
 
 # Display search results in web browser
