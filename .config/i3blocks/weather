@@ -1,0 +1,5 @@
+#!/bin/bash
+
+weather=$( /home/mark/i3-weather/.env/bin/python weather.py --api-key adf1c6f61c4833557f00d1fb683298ad --city-id 1566083 --format {sunrise} )
+echo -e "<span size='x-large' weight='heavy' color='#FF0000' bgcolor='black'>📬  $weather</span>\n"
+
