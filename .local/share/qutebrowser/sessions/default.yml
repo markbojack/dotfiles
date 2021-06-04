@@ -1,17 +1,272 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
-    IAAABUYAAALw
+    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAADwAAACAAAAKjAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    IAAAAqMAAALw
   tabs:
-  - active: true
-    history:
+  - history:
     - active: true
-      last_visited: '2021-06-04T00:07:02'
+      last_visited: '2021-06-04T13:05:13'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Home
-      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
+      title: Ex-Dividend Dates | Free Dividend Calendar
+      url: https://www.marketbeat.com/dividends/ex-dividend-date-list/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-04T13:05:19'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Ex-Dividend Dates: When Are You Entitled to Stock and Cash Dividends
+        | Investor.gov'
+      url: https://www.investor.gov/introduction-investing/investing-basics/glossary/ex-dividend-dates-when-are-you-entitled-stock-and
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-04T13:05:23'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Best Ex-Dividend Date Search Tool for Stocks, ETFs and Funds in 2021
+        - Dividend.com
+      url: https://www.dividend.com/ex-dividend-dates/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-04T13:05:27'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Dividend Calendar - 2021 Ex-Dividend Date Calendar - TheStreet
+      url: https://www.thestreet.com/dividends/index.html
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-04T13:05:29'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Dividend Calendar - Investing.com
+      url: https://www.investing.com/dividends-calendar/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-04T13:05:38'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Dividend Calendar | EX-Dividend Payout Dates -TipRanks
+      url: https://www.tipranks.com/calendars/dividends
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-04T13:05:37'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Dividend Calendar as of June 4, 2021 - Fidelity
+      url: https://eresearch.fidelity.com/eresearch/conferenceCalls.jhtml?tab=dividends
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-04T13:05:56'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Dividend Calendar | Nasdaq
+      url: https://www.nasdaq.com/market-activity/dividends
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-04T13:05:59'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Dividend Calendar - Investing.com
+      url: https://www.investing.com/dividends-calendar/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-04T13:06:01'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Dividend Calendar - 2021 Ex-Dividend Date Calendar - TheStreet
+      url: https://www.thestreet.com/dividends/index.html
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-04T13:06:04'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Dividend Calendar | EX-Dividend Payout Dates -TipRanks
+      url: https://www.tipranks.com/calendars/dividends
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-04T13:06:08'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Dividend Calendar as of June 4, 2021 - Fidelity
+      url: https://eresearch.fidelity.com/eresearch/conferenceCalls.jhtml?tab=dividends
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-04T13:06:10'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Ex-Dividend Dates | Free Dividend Calendar
+      url: https://www.marketbeat.com/dividends/ex-dividend-date-list/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-04T13:06:13'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Stock Dividend Calendar | Ex Dividend Pay Date Calendar
+      url: https://marketchameleon.com/Calendar/Dividend
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-04T13:06:19'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: https://dividendstocks.cash/dividend-calendar
+      url: https://dividendstocks.cash/dividend-calendar
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-04T13:06:16'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Dividend Calendar • 2021 • Updated Daily • Benzinga
+      url: https://www.benzinga.com/calendars/dividends
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-04T13:06:20'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Ex-Dividend Dates - FTSE, LSE, AIM
+      url: https://www.dividenddata.co.uk/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-04T13:06:44'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Group Screener - Custom sector dividendyield
+      url: https://finviz.com/groups.ashx?g=sector&v=152&o=dividendyield
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-04T13:06:50'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'DAILY DIVIDEND REPORT: COKE, D, BHI, Stock Quote'
+      url: https://finviz.com/quote.ashx?t=Daily%20Dividend%20Report%3A%20COKE%2C%20D%2C%20BHI%2C
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-04T13:06:56'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: SDY SPDR S&P Dividend ETF Stock Quote
+      url: https://finviz.com/quote.ashx?t=SDY
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-04T13:07:03'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: How To Use Finviz To Find Bargain Dividend Stocks For Free - Sure Dividend
+      url: https://www.suredividend.com/finviz-stock-screener/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-04T13:07:28'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Ex-Dividend Dates | Free Dividend Calendar
+      url: https://www.marketbeat.com/dividends/ex-dividend-date-list/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-04T13:07:31'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Dividend Calendar as of June 4, 2021 - Fidelity
+      url: https://eresearch.fidelity.com/eresearch/conferenceCalls.jhtml?tab=dividends
+      zoom: 0.75
+  - history: []
+  - history: []
+  - history:
+    - active: true
+      last_visited: '2021-06-04T13:07:42'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Dividend Calendar - Investing.com
+      url: https://www.investing.com/dividends-calendar/
+      zoom: 0.75
+  - history: []
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-04T13:12:21'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: qutebrowser bookmark save - Google Search
+      url: https://www.google.com/search?q=qutebrowser%20bookmark%20save
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-04T13:14:38'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: '| qutebrowser'
+      url: https://qutebrowser.org/doc/help/commands.html
       zoom: 0.75

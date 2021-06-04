@@ -1,58 +1,62 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
-    IAAABUYAAALw
+    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAADwAAACAAAAKjAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    IAAAAqMAAALw
   tabs:
+  - history:
+    - active: true
+      last_visited: '2021-06-04T13:16:16'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Stock Dividend Calendar | Ex Dividend Pay Date Calendar
+      url: https://marketchameleon.com/Calendar/Dividend
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-06-04T13:16:11'
+      pinned: false
+      title: Dividend Calendar • 2021 • Updated Daily • Benzinga
+      url: https://www.benzinga.com/calendars/dividends
+    - active: true
+      last_visited: '2021-06-04T13:57:10'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Page not found • Benzinga
+      url: https://www.benzinga.com/calendars/dividends/search?q=
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-04T13:57:42'
+      original-url: https://www.benzinga.com/calendars/dividends/?q=spy
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Dividend Calendar • 2021 • Updated Daily • Benzinga
+      url: https://www.benzinga.com/calendars/dividends?q=spy
+      zoom: 0.75
   - active: true
     history:
+    - last_visited: '2021-06-04T13:58:11'
+      original-url: https://www.benzinga.com/calendars/dividends/?q=spy
+      pinned: false
+      title: Dividend Calendar • 2021 • Updated Daily • Benzinga
+      url: https://www.benzinga.com/calendars/dividends?q=spy
+    - last_visited: '2021-06-04T13:58:35'
+      pinned: false
+      title: Page not found • Benzinga
+      url: https://www.benzinga.com/calendars/dividends/search?q=spy
     - active: true
-      last_visited: '2021-06-04T12:59:53'
+      last_visited: '2021-06-04T13:59:02'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: SEC.gov | HOME
-      url: https://www.sec.gov/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-04T12:58:15'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 25 High-Dividend Stocks and How to Invest in Them - NerdWallet
-      url: https://www.nerdwallet.com/article/investing/how-to-invest-dividend-stocks
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-04T12:58:18'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: What Is a Dividend and How Do They Work? - NerdWallet
-      url: https://www.nerdwallet.com/article/investing/what-are-dividends
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-04T12:58:21'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'Ex-Dividend Dates: When Are You Entitled to Stock and Cash Dividends
-        | Investor.gov'
-      url: https://www.investor.gov/introduction-investing/investing-basics/glossary/ex-dividend-dates-when-are-you-entitled-stock-and
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-04T12:58:27'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: How Long Do You Need to Own Stock to Get a Dividend Payout?
-      url: https://finance.zacks.com/long-need-own-stock-dividend-payout-1761.html
+      title: qutebrowser open website clipboard qutebrowser open website clipboard
+        - Google Search - Google Search
+      url: https://www.google.com/search?q=qutebrowser%20open%20website%20clipboard%20qutebrowser%20open%20website%20clipboard%20-%20Google%20Search
       zoom: 0.75
