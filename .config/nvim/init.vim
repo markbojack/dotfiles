@@ -122,6 +122,9 @@
         map <leader>tws :%s/\s\+$//e<cr>:%s/\n\+\%$//e<cr>
 		" email signature
 		" map <leader>sft :r !toilet -f future sent with neomutt<cr>
+		" auto comment
+		vmap <leader>c :norm I#<Tab><cr>
+		vmap <leader>x :norm ^xx<cr>
 		
 	" Macros
 		let @h = 'I<a class="bookmarkllcw href="f]cw" target="_blank">A€kb€kb</a'

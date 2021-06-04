@@ -178,9 +178,6 @@ export MANPAGER="nvim -c 'set ft=man' -"
 
 
 # fzf
-#https://github.com/junegunn/fzf/issues/337
-#export FZF_DEFAULT_COMMAND='rg --hidden -l ""' # doesn't work...
-#alias fzf='rg --hidden -l "" | fzf'
 export FZF_DEFAULT_COMMAND="find -L"
 
 # some more ls aliases
@@ -249,6 +246,7 @@ alias grubc='sudo nvim /etc/default/grub'
 alias pdf='qpdfview'
 alias tar='tar -xvzf'
 alias weather='curl wttr.in'
+alias trash='~/.local/bin/empty-trash.sh'
 
 # remind aliases
 alias rem='nvim ~/p-dot-script/remind.rem'
