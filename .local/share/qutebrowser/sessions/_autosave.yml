@@ -1,0 +1,58 @@
+windows:
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    IAAABUYAAALw
+  tabs:
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-04T12:59:53'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: SEC.gov | HOME
+      url: https://www.sec.gov/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-04T12:58:15'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 25 High-Dividend Stocks and How to Invest in Them - NerdWallet
+      url: https://www.nerdwallet.com/article/investing/how-to-invest-dividend-stocks
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-04T12:58:18'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: What Is a Dividend and How Do They Work? - NerdWallet
+      url: https://www.nerdwallet.com/article/investing/what-are-dividends
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-04T12:58:21'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Ex-Dividend Dates: When Are You Entitled to Stock and Cash Dividends
+        | Investor.gov'
+      url: https://www.investor.gov/introduction-investing/investing-basics/glossary/ex-dividend-dates-when-are-you-entitled-stock-and
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-04T12:58:27'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: How Long Do You Need to Own Stock to Get a Dividend Payout?
+      url: https://finance.zacks.com/long-need-own-stock-dividend-payout-1761.html
+      zoom: 0.75
