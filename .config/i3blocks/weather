@@ -19,6 +19,8 @@
 #	{temp_c} - temperature in Celsius
 #	{temp_k} - temperature in Kelvin
 
+
+# might need to tweak --update-interval
 cd ~/i3-weather
 sunrise=$(.env/bin/python weather.py --api-key adf1c6f61c4833557f00d1fb683298ad --city-id 1566083 --format {sunrise})
 sunset=$(.env/bin/python weather.py --api-key adf1c6f61c4833557f00d1fb683298ad --city-id 1566083 --format {sunset})
@@ -26,4 +28,4 @@ wind_speed=$(.env/bin/python weather.py --api-key adf1c6f61c4833557f00d1fb683298
 humidity=$(.env/bin/python weather.py --api-key adf1c6f61c4833557f00d1fb683298ad --city-id 1566083 --format {humidity})
 text=$(.env/bin/python weather.py --api-key adf1c6f61c4833557f00d1fb683298ad --city-id 1566083 --format {text})
 temp=$(.env/bin/python weather.py --api-key adf1c6f61c4833557f00d1fb683298ad --city-id 1566083 --format {temp_f})
-echo -e 💬  $text  🌡️   $temp   💧   $humidity   🌪️  $wind_speed   🌅  $sunrise  🌇 $sunset
+echo -e  🌡️   $temp   💧   $humidity   🌪️  $wind_speed   🌅  $sunrise  🌇 $sunset    💬  $text 
