@@ -1,6 +1,6 @@
 " ~/.vim/sessions/seasonality.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 04 Tháng 6 2021 at 12:57:14.
+" Created by session.vim 2.13.1 on 05 Tháng 6 2021 at 02:23:33.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -73,7 +73,7 @@ badd +1 shorts
 badd +849 data/high-sharpe/longs
 badd +176 data/high-sharpe/shorts
 badd +1 sharpe-perforance.R
-badd +30 analysis.R
+badd +18 analysis.R
 badd +59 data/model-gen.R
 badd +260 ~/.config/picom/picom.conf
 badd +1438 data/prev-etf-long
@@ -91,7 +91,10 @@ edit analysis.R
 set splitbelow splitright
 wincmd _ | wincmd |
 vsplit
-1wincmd h
+wincmd _ | wincmd |
+vsplit
+2wincmd h
+wincmd w
 wincmd w
 wincmd t
 set winminheight=0
@@ -99,7 +102,8 @@ set winheight=1
 set winminwidth=0
 set winwidth=1
 exe 'vert 1resize ' . ((&columns * 31 + 110) / 221)
-exe 'vert 2resize ' . ((&columns * 189 + 110) / 221)
+exe 'vert 2resize ' . ((&columns * 94 + 110) / 221)
+exe 'vert 3resize ' . ((&columns * 94 + 110) / 221)
 argglobal
 enew
 " file NERD_tree_3
@@ -122,16 +126,34 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 31 - ((30 * winheight(0) + 26) / 53)
+let s:l = 18 - ((10 * winheight(0) + 26) / 53)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-31
-normal! 0105|
+18
+normal! 0
 wincmd w
-2wincmd w
+argglobal
+if bufexists("data/NOTES.md") | buffer data/NOTES.md | else | edit data/NOTES.md | endif
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+silent! normal! zE
+let s:l = 66 - ((26 * winheight(0) + 26) / 53)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+66
+normal! 0
+wincmd w
 exe 'vert 1resize ' . ((&columns * 31 + 110) / 221)
-exe 'vert 2resize ' . ((&columns * 189 + 110) / 221)
+exe 'vert 2resize ' . ((&columns * 94 + 110) / 221)
+exe 'vert 3resize ' . ((&columns * 94 + 110) / 221)
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
@@ -160,8 +182,8 @@ if !getbufvar(s:bufnr_save, '&modified')
   endif
 endif
 execute "cd" fnameescape(s:cwd_save)
-1resize 53|vert 1resize 31|2resize 53|vert 2resize 189|
-2wincmd w
+1resize 53|vert 1resize 31|2resize 53|vert 2resize 94|3resize 53|vert 3resize 94|
+1wincmd w
 tabnext 1
 if exists('s:wipebuf')
   if empty(bufname(s:wipebuf))

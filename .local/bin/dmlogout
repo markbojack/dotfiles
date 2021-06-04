@@ -29,7 +29,7 @@ choice=$(printf '%s\n' "${options[@]}" | dmenu -i -fn "Roboto Mono Nerd Font-8" 
 # What to do when/if we choose one of the options.
 case $choice in
     'Logout')
-        if [[ "$(echo -e "No\nYes" | dmenu -i -p "${choice}?" "${@}" )" == "Yes" ]]; then
+        if [[ "$(echo -e "No\nYes" | dmenu -i -fn "Roboto Mono Nerd Font-8" -p "${choice}?" "${@}" )" == "Yes" ]]; then
             for manager in "${MANAGERS[@]}"; do 
                 killall "${manager}" || output "Process ${manager} was not running."
             done
@@ -38,21 +38,21 @@ case $choice in
         fi
         ;;
     'Reboot')
-        if [[ "$(echo -e "No\nYes" | dmenu -i -p "${choice}?" "${@}" )" == "Yes" ]]; then
+        if [[ "$(echo -e "No\nYes" | dmenu -i -fn "Roboto Mono Nerd Font-8" -p "${choice}?" "${@}" )" == "Yes" ]]; then
             ~/.local/bin/reboot.sh
         else
             output "User chose not to reboot." && exit 0
         fi
         ;;
     'Poweroff')
-        if [[ "$(echo -e "No\nYes" | dmenu -i -p "${choice}?" "${@}" )" == "Yes" ]]; then
+        if [[ "$(echo -e "No\nYes" | dmenu -i -fn "Roboto Mono Nerd Font-8" -p "${choice}?" "${@}" )" == "Yes" ]]; then
             ~/.local/bin/poweroff.sh
         else
             output "User chose not to shutdown." && exit 0
         fi
         ;;
     'Suspend')
-        if [[ "$(echo -e "No\nYes" | dmenu -i -p "${choice}?" "${@}" )" == "Yes" ]]; then
+        if [[ "$(echo -e "No\nYes" | dmenu -i -fn "Roboto Mono Nerd Font-8" -p "${choice}?" "${@}" )" == "Yes" ]]; then
             systemctl suspend
         else
             output "User chose not to suspend." && exit 0

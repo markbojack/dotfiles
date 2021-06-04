@@ -1,12 +1,12 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAADwAAACAAAAKjAAAC8AAAAAAAAAAABVYAAAAPAAAA
-    IAAAAqMAAALw
+    AdnQywADAAAAAAAPAAAADwAABUYAAALwAAAADwAAAA8AAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    DwAABUYAAALw
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-04T13:16:16'
+      last_visited: '2021-06-04T14:11:46'
       pinned: false
       scroll-pos:
         x: 0
@@ -14,10 +14,9 @@ windows:
       title: Stock Dividend Calendar | Ex Dividend Pay Date Calendar
       url: https://marketchameleon.com/Calendar/Dividend
       zoom: 0.75
-  - active: true
-    history:
+  - history:
     - active: true
-      last_visited: '2021-06-04T14:02:25'
+      last_visited: '2021-06-04T14:11:46'
       pinned: false
       scroll-pos:
         x: 0
@@ -25,7 +24,18 @@ windows:
       title: Dividend Calendar • 2021 • Updated Daily • Benzinga
       url: https://www.benzinga.com/calendars/dividends
       zoom: 0.75
-    - last_visited: '2021-06-04T13:57:10'
+  - active: true
+    history:
+    - last_visited: '2021-06-04T14:11:46'
       pinned: false
-      title: Page not found • Benzinga
-      url: https://www.benzinga.com/calendars/dividends/search?q=
+      title: color
+      url: https://emojipedia.org/search/?q=color
+    - active: true
+      last_visited: '2021-06-04T14:16:58'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 80
+      title: arrow
+      url: https://emojipedia.org/search/?q=arrow
+      zoom: 0.75
