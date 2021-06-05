@@ -15,6 +15,7 @@
 " ,wp		wrap
 " ,o 		spellcheck
 " <select in visual mode> :sort u   sort
+" [[ = gg and ]] = G
 
 " Compulsory
 	let mapleader=","

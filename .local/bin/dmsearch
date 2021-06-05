@@ -58,7 +58,7 @@ else
 	options[0google]="https://www.google.com/search?q="
 	options[etf]="https://etf.com/"
 	options[finviz]="https://finviz.com/quote.ashx?t="
-	options[emoji]="https://emojipedia.org/search/?q="
+	options[gemoji]="https://emojipedia.org/search/?q="
 	#options[images]="https://www.google.com/search?hl=en&tbm=isch&q="
 	#options[googlenews]="https://news.google.com/search?q="
 	#options[googleSupport]="https://support.google.com/search?q="

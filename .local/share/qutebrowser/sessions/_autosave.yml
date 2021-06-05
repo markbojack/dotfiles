@@ -1,0 +1,29 @@
+windows:
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    IAAABUYAAALw
+  tabs:
+  - history:
+    - active: true
+      last_visited: '2021-06-06T00:53:51'
+      original-url: https://etf.com/hap
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 80
+      title: 'HAP ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/HAP
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-06T00:54:58'
+      original-url: https://etf.com/ftcs
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'FTCS ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/FTCS
+      zoom: 0.75
