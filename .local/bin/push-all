@@ -35,30 +35,10 @@ if [ "$isChanged" -ne 0 ]; then
 	echo -e "\n"
 fi
 
-cd ~/finwiki
-isChanged="$(git status --porcelain | wc -l)"
-if [ "$isChanged" -ne 0 ]; then
-	echo "finwiki"
-	git add .
-	git commit -m "update"
-	git push -u origin main -q
-	echo -e "\n"
-fi
-
 cd ~/seasonality
 isChanged="$(git status --porcelain | wc -l)"
 if [ "$isChanged" -ne 0 ]; then
 	echo "seasonality"
-	git add .
-	git commit -m "update"
-	git push -u origin main -q
-	echo -e "\n"
-fi
-
-cd ~/tendril
-isChanged="$(git status --porcelain | wc -l)"
-if [ "$isChanged" -ne 0 ]; then
-	echo "tendril"
 	git add .
 	git commit -m "update"
 	git push -u origin main -q
