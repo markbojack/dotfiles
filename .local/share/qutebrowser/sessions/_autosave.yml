@@ -1,29 +1,43 @@
 windows:
-- active: true
-  geometry: !!binary |
+- geometry: !!binary |
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
     IAAABUYAAALw
   tabs:
-  - history:
+  - active: true
+    history:
+    - last_visited: '2021-06-06T11:57:23'
+      original-url: https://etf.com/splv
+      pinned: false
+      title: 'SPLV ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/SPLV
+    - last_visited: '2021-06-06T11:58:30'
+      pinned: false
+      title: 'SPLV ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/SPLV#overview
+    - last_visited: '2021-06-06T11:58:34'
+      pinned: false
+      title: 'SPLV ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/SPLV#efficiency
+    - last_visited: '2021-06-06T11:58:34'
+      pinned: false
+      title: 'SPLV ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/SPLV#overview
     - active: true
-      last_visited: '2021-06-06T00:53:51'
-      original-url: https://etf.com/hap
+      last_visited: '2021-06-06T11:58:43'
       pinned: false
       scroll-pos:
         x: 0
-        y: 80
-      title: 'HAP ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/HAP
+        y: 160
+      title: Stock Dividend Calendar | Ex Dividend Pay Date Calendar
+      url: https://marketchameleon.com/Calendar/Dividend
       zoom: 0.75
-  - active: true
-    history:
+  - history:
     - active: true
-      last_visited: '2021-06-06T00:54:58'
-      original-url: https://etf.com/ftcs
+      last_visited: '2021-06-06T11:58:46'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: 'FTCS ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/FTCS
+      title: Dividend Calendar • 2021 • Updated Daily • Benzinga
+      url: https://www.benzinga.com/calendars/dividends
       zoom: 0.75
