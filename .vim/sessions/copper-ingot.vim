@@ -1,6 +1,6 @@
 " ~/.vim/sessions/copper-ingot.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 25 Tháng 5 2021 at 16:57:51.
+" Created by session.vim 2.13.1 on 06 Tháng 6 2021 at 19:43:51.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -22,19 +22,22 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
 endif
 set shortmess=aoO
 badd +145 ~/.config/nvim/init.vim
-badd +9 portfolio13F.R
+badd +1 portfolio13F.R
 badd +16 R/packagesAndOptions.R
 badd +1 watchlist.md
 badd +26 portfolioTips.R
-badd +4 reference.R
-badd +30 watchlist13F.md
+badd +1 reference.R
+badd +1 watchlist13F.md
 badd +15 R/status.R
 badd +1 R/charts.R
-badd +16 watchlistTips.md
+badd +1 watchlistTips.md
+badd +1 README.md
+badd +0 /docs/NOTES.md
+badd +3 docs/NOTES.md
 argglobal
 %argdel
 $argadd ~/.config/nvim/init.vim
-edit portfolioTips.R
+edit reference.R
 set splitbelow splitright
 wincmd _ | wincmd |
 vsplit
@@ -45,8 +48,8 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe 'vert 1resize ' . ((&columns * 31 + 110) / 221)
-exe 'vert 2resize ' . ((&columns * 189 + 110) / 221)
+exe 'vert 1resize ' . ((&columns * 31 + 54) / 108)
+exe 'vert 2resize ' . ((&columns * 76 + 54) / 108)
 argglobal
 enew
 " file NERD_tree_3
@@ -58,7 +61,6 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal nofen
-lcd ~/copper-ingot
 wincmd w
 argglobal
 setlocal fdm=manual
@@ -70,17 +72,17 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 26 - ((24 * winheight(0) + 26) / 53)
+let s:l = 1 - ((0 * winheight(0) + 26) / 53)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-26
+1
 normal! 0
 lcd ~/copper-ingot
 wincmd w
 2wincmd w
-exe 'vert 1resize ' . ((&columns * 31 + 110) / 221)
-exe 'vert 2resize ' . ((&columns * 189 + 110) / 221)
+exe 'vert 1resize ' . ((&columns * 31 + 54) / 108)
+exe 'vert 2resize ' . ((&columns * 76 + 54) / 108)
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
@@ -109,7 +111,7 @@ if !getbufvar(s:bufnr_save, '&modified')
   endif
 endif
 execute "cd" fnameescape(s:cwd_save)
-1resize 53|vert 1resize 31|2resize 53|vert 2resize 189|
+1resize 53|vert 1resize 31|2resize 53|vert 2resize 76|
 2wincmd w
 tabnext 1
 if exists('s:wipebuf')
