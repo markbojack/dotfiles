@@ -1,10 +1,10 @@
 windows:
-- geometry: !!binary |
+- active: true
+  geometry: !!binary |
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
     IAAABUYAAALw
   tabs:
-  - active: true
-    history:
+  - history:
     - last_visited: '2021-06-06T11:57:23'
       original-url: https://etf.com/splv
       pinned: false
@@ -33,11 +33,22 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-06T11:58:46'
+      last_visited: '2021-06-06T12:19:14'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
       title: Dividend Calendar • 2021 • Updated Daily • Benzinga
       url: https://www.benzinga.com/calendars/dividends
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-06T12:20:34'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: UNH Stock Price, UnitedHealth Group Stock Quotes and News - Benzinga
+      url: https://www.benzinga.com/quote/UNH
       zoom: 0.75
