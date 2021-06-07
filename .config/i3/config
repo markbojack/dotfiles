@@ -439,6 +439,7 @@ bindsym $mod+m bar mode toggle
 for_window [class="Yad"] floating enable
 
 # moar keybindings
+bindsym $mod+Shift+m		exec --no-startup-id keynav
 bindsym $mod+Shift+a		exec --no-startup-id ibus emoji
 bindsym $mod+Escape			workspace prev
 bindsym $mod+Tab			workspace back_and_forth

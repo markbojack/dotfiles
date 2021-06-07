@@ -1,0 +1,71 @@
+windows:
+- geometry: !!binary |
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    IAAABUYAAALw
+  tabs:
+  - history:
+    - active: true
+      last_visited: '2021-06-07T12:45:11'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: keynav/keynavrc.jordan at master · jordansissel/keynav
+      url: https://github.com/jordansissel/keynav/blob/master/examples/keynavrc.jordan
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-07T12:45:13'
+      original-url: https://etf.com/dog
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 280
+      title: 'DOG ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/DOG
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-07T12:45:18'
+      original-url: https://etf.com/ftcs
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'FTCS ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/FTCS
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-07T12:45:24'
+      original-url: https://etf.com/hdv
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'HDV ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/HDV
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-07T12:45:27'
+      original-url: https://etf.com/schv
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'SCHV ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/SCHV
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-07T12:45:31'
+      original-url: https://etf.com/splv
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 80
+      title: 'SPLV ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/SPLV
+      zoom: 0.75

@@ -1,44 +1,39 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAADwAAACAAAAKjAAAC8AAAAAAAAAAABVYAAAAPAAAA
-    IAAAAqMAAALw
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    IAAABUYAAALw
   tabs:
-  - active: true
-    history:
-    - last_visited: '2021-06-06T11:57:23'
-      original-url: https://etf.com/splv
-      pinned: false
-      title: 'SPLV ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/SPLV
-    - last_visited: '2021-06-06T11:58:30'
-      pinned: false
-      title: 'SPLV ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/SPLV#overview
-    - last_visited: '2021-06-06T11:58:34'
-      pinned: false
-      title: 'SPLV ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/SPLV#efficiency
-    - last_visited: '2021-06-06T11:58:34'
-      pinned: false
-      title: 'SPLV ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/SPLV#overview
-    - active: true
-      last_visited: '2021-06-06T11:58:43'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 160
-      title: Stock Dividend Calendar | Ex Dividend Pay Date Calendar
-      url: https://marketchameleon.com/Calendar/Dividend
-      zoom: 0.75
   - history:
+    - last_visited: '2021-06-07T12:29:21'
+      pinned: false
+      title: brodey keynav config - Google Search
+      url: https://www.google.com/search?q=brodey%20keynav%20config
     - active: true
-      last_visited: '2021-06-06T12:19:14'
+      last_visited: '2021-06-07T12:29:40'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Dividend Calendar • 2021 • Updated Daily • Benzinga
-      url: https://www.benzinga.com/calendars/dividends
+      title: keynav - Google Search
+      url: https://www.google.com/search?q=keynav&ei=sK69YNvsMcjM-QaPh77ADw&oq=keynav&gs_lcp=Cgdnd3Mtd2l6EAMyBAgAEEMyAggAMgIIADIECAAQQzICCAA6BQghEKABOggILhCRAhCTAjoFCAAQkQI6CAgAELEDEIMBOgUIABCxAzoLCC4QsQMQxwEQowI6BQguELEDOggILhCxAxCDAToICAAQsQMQkQI6DgguELEDEIMBEMcBEK8BOgIILjoICC4QxwEQrwFQlE5Y0IUBYI6RAWgDcAB4BIABtwGIAaIQkgEEMC4xNZgBAKABAaoBB2d3cy13aXqwAQDAAQE&sclient=gws-wiz&ved=0ahUKEwjbhMaW5YTxAhVIZt4KHY-DD_gQ4dUDCBE&uact=5
+      zoom: 0.75
+  - active: true
+    history:
+    - last_visited: '2021-06-07T12:30:41'
+      pinned: false
+      title: 'jordansissel/keynav: retire your mouse.'
+      url: https://github.com/jordansissel/keynav
+    - last_visited: '2021-06-07T12:30:41'
+      pinned: false
+      title: keynav/examples at master · jordansissel/keynav
+      url: https://github.com/jordansissel/keynav/tree/master/examples
+    - active: true
+      last_visited: '2021-06-07T12:30:45'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 1536
+      title: keynav/keynavrc.jordan at master · jordansissel/keynav
+      url: https://github.com/jordansissel/keynav/blob/master/examples/keynavrc.jordan
       zoom: 0.75
