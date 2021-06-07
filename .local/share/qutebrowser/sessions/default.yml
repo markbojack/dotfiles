@@ -1,28 +1,17 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    AdnQywADAAAAAAKyAAAAIAAABUYAAALwAAACsgAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAKyAAAA
     IAAABUYAAALw
   tabs:
-  - history:
+  - active: true
+    history:
     - active: true
-      last_visited: '2021-06-07T13:34:27'
+      last_visited: '2021-06-07T22:23:03'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
       title: keynav/keynavrc.jordan at master · jordansissel/keynav
       url: https://github.com/jordansissel/keynav/blob/master/examples/keynavrc.jordan
-      zoom: 0.75
-  - active: true
-    history:
-    - active: true
-      last_visited: '2021-06-07T13:34:26'
-      original-url: https://etf.com/hdv
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'HDV ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/HDV
       zoom: 0.75
