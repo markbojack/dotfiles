@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+while :
+do
+	ytdl_check=$(pgrep -fl youtube-dl | wc -l)
+	[[ $ytdl_check -ne 0 ]] && echo "🟢" || echo ""
+done
