@@ -159,23 +159,23 @@ Generate_action_menu () {
 ## PROMPT FUNCTIONS
 verticalprompt () {
 	# $1 is prompt
-	dmenu -fn "$GENEFONT" -i -sb "$2" -l 25 -p "$1"
+	dmenu -fn "$GENEFONT" -i -sb "$2" -l 25 -p "$1" -h 18
 }
 
 horizontalprompt () {
 	# $1 is prompt
-	dmenu -fn "$GENEFONT" -i -sb "$2" -p "$1"
+	dmenu -fn "$GENEFONT" -i -sb "$2" -p "$1" -h 18
 }
 
 notifyprompt () {
-	dmenu -fn "$NOTIFONT" -sb "#d79921" -sf "#1d2021" -nf "#000000" -nb "#000000" -p "$1" <&-
+	dmenu -fn "$NOTIFONT" -sb "#d79921" -sf "#1d2021" -nf "#000000" -nb "#000000" -p "$1" -h 18 <&-
 }
 
 # Prompt that used in dangerous action
 dangerprompt () {
 	# From Luke Smith
 	# Use && command to execute the command after "Yes"
-	[ "$(printf "No\\nYes" | dmenu -fn "$DANGERFONT" -i -p "$1" -nb darkred -sb red -sf white -nf gray )" = "Yes" ]
+	[ "$(printf "No\\nYes" | dmenu -fn "$DANGERFONT" -i -p "$1" -nb darkred -sb red -sf white -nf gray -h 18)" = "Yes" ]
 }
 
 
