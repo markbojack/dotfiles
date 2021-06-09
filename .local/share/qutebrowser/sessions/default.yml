@@ -4,9 +4,10 @@ windows:
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
     IAAABUYAAALw
   tabs:
-  - history:
+  - active: true
+    history:
     - active: true
-      last_visited: '2021-06-09T19:05:09'
+      last_visited: '2021-06-09T20:29:48'
       pinned: false
       scroll-pos:
         x: 0
@@ -14,67 +15,3 @@ windows:
       title: keynav/keynavrc.jordan at master · jordansissel/keynav
       url: https://github.com/jordansissel/keynav/blob/master/examples/keynavrc.jordan
       zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-09T19:05:10'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: gray wallpaper at DuckDuckGo
-      url: https://duckduckgo.com/?q=gray+wallpaper&iax=images&ia=images&iai=http%3A%2F%2Fwww.pixelstalk.net%2Fwp-content%2Fuploads%2F2016%2F04%2FAbstract-grey-wallpaper-HD-desktop.jpg&pn=3
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-09T19:05:09'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Abstract-grey-wallpaper-HD-download-free.png (1920×1200)
-      url: https://www.pixelstalk.net/wp-content/uploads/2016/04/Abstract-grey-wallpaper-HD-download-free.png
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-09T19:05:09'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Abstract-grey-wallpaper-HD-desktop.jpg (1920×1080)
-      url: https://www.pixelstalk.net/wp-content/uploads/2016/04/Abstract-grey-wallpaper-HD-desktop.jpg
-      zoom: 0.75
-  - active: true
-    history:
-    - active: true
-      last_visited: '2021-06-09T19:06:25'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: https://tools.suckless.org/dmenu/scripts/dbdb.sh
-      url: https://tools.suckless.org/dmenu/scripts/dbdb.sh
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-09T19:06:28'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: scripts/dbrowse at master · clamiax/scripts
-      url: https://github.com/clamiax/scripts/blob/master/src/dbrowse
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-09T19:06:34'
-      original-url: http://efe.kim/files/scripts/dmenu_pass
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: https://efe.kim/files/scripts/dmenu_pass
-      url: https://efe.kim/files/scripts/dmenu_pass
-      zoom: 0.75
-  - history: []
-  - history: []

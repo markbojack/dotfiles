@@ -50,12 +50,12 @@ bindsym --release $mod+z exec --no-startup-id flameshot gui
 
 # dmenu
 bindsym $mod+Shift+d exec --no-startup-id ~/.local/bin/dmrun-recent
-bindsym $mod+Shift+y exec --no-startup-id clipmenu -fn "Roboto Sans Mono-8"
+bindsym $mod+Shift+y exec --no-startup-id clipmenu -i -fn "Roboto Sans Mono-8" -l 30 -p "Clipboard items:"
 
 bindsym $mod+d mode "command"
 mode "command" {
     bindsym c exec --no-startup-id ~/.local/bin/dmconf; mode "default"
-    bindsym f exec --no-startup-id ~/.local/bin/dmenufm/dmenufm; mode "default"
+    bindsym f exec --no-startup-id ~/.local/bin/dmenufm; mode "default"
     bindsym k exec --no-startup-id ~/.local/bin/dmkill; mode "default"
     bindsym s exec --no-startup-id ~/.local/bin/dmsearch; mode "default"
     bindsym q exec --no-startup-id ~/.local/bin/dmqute; mode "default"
