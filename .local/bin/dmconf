@@ -21,6 +21,7 @@ else
 	declare -A options
 	options[alacritty]="$HOME/.config/alacritty/alacritty.yml"
 	options[bashrc]="$HOME/.bashrc"
+	options[bashprompt]="$HOME/.local/bin/fancy-bash-prompt.sh"
 	options[dmconf]="$HOME/.local/bin/dmconf"
 	options[dmkill]="$HOME/.local/bin/dmkill"
 	options[dmlogout]="$HOME/.local/bin/dmlogout"

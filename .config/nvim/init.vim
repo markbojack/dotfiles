@@ -64,8 +64,7 @@
 	" Sessions
 		map <leader>ss :wa<cr>:SaveSession<cr>
 		map <leader>so :wa<cr>:OpenSession<cr>
-		map <leader>sc :wa<cr>:CloseSession<cr>
-		map <leader>scq :wa<cr>:CloseSession<cr>:q<cr>
+		map <leader>sc :wa<cr>:CloseSession<cr>:q<cr>
 
 	" Tabs
 		map <leader>tn :tabnew<cr>
