@@ -63,7 +63,7 @@ executecmd () {
 # Open files with xdg-open
 # To edit default applications in xdg-open,
 # sudo $EDITOR /usr/share/applications/mimeinfo.cache
-open () {
+openfile () {
 	appdesktop=$(xdg-mime query filetype "$1" | xargs -I {} xdg-mime query default "{}")
 	if < "$(find "$XDGDIR1" "$XDGDIR2" -name "$appdesktop" | tail -n 1)" grep "Terminal=false"; then
 		xdg-open "$1"
@@ -308,7 +308,7 @@ dmenufm_action (){
 				*)
 					destination=$(printf '%s' "$markmenu" | awk -F ' - ' '{print $2}')
 					if [ -n "$destination" ]; then
-						cd "$destination" || open "$destination"
+						cd "$destination" || openfile "$destination"
 					fi
 			esac
 			;;
@@ -356,7 +356,7 @@ dmenufm_menu () {
 		CHOICE=$(printf '%s:' "$BACKWARD" "$TARGET" "$ACTION" "$TERM" "$list" | tr ':' '\n' | sed "s/'//g; /^$/ d" | verticalprompt "$twopwd" "#005577")
 		# Outcome matching
 		if [ "$CHOICE" = "$TARGET" ]; then
-			open "$PWD"
+			openfile "$PWD"
 		elif [ "$CHOICE" = "$BACKWARD" ]; then
 			cd "../"
 			dmenufm_history
