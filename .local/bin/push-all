@@ -5,7 +5,7 @@
 isChangedDot="$(git --git-dir=$HOME/dotfiles/ --work-tree=$HOME status --porcelain | wc -l)"
 if [ "$isChangedDot" -ne 0 ]; then
 	echo "dotfiles"
-	git --git-dir=$HOME/dotfiles/ --work-tree=$HOME add ~/README.md ~/.bashrc ~/.config/nvim/init.vim ~/.vim/sessions/* ~/.Xresources  ~/.config/sxiv/exec/* ~/.config/alacritty/alacritty.yml ~/.config/i3/config ~/.config/i3status/i3status.conf ~/.config/picom/picom.conf ~/.config/i3blocks/* ~/.gtkrc-2.0 ~/.config/gtk-3.0/settings.ini ~/.config/i3-scrot.conf ~/.local/bin ~/.config/qutebrowser/autoconfig.yml ~/.config/qutebrowser/config.py ~/.config/youtube-dl.conf ~/.config/qutebrowser/userscripts/* ~/.config/mpv/input.conf ~/.local/share/qutebrowser/sessions/* ~/.config/ranger/* ~/.config/fontconfig/conf.d/* ~/.keynavrc
+	git --git-dir=$HOME/dotfiles/ --work-tree=$HOME add ~/README.md ~/.bashrc ~/.config/nvim/init.vim ~/.vim/sessions/* ~/.Xresources  ~/.config/sxiv/exec/* ~/.config/alacritty/alacritty.yml ~/.config/i3/config ~/.config/i3status/i3status.conf ~/.config/picom/picom.conf ~/.config/i3blocks/* ~/.gtkrc-2.0 ~/.config/gtk-3.0/settings.ini ~/.config/i3-scrot.conf ~/.local/bin/* ~/.config/qutebrowser/autoconfig.yml ~/.config/qutebrowser/config.py ~/.config/youtube-dl.conf ~/.config/qutebrowser/userscripts/* ~/.config/mpv/input.conf ~/.local/share/qutebrowser/sessions/* ~/.config/ranger/* ~/.config/fontconfig/conf.d/* ~/.keynavrc
 	git --git-dir=$HOME/dotfiles/ --work-tree=$HOME commit -m "update" -a
 	git --git-dir=$HOME/dotfiles/ --work-tree=$HOME push -u origin main -q
 	echo -e "\n"

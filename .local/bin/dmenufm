@@ -369,7 +369,7 @@ dmenufm_menu () {
 			dmenufm_history
 			continue
 		elif [ -f "$CHOICE" ]; then
-			open "$PWD/$CHOICE"
+			xdg-open "$PWD/$CHOICE"
 		else
 			break
 		fi

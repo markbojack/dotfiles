@@ -23,15 +23,17 @@ else
 	options[bashrc]="$HOME/.bashrc"
 	options[bashprompt]="$HOME/.local/bin/fancy-bash-prompt.sh"
 	options[dmconf]="$HOME/.local/bin/dmconf"
+	options[dmenufm]="$HOME/.local/bin/dmenufm"
 	options[dmkill]="$HOME/.local/bin/dmkill"
 	options[dmlogout]="$HOME/.local/bin/dmlogout"
-	options[dmsearch]="$HOME/.local/bin/dmsearch"
+	options[dmprompt]="$HOME/.local/bin/dmprompt"
 	options[dmqute]="$HOME/.local/bin/dmqute"
+	options[dmsearch]="$HOME/.local/bin/dmsearch"
+	options[dmtodo]="$HOME/.local/bin/dmtodo"
 	options[grub]="/etc/default/grub"
 	options[gtk2]="$HOME/.gtkrc-2.0"
 	options[gtk3]="$HOME/.config/gtk-3.0/settings.ini"
 	options[i3]="$HOME/.config/i3/config"
-	#options[i3status]="$HOME/.config/i3status/i3status.conf"
 	options[i3blocks]="$HOME/.config/i3blocks/i3blocks.conf"
 	options[i3scrot]="$HOME/.config/i3-scrot.conf"
 	options[mpv]="$HOME/.config/mpv/input.conf"
@@ -39,7 +41,6 @@ else
 	options[neovim]="$HOME/.config/nvim/init.vim"
 	options[phone]="$HOME/.local/bin/backup-phone.sh"
 	options[picom]="$HOME/.config/picom/picom.conf"
-	#options[polybar]="$HOME/.config/polybar/config"
 	options[qBookmarks]="$HOME/.config/qutebrowser/bookmarks/urls"
 	options[qConfig.py]="$HOME/.config/qutebrowser/config.py"
 	options[qDmenu]="$HOME/.config/qutebrowser/userscripts/dmenu-open"
@@ -49,11 +50,13 @@ else
 	options[remind]="$HOME/p-dot-script/remind.rem"
 	options[sxiv image-info]="$HOME/.config/sxiv/exec/image-info"
 	options[sxiv key-handler]="$HOME/.config/sxiv/exec/key-handler"
+	options[sys empty-trash]="$HOME/.local/bin/empty-trash.sh"
+	options[sys poweroff]="$HOME/.local/bin/poweroff.sh"
 	options[sys push-all]="$HOME/.local/bin/push-all"
+	options[sys reboot]="$HOME/.local/bin/reboot.sh"
 	options[sys restore]="$HOME/p-dot-script/system-restore.sh"
 	options[sys readme]="$HOME/p-dot-script/README.md"
 	options[xresources]="$HOME/.Xresources"
-	#options[zsh]="$HOME/.zshrc"
 
 fi
 # Clean options array making sure that the files exist
@@ -64,7 +67,7 @@ declare -A options_clean
 
 # Piping the above array (cleaned) into dmenu.
 # We use "printf '%s\n'" to format the array one item to a line.
-choice=$(printf '%s\n' "${!options_clean[@]}" | sort | dmenu -i -l 40 -fn "Roboto Mono Nerd Font-8" -p 'Edit config:' "$@")
+choice=$(printf '%s\n' "${!options_clean[@]}" | sort | dmenu -i -l 50 -fn "Roboto Mono Nerd Font-8" -p 'Edit config:' "$@")
 
 
 # What to do when/if we choose a file to edit.
