@@ -9,6 +9,7 @@ done < <(grep 'Name' /usr/share/xsessions/*.desktop | awk -F"=" '{print $2}')
 
 # An array of options to choose.
 declare -a options=(
+"Empty trash"
 "Logout"
 "Poweroff"
 "Reboot"
@@ -23,11 +24,18 @@ output(){
 
 # Piping the above array into dmenu.
 # We use "printf '%s\n'" to format the array one item to a line.
-choice=$(printf '%s\n' "${options[@]}" | dmenu -i -h 18 -fn "Roboto Mono Nerd Font-8" -p 'Shutdown menu:' "${@}")
+choice=$(printf '%s\n' "${options[@]}" | dmenu -i -h 18 -fn "Roboto Mono Nerd Font-8" -p 'System menu:' "${@}")
 
 
 # What to do when/if we choose one of the options.
 case $choice in
+    'Empty trash')
+        if [[ "$(echo -e "No\nYes" | dmenu -i -h 18 -fn "Roboto Mono Nerd Font-8" -p "${choice}?" "${@}" )" == "Yes" ]]; then
+        	~/.local/bin/empty-trash.sh
+        else
+            output "User chose not to logout." && exit 1
+        fi
+        ;;
     'Logout')
         if [[ "$(echo -e "No\nYes" | dmenu -i -h 18 -fn "Roboto Mono Nerd Font-8" -p "${choice}?" "${@}" )" == "Yes" ]]; then
             for manager in "${MANAGERS[@]}"; do 

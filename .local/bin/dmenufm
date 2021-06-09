@@ -159,7 +159,7 @@ Generate_action_menu () {
 ## PROMPT FUNCTIONS
 verticalprompt () {
 	# $1 is prompt
-	dmenu -fn "$GENEFONT" -i -sb "$2" -l 20 -p "$1"
+	dmenu -fn "$GENEFONT" -i -sb "$2" -l 25 -p "$1"
 }
 
 horizontalprompt () {

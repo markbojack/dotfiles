@@ -22,6 +22,7 @@ while [ -n "$cmd" ]; do
 		height=$(( height + 1 ))
  	fi
 
+	sort -o "$file" "$file"
 	cmd=$(dmenu -fn "Roboto Mono Nerd Font-8" -h 18 -l "$height" -p "$prompt" "$@" < "$file")
 done
 
