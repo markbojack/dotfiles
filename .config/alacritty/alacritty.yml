@@ -259,7 +259,7 @@ colors:
     red:     '0x57aaba'
     green:   '0x78a51d'
     yellow:  '0xa7814c'
-    blue:    '0xad1f52'
+    blue:    '0xC93268'
     magenta: '0x885FD2'
     cyan:    '0xa1efe4'
     white:   '0xf8f8f2'
@@ -369,7 +369,7 @@ colors:
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: 0.95
+background_opacity: 0.85
 
 #selection:
   #semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"

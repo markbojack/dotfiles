@@ -4,14 +4,28 @@ windows:
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
     IAAABUYAAALw
   tabs:
-  - active: true
-    history:
+  - history:
     - active: true
-      last_visited: '2021-06-09T16:34:11'
+      last_visited: '2021-06-09T16:34:29'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
       title: keynav/keynavrc.jordan at master · jordansissel/keynav
       url: https://github.com/jordansissel/keynav/blob/master/examples/keynavrc.jordan
+      zoom: 0.75
+  - active: true
+    history:
+    - last_visited: '2021-06-09T16:35:01'
+      pinned: false
+      title: Page not found · GitHub Pages
+      url: https://terminal.sexy/%20terminal.sexy%20-%20Terminal%20Color%20Scheme%20Designer
+    - active: true
+      last_visited: '2021-06-09T16:59:47'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: terminal.sexy - Terminal Color Scheme Designer
+      url: http://terminal.sexy/#Jygi-PjyJygiV6q6eKUdp4FMyTJoiF_Soe_k-PjydXFeZtnvpuIu9L91_2-jroH_Sm1o0dHR
       zoom: 0.75
