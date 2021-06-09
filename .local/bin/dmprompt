@@ -1,0 +1,4 @@
+#!/bin/bash
+# where $1 is the prompt you insert and $2 is the command to perform
+
+[ $(echo -e "No\nYes" | dmenu -i -fn "Roboto Mono Nerd Font-8" -p "$1") == "Yes" ] && $2

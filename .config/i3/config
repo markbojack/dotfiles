@@ -440,6 +440,7 @@ bindsym $mod+m bar mode toggle
 for_window [class="Yad"] floating enable
 
 # moar keybindings
+bindsym $mod+Shift+x		exec --no-startup-id ~/.local/bin/dmprompt "Poweroff?" ~/.local/bin/poweroff.sh
 bindsym $mod+Shift+m		exec --no-startup-id keynav
 bindsym $mod+Shift+a		exec --no-startup-id ibus emoji
 bindsym $mod+Escape			workspace prev
