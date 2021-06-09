@@ -1,0 +1,6 @@
+#!/bin/sh
+# were you to use pass, this is how you would use it with dmenu
+
+password=$(find ~/.password-store/ -type f -name '*.gpg' |
+	sed 's/.*\/\(.*\)\.gpg$/\1/' | dmenu -i -p "Pass:")
+[ -n "$password" ] && pass show -c "$password"

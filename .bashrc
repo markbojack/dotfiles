@@ -247,6 +247,7 @@ alias pdf='qpdfview'
 alias tar='tar -xvzf'
 alias weather='curl wttr.in'
 alias trash='~/.local/bin/empty-trash.sh'
+alias ss='cd ~/.local/bin'
 
 # remind aliases
 alias rem='nvim ~/p-dot-script/remind.rem'
@@ -277,10 +278,7 @@ colorscript -r
 #neofetch # or even abduco -a r
 #pfetch
 
-# VI mode
-#set -o vi
-#bind -m vi-command 'Control-l: clear-screen'
-#bind -m vi-insert 'Control-l: clear-screen'
+
 
 # https://www.youtube.com/watch?v=d8XtNXutVto&t=2038s   8:34
 # 1st num = lower is get over the hump faster
@@ -297,6 +295,13 @@ setxkbmap -option caps:swapescape
 
 # and map menu button to right super
 #xmodmap -e 'keycode 135 = Super_R'
+
+
+
+# VI mode
+#set -o vi
+#bind -m vi-command 'Control-l: clear-screen'
+#bind -m vi-insert 'Control-l: clear-screen'
 
 #[ -f ~/.fzf.bash ] && source ~/.fzf.bash
 echo "Terminal opened on:" `date` >> ~/terminal.log

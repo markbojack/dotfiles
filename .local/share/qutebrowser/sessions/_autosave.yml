@@ -1,0 +1,78 @@
+windows:
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAAPAAAAIAAAAqMAAAGAAAAADwAAACAAAAKjAAABgAAAAAAAAAAABVYAAAAPAAAA
+    IAAAAqMAAAGA
+  tabs:
+  - history:
+    - active: true
+      last_visited: '2021-06-09T19:42:38'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: keynav/keynavrc.jordan at master · jordansissel/keynav
+      url: https://github.com/jordansissel/keynav/blob/master/examples/keynavrc.jordan
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-09T19:42:37'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: https://tools.suckless.org/dmenu/scripts/dbdb.sh
+      url: https://tools.suckless.org/dmenu/scripts/dbdb.sh
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-09T19:42:38'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: scripts/dbrowse at master · clamiax/scripts
+      url: https://github.com/clamiax/scripts/blob/master/src/dbrowse
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-06-09T19:46:12'
+      pinned: false
+      title: 404 Not Found
+      url: https://tools.suckless.org/dmenu/scripts/%20tools%20%7C%20suckless.org%20software%20that%20sucks%20less
+    - active: true
+      last_visited: '2021-06-09T19:46:26'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 404 Not Found
+      url: https://git.suckless.org/%20Repositories
+      zoom: 0.75
+  - active: true
+    history:
+    - last_visited: '2021-06-09T19:46:37'
+      original-url: http://suckless.org/
+      pinned: false
+      title: software that sucks less | suckless.org software that sucks less
+      url: https://suckless.org/
+    - last_visited: '2021-06-09T19:46:42'
+      pinned: false
+      title: tools | suckless.org software that sucks less
+      url: https://tools.suckless.org/
+    - last_visited: '2021-06-09T19:46:45'
+      pinned: false
+      title: tools | suckless.org software that sucks less
+      url: https://tools.suckless.org/dmenu/
+    - active: true
+      last_visited: '2021-06-09T19:59:59'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: tools | suckless.org software that sucks less
+      url: https://tools.suckless.org/dmenu/scripts/
+      zoom: 0.75
+    - last_visited: '2021-06-09T19:50:10'
+      pinned: false
+      title: dotfiles/dmenu_path at master · ema/dotfiles
+      url: https://github.com/ema/dotfiles/blob/master/bin/dmenu_path

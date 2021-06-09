@@ -125,6 +125,8 @@
 		" auto comment
 		vmap <leader>c :norm I#<Tab><cr>
 		vmap <leader>x :norm ^xx<cr>
+		" filetype detect
+		map <leader>f :filetype detect<cr>
 		
 	" Macros
 		let @h = 'I<a class="bookmarkllcw href="f]cw" target="_blank">A€kb€kb</a'
