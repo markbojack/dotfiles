@@ -197,6 +197,8 @@
 	" R
 	Plug 'ncm2/ncm2-bufword'
 	Plug 'jalvesaq/Nvim-R'
+	" https://github.com/jalvesaq/Nvim-R/blob/master/doc/Nvim-R.txt
+		let R_hl_term=0
 		" set vim-r-plugin to
 			let r_indent_align_args = 0
 		" set vim-r-plugin to mimics ess :

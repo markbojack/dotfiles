@@ -6,7 +6,7 @@ windows:
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-09T16:34:29'
+      last_visited: '2021-06-09T17:29:08'
       pinned: false
       scroll-pos:
         x: 0
@@ -14,18 +14,45 @@ windows:
       title: keynav/keynavrc.jordan at master · jordansissel/keynav
       url: https://github.com/jordansissel/keynav/blob/master/examples/keynavrc.jordan
       zoom: 0.75
-  - active: true
-    history:
-    - last_visited: '2021-06-09T16:35:01'
+  - history:
+    - last_visited: '2021-06-09T17:29:09'
       pinned: false
-      title: Page not found · GitHub Pages
-      url: https://terminal.sexy/%20terminal.sexy%20-%20Terminal%20Color%20Scheme%20Designer
+      title: gray wallpaper at DuckDuckGo
+      url: https://duckduckgo.com/?q=gray+wallpaper&ia=web
     - active: true
-      last_visited: '2021-06-09T16:59:47'
+      last_visited: '2021-06-09T17:29:48'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 1494
+      title: gray wallpaper at DuckDuckGo
+      url: https://duckduckgo.com/?q=gray+wallpaper&iax=images&ia=images&iai=http%3A%2F%2Fwww.pixelstalk.net%2Fwp-content%2Fuploads%2F2016%2F04%2FAbstract-grey-wallpaper-HD-desktop.jpg&pn=3
+      zoom: 0.75
+    - last_visited: '2021-06-09T17:29:40'
+      original-url: https://duckduckgo.com/?q=gray+wallpaper&iax=images&ia=images&iai=http%3A%2F%2Fimages4.fanpop.com%2Fimage%2Fphotos%2F23800000%2FGrey-wallpaper-grey-23887016-1600-1200.jpg&pn=3
+      pinned: false
+      title: Grey wallpaper - Grey Wallpaper (23887016) - Fanpop
+      url: https://www.fanpop.com/clubs/grey/images/23887016/title/grey-wallpaper-wallpaper
+  - history:
+    - active: true
+      last_visited: '2021-06-09T17:29:31'
+      original-url: http://www.pixelstalk.net/wp-content/uploads/2016/04/Abstract-grey-wallpaper-HD-download-free.png
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: terminal.sexy - Terminal Color Scheme Designer
-      url: http://terminal.sexy/#Jygi-PjyJygiV6q6eKUdp4FMyTJoiF_Soe_k-PjydXFeZtnvpuIu9L91_2-jroH_Sm1o0dHR
+      title: Abstract-grey-wallpaper-HD-download-free.png (1920×1200)
+      url: https://www.pixelstalk.net/wp-content/uploads/2016/04/Abstract-grey-wallpaper-HD-download-free.png
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-09T17:29:52'
+      original-url: http://www.pixelstalk.net/wp-content/uploads/2016/04/Abstract-grey-wallpaper-HD-desktop.jpg
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Abstract-grey-wallpaper-HD-desktop.jpg (1920×1080)
+      url: https://www.pixelstalk.net/wp-content/uploads/2016/04/Abstract-grey-wallpaper-HD-desktop.jpg
       zoom: 0.75
