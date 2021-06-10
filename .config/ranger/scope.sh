@@ -181,12 +181,17 @@ handle_image() {
         #     exit 1;;
 
         ## Font
-        application/font*|application/*opentype)
+        #	application/font*|application/*opentype)
+		bdf|pcf)
             preview_png="/tmp/$(basename "${IMAGE_CACHE_PATH%.*}").png"
-            if fontimage -o "${preview_png}" \
-                         --pixelsize "120" \
-                         --fontname \
-                         --pixelsize "80" \
+			fontname="$(basename ${ FILE_PATH } | cut -d. -fl)"
+            if hb-view -o "${preview_png}" \
+                         #	--pixelsize "120" \
+                         #	--fontname \
+                         #	--pixelsize "80" \
+						 --font-size=14 \
+						 --verify \
+						 --line-space=14 \
                          --text "  ABCDEFGHIJKLMNOPQRSTUVWXYZ  " \
                          --text "  abcdefghijklmnopqrstuvwxyz  " \
                          --text "  0123456789.:,;(*!?') ff fl fi ffi ffl  " \

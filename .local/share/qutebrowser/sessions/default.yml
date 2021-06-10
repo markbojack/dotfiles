@@ -1,21 +1,13 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAKyAAAAIAAABUYAAALwAAACsgAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAKyAAAA
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
     IAAABUYAAALw
   tabs:
   - active: true
     history:
-    - last_visited: '2021-06-10T10:05:30'
-      pinned: false
-      title: vim diagraph help - Google Search
-      url: https://www.google.com/search?q=vim%20diagraph%20help
-    - last_visited: '2021-06-10T10:16:11'
-      pinned: false
-      title: brodey keynav config brodey keynav config - Google Search - Google Search
-      url: https://www.google.com/search?q=brodey%20keynav%20config%20brodey%20keynav%20config%20-%20Google%20Search
     - active: true
-      last_visited: '2021-06-10T10:16:15'
+      last_visited: '2021-06-10T16:08:53'
       pinned: false
       scroll-pos:
         x: 0
