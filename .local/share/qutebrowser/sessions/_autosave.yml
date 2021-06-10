@@ -1,140 +1,27 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAADwAAACAAAAKjAAAC8AAAAAAAAAAABVYAAAAPAAAA
-    IAAAAqMAAALw
+    AdnQywADAAAAAAKyAAAAIAAABUYAAALwAAACsgAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAKyAAAA
+    IAAABUYAAALw
   tabs:
-  - active: true
-    history:
+  - history:
     - active: true
-      last_visited: '2021-06-10T16:13:57'
+      last_visited: '2021-06-10T17:59:05'
       pinned: false
       scroll-pos:
         x: 0
-        y: 120
+        y: 0
       title: keynav/keynav.pod at master · jordansissel/keynav
       url: https://github.com/jordansissel/keynav/blob/master/keynav.pod
       zoom: 0.75
-  - history:
+  - active: true
+    history:
     - active: true
-      last_visited: '2021-06-10T16:14:01'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 3480
-      title: How to view a TTF font file? - Unix & Linux Stack Exchange
-      url: https://unix.stackexchange.com/questions/5715/how-to-view-a-ttf-font-file
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-10T16:14:04'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 898
-      title: Want to Preview Fonts using a Terminal? Now You Can! - OMG! Ubuntu!
-      url: https://www.omgubuntu.co.uk/2020/02/command-line-font-preview-tool
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-10T16:15:29'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 1760
-      title: 'sdushantha/fontpreview: Highly customizable and minimal font previewer
-        written in bash'
-      url: https://github.com/sdushantha/fontpreview
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-10T16:14:07'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 981
-      title: Linux font preview applications
-      url: https://cweiske.de/tagebuch/Linux%20font%20preview%20applications.htm
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-10T16:14:14'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 880
-      title: Font viewer for font collectors? - Ask Ubuntu
-      url: https://askubuntu.com/questions/8452/font-viewer-for-font-collectors
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-10T16:14:18'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 1200
-      title: 10 Best Linux Font Tools (Updated 2020) - LinuxLinks
-      url: https://www.linuxlinks.com/fonttools/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-10T16:16:55'
+      last_visited: '2021-06-10T17:59:04'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: font preview ranger - Google Search
-      url: https://www.google.com/search?q=font%20preview%20ranger
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-10T16:17:18'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 2600
-      title: 'Add hb-view font previewing method · Issue #2100 · ranger/ranger'
-      url: https://github.com/ranger/ranger/issues/2100
-      zoom: 0.75
-  - history:
-    - last_visited: '2021-06-10T16:43:39'
-      pinned: false
-      title: ranger fontimage - Google Search
-      url: https://www.google.com/search?q=ranger%20fontimage
-    - last_visited: '2021-06-10T16:48:59'
-      pinned: false
-      title: hb-view - Google Search
-      url: https://www.google.com/search?q=hb-view&ei=yt7BYKbtOen_-QaDj4e4BQ&oq=hb-view&gs_lcp=Cgdnd3Mtd2l6EAM6BQgAEJECOggIABCxAxCDAToICC4QsQMQgwE6BQgAELEDOhEILhCxAxDHARCjAhCRAhCTAjoICC4QxwEQowI6AgguOgcIABCxAxBDOgIIADoECAAQHjoHCAAQyQMQHjoGCAAQChAeUPmWE1irrxNg6bwTaAJwAHgEgAGLAYgBvAySAQQwLjEzmAEAoAEBqgEHZ3dzLXdperABAMABAQ&sclient=gws-wiz&ved=0ahUKEwim-rDO44zxAhXpf94KHYPHAVcQ4dUDCBE&uact=5
-    - active: true
-      last_visited: '2021-06-10T16:49:40'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: hb-view example - Google Search
-      url: https://www.google.com/search?q=hb-view+example&ei=CuDBYIeoM7DYhwOH1ZeIBw&oq=hb-view+example&gs_lcp=Cgdnd3Mtd2l6EAMyBQghEKABOgQIABAeOgYIABAIEB46CAgAEAgQChAeOgcIIRAKEKABULmsAljUtQJg8LYCaABwAHgAgAHiAYgB4wmSAQUwLjguMZgBAKABAaoBB2d3cy13aXrAAQE&sclient=gws-wiz&ved=0ahUKEwiH1fXm5IzxAhUw7GEKHYfqBXEQ4dUDCBE&uact=5
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-10T16:51:16'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 2640
-      title: hb-view font - YouTube
-      url: https://www.youtube.com/results?search_query=hb-view+font
-      zoom: 0.75
-  - history:
-    - last_visited: '2021-06-10T16:57:53'
-      pinned: false
-      title: font preview dmenu - Google Search
-      url: https://www.google.com/search?q=font%20preview%20dmenu
-    - active: true
-      last_visited: '2021-06-10T16:58:07'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: fontpreview dmenu - Google Search
-      url: https://www.google.com/search?q=fontpreview+dmenu&ei=C-LBYKbHBoXLmAXHpouoCQ&oq=fontpreview+dmenu&gs_lcp=Cgdnd3Mtd2l6EAMyBwghEAoQoAEyBwghEAoQoAE6BQgAEJECOgIIADoECAAQQzoLCAAQsQMQgwEQkQI6BQgAELEDOggIABCxAxCDAToICAAQsQMQkQI6BwgAELEDEEM6CggAELEDEIMBEEM6BggAEAoQQzoECAAQCjoICC4QxwEQrwE6BAgAEA06BggAEBYQHlDqH1jjTWCyYGgCcAJ4AIABjwGIAYEPkgEEMi4xNZgBAKABAaoBB2d3cy13aXrAAQE&sclient=gws-wiz&ved=0ahUKEwjm-Jfb5ozxAhWFJaYKHUfTApUQ4dUDCBE&uact=5
+      title: Sample of local fonts matching ''
+      url: file:///home/mark/.local/bin/fonts.html
       zoom: 0.75

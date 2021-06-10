@@ -362,3 +362,10 @@ alias ytv-best="youtube-dl -f bestvideo+bestaudio "
 #alias tofish="sudo chsh $USER -s /bin/fish && echo 'Now log out.'"
 
 source /home/mark/.config/broot/launcher/bash/br
+
+# FONT PREVIEW
+alias fp='fontpreview'
+export FONTPREVIEW_FONT_SIZE=10
+export FONTPREVIEW_BG_COLOR="black"
+export FONTPREVIEW_FG_COLOR="white"
+export FONTPREVIEW_PREVIEW_TEXT="The quick brown fox jumps over the lazy dog."

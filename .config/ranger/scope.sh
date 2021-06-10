@@ -181,21 +181,18 @@ handle_image() {
         #     exit 1;;
 
         ## Font
-        #	application/font*|application/*opentype)
-		bdf|pcf)
+        bdf|pcf|ttf|otf)
             preview_png="/tmp/$(basename "${IMAGE_CACHE_PATH%.*}").png"
-			fontname="$(basename ${ FILE_PATH } | cut -d. -fl)"
+	    fontname="$(basename ${FILE_PATH} | cut -d. -f1)"
             if hb-view -o "${preview_png}" \
-                         #	--pixelsize "120" \
-                         #	--fontname \
-                         #	--pixelsize "80" \
-						 --font-size=14 \
-						 --verify \
-						 --line-space=14 \
-                         --text "  ABCDEFGHIJKLMNOPQRSTUVWXYZ  " \
-                         --text "  abcdefghijklmnopqrstuvwxyz  " \
-                         --text "  0123456789.:,;(*!?') ff fl fi ffi ffl  " \
-                         --text "  The quick brown fox jumps over the lazy dog.  " \
+                         --font-size=14 \
+                         --verify \
+                         --line-space=14 \
+			 --text="${fontname}
+ABCDEFGHIJKLMNOPQRSTUVWXYZ  
+abcdefghijklmnopqrstuvwxyz
+123456789.:,;(*!?') ff fl fi ffi ffl
+The quick brown fox jumps over the lazy dog."\
                          "${FILE_PATH}";
             then
                 convert -- "${preview_png}" "${IMAGE_CACHE_PATH}" \
@@ -205,6 +202,25 @@ handle_image() {
                 exit 1
             fi
             ;;
+        #	application/font*|application/*opentype)
+            #	preview_png="/tmp/$(basename "${IMAGE_CACHE_PATH%.*}").png"
+            #	if fontimage -o "${preview_png}" \
+                         #	--pixelsize "120" \
+                         #	--fontname \
+                         #	--pixelsize "80" \
+                         #	--text "  ABCDEFGHIJKLMNOPQRSTUVWXYZ  " \
+                         #	--text "  abcdefghijklmnopqrstuvwxyz  " \
+                         #	--text "  0123456789.:,;(*!?') ff fl fi ffi ffl  " \
+                         #	--text "  The quick brown fox jumps over the lazy dog.  " \
+                         #	"${FILE_PATH}";
+            #	then
+                #	convert -- "${preview_png}" "${IMAGE_CACHE_PATH}" \
+                    #	&& rm "${preview_png}" \
+                    #	&& exit 6
+            #	else
+                #	exit 1
+            #	fi
+            #	;;
 
         ## Preview archives using the first image inside.
         ## (Very useful for comic book collections for example.)
