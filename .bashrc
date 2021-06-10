@@ -177,8 +177,9 @@ export TERMINAL="alacritty"
 export MANPAGER="nvim -c 'set ft=man' -"
 
 
-# fzf
+# fzf/fd
 export FZF_DEFAULT_COMMAND="find -L"
+alias fd='fd -H'
 
 # some more ls aliases
 #alias ls='lsd --color=auto'

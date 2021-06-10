@@ -1,0 +1,72 @@
+windows:
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    IAAABUYAAALw
+  tabs:
+  - history:
+    - active: true
+      last_visited: '2021-06-10T07:24:26'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: keynav/keynavrc.jordan at master · jordansissel/keynav
+      url: https://github.com/jordansissel/keynav/blob/master/examples/keynavrc.jordan
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-06-10T07:24:26'
+      pinned: false
+      title: ranger fz - Google Search
+      url: https://www.google.com/search?q=ranger%20fz
+    - active: true
+      last_visited: '2021-06-10T07:24:30'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: ranger fzf - Google Search
+      url: https://www.google.com/search?q=ranger+fzf&ei=uVvBYOjpHuag1e8PwpeBkAE&oq=ranger+fzf&gs_lcp=Cgdnd3Mtd2l6EAMyAggAMgIIADIGCAAQFhAeUK8VWK8VYNMXaABwAHgAgAF9iAHxAZIBAzAuMpgBAKABAaoBB2d3cy13aXrAAQE&sclient=gws-wiz&ved=0ahUKEwioqu3O5ovxAhVmUPUHHcJLABIQ4dUDCBE&uact=5
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-10T07:24:37'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'cjbassi/ranger-fzf: Ranger plugin that allows navigation with fzf'
+      url: https://github.com/cjbassi/ranger-fzf
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-10T07:25:06'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 3120
+      title: Custom Commands · ranger/ranger Wiki
+      url: https://github.com/ranger/ranger/wiki/Custom-Commands
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-10T07:24:38'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 320
+      title: 'laggardkernel/ranger-fzf-marks: Ranger plugin to manage bookmarks with
+        fzf'
+      url: https://github.com/laggardkernel/ranger-fzf-marks
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-10T07:24:45'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Ranger fzf integration, how to find dotfiles? : commandline'
+      url: https://www.reddit.com/r/commandline/comments/5s8n57/ranger_fzf_integration_how_to_find_dotfiles/
+      zoom: 0.75
