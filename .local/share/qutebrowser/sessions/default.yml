@@ -6,7 +6,7 @@ windows:
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-11T05:53:55'
+      last_visited: '2021-06-11T06:46:17'
       pinned: false
       scroll-pos:
         x: 0
@@ -14,14 +14,25 @@ windows:
       title: keynav/keynav.pod at master · jordansissel/keynav
       url: https://github.com/jordansissel/keynav/blob/master/keynav.pod
       zoom: 0.75
-  - active: true
-    history:
+  - history:
     - active: true
-      last_visited: '2021-06-11T05:53:54'
+      last_visited: '2021-06-11T06:46:16'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
       title: Sample of local fonts matching ''
       url: file:///home/mark/.local/bin/fonts.html
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-11T06:46:22'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 560
+      title: ubuntu - Is there a way to auto turn-on Linux machine? - Unix & Linux
+        Stack Exchange
+      url: https://unix.stackexchange.com/questions/185475/is-there-a-way-to-auto-turn-on-linux-machine
       zoom: 0.75
