@@ -1,0 +1,51 @@
+windows:
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAADwAAACAAAAKjAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    IAAAAqMAAALw
+  tabs:
+  - history:
+    - active: true
+      last_visited: '2021-06-10T08:27:55'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: keynav/keynavrc.jordan at master · jordansissel/keynav
+      url: https://github.com/jordansissel/keynav/blob/master/examples/keynavrc.jordan
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-06-10T08:29:44'
+      pinned: false
+      title: archrice/SCRIPTS.md at master · kwjw/archrice
+      url: https://github.com/kwjw/archrice/blob/master/.scripts/SCRIPTS.md
+    - active: true
+      last_visited: '2021-06-10T08:54:49'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 440
+      title: archrice/.scripts at master · kwjw/archrice
+      url: https://github.com/kwjw/archrice/tree/master/.scripts
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-10T08:55:11'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: archrice/dropdowncalc at master · kwjw/archrice
+      url: https://github.com/kwjw/archrice/blob/master/.scripts/dropdowncalc
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-10T08:59:11'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: dmenu calculator - Google Search
+      url: https://www.google.com/search?q=dmenu%20calculator
+      zoom: 0.75

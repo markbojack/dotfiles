@@ -246,9 +246,10 @@ alias R='R --vanilla -q'
 alias grubc='sudo nvim /etc/default/grub'
 alias pdf='qpdfview'
 alias tar='tar -xvzf'
-alias weather='curl wttr.in'
+alias wttr='curl wttr.in'
 alias trash='~/.local/bin/empty-trash.sh'
 alias ss='cd ~/.local/bin'
+alias news="newsboat"
 
 # remind aliases
 alias rem='nvim ~/p-dot-script/remind.rem'

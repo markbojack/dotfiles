@@ -1,0 +1,7 @@
+#!/bin/sh
+# https://github.com/kwjw/archrice/blob/master/.scripts/dropdowncalc
+# This script ensures that i3 will spawn a calculator.
+# If R is installed, it will run R, otherwise it will run
+# Python.
+
+([[ -e /usr/bin/"$1" ]] && "$1" -q) || ([[ -e /usr/bin/octave ]] && octave -q) || ([[ -e /usr/bin/R ]] && R --vanilla -q) || python -q

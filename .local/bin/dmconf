@@ -39,6 +39,8 @@ else
 	options[mpv]="$HOME/.config/mpv/input.conf"
 	options[muttrc]="$HOME/.config/mutt/muttrc"
 	options[neovim]="$HOME/.config/nvim/init.vim"
+	options[newsboat conf]="$HOME/.config/newsboat/config"
+	options[newsboat urls]="$HOME/.config/newsboat/urls"
 	options[phone]="$HOME/.local/bin/backup-phone.sh"
 	options[picom]="$HOME/.config/picom/picom.conf"
 	options[qBookmarks]="$HOME/.config/qutebrowser/bookmarks/urls"
