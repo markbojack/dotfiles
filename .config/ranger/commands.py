@@ -1,3 +1,6 @@
+# ideas:
+# https://git.airen-no-jikken.icu/ageha/dotfiles/src/commit/ddff9cf6eb63fea91ef0f157c78effd7a2351f24/.config/ranger/commands.py
+
 # This is a sample commands.py.  You can add your own commands here.
 #
 # Please refer to commands_full.py for all the default commands and a complete

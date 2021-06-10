@@ -1,0 +1,69 @@
+#!/usr/bin/env bash
+# Calculator using dmenu as an interface
+
+# CALC 1 =====================================================================
+# run dmenu calculator while the result is not empty
+#	while : ; do
+    #	# use contents of clipboard as option, pass into bc to be calculated
+    #	result=$(xsel -o -b | dmenu -h 18 -fn "Roboto Mono Nerd Font-8" -p R "$@" | xargs echo | bc -l 2>&1)
+    #	if [[ $result ]]; then # if result is empty (the last one), don't copy it to clipboard
+        #	printf "$result" | xsel -b
+    #	fi
+    #	[[ $result ]] || break # if result is empty, break from while loop
+#	done
+
+
+# CALC 2 =====================================================================
+DMENU_OPTIONS="-h 18 -fn "Roboto\Mono\Nerd\Font-8""
+
+# Process CLI parameters
+for var in "$@"
+do
+    case $var in
+        -h|--help) usage ;;
+        -d=*|--dmenu=*)
+            menu=$(echo $var | cut -d'=' -f 2);
+            ;;
+        --) break ;;
+    esac
+done
+
+# Grab the answer
+if [ -n "$1" ]; then
+    answer=$(echo "$1" | qalc +u8 -color=never -terse | awk '!/^>/ && !/^$/ {gsub(/^[ \t]+|[ \t]+$/, "", $0); print}')
+fi
+
+# Path to menu application
+if [ -z "${menu+1}" ]; then
+    if [[ -n $(command -v rofi) ]]; then
+        menu="$(command -v rofi)"
+    elif [[ -n $(command -v dmenu) ]]; then
+        menu=$(command -v dmenu)
+    else
+        >&2 echo "Rofi or dmenu not found"
+        exit
+    fi
+fi
+
+# If using rofi, add the necessary parameters
+if [[ $menu == "rofi" || $menu == $(command -v rofi) ]]; then
+    menu="$menu -dmenu -lines 3"
+elif [[ $menu == "dmenu" || $menu == $(command -v dmenu) ]]; then
+    menu="$menu ""$DMENU_OPTIONS"
+fi
+
+# Determine args to pass to dmenu/rofi
+while [[ $# -gt 0 && $1 != "--" ]]; do
+    shift
+done
+[[ $1 == "--" ]] && shift
+
+action=$(echo -e "Copy to clipboard\nClear\nClose" | $menu "$@" -p "= $answer")
+
+case $action in
+    "Clear") $0 ;;
+    "Copy to clipboard") echo -n "$answer" | xclip -selection clipboard ;;
+    "Close") ;;
+    "") ;;
+    *) $0 "$answer $action" "--dmenu=$menu" "--" "$@" ;;
+esac

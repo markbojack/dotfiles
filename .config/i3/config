@@ -54,6 +54,9 @@ bindsym $mod+Shift+y exec --no-startup-id clipmenu -i -fn "Roboto Sans Mono-8" -
 
 bindsym $mod+d mode "command"
 mode "command" {
+    bindsym r exec --no-startup-id ~/.local/bin/dmcalc; mode "default"
+    #	bindsym m exec --no-startup-id ~/.local/bin/dmenumount; mode "default"
+    #	bindsym u exec --no-startup-id ~/.local/bin/dmenuumount; mode "default"
     bindsym c exec --no-startup-id ~/.local/bin/dmconf; mode "default"
     bindsym f exec --no-startup-id ~/.local/bin/dmenufm; mode "default"
     bindsym k exec --no-startup-id ~/.local/bin/dmkill; mode "default"
