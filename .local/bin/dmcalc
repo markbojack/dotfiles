@@ -58,7 +58,7 @@ while [[ $# -gt 0 && $1 != "--" ]]; do
 done
 [[ $1 == "--" ]] && shift
 
-action=$(echo -e "Copy to clipboard\nClear\nClose" | $menu "$@" -p "= $answer")
+action=$(echo -e "Copy to clipboard\nClear\nClose" | $menu "$@" -p "*Commas=decimals* $answer")
 
 case $action in
     "Clear") $0 ;;

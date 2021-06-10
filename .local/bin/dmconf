@@ -22,6 +22,7 @@ else
 	options[alacritty]="$HOME/.config/alacritty/alacritty.yml"
 	options[bashrc]="$HOME/.bashrc"
 	options[bashprompt]="$HOME/.local/bin/fancy-bash-prompt.sh"
+	options[dmcalc]="$HOME/.local/bin/dmcalc"
 	options[dmconf]="$HOME/.local/bin/dmconf"
 	options[dmenufm]="$HOME/.local/bin/dmenufm"
 	options[dmkill]="$HOME/.local/bin/dmkill"

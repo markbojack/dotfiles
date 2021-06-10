@@ -6,7 +6,7 @@ windows:
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-10T18:07:50'
+      last_visited: '2021-06-11T05:53:55'
       pinned: false
       scroll-pos:
         x: 0
@@ -17,11 +17,11 @@ windows:
   - active: true
     history:
     - active: true
-      last_visited: '2021-06-10T18:07:49'
+      last_visited: '2021-06-11T05:53:54'
       pinned: false
       scroll-pos:
         x: 0
-        y: 7474
+        y: 0
       title: Sample of local fonts matching ''
       url: file:///home/mark/.local/bin/fonts.html
       zoom: 0.75
