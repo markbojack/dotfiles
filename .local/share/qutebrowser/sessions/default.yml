@@ -1,17 +1,25 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAADwAAACAAAAKjAAAC8AAAAAAAAAAABVYAAAAPAAAA
-    IAAAAqMAAALw
+    AdnQywADAAAAAAKyAAAAIAAABUYAAALwAAACsgAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAKyAAAA
+    IAAABUYAAALw
   tabs:
   - active: true
     history:
+    - last_visited: '2021-06-10T10:05:30'
+      pinned: false
+      title: vim diagraph help - Google Search
+      url: https://www.google.com/search?q=vim%20diagraph%20help
+    - last_visited: '2021-06-10T10:16:11'
+      pinned: false
+      title: brodey keynav config brodey keynav config - Google Search - Google Search
+      url: https://www.google.com/search?q=brodey%20keynav%20config%20brodey%20keynav%20config%20-%20Google%20Search
     - active: true
-      last_visited: '2021-06-10T08:27:55'
+      last_visited: '2021-06-10T10:16:15'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: keynav/keynavrc.jordan at master · jordansissel/keynav
-      url: https://github.com/jordansissel/keynav/blob/master/examples/keynavrc.jordan
+      title: keynav/keynav.pod at master · jordansissel/keynav
+      url: https://github.com/jordansissel/keynav/blob/master/keynav.pod
       zoom: 0.75
