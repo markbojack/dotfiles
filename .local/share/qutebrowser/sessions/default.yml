@@ -1,17 +1,27 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAKyAAAAIAAABUYAAALwAAACsgAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAKyAAAA
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
     IAAABUYAAALw
   tabs:
-  - active: true
-    history:
+  - history:
     - active: true
-      last_visited: '2021-06-10T17:57:30'
+      last_visited: '2021-06-10T18:07:50'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
       title: keynav/keynav.pod at master · jordansissel/keynav
       url: https://github.com/jordansissel/keynav/blob/master/keynav.pod
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-10T18:07:49'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 7474
+      title: Sample of local fonts matching ''
+      url: file:///home/mark/.local/bin/fonts.html
       zoom: 0.75
