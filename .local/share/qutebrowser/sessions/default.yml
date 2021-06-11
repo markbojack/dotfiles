@@ -4,132 +4,14 @@ windows:
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
     IAAABUYAAALw
   tabs:
-  - history:
+  - active: true
+    history:
     - active: true
-      last_visited: '2021-06-12T01:13:46'
+      last_visited: '2021-06-12T02:17:21'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
       title: keynav/keynav.pod at master · jordansissel/keynav
       url: https://github.com/jordansissel/keynav/blob/master/keynav.pod
-      zoom: 0.75
-  - active: true
-    history:
-    - last_visited: '2021-06-12T01:13:46'
-      original-url: https://www.tdameritrade.com/tools-and-platforms/thinkorswim/web.page
-      pinned: false
-      title: thinkorswim Web Platform | TD Ameritrade
-      url: https://www.tdameritrade.com/tools-and-platforms/thinkorswim/web.html
-    - last_visited: '2021-06-12T01:13:53'
-      pinned: false
-      title: thinkorswim Web Login | TD Ameritrade
-      url: https://trade.thinkorswim.com/
-    - last_visited: '2021-06-12T01:13:57'
-      pinned: false
-      title: thinkorswim Web Login | TD Ameritrade
-      url: https://trade.thinkorswim.com/
-    - last_visited: '2021-06-12T01:14:00'
-      pinned: false
-      title: thinkorswim Web Login | TD Ameritrade
-      url: https://trade.thinkorswim.com/
-    - last_visited: '2021-06-12T01:14:02'
-      pinned: false
-      title: thinkorswim Web Login | TD Ameritrade
-      url: https://trade.thinkorswim.com/
-    - last_visited: '2021-06-12T01:14:02'
-      original-url: https://trade.thinkorswim.com/
-      pinned: false
-      title: Log in | thinkorswim Web
-      url: https://auth.tdameritrade.com/auth?response_type=code&client_id=TDATRADERX%40AMER.OAUTHAP&redirect_uri=https%3A%2F%2Ftrade.thinkorswim.com%2Foauth&cv=default
-    - last_visited: '2021-06-12T01:14:12'
-      original-url: https://auth.tdameritrade.com/oauth?client_id=TDATRADERX%40AMER.OAUTHAP&cv=default&response_type=code&redirect_uri=https%3A%2F%2Ftrade.thinkorswim.com%2Foauth
-      pinned: false
-      title: thinkorswim Web Login | TD Ameritrade
-      url: https://trade.thinkorswim.com/oauth?code=eQGFULJW%2B178qCSjEMgeuJfzQblYGAvVqKX8J1y7aMEz2pivrpmNkrGWUkXlnsTc4n0mvT4R1w%2BrmCgXwz6d7IoOk4EUQ2hesdK9Nse8G4n9S0iSV7iWX32Hxf1yoLyOT8dpBrlwNB2a9%2B5SgryY5r%2F%2FGbrR17oSiwSWCs4GAzi%2FUcs%2BhVuLTHF9pTHnhMeXE7qwSTjPgq0VrJjhhQXuCBvBveG%2BL6wpKaDQ4FJHIUf6Wr%2FfofrEhxDU%2FGRUuEu25DzZuJZMLvNeJTKtqh5qhypQBgPufKj2K5kbAViqKq8ID9aQGVRzVEFfxrJD%2BRPvdw7kTEc5mZWSxdoQnOFW2y8PB6lGvwQhJ0Lx8GFfWQm2gjRuWJW5FiXSKhQhM7IRe80oy00HGv%2BfJOfGM3Z4rWBe%2Be%2Bh7pJsNiVWLaAIelS%2F%2B1KceOVcmC55ex3100MQuG4LYrgoVi%2FJHHvlToIy1UhOasLdOQaTObAANuuJspEMNcgm8GC0TONA%2B2mqRua8Co4irc2P%2Beo8VzisW%2FA8UXR85eCzG62KFtw9je5Y69K%2BEmlVCzddLC%2FSGLlOUecqVmbTfKuiqnHygYXGBH87EAj%2FjbqqxgcX%2FVsVsTHgzEa0J5kLJWovjZIUi0S1Aa2OYJxTpahss5ANNZyjtM6X4peSkIWw%2FpUlpMM0Cqv5s3ztL8D%2FM9Bb7%2BJEdAaM3X5bZCTGcFFcp06GKKVSMbKQ%2FHp%2FV7C2mMv%2Fur%2Bd7GP5TpQbaeIlsMulL%2FzLHz2lvzzXYczYcudKhOXwGzw%2BWknMVpiaOn3tEfxiHaq0a4OnbyTS1ML7DhIBogV%2BaUZ1SbUN6Pcw3S2VEYBfocovUCHppyZpMaHiHqeo8a15d%2FLDDz1WzYBxKH%2FuqHSlzyCj5nvv8kAyJwjHA6o%3D212FD3x19z9sWBHDJACbC00B75E
-    - last_visited: '2021-06-12T01:14:15'
-      pinned: false
-      title: thinkorswim Web Login | TD Ameritrade
-      url: https://trade.thinkorswim.com/
-    - last_visited: '2021-06-12T01:14:15'
-      pinned: false
-      title: All Account Positions | thinkorswim Web
-      url: https://trade.thinkorswim.com/
-    - last_visited: '2021-06-12T01:14:51'
-      pinned: false
-      title: Trade ANTM | thinkorswim Web
-      url: https://trade.thinkorswim.com/?symbol=ANTM
-    - last_visited: '2021-06-12T01:15:07'
-      pinned: false
-      title: All Account Positions | thinkorswim Web
-      url: https://trade.thinkorswim.com/
-    - last_visited: '2021-06-12T01:15:11'
-      pinned: false
-      title: Trade PODD | thinkorswim Web
-      url: https://trade.thinkorswim.com/?symbol=PODD
-    - last_visited: '2021-06-12T01:15:37'
-      pinned: false
-      title: Trade ANTM | thinkorswim Web
-      url: https://trade.thinkorswim.com/?symbol=ANTM
-    - last_visited: '2021-06-12T01:15:53'
-      pinned: false
-      title: All Account Positions | thinkorswim Web
-      url: https://trade.thinkorswim.com/
-    - last_visited: '2021-06-12T01:16:09'
-      pinned: false
-      title: Trade PODD | thinkorswim Web
-      url: https://trade.thinkorswim.com/?symbol=PODD
-    - last_visited: '2021-06-12T01:18:23'
-      pinned: false
-      title: Trade ANTM | thinkorswim Web
-      url: https://trade.thinkorswim.com/?symbol=ANTM
-    - last_visited: '2021-06-12T01:33:28'
-      pinned: false
-      title: Trade ATRS | thinkorswim Web
-      url: https://trade.thinkorswim.com/?symbol=ATRS
-    - last_visited: '2021-06-12T01:33:34'
-      pinned: false
-      title: Trade PODD | thinkorswim Web
-      url: https://trade.thinkorswim.com/?symbol=PODD
-    - last_visited: '2021-06-12T01:33:44'
-      pinned: false
-      title: Trade ANTM | thinkorswim Web
-      url: https://trade.thinkorswim.com/?symbol=ANTM
-    - last_visited: '2021-06-12T01:37:25'
-      pinned: false
-      title: Trade PODD | thinkorswim Web
-      url: https://trade.thinkorswim.com/?symbol=PODD
-    - last_visited: '2021-06-12T01:38:46'
-      pinned: false
-      title: Trade ATRS | thinkorswim Web
-      url: https://trade.thinkorswim.com/?symbol=ATRS
-    - last_visited: '2021-06-12T01:38:51'
-      pinned: false
-      title: Trade DXCM | thinkorswim Web
-      url: https://trade.thinkorswim.com/?symbol=DXCM
-    - last_visited: '2021-06-12T01:38:59'
-      pinned: false
-      title: Trade PODD | thinkorswim Web
-      url: https://trade.thinkorswim.com/?symbol=PODD
-    - last_visited: '2021-06-12T01:39:43'
-      pinned: false
-      title: Trade ANTM | thinkorswim Web
-      url: https://trade.thinkorswim.com/?symbol=ANTM
-    - last_visited: '2021-06-12T01:41:33'
-      pinned: false
-      title: Trade PODD | thinkorswim Web
-      url: https://trade.thinkorswim.com/?symbol=PODD
-    - last_visited: '2021-06-12T01:41:39'
-      pinned: false
-      title: Trade ANTM | thinkorswim Web
-      url: https://trade.thinkorswim.com/?symbol=ANTM
-    - active: true
-      last_visited: '2021-06-12T01:42:31'
-      original-url: https://trade.thinkorswim.com/?symbol=ANTM
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Log in | thinkorswim Web
-      url: https://auth.tdameritrade.com/auth?response_type=code&client_id=TDATRADERX%40AMER.OAUTHAP&redirect_uri=https%3A%2F%2Ftrade.thinkorswim.com%2Foauth&cv=default
       zoom: 0.75

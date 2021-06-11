@@ -299,6 +299,14 @@ setxkbmap -option caps:swapescape
 #xmodmap -e 'keycode 135 = Super_R'
 
 
+# POWER MANAGEMENT / SUSPEND / MONITOR OFF
+xset s off
+xset -dpms
+
+# xet q 				# shows current settings
+# xset s 900			# screensaver turns on after 15min
+# xset dpms 0 0 1200	# monitor off after 20min, first 0 is standby disable, second 0 is suspend disable
+
 
 # VI mode
 #set -o vi
