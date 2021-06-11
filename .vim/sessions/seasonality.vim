@@ -1,6 +1,6 @@
 " ~/.vim/sessions/seasonality.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 11 Tháng 6 2021 at 05:56:28.
+" Created by session.vim 2.13.1 on 11 Tháng 6 2021 at 16:58:09.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -11,7 +11,7 @@ if &background != 'dark'
 	set background=dark
 endif
 if !exists('g:colors_name') || g:colors_name != 'delek' | colorscheme delek | endif
-call setqflist([{'lnum': 8, 'col': 10, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/h-DoW.R', 'text': '			sig = na_if(DoW == day_of_week, F),'}, {'lnum': 8, 'col': 10, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/h-WoMoY.R', 'text': '			Ret = na_if(WoM == week_num & month(Date) == month_num, F) * Ret'}, {'lnum': 15, 'col': 39, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/h-dec-xmasnyd.R', 'text': '			isXmas = (Month==12 & Day==25) %>% na_if(F),'}, {'lnum': 16, 'col': 39, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/h-dec-xmasnyd.R', 'text': '			isNYD = (!(Month==1 & Day==1)) %>% na_if(T),'}, {'lnum': 25, 'col': 39, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/h-dec-xmasnyd.R', 'text': '			isPreXmas = (!sig & lead(sig)) %>% na_if(F),'}, {'lnum': 26, 'col': 38, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/h-dec-xmasnyd.R', 'text': '			isPreNYD = (sig & !lead(sig)) %>% na_if(F),'}, {'lnum': 12, 'col': 10, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/h-semimonth.R', 'text': '			Ret = na_if(Day %in% day_range, F) * Ret'}, {'lnum': 11, 'col': 16, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/multimonthDoM.R', 'text': '			startDate = na_if(startDate, F),'}, {'lnum': 13, 'col': 14, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/multimonthDoM.R', 'text': '			endDate = na_if(!endDate, T) %>% lag,'}, {'lnum': 17, 'col': 5, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/multimonthDoM.R', 'text': '				na_if(F),'}, {'lnum': 24, 'col': 16, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/multimonthTDM.R', 'text': '			startDate = na_if(startDate, F),'}, {'lnum': 26, 'col': 14, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/multimonthTDM.R', 'text': '			endDate = na_if(!endDate, T) %>% lag,'}, {'lnum': 30, 'col': 5, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/multimonthTDM.R', 'text': '				na_if(F),'}, {'lnum': 15, 'col': 39, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/h-dec-betweenholiday.R', 'text': '			isXmas = (Month==12 & Day==25) %>% na_if(F),'}, {'lnum': 16, 'col': 39, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/h-dec-betweenholiday.R', 'text': '			isNYD = (!(Month==1 & Day==1)) %>% na_if(T),'}, {'lnum': 26, 'col': 10, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/h-dec-betweenholiday.R', 'text': '			Ret = na_if(sig, sig & !lead(sig)) * Ret'}, {'lnum': 15, 'col': 41, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/h-dec-preholiday.R', 'text': '			isMidDec = (Month==12 & Day==15) %>% na_if(F),'}, {'lnum': 16, 'col': 42, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/h-dec-preholiday.R', 'text': '			isXmas = (!(Month==12 & Day==25)) %>% na_if(T),'}, {'lnum': 25, 'col': 19, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/h-dec-preholiday.R', 'text': '			isPreHoliday = na_if(isPreHoliday, isPreHoliday & !lead(isPreHoliday))'}, {'lnum': 14, 'col': 16, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/h-turnofmonth.R', 'text': '			ret_start = na_if(TDM == day_num, F) * Ret,'}, {'lnum': 15, 'col': 14, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/h-turnofmonth.R', 'text': '			ret_end = na_if(TDM == maxTDM - day_num + 1, F) * Ret,'}, {'lnum': 8, 'col': 10, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/h-WoM.R', 'text': '			Ret = na_if(WoM == week_num, F) * Ret'}, {'lnum': 12, 'col': 16, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/h-DoWoM.R', 'text': '			Ret = Ret * na_if(sig, F)'}, {'lnum': 21, 'col': 47, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/h-holiday.R', 'text': '			pre = (is.na(lead(Ret)) & !is.na(Ret)) %>% na_if(F),'}, {'lnum': 22, 'col': 47, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/h-holiday.R', 'text': '			post = (is.na(lag(Ret)) & !is.na(Ret)) %>% na_if(F),'}, {'lnum': 5, 'col': 16, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/h-MoY.R', 'text': '			Ret = Ret * na_if(month(Date) == month_num, F)'}, {'lnum': 208, 'col': 16, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/h-report.R', 'text': '				newTrade = na.if(newTrade * Date,'}, {'lnum': 15, 'col': 10, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/h-semimonthOfYear.R', 'text': '			Ret = na_if(Day %in% day_range & Month == month_num, F) * Ret'}, {'lnum': 40, 'col': 19, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'old/monthly.R', 'text': '    mutate(prev = na_if(prev > 0.9, F)) %>%'}, {'lnum': 134, 'col': 15, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'old/chan.R', 'text': '		startDate = na_if(startDate, F),'}, {'lnum': 136, 'col': 13, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'old/chan.R', 'text': '		endDate = na_if(!endDate, T),'}])
+call setqflist([{'lnum': 12, 'col': 1, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getAndProcessSymbols.R', 'text': 'getAndProcessSymbolsBulk <- function(symbols) {'}, {'lnum': 34, 'col': 22, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'data/model-gen.R', 'text': 'gaps_out_list_etf <- getAndProcessSymbolsBulk(all_symbols_etf)'}, {'lnum': 35, 'col': 24, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'data/model-gen.R', 'text': 'gaps_out_list_stock <- getAndProcessSymbolsBulk(all_symbols_stock)'}])
 let SessionLoad = 1
 let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
 let v:this_session=expand("<sfile>:p")
@@ -30,7 +30,7 @@ badd +1 R/h-WoM.R
 badd +1 R/h-DoWoM.R
 badd +1 R/h-holiday.R
 badd +1 R/h-MoY.R
-badd +285 R/h-report.R
+badd +92 R/h-report.R
 badd +1 R/h-semimonthOfYear.R
 badd +105 R/getHighPrev.R
 badd +134 R/getHighSharpe.R
@@ -53,7 +53,7 @@ badd +7 sharpe-performance/NULL/wom.R
 badd +1 sharpe-performance/NULL/dow.R
 badd +1 sharpe0.75-performance.R
 badd +1 sharpe1.0-performance.R
-badd +13 R/getAndProcessSymbols.R
+badd +1 R/getAndProcessSymbols.R
 badd +22 R/packagesAndOptions.R
 badd +27 ~/copper-ingot/docs/fees.md
 badd +2 data/high-prev/jun-long.md
@@ -73,27 +73,49 @@ badd +1 shorts
 badd +849 data/high-sharpe/longs
 badd +176 data/high-sharpe/shorts
 badd +1 sharpe-perforance.R
-badd +18 analysis.R
-badd +59 data/model-gen.R
+badd +20 analysis.R
+badd +22 data/model-gen.R
 badd +260 ~/.config/picom/picom.conf
-badd +1438 data/prev-etf-long
-badd +313 data/prev-etf-short
-badd +2344 data/prev-stock-long
-badd +536 data/prev-stock-short
-badd +1020 data/sharpe-etf-long
-badd +293 data/sharpe-etf-short
-badd +1470 data/sharpe-stock-long
-badd +765 data/sharpe-stock-short
+badd +1486 data/prev-etf-long
+badd +334 data/prev-etf-short
+badd +2393 data/prev-stock-long
+badd +576 data/prev-stock-short
+badd +1023 data/sharpe-etf-long
+badd +306 data/sharpe-etf-short
+badd +1487 data/sharpe-stock-long
+badd +788 data/sharpe-stock-short
 argglobal
 %argdel
 $argadd ~/.config/nvim/init.vim
 edit analysis.R
 set splitbelow splitright
+wincmd _ | wincmd |
+vsplit
+wincmd _ | wincmd |
+vsplit
+2wincmd h
+wincmd w
+wincmd w
 wincmd t
 set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
+exe 'vert 1resize ' . ((&columns * 31 + 110) / 221)
+exe 'vert 2resize ' . ((&columns * 108 + 110) / 221)
+exe 'vert 3resize ' . ((&columns * 80 + 110) / 221)
+argglobal
+enew
+" file NERD_tree_2
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal nofen
+wincmd w
 argglobal
 setlocal fdm=manual
 setlocal fde=0
@@ -104,12 +126,34 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 66 - ((50 * winheight(0) + 26) / 53)
+let s:l = 88 - ((26 * winheight(0) + 26) / 53)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-66
+88
+normal! 021|
+wincmd w
+argglobal
+if bufexists("term://.//640987:R\ ") | buffer term://.//640987:R\  | else | edit term://.//640987:R\  | endif
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+let s:l = 1111 - ((52 * winheight(0) + 26) / 53)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+1111
 normal! 0
+wincmd w
+2wincmd w
+exe 'vert 1resize ' . ((&columns * 31 + 110) / 221)
+exe 'vert 2resize ' . ((&columns * 108 + 110) / 221)
+exe 'vert 3resize ' . ((&columns * 80 + 110) / 221)
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
@@ -127,6 +171,19 @@ let &so = s:so_save | let &siso = s:siso_save
 " by :mksession out of the box).
 
 1wincmd w
+tabnext 1
+let s:bufnr_save = bufnr("%")
+let s:cwd_save = getcwd()
+NERDTree ~/seasonality
+if !getbufvar(s:bufnr_save, '&modified')
+  let s:wipebuflines = getbufline(s:bufnr_save, 1, '$')
+  if len(s:wipebuflines) <= 1 && empty(get(s:wipebuflines, 0, ''))
+    silent execute 'bwipeout' s:bufnr_save
+  endif
+endif
+execute "cd" fnameescape(s:cwd_save)
+1resize 53|vert 1resize 31|2resize 53|vert 2resize 108|3resize 53|vert 3resize 80|
+2wincmd w
 tabnext 1
 if exists('s:wipebuf')
   if empty(bufname(s:wipebuf))
