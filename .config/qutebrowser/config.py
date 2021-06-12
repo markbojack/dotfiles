@@ -20,6 +20,7 @@
 # yi        download image
 # yo        yank inline (pretty site url/title)
 # Y         spawn youtube-dl
+# wO        edit current URL
 
 # MOAR https://www.shortcutfoo.com/app/dojos/qutebrowser/cheatsheet
 # ;b          open in background tab
@@ -464,10 +465,33 @@ c.fonts.prompts = 'default_size sans-serif'
 # Type: Font
 c.fonts.statusbar = '8pt "Roboto Mono Nerd Font"'
 
+
+#   Binding keys
+#   While it’s possible to change the bindings.commands setting to customize the keyboard shortcuts, it’s preferred to use the config.bind command. Doing so ensures the commands are valid and normalizes different expressions which map to the same key.
+#   
+#   For details on how to specify keys and the available modes, see the documentation for the bindings.commands setting.
+#   
+#   To bind a key:
+#   
+#   config.py:
+#   config.bind('<Ctrl-v>', 'spawn mpv {url}')
+#   To bind a key in a mode other than 'normal', add a mode argument:
+#   
+#   config.bind('<Ctrl-y>', 'prompt-yes', mode='prompt')
+#   To unbind a key (either a key which has been bound before, or a default binding):
+#   
+#   config.unbind('<Ctrl-v>', mode='normal')
+#   To bind keys without modifiers, specify a key chain to bind as a string. Key chains starting with a comma are ideal for custom bindings, as the comma key will never be used in a default keybinding.
+#   
+#   config.bind(',v', 'spawn mpv {url}')
+#   To suppress loading of any default keybindings, you can set c.bindings.default = {}.
+
+
 # Bindings to use dmenu rather than qutebrowser's builtin search.
 config.bind('o', 'spawn --userscript dmenu-open')
 config.bind('O', 'spawn --userscript dmenu-open -t')
-config.bind('b', 'bookmark-add')
+config.bind('b', 'spawn alacritty -e echo "{url}" && sleep 30')
+# echo {url} >> ~/.config/qutebrowser/bookmarks/urls')
 
 # Bindings for normal mode
 config.bind('M', 'hint links spawn mpv {hint-url}') # if you're clicking the link
