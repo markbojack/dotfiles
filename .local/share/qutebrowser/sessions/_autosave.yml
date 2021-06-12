@@ -1,0 +1,64 @@
+windows:
+- geometry: !!binary |
+    AdnQywADAAAAAAKyAAAAIAAABUYAAAGAAAACsgAAACAAAAVGAAABgAAAAAAAAAAABVYAAAKyAAAA
+    IAAABUYAAAGA
+  tabs:
+  - history:
+    - active: true
+      last_visited: '2021-06-12T23:36:21'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: keynav/keynav.pod at master · jordansissel/keynav
+      url: https://github.com/jordansissel/keynav/blob/master/keynav.pod
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-06-12T23:36:21'
+      pinned: false
+      title: agate github - Google Search
+      url: https://www.google.com/search?q=agate%20github
+    - active: true
+      last_visited: '2021-06-12T23:42:15'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 1320
+      title: 'mbrubeck/agate: Very simple server for the Gemini hypertext protocol'
+      url: https://github.com/mbrubeck/agate
+      zoom: 0.75
+    - last_visited: '2021-06-12T23:42:10'
+      pinned: false
+      title: agate/tools at master · mbrubeck/agate
+      url: https://github.com/mbrubeck/agate/tree/master/tools
+    - last_visited: '2021-06-12T23:42:07'
+      pinned: false
+      title: agate/tools/freebsd at master · mbrubeck/agate
+      url: https://github.com/mbrubeck/agate/tree/master/tools/freebsd
+  - active: true
+    history:
+    - last_visited: '2021-06-12T23:58:01'
+      pinned: false
+      title: distrotube amfora - Google Search
+      url: https://www.google.com/search?q=distrotube%20amfora
+    - last_visited: '2021-06-12T23:58:21'
+      pinned: false
+      title: Files · master · Derek Taylor / Dotfiles · GitLab
+      url: https://gitlab.com/dwt1/dotfiles/-/tree/master/
+    - last_visited: '2021-06-12T23:58:26'
+      pinned: false
+      title: .config · master · Derek Taylor / Dotfiles · GitLab
+      url: https://gitlab.com/dwt1/dotfiles/-/tree/master/.config
+    - last_visited: '2021-06-12T23:58:30'
+      pinned: false
+      title: .config/amfora · master · Derek Taylor / Dotfiles · GitLab
+      url: https://gitlab.com/dwt1/dotfiles/-/tree/master/.config/amfora
+    - active: true
+      last_visited: '2021-06-12T23:58:33'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 692
+      title: .config/amfora/config.toml · master · Derek Taylor / Dotfiles · GitLab
+      url: https://gitlab.com/dwt1/dotfiles/-/blob/master/.config/amfora/config.toml
+      zoom: 0.75
