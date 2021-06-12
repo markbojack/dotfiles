@@ -1,17 +1,27 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
-    IAAABUYAAALw
+    AdnQywADAAAAAAAPAAAADwAABUYAAALwAAAADwAAAA8AAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    DwAABUYAAALw
   tabs:
-  - active: true
-    history:
+  - history:
     - active: true
-      last_visited: '2021-06-13T01:27:17'
+      last_visited: '2021-06-13T01:58:09'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
       title: Home
       url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-13T02:03:39'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 2189
+      title: 'Airblader/i3: i3-gaps – i3 with more features (forked from https://github.com/i3/i3)'
+      url: https://github.com/Airblader/i3
       zoom: 0.75

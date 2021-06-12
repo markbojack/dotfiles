@@ -284,6 +284,7 @@ bar {
 		tray_output none
 		font pango:Roboto Mono Nerd Font 8
 		position top
+		#height 30
 
         colors {
                 background $barcolor
