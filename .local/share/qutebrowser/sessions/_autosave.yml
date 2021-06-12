@@ -1,0 +1,122 @@
+windows:
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    IAAABUYAAALw
+  tabs:
+  - history:
+    - active: true
+      last_visited: '2021-06-12T12:30:09'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: keynav/keynav.pod at master · jordansissel/keynav
+      url: https://github.com/jordansissel/keynav/blob/master/keynav.pod
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-06-12T12:30:08'
+      original-url: https://www.tdameritrade.com/home.page
+      pinned: false
+      title: Online Stock Trading, Investing, Brokerage | TD Ameritrade
+      url: https://www.tdameritrade.com/home.html
+    - last_visited: '2021-06-12T12:30:21'
+      original-url: https://invest.ameritrade.com/grid/p/site
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/grid/p/site#r=home
+    - last_visited: '2021-06-12T12:30:21'
+      original-url: https://invest.ameritrade.com/grid/p/site
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/grid/p/site#r=home
+    - last_visited: '2021-06-12T12:30:57'
+      original-url: https://invest.ameritrade.com/grid/p/site#r=home
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/grid/p/site#r=positions
+    - last_visited: '2021-06-12T12:31:44'
+      original-url: https://invest.ameritrade.com/grid/p/site#r=positions
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/grid/p/site#r=search?query=Securities%20with%20Special%20Margin%20Requirements
+    - last_visited: '2021-06-12T12:31:57'
+      original-url: https://invest.ameritrade.com/grid/p/site#r=positions
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/grid/p/site#r=search?query=Securities%20with%20Special%20Margin%20Requirements
+    - last_visited: '2021-06-12T12:31:57'
+      original-url: https://invest.ameritrade.com/grid/p/site#r=positions
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/grid/p/site#r=search?query=Securities%20with%20Special%20Margin%20Requirements
+    - last_visited: '2021-06-12T12:32:04'
+      original-url: https://invest.ameritrade.com/grid/p/site#r=positions
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/grid/p/site#r=search?query=Securities%20with%20Special%20Margin%20Requirements
+    - last_visited: '2021-06-12T12:32:22'
+      original-url: https://invest.ameritrade.com/grid/p/site#r=positions
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/grid/p/site#r=search?query=Securities%20with%20Special%20Margin%20Requirements
+    - last_visited: '2021-06-12T12:46:58'
+      original-url: https://invest.ameritrade.com/grid/p/site#r=positions
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/grid/p/site#r=search?query=Securities%20with%20Special%20Margin%20Requirements
+    - active: true
+      last_visited: '2021-06-12T12:47:23'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/grid/p/site#r=positions
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-06-12T12:33:29'
+      pinned: false
+      title: TD Ameritrade - Help Center - plantfix288
+      url: https://invest.ameritrade.com/cgi-bin/apps/u/help/main?target=marginTrading/marginRequirements/whichStocksHaveSpecialMarginRequirements
+    - last_visited: '2021-06-12T12:33:31'
+      pinned: false
+      title: TD Ameritrade - Help Center - plantfix288
+      url: https://invest.ameritrade.com/cgi-bin/apps/u/help/main?target=marginTrading/marginRequirements/whichStocksHaveSpecialMarginRequirements
+    - active: true
+      last_visited: '2021-06-12T12:33:31'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: TD Ameritrade - Help Center - plantfix288
+      url: https://invest.ameritrade.com/cgi-bin/apps/u/help/main?target=marginTrading/marginRequirements/whichStocksHaveSpecialMarginRequirements
+      zoom: 0.75
+  - active: true
+    history:
+    - last_visited: '2021-06-12T12:33:35'
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?filter=A
+    - last_visited: '2021-06-12T12:35:15'
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=X
+    - last_visited: '2021-06-12T12:43:50'
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=G
+    - last_visited: '2021-06-12T12:44:18'
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=X
+    - active: true
+      last_visited: '2021-06-12T12:48:12'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=A
+      zoom: 0.75
+  - history: []
