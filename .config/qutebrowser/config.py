@@ -490,8 +490,7 @@ c.fonts.statusbar = '8pt "Roboto Mono Nerd Font"'
 # Bindings to use dmenu rather than qutebrowser's builtin search.
 config.bind('o', 'spawn --userscript dmenu-open')
 config.bind('O', 'spawn --userscript dmenu-open -t')
-config.bind('b', 'spawn alacritty -e echo "{url}" && sleep 30')
-# echo {url} >> ~/.config/qutebrowser/bookmarks/urls')
+config.bind(',b', 'spawn alacritty -e bash -c "echo {url} >> ~/.config/qutebrowser/bookmarks/urls"')
 
 # Bindings for normal mode
 config.bind('M', 'hint links spawn mpv {hint-url}') # if you're clicking the link

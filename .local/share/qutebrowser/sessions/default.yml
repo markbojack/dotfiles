@@ -1,47 +1,17 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAKyAAAAIAAABUYAAAGAAAACsgAAACAAAAVGAAABgAAAAAAAAAAABVYAAAKyAAAA
-    IAAABUYAAAGA
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    IAAABUYAAALw
   tabs:
-  - history:
+  - active: true
+    history:
     - active: true
-      last_visited: '2021-06-13T00:58:28'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: keynav/keynav.pod at master · jordansissel/keynav
-      url: https://github.com/jordansissel/keynav/blob/master/keynav.pod
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-13T00:58:28'
+      last_visited: '2021-06-13T01:27:17'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
       title: Home
       url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-13T00:58:30'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Yahoo Finance - Stock Market Live, Quotes, Business & Finance News
-      url: https://finance.yahoo.com/
-      zoom: 0.75
-  - active: true
-    history:
-    - active: true
-      last_visited: '2021-06-13T00:58:30'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Yahoo Finance - Stock Market Live, Quotes, Business & Finance News
-      url: https://finance.yahoo.com/
       zoom: 0.75
