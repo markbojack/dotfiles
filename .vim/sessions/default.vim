@@ -1,6 +1,6 @@
 " ~/.vim/sessions/default.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 13 Tháng 6 2021 at 17:57:33.
+" Created by session.vim 2.13.1 on 13 Tháng 6 2021 at 18:58:50.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -11,20 +11,19 @@ if &background != 'dark'
 	set background=dark
 endif
 if !exists('g:colors_name') || g:colors_name != 'delek' | colorscheme delek | endif
-call setqflist([{'lnum': 54, 'col': 33, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'sample-init.vim', 'text': '            "Plug ''junegunn/vim-emoji'' " Emojis in vim'}, {'lnum': 54, 'col': 42, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'sample-init.vim', 'text': '            "Plug ''junegunn/vim-emoji'' " Emojis in vim'}, {'lnum': 89, 'col': 15, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'sample-init.vim', 'text': '"             EMOJI                "'}, {'lnum': 91, 'col': 23, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'sample-init.vim', 'text': '    " ~~~~~ Gitgutter emoji stuff'}, {'lnum': 92, 'col': 39, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'sample-init.vim', 'text': '        "let g:gitgutter_sign_added = emoji#for(''white_check_mark'')'}, {'lnum': 93, 'col': 42, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'sample-init.vim', 'text': '        "let g:gitgutter_sign_modified = emoji#for(''large_orange_diamond'')'}, {'lnum': 94, 'col': 41, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'sample-init.vim', 'text': '        "let g:gitgutter_sign_removed = emoji#for(''x'')'}, {'lnum': 95, 'col': 50, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'sample-init.vim', 'text': '        "let g:gitgutter_sign_modified_removed = emoji#for(''collision'')'}, {'lnum': 103, 'col': 17, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'sample-init.vim', 'text': '        " ~~~~~ Emoji autocompletion'}, {'lnum': 104, 'col': 31, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'sample-init.vim', 'text': '            "set completefunc=emoji#complete'}])
+call setqflist([])
 let SessionLoad = 1
 let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
 let v:this_session=expand("<sfile>:p")
 silent only
-cd ~/vimwiki
+cd ~/
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +0 index.md
+badd +1 man://urlview(1)
 argglobal
 %argdel
-edit index.md
 set splitbelow splitright
 wincmd t
 set winminheight=0
@@ -32,6 +31,8 @@ set winheight=1
 set winminwidth=0
 set winwidth=1
 argglobal
+enew
+file man://urlview(1)
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -39,14 +40,7 @@ setlocal fdi=#
 setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
-setlocal fen
-silent! normal! zE
-let s:l = 6 - ((5 * winheight(0) + 26) / 53)
-if s:l < 1 | let s:l = 1 | endif
-exe s:l
-normal! zt
-6
-normal! 0
+setlocal nofen
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf

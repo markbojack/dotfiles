@@ -7,7 +7,8 @@ case "$(printf "copy url\\nmpv\\nmpv (loop)\\nqueue download\\n\\nqueue youtube-
 	mpv) setsid mpv -quiet "$1" >/dev/null 2>&1 & ;;
 	"mpv (loop)") setsid mpv --input-ipc-server=/tmp/mpvsoc$(date +%s) -quiet --loop "$1" >/dev/null 2>&1 & ;;
 	"queue download") tsp curl -LO "$1" >/dev/null 2>&1 ;;
-	"queue youtube-dl") tsp youtube-dl --write-metadata -ic "$1" >/dev/null 2>&1 ;;
+	#	"queue youtube-dl") tsp youtube-dl --write-metadata -ic "$1" >/dev/null 2>&1 ;;
+	"queue youtube-dl") tsp youtube-dl "$1" >/dev/null 2>&1 ;;
 	browser) setsid "$BROWSER" "$1" >/dev/null 2>&1 & ;;
 	feh) setsid feh "$1" >/dev/null 2>&1 & ;;
 	w3m) w3m "$1" >/dev/null 2>&1 ;;

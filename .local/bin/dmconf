@@ -25,6 +25,7 @@ else
 	options[dmcalc]="$HOME/.local/bin/dmcalc"
 	options[dmconf]="$HOME/.local/bin/dmconf"
 	options[dmenufm]="$HOME/.local/bin/dmenufm"
+	options[dmenuhandler]="$HOME/.local/bin/dmenuhandler"
 	options[dmkill]="$HOME/.local/bin/dmkill"
 	options[dmlogout]="$HOME/.local/bin/dmlogout"
 	options[dmprompt]="$HOME/.local/bin/dmprompt"
