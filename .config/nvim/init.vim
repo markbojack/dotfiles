@@ -123,8 +123,8 @@
 		" email signature
 		" map <leader>sft :r !toilet -f future sent with neomutt<cr>
 		" auto comment
-		vmap <leader>c :norm I#<Tab><cr>
-		vmap <leader>x :norm ^xx<cr>
+		map <leader>c :norm I#<Tab><cr>
+		map <leader>x :norm ^xx<cr>
 		" filetype detect
 		map <leader>f :filetype detect<cr>
 		

@@ -73,6 +73,7 @@ mode "command" {
 
 # other keybindings
 bindsym $mod+q exec --no-startup-id qutebrowser; workspace $ws2
+bindsym $mod+n exec --no-startup-id alacritty -e newsboat; workspace $ws5
 #bindsym $mod+p exec --no-startup-id pcmanfm
 bindsym $mod+e exec --no-startup-id alacritty -e bash -c 'export EDITOR=nvim && neomutt'; workspace $ws3
 bindsym $mod+u exec --no-startup-id blueman-manager; workspace $ws4
@@ -152,11 +153,10 @@ bindsym $mod+a focus parent
 ### exit and restart i3
 
 set $ws1 ""
-set $ws2 ""
-set $ws3 ""
-set $ws4 ""
-set $ws5 "5"
-#set $ws5 ""
+set $ws2 "🌏"
+set $ws3 "📬"
+set $ws4 "🎵"
+set $ws5 "📰"
 
 # switch to workspace
 ## this is default but leave out `number` to just have icons

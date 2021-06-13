@@ -4,24 +4,26 @@ windows:
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
     IAAABUYAAALw
   tabs:
-  - history:
-    - active: true
-      last_visited: '2021-06-13T17:20:00'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Public holidays in Vietnam - Wikipedia
-      url: https://en.wikipedia.org/wiki/Public_holidays_in_Vietnam
-      zoom: 0.75
   - active: true
     history:
+    - last_visited: '2021-06-13T19:44:58'
+      pinned: false
+      title: 'LukeSmithxyz/voidrice: My dotfiles (deployed by LARBS)'
+      url: https://github.com/LukeSmithxyz/voidrice
+    - last_visited: '2021-06-13T19:44:59'
+      pinned: false
+      title: voidrice/.local at master · LukeSmithxyz/voidrice
+      url: https://github.com/LukeSmithxyz/voidrice/tree/master/.local
+    - last_visited: '2021-06-13T19:45:02'
+      pinned: false
+      title: voidrice/.local/bin at master · LukeSmithxyz/voidrice
+      url: https://github.com/LukeSmithxyz/voidrice/tree/master/.local/bin
     - active: true
-      last_visited: '2021-06-13T17:20:00'
+      last_visited: '2021-06-13T19:45:11'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: National Holidays in Vietnam in 2021 | Office Holidays
-      url: https://www.officeholidays.com/countries/vietnam/2021
+        y: 81
+      title: voidrice/linkhandler at master · LukeSmithxyz/voidrice
+      url: https://github.com/LukeSmithxyz/voidrice/blob/master/.local/bin/linkhandler
       zoom: 0.75
