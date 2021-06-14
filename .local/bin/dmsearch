@@ -30,6 +30,7 @@ else
 	#options[archaur]="https://aur.archlinux.org/packages/?O=0&K="
 	#options[archpkg]="https://archlinux.org/packages/?sort=&q="
 	options[wikiarch]="https://wiki.archlinux.org/index.php?search="
+	options[wiby]="https://wiby.me/?q="
 	#options[arxiv]="https://arxiv.org/search/?searchtype=all&source=header&query="
 	#options[bbcnews]="https://www.bbc.co.uk/search?q="
 	#options[cliki]="https://www.cliki.net/site/search?query="

@@ -55,6 +55,7 @@ else
 	options[ranger commands]="$HOME/.config/ranger/commands.py"
 	options[ranger scope]="$HOME/.config/ranger/scope.sh"
 	options[remind]="$HOME/p-dot-script/remind.rem"
+	options[styli.sh]="$HOME/.local/bin/styli.sh"
 	options[sxiv image-info]="$HOME/.config/sxiv/exec/image-info"
 	options[sxiv key-handler]="$HOME/.config/sxiv/exec/key-handler"
 	options[sys empty-trash]="$HOME/.local/bin/empty-trash.sh"

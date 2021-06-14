@@ -1,0 +1,31 @@
+windows:
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAADwAAACAAAAKjAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    IAAAAqMAAALw
+  tabs:
+  - history:
+    - last_visited: '2021-06-14T20:52:26'
+      pinned: false
+      title: paru - Google Search
+      url: https://www.google.com/search?q=paru
+    - active: true
+      last_visited: '2021-06-14T20:52:28'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 1023
+      title: 'Morganamilo/paru: Feature packed AUR helper'
+      url: https://github.com/Morganamilo/paru
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-14T20:59:07'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: yay no confirm - Google Search
+      url: https://www.google.com/search?q=yay%20no%20confirm
+      zoom: 0.75
