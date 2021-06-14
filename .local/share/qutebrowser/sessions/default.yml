@@ -6,7 +6,7 @@ windows:
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-14T21:52:34'
+      last_visited: '2021-06-14T22:01:26'
       pinned: false
       scroll-pos:
         x: 0
@@ -16,7 +16,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-14T21:52:34'
+      last_visited: '2021-06-14T22:01:26'
       pinned: false
       scroll-pos:
         x: 0
@@ -26,7 +26,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-14T21:52:35'
+      last_visited: '2021-06-14T22:01:26'
       pinned: false
       scroll-pos:
         x: 0
@@ -35,24 +35,14 @@ windows:
         #1033 · Jguer/yay'
       url: https://github.com/Jguer/yay/issues/1033
       zoom: 0.75
-  - history:
+  - active: true
+    history:
     - active: true
-      last_visited: '2021-06-14T21:52:34'
+      last_visited: '2021-06-14T22:01:27'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
       title: '--noconfirm doesn''t work anymore with -Sc · Issue #132 · Jguer/yay'
       url: https://github.com/Jguer/yay/issues/132
-      zoom: 0.75
-  - active: true
-    history:
-    - active: true
-      last_visited: '2021-06-14T21:52:34'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: RGEN Repligen Corporation Stock Quote
-      url: https://finviz.com/quote.ashx?t=RGEN
       zoom: 0.75

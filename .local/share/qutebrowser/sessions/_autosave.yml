@@ -1,0 +1,20 @@
+windows:
+- geometry: !!binary |
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    IAAABUYAAALw
+  tabs:
+  - history: []
+  - history:
+    - active: true
+      last_visited: '2021-06-14T22:05:29'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: yay no confirm - Google Search
+      url: https://www.google.com/search?q=yay%20no%20confirm
+      zoom: 0.75
+  - history: []
+  - history: []
+  - active: true
+    history: []
