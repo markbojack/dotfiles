@@ -57,6 +57,7 @@ mode "command" {
     bindsym r exec --no-startup-id ~/.local/bin/dmcalc; mode "default"
     #	bindsym m exec --no-startup-id ~/.local/bin/dmenumount; mode "default"
     #	bindsym u exec --no-startup-id ~/.local/bin/dmenuumount; mode "default"
+    bindsym w exec --no-startup-id ~/.local/bin/dmstyli.sh; mode "default"
     bindsym c exec --no-startup-id ~/.local/bin/dmconf; mode "default"
     bindsym f exec --no-startup-id ~/.local/bin/dmenufm; mode "default"
     bindsym k exec --no-startup-id ~/.local/bin/dmkill; mode "default"
@@ -220,7 +221,7 @@ exec_always --no-startup-id picom --experimental-backend
 
 # wallpaper options
 exec_always --no-startup-id feh --bg-fill /home/mark/Downloads/Abstract-grey-wallpaper-HD-desktop.jpg
-#	exec_always ~/.local/bin/styli.sh
+#	exec_always ~/.local/bin/styli.sh -p
 
 exec --no-startup-id tdrop -am -w 60% -y 25% -x 20% -h 50% -n 1 alacritty -e bash -c 'remind -cl+2m@ ~/p-dot-script/remind.rem *5 && echo -e "\n" && sleep 10'
 exec --no-startup-id alacritty
@@ -259,10 +260,11 @@ set $fws		#000000
 # NOW GO TO THIS FILE AND SEARCH TAG :bar:
 # file:///home/mark/.config/i3blocks/i3blocks.conf
 
-set $barcolor	#272822bf		#monokai
+set $barcolor	#00000000 #clear
+#	set $barcolor	#272822bf #monokai
 #	set $barcolor   #1b2b34bf # oceanic
-#set $barcolor 	#151515bf # chalk
-#set $barcolor	#2E3440bf # nord
+#	set $barcolor 	#151515bf # chalk
+#	set $barcolor	#2E3440bf # nord
 # -----------------------------------------
 
 set $textcolor  #ffffff  
@@ -452,7 +454,7 @@ for_window [class="Yad"] floating enable
 
 # moar keybindings
 bindsym $mod+Shift+f		exec --no-startup-id bash ~/.local/bin/fontpreview && qutebrowser ~/.local/bin/fonts.html; workspace $ws2
-bindsym $mod+Shift+s		exec --no-startup-id bash ~/.local/bin/styli.sh
+bindsym $mod+Shift+s		exec --no-startup-id bash ~/.local/bin/styli.sh -p
 
 bindsym $mod+Shift+x		exec --no-startup-id ~/.local/bin/dmprompt "Poweroff?" ~/.local/bin/poweroff.sh
 bindsym $mod+Shift+m		exec --no-startup-id keynav
