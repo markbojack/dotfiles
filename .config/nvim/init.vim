@@ -247,7 +247,7 @@
 
 	" Visuals
 	Plug 'chrisbra/Colorizer'
-		autocmd VimEnter * ColorHighlight .
+		autocmd VimEnter * ColorHighlight
 	Plug 'bling/vim-airline'
 	Plug 'itchyny/lightline.vim'
 

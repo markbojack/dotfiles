@@ -206,6 +206,7 @@ alias gd="git diff"
 alias config='git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 alias gi='git init'
 alias gpa='~/.local/bin/push-all'
+#	https://www.linuxuprising.com/2019/08/pastel-is-new-tool-to-work-with-colors.html
 alias pp='pastel pick'
 
 # Misc aliases

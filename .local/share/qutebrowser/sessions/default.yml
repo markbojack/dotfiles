@@ -1,140 +1,32 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
-    IAAABUYAAALw
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAGQAAACoAAAU8AAAC5gAAAAAAAAAABVYAAAAZAAAA
+    KgAABTwAAALm
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-15T11:26:15'
+      last_visited: '2021-06-15T13:14:53'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Home | SpaceVim
-      url: https://spacevim.org/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-15T11:26:14'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Better colors so comments aren't dark blue in Vim? - Unix & Linux Stack
-        Exchange
-      url: https://unix.stackexchange.com/questions/88879/better-colors-so-comments-arent-dark-blue-in-vim
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-15T11:26:14'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: syntax highlighting - Change font color for comments in vim - Stack Overflow
-      url: https://stackoverflow.com/questions/5830125/change-font-color-for-comments-in-vim
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-15T11:26:15'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: vim number colors - Google Search
-      url: https://www.google.com/search?q=vim%20number%20colors
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-15T11:26:14'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'vim-airline/vim-airline: lean & mean status/tabline for vim that''s
-        light as air'
-      url: https://github.com/vim-airline/vim-airline
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-15T11:26:14'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Color schemes · alacritty/alacritty Wiki
-      url: https://github.com/alacritty/alacritty/wiki/Color-schemes
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-15T11:26:15'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: web colors - Google Search
-      url: https://www.google.com/search?q=web%20colors
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-15T11:26:30'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: vim hex color plugin - Google Search
-      url: https://www.google.com/search?q=vim%20hex%20color%20plugin
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-15T11:26:46'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 880
-      title: linux hex color - Google Search
-      url: https://www.google.com/search?q=linux%20hex%20color
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-15T11:26:53'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 1920
-      title: 8 Awesome Color Picking Tools for Linux
-      url: https://www.fossmint.com/color-picking-tools-for-linux/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-15T11:26:55'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 5368
       title: 256 Colors - Cheat Sheet - Xterm, HEX, RGB, HSL
       url: https://jonasjacek.github.io/colors/
       zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-15T11:26:59'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 8960
-      title: Top 10 Best Color Picker Tools for Linux System
-      url: https://www.ubuntupit.com/best-color-picker-tools-for-linux/
-      zoom: 0.75
   - active: true
     history:
+    - last_visited: '2021-06-15T13:15:30'
+      pinned: false
+      title: linux pastel - Google Search
+      url: https://www.google.com/search?q=linux%20pastel
     - active: true
-      last_visited: '2021-06-15T11:27:01'
+      last_visited: '2021-06-15T13:15:36'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: Is there a command to display colors when giving hex value in terminal?
-        - Unix & Linux Stack Exchange
-      url: https://unix.stackexchange.com/questions/482755/is-there-a-command-to-display-colors-when-giving-hex-value-in-terminal
+        y: 2927
+      title: Pastel Is A New Tool To Work With Colors From The Terminal - Linux Uprising
+        Blog
+      url: https://www.linuxuprising.com/2019/08/pastel-is-new-tool-to-work-with-colors.html
       zoom: 0.75

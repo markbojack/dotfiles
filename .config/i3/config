@@ -252,7 +252,7 @@ assign [title="neomutt"] $ws3
 # Window colors
 ## the last 2 digits is transparency
 ## https://gist.github.com/lopspower/03fb1cc0ac9f32ef38f4
-set $bgcolor    #00897b33
+set $bgcolor    #d3d3d3
 set $ibgcolor   #363636
 set $fws		#000000
 
@@ -311,8 +311,11 @@ bar {
 #exec_always /home/mark/.screenlayout/filename.sh
 
 # border
-default_border none
-default_floating_border none
+default_border pixel 1
+default_floating_border pixel 1
+border_radius 10
+#	default_border none
+#	default_floating_border none
 
 # default gaps
 gaps inner 15

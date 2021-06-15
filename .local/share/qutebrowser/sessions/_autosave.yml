@@ -1,90 +1,73 @@
 windows:
 - geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAADwAAACAAAAKjAAAC8AAAAAAAAAAABVYAAAAPAAAA
-    IAAAAqMAAALw
+    AdnQywADAAAAAAAPAAAAPQAAAqMAAALwAAAAEAAAAD4AAAKiAAAC7wAAAAAAAAAABVYAAAAQAAAA
+    PgAAAqIAAALv
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-15T11:55:42'
+      last_visited: '2021-06-15T13:18:36'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Home | SpaceVim
-      url: https://spacevim.org/
+      title: 256 Colors - Cheat Sheet - Xterm, HEX, RGB, HSL
+      url: https://jonasjacek.github.io/colors/
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-15T11:55:41'
+      last_visited: '2021-06-15T13:18:37'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Better colors so comments aren't dark blue in Vim? - Unix & Linux Stack
-        Exchange
-      url: https://unix.stackexchange.com/questions/88879/better-colors-so-comments-arent-dark-blue-in-vim
+      title: Pastel Is A New Tool To Work With Colors From The Terminal - Linux Uprising
+        Blog
+      url: https://www.linuxuprising.com/2019/08/pastel-is-new-tool-to-work-with-colors.html
       zoom: 0.75
   - history:
+    - last_visited: '2021-06-15T13:22:29'
+      pinned: false
+      title: picom window border size - Google Search
+      url: https://www.google.com/search?q=picom%20window%20border%20size
+    - last_visited: '2021-06-15T13:23:05'
+      pinned: false
+      title: i3 rounded border color - Google Search
+      url: https://www.google.com/search?q=i3+rounded+border+color&ei=JEfIYP_1JdPAoASOrJX4Ag&oq=i3+rounded+border+color&gs_lcp=Cgdnd3Mtd2l6EAMyCAghEBYQHRAeOgcIIRAKEKABOgQIIRAVOgUIABCRAjoICAAQsQMQgwE6BQgAELEDOggILhDHARCjAjoCCAA6BAgAEEM6CAguEMcBEK8BOgYIABAWEB46CAgAEBYQChAeUJXGAVixjgJgp5ICaAJwAngEgAGOAYgB3xqSAQQwLjMwmAEAoAEBqgEHZ3dzLXdperABAMABAQ&sclient=gws-wiz&ved=0ahUKEwj_l7r8_5jxAhVTIIgKHQ5WBS8Q4dUDCBE&uact=5
+    - last_visited: '2021-06-15T13:23:32'
+      pinned: false
+      title: i3 rounded border line - Google Search
+      url: https://www.google.com/search?q=i3+rounded+border+line&ei=SEfIYLrYJZvT-QaK7buQAg&oq=i3+rounded+border+line&gs_lcp=Cgdnd3Mtd2l6EAMyBQghEKABMgUIIRCgATIFCCEQoAE6CAghEBYQHRAeOgYIABAWEB46BwghEAoQoAFQ5JkBWKXKAWDkzAFoBXACeACAAYABiAGMDZIBBDIuMTOYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=gws-wiz&ved=0ahUKEwi6nM-NgJnxAhWbad4KHYr2DiIQ4dUDCBE&uact=5
     - active: true
-      last_visited: '2021-06-15T11:55:41'
+      last_visited: '2021-06-15T13:27:13'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: syntax highlighting - Change font color for comments in vim - Stack Overflow
-      url: https://stackoverflow.com/questions/5830125/change-font-color-for-comments-in-vim
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-15T11:55:42'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: vim number colors - Google Search
-      url: https://www.google.com/search?q=vim%20number%20colors
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-15T11:55:42'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'vim-airline/vim-airline: lean & mean status/tabline for vim that''s
-        light as air'
-      url: https://github.com/vim-airline/vim-airline
+      title: i3 gaps border radius - Google Search
+      url: https://www.google.com/search?q=i3+gaps+border+radius&ei=Y0fIYKe_LoX6wQONuYKQDQ&oq=i3+gaps+&gs_lcp=Cgdnd3Mtd2l6EAMYATIECAAQQzIECAAQQzIECAAQQzIECAAQQzIECAAQQzICCAAyAggAMgIIADICCAAyAggAOgcIIRAKEKABOgQIIRAVOgUIABCRAjoICAAQsQMQgwE6BQgAELEDOggILhDHARCjAlCK7gJYzqkNYM67DWgEcAJ4AIABf4gB3AmSAQQxLjEwmAEAoAEBqgEHZ3dzLXdperABAMABAQ&sclient=gws-wiz
       zoom: 0.75
   - active: true
     history:
-    - last_visited: '2021-06-15T12:46:49'
-      pinned: false
-      title: colorizer vim auto start - Google Search
-      url: https://www.google.com/search?q=colorizer%20vim%20auto%20start
-    - last_visited: '2021-06-15T12:48:26'
-      pinned: false
-      title: colorizer vim start - Google Search
-      url: https://www.google.com/search?q=colorizer+vim+start&ei=yD7IYIH3OZX7wQOKoZrADA&oq=colorizer+vim+start&gs_lcp=Cgdnd3Mtd2l6EAMyBQghEKABOgYIABAWEB46AggAULHFBVjN6AVg2PAFaANwAngAgAGZAYgBwhGSAQQxLjE4mAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=gws-wiz&ved=0ahUKEwiB-5aA-JjxAhWVfXAKHYqQBsgQ4dUDCBE&uact=5
-    - last_visited: '2021-06-15T12:54:26'
-      pinned: false
-      title: vim run command at startup - Google Search
-      url: https://www.google.com/search?q=vim+run+command+at+startup&ei=Kj_IYLHnBJWRoATigqX4BQ&oq=vim+command+at+start&gs_lcp=Cgdnd3Mtd2l6EAMYADIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjoFCAAQkQI6BAgAEEM6CAgAELEDEIMBOgsILhCxAxDHARCjAjoICAAQsQMQkQI6BwgAELEDEEM6AggAUNbFFVjK5BVgsu8VaAFwAngEgAG8AYgBqhKSAQQyNC4ymAEAoAEBqgEHZ3dzLXdperABAMABAQ&sclient=gws-wiz
     - active: true
-      last_visited: '2021-06-15T12:54:29'
+      last_visited: '2021-06-15T13:27:17'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: Vim - how to run a command immediately when starting vim? - Stack Overflow
-      url: https://stackoverflow.com/questions/6821033/vim-how-to-run-a-command-immediately-when-starting-vim
+        y: 1802
+      title: How to Install i3-gaps with Rounded Corners | Terminal Root
+      url: https://en.terminalroot.com.br/how-to-install-i3-gaps-with-rounded-corners/
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-15T12:48:41'
+      last_visited: '2021-06-15T13:29:16'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: Colorizer - Vim Awesome
-      url: https://vimawesome.com/plugin/colorizer
+        y: 4056
+      title: "terroo/i3-radius: \U0001F532 — Rounded i3-gaps"
+      url: https://github.com/terroo/i3-radius
       zoom: 0.75
+    - last_visited: '2021-06-15T13:29:10'
+      pinned: false
+      title: Home · Airblader/i3 Wiki
+      url: https://github.com/Airblader/i3/wiki
