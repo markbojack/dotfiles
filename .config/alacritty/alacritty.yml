@@ -155,223 +155,48 @@ font:
   #  x: 0
   #  y: 0
 
-  # Thin stroke font rendering (macOS only)
-  #
-  # Thin strokes are suitable for retina displays, but for non-retina screens
-  # it is recommended to set `use_thin_strokes` to `false`
-  #
-  # macOS >= 10.14.x:
-  #
-  # If the font quality on non-retina display looks bad then set
-  # `use_thin_strokes` to `true` and enable font smoothing by running the
-  # following command:
-  #   `defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO`
-  #
-  # This is a global setting and will require a log out or restart to take
-  # effect.
-  use_thin_strokes: true
-
 # If `true`, bold text is drawn using the bright color variants.
 draw_bold_text_with_bright_colors: true
 
-# # Base16 Tomorrow 256 - alacritty color config
-# # Chris Kempson (http://chriskempson.com)
-# colors:
-#   # Default colors
-#   primary:
-#     background: '0xffffff'
-#     foreground: '0x4d4d4c'
 
-#   # Colors the cursor will use if `custom_cursor_colors` is true
-#   cursor:
-#     text: '0xffffff'
-#     cursor: '0x4d4d4c'
+#COLORS ============================================================================
 
-#   # Normal colors
-#   normal:
-#     black:   '0xffffff'
-#     red:     '0xc82829'
-#     green:   '0x718c00'
-#     yellow:  '0xeab700'
-#     blue:    '0x4271ae'
-#     magenta: '0x8959a8'
-#     cyan:    '0x3e999f'
-#     white:   '0x4d4d4c'
-
-#   # Bright colors
-#   bright:
-#     black:   '0x8e908c'
-#     red:     '0xc82829'
-#     green:   '0x718c00'
-#     yellow:  '0xeab700'
-#     blue:    '0x4271ae'
-#     magenta: '0x8959a8'
-#     cyan:    '0x3e999f'
-#     white:   '0x1d1f21'
-
-#   indexed_colors:
-#     - { index: 16, color: '0xf5871f' }
-#     - { index: 17, color: '0xa3685a' }
-#     - { index: 18, color: '0xe0e0e0' }
-#     - { index: 19, color: '0xd6d6d6' }
-#     - { index: 20, color: '0x969896' }
-#     - { index: 21, color: '0x282a2e' }
-
-# MOAR COLORS ============================================================================
-# https://terminal.sexy/
-
-## Colors (Nord)
-#colors:
-## Default colors
-#primary:
-#background: '0x2E3440'
-#foreground: '0xD8DEE9'
-#
-## Normal colors
-#normal:
-#black:   '0x3B4252'
-#red:     '0xBF616A'
-#green:   '0xA3BE8C'
-#yellow:  '0xEBCB8B'
-#blue:    '0x81A1C1'
-#magenta: '0xB48EAD'
-#cyan:    '0x88C0D0'
-#white:   '0xE5E9F0'
-#
-## Bright colors
-#bright:
-#black:   '0x4C566A'
-#red:     '0xBF616A'
-#green:   '0xA3BE8C'
-#yellow:  '0xEBCB8B'
-#blue:    '0x81A1C1'
-#magenta: '0xB48EAD'
-#cyan:    '0x8FBCBB'
-#white:   '0xECEFF4'
-
-
-# Colors (Monokai Pro)
+# Colors (Monokai Dark)
 colors:
   # Default colors
   primary:
-    background: '#2D2A2E'
-    foreground: '#FCFCFA'
+    background: '#272822'
+    foreground: '#F8F8F2'
 
   # Normal colors
   normal:
-    black:   '#403E41'
-    red:     '#FF6188'
-    green:   '#A9DC76'
-    yellow:  '#FFD866'
-    blue:    '#FC9867'
-    magenta: '#FF87AF'
-    cyan:    '#78DCE8'
-    white:   '#FCFCFA'
+   black:   '#272822'
+   red:     '#F92672'
+   green:   '#A6E22E'
+   yellow:  '#F4BF75'
+   blue:    '#66D9EF'
+   magenta: '#AE81FF'
+   cyan:    '#A1EFE4'
+   white:   '#F8F8F2'
 
   # Bright colors
   bright:
-    black:   '#727072'
-    red:     '#FF6188'
-    green:   '#A9DC76'
-    yellow:  '#FFD866'
-    blue:    '#FC9867'
-    magenta: '#AB9DF2'
-    cyan:    '#78DCE8'
-    white:   '#FCFCFA'
+   black:   '#75715E'
+   red:     '#F92672'
+   green:   '#A6E22E'
+   yellow:  '#F4BF75'
+   blue:    '#66D9EF'
+   magenta: '#AE81FF'
+   cyan:    '#A1EFE4'
+   white:   '#F9F8F5'
 
 
 
-    #   colors:
-    #   # Default colors
-    #   primary:
-    #   background: '0x272822'
-    #   foreground: '0xf8f8f2'
-    #   
-    #   # Normal colors
-    #   normal:
-    #   black:   '0x272822'
-    #   red:     '0x57aaba'
-    #   green:   '0x78a51d'
-    #   yellow:  '0xa7814c'
-    #   blue:    '0xC93268'
-    #   magenta: '0x885FD2'
-    #   cyan:    '0xa1efe4'
-    #   white:   '0xf8f8f2'
-    #   
-    #   # Bright colors
-    #   bright:
-    #   black:   '0x75715e'
-    #   red:     '0x66d9ef'
-    #   green:   '0xa6e22e'
-    #   yellow:  '0xf4bf75'
-    #   blue:    '0xff6fa3'
-    #   magenta: '0xae81ff'
-    #   cyan:    '0x4a6d68'
-    #   white:   '0xd1d1d1'
-
-# yellow comments
-#   colors:
-#   # Default colors
-#   primary:
-#   background: '0x263238'
-#   foreground: '0xeceff1'
-#   
-#   # Normal colors
-#   normal:
-#   black:   '0x263238'
-#   red:     '0xff9800'
-#   green:   '0x8bc34a'
-#   yellow:  '0xffc107'
-#   blue:    '0x03a9f4'
-#   magenta: '0xf76596'
-#   cyan:    '0x009688'
-#   white:   '0xcfd8dc'
-#   
-#   # Bright colors
-#   bright:
-#   black:   '0x37474f'
-#   red:     '0xffa74d'
-#   green:   '0x9ccc65'
-#   yellow:  '0xffa000'
-#   blue:    '0x81d4fa'
-#   magenta: '0xad1457'
-#   cyan:    '0x26a69a'
-#   white:   '0xeceff1'
 
 
-# Colors (Oceanic Next)
-#   colors:
-#   # Default colors
-#   primary:
-#   background: '#1b2b34'
-#   foreground: '#d8dee9'
-#   
-#   # Colors the cursor will use if `custom_cursor_colors` is true
-#   cursor:
-#   text: '#1b2b34'
-#   cursor: '#ffffff'
-#   
-#   # Normal colors
-#   normal:
-#   black:   '#343d46'
-#   red:    '#6699cc'
-#   green:   '#99C794'
-#   yellow:  '#FAC863'
-#   blue:    '#6699cc'
-#   magenta: '#c594c5'
-#   cyan:    '#5fb3b3'
-#   white:   '#d8dee9'
-#   
-#   # Bright colors
-#   bright:
-#   black:   '#343d46'
-#   red:    '#6699cc'
-#   green:   '#99C794'
-#   yellow:  '#FAC863'
-#   blue:    '#6699cc'
-#   magenta: '#c594c5'
-#   cyan:    '#5fb3b3'
-#   white:   '#d8dee9'
+
+
+
 
 # Visual Bell
 #
@@ -403,7 +228,7 @@ colors:
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: 1.00
+background_opacity: 0.99
 
 #selection:
   #semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"

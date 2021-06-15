@@ -1,23 +1,13 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAALAAAAHAAABUoAAAL0AAAADAAAAB0AAAVJAAAC8wAAAAAAAAAABVYAAAAMAAAA
-    HQAABUkAAALz
+    AdnQywADAAAAAAKwAAABjQAABUoAAAL0AAACsQAAAY4AAAVJAAAC8wAAAAAAAAAABVYAAAKxAAAB
+    jgAABUkAAALz
   tabs:
   - active: true
     history:
     - active: true
-      last_visited: '2021-06-15T15:02:48'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: vim airline - Google Search
-      url: https://www.google.com/search?q=vim%20airline
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-15T15:02:53'
+      last_visited: '2021-06-15T20:03:19'
       pinned: false
       scroll-pos:
         x: 0

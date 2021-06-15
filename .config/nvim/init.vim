@@ -31,6 +31,7 @@
 			augroup every
 			  autocmd!
 			  au InsertEnter * set norelativenumber
+			  au InsertEnter * set number
 			  au InsertLeave * set relativenumber
 			augroup END
 	" Compulsory
