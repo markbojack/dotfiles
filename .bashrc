@@ -206,6 +206,7 @@ alias gd="git diff"
 alias config='git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 alias gi='git init'
 alias gpa='~/.local/bin/push-all'
+alias pp='pastel pick'
 
 # Misc aliases
 alias v='nvim'

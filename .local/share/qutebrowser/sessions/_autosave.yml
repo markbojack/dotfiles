@@ -1,7 +1,7 @@
 windows:
 - geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
-    IAAABUYAAALw
+    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAADwAAACAAAAKjAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    IAAAAqMAAALw
   tabs:
   - history:
     - active: true
@@ -55,95 +55,36 @@ windows:
         light as air'
       url: https://github.com/vim-airline/vim-airline
       zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-15T11:55:41'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Color schemes · alacritty/alacritty Wiki
-      url: https://github.com/alacritty/alacritty/wiki/Color-schemes
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-15T11:55:42'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: web colors - Google Search
-      url: https://www.google.com/search?q=web%20colors
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-15T11:55:42'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: vim hex color plugin - Google Search
-      url: https://www.google.com/search?q=vim%20hex%20color%20plugin
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-15T11:55:42'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: linux hex color - Google Search
-      url: https://www.google.com/search?q=linux%20hex%20color
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-15T11:55:42'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 8 Awesome Color Picking Tools for Linux
-      url: https://www.fossmint.com/color-picking-tools-for-linux/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-15T11:55:41'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 256 Colors - Cheat Sheet - Xterm, HEX, RGB, HSL
-      url: https://jonasjacek.github.io/colors/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-15T11:55:41'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Top 10 Best Color Picker Tools for Linux System
-      url: https://www.ubuntupit.com/best-color-picker-tools-for-linux/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-15T11:55:41'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Is there a command to display colors when giving hex value in terminal?
-        - Unix & Linux Stack Exchange
-      url: https://unix.stackexchange.com/questions/482755/is-there-a-command-to-display-colors-when-giving-hex-value-in-terminal
-      zoom: 0.75
   - active: true
     history:
+    - last_visited: '2021-06-15T12:46:49'
+      pinned: false
+      title: colorizer vim auto start - Google Search
+      url: https://www.google.com/search?q=colorizer%20vim%20auto%20start
+    - last_visited: '2021-06-15T12:48:26'
+      pinned: false
+      title: colorizer vim start - Google Search
+      url: https://www.google.com/search?q=colorizer+vim+start&ei=yD7IYIH3OZX7wQOKoZrADA&oq=colorizer+vim+start&gs_lcp=Cgdnd3Mtd2l6EAMyBQghEKABOgYIABAWEB46AggAULHFBVjN6AVg2PAFaANwAngAgAGZAYgBwhGSAQQxLjE4mAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=gws-wiz&ved=0ahUKEwiB-5aA-JjxAhWVfXAKHYqQBsgQ4dUDCBE&uact=5
+    - last_visited: '2021-06-15T12:54:26'
+      pinned: false
+      title: vim run command at startup - Google Search
+      url: https://www.google.com/search?q=vim+run+command+at+startup&ei=Kj_IYLHnBJWRoATigqX4BQ&oq=vim+command+at+start&gs_lcp=Cgdnd3Mtd2l6EAMYADIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjoFCAAQkQI6BAgAEEM6CAgAELEDEIMBOgsILhCxAxDHARCjAjoICAAQsQMQkQI6BwgAELEDEEM6AggAUNbFFVjK5BVgsu8VaAFwAngEgAG8AYgBqhKSAQQyNC4ymAEAoAEBqgEHZ3dzLXdperABAMABAQ&sclient=gws-wiz
     - active: true
-      last_visited: '2021-06-15T11:55:42'
+      last_visited: '2021-06-15T12:54:29'
       pinned: false
       scroll-pos:
         x: 0
-        y: 795
-      title: Color schemes · alacritty/alacritty Wiki
-      url: https://github.com/alacritty/alacritty/wiki/Color-schemes
+        y: 0
+      title: Vim - how to run a command immediately when starting vim? - Stack Overflow
+      url: https://stackoverflow.com/questions/6821033/vim-how-to-run-a-command-immediately-when-starting-vim
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-15T12:48:41'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Colorizer - Vim Awesome
+      url: https://vimawesome.com/plugin/colorizer
       zoom: 0.75

@@ -16,6 +16,7 @@
 " ,o 		spellcheck
 " <select in visual mode> :sort u   sort
 " [[ = gg and ]] = G
+" ,i 		for image pasting into markdown (been a while since i needed this)
 
 " Compulsory
 	let mapleader=","
@@ -127,6 +128,8 @@
 		map <leader>x :norm ^xx<cr>
 		" filetype detect
 		map <leader>f :filetype detect<cr>
+		" colorizer
+		map <leader>hc :ColorToggle<cr>
 		
 	" Macros
 		let @h = 'I<a class="bookmarkllcw href="f]cw" target="_blank">A€kb€kb</a'
@@ -151,7 +154,7 @@
 
 " Plugins, plugin-specific settings
 	call plug#begin('~/.vim/plugged')
-
+	
 	" Markdown-related
 	Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 		map <leader>md :MarkdownPreview<cr>
@@ -243,6 +246,8 @@
 	Plug 'psliwka/vim-smoothie'
 
 	" Visuals
+	Plug 'chrisbra/Colorizer'
+		autocmd VimEnter * ColorHighlight .
 	Plug 'bling/vim-airline'
 	Plug 'itchyny/lightline.vim'
 
