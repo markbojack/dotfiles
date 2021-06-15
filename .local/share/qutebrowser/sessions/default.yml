@@ -1,12 +1,12 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAGQAAACoAAAU8AAAC5gAAAAAAAAAABVYAAAAZAAAA
-    KgAABTwAAALm
+    AdnQywADAAAAAAALAAAAHAAABUoAAAL0AAAADAAAAB0AAAVJAAAC8wAAAAAAAAAABVYAAAAMAAAA
+    HQAABUkAAALz
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-15T13:14:53'
+      last_visited: '2021-06-15T13:40:35'
       pinned: false
       scroll-pos:
         x: 0
@@ -14,19 +14,55 @@ windows:
       title: 256 Colors - Cheat Sheet - Xterm, HEX, RGB, HSL
       url: https://jonasjacek.github.io/colors/
       zoom: 0.75
-  - active: true
-    history:
-    - last_visited: '2021-06-15T13:15:30'
-      pinned: false
-      title: linux pastel - Google Search
-      url: https://www.google.com/search?q=linux%20pastel
+  - history:
     - active: true
-      last_visited: '2021-06-15T13:15:36'
+      last_visited: '2021-06-15T13:40:35'
       pinned: false
       scroll-pos:
         x: 0
-        y: 2927
+        y: 0
       title: Pastel Is A New Tool To Work With Colors From The Terminal - Linux Uprising
         Blog
       url: https://www.linuxuprising.com/2019/08/pastel-is-new-tool-to-work-with-colors.html
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-15T13:41:37'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: i3 radius - Google Search
+      url: https://www.google.com/search?q=i3%20radius
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-15T13:41:52'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: en.terminalroot.com.br
+      url: https://en.terminalroot.com.br/how-to-install-i3-gaps-with-rounded-corners/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-15T13:41:48'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 560
+      title: 'How to switch from i3-gaps to the fork with rounded corners? : i3wm'
+      url: https://www.reddit.com/r/i3wm/comments/in921k/how_to_switch_from_i3gaps_to_the_fork_with/
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-15T13:42:24'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 2351
+      title: "resloved/i3: \U0001F532 — Rounded i3-gaps"
+      url: https://github.com/resloved/i3
       zoom: 0.75

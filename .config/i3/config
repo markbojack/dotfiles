@@ -221,7 +221,7 @@ exec_always --no-startup-id picom --experimental-backend
 
 # wallpaper options
 #	exec_always --no-startup-id feh --bg-fill /home/mark/Downloads/Abstract-grey-wallpaper-HD-desktop.jpg
-exec_always ~/.local/bin/styli.sh -s dark
+exec_always --no-startup-id ~/.local/bin/styli.sh -s dark
 
 exec --no-startup-id tdrop -am -w 60% -y 25% -x 20% -h 50% -n 1 alacritty -e bash -c 'remind -cl+2m@ ~/p-dot-script/remind.rem *5 && echo -e "\n" && sleep 10'
 exec --no-startup-id alacritty
@@ -310,16 +310,17 @@ bar {
 # Display layout (if needed)
 #exec_always /home/mark/.screenlayout/filename.sh
 
-# border
+# default gaps
+#	for_window [class=".*"] border pixel 1 #*
+gaps inner 10
+gaps outer 1
+
+# borders for i3-gaps
 default_border pixel 1
 default_floating_border pixel 1
-border_radius 10
 #	default_border none
 #	default_floating_border none
 
-# default gaps
-gaps inner 15
-gaps outer 1
 
 # gaps
 set $mode_gaps Gaps: (o)uter, (i)nner, (h)orizontal, (v)ertical, (t)op, (r)ight, (b)ottom, (l)eft

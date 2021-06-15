@@ -1,11 +1,12 @@
 windows:
-- geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAPQAAAqMAAALwAAAAEAAAAD4AAAKiAAAC7wAAAAAAAAAABVYAAAAQAAAA
-    PgAAAqIAAALv
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAALAAAAHAAABUoAAAL0AAAADAAAAB0AAAVJAAAC8wAAAAAAAAAABVYAAAAMAAAA
+    HQAABUkAAALz
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-15T13:18:36'
+      last_visited: '2021-06-15T13:59:41'
       pinned: false
       scroll-pos:
         x: 0
@@ -15,7 +16,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-15T13:18:37'
+      last_visited: '2021-06-15T13:59:41'
       pinned: false
       scroll-pos:
         x: 0
@@ -25,49 +26,35 @@ windows:
       url: https://www.linuxuprising.com/2019/08/pastel-is-new-tool-to-work-with-colors.html
       zoom: 0.75
   - history:
-    - last_visited: '2021-06-15T13:22:29'
-      pinned: false
-      title: picom window border size - Google Search
-      url: https://www.google.com/search?q=picom%20window%20border%20size
-    - last_visited: '2021-06-15T13:23:05'
-      pinned: false
-      title: i3 rounded border color - Google Search
-      url: https://www.google.com/search?q=i3+rounded+border+color&ei=JEfIYP_1JdPAoASOrJX4Ag&oq=i3+rounded+border+color&gs_lcp=Cgdnd3Mtd2l6EAMyCAghEBYQHRAeOgcIIRAKEKABOgQIIRAVOgUIABCRAjoICAAQsQMQgwE6BQgAELEDOggILhDHARCjAjoCCAA6BAgAEEM6CAguEMcBEK8BOgYIABAWEB46CAgAEBYQChAeUJXGAVixjgJgp5ICaAJwAngEgAGOAYgB3xqSAQQwLjMwmAEAoAEBqgEHZ3dzLXdperABAMABAQ&sclient=gws-wiz&ved=0ahUKEwj_l7r8_5jxAhVTIIgKHQ5WBS8Q4dUDCBE&uact=5
-    - last_visited: '2021-06-15T13:23:32'
-      pinned: false
-      title: i3 rounded border line - Google Search
-      url: https://www.google.com/search?q=i3+rounded+border+line&ei=SEfIYLrYJZvT-QaK7buQAg&oq=i3+rounded+border+line&gs_lcp=Cgdnd3Mtd2l6EAMyBQghEKABMgUIIRCgATIFCCEQoAE6CAghEBYQHRAeOgYIABAWEB46BwghEAoQoAFQ5JkBWKXKAWDkzAFoBXACeACAAYABiAGMDZIBBDIuMTOYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=gws-wiz&ved=0ahUKEwi6nM-NgJnxAhWbad4KHYr2DiIQ4dUDCBE&uact=5
     - active: true
-      last_visited: '2021-06-15T13:27:13'
+      last_visited: '2021-06-15T13:59:41'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: i3 gaps border radius - Google Search
-      url: https://www.google.com/search?q=i3+gaps+border+radius&ei=Y0fIYKe_LoX6wQONuYKQDQ&oq=i3+gaps+&gs_lcp=Cgdnd3Mtd2l6EAMYATIECAAQQzIECAAQQzIECAAQQzIECAAQQzIECAAQQzICCAAyAggAMgIIADICCAAyAggAOgcIIRAKEKABOgQIIRAVOgUIABCRAjoICAAQsQMQgwE6BQgAELEDOggILhDHARCjAlCK7gJYzqkNYM67DWgEcAJ4AIABf4gB3AmSAQQxLjEwmAEAoAEBqgEHZ3dzLXdperABAMABAQ&sclient=gws-wiz
-      zoom: 0.75
-  - active: true
-    history:
-    - active: true
-      last_visited: '2021-06-15T13:27:17'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 1802
-      title: How to Install i3-gaps with Rounded Corners | Terminal Root
-      url: https://en.terminalroot.com.br/how-to-install-i3-gaps-with-rounded-corners/
+      title: i3 radius - Google Search
+      url: https://www.google.com/search?q=i3%20radius
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-15T13:29:16'
+      last_visited: '2021-06-15T13:59:41'
       pinned: false
       scroll-pos:
         x: 0
-        y: 4056
-      title: "terroo/i3-radius: \U0001F532 — Rounded i3-gaps"
-      url: https://github.com/terroo/i3-radius
+        y: 0
+      title: How to Install i3-gaps with Rounded Corners | Terminal Root
+      url: https://en.terminalroot.com.br/how-to-install-i3-gaps-with-rounded-corners/
       zoom: 0.75
-    - last_visited: '2021-06-15T13:29:10'
+  - history: []
+  - history: []
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-15T13:59:40'
       pinned: false
-      title: Home · Airblader/i3 Wiki
-      url: https://github.com/Airblader/i3/wiki
+      scroll-pos:
+        x: 0
+        y: 0
+      title: i3 top border only - Google Search
+      url: https://www.google.com/search?q=i3%20top%20border%20only
+      zoom: 0.75
