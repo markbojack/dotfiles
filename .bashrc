@@ -1,12 +1,10 @@
-# ============================================================================
 # ▄▄▄▄▄    ▄▄    ▄▄▄▄  ▄    ▄ ▄▄▄▄▄    ▄▄▄
 # █    █   ██   █▀   ▀ █    █ █   ▀█ ▄▀   ▀
 # █▄▄▄▄▀  █  █  ▀█▄▄▄  █▄▄▄▄█ █▄▄▄▄▀ █
 # █    █  █▄▄█      ▀█ █    █ █   ▀▄ █
 # █▄▄▄▄▀ █    █ ▀▄▄▄█▀ █    █ █    ▀  ▀▄▄▄▀
-# ============================================================================
-# toilet -f mono9 
 
+# DEFAULT MANJARO
 [[ $- != *i* ]] && return
 
 colors() {
@@ -141,242 +139,149 @@ ex ()
   fi
 }
 
+# STARTUP
+echo "Terminal opened on:" `date` >> ~/terminal.log
+colorscript -r
+xset r rate 220 100 # faster keys 
+setxkbmap -option caps:swapescape #to make caps escape
+# setxkbmap -option caps:super -variant altgr-intl 		# make caps super...
+# killall xcape 2>/dev/null ; xcape -e 'Super_L=Escape' # ...but when press only once treat it as esc
+# xmodmap -e 'keycode 135 = Super_R' 					# and map menu button to right super
+xset s off				# screensaver off
+xset -dpms				# suspend/standby off
+# xet q 				# shows current settings
+# xset s 900			# screensaver turns on after 15min
+# xset dpms 0 0 1200	# monitor off after 20min, first 0 is standby disable, second 0 is suspend disable
 
-# CUSTOM STUFF ============================================================================
-# enable programmable completion features (you don't need to enable
-# this, if it's already enabled in /etc/bash.bashrc and /etc/profile
-# sources /etc/bash.bashrc).
-if [ -f /etc/bash_completion ]; then
-    . /etc/bash_completion
-fi
+# SOURCE
+source ~/.local/bin/fancy-bash-prompt.sh
+source /home/mark/.config/broot/launcher/bash/br
 
-### BASH INSULTER ###
-if [ -f /etc/bash.command-not-found ]; then
-    . /etc/bash.command-not-found
-fi
-
-#Make sure all terminals save history
-shopt -s histappend
-PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
-
-#Increase history size
-export HISTSIZE=1000
-export HISTFILESIZE=1000
-
-#Use GREP color features by default
-export GREP_OPTIONS='--color=auto'
-
-set page-completions off
-set completion-query-items 350
-export AUTOFEATURE=true
-
+# EXPORTS
 export BROWSER="qutebrowser"
 export VISUAL="nvim"
 export EDITOR="$VISUAL"
 export TERMINAL="alacritty"
 export MANPAGER="nvim -c 'set ft=man' -"
+export PATH=$HOME/p-dot-script:$PATH
+export HISTSIZE=1000
+export HISTFILESIZE=1000
+export AUTOFEATURE=true
 
-
-# fzf/fd
+# PACKAGE OPTIONS
 export FZF_DEFAULT_COMMAND="find -L"
-alias fd='fd -H'
+export GREP_OPTIONS='--color=auto'
 
-# some more ls aliases
-#alias ls='lsd --color=auto'
-alias ls='lsd --color always --group-dirs first'
-alias ll='lsd -lah --color always --group-dirs first'
-alias lt='lsd --tree --color always'
-
-# Abduco
-alias a='abduco'
-alias ac='abduco -c'
-alias aar='abduco -a r'
-alias aad='abduco -a desktop'
-
-# Git aliases
-alias gs="git status"
-alias ga="git add"
-alias gb="git branch"
-alias gca="git commit -a"
-alias gcm="git commit -m"
-alias gpush="git push -u origin main"
-alias gpull="git pull -u origin main"
-alias gc="git checkout"
-alias gd="git diff"
-alias config='git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
-alias gi='git init'
-alias gpa='~/.local/bin/push-all'
-#	https://www.linuxuprising.com/2019/08/pastel-is-new-tool-to-work-with-colors.html
-alias pp='pastel pick'
-
-# Misc aliases
-alias v='nvim'
-alias vw='nvim -c VimwikiIndex'
-#	alias tu='sudo timeshift --create && sudo pacman -Syu --noconfirm && pamac upgrade --no-confirm -a --devel'
-alias tu='sudo timeshift --create && yay -Syu --noconfirm'
-alias pic='~/.local/bin/show-pic.sh'
-alias pow='~/.local/bin/poweroff.sh'
-alias bkp='~/.local/bin/backup-phone.sh'
-alias bkpc='nvim ~/.local/bin/backup-phone.sh'
-alias fzf='fzf -e'
-
-# Vim sessions aliases
-alias vc='nvim -S ~/.vim/sessions/copper-ingot.vim -c NERDTree ~/copper-ingot'
-alias vs='nvim -S ~/.vim/sessions/seasonality.vim -c NERDTree ~/seasonality'
-
-# Conf file aliases (or just use dmenu now)
-alias brc='nvim ~/.bashrc'
-alias vrc='nvim ~/.config/nvim/init.vim'
-alias gtk2='nvim ~/.gtkrc-2.0'
-alias gtk3='nvim ~/.config/gtk-3.0/settings.ini'
-alias i3c='nvim ~/.config/i3/config'
-alias i3s='nvim ~/.config/i3status/i3status.conf'
-alias i3b='nvim ~/.config/i3blocks/i3blocks.conf'
-alias ac='nvim ~/.config/alacritty/alacritty.yml'
-alias pc='nvim ~/.config/picom/picom.conf'
-alias xrc='nvim ~/.Xresources'
-alias sc='nvim ~/.config/i3-scrot.conf'
-alias pic1='nvim ~/.config/sxiv/exec/image-info'
-alias pic2='nvim ~/.config/sxiv/exec/key-handler'
-alias nm='neomutt'
-alias mrc='nvim ~/.config/mutt/muttrc'
-alias sr='nvim ~/p-dot-script/system-restore.sh'
-alias srr='nvim ~/p-dot-script/README.md'
-alias pa='nvim ~/.local/bin/push-all'
-alias mpvc='nvim ~/.config/mpv/input.conf'
-alias cal='cal -m'
-alias R='R --vanilla -q'
-alias grubc='sudo nvim /etc/default/grub'
-alias pdf='qpdfview'
-alias tar='tar -xvzf'
-alias w='curl wttr.in'
-alias trash='~/.local/bin/empty-trash.sh'
-alias ss='cd ~/.local/bin'
-alias news="newsboat"
-
-# remind aliases
-alias rem='nvim ~/p-dot-script/remind.rem'
-alias ra='remind -@ ~/p-dot-script/remind.rem'
-alias raw='remind -@ ~/p-dot-script/remind.rem *7'
-alias rc='remind -clm@ ~/p-dot-script/remind.rem'
-alias rc2='remind -cl2m@ ~/p-dot-script/remind.rem'
-alias rw='remind -cl+2m@ ~/p-dot-script/remind.rem'
-
-# qutebrowser alises
-alias qq='nvim ~/.config/qutebrowser/quickmarks'
-alias qb='nvim ~/.config/qutebrowser/bookmarks/urls'
-alias qpy='nvim ~/.config/qutebrowser/config.py'
-alias qa='nvim ~/.config/qutebrowser/autoconfig.yml'
-alias hp='nvim ~/p-dot-script/qutebrowser/html/homepage.html'
-
-# source fancy bash prompt
-source ~/.local/bin/fancy-bash-prompt.sh
-
-# PATH
-# actually, i would rather hide this in
-# ~/.local/bin/
-PATH=$HOME/p-dot-script:$PATH
-
-# Startup
-#colorscript -e space-invaders
-colorscript -r
-#neofetch # or even abduco -a r
-#pfetch
-
-
-
-# https://www.youtube.com/watch?v=d8XtNXutVto&t=2038s   8:34
-# 1st num = lower is get over the hump faster
-# 2nd num = higher is move around faster
-xset r rate 220 100 # faster keys 
-
-#to make caps escape
-setxkbmap -option caps:swapescape 
-
-# make caps super...
-#setxkbmap -option caps:super -variant altgr-intl
-# ...but when press only once treat it as esc
-#killall xcape 2>/dev/null ; xcape -e 'Super_L=Escape'
-
-# and map menu button to right super
-#xmodmap -e 'keycode 135 = Super_R'
-
-
-# POWER MANAGEMENT / SUSPEND / MONITOR OFF
-xset s off
-xset -dpms
-
-# xet q 				# shows current settings
-# xset s 900			# screensaver turns on after 15min
-# xset dpms 0 0 1200	# monitor off after 20min, first 0 is standby disable, second 0 is suspend disable
-
-
-# VI mode
-#set -o vi
-#bind -m vi-command 'Control-l: clear-screen'
-#bind -m vi-insert 'Control-l: clear-screen'
-
-#[ -f ~/.fzf.bash ] && source ~/.fzf.bash
-echo "Terminal opened on:" `date` >> ~/terminal.log
-
-# pacman and yay
-#alias pacsyu='sudo pacman -Syyu'                 # update only standard pkgs
-#alias yaysua='yay -Sua --noconfirm'              # update only AUR pkgs (yay)
-#alias yaysyu='yay -Syu --noconfirm'              # update standard pkgs and AUR pkgs (yay)
-#alias parsua='paru -Sua --noconfirm'             # update only AUR pkgs (paru)
-#alias parsyu='paru -Syu --noconfirm'             # update standard pkgs and AUR pkgs (paru)
-#alias unlock='sudo rm /var/lib/pacman/db.lck'    # remove pacman lock
-alias cleanup='sudo pacman -Rns (pacman -Qtdq)'	  # remove orphaned packages
-
-# Colorize grep output (good for log files)
-alias grep='grep --color=auto'
-alias egrep='egrep --color=auto'
-alias fgrep='fgrep --color=auto'
-
-# confirm before overwriting something
-alias cp="cp -i"
-alias mv='mv -i'
-alias rm='rm -iv'
-alias tt='gio trash' # to trash
-
-## get top process eating memory
-alias psmem='ps auxf | sort -nr -k 4'
-alias psmem10='ps auxf | sort -nr -k 4 | head -10'
-
-## get top process eating cpu ##
-alias pscpu='ps auxf | sort -nr -k 3'
-alias pscpu10='ps auxf | sort -nr -k 3 | head -10'
-
-# gpg encryption
-# verify signature for isos
-alias gpg-check="gpg2 --keyserver-options auto-key-retrieve --verify"
-# receive the key of a developer
-alias gpg-retrieve="gpg2 --keyserver-options auto-key-retrieve --receive-keys"
-
-# youtube-dl
-alias yt='youtube-dl'
-alias ytp='youtube-dl https://youtube.com/playlist?list=PLrbbUMGM2tEj3PbprusLpVP4gKCYoIDuc'
-alias yta-aac="youtube-dl --extract-audio --audio-format aac "
-alias yta-best="youtube-dl --extract-audio --audio-format best "
-alias yta-flac="youtube-dl --extract-audio --audio-format flac "
-alias yta-m4a="youtube-dl --extract-audio --audio-format m4a "
-alias yta-mp3="youtube-dl --extract-audio --audio-format mp3 "
-alias yta-opus="youtube-dl --extract-audio --audio-format opus "
-alias yta-vorbis="youtube-dl --extract-audio --audio-format vorbis "
-alias yta-wav="youtube-dl --extract-audio --audio-format wav "
-alias ytv-best="youtube-dl -f bestvideo+bestaudio "
-
-# switch between shells
-# I do not recommend switching default SHELL from bash.
-#alias tobash="sudo chsh $USER -s /bin/bash && echo 'Now log out.'"
-#alias tozsh="sudo chsh $USER -s /bin/zsh && echo 'Now log out.'"
-#alias tofish="sudo chsh $USER -s /bin/fish && echo 'Now log out.'"
-
-source /home/mark/.config/broot/launcher/bash/br
-
-# FONT PREVIEW
-alias fp='fontpreview'
-export FONTPREVIEW_FONT_SIZE=10
-export FONTPREVIEW_BG_COLOR="black"
-export FONTPREVIEW_FG_COLOR="white"
-export FONTPREVIEW_PREVIEW_TEXT="The quick brown fox jumps over the lazy dog."
+# ALIASES ====================================================================
+	# BASIC COMMANDS
+		alias cp="cp -i"
+		alias mv='mv -i'
+		alias rm='rm -iv'
+		alias tt='gio trash' # to trash
+		alias ls='lsd --color always --group-dirs first'
+		alias ll='lsd -lah --color always --group-dirs first'
+		alias lt='lsd --tree --color always'
+		alias find='fd -H'
+		alias fd='fd -H'
+		alias fzf='fzf -e'
+		alias cal='cal -m'
+	# CONFIGS
+		# Qutebrowser
+			alias qq='nvim ~/.config/qutebrowser/quickmarks'
+			alias qb='nvim ~/.config/qutebrowser/bookmarks/urls'
+			alias qpy='nvim ~/.config/qutebrowser/config.py'
+			alias qa='nvim ~/.config/qutebrowser/autoconfig.yml'
+			alias hp='nvim ~/p-dot-script/qutebrowser/html/homepage.html'
+		# Misc
+			alias brc='nvim ~/.bashrc'
+			alias vrc='nvim ~/.config/nvim/init.vim'
+			alias gtk2='nvim ~/.gtkrc-2.0'
+			alias gtk3='nvim ~/.config/gtk-3.0/settings.ini'
+			alias i3c='nvim ~/.config/i3/config'
+			alias i3s='nvim ~/.config/i3status/i3status.conf'
+			alias i3b='nvim ~/.config/i3blocks/i3blocks.conf'
+			alias ac='nvim ~/.config/alacritty/alacritty.yml'
+			alias pc='nvim ~/.config/picom/picom.conf'
+			alias xrc='nvim ~/.Xresources'
+			alias sc='nvim ~/.config/i3-scrot.conf'
+			alias mrc='nvim ~/.config/mutt/muttrc'
+			alias sr='nvim ~/p-dot-script/system-restore.sh'
+			alias srr='nvim ~/p-dot-script/README.md'
+			alias pa='nvim ~/.local/bin/push-all'
+			alias mpvc='nvim ~/.config/mpv/input.conf'
+			alias grubc='sudo nvim /etc/default/grub'
+			alias bkpc='nvim ~/.local/bin/backup-phone.sh'
+	# FONT PREVIEW
+		alias fp='fontpreview'
+		export FONTPREVIEW_FONT_SIZE=10
+		export FONTPREVIEW_BG_COLOR="black"
+		export FONTPREVIEW_FG_COLOR="white"
+		export FONTPREVIEW_PREVIEW_TEXT="The quick brown fox jumps over the lazy dog."
+	# GIT
+		alias gs="git status"
+		alias ga="git add"
+		alias gb="git branch"
+		alias gca="git commit -a"
+		alias gcm="git commit -m"
+		alias gpush="git push -u origin main"
+		alias gpull="git pull -u origin main"
+		alias gc="git checkout"
+		alias gd="git diff"
+		alias config='git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+		alias gi='git init'
+		alias gpa='~/.local/bin/push-all'
+	# GPG
+		alias gpg-check="gpg2 --keyserver-options auto-key-retrieve --verify" 			# verify signature for isos
+		alias gpg-retrieve="gpg2 --keyserver-options auto-key-retrieve --receive-keys" 	# receive the key of a developer
+	# PACKAGES
+		alias tu='sudo timeshift --create && yay -Syu --noconfirm'
+		alias unlock='sudo rm /var/lib/pacman/db.lck'    	# remove pacman lock
+		alias cleanup='sudo pacman -Rns (pacman -Qtdq)'	  	# remove orphaned packages
+	# REMIND
+		alias rem='nvim ~/p-dot-script/remind.rem'
+		alias ra='remind -@ ~/p-dot-script/remind.rem'
+		alias raw='remind -@ ~/p-dot-script/remind.rem *7'
+		alias rc='remind -clm@ ~/p-dot-script/remind.rem'
+		alias rc2='remind -cl2m@ ~/p-dot-script/remind.rem'
+		alias rw='remind -cl+2m@ ~/p-dot-script/remind.rem'
+	# SHELL TOGGLE
+		alias tobash="sudo chsh $USER -s /bin/bash && echo 'Now log out.'"
+		alias tozsh="sudo chsh $USER -s /bin/zsh && echo 'Now log out.'"
+	# SYSTEM ADMIN
+		# get top process eating memory
+		alias psmem='ps auxf | sort -nr -k 4'
+		alias psmem10='ps auxf | sort -nr -k 4 | head -10'
+		# get top process eating cpu ##
+		alias pscpu='ps auxf | sort -nr -k 3'
+		alias pscpu10='ps auxf | sort -nr -k 3 | head -10'
+	# VIM SESSIONS
+		alias vc='nvim -S ~/.vim/sessions/copper-ingot.vim -c NERDTree ~/copper-ingot'
+		alias vs='nvim -S ~/.vim/sessions/seasonality.vim -c NERDTree ~/seasonality'
+	# YOUTUBE-DL
+		alias yt='youtube-dl'
+		alias ytp='youtube-dl https://youtube.com/playlist?list=PLrbbUMGM2tEj3PbprusLpVP4gKCYoIDuc'
+		alias yta-aac="youtube-dl --extract-audio --audio-format aac "
+		alias yta-best="youtube-dl --extract-audio --audio-format best "
+		alias yta-flac="youtube-dl --extract-audio --audio-format flac "
+		alias yta-m4a="youtube-dl --extract-audio --audio-format m4a "
+		alias yta-mp3="youtube-dl --extract-audio --audio-format mp3 "
+		alias yta-opus="youtube-dl --extract-audio --audio-format opus "
+		alias yta-vorbis="youtube-dl --extract-audio --audio-format vorbis "
+		alias yta-wav="youtube-dl --extract-audio --audio-format wav "
+		alias ytv-best="youtube-dl -f bestvideo+bestaudio "
+	# MISC
+		alias v='nvim'
+		alias vw='nvim -c VimwikiIndex'
+		alias pic='~/.local/bin/show-pic.sh'
+		alias pow='~/.local/bin/poweroff.sh'
+		alias bkp='~/.local/bin/backup-phone.sh'
+		alias R='R --vanilla -q'
+		alias pdf='qpdfview'
+		alias w='curl wttr.in'
+		alias trash='~/.local/bin/empty-trash.sh'
+		alias ss='cd ~/.local/bin'
+		alias news="newsboat"
+		alias pp='pastel pick'
+		alias pic1='nvim ~/.config/sxiv/exec/image-info'
+		alias pic2='nvim ~/.config/sxiv/exec/key-handler'
+		alias nm='neomutt'

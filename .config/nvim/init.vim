@@ -4,21 +4,6 @@
 " █  █ █ █      █    █  ▀▄▄▀    █    █ ▀▀ █
 " █   ██ █▄▄▄▄▄  █▄▄█    ██   ▄▄█▄▄  █    █
 
-" NOTES
-" ,dsp		scratchpad
-" gx		follow link under cursor to website
-" gf		follow link under cursor to file
-" ,g		rip grep
-" ,wp		wrap
-" ,o 		spellcheck
-" <select in visual mode> :sort u   sort
-" [[ = gg and ]] = G
-" ,i 		for image pasting into markdown (been a while since i needed this)
-" folding notes
-	" zf zo zc
-	" deleting: select, zd... or fold then zd over the fold
-	" delete all: zE
-
 " ORDINARY
 	" Leader
 		let mapleader=","
@@ -33,15 +18,13 @@
 		" Indentation
 			set shiftwidth=4 tabstop=4
 		" Status bar
-			set title
-			set showmode
-			set ruler
-			set laststatus=1
-			set showcmd
+			set noshowmode
 		" Unsorted		
 			" makes all comments grey
 			autocmd VimEnter * hi Comment ctermfg=gray
 			autocmd VimEnter * ColorHighlight			" colorizer plugin autostart
+			autocmd VimEnter * hi LineNr term=bold ctermfg=darkgray
+			autocmd VimEnter * hi CursorLineNr term=bold ctermfg=lightgray
 			set noerrorbells
 			colorscheme delek
 			set nowrap
@@ -66,6 +49,37 @@
 		set path+=**
 		set runtimepath^=~/.vim runtimepath+=~/.vim/after
 		let &packpath = &runtimepath
+
+" HACKS
+	" Disable next-line auto commenting
+		autocmd FileType *
+			\ setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+	" Move to last edit position on reopen
+		au BufReadPost *
+			\ if line("'\"") > 1 && line("'\"") <= line("$") |
+				\ exe "normal! g'\"" | endif
+
+" CUSTOM FUNS
+	" ToggleWrap
+	let s:wrap=0
+	function! ToggleWrap()
+		if s:wrap==0
+			let s:wrap=1
+			set wrap
+		else
+			let s:wrap=0
+			set nowrap
+		endif
+	endfunction
+
+	" ZoomWindow
+	function ZoomWindow()
+			let cpos = getpos(".")
+			tabnew %
+			redraw
+			call cursor(cpos[1], cpos[2])
+			normal! zz
+		endfunction
 
 " PLUGINS
 	call plug#begin('~/.vim/plugged')
@@ -97,6 +111,9 @@
 		Plug 'roxma/nvim-yarp'
 		Plug 'tpope/vim-commentary'
 		Plug 'bling/vim-airline'
+		Plug 'vim-airline/vim-airline-themes'
+			let g:airline_powerline_fonts = 1
+			let g:airline_theme = 'minimalist'
 		Plug 'xolox/vim-misc'
 		Plug 'tpope/vim-repeat'
 		Plug 'jremmen/vim-ripgrep'
@@ -141,36 +158,9 @@
 			let voom_ft_modes = {'rmd': 'pandoc', 'rnoweb': 'latex'}
 	call plug#end()
 
-" CUSTOM FUNS
-	" ToggleWrap
-	let s:wrap=0
-	function! ToggleWrap()
-		if s:wrap==0
-			let s:wrap=1
-			set wrap
-		else
-			let s:wrap=0
-			set nowrap
-		endif
-	endfunction
 
-	" ZoomWindow
-	function ZoomWindow()
-			let cpos = getpos(".")
-			tabnew %
-			redraw
-			call cursor(cpos[1], cpos[2])
-			normal! zz
-		endfunction
 
-" HACKS
-	" Disable next-line auto commenting
-		autocmd FileType *
-			\ setlocal formatoptions-=c formatoptions-=r formatoptions-=o
-	" Move to last edit position on reopen
-		au BufReadPost *
-			\ if line("'\"") > 1 && line("'\"") <= line("$") |
-				\ exe "normal! g'\"" | endif
+
 
 " MAPPINGS
 	" Making NVim do what I want
