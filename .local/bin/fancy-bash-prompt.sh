@@ -139,11 +139,11 @@ bash_prompt() {
 	## Choose your color combination here                                     ##
 	############################################################################
 	local FONT_COLOR_1=$WHITE
-	local BACKGROUND_1=$BLUE
+	local BACKGROUND_1=$RED
 	local TEXTEFFECT_1=$BOLD
 	
 	local FONT_COLOR_2=$WHITE
-	local BACKGROUND_2=$L_BLUE
+	local BACKGROUND_2=$RED
 	local TEXTEFFECT_2=$BOLD
 	
 	local FONT_COLOR_3=$BLACK

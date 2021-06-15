@@ -11,6 +11,7 @@
 # Usage:
 # to use other editor than emacsclient set DMEDITOR accordingly
 #   Example: `DMEDITOR="alacritty -e nvim" ./dmconf`
+
 DMCONFIG="$HOME/.config/dmscripts/dmconf"
 if [ -f "$DMCONFIG" ]; then
 	source "$DMCONFIG"
@@ -31,6 +32,7 @@ else
 	options[dmprompt]="$HOME/.local/bin/dmprompt"
 	options[dmqute]="$HOME/.local/bin/dmqute"
 	options[dmsearch]="$HOME/.local/bin/dmsearch"
+	options[dmstyli.sh]="$HOME/.local/bin/dmstyli.sh"
 	options[dmtodo]="$HOME/.local/bin/dmtodo"
 	options[grub]="/etc/default/grub"
 	options[gtk2]="$HOME/.gtkrc-2.0"

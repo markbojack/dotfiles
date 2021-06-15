@@ -81,7 +81,7 @@ window:
   #
   # Override the variant of the GTK theme. Commonly supported values are `dark` and `light`.
   # Set this to `None` to use the default theme variant.
-  gtk_theme_variant: light
+  gtk_theme_variant: none
 
 #scrolling:
   # Maximum number of lines in the scrollback buffer.
@@ -249,33 +249,65 @@ draw_bold_text_with_bright_colors: true
 #cyan:    '0x8FBCBB'
 #white:   '0xECEFF4'
 
+
+# Colors (Monokai Pro)
 colors:
   # Default colors
   primary:
-    background: '0x272822'
-    foreground: '0xf8f8f2'
+    background: '#2D2A2E'
+    foreground: '#FCFCFA'
 
   # Normal colors
   normal:
-    black:   '0x272822'
-    red:     '0x57aaba'
-    green:   '0x78a51d'
-    yellow:  '0xa7814c'
-    blue:    '0xC93268'
-    magenta: '0x885FD2'
-    cyan:    '0xa1efe4'
-    white:   '0xf8f8f2'
+    black:   '#403E41'
+    red:     '#9e9e9e'
+    green:   '#A9DC76'
+    yellow:  '#FFD866'
+    blue:    '#FC9867'
+    magenta: '#FF87AF'
+    cyan:    '#78DCE8'
+    white:   '#FCFCFA'
 
   # Bright colors
   bright:
-    black:   '0x75715e'
-    red:     '0x66d9ef'
-    green:   '0xa6e22e'
-    yellow:  '0xf4bf75'
-    blue:    '0xff6fa3'
-    magenta: '0xae81ff'
-    cyan:    '0x4a6d68'
-    white:   '0xd1d1d1'
+    black:   '#727072'
+    red:     '#FF6188'
+    green:   '#A9DC76'
+    yellow:  '#FFD866'
+    blue:    '#FC9867'
+    magenta: '#AB9DF2'
+    cyan:    '#78DCE8'
+    white:   '#FCFCFA'
+
+
+
+    #   colors:
+    #   # Default colors
+    #   primary:
+    #   background: '0x272822'
+    #   foreground: '0xf8f8f2'
+    #   
+    #   # Normal colors
+    #   normal:
+    #   black:   '0x272822'
+    #   red:     '0x57aaba'
+    #   green:   '0x78a51d'
+    #   yellow:  '0xa7814c'
+    #   blue:    '0xC93268'
+    #   magenta: '0x885FD2'
+    #   cyan:    '0xa1efe4'
+    #   white:   '0xf8f8f2'
+    #   
+    #   # Bright colors
+    #   bright:
+    #   black:   '0x75715e'
+    #   red:     '0x66d9ef'
+    #   green:   '0xa6e22e'
+    #   yellow:  '0xf4bf75'
+    #   blue:    '0xff6fa3'
+    #   magenta: '0xae81ff'
+    #   cyan:    '0x4a6d68'
+    #   white:   '0xd1d1d1'
 
 # yellow comments
 #   colors:
@@ -371,7 +403,7 @@ colors:
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: 0.85
+background_opacity: 0.50
 
 #selection:
   #semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
