@@ -4,6 +4,7 @@
 # █    █  █▄▄█      ▀█ █    █ █   ▀▄ █
 # █▄▄▄▄▀ █    █ ▀▄▄▄█▀ █    █ █    ▀  ▀▄▄▄▀
 
+# don't forget that dope ex fun
 # DEFAULT MANJARO
 [[ $- != *i* ]] && return
 
@@ -172,7 +173,7 @@ export AUTOFEATURE=true
 export FZF_DEFAULT_COMMAND="find -L"
 export GREP_OPTIONS='--color=auto'
 
-# ALIASES ====================================================================
+# ALIASES
 	# BASIC COMMANDS
 		alias cp="cp -i"
 		alias mv='mv -i'

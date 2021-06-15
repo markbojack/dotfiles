@@ -461,7 +461,7 @@ for_window [class="Yad"] floating enable
 
 # moar keybindings
 bindsym $mod+Shift+f		exec --no-startup-id bash ~/.local/bin/fontpreview && qutebrowser ~/.local/bin/fonts.html; workspace $ws2
-bindsym $mod+Shift+w		exec --no-startup-id bash ~/.local/bin/styli.sh -s forest
+bindsym $mod+Shift+w		exec --no-startup-id bash ~/.local/bin/styli.sh -s colorful
 
 bindsym $mod+Shift+x		exec --no-startup-id ~/.local/bin/dmprompt "Poweroff?" ~/.local/bin/poweroff.sh
 bindsym $mod+Shift+m		exec --no-startup-id keynav

@@ -28,6 +28,7 @@
 			set noerrorbells
 			colorscheme delek
 			set nowrap
+			set relativenumber
 			augroup every
 			  autocmd!
 			  au InsertEnter * set norelativenumber
@@ -54,6 +55,8 @@
 		set path+=**
 		set runtimepath^=~/.vim runtimepath+=~/.vim/after
 		let &packpath = &runtimepath
+
+
 
 " HACKS
 	" Disable next-line auto commenting

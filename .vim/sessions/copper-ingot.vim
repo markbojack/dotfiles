@@ -1,6 +1,6 @@
 " ~/.vim/sessions/copper-ingot.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 12 Tháng 6 2021 at 13:09:39.
+" Created by session.vim 2.13.1 on 15 Tháng 6 2021 at 23:36:20.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -34,7 +34,7 @@ badd +1 watchlistTips.md
 badd +1 README.md
 badd +1 /docs/NOTES.md
 badd +3 docs/NOTES.md
-badd +21 docs/fees.md
+badd +1 docs/fees.md
 argglobal
 %argdel
 $argadd ~/.config/nvim/init.vim
@@ -49,8 +49,8 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe 'vert 1resize ' . ((&columns * 31 + 54) / 108)
-exe 'vert 2resize ' . ((&columns * 76 + 54) / 108)
+exe 'vert 1resize ' . ((&columns * 31 + 54) / 109)
+exe 'vert 2resize ' . ((&columns * 77 + 54) / 109)
 argglobal
 enew
 " file NERD_tree_3
@@ -82,8 +82,9 @@ normal! zt
 normal! 0
 lcd ~/copper-ingot
 wincmd w
-exe 'vert 1resize ' . ((&columns * 31 + 54) / 108)
-exe 'vert 2resize ' . ((&columns * 76 + 54) / 108)
+2wincmd w
+exe 'vert 1resize ' . ((&columns * 31 + 54) / 109)
+exe 'vert 2resize ' . ((&columns * 77 + 54) / 109)
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
@@ -112,8 +113,8 @@ if !getbufvar(s:bufnr_save, '&modified')
   endif
 endif
 execute "cd" fnameescape(s:cwd_save)
-1resize 53|vert 1resize 31|2resize 53|vert 2resize 76|
-1wincmd w
+1resize 53|vert 1resize 31|2resize 53|vert 2resize 77|
+2wincmd w
 tabnext 1
 if exists('s:wipebuf')
   if empty(bufname(s:wipebuf))
