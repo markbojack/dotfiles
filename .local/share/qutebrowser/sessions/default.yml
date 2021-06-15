@@ -1,17 +1,32 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAKwAAABjQAABUoAAAL0AAACsQAAAY4AAAVJAAAC8wAAAAAAAAAABVYAAAKxAAAB
-    jgAABUkAAALz
+    AdnQywADAAAAAAALAAAALgAABUoAAALjAAAADAAAAC8AAAVJAAAC4gAAAAAAAAAABVYAAAAMAAAA
+    LwAABUkAAALi
   tabs:
-  - active: true
-    history:
+  - history:
+    - last_visited: '2021-06-16T00:10:25'
+      pinned: false
+      title: disable i3 bar - Google Search
+      url: https://www.google.com/search?q=disable%20i3%20bar
     - active: true
-      last_visited: '2021-06-15T20:03:19'
+      last_visited: '2021-06-16T00:11:02'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: vim startify - Google Search
-      url: https://www.google.com/search?q=vim%20startify
+        y: 120
+      title: How to get rid of i3 bar? - Google Search
+      url: https://www.google.com/search?q=How+to+get+rid+of+i3+bar%3F&sa=X&ved=2ahUKEwjjvvvlkJrxAhXafn0KHdh0DfgQ3rMBegQICRAC&biw=1789&bih=904&dpr=0.75
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-16T00:12:01'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 904
+      title: 'HowTo: Swap out i3bar for Polybar · regolith-linux/regolith-desktop
+        Wiki'
+      url: https://github.com/regolith-linux/regolith-desktop/wiki/HowTo:-Swap-out-i3bar-for-Polybar
       zoom: 0.75

@@ -16,7 +16,7 @@ DMCONFIG="$HOME/.config/dmscripts/dmconf"
 if [ -f "$DMCONFIG" ]; then
 	source "$DMCONFIG"
 else
-	: "${DMEDITOR:=alacritty -e nvim }"
+	: "${DMEDITOR:=alacritty -e vim }"
 # An array of options to choose.
 # You can edit this list to add/remove config files.
 	declare -A options
@@ -48,6 +48,7 @@ else
 	options[newsboat urls]="$HOME/.config/newsboat/urls"
 	options[phone]="$HOME/.local/bin/backup-phone.sh"
 	options[picom]="$HOME/.config/picom/picom.conf"
+	options[polybar]="$HOME/.config/polybar/config"
 	options[qBookmarks]="$HOME/.config/qutebrowser/bookmarks/urls"
 	options[qConfig.py]="$HOME/.config/qutebrowser/config.py"
 	options[qDmenu]="$HOME/.config/qutebrowser/userscripts/dmenu-open"
