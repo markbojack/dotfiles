@@ -4,95 +4,24 @@ windows:
     AdnQywADAAAAAAALAAAAHAAABUoAAAL0AAAADAAAAB0AAAVJAAAC8wAAAAAAAAAABVYAAAAMAAAA
     HQAABUkAAALz
   tabs:
-  - history:
-    - active: true
-      last_visited: '2021-06-15T13:59:41'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 256 Colors - Cheat Sheet - Xterm, HEX, RGB, HSL
-      url: https://jonasjacek.github.io/colors/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-15T13:59:41'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Pastel Is A New Tool To Work With Colors From The Terminal - Linux Uprising
-        Blog
-      url: https://www.linuxuprising.com/2019/08/pastel-is-new-tool-to-work-with-colors.html
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-15T13:59:41'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: i3 radius - Google Search
-      url: https://www.google.com/search?q=i3%20radius
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-15T13:59:41'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: How to Install i3-gaps with Rounded Corners | Terminal Root
-      url: https://en.terminalroot.com.br/how-to-install-i3-gaps-with-rounded-corners/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-15T13:59:43'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'How to switch from i3-gaps to the fork with rounded corners? : i3wm'
-      url: https://www.reddit.com/r/i3wm/comments/in921k/how_to_switch_from_i3gaps_to_the_fork_with/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-15T13:59:41'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: "resloved/i3: \U0001F532 — Rounded i3-gaps"
-      url: https://github.com/resloved/i3
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-15T13:59:41'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: i3 top border only - Google Search
-      url: https://www.google.com/search?q=i3%20top%20border%20only
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-15T14:01:04'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 40
-      title: 'Enable window border only when there is only 1 window open? : i3wm'
-      url: https://www.reddit.com/r/i3wm/comments/4e8947/enable_window_border_only_when_there_is_only_1/
-      zoom: 0.75
   - active: true
     history:
     - active: true
-      last_visited: '2021-06-15T14:01:34'
+      last_visited: '2021-06-15T15:02:48'
       pinned: false
       scroll-pos:
         x: 0
-        y: 11564
-      title: 'i3: i3 User’s Guide'
-      url: https://i3wm.org/docs/userguide.html#_hiding_vertical_borders
+        y: 0
+      title: vim airline - Google Search
+      url: https://www.google.com/search?q=vim%20airline
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-15T15:02:53'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: vim startify - Google Search
+      url: https://www.google.com/search?q=vim%20startify
       zoom: 0.75

@@ -1,13 +1,10 @@
-" ==============================================================================
 " ▄▄   ▄ ▄▄▄▄▄▄  ▄▄▄▄  ▄    ▄ ▄▄▄▄▄  ▄    ▄
 " █▀▄  █ █      ▄▀  ▀▄ ▀▄  ▄▀   █    ██  ██
 " █ █▄ █ █▄▄▄▄▄ █    █  █  █    █    █ ██ █
 " █  █ █ █      █    █  ▀▄▄▀    █    █ ▀▀ █
 " █   ██ █▄▄▄▄▄  █▄▄█    ██   ▄▄█▄▄  █    █
-" ==============================================================================
-" toilet -f mono9 
 
-" NB
+" NOTES
 " ,dsp		scratchpad
 " gx		follow link under cursor to website
 " gf		follow link under cursor to file
@@ -17,22 +14,62 @@
 " <select in visual mode> :sort u   sort
 " [[ = gg and ]] = G
 " ,i 		for image pasting into markdown (been a while since i needed this)
+" folding notes
+	" zf zo zc
+	" deleting: select, zd... or fold then zd over the fold
+	" delete all: zE
 
-" Compulsory
-	let mapleader=","
-	let g:mapleader=","
-	set nocompatible
-	set encoding=utf-8
-	filetype plugin indent on
-	set nowrap
+" ORDINARY
+	" Leader
+		let mapleader=","
+		let g:mapleader=","
+	" Audio / Visuals
+		" Folding
+			autocmd VimEnter * hi Folded ctermbg=black		" makes the fold names readable
+			autocmd BufWinLeave *.* mkview
+			autocmd BufWinEnter *.* silent loadview
+			set smartindent
+		" Indentation
+			set shiftwidth=4 tabstop=4
+		" Status bar
+			set title
+			set showmode
+			set ruler
+			set laststatus=1
+			set showcmd
+		" Unsorted
+			autocmd VimEnter * hi Comment ctermfg=gray		" makes all comments grey
+			autocmd VimEnter * ColorHighlight				" colorizer plugin autostart
+			set noerrorbells
+			colorscheme delek
+			set nowrap
+			set number relativenumber
+	" Compulsory
+		filetype plugin indent on						" filetype detection
+		set clipboard+=unnamedplus						" copy from clipboard
+		let g:python3_host_prog = '/usr/bin/python3'	" needed for nvim to work
+		let g:python_host_prog  = '/usr/bin/python'		" needed for nvim to work
+	" File management and backup
+		set nobackup nowb noswapfile nosol
+		set autowriteall startofline ffs=unix,dos,mac
+	" Navigation
+		set ma											" set marks with `m<letter>`
+		set scrolloff=8
+		set splitright splitbelow
+		set backspace=indent,eol,start
+		set mouse=a
+		set completeopt=noinsert,menuone,noselect,preview	" for ncm2
+		set ignorecase smartcase nohlsearch incsearch magic	" for searching
+	" Path
+		set path+=**
+		set runtimepath^=~/.vim runtimepath+=~/.vim/after
+		let &packpath = &runtimepath
+		
 
-" File management and backup
-	set nobackup nowb noswapfile nosol
-	set autowriteall startofline ffs=unix,dos,mac
 
-" Folding
-	autocmd BufWinLeave *.* mkview
-	autocmd BufWinEnter *.* silent loadview
+
+
+
 
 " Functions
 	function ZoomWindow()
@@ -56,13 +93,7 @@
 	endfunction
 	nnoremap <leader>wp :call ToggleWrap()<cr>
 
-" Indentation
-	set shiftwidth=4 tabstop=4
-	set smartindent
 
-" Keyboard and mouse
-	set backspace=indent,eol,start
-	set mouse=a
 
 " Mappings and aliases
 
@@ -141,69 +172,53 @@
 		map <leader>hh @h
 		map <leader>dd @d
 
-" Navigation
-	set scrolloff=8
-
-" Numbering
-	set number relativenumber
-
-" Path
-	set path+=**
-	set runtimepath^=~/.vim runtimepath+=~/.vim/after
-	let &packpath = &runtimepath
-
-" PDF
-	" :Rpdf example.pdf
-	:command! -complete=file -nargs=1 Rpdf :r !pdftotext -nopgbrk <q-args> - |fmt -csw78
-
-" Plugins, plugin-specific settings
-	call plug#begin('~/.vim/plugged')
-	
-	" Markdown-related
-	Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+		:command! -complete=file -nargs=1 Rpdf :r !pdftotext -nopgbrk <q-args> - |fmt -csw78
 		map <leader>md :MarkdownPreview<cr>
-
-	Plug 'vimwiki/vimwiki'
-		" NB custom settings in ~/.vim/plugged/vimwiki/ftplugin/vimwiki.vim
 		map <leader>wt :VimwikiTable<cr>
 		map <leader>wrf :VimwikiRenameFile<cr>
-		let g:vimwiki_table_mappings=0 		"vim-table-mode mapping
-		let g:vimwiki_table_auto_fmt=0		"instead of native
-		let g:vimwiki_ext2syntax = {
-			\ '.Rmd': 'markdown',
-			\ '.rmd': 'markdown',
-			\ '.md': 'markdown',
-			\ '.markdown': 'markdown',
-			\ '.mdown': 'markdown'
-		\ }
-		let g:vimwiki_list = [
-			\ {
-			\	'path': '~/vimwiki/',
-			\	'syntax': 'markdown',
-			\	'ext': '.md'},
-			\ {
-			\	'path': '~/finwiki',
-			\	'syntax': 'markdown',
-			\	'ext': '.md'}
-		\ ]
-
-	Plug 'ferrine/md-img-paste.vim'
-		autocmd FileType markdown nmap <buffer><silent> <leader>i :call mdip#MarkdownClipboardImage()<cr>
-		let g:mdip_imgdir='.'
-		let g:mdip_imgname='img'
-
-	" NERDTree
-	Plug 'preservim/nerdtree'
 		map <leader>nn :NERDTreeToggle<cr>
 		map <leader>mm :NERDTreeFocus<cr>
 		map <leader>r :NERDTreeFind<cr>
-		let NERDTreeBookmarksFile = stdpath('data') . '/NERDTreeBookmarks'
-		let NERDTreeShowHidden=1
-		" auto-open NERDTree at start
-		"autocmd StdinReadPre * let s:std_in=1
-		"autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+		nmap dsp <Plug>(ToggleScratchPad)
 
-	" R
+
+" Plugins, plugin-specific settings
+	call plug#begin('~/.vim/plugged')
+		Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+		Plug 'ferrine/md-img-paste.vim'
+			autocmd FileType markdown nmap <buffer><silent> <leader>i :call mdip#MarkdownClipboardImage()<cr>
+			let g:mdip_imgdir='.'
+			let g:mdip_imgname='img'
+		Plug 'preservim/nerdtree'
+			let NERDTreeBookmarksFile = stdpath('data') . '/NERDTreeBookmarks'
+			let NERDTreeShowHidden=1
+			" auto-open NERDTree at start
+			"autocmd StdinReadPre * let s:std_in=1
+			"autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+		Plug 'vimwiki/vimwiki'
+			" NB custom settings in ~/.vim/plugged/vimwiki/ftplugin/vimwiki.vim
+			let g:vimwiki_table_mappings=0 		"vim-table-mode mapping
+			let g:vimwiki_table_auto_fmt=0		"instead of native
+			let g:vimwiki_ext2syntax = {
+				\ '.Rmd': 'markdown',
+				\ '.rmd': 'markdown',
+				\ '.md': 'markdown',
+				\ '.markdown': 'markdown',
+				\ '.mdown': 'markdown'
+			\ }
+			let g:vimwiki_list = [
+				\ {
+				\	'path': '~/vimwiki/',
+				\	'syntax': 'markdown',
+				\	'ext': '.md'},
+				\ {
+				\	'path': '~/finwiki',
+				\	'syntax': 'markdown',
+				\	'ext': '.md'}
+			\ ]
+
+
+
 	Plug 'ncm2/ncm2-bufword'
 	Plug 'jalvesaq/Nvim-R'
 	" https://github.com/jalvesaq/Nvim-R/blob/master/doc/Nvim-R.txt
@@ -215,15 +230,15 @@
 			let r_indent_ess_compatible = 0
 	Plug 'ncm2/ncm2'
 		autocmd BufEnter * call ncm2#enable_for_buffer()
-		set completeopt=noinsert,menuone,noselect,preview
+	Plug 'ncm2/ncm2-path'
 	Plug 'roxma/nvim-yarp'
 	Plug 'gaalcaras/ncm-R'
 		let R_assign = 2  " 2) __ for <- 1) _ for <- 0) disabled
-	Plug 'ncm2/ncm2-path'
 	Plug 'tpope/vim-commentary'
 
 	" Session
 	Plug 'xolox/vim-session'
+		let g:session_autoload='no'
 		let g:session_autosave_periodic=1
 		let g:session_autosave='yes'
 		let g:session_autoload = 'yes'
@@ -243,7 +258,6 @@
 	Plug 'airblade/vim-rooter'
 	Plug 'Konfekt/vim-scratchpad'
 		let g:scratchpad_ftype = ''
-		nmap dsp <Plug>(ToggleScratchPad)
 	Plug 'justinmk/vim-sneak'
 		let g:sneak#label = 1
 	Plug 'tpope/vim-repeat'
@@ -251,20 +265,11 @@
 
 	" Visuals
 	Plug 'chrisbra/Colorizer'
-		autocmd VimEnter * ColorHighlight
 	Plug 'bling/vim-airline'
 	Plug 'itchyny/lightline.vim'
 
 	call plug#end()
 
-" Search
-	set ignorecase smartcase nohlsearch incsearch magic
-
-" Sound
-	set noerrorbells
-
-" Splitting
-	set splitright splitbelow
 
 " Tweaks
 	" Disable next-line auto commenting
@@ -274,20 +279,6 @@
 		au BufReadPost *
 			\ if line("'\"") > 1 && line("'\"") <= line("$") |
 				\ exe "normal! g'\"" | endif
-" Unsorted
-	set ma
-	set go=a
-    set clipboard+=unnamedplus
-	let g:session_autoload='no'
-	let g:python3_host_prog = '/usr/bin/python3'
-	let g:python_host_prog  = '/usr/bin/python'
 
-" Visuals
-	" Color
-		colorscheme delek
-	" Status bar
-		set title
-    	set showmode
-   		set ruler
-   		set laststatus=1
-   		set showcmd
+
+
