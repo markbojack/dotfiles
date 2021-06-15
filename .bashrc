@@ -210,6 +210,7 @@ alias gpa='~/.local/bin/push-all'
 # Misc aliases
 alias v='nvim'
 alias vw='nvim -c VimwikiIndex'
+#	alias tu='sudo timeshift --create && sudo pacman -Syu --noconfirm && pamac upgrade --no-confirm -a --devel'
 alias tu='sudo timeshift --create && sudo pacman -Syu --noconfirm && pamac upgrade --no-confirm -a --devel'
 alias pic='~/.local/bin/show-pic.sh'
 alias pow='~/.local/bin/poweroff.sh'

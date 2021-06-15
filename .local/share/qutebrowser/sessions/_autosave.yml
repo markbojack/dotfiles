@@ -1,0 +1,74 @@
+windows:
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAADwAAACAAAAKjAAAC8AAAAAAAAAAABVYAAAAPAAAA
+    IAAAAqMAAALw
+  tabs:
+  - history:
+    - active: true
+      last_visited: '2021-06-15T10:49:20'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: spacevim - Google Search
+      url: https://www.google.com/search?q=spacevim
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-15T10:49:45'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: terminal comment color - Google Search
+      url: https://www.google.com/search?q=terminal%20comment%20color
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-15T10:49:59'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: vim number colors - Google Search
+      url: https://www.google.com/search?q=vim%20number%20colors
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-15T10:50:08'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 1040
+      title: 'vim-airline/vim-airline: lean & mean status/tabline for vim that''s
+        light as air'
+      url: https://github.com/vim-airline/vim-airline
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-06-15T10:52:44'
+      pinned: false
+      title: installing lib32-libcanberra (0.30+2+gc0620e4-4) breaks dependency 'lib32-libcanberra=0.30+2+gc0620e4-3'
+        required by lib32-libcanberra-gstreamer - Google Search
+      url: https://www.google.com/search?q=installing%20lib32-libcanberra%20%280.30%2B2%2Bgc0620e4-4%29%20breaks%20dependency%20%27lib32-libcanberra%3D0.30%2B2%2Bgc0620e4-3%27%20required%20by%20lib32-libcanberra-gstreamer
+    - active: true
+      last_visited: '2021-06-15T10:58:25'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 1242
+      title: '[Testing Update] 2021-06-08 - Kernels, Cinnamon 5.0, Gnome 40.2, Cutefish
+        0.2, Deepin, Firefox - Announcements / Testing Updates - Manjaro Linux Forum'
+      url: https://forum.manjaro.org/t/testing-update-2021-06-08-kernels-cinnamon-5-0-gnome-40-2-cutefish-0-2-deepin-firefox/69401/20
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-15T10:58:41'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 727
+      title: Pacman Overview - Manjaro
+      url: https://wiki.manjaro.org/index.php/Pacman_Overview#Installing_Updates
+      zoom: 0.75
