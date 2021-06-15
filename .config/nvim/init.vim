@@ -9,6 +9,11 @@
 		let mapleader=","
 		let g:mapleader=","
 	" Audio / Visuals
+		" Comment / Colorizer / Number coloring
+			autocmd VimEnter * hi Comment ctermfg=gray
+			autocmd VimEnter * ColorHighlight			" colorizer plugin autostart
+			autocmd VimEnter * hi LineNr ctermfg=darkgray
+			autocmd VimEnter * hi CursorLineNr ctermfg=lightgray
 		" Folding
 			" makes the fold names readable
 			autocmd VimEnter * hi Folded ctermbg=black
@@ -20,15 +25,14 @@
 		" Status bar
 			set noshowmode
 		" Unsorted		
-			" makes all comments grey
-			autocmd VimEnter * hi Comment ctermfg=gray
-			autocmd VimEnter * ColorHighlight			" colorizer plugin autostart
-			autocmd VimEnter * hi LineNr term=bold ctermfg=darkgray
-			autocmd VimEnter * hi CursorLineNr term=bold ctermfg=lightgray
 			set noerrorbells
 			colorscheme delek
 			set nowrap
-			set number relativenumber
+			augroup every
+			  autocmd!
+			  au InsertEnter * set norelativenumber
+			  au InsertLeave * set relativenumber
+			augroup END
 	" Compulsory
 		filetype plugin indent on						" filetype detection
 		set clipboard+=unnamedplus						" copy from clipboard
@@ -85,7 +89,6 @@
 	call plug#begin('~/.vim/plugged')
 		Plug 'chrisbra/Colorizer'
 		Plug 'Raimondi/delimitMate'
-		Plug 'itchyny/lightline.vim'
 		Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 		Plug 'ferrine/md-img-paste.vim'
 			autocmd FileType markdown nmap <buffer><silent> <leader>i :call mdip#MarkdownClipboardImage()<cr>

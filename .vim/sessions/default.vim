@@ -1,6 +1,6 @@
 " ~/.vim/sessions/default.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 15 Tháng 6 2021 at 18:59:44.
+" Created by session.vim 2.13.1 on 15 Tháng 6 2021 at 19:59:54.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -42,19 +42,17 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-7,51fold
-53,60fold
-62,82fold
-84,163fold
-165,233fold
-7
-silent! normal! zo
-let s:l = 27 - ((26 * winheight(0) + 26) / 53)
+7,55fold
+57,64fold
+66,86fold
+88,166fold
+168,236fold
+let s:l = 7 - ((6 * winheight(0) + 26) / 53)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-27
-normal! 070|
+7
+normal! 0
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
