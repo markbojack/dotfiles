@@ -484,3 +484,4 @@ bindsym $mod+Shift+i 		exec --no-startup-id tdrop -am -w 48% -y 4% -x 1% -h 95% 
 bindsym $mod+Shift+o 		exec --no-startup-id tdrop -am -w 49% -y 4% -x 50% -h 95% -n 9 alacritty
 #bindsym $mod+Shift+q 		exec --no-startup-id tdrop -am -w 98% -y 4% -x 1% -h 95% -n 10 qutebrowser
 bindsym $mod+Shift+n 		exec --no-startup-id tdrop -am -w 98% -y 4% -x 1% -h 95% -n 11 alacritty -e ranger
+# NB trop -n 20 is being used to open windows by dmconf
