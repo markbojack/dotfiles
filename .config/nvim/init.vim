@@ -30,6 +30,10 @@
 	set nobackup nowb noswapfile nosol
 	set autowriteall startofline ffs=unix,dos,mac
 
+" Folding
+	autocmd BufWinLeave *.* mkview
+	autocmd BufWinEnter *.* silent loadview
+
 " Functions
 	function ZoomWindow()
 			let cpos = getpos(".")

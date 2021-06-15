@@ -260,7 +260,7 @@ colors:
   # Normal colors
   normal:
     black:   '#403E41'
-    red:     '#9e9e9e'
+    red:     '#FF6188'
     green:   '#A9DC76'
     yellow:  '#FFD866'
     blue:    '#FC9867'

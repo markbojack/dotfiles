@@ -6,7 +6,7 @@ windows:
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-15T13:40:35'
+      last_visited: '2021-06-15T13:59:41'
       pinned: false
       scroll-pos:
         x: 0
@@ -16,7 +16,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-15T13:40:35'
+      last_visited: '2021-06-15T13:59:41'
       pinned: false
       scroll-pos:
         x: 0
@@ -27,7 +27,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-15T13:41:37'
+      last_visited: '2021-06-15T13:59:41'
       pinned: false
       scroll-pos:
         x: 0
@@ -37,32 +37,62 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-15T13:41:52'
+      last_visited: '2021-06-15T13:59:41'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: en.terminalroot.com.br
+      title: How to Install i3-gaps with Rounded Corners | Terminal Root
       url: https://en.terminalroot.com.br/how-to-install-i3-gaps-with-rounded-corners/
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-15T13:41:48'
+      last_visited: '2021-06-15T13:59:43'
       pinned: false
       scroll-pos:
         x: 0
-        y: 560
+        y: 0
       title: 'How to switch from i3-gaps to the fork with rounded corners? : i3wm'
       url: https://www.reddit.com/r/i3wm/comments/in921k/how_to_switch_from_i3gaps_to_the_fork_with/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-15T13:59:41'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: "resloved/i3: \U0001F532 — Rounded i3-gaps"
+      url: https://github.com/resloved/i3
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-15T13:59:41'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: i3 top border only - Google Search
+      url: https://www.google.com/search?q=i3%20top%20border%20only
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-15T14:01:04'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 40
+      title: 'Enable window border only when there is only 1 window open? : i3wm'
+      url: https://www.reddit.com/r/i3wm/comments/4e8947/enable_window_border_only_when_there_is_only_1/
       zoom: 0.75
   - active: true
     history:
     - active: true
-      last_visited: '2021-06-15T13:42:24'
+      last_visited: '2021-06-15T14:01:34'
       pinned: false
       scroll-pos:
         x: 0
-        y: 2351
-      title: "resloved/i3: \U0001F532 — Rounded i3-gaps"
-      url: https://github.com/resloved/i3
+        y: 11564
+      title: 'i3: i3 User’s Guide'
+      url: https://i3wm.org/docs/userguide.html#_hiding_vertical_borders
       zoom: 0.75

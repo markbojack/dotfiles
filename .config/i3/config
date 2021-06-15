@@ -254,7 +254,9 @@ assign [title="neomutt"] $ws3
 ## https://gist.github.com/lopspower/03fb1cc0ac9f32ef38f4
 set $bgcolor    #d3d3d3
 set $ibgcolor   #363636
+# for selected thing on the bar
 set $fws		#000000
+set $fwsib		#00000000
 
 # I3 BAR COLOR ----------------------------
 # NOW GO TO THIS FILE AND SEARCH TAG :bar:
@@ -297,7 +299,7 @@ bar {
                 separator #282828
                 #                       border          bg              text
                 focused_workspace       $fws	        $fws	        $textcolor
-                inactive_workspace      $ibgcolor       $ibgcolor       $itextcolor
+                inactive_workspace      $fwsib     		$fwsib	      	$itextcolor
                 urgent_workspace        $ubgcolor       $ubgcolor       $textcolor
         }
 
@@ -316,6 +318,7 @@ gaps inner 10
 gaps outer 1
 
 # borders for i3-gaps
+hide_edge_borders horizontal
 default_border pixel 1
 default_floating_border pixel 1
 #	default_border none
