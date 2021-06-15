@@ -64,23 +64,83 @@
 		set path+=**
 		set runtimepath^=~/.vim runtimepath+=~/.vim/after
 		let &packpath = &runtimepath
-		
 
+" PLUGINS
+	call plug#begin('~/.vim/plugged')
+		Plug 'chrisbra/Colorizer'
+		Plug 'Raimondi/delimitMate'
+		Plug 'itchyny/lightline.vim'
+		Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+		Plug 'ferrine/md-img-paste.vim'
+			autocmd FileType markdown nmap <buffer><silent> <leader>i :call mdip#MarkdownClipboardImage()<cr>
+			let g:mdip_imgdir='.'
+			let g:mdip_imgname='img'
+		Plug 'ncm2/ncm2'
+			autocmd BufEnter * call ncm2#enable_for_buffer()
+		Plug 'ncm2/ncm2-bufword'
+		Plug 'ncm2/ncm2-path'
+		Plug 'gaalcaras/ncm-R'
+			let R_assign = 2  " 2) __ for <- 1) _ for <- 0) disabled
+		Plug 'preservim/nerdtree'
+			let NERDTreeBookmarksFile = stdpath('data') . '/NERDTreeBookmarks'
+			let NERDTreeShowHidden=1
+			" auto-open NERDTree at start
+				" autocmd StdinReadPre * let s:std_in=1
+				" autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+		Plug 'jalvesaq/Nvim-R'
+			let R_hl_term=0
+			let r_indent_align_args = 0 
+			let r_indent_ess_comments = 0
+			let r_indent_ess_compatible = 0
+		Plug 'roxma/nvim-yarp'
+		Plug 'tpope/vim-commentary'
+		Plug 'bling/vim-airline'
+		Plug 'xolox/vim-misc'
+		Plug 'tpope/vim-repeat'
+		Plug 'jremmen/vim-ripgrep'
+			let g:rg_command = 'rg --vimgrep -S'
+		Plug 'airblade/vim-rooter'
+		Plug 'Konfekt/vim-scratchpad'
+			let g:scratchpad_ftype = ''
+		Plug 'karoliskoncevicius/vim-sendtowindow'
+		Plug 'xolox/vim-session'
+			let g:session_autoload='no'
+			let g:session_autosave_periodic=1
+			let g:session_autosave='yes'
+			let g:session_autoload = 'yes'
+			let g:session_autosave_to = 'default'
+			let g:session_verbose_messages = 0
+		Plug 'psliwka/vim-smoothie'
+		Plug 'justinmk/vim-sneak'
+			let g:sneak#label = 1
+		Plug 'tpope/vim-surround'
+		Plug 'dhruvasagar/vim-table-mode'
+		Plug 'vimwiki/vimwiki'
+			let g:vimwiki_table_mappings=0
+			let g:vimwiki_table_auto_fmt=0
+			let g:vimwiki_ext2syntax = {
+				\ '.Rmd': 'markdown',
+				\ '.rmd': 'markdown',
+				\ '.md': 'markdown',
+				\ '.markdown': 'markdown',
+				\ '.mdown': 'markdown'
+			\ }
+			let g:vimwiki_list = [
+				\ {
+				\	'path': '~/vimwiki/',
+				\	'syntax': 'markdown',
+				\	'ext': '.md'},
+				\ {
+				\	'path': '~/finwiki',
+				\	'syntax': 'markdown',
+				\	'ext': '.md'}
+			\ ]
+		Plug 'vim-voom/VOoM'
+			let voom_ft_modes = {'rmd': 'pandoc', 'rnoweb': 'latex'}
+	call plug#end()
 
-
-
-
-
-" Functions
-	function ZoomWindow()
-			let cpos = getpos(".")
-			tabnew %
-			redraw
-			call cursor(cpos[1], cpos[2])
-			normal! zz
-		endfunction
-		nmap gz :call ZoomWindow()<CR>
-
+" CUSTOM FUNS
+	" ToggleWrap
 	let s:wrap=0
 	function! ToggleWrap()
 		if s:wrap==0
@@ -91,11 +151,26 @@
 			set nowrap
 		endif
 	endfunction
-	nnoremap <leader>wp :call ToggleWrap()<cr>
 
+	" ZoomWindow
+	function ZoomWindow()
+			let cpos = getpos(".")
+			tabnew %
+			redraw
+			call cursor(cpos[1], cpos[2])
+			normal! zz
+		endfunction
 
+" HACKS
+	" Disable next-line auto commenting
+		autocmd FileType *
+			\ setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+	" Move to last edit position on reopen
+		au BufReadPost *
+			\ if line("'\"") > 1 && line("'\"") <= line("$") |
+				\ exe "normal! g'\"" | endif
 
-" Mappings and aliases
+" MAPPINGS
 
 	" Sessions
 		map <leader>ss :wa<cr>:SaveSession<cr>
@@ -145,7 +220,6 @@
 
 		map <leader>o :setlocal spell! spelllang=en_us<cr>
 
-		map Q gq
 		" search and replace
 		map <leader>sr :%s//g<Left><Left>
 		" norm everything
@@ -180,105 +254,12 @@
 		map <leader>mm :NERDTreeFocus<cr>
 		map <leader>r :NERDTreeFind<cr>
 		nmap dsp <Plug>(ToggleScratchPad)
-
-
-" Plugins, plugin-specific settings
-	call plug#begin('~/.vim/plugged')
-		Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
-		Plug 'ferrine/md-img-paste.vim'
-			autocmd FileType markdown nmap <buffer><silent> <leader>i :call mdip#MarkdownClipboardImage()<cr>
-			let g:mdip_imgdir='.'
-			let g:mdip_imgname='img'
-		Plug 'preservim/nerdtree'
-			let NERDTreeBookmarksFile = stdpath('data') . '/NERDTreeBookmarks'
-			let NERDTreeShowHidden=1
-			" auto-open NERDTree at start
-			"autocmd StdinReadPre * let s:std_in=1
-			"autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-		Plug 'vimwiki/vimwiki'
-			" NB custom settings in ~/.vim/plugged/vimwiki/ftplugin/vimwiki.vim
-			let g:vimwiki_table_mappings=0 		"vim-table-mode mapping
-			let g:vimwiki_table_auto_fmt=0		"instead of native
-			let g:vimwiki_ext2syntax = {
-				\ '.Rmd': 'markdown',
-				\ '.rmd': 'markdown',
-				\ '.md': 'markdown',
-				\ '.markdown': 'markdown',
-				\ '.mdown': 'markdown'
-			\ }
-			let g:vimwiki_list = [
-				\ {
-				\	'path': '~/vimwiki/',
-				\	'syntax': 'markdown',
-				\	'ext': '.md'},
-				\ {
-				\	'path': '~/finwiki',
-				\	'syntax': 'markdown',
-				\	'ext': '.md'}
-			\ ]
+		nmap gz :call ZoomWindow()<CR>
+		nnoremap <leader>wp :call ToggleWrap()<cr>
 
 
 
-	Plug 'ncm2/ncm2-bufword'
-	Plug 'jalvesaq/Nvim-R'
-	" https://github.com/jalvesaq/Nvim-R/blob/master/doc/Nvim-R.txt
-		let R_hl_term=0
-		" set vim-r-plugin to
-			let r_indent_align_args = 0
-		" set vim-r-plugin to mimics ess :
-			let r_indent_ess_comments = 0
-			let r_indent_ess_compatible = 0
-	Plug 'ncm2/ncm2'
-		autocmd BufEnter * call ncm2#enable_for_buffer()
-	Plug 'ncm2/ncm2-path'
-	Plug 'roxma/nvim-yarp'
-	Plug 'gaalcaras/ncm-R'
-		let R_assign = 2  " 2) __ for <- 1) _ for <- 0) disabled
-	Plug 'tpope/vim-commentary'
 
-	" Session
-	Plug 'xolox/vim-session'
-		let g:session_autoload='no'
-		let g:session_autosave_periodic=1
-		let g:session_autosave='yes'
-		let g:session_autoload = 'yes'
-		let g:session_autosave_to = 'default'
-		let g:session_verbose_messages = 0
-	Plug 'xolox/vim-misc'
-
-	" Unsorted
-	Plug 'dhruvasagar/vim-table-mode'
-	Plug 'Raimondi/delimitMate'
-	Plug 'tpope/vim-surround'
-	Plug 'karoliskoncevicius/vim-sendtowindow'
-	Plug 'vim-voom/VOoM'
-		let voom_ft_modes = {'rmd': 'pandoc', 'rnoweb': 'latex'}
-	Plug 'jremmen/vim-ripgrep'
-		let g:rg_command = 'rg --vimgrep -S'
-	Plug 'airblade/vim-rooter'
-	Plug 'Konfekt/vim-scratchpad'
-		let g:scratchpad_ftype = ''
-	Plug 'justinmk/vim-sneak'
-		let g:sneak#label = 1
-	Plug 'tpope/vim-repeat'
-	Plug 'psliwka/vim-smoothie'
-
-	" Visuals
-	Plug 'chrisbra/Colorizer'
-	Plug 'bling/vim-airline'
-	Plug 'itchyny/lightline.vim'
-
-	call plug#end()
-
-
-" Tweaks
-	" Disable next-line auto commenting
-		autocmd FileType *
-			\ setlocal formatoptions-=c formatoptions-=r formatoptions-=o
-	" Move to last edit position on reopen
-		au BufReadPost *
-			\ if line("'\"") > 1 && line("'\"") <= line("$") |
-				\ exe "normal! g'\"" | endif
 
 
 
