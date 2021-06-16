@@ -1,0 +1,4 @@
+#!/bin/bash
+
+ac=$(bmon -p enp3s0 -o format:fmt='$(attr:rxrate:bytes)')
+echo $ac
