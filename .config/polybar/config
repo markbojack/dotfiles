@@ -48,7 +48,7 @@ font-3 = Font Awesome 5 Brands:pixelsize=8;2
 font-4 = Weather Icons:pixelsize=8;2
 
 modules-left = i3
-modules-center = gpacheck
+modules-center = gpacheck ytdlcheck bkpcheck
 modules-right = mail bandwidth checkupdates cpu pulseaudio date
 
 tray-position = right
@@ -110,7 +110,6 @@ label-urgent-padding = 2
 ; MODULES ====================================================================
 [module/gpacheck]
 type = custom/script
-; interval = persist
 tail = true
 label = %output%
 exec-if = pgrep -fl push-all
@@ -118,24 +117,24 @@ exec = echo "GPA"
 
 [module/ytdlcheck]
 type = custom/script
-interval = persist
+tail = true
 label = %output%
 exec-if = pgrep -fl youtube-dl
-exec = echo "GPA" 
+exec = echo "YOUTUBE" 
 
 [module/bkpcheck]
 type = custom/script
-interval = persist
+tail = true
 label = %output%
 exec-if = pgrep -fl backup-phone.sh
-exec = echo "GPA" 
+exec = echo "BKP" 
 
 [module/mail]
 type = custom/script
 interval = 150
 format-prefix = "M"
 label = %output%
-exec = ls ~/.local/share/mail/markbojack.si@gmail.com/INBOX/new/ | wc -l
+exec = [[ $(ls ~/.local/share/mail/markbojack.si@gmail.com/INBOX/new/) ]] && echo "hello" || echo "empty"
 
 [module/bandwidth]
 type = custom/script
@@ -196,7 +195,8 @@ type = custom/script
 interval = 14320
 format-prefix = "U"
 label = %output%
-exec = yay -Qu | wc -l
+; exec_if = yay -Qu
+exec = [[ $(yay -Qu) ]] && echo "UPDATES $(yay -Qu | wc -l)" || "NONE"
 
 [settings]
 screenchange-reload = true
