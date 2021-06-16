@@ -112,7 +112,7 @@ label-urgent-padding = 2
 type = custom/script
 tail = true
 label = %output%
-exec = bmon -p enp3s0 -o format:fmt='$(attr:rxrate:bytes) $(attr:txrate:bytes)\n'
+exec = bmon -o format:fmt='$(attr:rxrate:bytes)\n' -p enp3s0 | awk '{print}'
 
 [module/gpacheck]
 type = custom/script

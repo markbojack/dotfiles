@@ -6,7 +6,7 @@ windows:
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-16T23:17:45'
+      last_visited: '2021-06-16T23:41:43'
       pinned: false
       scroll-pos:
         x: 0
@@ -16,7 +16,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-16T23:17:48'
+      last_visited: '2021-06-16T23:41:46'
       pinned: false
       scroll-pos:
         x: 0
@@ -25,27 +25,158 @@ windows:
       url: https://fontawesome.com/v5/cheatsheet/free/brands
       zoom: 0.75
   - history:
+    - last_visited: '2021-06-17T00:21:46'
+      pinned: false
+      title: polybar modules - Google Search
+      url: https://www.google.com/search?q=polybar%20modules
     - active: true
-      last_visited: '2021-06-16T23:17:46'
+      last_visited: '2021-06-17T00:23:55'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 440
+      title: polybar scripts - Google Search
+      url: https://www.google.com/search?q=polybar+scripts&ei=KjPKYJekC9P59QORqLKwAQ&oq=polybar+scripts&gs_lcp=Cgdnd3Mtd2l6EAMyAggAOgQIABBDOgUIIRCgAToGCAAQFhAeUNPNB1ic5wdg8ugHaAJwAngAgAGHAYgB-QqSAQQxNS4ymAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=gws-wiz&ved=0ahUKEwiX4dmZ1ZzxAhXTfH0KHRGUDBYQ4dUDCBE&uact=5
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-17T00:23:59'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 1202
+      title: 'polybar/polybar-scripts: This is a community project. We write and collect
+        scripts for polybar!'
+      url: https://github.com/polybar/polybar-scripts
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-17T01:55:05'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 680
+      title: 'Module: script · polybar/polybar Wiki'
+      url: https://github.com/polybar/polybar/wiki/Module:-script
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-06-17T02:20:24'
+      pinned: false
+      title: linux network output text kilobytes - Google Search
+      url: https://www.google.com/search?q=linux%20network%20output%20text%20kilobytes
+    - last_visited: '2021-06-17T02:23:46'
+      pinned: false
+      title: linux bandwidth output text kilobytes - Google Search
+      url: https://www.google.com/search?q=linux+bandwith+output+text+kilobytes&ei=907KYOW_OtmV4-EPxqmMuAY&oq=linux+bandwith+output+text+kilobytes&gs_lcp=Cgdnd3Mtd2l6EAMyBAghEApQqfkLWKScDGDWpQxoBHACeACAAVGIAbsKkgECMTiYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=gws-wiz&ved=0ahUKEwill9zb75zxAhXZyjgGHcYUA2cQ4dUDCBE&uact=5
+    - last_visited: '2021-06-17T02:25:59'
+      pinned: false
+      title: bmon kilobytes - Google Search
+      url: https://www.google.com/search?q=bmon+kilobytes&ei=wk_KYKypCf6X4-EPhuSL-AE&oq=bmon+kiloby&gs_lcp=Cgdnd3Mtd2l6EAMYADIFCCEQoAE6BAgAEEM6BQgAEJECOggIABCxAxCDAToFCAAQsQM6CAguELEDEIMBOgcIABCxAxBDOg0ILhCxAxDHARCjAhBDOgIIADoKCC4QxwEQowIQQzoCCC46BAgAEAo6BwguEA0QkwI6BAguEA06BAgAEA06BggAEA0QCjoKCC4QxwEQrwEQDToGCAAQDRAeOgcIIRAKEKABUNroB1jKgQhgwYkIaAFwAXgEgAF2iAHeDJIBBDEwLjeYAQCgAQGqAQdnd3Mtd2l6sAEAwAEB&sclient=gws-wiz
+    - active: true
+      last_visited: '2021-06-17T02:32:10'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 840
+      title: bash remove top line from output - Google Search
+      url: https://www.google.com/search?q=bash+remove+top+line+from+output&ei=R1DKYLmkEOSO4-EP8fyEyAI&oq=bash+remove+top+line&gs_lcp=Cgdnd3Mtd2l6EAMYAjICCAAyAggAMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeOgcIABBHELADOgYIABAIEB46BggAEAoQHjoFCAAQkQI6CAgAELEDEIMBOgUIABCxAzoICC4QxwEQowI6DgguELEDEIMBEMcBEKMCOgsILhCxAxDHARCjAjoICAAQsQMQkQI6AgguOgUILhCxAzoECAAQQzoICC4QxwEQrwE6BAgAEA06CAghEBYQHRAeUNnHFVj3wRZg98sWaBBwAngEgAHHAYgB-xmSAQQzNC41mAEAoAEBqgEHZ3dzLXdperABAMgBCMABAQ&sclient=gws-wiz
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-06-17T02:38:20'
+      pinned: false
+      title: bash remove line constant output - Google Search
+      url: https://www.google.com/search?q=bash%20remove%20line%20constant%20output
+    - active: true
+      last_visited: '2021-06-17T02:39:52'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 880
+      title: bash command with constant output - Google Search
+      url: https://www.google.com/search?q=bash+command+with+constant+output&ei=K1PKYKLJNKrWz7sPkauEoA4&oq=bash+command+with+constatn&gs_lcp=Cgdnd3Mtd2l6EAMYATIHCCEQChCgATIHCCEQChCgAToECCEQFToFCAAQkQI6AggAOgYIABAWEB46CAghEBYQHRAeOgUIIRCgAVDVigVYmbcFYKHEBWgAcAJ4AIABc4gBgRKSAQQzMi4xmAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=gws-wiz
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-17T02:49:23'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 1200
+      title: linux - Continuously re-execute a command when it finishes in Bash -
+        Super User
+      url: https://superuser.com/questions/361902/continuously-re-execute-a-command-when-it-finishes-in-bash/361919
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-17T02:54:43'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Pacman Overview - Manjaro
-      url: https://wiki.manjaro.org/index.php/Pacman_Overview#Installing_Updates
+      title: Use the tiny utility bmon to get the current bandwidth usage percentage;
+      url: https://gist.github.com/sebastian-king/f748eb57543eeae1106c
       zoom: 0.75
-  - active: true
-    history:
-    - last_visited: '2021-06-16T23:17:46'
-      pinned: false
-      title: ntfd weather - Google Search
-      url: https://www.google.com/search?q=ntfd%20weather
+  - history:
     - active: true
-      last_visited: '2021-06-16T23:17:49'
+      last_visited: '2021-06-17T02:54:49'
       pinned: false
       scroll-pos:
         x: 0
-        y: 3314
-      title: 'kamek-pf/ntfd: A lightweight notification daemon for fancy desktop integrations'
-      url: https://github.com/kamek-pf/ntfd
+        y: 0
+      title: Formatted output always reports 0 for initial tx/rx rate - githubmemory
+      url: https://githubmemory.com/repo/tgraf/bmon/issues/86
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-17T02:54:52'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: bmon -o format, command not found, help! / Networking, Server, and Protection
+        / Arch Linux Forums
+      url: https://bbs.archlinux.org/viewtopic.php?id=86158
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-17T02:55:08'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: View network traffic in real time with bmon - Programmer Sought
+      url: https://www.programmersought.com/article/17361143203/
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-06-17T03:06:51'
+      pinned: false
+      title: bash round number - Google Search
+      url: https://www.google.com/search?q=bash%20round%20number
+    - active: true
+      last_visited: '2021-06-17T03:06:55'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 1000
+      title: linux - Round a divided number in Bash - Stack Overflow
+      url: https://stackoverflow.com/questions/2395284/round-a-divided-number-in-bash
+      zoom: 0.75
+  - active: true
+    history:
+    - last_visited: '2021-06-17T03:26:28'
+      pinned: false
+      title: bmon -R - Google Search
+      url: https://www.google.com/search?q=bmon%20-R
+    - last_visited: '2021-06-17T03:27:14'
+      pinned: false
+      title: bmon -rate - Google Search
+      url: https://www.google.com/search?q=bmon+-rate&ei=dF7KYODCBpeDrtoP2YCZwAk&oq=bmon+-rate&gs_lcp=Cgdnd3Mtd2l6EAM6AggAOgYIABAWEB5QrHFYonhgnXxoAHACeACAAVCIAZsDkgEBNpgBAKABAaoBB2d3cy13aXrAAQE&sclient=gws-wiz&ved=0ahUKEwjgzPy9_pzxAhWXgUsFHVlABpgQ4dUDCBE&uact=5
+    - active: true
+      last_visited: '2021-06-17T03:27:27'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 640
+      title: bmon rate interval - Google Search
+      url: https://www.google.com/search?q=bmon+rate+interval&ei=hF7KYN_4Lomy9QPQ2pY4&oq=bmon+rate+interval&gs_lcp=Cgdnd3Mtd2l6EAMyBQghEKABMgUIIRCgAToCCAA6BggAEBYQHjoECAAQCjoECAAQDToECC4QDToFCCEQkgM6BwghEAoQoAFQn0BY1V5giWFoAXACeACAAX2IAdYNkgEEMTcuM5gBAKABAaoBB2d3cy13aXrAAQE&sclient=gws-wiz&ved=0ahUKEwjfyvXF_pzxAhUJWX0KHVCtBQcQ4dUDCBE&uact=5
       zoom: 0.75
