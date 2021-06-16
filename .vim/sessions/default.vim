@@ -1,6 +1,6 @@
 " ~/.vim/sessions/default.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 16 Tháng 6 2021 at 02:26:17.
+" Created by session.vim 2.13.1 on 16 Tháng 6 2021 at 09:32:24.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -11,19 +11,22 @@ if &background != 'dark'
 	set background=dark
 endif
 if !exists('g:colors_name') || g:colors_name != 'delek' | colorscheme delek | endif
-call setqflist([{'lnum': 12, 'col': 1, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getAndProcessSymbols.R', 'text': 'getAndProcessSymbolsBulk <- function(symbols) {'}, {'lnum': 34, 'col': 22, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'data/model-gen.R', 'text': 'gaps_out_list_etf <- getAndProcessSymbolsBulk(all_symbols_etf)'}, {'lnum': 35, 'col': 24, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'data/model-gen.R', 'text': 'gaps_out_list_stock <- getAndProcessSymbolsBulk(all_symbols_stock)'}])
+call setqflist([])
 let SessionLoad = 1
 let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
 let v:this_session=expand("<sfile>:p")
 silent only
-cd ~/seasonality
+cd ~/vimwiki
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
+badd +6 index.md
+badd +10 ~/vimwiki/Packages.md
+badd +0 ~/vimwiki/vim.md
 argglobal
 %argdel
-$argadd ~/.config/nvim/init.vim
+edit ~/vimwiki/vim.md
 set splitbelow splitright
 wincmd t
 set winminheight=0
@@ -31,7 +34,6 @@ set winheight=1
 set winminwidth=0
 set winwidth=1
 argglobal
-enew
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -40,6 +42,13 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
+silent! normal! zE
+let s:l = 35 - ((22 * winheight(0) + 16) / 33)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+35
+normal! 0
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
