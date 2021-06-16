@@ -113,7 +113,7 @@ type = custom/script
 interval = persist
 format-prefix = "G"
 label = %output%
-exec = ~/.config/polybar/gpa-check
+exec = [[ $(pgrep -fl alacritty | wc -l) -ne 0 ]] && echo "GPA" || echo "NO"
 
 [module/mail]
 type = custom/script

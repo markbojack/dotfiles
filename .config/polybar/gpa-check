@@ -2,6 +2,12 @@
 
 while :
 do
-	gpa_check=$(pgrep -fl push-all | wc -l)
+	gpa_check=$(pgrep -fl alacritty | wc -l)
 	[[ $gpa_check -ne 0 ]] && echo "GPA" || echo ""
 done
+
+#	while :
+#	do
+	#	gpa_check=$(pgrep -fl push-all | wc -l)
+	#	[[ $gpa_check -ne 0 ]] && echo "GPA" || echo ""
+#	done
