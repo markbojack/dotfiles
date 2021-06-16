@@ -48,7 +48,7 @@ font-3 = Font Awesome 5 Brands:pixelsize=8;2
 font-4 = Weather Icons:pixelsize=8;2
 
 modules-left = i3
-modules-center = gpacheck ytdlcheck bkpcheck
+modules-center = network gpacheck ytdlcheck bkpcheck
 modules-right = mail bandwidth checkupdates cpu pulseaudio date
 
 tray-position = right
@@ -108,6 +108,13 @@ label-urgent-background = ${colors.alert}
 label-urgent-padding = 2
 
 ; MODULES ====================================================================
+[module/network]
+type = custom/script
+tail = true
+label = %output%
+exec = $(( $(bmon -p enp3s0 -o format:fmt='$(attr:rxrate:bytes)') + 100 ))
+; exec = $(( $(bmon -p enp3s0 -o format:fmt='$(attr:rxrate:bytes) $(attr:txrate:bytes)\n') + 100 ))
+
 [module/gpacheck]
 type = custom/script
 tail = true
@@ -138,7 +145,7 @@ exec = [[ $(ls ~/.local/share/mail/markbojack.si@gmail.com/INBOX/new/) ]] && ech
 
 [module/bandwidth]
 type = custom/script
-interval = 5
+tail = true
 format-prefix = "W"
 label = %output%
 INTERFACE=enp3s0
@@ -195,7 +202,6 @@ type = custom/script
 interval = 14320
 format-prefix = "U"
 label = %output%
-; exec_if = yay -Qu
 exec = [[ $(yay -Qu) ]] && echo "UPDATES $(yay -Qu | wc -l)" || "NONE"
 
 [settings]

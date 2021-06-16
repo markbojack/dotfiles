@@ -1,8 +1,7 @@
 windows:
-- active: true
-  geometry: !!binary |
-    AdnQywADAAAAAAAJAAAAGAAABUwAAAL8AAAACwAAABoAAAVKAAAC+gAAAAAAAAAABVYAAAALAAAA
-    GgAABUoAAAL6
+- geometry: !!binary |
+    AdnQywADAAAAAAAJAAAAGAAAAqYAAAL8AAAACwAAABoAAAKkAAAC+gAAAAAAAAAABVYAAAALAAAA
+    GgAAAqQAAAL6
   tabs:
   - history:
     - active: true
@@ -51,7 +50,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-17T00:25:48'
+      last_visited: '2021-06-17T01:55:05'
       pinned: false
       scroll-pos:
         x: 0
@@ -60,47 +59,44 @@ windows:
       url: https://github.com/polybar/polybar/wiki/Module:-script
       zoom: 0.75
   - history:
-    - last_visited: '2021-06-17T00:55:35'
-      pinned: false
-      title: linux system bandwidth - Google Search
-      url: https://www.google.com/search?q=linux%20system%20bandwitch
     - active: true
-      last_visited: '2021-06-17T00:55:56'
+      last_visited: '2021-06-17T01:55:23'
       pinned: false
       scroll-pos:
         x: 0
-        y: 7800
-      title: 18 Commands to Monitor Network Bandwidth on Linux server - BinaryTides
-      url: https://www.binarytides.com/linux-commands-monitor-network/
+        y: 0
+      title: bash arithematic output - Google Search
+      url: https://www.google.com/search?q=bash%20arithematic%20output
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-17T01:55:26'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 1920
+      title: date - How to combine bash arithmetic with command output? - Unix & Linux
+        Stack Exchange
+      url: https://unix.stackexchange.com/questions/87671/how-to-combine-bash-arithmetic-with-command-output
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-17T01:58:24'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: bash see output is numeric - Google Search
+      url: https://www.google.com/search?q=bash%20see%20output%20is%20numeric
       zoom: 0.75
   - active: true
     history:
     - active: true
-      last_visited: '2021-06-17T00:55:41'
+      last_visited: '2021-06-17T01:58:27'
       pinned: false
       scroll-pos:
         x: 0
-        y: 6080
-      title: 16 Useful Bandwidth Monitoring Tools to Analyze Network Usage in Linux
-      url: https://www.tecmint.com/linux-network-bandwidth-monitoring-tools/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-17T00:55:43'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 18 Commands to Monitor Network Bandwidth on Linux server - BinaryTides
-      url: https://www.binarytides.com/linux-commands-monitor-network/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-17T00:55:54'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 9 Best Linux Bandwidth Monitoring Tools to Inspect Network
-      url: https://phoenixnap.com/kb/linux-network-bandwidth-monitor-traffic
+        y: 520
+      title: linux - How do I test if a variable is a number in Bash? - Stack Overflow
+      url: https://stackoverflow.com/questions/806906/how-do-i-test-if-a-variable-is-a-number-in-bash
       zoom: 0.75
