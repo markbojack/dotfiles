@@ -110,7 +110,7 @@ label-urgent-padding = 2
 ; MODULES ====================================================================
 [module/gpacheck]
 type = custom/script
-interval = persist
+interval = 1
 format-prefix = "G"
 label = %output%
 exec = [[ $(pgrep -fl alacritty | wc -l) -ne 0 ]] && echo "GPA" || echo "NO"
