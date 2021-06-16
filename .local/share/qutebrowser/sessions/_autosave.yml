@@ -1,0 +1,39 @@
+windows:
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAALAAAALgAAAqUAAAL0AAAADAAAAC8AAAKkAAAC8wAAAAAAAAAABVYAAAAMAAAA
+    LwAAAqQAAALz
+  tabs:
+  - active: true
+    history:
+    - last_visited: '2021-06-16T09:21:27'
+      pinned: false
+      title: source vim - Google Search
+      url: https://www.google.com/search?q=source%20vim
+    - last_visited: '2021-06-16T09:26:40'
+      pinned: false
+      title: vim link to another file - Google Search
+      url: https://www.google.com/search?q=vim+link+to+another+file&ei=J2DJYPuQDtvprQHGw5OoDA&oq=vim+link+&gs_lcp=Cgdnd3Mtd2l6EAMYATICCAAyAggAMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjoECAAQQzoFCAAQkQI6CAguEMcBEK8BOgoIABCxAxCDARBDOggIABAWEAoQHjoECAAQClC5thJYrO0SYJSBE2gIcAJ4BYAB1AGIAZwTkgEGMTcuNS4ymAEAoAEBqgEHZ3dzLXdperABAMABAQ&sclient=gws-wiz
+    - last_visited: '2021-06-16T09:27:33'
+      pinned: false
+      title: vim go back after gf - Google Search
+      url: https://www.google.com/search?q=vim+go+back+after+gf&ei=X2HJYNmNHNDyrAGXq42YCg&oq=vim+go+back+after+gf&gs_lcp=Cgdnd3Mtd2l6EAMyAggAOgYIABAWEB46BAgAEEM6BAgAEAo6BQgAEJECUMLeAljtkwNg4ZoDaAFwAngAgAFliAHyE5IBBDI5LjGYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=gws-wiz&ved=0ahUKEwiZuauQjZvxAhVQOSsKHZdVA6MQ4dUDCBE&uact=5
+    - active: true
+      last_visited: '2021-06-16T09:27:36'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 360
+      title: editor - How do you return from 'gf' in Vim - Stack Overflow
+      url: https://stackoverflow.com/questions/133626/how-do-you-return-from-gf-in-vim
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-16T09:21:33'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: plugins - How do I "source" something in my .vimrc file? - Stack Overflow
+      url: https://stackoverflow.com/questions/803464/how-do-i-source-something-in-my-vimrc-file
+      zoom: 0.75
