@@ -184,6 +184,7 @@ export GREP_OPTIONS='--color=auto'
 		alias fd='fd -H'
 		alias fzf='fzf -e'
 		alias cal='cal -m'
+		alias cat='bat'
 	# CONFIGS
 		# Qutebrowser
 			alias qq='nvim ~/.config/qutebrowser/quickmarks'

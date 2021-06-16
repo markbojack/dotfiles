@@ -321,7 +321,7 @@ client.urgent           $ubgcolor       $ubgcolor       $textcolor      $ubgcolo
 gaps inner 8
 gaps outer 1
 gaps top 16
-gaps bottom -6
+gaps bottom -5
 
 # borders for i3-gaps
 hide_edge_borders horizontal
