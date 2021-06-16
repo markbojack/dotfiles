@@ -324,8 +324,8 @@ gaps top 15
 
 # borders for i3-gaps
 hide_edge_borders horizontal
-default_border pixel 1
-default_floating_border pixel 1
+default_border pixel 2
+default_floating_border pixel 2
 #	default_border none
 #	default_floating_border none
 
