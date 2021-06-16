@@ -113,7 +113,7 @@ type = custom/script
 interval = 1
 format-prefix = "G"
 label = %output%
-exec-if = $(pgrep -fl push-all | wc -l) -ne 0 
+exec-if = pgrep -fl push-all
 exec = echo "GPA" 
 
 [module/mail]
