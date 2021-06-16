@@ -14,12 +14,7 @@
 	" Indentation
 		set smartindent
 		set shiftwidth=4 tabstop=4
-	" Status bar
-		set noshowmode
-	" Unsorted		
-		set noerrorbells
-		colorscheme delek
-		set nowrap
+	" Numbering
 		set relativenumber
 		augroup every
 		  autocmd!
@@ -27,6 +22,14 @@
 		  au InsertEnter * set number
 		  au InsertLeave * set relativenumber
 		augroup END
+	" Status bar
+		set noshowmode
+	" Unsorted		
+		colorscheme delek
+		set noerrorbells
+		set nowrap
+		set scrolloff=8
+		set splitright splitbelow
 " Compulsory
 	filetype plugin indent on						" filetype detection
 	set clipboard+=unnamedplus						" copy from clipboard
@@ -37,8 +40,6 @@
 	set autowriteall startofline ffs=unix,dos,mac
 " Navigation
 	set ma											" set marks with `m<letter>`
-	set scrolloff=8
-	set splitright splitbelow
 	set backspace=indent,eol,start
 	set mouse=a
 	set completeopt=noinsert,menuone,noselect,preview	" for ncm2

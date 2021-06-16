@@ -3,7 +3,7 @@
 #░░░░░░░░░░░░░░▀░░▀▀░░▀░▀░▀▀▀░▀░▀░▀░▀░▀▀▀░░░░░░░░░░░░░░
 
 # don't forget that dope ex fun
-# DEFAULT MANJARO
+# DEFAULT MANJARO ============================================================
 [[ $- != *i* ]] && return
 
 colors() {
@@ -138,7 +138,7 @@ ex ()
   fi
 }
 
-# STARTUP
+# STARTUP ====================================================================
 echo "Terminal opened on:" `date` >> ~/terminal.log
 colorscript -r
 xset r rate 220 100 # faster keys 
@@ -152,11 +152,11 @@ xset -dpms				# suspend/standby off
 # xset s 900			# screensaver turns on after 15min
 # xset dpms 0 0 1200	# monitor off after 20min, first 0 is standby disable, second 0 is suspend disable
 
-# SOURCE
+# SOURCE =====================================================================
 source ~/.local/bin/fancy-bash-prompt.sh
 source /home/mark/.config/broot/launcher/bash/br
 
-# EXPORTS
+# EXPORTS ====================================================================
 export BROWSER="qutebrowser"
 export VISUAL="nvim"
 export EDITOR="$VISUAL"
@@ -171,7 +171,7 @@ export AUTOFEATURE=true
 export FZF_DEFAULT_COMMAND="find -L"
 export GREP_OPTIONS='--color=auto'
 
-# ALIASES
+# ALIASES ====================================================================
 	# BASIC COMMANDS
 		alias cp="cp -i"
 		alias mv='mv -i'
@@ -200,7 +200,7 @@ export GREP_OPTIONS='--color=auto'
 			alias i3s='nvim ~/.config/i3status/i3status.conf'
 			alias i3b='nvim ~/.config/i3blocks/i3blocks.conf'
 			alias ac='nvim ~/.config/alacritty/alacritty.yml'
-			alias pc='nvim ~/.config/picom/picom.conf'
+			alias pcc='nvim ~/.config/picom/picom.conf'
 			alias xrc='nvim ~/.Xresources'
 			alias sc='nvim ~/.config/i3-scrot.conf'
 			alias mrc='nvim ~/.config/mutt/muttrc'
@@ -210,6 +210,7 @@ export GREP_OPTIONS='--color=auto'
 			alias mpvc='nvim ~/.config/mpv/input.conf'
 			alias grubc='sudo nvim /etc/default/grub'
 			alias bkpc='nvim ~/.local/bin/backup-phone.sh'
+			alias pbc='nvim ~/.config/polybar/config'
 	# FONT PREVIEW
 		alias fp='fontpreview'
 		export FONTPREVIEW_FONT_SIZE=10

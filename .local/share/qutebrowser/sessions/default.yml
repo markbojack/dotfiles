@@ -1,51 +1,39 @@
 windows:
-- geometry: !!binary |
-    AdnQywADAAAAAAKwAAAALgAABUoAAAGLAAACsQAAAC8AAAVJAAABigAAAAAAAAAABVYAAAKxAAAA
-    LwAABUkAAAGK
-  tabs:
-  - active: true
-    history:
-    - last_visited: '2021-06-16T10:08:59'
-      pinned: false
-      title: bash while ifs - Google Search
-      url: https://www.google.com/search?q=bash%20while%20ifs
-    - active: true
-      last_visited: '2021-06-16T10:09:02'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 440
-      title: 'What does IFS= do in this bash loop: `cat file | while IFS= read -r
-        line; do ... done` - Stack Overflow'
-      url: https://stackoverflow.com/questions/26479562/what-does-ifs-do-in-this-bash-loop-cat-file-while-ifs-read-r-line-do
-      zoom: 0.75
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAOUAAABlgAABUoAAAL0AAADlQAAAZcAAAVJAAAC8wAAAAAAAAAABVYAAAOVAAAB
-    lwAABUkAAALz
+    AdnQywADAAAAAAALAAAACwAABUoAAAL0AAAADAAAAAwAAAVJAAAC8wAAAAAAAAAABVYAAAAMAAAA
+    DAAABUkAAALz
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-16T10:41:30'
+      last_visited: '2021-06-16T11:52:10'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Home
-      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
+      title: polybar position center - Google Search
+      url: https://www.google.com/search?q=polybar%20position%20center
       zoom: 0.75
   - active: true
     history:
-    - last_visited: '2021-06-16T10:41:41'
-      pinned: false
-      title: vim write all buffer - Google Search
-      url: https://www.google.com/search?q=%20vim%20write%20all%20buffer
     - active: true
-      last_visited: '2021-06-16T10:41:44'
+      last_visited: '2021-06-16T11:53:06'
       pinned: false
       scroll-pos:
         x: 0
-        y: 200
-      title: Save all open buffers at once | Vim Tips Wiki | Fandom
-      url: https://vim.fandom.com/wiki/Save_all_open_buffers_at_once
+        y: 8
+      title: 'How to align polybar to center : Polybar'
+      url: https://www.reddit.com/r/Polybar/comments/c2gkmp/how_to_align_polybar_to_center/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-16T11:52:21'
+      original-url: https://github.com/jaagr/polybar/issues/478
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Is there a way to center the text in polybar vertically? · Issue #478
+        · polybar/polybar'
+      url: https://github.com/polybar/polybar/issues/478
       zoom: 0.75
