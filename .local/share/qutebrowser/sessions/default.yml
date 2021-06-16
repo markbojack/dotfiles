@@ -1,12 +1,12 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAJAAAAGAAAAqYAAAL8AAAACwAAABoAAAKkAAAC+gAAAAAAAAAABVYAAAALAAAA
-    GgAAAqQAAAL6
+    AdnQywADAAAAAAAJAAAAGAAABUwAAAL8AAAACwAAABoAAAVKAAAC+gAAAAAAAAAABVYAAAALAAAA
+    GgAABUoAAAL6
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-16T19:31:28'
+      last_visited: '2021-06-16T19:33:04'
       pinned: false
       scroll-pos:
         x: 0
@@ -16,12 +16,36 @@ windows:
       zoom: 0.75
   - active: true
     history:
+    - last_visited: '2021-06-16T19:33:07'
+      pinned: false
+      title: Cheatsheet | Font Awesome
+      url: https://fontawesome.com/v5/cheatsheet
+    - last_visited: '2021-06-16T19:47:54'
+      pinned: false
+      title: Cheatsheet | Font Awesome
+      url: https://fontawesome.com/v5/cheatsheet/free/regular
+    - last_visited: '2021-06-16T19:48:37'
+      pinned: false
+      title: Cheatsheet | Font Awesome
+      url: https://fontawesome.com/v5/cheatsheet/free/brands
+    - last_visited: '2021-06-16T19:49:05'
+      pinned: false
+      title: Cheatsheet | Font Awesome
+      url: https://fontawesome.com/v5/cheatsheet/free/regular
+    - last_visited: '2021-06-16T19:49:16'
+      pinned: false
+      title: Cheatsheet | Font Awesome
+      url: https://fontawesome.com/v5/cheatsheet/free/solid
+    - last_visited: '2021-06-16T19:52:49'
+      pinned: false
+      title: Cheatsheet | Font Awesome
+      url: https://fontawesome.com/v5/cheatsheet/free/regular
     - active: true
-      last_visited: '2021-06-16T19:32:26'
+      last_visited: '2021-06-16T19:52:55'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
+        y: 300
       title: Cheatsheet | Font Awesome
-      url: https://fontawesome.com/v5/cheatsheet
+      url: https://fontawesome.com/v5/cheatsheet/free/brands
       zoom: 0.75
