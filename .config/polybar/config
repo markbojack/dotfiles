@@ -48,8 +48,8 @@ font-3 = Font Awesome 5 Brands:pixelsize=8;2
 font-4 = Weather Icons:pixelsize=8;2
 
 modules-left = i3
-modules-center = bandwidth
-modules-right = checkupdates cpu pulseaudio date
+modules-center = gpacheck
+modules-right = mail bandwidth checkupdates cpu pulseaudio date
 
 tray-position = right
 tray-padding = 4
@@ -108,6 +108,20 @@ label-urgent-background = ${colors.alert}
 label-urgent-padding = 2
 
 ; MODULES ====================================================================
+[module/gpacheck]
+type = custom/script
+interval = 1
+format-prefix = "G"
+label = %output%
+exec = ~/.config/i3blocks/gpa-check
+
+[module/mail]
+type = custom/script
+interval = 150
+format-prefix = "M"
+label = %output%
+exec = ls ~/.local/share/mail/markbojack.si@gmail.com/INBOX/new/ | wc -l
+
 [module/bandwidth]
 type = custom/script
 interval = 5
@@ -165,7 +179,7 @@ label = %percentage:2%%
 [module/checkupdates]
 type = custom/script
 interval = 14320
-format-prefix = "<icon> *"
+format-prefix = "UP"
 label = %output%
 exec = yay -Qu | wc -l
 
