@@ -1,6 +1,6 @@
 " ~/.vim/sessions/default.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 16 Tháng 6 2021 at 09:33:21.
+" Created by session.vim 2.13.1 on 16 Tháng 6 2021 at 09:58:26.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -16,16 +16,19 @@ let SessionLoad = 1
 let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
 let v:this_session=expand("<sfile>:p")
 silent only
-cd ~/.vim/view
+cd ~/vimwiki
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +0 ~/.local/bin/push-all
+badd +6 index.md
+badd +8 ~/vimwiki/Linux.md
+badd +10 ~/vimwiki/Packages.md
+badd +1 ~/vimwiki/remind.md
+badd +0 ~/vimwiki/vim.md
 argglobal
 %argdel
-$argadd ~/.local/bin/push-all
-edit ~/.local/bin/push-all
+edit ~/vimwiki/vim.md
 set splitbelow splitright
 wincmd t
 set winminheight=0
@@ -42,12 +45,12 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 8 - ((7 * winheight(0) + 12) / 24)
+let s:l = 37 - ((23 * winheight(0) + 16) / 33)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-8
-normal! 0121|
+37
+normal! 0
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
