@@ -3,7 +3,7 @@
 while :
 do
 	gpa_check=$(pgrep -fl alacritty | wc -l)
-	[[ $gpa_check -ne 0 ]] && echo "GPA" || echo ""
+	[[ $gpa_check -ne 0 ]] && echo "GPA" || echo "NO"
 done
 
 #	while :
