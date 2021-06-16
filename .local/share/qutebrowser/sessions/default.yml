@@ -1,17 +1,51 @@
 windows:
-- active: true
-  geometry: !!binary |
-    AdnQywADAAAAAAALAAAALgAABUoAAAL0AAAADAAAAC8AAAVJAAAC8wAAAAAAAAAABVYAAAAMAAAA
-    LwAABUkAAALz
+- geometry: !!binary |
+    AdnQywADAAAAAAKwAAAALgAABUoAAAGLAAACsQAAAC8AAAVJAAABigAAAAAAAAAABVYAAAKxAAAA
+    LwAABUkAAAGK
   tabs:
   - active: true
     history:
+    - last_visited: '2021-06-16T10:08:59'
+      pinned: false
+      title: bash while ifs - Google Search
+      url: https://www.google.com/search?q=bash%20while%20ifs
     - active: true
-      last_visited: '2021-06-16T01:44:38'
+      last_visited: '2021-06-16T10:09:02'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 440
+      title: 'What does IFS= do in this bash loop: `cat file | while IFS= read -r
+        line; do ... done` - Stack Overflow'
+      url: https://stackoverflow.com/questions/26479562/what-does-ifs-do-in-this-bash-loop-cat-file-while-ifs-read-r-line-do
+      zoom: 0.75
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAOUAAABlgAABUoAAAL0AAADlQAAAZcAAAVJAAAC8wAAAAAAAAAABVYAAAOVAAAB
+    lwAABUkAAALz
+  tabs:
+  - history:
+    - active: true
+      last_visited: '2021-06-16T10:41:30'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: How to get rid of i3 bar? - Google Search
-      url: https://www.google.com/search?q=How+to+get+rid+of+i3+bar%3F&sa=X&ved=2ahUKEwjjvvvlkJrxAhXafn0KHdh0DfgQ3rMBegQICRAC&biw=1789&bih=904&dpr=0.75
+      title: Home
+      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
+      zoom: 0.75
+  - active: true
+    history:
+    - last_visited: '2021-06-16T10:41:41'
+      pinned: false
+      title: vim write all buffer - Google Search
+      url: https://www.google.com/search?q=%20vim%20write%20all%20buffer
+    - active: true
+      last_visited: '2021-06-16T10:41:44'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 200
+      title: Save all open buffers at once | Vim Tips Wiki | Fandom
+      url: https://vim.fandom.com/wiki/Save_all_open_buffers_at_once
       zoom: 0.75

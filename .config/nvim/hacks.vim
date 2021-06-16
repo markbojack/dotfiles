@@ -1,3 +1,7 @@
+" ╻ ╻┏━┓┏━╸╻┏ ┏━┓
+" ┣━┫┣━┫┃  ┣┻┓┗━┓
+" ╹ ╹╹ ╹┗━╸╹ ╹┗━┛
+
 " Disable next-line auto commenting
 	autocmd FileType *
 		\ setlocal formatoptions-=c formatoptions-=r formatoptions-=o

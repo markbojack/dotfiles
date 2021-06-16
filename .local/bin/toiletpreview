@@ -1,0 +1,13 @@
+#!/bin/bash
+
+ls /usr/share/figlet | sort -u | while IFS='' read -r line
+do
+	printf "$line\n" 
+	toilet HELLO.WORLD -f $line -w 1000
+done
+
+ls /usr/share/figlet/fonts | sort -u | while IFS='' read -r line
+do
+	printf "/fonts/$line\n" 
+	toilet HELLO.WORLD -f /fonts/$line -w 1000
+done

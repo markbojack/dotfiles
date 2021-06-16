@@ -1,9 +1,23 @@
+" ┏┳┓┏━┓┏━┓┏━┓╻┏┓╻┏━╸┏━┓
+" ┃┃┃┣━┫┣━┛┣━┛┃┃┗┫┃╺┓┗━┓
+" ╹ ╹╹ ╹╹  ╹  ╹╹ ╹┗━┛┗━┛
+
 " Making NVim do what I want
 	inoremap jj 
 	vnoremap . :norm .<cr>
 " Comments
 	map <leader>c :norm I#<Tab><cr>
 	map <leader>x :norm ^xx<cr>
+" File navigation
+	map zd :bd<cr>
+	map zf :bf<cr>
+	map zg gf
+	map zl :bl<cr>
+	map zl :ls<cr>
+	map zn :bn<cr>
+	map zN :bp<cr>
+	map zp :bp<cr>
+	map zu :unh<cr>
 " Macros
 	let @h = 'I<a class="bookmarkllcw href="f]cw" target="_blank">A€kb€kb</a'
 	let @d = 'bi%"jjea%"jj'
@@ -55,9 +69,9 @@
 		map <C-x> <C-w>x
 		map <C-q> <C-w>q
 " Writing / Quitting
-	map <leader>wq :wqa!<cr>
-	map <leader>qa :qa!<cr>
-	map <leader>wr :wa<cr>:so %<cr>
+	map <leader>wq :xa<cr>
+	map <leader>qq :qa<cr>
+	map <leader>wa :wa<cr>:so %<cr>
 " Misc
 	map <leader>ne :%norm <Right> 						" norm everything
 	map <leader>se :%sort u<cr> 						" sort everything

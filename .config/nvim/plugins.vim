@@ -1,3 +1,7 @@
+" ┏━┓╻  ╻ ╻┏━╸╻┏┓╻┏━┓
+" ┣━┛┃  ┃ ┃┃╺┓┃┃┗┫┗━┓
+" ╹  ┗━╸┗━┛┗━┛╹╹ ╹┗━┛
+
 call plug#begin('~/.vim/plugged')
 	Plug 'chrisbra/Colorizer'
 	Plug 'Raimondi/delimitMate'
