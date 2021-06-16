@@ -1,39 +1,29 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAALAAAACwAABUoAAAL0AAAADAAAAAwAAAVJAAAC8wAAAAAAAAAABVYAAAAMAAAA
-    DAAABUkAAALz
+    AdnQywADAAAAAAALAAAAGQAABUoAAAL0AAAADAAAABoAAAVJAAAC8wAAAAAAAAAABVYAAAAMAAAA
+    GgAABUkAAALz
   tabs:
-  - history:
-    - active: true
-      last_visited: '2021-06-16T11:52:10'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: polybar position center - Google Search
-      url: https://www.google.com/search?q=polybar%20position%20center
-      zoom: 0.75
   - active: true
     history:
+    - last_visited: '2021-06-16T12:13:31'
+      pinned: false
+      title: i3 window covering polybar - Google Search
+      url: https://www.google.com/search?q=i3+window+covering+polybar&ei=V4XJYI-lD97VrtoPgYypwAs&oq=i3+windows+covering+poly&gs_lcp=Cgdnd3Mtd2l6EAMYADIICCEQFhAdEB46BwghEAoQoAE6BAghEBU6BQgAEJECOggIABCxAxCDAToOCC4QsQMQgwEQxwEQowI6BQgAELEDOgIIADoECAAQQzoICAAQFhAKEB46BggAEBYQHjoJCAAQyQMQFhAeOgUIIRCgAToECCEQCjoGCCEQDRAVUOqwCFjC8Qhgq_sIaAdwAngEgAGhAYgBxRqSAQUyNS4xMZgBAKABAaoBB2d3cy13aXqwAQDAAQE&sclient=gws-wiz
+    - last_visited: '2021-06-16T12:16:26'
+      pinned: false
+      title: polybar tray position - Google Search
+      url: https://www.google.com/search?q=polybar+tray+position&ei=e4jJYN7BAsim9QPlspmoAQ&oq=polybar+tray+&gs_lcp=Cgdnd3Mtd2l6EAMYATICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgYIABAWEB4yBggAEBYQHjoICCEQFhAdEB46BAgAEEM6BQgAELEDOggIABCxAxCDAToECAAQAzoICC4QsQMQgwE6CwguELEDEMcBEKMCOggILhDHARCjAjoECAAQCjoFCAAQkQJQ09oJWKC2CmCZ0gpoCHACeASAAXiIAbMRkgEEMjMuM5gBAKABAaoBB2d3cy13aXqwAQDAAQE&sclient=gws-wiz
+    - last_visited: '2021-06-16T12:16:50'
+      pinned: false
+      title: polybar tray no gaps - Google Search
+      url: https://www.google.com/search?q=polybar+tray+no+gaps&ei=KYnJYOu3O8Xd9QPRyoiwDg&oq=polybar+tray+no+gaps&gs_lcp=Cgdnd3Mtd2l6EAM6AggAOgYIABAWEB46BAgAEENQgJ8BWKuvAWCvsgFoAHACeACAAXmIAewJkgEEMTMuM5gBAKABAaoBB2d3cy13aXrAAQE&sclient=gws-wiz&ved=0ahUKEwir8NKJs5vxAhXFbn0KHVElAuYQ4dUDCBE&uact=5
     - active: true
-      last_visited: '2021-06-16T11:53:06'
+      last_visited: '2021-06-16T12:17:27'
       pinned: false
       scroll-pos:
         x: 0
-        y: 8
-      title: 'How to align polybar to center : Polybar'
-      url: https://www.reddit.com/r/Polybar/comments/c2gkmp/how_to_align_polybar_to_center/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-16T11:52:21'
-      original-url: https://github.com/jaagr/polybar/issues/478
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'Is there a way to center the text in polybar vertically? · Issue #478
-        · polybar/polybar'
-      url: https://github.com/polybar/polybar/issues/478
+        y: 840
+      title: polybar remove tray - Google Search
+      url: https://www.google.com/search?q=polybar+remove+tray&ei=QYnJYMmYItjJrQHQuKzIDw&oq=polybar+remove+tray&gs_lcp=Cgdnd3Mtd2l6EAMyBggAEBYQHjoCCAA6BQgAEJECOgUIIRCgAToHCCEQChCgAToECCEQFVCZgQJYlZwCYK-eAmgBcAJ4AIABjQGIAYoNkgEEMjAuMpgBAKABAaoBB2d3cy13aXrAAQE&sclient=gws-wiz&ved=0ahUKEwiJvfKUs5vxAhXYZCsKHVAcC_kQ4dUDCBE&uact=5
       zoom: 0.75
