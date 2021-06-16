@@ -140,7 +140,10 @@ ex ()
 
 # STARTUP ====================================================================
 echo "Terminal opened on:" `date` >> ~/terminal.log
-colorscript -r
+#	colorscript -r
+#	motivate
+cowfortune
+#	motivate | cowsay -f $(ls /usr/share/cows/|shuf -n 1) | lolcat
 xset r rate 220 100 # faster keys 
 setxkbmap -option caps:swapescape #to make caps escape
 # setxkbmap -option caps:super -variant altgr-intl 		# make caps super...
@@ -185,6 +188,7 @@ export GREP_OPTIONS='--color=auto'
 		alias fzf='fzf -e'
 		alias cal='cal -m'
 		alias cat='bat'
+		alias grep='grep -i'
 	# CONFIGS
 		# Qutebrowser
 			alias qq='nvim ~/.config/qutebrowser/quickmarks'
@@ -213,6 +217,7 @@ export GREP_OPTIONS='--color=auto'
 			alias bkpc='nvim ~/.local/bin/backup-phone.sh'
 			alias pbc='nvim ~/.config/polybar/config'
 	# FONT PREVIEW
+		alias ff='fc-list : family'
 		alias fp='fontpreview'
 		export FONTPREVIEW_FONT_SIZE=10
 		export FONTPREVIEW_BG_COLOR="black"

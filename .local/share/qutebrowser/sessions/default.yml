@@ -6,7 +6,7 @@ windows:
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-16T19:33:04'
+      last_visited: '2021-06-16T23:17:45'
       pinned: false
       scroll-pos:
         x: 0
@@ -14,38 +14,38 @@ windows:
       title: Sample of local fonts matching ''
       url: file:///home/mark/.local/bin/fonts.html
       zoom: 0.75
-  - active: true
-    history:
-    - last_visited: '2021-06-16T19:33:07'
-      pinned: false
-      title: Cheatsheet | Font Awesome
-      url: https://fontawesome.com/v5/cheatsheet
-    - last_visited: '2021-06-16T19:47:54'
-      pinned: false
-      title: Cheatsheet | Font Awesome
-      url: https://fontawesome.com/v5/cheatsheet/free/regular
-    - last_visited: '2021-06-16T19:48:37'
-      pinned: false
-      title: Cheatsheet | Font Awesome
-      url: https://fontawesome.com/v5/cheatsheet/free/brands
-    - last_visited: '2021-06-16T19:49:05'
-      pinned: false
-      title: Cheatsheet | Font Awesome
-      url: https://fontawesome.com/v5/cheatsheet/free/regular
-    - last_visited: '2021-06-16T19:49:16'
-      pinned: false
-      title: Cheatsheet | Font Awesome
-      url: https://fontawesome.com/v5/cheatsheet/free/solid
-    - last_visited: '2021-06-16T19:52:49'
-      pinned: false
-      title: Cheatsheet | Font Awesome
-      url: https://fontawesome.com/v5/cheatsheet/free/regular
+  - history:
     - active: true
-      last_visited: '2021-06-16T19:52:55'
+      last_visited: '2021-06-16T23:17:48'
       pinned: false
       scroll-pos:
         x: 0
-        y: 300
+        y: 0
       title: Cheatsheet | Font Awesome
       url: https://fontawesome.com/v5/cheatsheet/free/brands
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-16T23:17:46'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Pacman Overview - Manjaro
+      url: https://wiki.manjaro.org/index.php/Pacman_Overview#Installing_Updates
+      zoom: 0.75
+  - active: true
+    history:
+    - last_visited: '2021-06-16T23:17:46'
+      pinned: false
+      title: ntfd weather - Google Search
+      url: https://www.google.com/search?q=ntfd%20weather
+    - active: true
+      last_visited: '2021-06-16T23:17:49'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 3314
+      title: 'kamek-pf/ntfd: A lightweight notification daemon for fancy desktop integrations'
+      url: https://github.com/kamek-pf/ntfd
       zoom: 0.75

@@ -1,0 +1,26 @@
+windows:
+- geometry: !!binary |
+    AdnQywADAAAAAAAJAAAAGAAAAqYAAAL8AAAACwAAABoAAAKkAAAC+gAAAAAAAAAABVYAAAALAAAA
+    GgAAAqQAAAL6
+  tabs:
+  - history:
+    - active: true
+      last_visited: '2021-06-16T23:41:43'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Sample of local fonts matching ''
+      url: file:///home/mark/.local/bin/fonts.html
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-16T23:41:46'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Cheatsheet | Font Awesome
+      url: https://fontawesome.com/v5/cheatsheet/free/brands
+      zoom: 0.75
