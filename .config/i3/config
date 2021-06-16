@@ -8,10 +8,6 @@ focus_follows_mouse no
 # screen before suspend. Use loginctl lock-session to lock your screen.
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
-# NetworkManager is the most popular way to manage wireless networks on Linux,
-# and nm-applet is a desktop environment-independent system tray GUI for it.
-exec --no-startup-id nm-applet
-
 # Use pactl to adjust volume in PulseAudio.
 #set $refresh_i3status killall -SIGUSR1 i3status
 #	set $refresh_i3status killall i3bar && i3bar -tb bar-0  # this is the one you were using with i3blocks
@@ -153,11 +149,16 @@ bindsym $mod+a focus parent
 ### then paste into the config where the wallpaper text is
 ### exit and restart i3
 
-set $ws1 ""
-set $ws2 "🌏"
-set $ws3 "📬"
-set $ws4 "🎵"
-set $ws5 "📰"
+#	set $ws1 ""
+#	set $ws2 "🌏"
+#	set $ws3 "📬"
+#	set $ws4 "🎵"
+#	set $ws5 "📰"
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
 
 # switch to workspace
 ## this is default but leave out `number` to just have icons
@@ -219,6 +220,10 @@ exec_always --no-startup-id autotiling
 exec_always --no-startup-id clipmenud
 exec_always --no-startup-id picom --experimental-backend
 exec_always --no-startup-id ~/.local/bin/launchpolybar.sh
+# keep these exec not exec_always
+# kmix you can consider; it's for the volume applet
+# exec --no-startup-id kmix #ok, evidently this will work with awesomeWM but not i3 womp
+exec --no-startup-id nm-applet
 
 # wallpaper options
 #	exec_always --no-startup-id feh --bg-fill /home/mark/Downloads/Abstract-grey-wallpaper-HD-desktop.jpg
@@ -460,7 +465,7 @@ bindsym $mod+m bar mode toggle
 for_window [class="Yad"] floating enable
 
 # moar keybindings
-bindsym $mod+Shift+f		exec --no-startup-id bash ~/.local/bin/fontpreview && qutebrowser ~/.local/bin/fonts.html; workspace $ws2
+bindsym $mod+Shift+f		exec --no-startup-id bash ~/.local/bin/fontpreview.sh && qutebrowser ~/.local/bin/fonts.html; workspace $ws2
 bindsym $mod+Shift+w		exec --no-startup-id bash ~/.local/bin/styli.sh -s colorful
 
 bindsym $mod+Shift+x		exec --no-startup-id ~/.local/bin/dmprompt "Poweroff?" ~/.local/bin/poweroff.sh
