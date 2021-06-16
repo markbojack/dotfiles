@@ -110,7 +110,7 @@ label-urgent-padding = 2
 ; MODULES ====================================================================
 [module/gpacheck]
 type = custom/script
-interval = 1
+interval = persist
 format-prefix = "G"
 label = %output%
 exec = ~/.config/polybar/gpa-check
