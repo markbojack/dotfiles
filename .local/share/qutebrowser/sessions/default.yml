@@ -1,29 +1,17 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAALAAAAGQAABUoAAAL0AAAADAAAABoAAAVJAAAC8wAAAAAAAAAABVYAAAAMAAAA
-    GgAABUkAAALz
+    AdnQywADAAAAAAKwAAAAGQAABUoAAAF6AAACsgAAABsAAAVIAAABeAAAAAAAAAAABVYAAAKyAAAA
+    GwAABUgAAAF4
   tabs:
   - active: true
     history:
-    - last_visited: '2021-06-16T12:13:31'
-      pinned: false
-      title: i3 window covering polybar - Google Search
-      url: https://www.google.com/search?q=i3+window+covering+polybar&ei=V4XJYI-lD97VrtoPgYypwAs&oq=i3+windows+covering+poly&gs_lcp=Cgdnd3Mtd2l6EAMYADIICCEQFhAdEB46BwghEAoQoAE6BAghEBU6BQgAEJECOggIABCxAxCDAToOCC4QsQMQgwEQxwEQowI6BQgAELEDOgIIADoECAAQQzoICAAQFhAKEB46BggAEBYQHjoJCAAQyQMQFhAeOgUIIRCgAToECCEQCjoGCCEQDRAVUOqwCFjC8Qhgq_sIaAdwAngEgAGhAYgBxRqSAQUyNS4xMZgBAKABAaoBB2d3cy13aXqwAQDAAQE&sclient=gws-wiz
-    - last_visited: '2021-06-16T12:16:26'
-      pinned: false
-      title: polybar tray position - Google Search
-      url: https://www.google.com/search?q=polybar+tray+position&ei=e4jJYN7BAsim9QPlspmoAQ&oq=polybar+tray+&gs_lcp=Cgdnd3Mtd2l6EAMYATICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgYIABAWEB4yBggAEBYQHjoICCEQFhAdEB46BAgAEEM6BQgAELEDOggIABCxAxCDAToECAAQAzoICC4QsQMQgwE6CwguELEDEMcBEKMCOggILhDHARCjAjoECAAQCjoFCAAQkQJQ09oJWKC2CmCZ0gpoCHACeASAAXiIAbMRkgEEMjMuM5gBAKABAaoBB2d3cy13aXqwAQDAAQE&sclient=gws-wiz
-    - last_visited: '2021-06-16T12:16:50'
-      pinned: false
-      title: polybar tray no gaps - Google Search
-      url: https://www.google.com/search?q=polybar+tray+no+gaps&ei=KYnJYOu3O8Xd9QPRyoiwDg&oq=polybar+tray+no+gaps&gs_lcp=Cgdnd3Mtd2l6EAM6AggAOgYIABAWEB46BAgAEENQgJ8BWKuvAWCvsgFoAHACeACAAXmIAewJkgEEMTMuM5gBAKABAaoBB2d3cy13aXrAAQE&sclient=gws-wiz&ved=0ahUKEwir8NKJs5vxAhXFbn0KHVElAuYQ4dUDCBE&uact=5
     - active: true
-      last_visited: '2021-06-16T12:17:27'
+      last_visited: '2021-06-16T18:24:30'
       pinned: false
       scroll-pos:
         x: 0
-        y: 840
-      title: polybar remove tray - Google Search
-      url: https://www.google.com/search?q=polybar+remove+tray&ei=QYnJYMmYItjJrQHQuKzIDw&oq=polybar+remove+tray&gs_lcp=Cgdnd3Mtd2l6EAMyBggAEBYQHjoCCAA6BQgAEJECOgUIIRCgAToHCCEQChCgAToECCEQFVCZgQJYlZwCYK-eAmgBcAJ4AIABjQGIAYoNkgEEMjAuMpgBAKABAaoBB2d3cy13aXrAAQE&sclient=gws-wiz&ved=0ahUKEwiJvfKUs5vxAhXYZCsKHVAcC_kQ4dUDCBE&uact=5
+        y: 4485
+      title: Configuration · polybar/polybar Wiki
+      url: https://github.com/polybar/polybar/wiki/Configuration
       zoom: 0.75
