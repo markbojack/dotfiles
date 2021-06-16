@@ -110,10 +110,24 @@ label-urgent-padding = 2
 ; MODULES ====================================================================
 [module/gpacheck]
 type = custom/script
-interval = persist
-format-prefix = "G"
+; interval = persist
+tail = true
 label = %output%
 exec-if = pgrep -fl push-all
+exec = echo "GPA" 
+
+[module/ytdlcheck]
+type = custom/script
+interval = persist
+label = %output%
+exec-if = pgrep -fl youtube-dl
+exec = echo "GPA" 
+
+[module/bkpcheck]
+type = custom/script
+interval = persist
+label = %output%
+exec-if = pgrep -fl backup-phone.sh
 exec = echo "GPA" 
 
 [module/mail]
