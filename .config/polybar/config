@@ -113,7 +113,7 @@ type = custom/script
 interval = 1
 format-prefix = "G"
 label = %output%
-exec = ~/.config/i3blocks/gpa-check
+exec = ~/.config/polybar/gpa-check
 
 [module/mail]
 type = custom/script
@@ -179,7 +179,7 @@ label = %percentage:2%%
 [module/checkupdates]
 type = custom/script
 interval = 14320
-format-prefix = "UP"
+format-prefix = "U"
 label = %output%
 exec = yay -Qu | wc -l
 

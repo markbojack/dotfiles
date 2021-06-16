@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+while :
+do
+	gpa_check=$(pgrep -fl push-all | wc -l)
+	[[ $gpa_check -ne 0 ]] && echo "GPA" || echo ""
+done
