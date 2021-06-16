@@ -1,7 +1,8 @@
 windows:
-- geometry: !!binary |
-    AdnQywADAAAAAAAJAAAAGAAAAqYAAAL8AAAACwAAABoAAAKkAAAC+gAAAAAAAAAABVYAAAALAAAA
-    GgAAAqQAAAL6
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAAJAAAAGAAABUwAAAL8AAAACwAAABoAAAVKAAAC+gAAAAAAAAAABVYAAAALAAAA
+    GgAABUoAAAL6
   tabs:
   - history:
     - active: true
@@ -13,8 +14,7 @@ windows:
       title: Sample of local fonts matching ''
       url: file:///home/mark/.local/bin/fonts.html
       zoom: 0.75
-  - active: true
-    history:
+  - history:
     - active: true
       last_visited: '2021-06-16T23:41:46'
       pinned: false
@@ -23,4 +23,80 @@ windows:
         y: 0
       title: Cheatsheet | Font Awesome
       url: https://fontawesome.com/v5/cheatsheet/free/brands
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-06-17T00:21:46'
+      pinned: false
+      title: polybar modules - Google Search
+      url: https://www.google.com/search?q=polybar%20modules
+    - active: true
+      last_visited: '2021-06-17T00:23:55'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 440
+      title: polybar scripts - Google Search
+      url: https://www.google.com/search?q=polybar+scripts&ei=KjPKYJekC9P59QORqLKwAQ&oq=polybar+scripts&gs_lcp=Cgdnd3Mtd2l6EAMyAggAOgQIABBDOgUIIRCgAToGCAAQFhAeUNPNB1ic5wdg8ugHaAJwAngAgAGHAYgB-QqSAQQxNS4ymAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=gws-wiz&ved=0ahUKEwiX4dmZ1ZzxAhXTfH0KHRGUDBYQ4dUDCBE&uact=5
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-17T00:23:59'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 840
+      title: 'polybar/polybar-scripts: This is a community project. We write and collect
+        scripts for polybar!'
+      url: https://github.com/polybar/polybar-scripts
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-17T00:25:48'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 1285
+      title: 'Module: script · polybar/polybar Wiki'
+      url: https://github.com/polybar/polybar/wiki/Module:-script
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-17T00:25:53'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: User contributed modules · polybar/polybar Wiki
+      url: https://github.com/polybar/polybar/wiki/User-contributed-modules
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-17T00:26:00'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Module: ipc · polybar/polybar Wiki'
+      url: https://github.com/polybar/polybar/wiki/Module:-ipc
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-17T00:24:14'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Top 8 polybar-script Open-Source Projects (Jun 2021)
+      url: https://www.libhunt.com/t/polybar-scripts
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-17T00:24:17'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: chillje/polybar-scripts
+      url: https://gitmemory.com/chillje/polybar-scripts
       zoom: 0.75
