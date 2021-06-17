@@ -220,6 +220,8 @@ export GREP_OPTIONS='--color=auto'
 			alias grubc='sudo nvim /etc/default/grub'
 			alias bkpc='nvim ~/.local/bin/backup-phone.sh'
 			alias pbc='nvim ~/.config/polybar/config'
+	# DOOM EMACS
+		alias de='~/.emacs.d/bin/doom'
 	# FONT PREVIEW
 		alias ff='fc-list : family'
 		alias fp='fontpreview'

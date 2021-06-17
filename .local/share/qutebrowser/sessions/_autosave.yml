@@ -6,17 +6,7 @@ windows:
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-17T14:53:54'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: dotfiles/config at main · markbojack/dotfiles
-      url: https://github.com/markbojack/dotfiles/blob/main/.config/i3/config
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-17T14:53:53'
+      last_visited: '2021-06-17T15:06:17'
       pinned: false
       scroll-pos:
         x: 0
@@ -24,25 +14,28 @@ windows:
       title: Sample of local fonts matching ''
       url: file:///home/mark/.local/bin/fonts.html
       zoom: 0.75
-  - active: true
-    history:
-    - active: true
-      last_visited: '2021-06-17T14:56:33'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 520
-      title: 'email - mutt: mark as read and delete - Unix & Linux Stack Exchange'
-      url: https://unix.stackexchange.com/questions/44358/mutt-mark-as-read-and-delete
-      zoom: 0.75
   - history:
+    - last_visited: '2021-06-17T15:09:56'
+      pinned: false
+      title: doom emacs - Google Search
+      url: https://www.google.com/search?q=doom%20emacs
     - active: true
-      last_visited: '2021-06-17T14:56:41'
+      last_visited: '2021-06-17T15:10:06'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: "Deleting all e-mail messages in your inbox with mutt | Major Hayden's
-        Blog \U0001F920"
-      url: https://major.io/2009/06/19/deleting-all-e-mail-messages-in-your-inbox-with-mutt/
+      title: 'hlissner/doom-emacs: An Emacs framework for the stubborn martian hacker'
+      url: https://github.com/hlissner/doom-emacs
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-17T15:52:25'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Sample of local fonts matching ''
+      url: file:///home/mark/.local/bin/fonts.html
       zoom: 0.75

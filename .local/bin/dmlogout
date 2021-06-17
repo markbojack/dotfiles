@@ -31,30 +31,31 @@ choice=$(printf '%s\n' "${options[@]}" | dmenu -i -h 18 -fn "Roboto Mono Nerd Fo
 case $choice in
     'Empty trash')
         if [[ "$(echo -e "No\nYes" | dmenu -i -h 18 -fn "Roboto Mono Nerd Font-8" -p "${choice}?" "${@}" )" == "Yes" ]]; then
-        	~/.local/bin/empty-trash.sh
+        	empty-trash.sh
         else
             output "User chose not to logout." && exit 1
         fi
         ;;
     'Logout')
         if [[ "$(echo -e "No\nYes" | dmenu -i -h 18 -fn "Roboto Mono Nerd Font-8" -p "${choice}?" "${@}" )" == "Yes" ]]; then
-            for manager in "${MANAGERS[@]}"; do 
-                killall "${manager}" || output "Process ${manager} was not running."
-            done
+			logout.sh
+			for manager in "${MANAGERS[@]}"; do 
+				killall "${manager}" || output "Process ${manager} was not running."
+			done
         else
             output "User chose not to logout." && exit 1
         fi
         ;;
     'Reboot')
         if [[ "$(echo -e "No\nYes" | dmenu -i -h 18 -fn "Roboto Mono Nerd Font-8" -p "${choice}?" "${@}" )" == "Yes" ]]; then
-            ~/.local/bin/reboot.sh
+            reboot.sh
         else
             output "User chose not to reboot." && exit 0
         fi
         ;;
     'Poweroff')
         if [[ "$(echo -e "No\nYes" | dmenu -i -h 18 -fn "Roboto Mono Nerd Font-8" -p "${choice}?" "${@}" )" == "Yes" ]]; then
-            ~/.local/bin/poweroff.sh
+            poweroff.sh
         else
             output "User chose not to shutdown." && exit 0
         fi
