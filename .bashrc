@@ -169,7 +169,7 @@ export VISUAL="nvim"
 export EDITOR="$VISUAL"
 export TERMINAL="alacritty"
 export MANPAGER="nvim -c 'set ft=man' -"
-export PATH=$HOME/p-dot-script:$PATH
+export PATH=$HOME/p-dot-script:$HOME/.emacs.d:$PATH
 export HISTSIZE=1000
 export HISTFILESIZE=1000
 export AUTOFEATURE=true

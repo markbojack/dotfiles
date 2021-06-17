@@ -6,36 +6,22 @@ windows:
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-17T15:06:17'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Sample of local fonts matching ''
-      url: file:///home/mark/.local/bin/fonts.html
-      zoom: 0.75
-  - history:
-    - last_visited: '2021-06-17T15:09:56'
-      pinned: false
-      title: doom emacs - Google Search
-      url: https://www.google.com/search?q=doom%20emacs
-    - active: true
-      last_visited: '2021-06-17T15:10:06'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'hlissner/doom-emacs: An Emacs framework for the stubborn martian hacker'
-      url: https://github.com/hlissner/doom-emacs
-      zoom: 0.75
-  - active: true
-    history:
-    - active: true
       last_visited: '2021-06-17T15:52:25'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
+        y: 3145
       title: Sample of local fonts matching ''
       url: file:///home/mark/.local/bin/fonts.html
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-17T18:52:27'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Function that subs dashes with zeros in a dataframe column : Rlanguage'
+      url: https://www.reddit.com/r/Rlanguage/comments/o1slnc/function_that_subs_dashes_with_zeros_in_a/
       zoom: 0.75

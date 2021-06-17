@@ -294,8 +294,8 @@ bar {
                 separator #28282800
                 #                       border          bg              text
                 focused_workspace       $fws	        $fws	        $textcolor
-                inactive_workspace      $ibgcolor       $ibgcolor       $itextcolor
-                urgent_workspace        $ubgcolor       $ubgcolor       $textcolor
+                inactive_workspace      $barcolor	   	$barcolor       	$itextcolor
+                urgent_workspace        $barcolor		$barcolor       	$textcolor
         }
 
 	#status_command /usr/bin/bumblebee-status -m spotify disk:root cpu \
