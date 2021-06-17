@@ -142,8 +142,7 @@ ex ()
 echo "Terminal opened on:" `date` >> ~/terminal.log
 #	colorscript -r
 #	motivate
-cowfortune
-#	motivate | cowsay -f $(ls /usr/share/cows/|shuf -n 1) | lolcat
+motivate | cowsay -f $(ls /usr/share/cows/|shuf -n 1) | lolcat
 xset r rate 220 100 # faster keys 
 setxkbmap -option caps:swapescape #to make caps escape
 # setxkbmap -option caps:super -variant altgr-intl 		# make caps super...

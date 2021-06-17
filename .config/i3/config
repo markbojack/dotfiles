@@ -8,9 +8,13 @@ focus_follows_mouse no
 # screen before suspend. Use loginctl lock-session to lock your screen.
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
+# NetworkManager is the most popular way to manage wireless networks on Linux,
+# and nm-applet is a desktop environment-independent system tray GUI for it.
+exec --no-startup-id nm-applet
+
 # Use pactl to adjust volume in PulseAudio.
 #set $refresh_i3status killall -SIGUSR1 i3status
-#	set $refresh_i3status killall i3bar && i3bar -tb bar-0  # this is the one you were using with i3blocks
+set $refresh_i3status killall i3bar && i3bar -tb bar-0
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% && $refresh_i3status
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5% && $refresh_i3status
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
@@ -149,16 +153,11 @@ bindsym $mod+a focus parent
 ### then paste into the config where the wallpaper text is
 ### exit and restart i3
 
-#	set $ws1 ""
-#	set $ws2 "🌏"
-#	set $ws3 "📬"
-#	set $ws4 "🎵"
-#	set $ws5 "📰"
-set $ws1 "1"
-set $ws2 "2"
-set $ws3 "3"
-set $ws4 "4"
-set $ws5 "5"
+set $ws1 ""
+set $ws2 "🌏"
+set $ws3 "📬"
+set $ws4 "🎵"
+set $ws5 "📰"
 
 # switch to workspace
 ## this is default but leave out `number` to just have icons
@@ -219,15 +218,10 @@ exec_always --no-startup-id numlockx on
 exec_always --no-startup-id autotiling
 exec_always --no-startup-id clipmenud
 exec_always --no-startup-id picom --experimental-backend
-exec_always --no-startup-id ~/.local/bin/launchpolybar.sh
-# keep these exec not exec_always
-# kmix you can consider; it's for the volume applet
-# exec --no-startup-id kmix #ok, evidently this will work with awesomeWM but not i3 womp
-exec --no-startup-id nm-applet
 
 # wallpaper options
-exec_always --no-startup-id feh --bg-fill /home/mark/Downloads/GgcdiFN.jpg
-#	exec_always --no-startup-id ~/.local/bin/styli.sh -s colorful
+exec_always --no-startup-id feh --bg-fill /home/mark/Downloads/Abstract-grey-wallpaper-HD-desktop.jpg
+#	exec_always ~/.local/bin/styli.sh -p
 
 exec --no-startup-id tdrop -am -w 60% -y 25% -x 20% -h 50% -n 1 alacritty -e bash -c 'remind -cl+2m@ ~/p-dot-script/remind.rem *5 && echo -e "\n" && sleep 10'
 exec --no-startup-id alacritty
@@ -258,11 +252,9 @@ assign [title="neomutt"] $ws3
 # Window colors
 ## the last 2 digits is transparency
 ## https://gist.github.com/lopspower/03fb1cc0ac9f32ef38f4
-set $bgcolor    #d3d3d3
+set $bgcolor    #FFFFFFFF
 set $ibgcolor   #363636
-# for selected thing on the bar
 set $fws		#000000
-set $fwsib		#00000000
 
 # I3 BAR COLOR ----------------------------
 # NOW GO TO THIS FILE AND SEARCH TAG :bar:
@@ -287,49 +279,46 @@ client.urgent           $ubgcolor       $ubgcolor       $textcolor      $ubgcolo
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-#	bar {
+bar {
 		# STATUS BARS
-        #	status_command i3status #default status
-        #	status_command i3status -c /home/mark/.config/i3status/i3status.conf #custom status
-		#	status_command SCRIPT_DIR=~/.config/i3blocks i3blocks -c /home/mark/.config/i3blocks/i3blocks.conf
-		#	i3bar_command i3bar -t
-		#	tray_output none # THIS IS FOR WIFI/INTERNET ICON ON STATUS BAR THAT LOOKS WEIRD COMMENT OUT TO SHOW IT
-		#	font pango:Roboto Mono Nerd Font 8
-		#	position top
-		#	height 30
+        ## status_command i3status #default status
+        ## status_command i3status -c /home/mark/.config/i3status/i3status.conf #custom status
+		status_command SCRIPT_DIR=~/.config/i3blocks i3blocks -c /home/mark/.config/i3blocks/i3blocks.conf
+		i3bar_command i3bar -t
+		# THIS IS FOR WIFI/INTERNET ICON ON STATUS BAR THAT LOOKS WEIRD
+		# COMMENT OUT TO SHOW IT
+		tray_output none
+		font pango:Roboto Mono Nerd Font 8
+		position top
+		#height 30
 
-        #	colors {
-                #	background $barcolor
-                #	separator #282828
-                #	#                       border          bg              text
-                #	focused_workspace       $fws	        $fws	        $textcolor
-                #	inactive_workspace      $fwsib     		$fwsib	      	$itextcolor
-                #	urgent_workspace        $ubgcolor       $ubgcolor       $textcolor
-        #	}
+        colors {
+                background $barcolor
+                separator #282828
+                #                       border          bg              text
+                focused_workspace       $fws	        $fws	        $textcolor
+                inactive_workspace      $ibgcolor       $ibgcolor       $itextcolor
+                urgent_workspace        $ubgcolor       $ubgcolor       $textcolor
+        }
 
 	#status_command /usr/bin/bumblebee-status -m spotify disk:root cpu \
 		#memory sensors arch-update weather pasink date time \
 		#-p root.path=/ time.format="%H:%M CW %V" date.format="%a, %b %d %Y" \
 		#-t iceberg-rainbow
-#	}
+}
 
 # Display layout (if needed)
 #exec_always /home/mark/.screenlayout/filename.sh
 
-# default gaps
-#	for_window [class=".*"] border pixel 1 #*
-gaps inner 8
-gaps outer 1
-gaps top 16
-gaps bottom -5
-
 # borders for i3-gaps
-hide_edge_borders horizontal
-default_border pixel 2
-default_floating_border pixel 2
+default_border pixel 3
+default_floating_border pixel 3
 #	default_border none
 #	default_floating_border none
 
+# default gaps
+gaps inner 15
+gaps outer 1
 
 # gaps
 set $mode_gaps Gaps: (o)uter, (i)nner, (h)orizontal, (v)ertical, (t)op, (r)ight, (b)ottom, (l)eft
@@ -466,8 +455,8 @@ bindsym $mod+m bar mode toggle
 for_window [class="Yad"] floating enable
 
 # moar keybindings
-bindsym $mod+Shift+f		exec --no-startup-id bash ~/.local/bin/fontpreview.sh && qutebrowser ~/.local/bin/fonts.html; workspace $ws2
-bindsym $mod+Shift+w		exec --no-startup-id bash ~/.local/bin/styli.sh -s colorful
+bindsym $mod+Shift+f		exec --no-startup-id bash ~/.local/bin/fontpreview && qutebrowser ~/.local/bin/fonts.html; workspace $ws2
+bindsym $mod+Shift+s		exec --no-startup-id bash ~/.local/bin/styli.sh -p
 
 bindsym $mod+Shift+x		exec --no-startup-id ~/.local/bin/dmprompt "Poweroff?" ~/.local/bin/poweroff.sh
 bindsym $mod+Shift+m		exec --no-startup-id keynav
@@ -487,8 +476,7 @@ bindsym $mod+Shift+p 		exec --no-startup-id tdrop -am -w 60% -y 25% -x 20% -h 50
 bindsym $mod+p 				exec --no-startup-id tdrop -am -w 70% -y 10% -x 15% -h 80% -n 6 pcmanfm
 
 bindsym $mod+Shift+u 		exec --no-startup-id tdrop -am -w 98% -y 4% -x 1% -h 95% -n 7 alacritty
-bindsym $mod+Shift+i 		exec --no-startup-id tdrop -am -w 49% -y 4% -x 1% -h 95% -n 8 alacritty
-bindsym $mod+Shift+o 		exec --no-startup-id tdrop -am -w 48% -y 4% -x 51% -h 95% -n 9 alacritty
+bindsym $mod+Shift+i 		exec --no-startup-id tdrop -am -w 48% -y 4% -x 1% -h 95% -n 8 alacritty
+bindsym $mod+Shift+o 		exec --no-startup-id tdrop -am -w 49% -y 4% -x 50% -h 95% -n 9 alacritty
 #bindsym $mod+Shift+q 		exec --no-startup-id tdrop -am -w 98% -y 4% -x 1% -h 95% -n 10 qutebrowser
 bindsym $mod+Shift+n 		exec --no-startup-id tdrop -am -w 98% -y 4% -x 1% -h 95% -n 11 alacritty -e ranger
-# NB trop -n 20 is being used to open windows by dmconf

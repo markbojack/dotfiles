@@ -115,8 +115,12 @@ type = custom/script
 tail = true
 label = %output%
 exec-if = pgrep -fl push-all
-exec = echo "" 
+${\033[0;31m}
+NC='\033[0m' # No Color
+printf "I ${RED}love${NC} Stack Overflow\n"
+exec = echo -e "" 
 label-foreground = $(colors.secondary)
+foreground = $(colors.secondary)
 
 [module/ytdlcheck]
 type = custom/script
