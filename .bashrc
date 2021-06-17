@@ -141,8 +141,13 @@ ex ()
 # STARTUP ====================================================================
 echo "Terminal opened on:" `date` >> ~/terminal.log
 #	colorscript -r
-#	motivate
+#	pfetch
+#	neofetch
+#	paleofetch
 motivate | cowsay -f $(ls /usr/share/cows/|shuf -n 1) | lolcat
+#	fortune | cowsay -f $(ls /usr/share/cows/|shuf -n 1) | lolcat
+#	misfortune | cowsay -f $(ls /usr/share/cows/|shuf -n 1) | lolcat
+#	cowfortune
 xset r rate 220 100 # faster keys 
 setxkbmap -option caps:swapescape #to make caps escape
 # setxkbmap -option caps:super -variant altgr-intl 		# make caps super...

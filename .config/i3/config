@@ -74,10 +74,9 @@ mode "command" {
 
 # other keybindings
 bindsym $mod+q exec --no-startup-id qutebrowser; workspace $ws2
-bindsym $mod+n exec --no-startup-id alacritty -e newsboat; workspace $ws5
-#bindsym $mod+p exec --no-startup-id pcmanfm
 bindsym $mod+e exec --no-startup-id alacritty -e bash -c 'export EDITOR=nvim && neomutt'; workspace $ws3
-bindsym $mod+u exec --no-startup-id blueman-manager; workspace $ws4
+bindsym $mod+n exec --no-startup-id alacritty -e newsboat; workspace $ws4
+bindsym $mod+u exec --no-startup-id blueman-manager; workspace $ws5
 
 # for keyindicator
 bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
@@ -156,8 +155,8 @@ bindsym $mod+a focus parent
 set $ws1 ""
 set $ws2 "🌏"
 set $ws3 "📬"
-set $ws4 "🎵"
-set $ws5 "📰"
+set $ws4 "📰"
+set $ws5 "🎵"
 
 # switch to workspace
 ## this is default but leave out `number` to just have icons
@@ -225,8 +224,10 @@ exec_always --no-startup-id feh --bg-fill /home/mark/Downloads/Abstract-grey-wal
 
 exec --no-startup-id tdrop -am -w 60% -y 25% -x 20% -h 50% -n 1 alacritty -e bash -c 'remind -cl+2m@ ~/p-dot-script/remind.rem *5 && echo -e "\n" && sleep 10'
 exec --no-startup-id alacritty
-#exec --no-startup-id qutebrowser; workspace $ws2
-#exec --no-startup-id alacritty -t neomutt -e neomutt
+exec --no-startup-id qutebrowser
+exec --no-startup-id sleep 5 && alacritty -t neomutt -e neomutt
+exec --no-startup-id sleep 6 && alacritty -t newsboat -e newsboat
+exec --no-startup-id sleep 7 && blueman-manager
 
 # Lock
 # if you have i3lock
@@ -238,10 +239,10 @@ exec --no-startup-id alacritty
 ## <then put in config file>
 ## look for: WM_CLASS <look at 2nd result>
 #for_window [class="Alacritty"] move to workspace $ws1
-for_window [class="Brave-browser"] move to workspace $ws2
 for_window [class="qutebrowser"] move to workspace $ws2
-#for_window [class="Pcmanfm"] move to workspace $ws3
 assign [title="neomutt"] $ws3
+assign [title="newsboat"] $ws4
+for_window [class="Blueman-manager"] move to workspace $ws5
 
 # here's how you set floating and positioning:
 ## exec --no-startup-id /usr/bin/Pcmanfm
@@ -252,19 +253,15 @@ assign [title="neomutt"] $ws3
 # Window colors
 ## the last 2 digits is transparency
 ## https://gist.github.com/lopspower/03fb1cc0ac9f32ef38f4
-set $bgcolor    #FFFFFFFF
-set $ibgcolor   #363636
-set $fws		#000000
+set $bgcolor    #FFFFFF
+set $ibgcolor   #403E41
+set $fws		#2D2A2E
 
 # I3 BAR COLOR ----------------------------
 # NOW GO TO THIS FILE AND SEARCH TAG :bar:
 # file:///home/mark/.config/i3blocks/i3blocks.conf
 
-set $barcolor	#00000000 #clear
-#	set $barcolor	#272822bf #monokai
-#	set $barcolor   #1b2b34bf # oceanic
-#	set $barcolor 	#151515bf # chalk
-#	set $barcolor	#2E3440bf # nord
+set $barcolor	#2D2A2E99
 # -----------------------------------------
 
 set $textcolor  #ffffff  
@@ -294,7 +291,7 @@ bar {
 
         colors {
                 background $barcolor
-                separator #282828
+                separator #28282800
                 #                       border          bg              text
                 focused_workspace       $fws	        $fws	        $textcolor
                 inactive_workspace      $ibgcolor       $ibgcolor       $itextcolor
@@ -478,5 +475,5 @@ bindsym $mod+p 				exec --no-startup-id tdrop -am -w 70% -y 10% -x 15% -h 80% -n
 bindsym $mod+Shift+u 		exec --no-startup-id tdrop -am -w 98% -y 4% -x 1% -h 95% -n 7 alacritty
 bindsym $mod+Shift+i 		exec --no-startup-id tdrop -am -w 48% -y 4% -x 1% -h 95% -n 8 alacritty
 bindsym $mod+Shift+o 		exec --no-startup-id tdrop -am -w 49% -y 4% -x 50% -h 95% -n 9 alacritty
-#bindsym $mod+Shift+q 		exec --no-startup-id tdrop -am -w 98% -y 4% -x 1% -h 95% -n 10 qutebrowser
+#	bindsym $mod+Shift+q 		exec --no-startup-id tdrop -am -w 98% -y 4% -x 1% -h 95% -n 10 qutebrowser
 bindsym $mod+Shift+n 		exec --no-startup-id tdrop -am -w 98% -y 4% -x 1% -h 95% -n 11 alacritty -e ranger

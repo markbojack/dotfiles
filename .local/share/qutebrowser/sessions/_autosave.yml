@@ -1,0 +1,48 @@
+windows:
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEgAAACMAAAVDAAAC7QAAAAAAAAAABVYAAAASAAAA
+    IwAABUMAAALt
+  tabs:
+  - history:
+    - active: true
+      last_visited: '2021-06-17T14:53:54'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: dotfiles/config at main · markbojack/dotfiles
+      url: https://github.com/markbojack/dotfiles/blob/main/.config/i3/config
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-17T14:53:53'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Sample of local fonts matching ''
+      url: file:///home/mark/.local/bin/fonts.html
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-17T14:56:33'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 520
+      title: 'email - mutt: mark as read and delete - Unix & Linux Stack Exchange'
+      url: https://unix.stackexchange.com/questions/44358/mutt-mark-as-read-and-delete
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-17T14:56:41'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: "Deleting all e-mail messages in your inbox with mutt | Major Hayden's
+        Blog \U0001F920"
+      url: https://major.io/2009/06/19/deleting-all-e-mail-messages-in-your-inbox-with-mutt/
+      zoom: 0.75

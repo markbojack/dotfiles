@@ -1,23 +1,23 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAAEgAAACMAAAKgAAAC7QAAAAAAAAAABVYAAAASAAAA
-    IwAAAqAAAALt
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEgAAACMAAAVDAAAC7QAAAAAAAAAABVYAAAASAAAA
+    IwAABUMAAALt
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-17T11:34:10'
+      last_visited: '2021-06-17T14:28:53'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: dotfiles/config at main · markbojack/dotfiles
+      title: github.com
       url: https://github.com/markbojack/dotfiles/blob/main/.config/i3/config
       zoom: 0.75
   - active: true
     history:
     - active: true
-      last_visited: '2021-06-17T11:34:50'
+      last_visited: '2021-06-17T14:28:53'
       pinned: false
       scroll-pos:
         x: 0
