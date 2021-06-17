@@ -455,6 +455,7 @@ bindsym $mod+m bar mode toggle
 for_window [class="Yad"] floating enable
 
 # moar keybindings
+bindsym $mod+Shift+e 		exec --no-startup-id emacs
 bindsym $mod+Shift+f		exec --no-startup-id bash ~/.local/bin/fontpreview.sh && qutebrowser ~/.local/bin/fonts.html; workspace $ws2
 bindsym $mod+Shift+w		exec --no-startup-id bash ~/.local/bin/styli.sh -p
 
@@ -470,7 +471,7 @@ bindsym $mod+b				exec --no-startup-id bash ~/.local/bin/backup-phone.sh
 bindsym $mod+y				exec --no-startup-id youtube-dl https://youtube.com/playlist?list=PLrbbUMGM2tEj3PbprusLpVP4gKCYoIDuc 
 
 bindsym $mod+Shift+c		exec --no-startup-id tdrop -am -w 30% -y 30% -x 35% -n 2 alacritty -e R -q --vanilla
-bindsym $mod+Shift+e 		exec --no-startup-id tdrop -am -w 70% -y 10% -x 15% -h 80% -n 3 alacritty -e neomutt
+#	bindsym $mod+Shift+e 		exec --no-startup-id tdrop -am -w 70% -y 10% -x 15% -h 80% -n 3 alacritty -e neomutt
 bindsym $mod+Shift+v 		exec --no-startup-id tdrop -am -w 40% -y 20% -x 30% -h 60% -n 4 alacritty -e nvim -c VimwikiIndex
 bindsym $mod+Shift+p 		exec --no-startup-id tdrop -am -w 60% -y 25% -x 20% -h 50% -n 5 alacritty -e bash -c 'remind -cl+2m@ ~/p-dot-script/remind.rem *5 && echo -e "\n" && sleep 100000000000'
 bindsym $mod+p 				exec --no-startup-id tdrop -am -w 70% -y 10% -x 15% -h 80% -n 6 pcmanfm

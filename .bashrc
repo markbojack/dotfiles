@@ -269,7 +269,8 @@ export GREP_OPTIONS='--color=auto'
 	# VIM SESSIONS
 		alias vc='nvim -S ~/.vim/sessions/copper-ingot.vim -c NERDTree ~/copper-ingot'
 		alias vs='nvim -S ~/.vim/sessions/seasonality.vim -c NERDTree ~/seasonality'
-	# YOUTUBE-DL
+	# YOUTUBE
+		alias ytv='youtube-viewer'
 		alias yt='youtube-dl'
 		alias ytp='youtube-dl https://youtube.com/playlist?list=PLrbbUMGM2tEj3PbprusLpVP4gKCYoIDuc'
 		alias yta-aac="youtube-dl --extract-audio --audio-format aac "
