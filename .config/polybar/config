@@ -47,6 +47,7 @@ font-2 = Font Awesome 5 Free Solid:pixelsize=7;2
 font-3 = Font Awesome 5 Brands:pixelsize=7;2
 font-4 = Weather Icons:pixelsize=8;2
 font-5 = PowerLineSymbols:pixelsize=8;2
+font-6 = Noto Color Emoji:pixelsize=8;2
 
 modules-left = i3
 modules-center = gpacheck ytdlcheck bkpcheck
@@ -115,7 +116,7 @@ tail = true
 label = %output%
 exec-if = pgrep -fl push-all
 exec = echo "" 
-format-exec-foreground = $(colors.foreground-alt)
+foreground = $(colors.foreground-alt)
 
 [module/ytdlcheck]
 type = custom/script
