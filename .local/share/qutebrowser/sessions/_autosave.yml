@@ -1,27 +1,66 @@
 windows:
-- active: true
-  geometry: !!binary |
+- geometry: !!binary |
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEgAAACMAAAVDAAAC7QAAAAAAAAAABVYAAAASAAAA
     IwAABUMAAALt
   tabs:
   - history:
-    - active: true
-      last_visited: '2021-06-17T15:52:25'
+    - last_visited: '2021-06-17T19:44:04'
       pinned: false
-      scroll-pos:
-        x: 0
-        y: 3145
-      title: Sample of local fonts matching ''
-      url: file:///home/mark/.local/bin/fonts.html
-      zoom: 0.75
-  - active: true
-    history:
+      title: How can I get a channel ID from YouTube? - Stack Overflow
+      url: https://stackoverflow.com/questions/14366648/how-can-i-get-a-channel-id-from-youtube
+    - last_visited: '2021-06-17T19:44:34'
+      pinned: false
+      title: YouTube Channel ID - Find Channel ID, info & statistics
+      url: https://commentpicker.com/youtube-channel-id.php
     - active: true
-      last_visited: '2021-06-17T18:52:27'
+      last_visited: '2021-06-17T19:52:29'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: 'Function that subs dashes with zeros in a dataframe column : Rlanguage'
-      url: https://www.reddit.com/r/Rlanguage/comments/o1slnc/function_that_subs_dashes_with_zeros_in_a/
+      title: YouTube Channel ID - Find Channel ID, info & statistics
+      url: https://commentpicker.com/youtube-channel-id.php#youtube-channel-id
+      zoom: 0.75
+  - active: true
+    history:
+    - last_visited: '2021-06-17T19:48:58'
+      pinned: false
+      title: distrotube - YouTube
+      url: https://www.youtube.com/results?search_query=distrotube
+    - last_visited: '2021-06-17T19:48:58'
+      pinned: false
+      title: DistroTube - YouTube
+      url: https://www.youtube.com/channel/UCVls1GmFKf6WlTraIb_IaJg
+    - active: true
+      last_visited: '2021-06-17T19:54:10'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: forum.lukesmith.xyz
+      url: https://forum.lukesmith.xyz/thread-475.html
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-06-17T19:53:21'
+      pinned: false
+      title: luke smith thread 475 youtube channel id - Google Search
+      url: https://www.google.com/search?q=luke%20smith%20thread%20475%20youtube%20channel%20id
+    - active: true
+      last_visited: '2021-06-17T19:56:04'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: luke smith youtube channel id - Google Search
+      url: https://www.google.com/search?q=luke+smith+youtube+channel+id&ei=wEXLYJHZCfCbmAXsn4hA&oq=luke+smith+youtube+channel+id&gs_lcp=Cgdnd3Mtd2l6EAM6BAghEApQkOcJWObxCWC29AloAHAAeACAAegBiAHWDpIBBjAuMTEuMZgBAKABAaoBB2d3cy13aXrAAQE&sclient=gws-wiz&ved=0ahUKEwiRub2I257xAhXwDaYKHewPAggQ4dUDCBE&uact=5
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-17T19:56:14'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: A Guide to Using RSS to Replace Social Media
+      url: https://lukesmith.xyz/blog/a-guide-to-using-rss-to-replace-social-media
       zoom: 0.75
