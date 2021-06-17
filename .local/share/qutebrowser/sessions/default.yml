@@ -1,33 +1,27 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAADwAAACAAAAVGAAAC8AAAAAAAAAAABVYAAAAPAAAA
-    IAAABUYAAALw
+    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAAEgAAACMAAAKgAAAC7QAAAAAAAAAABVYAAAASAAAA
+    IwAAAqAAAALt
   tabs:
-  - active: true
-    history:
-    - last_visited: '2021-06-17T11:29:42'
-      pinned: false
-      title: markbojack (Mark Bojack)
-      url: https://github.com/markbojack
-    - last_visited: '2021-06-17T11:29:47'
-      pinned: false
-      title: markbojack/dotfiles
-      url: https://github.com/markbojack/dotfiles
-    - last_visited: '2021-06-17T11:29:47'
-      pinned: false
-      title: dotfiles/.config at main · markbojack/dotfiles
-      url: https://github.com/markbojack/dotfiles/tree/main/.config
-    - last_visited: '2021-06-17T11:29:57'
-      pinned: false
-      title: dotfiles/.config/i3 at main · markbojack/dotfiles
-      url: https://github.com/markbojack/dotfiles/tree/main/.config/i3
+  - history:
     - active: true
-      last_visited: '2021-06-17T11:30:00'
+      last_visited: '2021-06-17T11:34:10'
       pinned: false
       scroll-pos:
         x: 0
-        y: 4800
+        y: 0
       title: dotfiles/config at main · markbojack/dotfiles
       url: https://github.com/markbojack/dotfiles/blob/main/.config/i3/config
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-17T11:34:50'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Sample of local fonts matching ''
+      url: file:///home/mark/.local/bin/fonts.html
       zoom: 0.75
