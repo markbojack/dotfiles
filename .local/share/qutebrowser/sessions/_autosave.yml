@@ -16,16 +16,16 @@ windows:
       zoom: 0.75
   - active: true
     history:
-    - last_visited: '2021-06-17T10:51:16'
+    - last_visited: '2021-06-17T10:59:31'
       pinned: false
       title: 'Module: script · polybar/polybar Wiki'
       url: https://github.com/polybar/polybar/wiki/Module:-script
     - active: true
-      last_visited: '2021-06-17T10:59:22'
+      last_visited: '2021-06-17T10:59:34'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: Actions — Polybar User Manual stable documentation
-      url: https://polybar.readthedocs.io/en/stable/user/actions.html
+        y: 1600
+      title: Formatting · polybar/polybar Wiki
+      url: https://github.com/polybar/polybar/wiki/Formatting
       zoom: 0.75

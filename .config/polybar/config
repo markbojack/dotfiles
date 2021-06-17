@@ -115,7 +115,7 @@ tail = true
 label = %output%
 exec-if = pgrep -fl push-all
 exec = echo "" 
-format-foreground = $(colors.foreground-alt)
+format-exec-foreground = $(colors.foreground-alt)
 
 [module/ytdlcheck]
 type = custom/script
