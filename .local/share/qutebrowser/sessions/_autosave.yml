@@ -1,0 +1,27 @@
+windows:
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAAJAAAAGAAABUwAAAL8AAAACwAAABoAAAVKAAAC+gAAAAAAAAAABVYAAAALAAAA
+    GgAABUoAAAL6
+  tabs:
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-17T10:54:18'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Cheatsheet | Font Awesome
+      url: https://fontawesome.com/v5/cheatsheet/free/brands
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-17T10:51:16'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 760
+      title: 'Module: script · polybar/polybar Wiki'
+      url: https://github.com/polybar/polybar/wiki/Module:-script
+      zoom: 0.75

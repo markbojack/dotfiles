@@ -1,3 +1,0 @@
-#!/bin/bash
-
-bmon -R 30 -o format:fmt='$(attr:rxrate:bytes) $(attr:txrate:bytes)\n' -p enp3s0 | awk '{ print int($1/1000), int($2/1000) }'

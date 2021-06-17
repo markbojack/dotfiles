@@ -42,13 +42,14 @@ module-margin-left = 1
 module-margin-right = 1
 
 font-0 = DejaVu Sans:pixelsize=8;1
-font-1 = Font Awesome 5 Free:pixelsize=8;2
-font-2 = Font Awesome 5 Free Solid:pixelsize=8;2
-font-3 = Font Awesome 5 Brands:pixelsize=8;2
+font-1 = Font Awesome 5 Free:pixelsize=7;2
+font-2 = Font Awesome 5 Free Solid:pixelsize=7;2
+font-3 = Font Awesome 5 Brands:pixelsize=7;2
 font-4 = Weather Icons:pixelsize=8;2
+font-5 = PowerLineSymbols:pixelsize=8;2
 
 modules-left = i3
-modules-center = network gpacheck ytdlcheck bkpcheck
+modules-center = gpacheck ytdlcheck bkpcheck
 modules-right = mail bandwidth checkupdates cpu pulseaudio date
 
 tray-position = right
@@ -108,18 +109,14 @@ label-urgent-background = ${colors.alert}
 label-urgent-padding = 2
 
 ; MODULES ====================================================================
-[module/network]
-type = custom/script
-tail = true
-label = %output%
-exec = bmon -o format:fmt='$(attr:rxrate:bytes)\n' -p enp3s0 | awk '{print}'
-
 [module/gpacheck]
 type = custom/script
 tail = true
 label = %output%
 exec-if = pgrep -fl push-all
-exec = echo "GPA" 
+exec = echo "" 
+format-foreground = $(colors.foreground-alt)
+
 
 [module/ytdlcheck]
 type = custom/script
@@ -209,3 +206,5 @@ screenchange-reload = true
 [global/wm]
 margin-top = 5
 margin-bottom = 5
+
+; vim:ft=dosini
