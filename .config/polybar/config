@@ -117,7 +117,6 @@ exec-if = pgrep -fl push-all
 exec = echo "" 
 format-foreground = $(colors.foreground-alt)
 
-
 [module/ytdlcheck]
 type = custom/script
 tail = true
@@ -136,6 +135,7 @@ exec = echo "BKP"
 type = custom/script
 interval = 150
 format-prefix = "M"
+format-prefix-foreground = #5b
 label = %output%
 exec = [[ $(ls ~/.local/share/mail/markbojack.si@gmail.com/INBOX/new/) ]] && echo "hello" || echo "empty"
 

@@ -4,24 +4,28 @@ windows:
     AdnQywADAAAAAAAJAAAAGAAABUwAAAL8AAAACwAAABoAAAVKAAAC+gAAAAAAAAAABVYAAAALAAAA
     GgAABUoAAAL6
   tabs:
-  - active: true
-    history:
+  - history:
     - active: true
       last_visited: '2021-06-17T10:54:18'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
+        y: 240
       title: Cheatsheet | Font Awesome
       url: https://fontawesome.com/v5/cheatsheet/free/brands
       zoom: 0.75
-  - history:
+  - active: true
+    history:
+    - last_visited: '2021-06-17T10:51:16'
+      pinned: false
+      title: 'Module: script · polybar/polybar Wiki'
+      url: https://github.com/polybar/polybar/wiki/Module:-script
     - active: true
-      last_visited: '2021-06-17T10:51:16'
+      last_visited: '2021-06-17T10:59:22'
       pinned: false
       scroll-pos:
         x: 0
-        y: 760
-      title: 'Module: script · polybar/polybar Wiki'
-      url: https://github.com/polybar/polybar/wiki/Module:-script
+        y: 0
+      title: Actions — Polybar User Manual stable documentation
+      url: https://polybar.readthedocs.io/en/stable/user/actions.html
       zoom: 0.75
