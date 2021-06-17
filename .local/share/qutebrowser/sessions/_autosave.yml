@@ -1,7 +1,7 @@
 windows:
 - geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEgAAACMAAAVDAAAC7QAAAAAAAAAABVYAAAASAAAA
-    IwAABUMAAALt
+    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAAEgAAACMAAAKgAAAC7QAAAAAAAAAABVYAAAASAAAA
+    IwAAAqAAAALt
   tabs:
   - history:
     - last_visited: '2021-06-17T19:44:04'
@@ -17,50 +17,108 @@ windows:
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
+        y: 800
       title: YouTube Channel ID - Find Channel ID, info & statistics
       url: https://commentpicker.com/youtube-channel-id.php#youtube-channel-id
       zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-17T20:17:21'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 196
+      title: '[Xfce] Blue is <3 : unixporn'
+      url: https://www.reddit.com/r/unixporn/comments/o1qvff/xfce_blue_is_3/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-17T20:17:28'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: i9aamckhxr571.png (640×1079)
+      url: https://preview.redd.it/i9aamckhxr571.png?width=640&crop=smart&auto=webp&s=d61ad54f0adafefa103059ff512c461e64f3f43f
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-17T20:17:32'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: i9aamckhxr571.png (640×1079)
+      url: https://preview.redd.it/i9aamckhxr571.png?width=640&crop=smart&auto=webp&s=d61ad54f0adafefa103059ff512c461e64f3f43f
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-17T20:17:53'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: '[Xfce] Blue is <3 : unixporn'
+      url: https://www.reddit.com/r/unixporn/comments/o1qvff/xfce_blue_is_3/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-17T20:19:23'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: '[Xfce] Blue is <3 : unixporn'
+      url: https://www.reddit.com/r/unixporn/comments/o1qvff/xfce_blue_is_3/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-17T20:19:23'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: i9aamckhxr571.png (640×1079)
+      url: https://preview.redd.it/i9aamckhxr571.png?width=640&crop=smart&auto=webp&s=d61ad54f0adafefa103059ff512c461e64f3f43f
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-17T20:19:28'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Mehedi Rahman Mahi (u/__mehediii) - Reddit
+      url: https://www.reddit.com/user/__mehediii
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-17T20:19:30'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: stgf357qdr571.png (640×360)
+      url: https://preview.redd.it/stgf357qdr571.png?width=640&crop=smart&auto=webp&s=2051d24aff550358d4b1f2918d5901ca0e3b9e89
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-17T20:20:00'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: ossg24rtbr571.png (640×360)
+      url: https://preview.redd.it/ossg24rtbr571.png?width=640&crop=smart&auto=webp&s=73f1ceb2782531cc558258afab2ef32aec06fb90
+      zoom: 0.75
   - active: true
     history:
-    - last_visited: '2021-06-17T19:48:58'
-      pinned: false
-      title: distrotube - YouTube
-      url: https://www.youtube.com/results?search_query=distrotube
-    - last_visited: '2021-06-17T19:48:58'
-      pinned: false
-      title: DistroTube - YouTube
-      url: https://www.youtube.com/channel/UCVls1GmFKf6WlTraIb_IaJg
     - active: true
-      last_visited: '2021-06-17T19:54:10'
+      last_visited: '2021-06-17T20:20:38'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: forum.lukesmith.xyz
-      url: https://forum.lukesmith.xyz/thread-475.html
-      zoom: 0.75
-  - history:
-    - last_visited: '2021-06-17T19:53:21'
-      pinned: false
-      title: luke smith thread 475 youtube channel id - Google Search
-      url: https://www.google.com/search?q=luke%20smith%20thread%20475%20youtube%20channel%20id
-    - active: true
-      last_visited: '2021-06-17T19:56:04'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: luke smith youtube channel id - Google Search
-      url: https://www.google.com/search?q=luke+smith+youtube+channel+id&ei=wEXLYJHZCfCbmAXsn4hA&oq=luke+smith+youtube+channel+id&gs_lcp=Cgdnd3Mtd2l6EAM6BAghEApQkOcJWObxCWC29AloAHAAeACAAegBiAHWDpIBBjAuMTEuMZgBAKABAaoBB2d3cy13aXrAAQE&sclient=gws-wiz&ved=0ahUKEwiRub2I257xAhXwDaYKHewPAggQ4dUDCBE&uact=5
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-17T19:56:14'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: A Guide to Using RSS to Replace Social Media
-      url: https://lukesmith.xyz/blog/a-guide-to-using-rss-to-replace-social-media
+      title: 'netbeans not launch in arch linux : archlinux'
+      url: https://www.reddit.com/r/archlinux/comments/o1stdv/netbeans_not_launch_in_arch_linux/
       zoom: 0.75
