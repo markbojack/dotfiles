@@ -17,8 +17,7 @@ cd ~/p-dot-script
 isChanged="$(git status --porcelain | wc -l)"
 if [ "$isChanged" -ne 0 ]; then
 	echo "p-dot-script"
- 	cp /var/spool/cron/mark ~/p-dot-script/mark
- 	cp /etc/pamac.conf ~/p-dot-script/pamac.conf
+ 	cp /var/spool/cron/mark ~/p-dot-script/linked/mark
 	git add .
 	git commit -m "update"
 	git push -u origin main -q
