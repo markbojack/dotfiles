@@ -1,6 +1,5 @@
 windows:
-- active: true
-  geometry: !!binary |
+- geometry: !!binary |
     AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAAEAAAACEAAAKiAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAAAqIAAALv
   tabs:
@@ -24,24 +23,31 @@ windows:
       title: Home
       url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
       zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-18T08:24:29'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: '[dwm] just set up mpd and ncmpcpp : unixporn'
-      url: https://www.reddit.com/r/unixporn/comments/o2d339/dwm_just_set_up_mpd_and_ncmpcpp/
-      zoom: 0.75
   - active: true
     history:
+    - last_visited: '2021-06-18T08:39:30'
+      pinned: false
+      title: markbojack (Mark Bojack) · GitHub
+      url: https://github.com/markbojack
+    - last_visited: '2021-06-18T08:39:39'
+      pinned: false
+      title: Sign in to GitHub · GitHub
+      url: https://github.com/login?return_to=%2Fmarkbojack
+    - last_visited: '2021-06-18T08:40:02'
+      pinned: false
+      title: markbojack (Mark Bojack)
+      url: https://github.com/markbojack
+    - last_visited: '2021-06-18T08:40:03'
+      original-url: https://github.com/markbojack
+      pinned: false
+      title: Your Repositories
+      url: https://github.com/markbojack?tab=repositories
     - active: true
-      last_visited: '2021-06-18T08:24:48'
+      last_visited: '2021-06-18T08:40:07'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: c61bshtvdx571.png (1600×900)
-      url: https://i.redd.it/c61bshtvdx571.png
+      title: markbojack/Documents
+      url: https://github.com/markbojack/Documents
       zoom: 0.75
