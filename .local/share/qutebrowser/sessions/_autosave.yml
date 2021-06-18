@@ -1,5 +1,6 @@
 windows:
-- geometry: !!binary |
+- active: true
+  geometry: !!binary |
     AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAAEAAAACEAAAKiAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAAAqIAAALv
   tabs:
@@ -50,7 +51,7 @@ windows:
       title: dotfiles/.local/bin at main · markbojack/dotfiles
       url: https://github.com/markbojack/dotfiles/tree/main/.local/bin
     - active: true
-      last_visited: '2021-06-18T12:28:47'
+      last_visited: '2021-06-18T12:29:48'
       pinned: false
       scroll-pos:
         x: 0
