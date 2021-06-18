@@ -54,3 +54,23 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
+
+(add-to-list 'load-path "/usr/local/share/emacs/site-lisp/mu4e")
+(setq user-mail-address "markbojack.si@gmail.com"
+      user-full-name  "Mark Bojack"
+      mu4e-update-interval (* 10 60)
+      mu4e-get-mail-command "mbsync -a"
+	  mu4e-maildir "~/Mail"
+      mu4e-main-buffer-hide-personal-addresses t
+	  mu4e-change-filenames-when-moving t
+	  mu4e-drafts-folder "/[Gmail]/Drafts"
+	  mu4e-sent-folder   "/[Gmail]/Sent Mail"
+	  mu4e-refile-folder "/[Gmail]/All Mail"
+	  mu4e-trash-folder  "/[Gmail]/Trash")
+
+(setq mu4e-maildir-shortcuts
+    '((:maildir "/Inbox"    :key ?i)
+      (:maildir "/[Gmail]/Sent Mail" :key ?s)
+      (:maildir "/[Gmail]/Trash"     :key ?t)
+      (:maildir "/[Gmail]/Drafts"    :key ?d)
+      (:maildir "/[Gmail]/All Mail"  :key ?a)))
