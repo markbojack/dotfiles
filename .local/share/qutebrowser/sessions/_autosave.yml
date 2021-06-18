@@ -1,65 +1,16 @@
 windows:
-- active: true
-  geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAAEAAAACEAAAKiAAAC7wAAAAAAAAAABVYAAAAQAAAA
-    IQAAAqIAAALv
+- geometry: !!binary |
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
+    IQAABUUAAALv
   tabs:
-  - history:
-    - last_visited: '2021-06-18T08:01:39'
-      pinned: false
-      title: 'GitHub - felipesaa/A-vim-like-firefox-like-configuration-for-w3m: A
-        configuration and documentation for w3m'
-      url: https://github.com/felipesaa/A-vim-like-firefox-like-configuration-for-w3m
-    - last_visited: '2021-06-18T08:01:42'
-      pinned: false
-      title: A-vim-like-firefox-like-configuration-for-w3m/keymap at master · felipesaa/A-vim-like-firefox-like-configuration-for-w3m
-        · GitHub
-      url: https://github.com/felipesaa/A-vim-like-firefox-like-configuration-for-w3m/blob/master/keymap
+  - active: true
+    history:
     - active: true
-      last_visited: '2021-06-18T08:16:58'
+      last_visited: '2021-06-18T10:54:40'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
       title: Home
       url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
-      zoom: 0.75
-  - history:
-    - last_visited: '2021-06-18T08:39:30'
-      pinned: false
-      title: markbojack (Mark Bojack) · GitHub
-      url: https://github.com/markbojack
-    - last_visited: '2021-06-18T08:39:39'
-      pinned: false
-      title: Sign in to GitHub · GitHub
-      url: https://github.com/login?return_to=%2Fmarkbojack
-    - last_visited: '2021-06-18T08:40:02'
-      pinned: false
-      title: markbojack (Mark Bojack)
-      url: https://github.com/markbojack
-    - last_visited: '2021-06-18T08:40:03'
-      original-url: https://github.com/markbojack
-      pinned: false
-      title: Your Repositories
-      url: https://github.com/markbojack?tab=repositories
-    - active: true
-      last_visited: '2021-06-18T08:40:49'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: markbojack/Documents
-      url: https://github.com/markbojack/Documents
-      zoom: 0.75
-  - active: true
-    history:
-    - active: true
-      last_visited: '2021-06-18T08:59:21'
-      original-url: https://teespring.com/stores/distrotube
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: https://distrotube.creator-spring.com/?
-      url: https://distrotube.creator-spring.com/?
       zoom: 0.75

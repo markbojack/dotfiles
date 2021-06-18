@@ -1,13 +1,23 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
-    IQAABUUAAALv
+    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAAEAAAACEAAAKiAAAC7wAAAAAAAAAABVYAAAAQAAAA
+    IQAAAqIAAALv
   tabs:
   - active: true
     history:
+    - last_visited: '2021-06-18T08:01:39'
+      pinned: false
+      title: 'GitHub - felipesaa/A-vim-like-firefox-like-configuration-for-w3m: A
+        configuration and documentation for w3m'
+      url: https://github.com/felipesaa/A-vim-like-firefox-like-configuration-for-w3m
+    - last_visited: '2021-06-18T08:01:42'
+      pinned: false
+      title: A-vim-like-firefox-like-configuration-for-w3m/keymap at master · felipesaa/A-vim-like-firefox-like-configuration-for-w3m
+        · GitHub
+      url: https://github.com/felipesaa/A-vim-like-firefox-like-configuration-for-w3m/blob/master/keymap
     - active: true
-      last_visited: '2021-06-18T07:23:52'
+      last_visited: '2021-06-18T08:16:58'
       pinned: false
       scroll-pos:
         x: 0
