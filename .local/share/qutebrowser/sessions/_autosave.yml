@@ -1,11 +1,11 @@
 windows:
 - geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAAEAAAACEAAAKiAAAC7wAAAAAAAAAABVYAAAAQAAAA
-    IQAAAqIAAALv
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
+    IQAABUUAAALv
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-18T10:54:40'
+      last_visited: '2021-06-18T17:59:52'
       pinned: false
       scroll-pos:
         x: 0
@@ -15,7 +15,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-18T11:31:31'
+      last_visited: '2021-06-18T17:59:52'
       pinned: false
       scroll-pos:
         x: 0
@@ -24,54 +24,4 @@ windows:
       url: file:///home/mark/.local/bin/fonts.html
       zoom: 0.75
   - active: true
-    history:
-    - last_visited: '2021-06-18T12:00:54'
-      pinned: false
-      title: markbojack (Mark Bojack)
-      url: https://github.com/markbojack
-    - last_visited: '2021-06-18T12:01:00'
-      pinned: false
-      title: markbojack/dotfiles
-      url: https://github.com/markbojack/dotfiles
-    - last_visited: '2021-06-18T12:01:00'
-      pinned: false
-      title: dotfiles/.doom.d at main · markbojack/dotfiles
-      url: https://github.com/markbojack/dotfiles/tree/main/.doom.d
-    - last_visited: '2021-06-18T12:28:24'
-      pinned: false
-      title: markbojack/dotfiles
-      url: https://github.com/markbojack/dotfiles
-    - last_visited: '2021-06-18T12:28:37'
-      pinned: false
-      title: dotfiles/.local at main · markbojack/dotfiles
-      url: https://github.com/markbojack/dotfiles/tree/main/.local
-    - last_visited: '2021-06-18T12:28:41'
-      pinned: false
-      title: dotfiles/.local/bin at main · markbojack/dotfiles
-      url: https://github.com/markbojack/dotfiles/tree/main/.local/bin
-    - last_visited: '2021-06-18T12:35:48'
-      pinned: false
-      title: markbojack/dotfiles
-      url: https://github.com/markbojack/dotfiles
-    - last_visited: '2021-06-18T12:37:05'
-      pinned: false
-      title: markbojack (Mark Bojack)
-      url: https://github.com/markbojack
-    - last_visited: '2021-06-18T12:37:07'
-      original-url: https://github.com/markbojack
-      pinned: false
-      title: Your Repositories
-      url: https://github.com/markbojack?tab=repositories
-    - last_visited: '2021-06-18T12:37:16'
-      pinned: false
-      title: markbojack/Documents
-      url: https://github.com/markbojack/Documents
-    - active: true
-      last_visited: '2021-06-18T12:37:17'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Documents/workspaces.bak at main · markbojack/Documents
-      url: https://github.com/markbojack/Documents/tree/main/workspaces.bak
-      zoom: 0.75
+    history: []
