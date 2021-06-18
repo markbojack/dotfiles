@@ -58,6 +58,7 @@
 (add-to-list 'load-path "/usr/local/share/emacs/site-lisp/mu4e")
 (setq user-mail-address "markbojack.si@gmail.com"
       user-full-name  "Mark Bojack"
+	  mu4e-compose-signature (concat "Foo X. Bar\n" "http://www.example.com\n")
       mu4e-update-interval (* 10 60)
       mu4e-get-mail-command "mbsync -a"
 	  mu4e-maildir "~/Mail"
@@ -74,3 +75,12 @@
       (:maildir "/[Gmail]/Trash"     :key ?t)
       (:maildir "/[Gmail]/Drafts"    :key ?d)
       (:maildir "/[Gmail]/All Mail"  :key ?a)))
+
+(setq message-send-mail-function 'smtpmail-send-it
+   starttls-use-gnutls t
+   smtpmail-starttls-credentials '(("smtp.gmail.com" 587 nil nil))
+   smtpmail-auth-credentials
+     '(("smtp.gmail.com" 587 "markbojack.si@gmail.com" nil))
+   smtpmail-default-smtp-server "smtp.gmail.com"
+   smtpmail-smtp-server "smtp.gmail.com"
+   smtpmail-smtp-service 587)

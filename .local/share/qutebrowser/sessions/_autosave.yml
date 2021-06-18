@@ -1,45 +1,33 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAAEAAAACEAAAKiAAAC7wAAAAAAAAAABVYAAAAQAAAA
-    IQAAAqIAAALv
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
+    IQAABUUAAALv
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-18T19:03:01'
+      last_visited: '2021-06-19T02:08:54'
       pinned: false
       scroll-pos:
         x: 0
-        y: 1271
+        y: 0
       title: emacs-from-scratch/Emacs-Mail-01.org at 629aec3dbdffe99e2c361ffd10bd6727555a3bd3
         · daviwil/emacs-from-scratch
       url: https://github.com/daviwil/emacs-from-scratch/blob/629aec3dbdffe99e2c361ffd10bd6727555a3bd3/show-notes/Emacs-Mail-01.org
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-19T00:41:17'
+      last_visited: '2021-06-19T02:08:54'
       pinned: false
       scroll-pos:
         x: 0
-        y: 120
+        y: 0
       title: Gmail configuration (Mu4e 1.4.12 user manual)
       url: https://www.djcbsoftware.nl/code/mu/mu4e/Gmail-configuration.html
       zoom: 0.75
   - history:
-    - last_visited: '2021-06-19T01:21:17'
-      pinned: false
-      title: distrotube gitlab - Google Search
-      url: https://www.google.com/search?q=distrotube%20gitlab
-    - last_visited: '2021-06-19T01:21:20'
-      pinned: false
-      title: Derek Taylor / Dotfiles · GitLab
-      url: https://gitlab.com/dwt1/dotfiles
-    - last_visited: '2021-06-19T01:21:24'
-      pinned: false
-      title: .config · master · Derek Taylor / Dotfiles · GitLab
-      url: https://gitlab.com/dwt1/dotfiles/-/tree/master/.config
     - active: true
-      last_visited: '2021-06-19T01:30:52'
+      last_visited: '2021-06-19T02:08:54'
       pinned: false
       scroll-pos:
         x: 0
@@ -47,13 +35,9 @@ windows:
       title: .config/mu4e · master · Derek Taylor / Dotfiles · GitLab
       url: https://gitlab.com/dwt1/dotfiles/-/tree/master/.config/mu4e
       zoom: 0.75
-    - last_visited: '2021-06-19T01:30:48'
-      pinned: false
-      title: .config/mu4e/mbsyncpass-acc1 · master · Derek Taylor / Dotfiles · GitLab
-      url: https://gitlab.com/dwt1/dotfiles/-/blob/master/.config/mu4e/mbsyncpass-acc1
   - history:
     - active: true
-      last_visited: '2021-06-19T01:41:55'
+      last_visited: '2021-06-19T02:08:54'
       pinned: false
       scroll-pos:
         x: 0
@@ -63,7 +47,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-19T01:42:03'
+      last_visited: '2021-06-19T02:08:54'
       pinned: false
       scroll-pos:
         x: 0
@@ -71,14 +55,71 @@ windows:
       title: mu4e compose email - Google Search
       url: https://www.google.com/search?q=mu4e%20compose%20email
       zoom: 0.75
-  - active: true
-    history:
+  - history:
     - active: true
-      last_visited: '2021-06-19T01:42:11'
+      last_visited: '2021-06-19T02:08:57'
       pinned: false
       scroll-pos:
         x: 0
-        y: 240
+        y: 0
       title: 'I can''t figure out how to send mail in mu4e. : emacs'
       url: https://www.reddit.com/r/emacs/comments/5in5d9/i_cant_figure_out_how_to_send_mail_in_mu4e/
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-06-19T02:08:54'
+      pinned: false
+      title: Outlook
+      url: https://outlook.live.com/mail/0/inbox
+    - last_visited: '2021-06-19T02:09:05'
+      original-url: https://outlook.live.com/mail/0/inbox
+      pinned: false
+      title: Mail - Mark Bojack - Outlook
+      url: https://outlook.live.com/mail/0/inbox/
+    - active: true
+      last_visited: '2021-06-19T02:09:07'
+      original-url: https://outlook.live.com/mail/0/inbox/
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Mail - Mark Bojack - Outlook
+      url: https://outlook.live.com/mail/0/inbox
+      zoom: 0.75
+  - active: true
+    history:
+    - last_visited: '2021-06-19T02:09:04'
+      original-url: https://www.tdameritrade.com/tools-and-platforms/thinkorswim/web.page
+      pinned: false
+      title: thinkorswim Web Platform | TD Ameritrade
+      url: https://www.tdameritrade.com/tools-and-platforms/thinkorswim/web.html
+    - last_visited: '2021-06-19T02:09:09'
+      pinned: false
+      title: thinkorswim Web Login | TD Ameritrade
+      url: https://trade.thinkorswim.com/
+    - last_visited: '2021-06-19T02:09:13'
+      pinned: false
+      title: thinkorswim Web Login | TD Ameritrade
+      url: https://trade.thinkorswim.com/
+    - last_visited: '2021-06-19T02:09:14'
+      original-url: https://trade.thinkorswim.com/
+      pinned: false
+      title: Log in | thinkorswim Web
+      url: https://auth.tdameritrade.com/auth?response_type=code&client_id=TDATRADERX%40AMER.OAUTHAP&redirect_uri=https%3A%2F%2Ftrade.thinkorswim.com%2Foauth&cv=default
+    - last_visited: '2021-06-19T02:09:23'
+      original-url: https://auth.tdameritrade.com/oauth?client_id=TDATRADERX%40AMER.OAUTHAP&cv=default&response_type=code&redirect_uri=https%3A%2F%2Ftrade.thinkorswim.com%2Foauth
+      pinned: false
+      title: thinkorswim Web Login | TD Ameritrade
+      url: https://trade.thinkorswim.com/oauth?code=%2BWMfI2GR4YRcwhYMG%2Bs0Lh0T20idEy8ScC%2Br5ec6HSDcGqdUlrVaCxHK9hJGtQYvVkepwYTfI0rNPykV5okMQTwhQ36h6pzayZYN6YvCncFgtQOwMVIW9OVSOQzmu712eAJyRCuTuDz1QB238pdylz6akcKcJH1Bc9J%2BIncm0EJFcaoXXdkRrwOYUneNzCTnK7TBZoYtN1MtYyfGOru7Yj7CpAp2ASUlG34pyIvMiIrIvgYMlKrVtjueFNmuW45zyYyNBxQNhpUrh%2BZslmFh3bYune%2FmXVy9VzOjqAYYn4dskSRcHkxwXW2N%2F7kGDfgpxwisdNbjcxPSSTTf1H6Y%2FH%2B9QDTvViGOx35Sc4rlevlGX6BV1%2BJQVmq8BKxUmuWAoxr2Zo8SHmFDlIMXJ%2BKyMoQRzC5uNio9x6uCL%2BCF%2FyyBKXT2ALtBs4KDQjh100MQuG4LYrgoVi%2FJHHvlvr7O4mydS%2FDV9edzJsIxh829vc%2FcsPoHg7y6uucGezTVUE2ovUGXxHFDHXRbeIp61urteBe1Tbu9D%2BivLXVaGP2nwj8b1R0mCfnEnSzyHJfNj9Vjj398PAMPd6uqkebZNWPpVE16zPoNBGVTpDJvqtXhO7E4tG3FH1h%2Fr5hNEbYjXp6TZevgLj1h0QtATwKm7CF24VHC7Xji1Guuy8YR8BnrSJZDyzY0daZJtxqEyJykhgg26z086jXcZBxp%2F4odiFlhy4auss4u4gKnd4dVLortuMWshJVQfTwfHT9xbvPSc23qYNhAcDl3o%2Bh0viU8uIDXkyqJgDTq6P25IlIMPwHItJXnzIYymDySxScZVAmT4ZH1i10BLqefOU7DdVtkRJD3qdxZp%2BQB%2FVse51s5k8OOCesb%2FoXm0gf%2B%2Bp0%2BbnFZveDH2mFk7F5IBqs%3D212FD3x19z9sWBHDJACbC00B75E
+    - last_visited: '2021-06-19T02:09:26'
+      pinned: false
+      title: thinkorswim Web Login | TD Ameritrade
+      url: https://trade.thinkorswim.com/
+    - active: true
+      last_visited: '2021-06-19T02:09:26'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: All Account Positions | thinkorswim Web
+      url: https://trade.thinkorswim.com/
       zoom: 0.75
