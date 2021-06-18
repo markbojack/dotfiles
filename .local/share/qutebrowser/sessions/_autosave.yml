@@ -1,6 +1,5 @@
 windows:
-- active: true
-  geometry: !!binary |
+- geometry: !!binary |
     AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAAEAAAACEAAAKiAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAAAqIAAALv
   tabs:
@@ -10,238 +9,63 @@ windows:
       pinned: false
       scroll-pos:
         x: 0
-        y: 769
+        y: 2631
       title: emacs-from-scratch/Emacs-Mail-01.org at 629aec3dbdffe99e2c361ffd10bd6727555a3bd3
         · daviwil/emacs-from-scratch
       url: https://github.com/daviwil/emacs-from-scratch/blob/629aec3dbdffe99e2c361ffd10bd6727555a3bd3/show-notes/Emacs-Mail-01.org
       zoom: 0.75
   - history:
-    - last_visited: '2021-06-18T19:14:04'
-      pinned: false
-      title: gmail - Google Search
-      url: https://www.google.com/search?q=gmail
-    - last_visited: '2021-06-18T19:14:12'
-      pinned: false
-      title: Inbox (2) - markbojack.si@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/#inbox
-    - last_visited: '2021-06-18T19:14:23'
-      original-url: https://mail.google.com/mail/u/0/#inbox
-      pinned: false
-      title: Settings - markbojack.si@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/#settings/general
-    - last_visited: '2021-06-18T19:14:55'
-      original-url: https://mail.google.com/mail/u/0/#settings/general
-      pinned: false
-      title: Inbox (2) - markbojack.si@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/#inbox
-    - last_visited: '2021-06-18T19:14:59'
-      original-url: https://mail.google.com/mail/u/0/#inbox
-      pinned: false
-      title: Settings - markbojack.si@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/#settings/general
-    - last_visited: '2021-06-18T19:15:18'
-      original-url: https://mail.google.com/mail/u/0/#settings/general
-      pinned: false
-      title: Settings - markbojack.si@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/#settings/fwdandpop
-    - last_visited: '2021-06-18T19:16:43'
-      original-url: https://mail.google.com/mail/u/0/#settings/fwdandpop
-      pinned: false
-      title: Inbox (2) - markbojack.si@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/#inbox
-    - last_visited: '2021-06-18T19:16:48'
-      original-url: https://mail.google.com/mail/u/0/#inbox
-      pinned: false
-      title: Settings - markbojack.si@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/#settings/general
-    - last_visited: '2021-06-18T19:19:52'
-      original-url: https://mail.google.com/mail/u/0/#settings/general
-      pinned: false
-      title: Settings - markbojack.si@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/#settings/accounts
-    - last_visited: '2021-06-18T19:19:55'
-      original-url: https://mail.google.com/mail/u/0/#settings/accounts
-      pinned: false
-      title: Settings - markbojack.si@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/#settings/filters
-    - last_visited: '2021-06-18T19:19:57'
-      original-url: https://mail.google.com/mail/u/0/#settings/filters
-      pinned: false
-      title: Settings - markbojack.si@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/#settings/addons
-    - last_visited: '2021-06-18T19:20:04'
-      original-url: https://mail.google.com/mail/u/0/#settings/addons
-      pinned: false
-      title: Settings - markbojack.si@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/#settings/advanced
-    - last_visited: '2021-06-18T19:20:07'
-      original-url: https://mail.google.com/mail/u/0/#settings/advanced
-      pinned: false
-      title: Settings - markbojack.si@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/#settings/offline
-    - last_visited: '2021-06-18T19:20:08'
-      original-url: https://mail.google.com/mail/u/0/#settings/offline
-      pinned: false
-      title: Settings - markbojack.si@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/#settings/oldthemes
-    - last_visited: '2021-06-18T19:20:12'
-      original-url: https://mail.google.com/mail/u/0/#settings/oldthemes
-      pinned: false
-      title: Settings - markbojack.si@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/#settings/fwdandpop
-    - last_visited: '2021-06-18T19:20:16'
-      original-url: https://mail.google.com/mail/u/0/#settings/fwdandpop
-      pinned: false
-      title: Settings - markbojack.si@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/#settings/filters
-    - last_visited: '2021-06-18T19:20:20'
-      original-url: https://mail.google.com/mail/u/0/#settings/filters
-      pinned: false
-      title: Settings - markbojack.si@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/#settings/accounts
-    - last_visited: '2021-06-18T19:20:23'
-      original-url: https://mail.google.com/mail/u/0/#settings/accounts
-      pinned: false
-      title: Settings - markbojack.si@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/#settings/inbox
-    - last_visited: '2021-06-18T19:20:27'
-      original-url: https://mail.google.com/mail/u/0/#settings/inbox
-      pinned: false
-      title: Settings - markbojack.si@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/#settings/labels
-    - last_visited: '2021-06-18T19:20:28'
-      original-url: https://mail.google.com/mail/u/0/#settings/labels
-      pinned: false
-      title: Settings - markbojack.si@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/#settings/general
-    - last_visited: '2021-06-18T19:20:30'
-      original-url: https://mail.google.com/mail/u/0/#settings/general
-      pinned: false
-      title: Settings - markbojack.si@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/#settings/advanced
-    - last_visited: '2021-06-18T19:20:32'
-      original-url: https://mail.google.com/mail/u/0/#settings/advanced
-      pinned: false
-      title: Settings - markbojack.si@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/#settings/offline
-    - last_visited: '2021-06-18T19:20:33'
-      original-url: https://mail.google.com/mail/u/0/#settings/offline
-      pinned: false
-      title: Settings - markbojack.si@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/#settings/oldthemes
-    - last_visited: '2021-06-18T19:20:47'
-      original-url: https://mail.google.com/mail/u/0/#settings/oldthemes
-      pinned: false
-      title: Settings - markbojack.si@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/#settings/filters
     - active: true
-      last_visited: '2021-06-18T19:20:48'
-      original-url: https://mail.google.com/mail/u/0/#settings/filters
+      last_visited: '2021-06-19T00:41:17'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: Settings - markbojack.si@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/#settings/fwdandpop
+        y: 120
+      title: Gmail configuration (Mu4e 1.4.12 user manual)
+      url: https://www.djcbsoftware.nl/code/mu/mu4e/Gmail-configuration.html
       zoom: 0.75
   - history:
-    - last_visited: '2021-06-18T19:21:02'
+    - last_visited: '2021-06-19T00:28:21'
       pinned: false
-      title: Google Account
-      url: https://myaccount.google.com/?utm_source=OGB&tab=mk&utm_medium=act&pli=1&gar=1
-    - last_visited: '2021-06-18T19:21:41'
-      pinned: false
-      title: Security Checkup
-      url: https://myaccount.google.com/security-checkup/6?gar=1&continue=https%3A%2F%2Fmyaccount.google.com%2F%3Futm_source%3DOGB%26tab%3Dmk%26utm_medium%3Dact%26pli%3D1
-    - last_visited: '2021-06-18T19:21:47'
-      original-url: https://passwords.google.com/checkup/start?sc_adv=g&utm_source=sc_advice&utm_medium=web&continue=https://myaccount.google.com/security-checkup/6?gar%3D1%26continue%3Dhttps%253A%252F%252Fmyaccount.google.com%252F%253Futm_source%253DOGB%2526tab%253Dmk%2526utm_medium%253Dact%2526pli%253D1&pli=1
-      pinned: false
-      title: Password Checkup
-      url: https://passwords.google.com/checkup/start?sc_adv=g&utm_source=sc_advice&utm_medium=web&continue=https%3A%2F%2Fmyaccount.google.com%2Fsecurity-checkup%2F6%3Fgar%3D1%26continue%3Dhttps%253A%252F%252Fmyaccount.google.com%252F%253Futm_source%253DOGB%2526tab%253Dmk%2526utm_medium%253Dact%2526pli%253D1&pli=1
-    - last_visited: '2021-06-18T19:21:49'
-      original-url: https://passwords.google.com/checkup/start?sc_adv=g&utm_source=sc_advice&utm_medium=web&continue=https%3A%2F%2Fmyaccount.google.com%2Fsecurity-checkup%2F6%3Fgar%3D1%26continue%3Dhttps%253A%252F%252Fmyaccount.google.com%252F%253Futm_source%253DOGB%2526tab%253Dmk%2526utm_medium%253Dact%2526pli%253D1&pli=1
-      pinned: false
-      title: Password Checkup
-      url: https://passwords.google.com/checkup/results?ep=2&rvt=AQwvnn5VUYlJqWIt8bdwLjL8xVI%3A1624018906802&continue=https%3A%2F%2Fmyaccount.google.com%2Fsecurity-checkup%2F6%3Fgar%3D1%26continue%3Dhttps%253A%252F%252Fmyaccount.google.com%252F%253Futm_source%253DOGB%2526tab%253Dmk%2526utm_medium%253Dact%2526pli%253D1
-    - last_visited: '2021-06-18T19:21:50'
-      original-url: https://accounts.google.com/signin/v2/challenge/pwd?continue=https%3A%2F%2Fpasswords.google.com%2Fcheckup%2Fresults%3Fep%3D2%26rvt%3DAQwvnn5VUYlJqWIt8bdwLjL8xVI%253A1624018906802%26continue%3Dhttps%253A%252F%252Fmyaccount.google.com%252Fsecurity-checkup%252F6%253Fgar%253D1%2526continue%253Dhttps%25253A%25252F%25252Fmyaccount.google.com%25252F%25253Futm_source%25253DOGB%252526tab%25253Dmk%252526utm_medium%25253Dact%252526pli%25253D1&hl=en&sarp=1&scc=1&rart=ANgoxcc_IYDk71PFIHYx4jepLo5TY5jwLdN9Fi2dBWXSrbSXPjpJRRWiaPJBfAc5ANIyWFAI4x17RsLPVKs5C_T5L2HGl6yriA&TL=AM3QAYZPxSEIdCxQnNBAfsZz5MXxA2A2SZXcDzy0NHvACXWuB371O5CWWTJZK42P&flowName=GlifWebSignIn&cid=1
-      pinned: false
-      title: Sign in - Google Accounts
-      url: https://accounts.google.com/signin/v2/challenge/pwd?continue=https%3A%2F%2Fpasswords.google.com%2Fcheckup%2Fresults%3Fep%3D2%26rvt%3DAQwvnn5VUYlJqWIt8bdwLjL8xVI%253A1624018906802%26continue%3Dhttps%253A%252F%252Fmyaccount.google.com%252Fsecurity-checkup%252F6%253Fgar%253D1%2526continue%253Dhttps%25253A%25252F%25252Fmyaccount.google.com%25252F%25253Futm_source%25253DOGB%252526tab%25253Dmk%252526utm_medium%25253Dact%252526pli%25253D1&hl=en&sarp=1&scc=1&rart=ANgoxcc_IYDk71PFIHYx4jepLo5TY5jwLdN9Fi2dBWXSrbSXPjpJRRWiaPJBfAc5ANIyWFAI4x17RsLPVKs5C_T5L2HGl6yriA&TL=AM3QAYZPxSEIdCxQnNBAfsZz5MXxA2A2SZXcDzy0NHvACXWuB371O5CWWTJZK42P&flowName=GlifWebSignIn&cid=1&flowEntry=ServiceLogin
-    - last_visited: '2021-06-18T19:22:04'
-      pinned: false
-      title: Password Checkup
-      url: https://passwords.google.com/checkup/results?ep=2&rvt=AQwvnn5VUYlJqWIt8bdwLjL8xVI:1624018906802&continue=https://myaccount.google.com/security-checkup/6?gar%3D1%26continue%3Dhttps%253A%252F%252Fmyaccount.google.com%252F%253Futm_source%253DOGB%2526tab%253Dmk%2526utm_medium%253Dact%2526pli%253D1&rapt=AEjHL4MFtEDBN-4dxNk5MWVHw30cPM-21BQ4zuv0liuPgKaprNJnnVXZkd0B2sgnSX-CVJWvai6v8NDb8aPuA_Sl6_qP7DjDwg
+      title: mu wizard git - Google Search
+      url: https://www.google.com/search?q=mu%20wizard%20git
     - active: true
-      last_visited: '2021-06-18T19:22:43'
-      original-url: https://myaccount.google.com/security-checkup/1?gar=1&continue=https%3A%2F%2Fmyaccount.google.com%2F%3Futm_source%3DOGB%26tab%3Dmk%26utm_medium%3Dact%26pli%3D1
+      last_visited: '2021-06-19T00:28:25'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: Security Checkup
-      url: https://myaccount.google.com/security-checkup?gar=1&continue=https%3A%2F%2Fmyaccount.google.com%2F%3Futm_source%3DOGB%26tab%3Dmk%26utm_medium%3Dact%26pli%3D1
-      zoom: 0.75
-  - history:
-    - last_visited: '2021-06-18T19:22:47'
-      pinned: false
-      title: Google Account
-      url: https://myaccount.google.com/?utm_source=OGB&tab=kk&utm_medium=act
-    - last_visited: '2021-06-18T19:22:49'
-      pinned: false
-      title: Google Account
-      url: https://myaccount.google.com/data-and-personalization
-    - last_visited: '2021-06-18T19:23:05'
-      pinned: false
-      title: Google Account
-      url: https://myaccount.google.com/security
-    - active: true
-      last_visited: '2021-06-18T20:24:08'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Google Account
-      url: https://myaccount.google.com/data-and-personalization
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-18T21:08:47'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 1160
-      title: recruitment training - Google Search
-      url: https://www.google.com/search?q=recruitment%20training
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-18T21:10:32'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Google Account Help
-      url: https://support.google.com/accounts/#topic=3382296
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-18T21:10:33'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 280
-      title: Sign in with App Passwords - Google Account Help
-      url: https://support.google.com/accounts/answer/185833
+        y: 2240
+      title: 'cemkeylan/mu-wizard: Shell script to easily setup mu4e on Emacs'
+      url: https://github.com/cemkeylan/mu-wizard
       zoom: 0.75
   - active: true
     history:
+    - last_visited: '2021-06-19T00:51:01'
+      pinned: false
+      title: distrotube gitlab - Google Search
+      url: https://www.google.com/search?q=distrotube%20gitlab
+    - last_visited: '2021-06-19T00:51:21'
+      pinned: false
+      title: Derek Taylor / Dotfiles · GitLab
+      url: https://gitlab.com/dwt1/dotfiles
+    - last_visited: '2021-06-19T00:51:23'
+      pinned: false
+      title: .config · master · Derek Taylor / Dotfiles · GitLab
+      url: https://gitlab.com/dwt1/dotfiles/-/tree/master/.config
+    - last_visited: '2021-06-19T00:54:10'
+      pinned: false
+      title: .config/doom · master · Derek Taylor / Dotfiles · GitLab
+      url: https://gitlab.com/dwt1/dotfiles/-/tree/master/.config/doom
+    - last_visited: '2021-06-19T00:54:44'
+      pinned: false
+      title: .config/doom/eshell · master · Derek Taylor / Dotfiles · GitLab
+      url: https://gitlab.com/dwt1/dotfiles/-/tree/master/.config/doom/eshell
     - active: true
-      last_visited: '2021-06-18T22:08:08'
+      last_visited: '2021-06-19T00:54:47'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: linux passmenu - Google Search
-      url: https://www.google.com/search?q=linux%20passmenu
+      title: .config/doom/eshell/profile · master · Derek Taylor / Dotfiles · GitLab
+      url: https://gitlab.com/dwt1/dotfiles/-/blob/master/.config/doom/eshell/profile
       zoom: 0.75
