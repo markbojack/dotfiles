@@ -221,7 +221,7 @@ export GREP_OPTIONS='--color=auto'
 			alias bkpc='nvim ~/.local/bin/backup-phone.sh'
 			alias pbc='nvim ~/.config/polybar/config'
 	# DOOM EMACS
-		alias de='~/.emacs.d/bin/doom'
+		alias doom='~/.emacs.d/bin/doom'
 	# FONT PREVIEW
 		alias ff='fc-list : family'
 		alias fp='fontpreview'

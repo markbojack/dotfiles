@@ -1,27 +1,28 @@
 windows:
-- geometry: !!binary |
+- active: true
+  geometry: !!binary |
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-18T17:59:52'
+      last_visited: '2021-06-18T18:58:56'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: Home
-      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-18T17:59:52'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Sample of local fonts matching ''
-      url: file:///home/mark/.local/bin/fonts.html
+        y: 1359
+      title: emacs-from-scratch/Emacs-Mail-01.org at 629aec3dbdffe99e2c361ffd10bd6727555a3bd3
+        · daviwil/emacs-from-scratch
+      url: https://github.com/daviwil/emacs-from-scratch/blob/629aec3dbdffe99e2c361ffd10bd6727555a3bd3/show-notes/Emacs-Mail-01.org
       zoom: 0.75
   - active: true
-    history: []
+    history:
+    - active: true
+      last_visited: '2021-06-18T18:59:06'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: dotfiles/Emacs.org at master · daviwil/dotfiles
+      url: https://github.com/daviwil/dotfiles/blob/master/Emacs.org
+      zoom: 0.75
