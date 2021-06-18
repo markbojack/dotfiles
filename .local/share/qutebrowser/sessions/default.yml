@@ -1,77 +1,28 @@
 windows:
-- geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAAEAAAACEAAAKiAAAC7wAAAAAAAAAABVYAAAAQAAAA
-    IQAAAqIAAALv
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
+    IQAABUUAAALv
   tabs:
-  - history:
-    - active: true
-      last_visited: '2021-06-18T10:54:40'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Home
-      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-18T11:31:31'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Sample of local fonts matching ''
-      url: file:///home/mark/.local/bin/fonts.html
-      zoom: 0.75
   - active: true
     history:
-    - last_visited: '2021-06-18T12:00:54'
-      pinned: false
-      title: markbojack (Mark Bojack)
-      url: https://github.com/markbojack
-    - last_visited: '2021-06-18T12:01:00'
-      pinned: false
-      title: markbojack/dotfiles
-      url: https://github.com/markbojack/dotfiles
-    - last_visited: '2021-06-18T12:01:00'
-      pinned: false
-      title: dotfiles/.doom.d at main · markbojack/dotfiles
-      url: https://github.com/markbojack/dotfiles/tree/main/.doom.d
-    - last_visited: '2021-06-18T12:28:24'
-      pinned: false
-      title: markbojack/dotfiles
-      url: https://github.com/markbojack/dotfiles
-    - last_visited: '2021-06-18T12:28:37'
-      pinned: false
-      title: dotfiles/.local at main · markbojack/dotfiles
-      url: https://github.com/markbojack/dotfiles/tree/main/.local
-    - last_visited: '2021-06-18T12:28:41'
-      pinned: false
-      title: dotfiles/.local/bin at main · markbojack/dotfiles
-      url: https://github.com/markbojack/dotfiles/tree/main/.local/bin
-    - last_visited: '2021-06-18T12:35:48'
-      pinned: false
-      title: markbojack/dotfiles
-      url: https://github.com/markbojack/dotfiles
-    - last_visited: '2021-06-18T12:37:05'
-      pinned: false
-      title: markbojack (Mark Bojack)
-      url: https://github.com/markbojack
-    - last_visited: '2021-06-18T12:37:07'
-      original-url: https://github.com/markbojack
-      pinned: false
-      title: Your Repositories
-      url: https://github.com/markbojack?tab=repositories
-    - last_visited: '2021-06-18T12:37:16'
-      pinned: false
-      title: markbojack/Documents
-      url: https://github.com/markbojack/Documents
     - active: true
-      last_visited: '2021-06-18T12:37:17'
+      last_visited: '2021-06-18T18:58:56'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: Documents/workspaces.bak at main · markbojack/Documents
-      url: https://github.com/markbojack/Documents/tree/main/workspaces.bak
+        y: 1359
+      title: emacs-from-scratch/Emacs-Mail-01.org at 629aec3dbdffe99e2c361ffd10bd6727555a3bd3
+        · daviwil/emacs-from-scratch
+      url: https://github.com/daviwil/emacs-from-scratch/blob/629aec3dbdffe99e2c361ffd10bd6727555a3bd3/show-notes/Emacs-Mail-01.org
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-18T18:59:06'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 11959
+      title: dotfiles/Emacs.org at master · daviwil/dotfiles
+      url: https://github.com/daviwil/dotfiles/blob/master/Emacs.org
       zoom: 0.75
