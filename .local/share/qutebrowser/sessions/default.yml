@@ -1,12 +1,12 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAKyAAAAIAAABUYAAALwAAACswAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAKzAAAA
-    IQAABUUAAALv
+    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAAEAAAACEAAAKiAAAC7wAAAAAAAAAABVYAAAAQAAAA
+    IQAAAqIAAALv
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-19T03:47:18'
+      last_visited: '2021-06-19T04:05:44'
       pinned: false
       scroll-pos:
         x: 0
@@ -14,14 +14,58 @@ windows:
       title: Gmail configuration (Mu4e 1.4.12 user manual)
       url: https://www.djcbsoftware.nl/code/mu/mu4e/Gmail-configuration.html
       zoom: 0.75
-  - active: true
-    history:
+  - history:
     - active: true
-      last_visited: '2021-06-19T03:47:18'
+      last_visited: '2021-06-19T04:05:44'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
       title: emacs dired - Google Search
       url: https://www.google.com/search?q=emacs%20dired
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-19T04:05:44'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: restart restore emacs - Google Search
+      url: https://www.google.com/search?q=restart%20restore%20emacs
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-19T04:05:43'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 「install-doomemacs」
+      url: http://127.0.0.1:8135/page/10
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-19T04:05:54'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 「install-r」
+      url: http://127.0.0.1:8135/page/11
+      zoom: 0.75
+  - active: true
+    history:
+    - last_visited: '2021-06-19T04:07:38'
+      pinned: false
+      title: distrotube gitla - Google Search
+      url: https://www.google.com/search?q=distrotube%20gitla
+    - active: true
+      last_visited: '2021-06-19T04:07:41'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Derek Taylor · GitLab
+      url: https://gitlab.com/dwt1
       zoom: 0.75
