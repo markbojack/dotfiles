@@ -1,12 +1,13 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAAEAAAACEAAAKiAAAC7wAAAAAAAAAABVYAAAAQAAAA
-    IQAAAqIAAALv
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
+    IQAABUUAAALv
   tabs:
-  - history:
+  - active: true
+    history:
     - active: true
-      last_visited: '2021-06-19T04:05:44'
+      last_visited: '2021-06-19T05:07:44'
       pinned: false
       scroll-pos:
         x: 0
@@ -16,52 +17,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-19T04:05:44'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: emacs dired - Google Search
-      url: https://www.google.com/search?q=emacs%20dired
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-19T04:05:44'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: restart restore emacs - Google Search
-      url: https://www.google.com/search?q=restart%20restore%20emacs
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-19T04:05:43'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 「install-doomemacs」
-      url: http://127.0.0.1:8135/page/10
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-19T04:05:54'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 「install-r」
-      url: http://127.0.0.1:8135/page/11
-      zoom: 0.75
-  - active: true
-    history:
-    - last_visited: '2021-06-19T04:07:38'
-      pinned: false
-      title: distrotube gitla - Google Search
-      url: https://www.google.com/search?q=distrotube%20gitla
-    - active: true
-      last_visited: '2021-06-19T04:07:41'
+      last_visited: '2021-06-19T05:07:44'
       pinned: false
       scroll-pos:
         x: 0
