@@ -54,18 +54,20 @@ bindsym $mod+Shift+y exec --no-startup-id clipmenu -i -fn "Roboto Sans Mono-8" -
 
 bindsym $mod+d mode "command"
 mode "command" {
-    bindsym r exec --no-startup-id ~/.local/bin/dmcalc; mode "default"
+    bindsym r exec --no-startup-id dmcalc; mode "default"
+    bindsym p exec --no-startup-id passmenu; mode "default"
+    #	bindsym p exec --no-startup-id dmpass; mode "default" # an alternative to passmenu
     #	bindsym m exec --no-startup-id ~/.local/bin/dmenumount; mode "default"
     #	bindsym u exec --no-startup-id ~/.local/bin/dmenuumount; mode "default"
-    bindsym w exec --no-startup-id ~/.local/bin/dmstyli.sh; mode "default"
-    bindsym c exec --no-startup-id ~/.local/bin/dmconf; mode "default"
-    bindsym f exec --no-startup-id ~/.local/bin/dmenufm; mode "default"
-    bindsym k exec --no-startup-id ~/.local/bin/dmkill; mode "default"
-    bindsym s exec --no-startup-id ~/.local/bin/dmsearch; mode "default"
-    bindsym q exec --no-startup-id ~/.local/bin/dmqute; mode "default"
-    bindsym l exec --no-startup-id ~/.local/bin/dmlogout; mode "default"
-    bindsym t exec --no-startup-id ~/.local/bin/dmtodo; mode "default"
-    #bindsym r exec --no-startup-id ~/.local/bin/dmscrot; mode "default"
+    bindsym w exec --no-startup-id dmstyli.sh; mode "default"
+    bindsym c exec --no-startup-id dmconf; mode "default"
+    bindsym f exec --no-startup-id dmenufm; mode "default"
+    bindsym k exec --no-startup-id dmkill; mode "default"
+    bindsym s exec --no-startup-id dmsearch; mode "default"
+    bindsym q exec --no-startup-id dmqute; mode "default"
+    bindsym l exec --no-startup-id dmlogout; mode "default"
+    bindsym t exec --no-startup-id dmtodo; mode "default"
+    #	bindsym r exec --no-startup-id dmscrot; mode "default"
     bindsym Escape mode "default"
 }
 
