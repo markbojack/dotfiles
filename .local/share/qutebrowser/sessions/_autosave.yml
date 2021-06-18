@@ -3,8 +3,7 @@ windows:
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
-  - active: true
-    history:
+  - history:
     - active: true
       last_visited: '2021-06-18T10:54:40'
       pinned: false
@@ -13,4 +12,15 @@ windows:
         y: 0
       title: Home
       url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-18T11:31:31'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Sample of local fonts matching ''
+      url: file:///home/mark/.local/bin/fonts.html
       zoom: 0.75

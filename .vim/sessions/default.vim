@@ -1,6 +1,6 @@
 " ~/.vim/sessions/default.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 18 Tháng 6 2021 at 10:58:08.
+" Created by session.vim 2.13.1 on 18 Tháng 6 2021 at 11:02:19.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -74,7 +74,7 @@ badd +1 shorts
 badd +849 data/high-sharpe/longs
 badd +176 data/high-sharpe/shorts
 badd +1 sharpe-perforance.R
-badd +1 analysis.R
+badd +42 analysis.R
 badd +260 ~/.config/picom/picom.conf
 badd +1680 data/prev-etf-long
 badd +334 data/prev-etf-short
@@ -130,7 +130,6 @@ normal! zt
 42
 normal! 0
 wincmd w
-2wincmd w
 exe 'vert 1resize ' . ((&columns * 31 + 54) / 108)
 exe 'vert 2resize ' . ((&columns * 76 + 54) / 108)
 tabnext 1
@@ -162,7 +161,7 @@ if !getbufvar(s:bufnr_save, '&modified')
 endif
 execute "cd" fnameescape(s:cwd_save)
 1resize 25|vert 1resize 31|2resize 25|vert 2resize 76|
-2wincmd w
+1wincmd w
 tabnext 1
 if exists('s:wipebuf')
   if empty(bufname(s:wipebuf))
