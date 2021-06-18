@@ -1,5 +1,6 @@
 windows:
-- geometry: !!binary |
+- active: true
+  geometry: !!binary |
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
@@ -33,12 +34,16 @@ windows:
       pinned: false
       title: markbojack/dotfiles
       url: https://github.com/markbojack/dotfiles
+    - last_visited: '2021-06-18T12:01:00'
+      pinned: false
+      title: dotfiles/.doom.d at main · markbojack/dotfiles
+      url: https://github.com/markbojack/dotfiles/tree/main/.doom.d
     - active: true
-      last_visited: '2021-06-18T12:01:00'
+      last_visited: '2021-06-18T12:27:53'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: dotfiles/.doom.d at main · markbojack/dotfiles
-      url: https://github.com/markbojack/dotfiles/tree/main/.doom.d
+      title: markbojack/dotfiles
+      url: https://github.com/markbojack/dotfiles
       zoom: 0.75
