@@ -1,127 +1,27 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAAEAAAACEAAAKiAAAC7wAAAAAAAAAABVYAAAAQAAAA
-    IQAAAqIAAALv
+    AdnQywADAAAAAAKyAAAAIAAABUYAAALwAAACswAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAKzAAAA
+    IQAABUUAAALv
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-18T19:03:01'
+      last_visited: '2021-06-19T03:47:18'
       pinned: false
       scroll-pos:
         x: 0
-        y: 2811
-      title: emacs-from-scratch/Emacs-Mail-01.org at 629aec3dbdffe99e2c361ffd10bd6727555a3bd3
-        · daviwil/emacs-from-scratch
-      url: https://github.com/daviwil/emacs-from-scratch/blob/629aec3dbdffe99e2c361ffd10bd6727555a3bd3/show-notes/Emacs-Mail-01.org
+        y: 0
+      title: Gmail configuration (Mu4e 1.4.12 user manual)
+      url: https://www.djcbsoftware.nl/code/mu/mu4e/Gmail-configuration.html
       zoom: 0.75
   - active: true
     history:
     - active: true
-      last_visited: '2021-06-19T00:41:17'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 1397
-      title: Gmail configuration (Mu4e 1.4.12 user manual)
-      url: https://www.djcbsoftware.nl/code/mu/mu4e/Gmail-configuration.html
-      zoom: 0.75
-  - history:
-    - last_visited: '2021-06-19T01:21:17'
-      pinned: false
-      title: distrotube gitlab - Google Search
-      url: https://www.google.com/search?q=distrotube%20gitlab
-    - last_visited: '2021-06-19T01:21:20'
-      pinned: false
-      title: Derek Taylor / Dotfiles · GitLab
-      url: https://gitlab.com/dwt1/dotfiles
-    - last_visited: '2021-06-19T01:21:24'
-      pinned: false
-      title: .config · master · Derek Taylor / Dotfiles · GitLab
-      url: https://gitlab.com/dwt1/dotfiles/-/tree/master/.config
-    - active: true
-      last_visited: '2021-06-19T01:30:52'
+      last_visited: '2021-06-19T03:47:18'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: .config/mu4e · master · Derek Taylor / Dotfiles · GitLab
-      url: https://gitlab.com/dwt1/dotfiles/-/tree/master/.config/mu4e
-      zoom: 0.75
-    - last_visited: '2021-06-19T01:30:48'
-      pinned: false
-      title: .config/mu4e/mbsyncpass-acc1 · master · Derek Taylor / Dotfiles · GitLab
-      url: https://gitlab.com/dwt1/dotfiles/-/blob/master/.config/mu4e/mbsyncpass-acc1
-  - history:
-    - active: true
-      last_visited: '2021-06-19T01:41:55'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: mu4e send email - Google Search
-      url: https://www.google.com/search?q=mu4e%20send%20email
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-19T01:42:03'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: mu4e compose email - Google Search
-      url: https://www.google.com/search?q=mu4e%20compose%20email
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-19T01:42:11'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 240
-      title: 'I can''t figure out how to send mail in mu4e. : emacs'
-      url: https://www.reddit.com/r/emacs/comments/5in5d9/i_cant_figure_out_how_to_send_mail_in_mu4e/
-      zoom: 0.75
-  - history:
-    - last_visited: '2021-06-19T02:05:29'
-      pinned: false
-      title: Outlook
-      url: https://outlook.live.com/mail/0/inbox
-    - last_visited: '2021-06-19T02:05:41'
-      original-url: https://outlook.live.com/owa/0/?state=1&redirectTo=aHR0cHM6Ly9vdXRsb29rLmxpdmUuY29tL21haWwvMC9pbmJveC8&RpsCsrfState=1d7bdb26-3485-8e1d-6111-4d36d1f435ce&wa=wsignin1.0
-      pinned: false
-      title: Outlook
-      url: https://outlook.live.com/mail/0/inbox/
-    - last_visited: '2021-06-19T02:05:42'
-      pinned: false
-      title: Mail - Mark Bojack - Outlook
-      url: https://outlook.live.com/mail/0/inbox
-    - last_visited: '2021-06-19T02:05:53'
-      pinned: false
-      title: Mail - Mark Bojack - Outlook
-      url: https://outlook.live.com/mail/0/junkemail
-    - last_visited: '2021-06-19T02:05:58'
-      pinned: false
-      title: Mail - Mark Bojack - Outlook
-      url: https://outlook.live.com/mail/0/AQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoALgAAA4lIdydTkERKv2ZG1Ybxqy4BABKhdE1MPkJJuq%2BLMFjFymoAAuVhpkYAAAA%3D
-    - last_visited: '2021-06-19T02:07:47'
-      pinned: false
-      title: Mail - Mark Bojack - Outlook
-      url: https://outlook.live.com/mail/0/inbox
-    - last_visited: '2021-06-19T02:07:52'
-      pinned: false
-      title: Mail - Mark Bojack - Outlook
-      url: https://outlook.live.com/mail/0/junkemail
-    - last_visited: '2021-06-19T02:07:55'
-      pinned: false
-      title: Mail - Mark Bojack - Outlook
-      url: https://outlook.live.com/mail/0/AQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoALgAAA4lIdydTkERKv2ZG1Ybxqy4BABKhdE1MPkJJuq%2BLMFjFymoAAuVhpkYAAAA%3D
-    - active: true
-      last_visited: '2021-06-19T02:07:57'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Mail - Mark Bojack - Outlook
-      url: https://outlook.live.com/mail/0/inbox
+      title: emacs dired - Google Search
+      url: https://www.google.com/search?q=emacs%20dired
       zoom: 0.75
