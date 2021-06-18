@@ -1,0 +1,115 @@
+windows:
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAAAAAAAAAAABVUAAAL/AAAAEAAAACEAAAKiAAABfwAAAAAABAAABVYAAAAAAAAA
+    AAAABVUAAAL/
+  tabs:
+  - history:
+    - active: true
+      last_visited: '2021-06-18T07:24:39'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Home
+      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-06-18T07:25:30'
+      pinned: false
+      title: distrotube - YouTube
+      url: https://www.youtube.com/results?search_query=distrotube
+    - last_visited: '2021-06-18T07:25:30'
+      pinned: false
+      title: DistroTube - YouTube
+      url: https://www.youtube.com/channel/UCVls1GmFKf6WlTraIb_IaJg
+    - last_visited: '2021-06-18T07:25:53'
+      pinned: false
+      title: DistroTube - YouTube
+      url: https://www.youtube.com/c/DistroTube/playlists
+    - active: true
+      last_visited: '2021-06-18T07:25:58'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: The Church of Emacs - YouTube
+      url: https://www.youtube.com/playlist?list=PL5--8gKSku15uYCnmxWPO17Dq6hVabAB4
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-18T07:36:42'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: w3m - myconfig - my config files
+      url: https://a3nm.net/git/myconfig/file/w3m.html
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-18T07:36:53'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 360
+      title: 'GitHub - yuratomo/w3m.vim: w3m plugin for vim'
+      url: https://github.com/yuratomo/w3m.vim
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-18T07:36:59'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'GitHub - felipesaa/A-vim-like-firefox-like-configuration-for-w3m: A
+        configuration and documentation for w3m'
+      url: https://github.com/felipesaa/A-vim-like-firefox-like-configuration-for-w3m
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-06-18T07:35:15'
+      pinned: false
+      title: 'GitHub - linsong/w3m-config: w3m config files'
+      url: https://github.com/linsong/w3m-config
+    - active: true
+      last_visited: '2021-06-18T07:35:20'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 440
+      title: w3m-config/keymap at master · linsong/w3m-config · GitHub
+      url: https://github.com/linsong/w3m-config/blob/master/keymap
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-18T07:57:25'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: terminal browser images - Tìm trên Google
+      url: https://www.google.com/search?q=terminal%20browser%20images
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-18T07:57:40'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 480
+      title: links browser config vim - Tìm trên Google
+      url: https://www.google.com/search?q=links%20browser%20config%20vim
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-18T07:58:22'
+      original-url: http://www.vim.org/scripts/script.php?script_id=4315
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'webBrowser - Use vim as a web browser : vim online'
+      url: https://www.vim.org/scripts/script.php?script_id=4315
+      zoom: 0.75
