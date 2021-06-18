@@ -1,5 +1,6 @@
 windows:
-- geometry: !!binary |
+- active: true
+  geometry: !!binary |
     AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAAEAAAACEAAAKiAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAAAqIAAALv
   tabs:
@@ -23,8 +24,7 @@ windows:
       title: Home
       url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
       zoom: 0.75
-  - active: true
-    history:
+  - history:
     - last_visited: '2021-06-18T08:39:30'
       pinned: false
       title: markbojack (Mark Bojack) · GitHub
@@ -43,11 +43,23 @@ windows:
       title: Your Repositories
       url: https://github.com/markbojack?tab=repositories
     - active: true
-      last_visited: '2021-06-18T08:40:07'
+      last_visited: '2021-06-18T08:40:49'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
       title: markbojack/Documents
       url: https://github.com/markbojack/Documents
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-18T08:59:21'
+      original-url: https://teespring.com/stores/distrotube
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: https://distrotube.creator-spring.com/?
+      url: https://distrotube.creator-spring.com/?
       zoom: 0.75
