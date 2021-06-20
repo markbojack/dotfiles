@@ -1,0 +1,119 @@
+windows:
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
+    IQAABUUAAALv
+  tabs:
+  - history:
+    - active: true
+      last_visited: '2021-06-20T09:27:39'
+      original-url: https://etf.com/ure
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'URE ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/URE
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-20T09:32:09'
+      original-url: https://etf.com/rth
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'RTH ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/RTH
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-06-20T09:32:55'
+      original-url: https://etf.com/RTH
+      pinned: false
+      title: 'RTH ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/RTH
+    - active: true
+      last_visited: '2021-06-20T09:33:05'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 344
+      title: 'RTH ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/RTH#tradability
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-20T09:33:33'
+      original-url: https://etf.com/IXP
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'IXP ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/IXP
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-06-20T09:49:34'
+      original-url: https://www.tdameritrade.com/home.page
+      pinned: false
+      title: Online Stock Trading, Investing, Brokerage | TD Ameritrade
+      url: https://www.tdameritrade.com/home.html
+    - last_visited: '2021-06-20T09:49:48'
+      original-url: https://invest.ameritrade.com/grid/p/site
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/grid/p/site#r=home
+    - last_visited: '2021-06-20T09:49:48'
+      original-url: https://invest.ameritrade.com/grid/p/site
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/grid/p/site#r=home
+    - active: true
+      last_visited: '2021-06-20T09:49:53'
+      original-url: https://invest.ameritrade.com/grid/p/site#r=home
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/grid/p/site#r=search?query=Securities%20with%20Special%20Margin%20Requirements
+      zoom: 0.75
+  - active: true
+    history:
+    - last_visited: '2021-06-20T09:49:57'
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?filter=A
+    - last_visited: '2021-06-20T09:50:05'
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=S
+    - last_visited: '2021-06-20T09:50:50'
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=E
+    - last_visited: '2021-06-20T09:51:15'
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=Q
+    - last_visited: '2021-06-20T09:52:03'
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=I
+    - last_visited: '2021-06-20T09:52:06'
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=G
+    - last_visited: '2021-06-20T09:52:10'
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=F
+    - active: true
+      last_visited: '2021-06-20T09:52:13'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=I
+      zoom: 0.75
