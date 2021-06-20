@@ -1,30 +1,34 @@
 windows:
-- geometry: !!binary |
+- active: true
+  geometry: !!binary |
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
-  - history:
+  - active: true
+    history:
+    - last_visited: '2021-06-20T19:49:26'
+      pinned: false
+      title: Outlook
+      url: https://outlook.live.com/mail/0/inbox
+    - last_visited: '2021-06-20T19:49:39'
+      original-url: https://outlook.live.com/owa/0/?state=1&redirectTo=aHR0cHM6Ly9vdXRsb29rLmxpdmUuY29tL21haWwvMC9pbmJveC8&RpsCsrfState=6ee802b1-768e-bf7d-139f-9421c978515b&wa=wsignin1.0
+      pinned: false
+      title: Mail - Mark Bojack - Outlook
+      url: https://outlook.live.com/mail/0/inbox/
+    - last_visited: '2021-06-20T19:49:41'
+      pinned: false
+      title: Mail - Mark Bojack - Outlook
+      url: https://outlook.live.com/mail/0/inbox
+    - last_visited: '2021-06-20T19:49:55'
+      pinned: false
+      title: Mail - Mark Bojack - Outlook
+      url: https://outlook.live.com/mail/0/inbox/id/AQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoARgAAA4lIdydTkERKv2ZG1Ybxqy4HABKhdE1MPkJJuq%2BLMFjFymoAAAIBDAAAABKhdE1MPkJJuq%2BLMFjFymoABIbekf8AAAA%3D
     - active: true
-      last_visited: '2021-06-20T18:07:13'
+      last_visited: '2021-06-20T19:57:44'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Home
-      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
-      zoom: 0.75
-  - active: true
-    history:
-    - last_visited: '2021-06-20T18:55:42'
-      pinned: false
-      title: vim hyphen remap - Google Search
-      url: https://www.google.com/search?q=vim%20hyphen%20remap
-    - active: true
-      last_visited: '2021-06-20T18:55:46'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 120
-      title: vimrc - Can I map contrl and hyphen <C-->? - Vi and Vim Stack Exchange
-      url: https://vi.stackexchange.com/questions/16287/can-i-map-contrl-and-hyphen-c?noredirect=1&lq=1
+      title: Outlook
+      url: https://outlook.live.com/mail/0/inbox/id/AQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoARgAAA4lIdydTkERKv2ZG1Ybxqy4HABKhdE1MPkJJuq%2BLMFjFymoAAAIBDAAAABKhdE1MPkJJuq%2BLMFjFymoABIbekgAAAQ%3D%3D
       zoom: 0.75
