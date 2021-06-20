@@ -1,6 +1,6 @@
 " ~/.vim/sessions/seasonality.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 20 Tháng 6 2021 at 09:59:45.
+" Created by session.vim 2.13.1 on 20 Tháng 6 2021 at 10:00:20.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -99,8 +99,8 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe 'vert 1resize ' . ((&columns * 85 + 54) / 108)
-exe 'vert 2resize ' . ((&columns * 22 + 54) / 108)
+exe 'vert 1resize ' . ((&columns * 85 + 110) / 220)
+exe 'vert 2resize ' . ((&columns * 134 + 110) / 220)
 argglobal
 if bufexists("term://.//1425878:R\ ") | buffer term://.//1425878:R\  | else | edit term://.//1425878:R\  | endif
 setlocal fdm=manual
@@ -111,11 +111,11 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 1889 - ((52 * winheight(0) + 26) / 53)
+let s:l = 1927 - ((52 * winheight(0) + 26) / 53)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-1889
+1927
 normal! 0
 wincmd w
 argglobal
@@ -128,16 +128,16 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 118 - ((30 * winheight(0) + 26) / 53)
+let s:l = 91 - ((11 * winheight(0) + 26) / 53)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-118
+91
 normal! 0
 wincmd w
 2wincmd w
-exe 'vert 1resize ' . ((&columns * 85 + 54) / 108)
-exe 'vert 2resize ' . ((&columns * 22 + 54) / 108)
+exe 'vert 1resize ' . ((&columns * 85 + 110) / 220)
+exe 'vert 2resize ' . ((&columns * 134 + 110) / 220)
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf

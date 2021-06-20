@@ -1,6 +1,5 @@
 windows:
-- active: true
-  geometry: !!binary |
+- geometry: !!binary |
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
@@ -68,15 +67,20 @@ windows:
       pinned: false
       title: TD Ameritrade
       url: https://invest.ameritrade.com/grid/p/site#r=home
-    - active: true
-      last_visited: '2021-06-20T09:49:53'
+    - last_visited: '2021-06-20T09:49:53'
       original-url: https://invest.ameritrade.com/grid/p/site#r=home
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/grid/p/site#r=search?query=Securities%20with%20Special%20Margin%20Requirements
+    - active: true
+      last_visited: '2021-06-20T10:49:54'
+      original-url: https://invest.ameritrade.com/grid/p/site#r=search?query=Securities%20with%20Special%20Margin%20Requirements
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: TD Ameritrade
-      url: https://invest.ameritrade.com/grid/p/site#r=search?query=Securities%20with%20Special%20Margin%20Requirements
+      title: TD Ameritrade Login
+      url: https://invest.ameritrade.com/grid/p/login?dboxId=grdLogout&logout=T
       zoom: 0.75
   - active: true
     history:
