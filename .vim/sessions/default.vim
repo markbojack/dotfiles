@@ -1,6 +1,6 @@
 " ~/.vim/sessions/default.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 20 Tháng 6 2021 at 09:21:58.
+" Created by session.vim 2.13.1 on 20 Tháng 6 2021 at 12:14:14.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -16,23 +16,54 @@ let SessionLoad = 1
 let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
 let v:this_session=expand("<sfile>:p")
 silent only
-cd ~/vimwiki
+cd ~/copper-ingot
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +3 index.md
-badd +7 ~/vimwiki/Finance.md
-badd +1 ~/vimwiki/Finance-Bookmarks.md
+badd +145 ~/.config/nvim/init.vim
+badd +1 portfolio13F.R
+badd +16 R/packagesAndOptions.R
+badd +1 watchlist.md
+badd +26 portfolioTips.R
+badd +1 reference.R
+badd +1 watchlist13F.md
+badd +15 R/status.R
+badd +1 R/charts.R
+badd +1 watchlistTips.md
+badd +1 README.md
+badd +1 /docs/NOTES.md
+badd +3 docs/NOTES.md
+badd +1 docs/fees.md
 argglobal
 %argdel
-edit ~/vimwiki/Finance.md
+$argadd ~/.config/nvim/init.vim
+edit docs/fees.md
 set splitbelow splitright
+wincmd _ | wincmd |
+vsplit
+1wincmd h
+wincmd w
 wincmd t
 set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
+exe 'vert 1resize ' . ((&columns * 31 + 54) / 108)
+exe 'vert 2resize ' . ((&columns * 76 + 54) / 108)
+argglobal
+enew
+" file NERD_tree_3
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal nofen
+lcd ~/copper-ingot
+wincmd w
 argglobal
 setlocal fdm=manual
 setlocal fde=0
@@ -43,12 +74,17 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 71 - ((38 * winheight(0) + 26) / 53)
+let s:l = 16 - ((15 * winheight(0) + 26) / 53)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-71
-normal! 051|
+16
+normal! 0
+lcd ~/copper-ingot
+wincmd w
+2wincmd w
+exe 'vert 1resize ' . ((&columns * 31 + 54) / 108)
+exe 'vert 2resize ' . ((&columns * 76 + 54) / 108)
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
@@ -66,6 +102,19 @@ let &so = s:so_save | let &siso = s:siso_save
 " by :mksession out of the box).
 
 1wincmd w
+tabnext 1
+let s:bufnr_save = bufnr("%")
+let s:cwd_save = getcwd()
+NERDTree ~/copper-ingot
+if !getbufvar(s:bufnr_save, '&modified')
+  let s:wipebuflines = getbufline(s:bufnr_save, 1, '$')
+  if len(s:wipebuflines) <= 1 && empty(get(s:wipebuflines, 0, ''))
+    silent execute 'bwipeout' s:bufnr_save
+  endif
+endif
+execute "cd" fnameescape(s:cwd_save)
+1resize 53|vert 1resize 31|2resize 53|vert 2resize 76|
+2wincmd w
 tabnext 1
 if exists('s:wipebuf')
   if empty(bufname(s:wipebuf))

@@ -1,57 +1,9 @@
 windows:
-- geometry: !!binary |
+- active: true
+  geometry: !!binary |
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
-  - history:
-    - active: true
-      last_visited: '2021-06-20T11:44:49'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'URE ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/URE
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-20T11:44:49'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'RTH ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/RTH
-      zoom: 0.75
-  - history:
-    - last_visited: '2021-06-20T09:32:55'
-      original-url: https://etf.com/RTH
-      pinned: false
-      title: 'RTH ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/RTH
-    - last_visited: '2021-06-20T11:44:49'
-      pinned: false
-      title: 'RTH ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/RTH#tradability
-    - active: true
-      last_visited: '2021-06-20T11:44:52'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'RTH ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/RTH#overview
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-20T11:44:49'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'IXP ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/IXP
-      zoom: 0.75
   - history:
     - last_visited: '2021-06-20T09:49:34'
       original-url: https://www.tdameritrade.com/home.page
@@ -98,8 +50,7 @@ windows:
       title: TD Ameritrade
       url: https://invest.ameritrade.com/grid/p/site#r=search?query=Securities%20with%20Special%20Margin%20Requirements
       zoom: 0.75
-  - active: true
-    history:
+  - history:
     - last_visited: '2021-06-20T11:37:01'
       pinned: false
       title: TD Ameritrade
@@ -108,12 +59,36 @@ windows:
       pinned: false
       title: TD Ameritrade
       url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=U
+    - last_visited: '2021-06-20T11:46:23'
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=F
+    - last_visited: '2021-06-20T12:10:49'
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=A
+    - last_visited: '2021-06-20T12:30:14'
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=B
     - active: true
-      last_visited: '2021-06-20T11:46:23'
+      last_visited: '2021-06-20T12:35:24'
       pinned: false
       scroll-pos:
         x: 0
-        y: 6283
+        y: 645
       title: TD Ameritrade
-      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=F
+      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=X
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-20T12:36:36'
+      original-url: https://etf.com/xlp
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'XLP ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/XLP
       zoom: 0.75
