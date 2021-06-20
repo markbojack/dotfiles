@@ -1,12 +1,11 @@
 windows:
-- active: true
-  geometry: !!binary |
+- geometry: !!binary |
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-20T23:44:06'
+      last_visited: '2021-06-21T00:51:54'
       pinned: false
       scroll-pos:
         x: 0
@@ -15,182 +14,25 @@ windows:
       url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
       zoom: 0.75
   - history:
-    - last_visited: '2021-06-20T23:48:02'
-      pinned: false
-      title: system crafter - YouTube
-      url: https://www.youtube.com/results?search_query=system+crafter
-    - last_visited: '2021-06-20T23:48:02'
-      pinned: false
-      title: System Crafters - YouTube
-      url: https://www.youtube.com/channel/UCAiiOTio8Yu69c3XnR7nQBQ
-    - last_visited: '2021-06-20T23:49:16'
-      pinned: false
-      title: System Crafters - YouTube
-      url: https://www.youtube.com/c/SystemCrafters/playlists
-    - last_visited: '2021-06-20T23:49:32'
-      pinned: false
-      title: System Crafters - YouTube
-      url: https://www.youtube.com/c/SystemCrafters/featured
-    - last_visited: '2021-06-20T23:49:40'
-      pinned: false
-      title: System Crafters - YouTube
-      url: https://www.youtube.com/c/SystemCrafters/channels
-    - last_visited: '2021-06-20T23:49:42'
-      pinned: false
-      title: System Crafters - YouTube
-      url: https://www.youtube.com/c/SystemCrafters/channels
-    - last_visited: '2021-06-20T23:49:42'
-      pinned: false
-      title: System Crafters - YouTube
-      url: https://www.youtube.com/c/SystemCrafters/channels
-    - last_visited: '2021-06-20T23:49:42'
-      pinned: false
-      title: System Crafters - YouTube
-      url: https://www.youtube.com/c/SystemCrafters/channels
-    - last_visited: '2021-06-20T23:49:42'
-      pinned: false
-      title: System Crafters - YouTube
-      url: https://www.youtube.com/c/SystemCrafters/channels
-    - last_visited: '2021-06-20T23:49:42'
-      pinned: false
-      title: System Crafters - YouTube
-      url: https://www.youtube.com/c/SystemCrafters/channels
-    - last_visited: '2021-06-20T23:49:42'
-      pinned: false
-      title: System Crafters - YouTube
-      url: https://www.youtube.com/c/SystemCrafters/channels
-    - last_visited: '2021-06-20T23:49:42'
-      pinned: false
-      title: System Crafters - YouTube
-      url: https://www.youtube.com/c/SystemCrafters/channels
-    - last_visited: '2021-06-20T23:49:42'
-      pinned: false
-      title: System Crafters - YouTube
-      url: https://www.youtube.com/c/SystemCrafters/channels
-    - last_visited: '2021-06-20T23:49:42'
-      pinned: false
-      title: System Crafters - YouTube
-      url: https://www.youtube.com/c/SystemCrafters/channels
-    - last_visited: '2021-06-20T23:49:42'
-      pinned: false
-      title: System Crafters - YouTube
-      url: https://www.youtube.com/c/SystemCrafters/channels
-    - last_visited: '2021-06-20T23:49:42'
-      pinned: false
-      title: System Crafters - YouTube
-      url: https://www.youtube.com/c/SystemCrafters/channels
-    - last_visited: '2021-06-20T23:49:42'
-      pinned: false
-      title: System Crafters - YouTube
-      url: https://www.youtube.com/c/SystemCrafters/channels
-    - last_visited: '2021-06-20T23:49:42'
-      pinned: false
-      title: System Crafters - YouTube
-      url: https://www.youtube.com/c/SystemCrafters/channels
-    - last_visited: '2021-06-20T23:49:42'
-      pinned: false
-      title: System Crafters - YouTube
-      url: https://www.youtube.com/c/SystemCrafters/channels
-    - last_visited: '2021-06-20T23:49:45'
-      pinned: false
-      title: System Crafters - YouTube
-      url: https://www.youtube.com/c/SystemCrafters/channels
-    - last_visited: '2021-06-20T23:49:47'
-      pinned: false
-      title: System Crafters - YouTube
-      url: https://www.youtube.com/c/SystemCrafters/channels
-    - last_visited: '2021-06-20T23:49:49'
-      pinned: false
-      title: System Crafters - YouTube
-      url: https://www.youtube.com/c/SystemCrafters/about
-    - last_visited: '2021-06-20T23:49:51'
-      pinned: false
-      title: System Crafters - YouTube
-      url: https://www.youtube.com/c/SystemCrafters/about
-    - last_visited: '2021-06-20T23:49:58'
-      pinned: false
-      title: System Crafters - YouTube
-      url: https://www.youtube.com/c/SystemCrafters/playlists
     - active: true
-      last_visited: '2021-06-20T23:50:03'
+      last_visited: '2021-06-21T00:56:43'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: System Crafters Live! - YouTube
-      url: https://www.youtube.com/playlist?list=PLEoMzSkcN8oPfsa4bgW2VfzfHKaH7Gwv4
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-20T23:50:51'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 520
-      title: newsboat youtube playlist - Google Search
-      url: https://www.google.com/search?q=newsboat%20youtube%20playlist
+      title: 'A very Simple yet Elegant CLI timer based on the Pomodoro Technique.
+        : commandline'
+      url: https://www.reddit.com/r/commandline/comments/o461bw/a_very_simple_yet_elegant_cli_timer_based_on_the/
       zoom: 0.75
   - active: true
     history:
     - active: true
-      last_visited: '2021-06-20T23:51:29'
+      last_visited: '2021-06-21T00:56:48'
       pinned: false
       scroll-pos:
         x: 0
-        y: 120
-      title: google api - How to use YouTube Data API (v3) to get more than 15 videos
-        in an RSS reader (newsboat)? - Stack Overflow
-      url: https://stackoverflow.com/questions/56430703/how-to-use-youtube-data-api-v3-to-get-more-than-15-videos-in-an-rss-reader-ne
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-20T23:51:34'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Newsboat - ArchWiki
-      url: https://wiki.archlinux.org/title/Newsboat
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-20T23:51:17'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Use Newsboat rss reader and mpv to subscribe and play bsdnow youtube
-        feed | The FreeBSD Forums
-      url: https://forums.freebsd.org/threads/use-newsboat-rss-reader-and-mpv-to-subscribe-and-play-bsdnow-youtube-feed.67600/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-20T23:51:23'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'Youtube playlists? : rss'
-      url: https://www.reddit.com/r/rss/comments/io0af2/youtube_playlists/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-20T23:51:23'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Organizing YouTube subscriptions in Newsboat RSS reader
-      url: https://samsai.eu/post/youtube-subscriptions-on-newsboat/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-20T23:51:25'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: newsboat subscribe to youtube channels and playlist rss feeds and send
-        the links to kodi
-      url: https://odysee.com/@NapoleonWils0n:6/newsboat-subscribe-to-youtube-channels:a
+        y: 1120
+      title: 'GitHub - Neeveshs/Pomodoro-Timer: A terminal script for a timer based
+        on the Pomodoro Technique. Also comes with a Journal to log progress of users.'
+      url: https://github.com/Neeveshs/Pomodoro-Timer
       zoom: 0.75

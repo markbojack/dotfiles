@@ -35,7 +35,7 @@
 	map <leader>o :setlocal spell! spelllang=en_us<cr>
 	map <leader>sft :r !toilet -f future sent with neomutt<cr>
 " R
-	inoremap <C-m> c(
+	inoremap <C-n> c(
 	vmap <Space> <Plug>RDSendSelection
 	nmap <Space> <Plug>RDSendLine
 	inoremap <C-x>x <C-x><C-o>

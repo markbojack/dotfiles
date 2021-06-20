@@ -76,9 +76,9 @@ mode "command" {
 
 # other keybindings
 bindsym $mod+q exec --no-startup-id qutebrowser; workspace $ws2
-bindsym $mod+e exec --no-startup-id alacritty -e bash -c 'export EDITOR=nvim && neomutt'; workspace $ws3
-bindsym $mod+n exec --no-startup-id alacritty -e newsboat; workspace $ws4
-bindsym $mod+t exec --no-startup-id alacritty -e youtube-viewer; workspace $ws4
+bindsym $mod+n exec --no-startup-id alacritty -e newsboat; workspace $ws3
+bindsym $mod+t exec --no-startup-id alacritty -e youtube-viewer; workspace $ws3
+bindsym $mod+e exec --no-startup-id alacritty -e bash -c 'export EDITOR=nvim && neomutt'; workspace $ws4
 bindsym $mod+u exec --no-startup-id blueman-manager; workspace $ws5
 
 # for keyindicator
@@ -157,8 +157,8 @@ bindsym $mod+a focus parent
 
 set $ws1 ""
 set $ws2 "🌏"
-set $ws3 "📬"
-set $ws4 "📰"
+set $ws3 "📰"
+set $ws4 "📬"
 set $ws5 "🎵"
 
 # switch to workspace
@@ -228,9 +228,9 @@ exec_always --no-startup-id feh --bg-fill /home/mark/Downloads/Abstract-grey-wal
 exec --no-startup-id tdrop -am -w 60% -y 25% -x 20% -h 50% -n 1 alacritty -e bash -c 'remind -cl+2m@ ~/p-dot-script/remind.rem *5 && echo -e "\n" && sleep 10'
 exec --no-startup-id alacritty
 exec --no-startup-id qutebrowser
-exec --no-startup-id sleep 3 && alacritty -t neomutt -e neomutt
-exec --no-startup-id sleep 4 && alacritty -t youtubeviewer -e youtube-viewer
-exec --no-startup-id sleep 5 && alacritty -t newsboat -e newsboat
+exec --no-startup-id sleep 3 && alacritty -t youtubeviewer -e youtube-viewer
+exec --no-startup-id sleep 4 && alacritty -t newsboat -e newsboat
+exec --no-startup-id sleep 5 && alacritty -t neomutt -e neomutt
 exec --no-startup-id sleep 6 && blueman-manager
 
 # Lock
@@ -244,9 +244,9 @@ exec --no-startup-id sleep 6 && blueman-manager
 ## look for: WM_CLASS <look at 2nd result>
 #for_window [class="Alacritty"] move to workspace $ws1
 for_window [class="qutebrowser"] move to workspace $ws2
-assign [title="neomutt"] $ws3
-assign [title="newsboat"] $ws4
-assign [title="youtubeviewer"] $ws4
+assign [title="newsboat"] $ws3
+assign [title="youtubeviewer"] $ws3
+assign [title="neomutt"] $ws4
 for_window [class="Blueman-manager"] move to workspace $ws5
 
 # here's how you set floating and positioning:

@@ -7,7 +7,7 @@
 # otherwise it opens link in browser.
 
 # If no url given. Opens browser. For using script as $BROWSER.
-[ -z "$1" ] && { "qutebrowser"; exit; }
+[ -z "$1" ] && { "$BROWSER"; exit; }
 
 case "$1" in
 	*mkv|*webm|*mp4|*youtube.com/watch*|*youtube.com/playlist*|*youtu.be*|*hooktube.com*|*bitchute.com*|*videos.lukesmith.xyz*)

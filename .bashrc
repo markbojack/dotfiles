@@ -164,7 +164,7 @@ source ~/.local/bin/fancy-bash-prompt.sh
 source /home/mark/.config/broot/launcher/bash/br
 
 # EXPORTS ====================================================================
-export BROWSER="qutebrowser"
+export BROWSER="/usr/bin/qutebrowser"
 export VISUAL="nvim"
 export EDITOR="$VISUAL"
 export TERMINAL="alacritty"
