@@ -50,4 +50,3 @@
 ;(unpin! t)
 
 (package! evil-tutor)
-(package! mu4e)

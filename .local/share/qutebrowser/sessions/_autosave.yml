@@ -1,5 +1,6 @@
 windows:
-- geometry: !!binary |
+- active: true
+  geometry: !!binary |
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
@@ -15,24 +16,32 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-21T00:56:43'
+      last_visited: '2021-06-21T01:32:12'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: 'A very Simple yet Elegant CLI timer based on the Pomodoro Technique.
-        : commandline'
-      url: https://www.reddit.com/r/commandline/comments/o461bw/a_very_simple_yet_elegant_cli_timer_based_on_the/
+      title: mu4e reply email - Tìm trên Google
+      url: https://www.google.com/search?q=mu4e%20reply%20email
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-21T01:32:24'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 295
+      title: Keybindings (Mu4e 1.4.12 user manual)
+      url: https://www.djcbsoftware.nl/code/mu/mu4e/Keybindings.html
       zoom: 0.75
   - active: true
     history:
     - active: true
-      last_visited: '2021-06-21T00:56:48'
+      last_visited: '2021-06-21T01:35:01'
       pinned: false
       scroll-pos:
         x: 0
-        y: 1120
-      title: 'GitHub - Neeveshs/Pomodoro-Timer: A terminal script for a timer based
-        on the Pomodoro Technique. Also comes with a Journal to log progress of users.'
-      url: https://github.com/Neeveshs/Pomodoro-Timer
+        y: 0
+      title: markbojack (Mark Bojack) · GitHub
+      url: https://github.com/markbojack
       zoom: 0.75

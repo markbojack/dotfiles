@@ -59,8 +59,9 @@
 
 (setq user-mail-address "markbojack.si@gmail.com"
       user-full-name  "Mark Bojack"
-	  mu4e-compose-signature (concat "Foo X. Bar\n" "http://www.example.com\n")
-      mu4e-update-interval (* 3 60)
+	  mu4e-compose-signature (concat "Mark Bojack\n" "https://github.com/markbojack\n" "Sent from Doom Emacs with mu4e\n")
+;;      mu4e-update-interval (* 3 60)
+      mu4e-update-interval 60
       mu4e-get-mail-command "mbsync -a"
 	  mu4e-maildir "~/Mail"
       mu4e-main-buffer-hide-personal-addresses t
