@@ -1,34 +1,176 @@
 windows:
-- active: true
-  geometry: !!binary |
+- geometry: !!binary |
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
   - active: true
     history:
-    - last_visited: '2021-06-20T19:49:26'
+    - last_visited: '2021-06-20T20:11:41'
       pinned: false
-      title: Outlook
-      url: https://outlook.live.com/mail/0/inbox
-    - last_visited: '2021-06-20T19:49:39'
-      original-url: https://outlook.live.com/owa/0/?state=1&redirectTo=aHR0cHM6Ly9vdXRsb29rLmxpdmUuY29tL21haWwvMC9pbmJveC8&RpsCsrfState=6ee802b1-768e-bf7d-139f-9421c978515b&wa=wsignin1.0
+      title: markbojack (Mark Bojack)
+      url: https://github.com/markbojack
+    - last_visited: '2021-06-20T20:12:27'
+      original-url: https://gist.github.com/mine
       pinned: false
-      title: Mail - Mark Bojack - Outlook
-      url: https://outlook.live.com/mail/0/inbox/
-    - last_visited: '2021-06-20T19:49:41'
+      title: markbojack’s gists
+      url: https://gist.github.com/markbojack
+    - last_visited: '2021-06-20T20:12:56'
       pinned: false
-      title: Mail - Mark Bojack - Outlook
-      url: https://outlook.live.com/mail/0/inbox
-    - last_visited: '2021-06-20T19:49:55'
+      title: markbojack’s gists
+      url: https://gist.github.com/markbojack/public
+    - last_visited: '2021-06-20T20:12:58'
       pinned: false
-      title: Mail - Mark Bojack - Outlook
-      url: https://outlook.live.com/mail/0/inbox/id/AQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoARgAAA4lIdydTkERKv2ZG1Ybxqy4HABKhdE1MPkJJuq%2BLMFjFymoAAAIBDAAAABKhdE1MPkJJuq%2BLMFjFymoABIbekf8AAAA%3D
+      title: markbojack’s gists
+      url: https://gist.github.com/markbojack
+    - last_visited: '2021-06-20T20:13:06'
+      pinned: false
+      title: Manual debloat/backup Samsung Galaxy S8 (no root)
+      url: https://gist.github.com/markbojack/6052e7939e4086598281c1b6f24f1673
+    - last_visited: '2021-06-20T20:13:13'
+      pinned: false
+      title: markbojack’s gists
+      url: https://gist.github.com/markbojack
+    - last_visited: '2021-06-20T20:13:31'
+      pinned: false
+      title: markbojack (Mark Bojack)
+      url: https://github.com/markbojack
+    - last_visited: '2021-06-20T20:13:49'
+      pinned: false
+      title: Create a new Gist
+      url: https://gist.github.com/
+    - last_visited: '2021-06-20T20:14:55'
+      original-url: https://gist.github.com/
+      pinned: false
+      title: Installing Doom Emacs on an Arch-Based Distro
+      url: https://gist.github.com/markbojack/cbaacd464e4fd981fa9a0e8c0faa85d6
+    - last_visited: '2021-06-20T20:15:05'
+      pinned: false
+      title: markbojack’s gists
+      url: https://gist.github.com/markbojack
+    - last_visited: '2021-06-20T20:15:18'
+      pinned: false
+      title: Manual debloat/backup Samsung Galaxy S8 (no root)
+      url: https://gist.github.com/markbojack/6052e7939e4086598281c1b6f24f1673
+    - last_visited: '2021-06-20T20:15:21'
+      pinned: false
+      title: markbojack’s gists
+      url: https://gist.github.com/markbojack
+    - last_visited: '2021-06-20T20:15:32'
+      pinned: false
+      title: Installing Doom Emacs on an Arch-Based Distro
+      url: https://gist.github.com/markbojack/cbaacd464e4fd981fa9a0e8c0faa85d6
+    - last_visited: '2021-06-20T20:15:45'
+      original-url: https://gist.github.com/markbojack/cbaacd464e4fd981fa9a0e8c0faa85d6
+      pinned: false
+      title: markbojack’s gists
+      url: https://gist.github.com/markbojack
+    - last_visited: '2021-06-20T20:15:57'
+      pinned: false
+      title: Create a new Gist
+      url: https://gist.github.com/
+    - last_visited: '2021-06-20T20:16:01'
+      pinned: false
+      title: markbojack’s gists
+      url: https://gist.github.com/markbojack
+    - last_visited: '2021-06-20T20:16:05'
+      pinned: false
+      title: Create a new Gist
+      url: https://gist.github.com/
+    - last_visited: '2021-06-20T20:17:03'
+      pinned: false
+      title: markbojack’s gists
+      url: https://gist.github.com/markbojack
+    - last_visited: '2021-06-20T20:17:26'
+      pinned: false
+      title: Manual debloat/backup Samsung Galaxy S8 (no root)
+      url: https://gist.github.com/markbojack/6052e7939e4086598281c1b6f24f1673
+    - last_visited: '2021-06-20T20:17:33'
+      pinned: false
+      title: Revisions · Manual debloat/backup Samsung Galaxy S8 (no root)
+      url: https://gist.github.com/markbojack/6052e7939e4086598281c1b6f24f1673/revisions
+    - last_visited: '2021-06-20T20:17:34'
+      original-url: https://gist.github.com/markbojack/6052e7939e4086598281c1b6f24f1673/revisions
+      pinned: false
+      title: Manual debloat/backup Samsung Galaxy S8 (no root)
+      url: https://gist.github.com/markbojack/6052e7939e4086598281c1b6f24f1673
+    - last_visited: '2021-06-20T20:17:43'
+      pinned: false
+      title: Create a new Gist
+      url: https://gist.github.com/
+    - last_visited: '2021-06-20T20:18:51'
+      original-url: https://gist.github.com/
+      pinned: false
+      title: Installing Doom Emacs on an Arch-Based Distro
+      url: https://gist.github.com/markbojack/e3f2c90375459958a6849defc9a3d703
+    - last_visited: '2021-06-20T20:20:33'
+      pinned: false
+      title: Create a new Gist
+      url: https://gist.github.com/
+    - last_visited: '2021-06-20T20:21:12'
+      original-url: https://gist.github.com/
+      pinned: false
+      title: Installing R in Doom Emacs
+      url: https://gist.github.com/markbojack/c8038f097b7958efe646a3831b7fce75
+    - last_visited: '2021-06-20T20:21:17'
+      pinned: false
+      title: markbojack’s gists
+      url: https://gist.github.com/markbojack
+    - last_visited: '2021-06-20T20:21:22'
+      pinned: false
+      title: Installing Doom Emacs on an Arch-Based Distro
+      url: https://gist.github.com/markbojack/e3f2c90375459958a6849defc9a3d703
+    - last_visited: '2021-06-20T20:21:31'
+      pinned: false
+      title: Editing install-doomemacs.md
+      url: https://gist.github.com/markbojack/e3f2c90375459958a6849defc9a3d703/edit
+    - last_visited: '2021-06-20T20:21:40'
+      pinned: false
+      title: Installing Doom Emacs on an Arch-Based Distro
+      url: https://gist.github.com/markbojack/e3f2c90375459958a6849defc9a3d703
+    - last_visited: '2021-06-20T20:21:42'
+      pinned: false
+      title: markbojack’s gists
+      url: https://gist.github.com/markbojack
+    - last_visited: '2021-06-20T20:22:32'
+      pinned: false
+      title: Create a new Gist
+      url: https://gist.github.com/
+    - last_visited: '2021-06-20T20:23:59'
+      original-url: https://gist.github.com/
+      pinned: false
+      title: Setting up Mu4e in Doom Emacs on an Arch-Based Distro (Gmail Account)
+      url: https://gist.github.com/markbojack/7fdf9248559e7c5219879bc7ef776b7b
+    - last_visited: '2021-06-20T20:24:09'
+      pinned: false
+      title: markbojack’s gists
+      url: https://gist.github.com/markbojack
+    - last_visited: '2021-06-20T20:38:07'
+      pinned: false
+      title: Installing Doom Emacs on an Arch-Based Distro
+      url: https://gist.github.com/markbojack/e3f2c90375459958a6849defc9a3d703
+    - last_visited: '2021-06-20T20:38:38'
+      pinned: false
+      title: Editing install-doomemacs.md
+      url: https://gist.github.com/markbojack/e3f2c90375459958a6849defc9a3d703/edit
+    - last_visited: '2021-06-20T20:38:47'
+      pinned: false
+      title: Installing Doom Emacs on an Arch-Based Distro
+      url: https://gist.github.com/markbojack/e3f2c90375459958a6849defc9a3d703
+    - last_visited: '2021-06-20T20:38:51'
+      pinned: false
+      title: Revisions · Installing Doom Emacs on an Arch-Based Distro
+      url: https://gist.github.com/markbojack/e3f2c90375459958a6849defc9a3d703/revisions
+    - last_visited: '2021-06-20T20:38:52'
+      original-url: https://gist.github.com/markbojack/e3f2c90375459958a6849defc9a3d703/revisions
+      pinned: false
+      title: Installing Doom Emacs on an Arch-Based Distro
+      url: https://gist.github.com/markbojack/e3f2c90375459958a6849defc9a3d703
     - active: true
-      last_visited: '2021-06-20T19:57:44'
+      last_visited: '2021-06-20T20:38:57'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Outlook
-      url: https://outlook.live.com/mail/0/inbox/id/AQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoARgAAA4lIdydTkERKv2ZG1Ybxqy4HABKhdE1MPkJJuq%2BLMFjFymoAAAIBDAAAABKhdE1MPkJJuq%2BLMFjFymoABIbekgAAAQ%3D%3D
+      title: Home
+      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
       zoom: 0.75

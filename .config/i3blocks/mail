@@ -4,9 +4,14 @@ case "$BLOCK_BUTTON" in
 	1) i3-msg -q "exec --no-startup-id tdrop -am -w 70% -y 10% -x 15% -h 80% -n 1 alacritty -e neomutt"
 esac
 
-LSWC=$(ls ~/.local/share/mail/markbojack.si@gmail.com/INBOX/new/ | wc -l)
+# FOR NEOMUTT
+#	LSWC=$(ls ~/.local/share/mail/markbojack.si@gmail.com/INBOX/new/ | wc -l)
+# FOR MU4E:
+LSWC=$(ls ~/Mail/Inbox/new/ | wc -l)
+
 # to span you can also add bgcolor='#01A252'
 # more on pango:
 # https://developer.gnome.org/pygtk/stable/pango-markup-language.html
-[[ $LSWC -ne 0 ]] && echo -e "<span size='x-large' weight='heavy' color='#FF0000' bgcolor='black'>📬  $LSWC</span>\n"
+#	[[ $LSWC -ne 0 ]] && echo -e "<span size='x-large' weight='heavy' color='#FF0000' bgcolor='black'>📬  $LSWC</span>\n"
+[[ $LSWC -ne 0 ]] && echo -e "<span color='#FFFFFF'>📬  $LSWC</span>\n"
 
