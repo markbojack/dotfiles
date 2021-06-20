@@ -1,181 +1,23 @@
 windows:
-- active: true
-  geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
+- geometry: !!binary |
+    AdnQywADAAAAAAAQAAAAIQAABUUAAALvAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
-  - history:
-    - active: true
-      last_visited: '2021-06-21T03:53:52'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Keybindings (Mu4e 1.4.12 user manual)
-      url: https://www.djcbsoftware.nl/code/mu/mu4e/Keybindings.html
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-21T03:53:51'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: emacs - Viewing Chinese/Korean/Lunar birthday on org-agenda? - Stack
-        Overflow
-      url: https://stackoverflow.com/questions/36557402/viewing-chinese-korean-lunar-birthday-on-org-agenda
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-21T03:53:56'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: mu4e-update-interval - Tìm trên Google
-      url: https://www.google.com/search?q=mu4e-update-interval
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-21T03:53:52'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'Update-interval doesn''t work · Issue #1052 · djcb/mu · GitHub'
-      url: https://github.com/djcb/mu/issues/1052
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-21T03:53:56'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'mu4e - automatic current update of incoming mail? : emacs'
-      url: https://www.reddit.com/r/emacs/comments/badd1d/mu4e_automatic_current_update_of_incoming_mail/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-21T03:53:56'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'TIP: How to easily manage your emails with mu4e : emacs'
-      url: https://www.reddit.com/r/emacs/comments/8q84dl/tip_how_to_easily_manage_your_emails_with_mu4e/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-21T03:53:52'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: .emacs.d/config.org at master · rememberYou/.emacs.d · GitHub
-      url: https://github.com/rememberYou/.emacs.d/blob/master/config.org
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-21T03:53:52'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Mu4e - WikEmacs
-      url: https://wikemacs.org/wiki/Mu4e
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-21T03:53:56'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: mu4e get attachment - Tìm trên Google
-      url: https://www.google.com/search?q=mu4e%20get%20attachment
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-21T03:53:51'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: How can I easily download/save an attachment in mu4e? - Emacs Stack Exchange
-      url: https://emacs.stackexchange.com/questions/25045/how-can-i-easily-download-save-an-attachment-in-mu4e
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-21T03:53:52'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: isync - ArchWiki
-      url: https://wiki.archlinux.org/title/Isync
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-21T03:53:52'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Replacing offlineimap with mbsync — mcgrof
-      url: https://people.kernel.org/mcgrof/replacing-offlineimap-with-mbsync
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-21T03:53:52'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'Update-interval doesn''t work · Issue #1052 · djcb/mu · GitHub'
-      url: https://github.com/djcb/mu/issues/1052
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-21T03:53:51'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Notmuch of a mail setup Part 1- mbsync, msmtp and systemd | Assorted
-        Nerdery
-      url: https://bostonenginerd.com/posts/notmuch-of-a-mail-setup-part-1-mbsync-msmtp-and-systemd/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-21T03:53:56'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: mu4e-update-index - Tìm trên Google
-      url: https://www.google.com/search?q=mu4e-update-index
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-21T03:53:58'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 2685
-      title: 'Needs to run mu4e-update-index manually after each update · Issue #1815
-        · djcb/mu · GitHub'
-      url: https://github.com/djcb/mu/issues/1815
-      zoom: 0.75
+  - history: []
+  - history: []
+  - history: []
+  - history: []
+  - history: []
+  - history: []
+  - history: []
+  - history: []
+  - history: []
+  - history: []
+  - history: []
+  - history: []
+  - history: []
+  - history: []
+  - history: []
+  - history: []
   - active: true
-    history:
-    - active: true
-      last_visited: '2021-06-21T03:57:44'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 2098
-      title: doom-emacs/config.el at 1255ebdbd7f0d934bc44aa10b74ff95033240221 · hlissner/doom-emacs
-        · GitHub
-      url: https://github.com/hlissner/doom-emacs/blob/1255ebdbd7f0d934bc44aa10b74ff95033240221/modules/email/mu4e/config.el#L120
-      zoom: 0.75
+    history: []
