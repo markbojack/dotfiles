@@ -3,14 +3,35 @@ windows:
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
-  - active: true
-    history:
+  - history:
     - active: true
-      last_visited: '2021-06-20T23:44:06'
+      last_visited: '2021-06-21T02:10:58'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Home
-      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
+      title: Keybindings (Mu4e 1.4.12 user manual)
+      url: https://www.djcbsoftware.nl/code/mu/mu4e/Keybindings.html
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-21T02:10:58'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: emacs - Viewing Chinese/Korean/Lunar birthday on org-agenda? - Stack
+        Overflow
+      url: https://stackoverflow.com/questions/36557402/viewing-chinese-korean-lunar-birthday-on-org-agenda
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-21T02:10:57'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: joy
+      url: https://emojipedia.org/search/?q=joy
       zoom: 0.75

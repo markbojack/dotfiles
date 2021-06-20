@@ -1,47 +1,27 @@
 windows:
-- active: true
-  geometry: !!binary |
+- geometry: !!binary |
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
-  - history:
-    - active: true
-      last_visited: '2021-06-21T00:51:54'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Home
-      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-21T01:32:12'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: mu4e reply email - Tìm trên Google
-      url: https://www.google.com/search?q=mu4e%20reply%20email
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-21T01:32:24'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 295
-      title: Keybindings (Mu4e 1.4.12 user manual)
-      url: https://www.djcbsoftware.nl/code/mu/mu4e/Keybindings.html
-      zoom: 0.75
   - active: true
     history:
     - active: true
-      last_visited: '2021-06-21T01:35:01'
+      last_visited: '2021-06-21T02:11:38'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: markbojack (Mark Bojack) · GitHub
-      url: https://github.com/markbojack
+      title: Keybindings (Mu4e 1.4.12 user manual)
+      url: https://www.djcbsoftware.nl/code/mu/mu4e/Keybindings.html
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-21T02:11:37'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: emacs - Viewing Chinese/Korean/Lunar birthday on org-agenda? - Stack
+        Overflow
+      url: https://stackoverflow.com/questions/36557402/viewing-chinese-korean-lunar-birthday-on-org-agenda
       zoom: 0.75
