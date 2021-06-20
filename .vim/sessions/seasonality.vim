@@ -1,6 +1,6 @@
 " ~/.vim/sessions/seasonality.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 20 Tháng 6 2021 at 14:16:36.
+" Created by session.vim 2.13.1 on 20 Tháng 6 2021 at 18:58:08.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -74,16 +74,16 @@ badd +1 shorts
 badd +849 data/high-sharpe/longs
 badd +176 data/high-sharpe/shorts
 badd +1 sharpe-perforance.R
-badd +9 analysis.R
+badd +146 analysis.R
 badd +260 ~/.config/picom/picom.conf
-badd +1680 data/prev-etf-long
-badd +334 data/prev-etf-short
-badd +2353 data/prev-stock-long
-badd +580 data/prev-stock-short
-badd +1023 data/sharpe-etf-long
-badd +306 data/sharpe-etf-short
-badd +1473 data/sharpe-stock-long
-badd +788 data/sharpe-stock-short
+badd +1706 data/prev-etf-long
+badd +1 data/prev-etf-short
+badd +2646 data/prev-stock-long
+badd +589 data/prev-stock-short
+badd +1269 data/sharpe-etf-long
+badd +1 data/sharpe-etf-short
+badd +1697 data/sharpe-stock-long
+badd +802 data/sharpe-stock-short
 badd +1 R/h-semimonth.R
 argglobal
 %argdel
@@ -92,7 +92,10 @@ edit analysis.R
 set splitbelow splitright
 wincmd _ | wincmd |
 vsplit
-1wincmd h
+wincmd _ | wincmd |
+vsplit
+2wincmd h
+wincmd w
 wincmd w
 wincmd t
 set winminheight=0
@@ -100,7 +103,8 @@ set winheight=1
 set winminwidth=0
 set winwidth=1
 exe 'vert 1resize ' . ((&columns * 31 + 110) / 220)
-exe 'vert 2resize ' . ((&columns * 188 + 110) / 220)
+exe 'vert 2resize ' . ((&columns * 74 + 110) / 220)
+exe 'vert 3resize ' . ((&columns * 113 + 110) / 220)
 argglobal
 enew
 " file NERD_tree_3
@@ -114,6 +118,23 @@ setlocal fdn=20
 setlocal nofen
 wincmd w
 argglobal
+if bufexists("term://.//1285647:R\ ") | buffer term://.//1285647:R\  | else | edit term://.//1285647:R\  | endif
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+let s:l = 1335 - ((52 * winheight(0) + 26) / 53)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+1335
+normal! 0
+wincmd w
+argglobal
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -123,15 +144,17 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 9 - ((8 * winheight(0) + 26) / 53)
+let s:l = 148 - ((29 * winheight(0) + 26) / 53)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-9
-normal! 0
+148
+normal! 013|
 wincmd w
+3wincmd w
 exe 'vert 1resize ' . ((&columns * 31 + 110) / 220)
-exe 'vert 2resize ' . ((&columns * 188 + 110) / 220)
+exe 'vert 2resize ' . ((&columns * 74 + 110) / 220)
+exe 'vert 3resize ' . ((&columns * 113 + 110) / 220)
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
@@ -160,8 +183,8 @@ if !getbufvar(s:bufnr_save, '&modified')
   endif
 endif
 execute "cd" fnameescape(s:cwd_save)
-1resize 53|vert 1resize 31|2resize 53|vert 2resize 188|
-1wincmd w
+1resize 53|vert 1resize 31|2resize 53|vert 2resize 74|3resize 53|vert 3resize 113|
+3wincmd w
 tabnext 1
 if exists('s:wipebuf')
   if empty(bufname(s:wipebuf))

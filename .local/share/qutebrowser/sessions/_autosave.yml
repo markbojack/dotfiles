@@ -1,17 +1,30 @@
 windows:
-- active: true
-  geometry: !!binary |
-    AdnQywADAAAAAAKyAAAAIAAABUYAAALwAAACswAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAKzAAAA
+- geometry: !!binary |
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
-  - active: true
-    history:
+  - history:
     - active: true
-      last_visited: '2021-06-20T17:59:26'
+      last_visited: '2021-06-20T18:07:13'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Inbox (9) - markbojack.si@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/#inbox
+      title: Home
+      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
+      zoom: 0.75
+  - active: true
+    history:
+    - last_visited: '2021-06-20T18:55:42'
+      pinned: false
+      title: vim hyphen remap - Google Search
+      url: https://www.google.com/search?q=vim%20hyphen%20remap
+    - active: true
+      last_visited: '2021-06-20T18:55:46'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 120
+      title: vimrc - Can I map contrl and hyphen <C-->? - Vi and Vim Stack Exchange
+      url: https://vi.stackexchange.com/questions/16287/can-i-map-contrl-and-hyphen-c?noredirect=1&lq=1
       zoom: 0.75

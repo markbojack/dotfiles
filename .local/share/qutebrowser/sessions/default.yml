@@ -1,17 +1,67 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAAEAAAACEAAAKiAAAC7wAAAAAAAAAABVYAAAAQAAAA
-    IQAAAqIAAALv
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
+    IQAABUUAAALv
   tabs:
   - active: true
     history:
+    - last_visited: '2021-06-20T18:05:11'
+      original-url: https://mail.google.com/mail/u/0/#inbox?compose=SxfkdsFwZsWSTSCXNMTQzCZtJFmDWkKXclBHPWXPNnHzbDZRnwpDQvWBZnsMHpXJpvgDzZSGmCSXKflpMZMZBlzPRxKfsrKHpvSCcTGBHcCtxZkxFmL
+      pinned: false
+      title: Inbox (9) - markbojack.si@gmail.com - Gmail
+      url: https://mail.google.com/mail/u/0/#inbox
+    - last_visited: '2021-06-20T18:05:16'
+      original-url: https://mail.google.com/mail/u/0/#inbox
+      pinned: false
+      title: Sent Mail - markbojack.si@gmail.com - Gmail
+      url: https://mail.google.com/mail/u/0/#sent
+    - last_visited: '2021-06-20T18:05:18'
+      original-url: https://mail.google.com/mail/u/0/#sent
+      pinned: false
+      title: Father's Day 1/2 - markbojack.si@gmail.com - Gmail
+      url: https://mail.google.com/mail/u/0/#sent/CllgCJNrdSrvkQxSdLTDzKHtlSNQjzrnkgpHzWbjSHjCkcRjqNRQVmhFrSsqgBpGMTRbRFvCPmg
+    - last_visited: '2021-06-20T18:05:27'
+      original-url: https://mail.google.com/mail/u/0/#sent/CllgCJNrdSrvkQxSdLTDzKHtlSNQjzrnkgpHzWbjSHjCkcRjqNRQVmhFrSsqgBpGMTRbRFvCPmg
+      pinned: false
+      title: Father's Day 2/2 - markbojack.si@gmail.com - Gmail
+      url: https://mail.google.com/mail/u/0/#sent/CllgCJqWggDbXpmZvjVmvFgxJvJpZQJwVnmCxWcRZcFkvjbzSgLnjkKczrwCMRDznKrxLXwWZVV
+    - last_visited: '2021-06-20T18:05:33'
+      original-url: https://mail.google.com/mail/u/0/#sent/CllgCJqWggDbXpmZvjVmvFgxJvJpZQJwVnmCxWcRZcFkvjbzSgLnjkKczrwCMRDznKrxLXwWZVV
+      pinned: false
+      title: Father's Day 1/2 - markbojack.si@gmail.com - Gmail
+      url: https://mail.google.com/mail/u/0/#sent/CllgCJNrdSrvkQxSdLTDzKHtlSNQjzrnkgpHzWbjSHjCkcRjqNRQVmhFrSsqgBpGMTRbRFvCPmg
+    - last_visited: '2021-06-20T18:06:23'
+      original-url: https://mail.google.com/mail/u/0/#sent/CllgCJNrdSrvkQxSdLTDzKHtlSNQjzrnkgpHzWbjSHjCkcRjqNRQVmhFrSsqgBpGMTRbRFvCPmg
+      pinned: false
+      title: Father's Day 2/2 - markbojack.si@gmail.com - Gmail
+      url: https://mail.google.com/mail/u/0/#sent/CllgCJqWggDbXpmZvjVmvFgxJvJpZQJwVnmCxWcRZcFkvjbzSgLnjkKczrwCMRDznKrxLXwWZVV
+    - last_visited: '2021-06-20T18:06:27'
+      original-url: https://mail.google.com/mail/u/0/#sent/CllgCJqWggDbXpmZvjVmvFgxJvJpZQJwVnmCxWcRZcFkvjbzSgLnjkKczrwCMRDznKrxLXwWZVV
+      pinned: false
+      title: Father's Day 1/2 - markbojack.si@gmail.com - Gmail
+      url: https://mail.google.com/mail/u/0/#sent/CllgCJNrdSrvkQxSdLTDzKHtlSNQjzrnkgpHzWbjSHjCkcRjqNRQVmhFrSsqgBpGMTRbRFvCPmg
+    - last_visited: '2021-06-20T18:06:34'
+      original-url: https://mail.google.com/mail/u/0/#sent/CllgCJNrdSrvkQxSdLTDzKHtlSNQjzrnkgpHzWbjSHjCkcRjqNRQVmhFrSsqgBpGMTRbRFvCPmg
+      pinned: false
+      title: Father's Day 2/2 - markbojack.si@gmail.com - Gmail
+      url: https://mail.google.com/mail/u/0/#sent/CllgCJqWggDbXpmZvjVmvFgxJvJpZQJwVnmCxWcRZcFkvjbzSgLnjkKczrwCMRDznKrxLXwWZVV
+    - last_visited: '2021-06-20T18:06:54'
+      original-url: https://mail.google.com/mail/u/0/#sent/CllgCJqWggDbXpmZvjVmvFgxJvJpZQJwVnmCxWcRZcFkvjbzSgLnjkKczrwCMRDznKrxLXwWZVV
+      pinned: false
+      title: Father's Day 1/2 - markbojack.si@gmail.com - Gmail
+      url: https://mail.google.com/mail/u/0/#sent/CllgCJNrdSrvkQxSdLTDzKHtlSNQjzrnkgpHzWbjSHjCkcRjqNRQVmhFrSsqgBpGMTRbRFvCPmg
+    - last_visited: '2021-06-20T18:06:55'
+      original-url: https://mail.google.com/mail/u/0/#sent/CllgCJNrdSrvkQxSdLTDzKHtlSNQjzrnkgpHzWbjSHjCkcRjqNRQVmhFrSsqgBpGMTRbRFvCPmg
+      pinned: false
+      title: Father's Day 2/2 - markbojack.si@gmail.com - Gmail
+      url: https://mail.google.com/mail/u/0/#sent/CllgCJqWggDbXpmZvjVmvFgxJvJpZQJwVnmCxWcRZcFkvjbzSgLnjkKczrwCMRDznKrxLXwWZVV
     - active: true
-      last_visited: '2021-06-20T17:55:17'
+      last_visited: '2021-06-20T18:07:08'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Inbox (9) - markbojack.si@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/#inbox
+      title: Home
+      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
       zoom: 0.75
