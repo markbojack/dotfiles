@@ -1,57 +1,17 @@
 windows:
-- geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAKyAAAAIAAABUYAAALwAAACswAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAKzAAAA
     IQAABUUAAALv
   tabs:
-  - history:
-    - last_visited: '2021-06-20T13:55:00'
-      original-url: https://www.tdameritrade.com/home.page
-      pinned: false
-      title: Online Stock Trading, Investing, Brokerage | TD Ameritrade
-      url: https://www.tdameritrade.com/home.html
-    - last_visited: '2021-06-20T14:08:30'
-      original-url: https://invest.ameritrade.com/grid/p/site
-      pinned: false
-      title: TD Ameritrade
-      url: https://invest.ameritrade.com/grid/p/site#r=home
-    - last_visited: '2021-06-20T14:08:30'
-      original-url: https://invest.ameritrade.com/grid/p/site
-      pinned: false
-      title: TD Ameritrade
-      url: https://invest.ameritrade.com/grid/p/site#r=home
+  - active: true
+    history:
     - active: true
-      last_visited: '2021-06-20T14:08:38'
-      original-url: https://invest.ameritrade.com/grid/p/site#r=home
+      last_visited: '2021-06-20T17:59:26'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: TD Ameritrade
-      url: https://invest.ameritrade.com/grid/p/site#r=search?query=Securities%20with%20Special%20Margin%20Requirements
-      zoom: 0.75
-  - active: true
-    history:
-    - last_visited: '2021-06-20T14:08:42'
-      pinned: false
-      title: TD Ameritrade
-      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?filter=A
-    - active: true
-      last_visited: '2021-06-20T14:08:48'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 7315
-      title: TD Ameritrade
-      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=B
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-20T13:58:41'
-      original-url: https://etf.com/fpa
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 80
-      title: 'FPA ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/FPA
+      title: Inbox (9) - markbojack.si@gmail.com - Gmail
+      url: https://mail.google.com/mail/u/0/#inbox
       zoom: 0.75

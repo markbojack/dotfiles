@@ -1,27 +1,17 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
-    IQAABUUAAALv
+    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAAEAAAACEAAAKiAAAC7wAAAAAAAAAABVYAAAAQAAAA
+    IQAAAqIAAALv
   tabs:
   - active: true
     history:
     - active: true
-      last_visited: '2021-06-19T05:07:44'
+      last_visited: '2021-06-20T17:55:17'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Gmail configuration (Mu4e 1.4.12 user manual)
-      url: https://www.djcbsoftware.nl/code/mu/mu4e/Gmail-configuration.html
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-19T05:07:44'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Derek Taylor · GitLab
-      url: https://gitlab.com/dwt1
+      title: Inbox (9) - markbojack.si@gmail.com - Gmail
+      url: https://mail.google.com/mail/u/0/#inbox
       zoom: 0.75
