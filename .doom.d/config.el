@@ -61,9 +61,12 @@
       user-full-name  "Mark Bojack"
 	  mu4e-compose-signature (concat "Mark Bojack\n" "https://github.com/markbojack\n" "Sent with mu4e from Doom Emacs\n")
 ;;      mu4e-update-interval (* 3 60)
-      mu4e-update-interval 60
+      mu4e-attachment-dir "~/Downloads"
       mu4e-get-mail-command "mbsync -a"
 	  mu4e-maildir "~/Mail"
+      mu4e-update-interval 60
+      mu4e-index-cleanup t              ;; full cleanup check
+      mu4e-index-lazy-check nil         ;; consider up-to-date dirs
       mu4e-main-buffer-hide-personal-addresses t
 	  mu4e-change-filenames-when-moving t
 	  mu4e-drafts-folder "/[Gmail]/Drafts"

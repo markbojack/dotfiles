@@ -1,11 +1,12 @@
 windows:
-- geometry: !!binary |
+- active: true
+  geometry: !!binary |
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-21T02:10:58'
+      last_visited: '2021-06-21T03:50:13'
       pinned: false
       scroll-pos:
         x: 0
@@ -15,7 +16,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-21T02:10:58'
+      last_visited: '2021-06-21T03:50:12'
       pinned: false
       scroll-pos:
         x: 0
@@ -24,14 +25,125 @@ windows:
         Overflow
       url: https://stackoverflow.com/questions/36557402/viewing-chinese-korean-lunar-birthday-on-org-agenda
       zoom: 0.75
-  - active: true
-    history:
+  - history:
     - active: true
-      last_visited: '2021-06-21T02:10:57'
+      last_visited: '2021-06-21T03:50:16'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: joy
-      url: https://emojipedia.org/search/?q=joy
+      title: mu4e-update-interval - Tìm trên Google
+      url: https://www.google.com/search?q=mu4e-update-interval
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-21T03:50:13'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Update-interval doesn''t work · Issue #1052 · djcb/mu · GitHub'
+      url: https://github.com/djcb/mu/issues/1052
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-21T03:50:17'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'mu4e - automatic current update of incoming mail? : emacs'
+      url: https://www.reddit.com/r/emacs/comments/badd1d/mu4e_automatic_current_update_of_incoming_mail/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-21T03:50:17'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'TIP: How to easily manage your emails with mu4e : emacs'
+      url: https://www.reddit.com/r/emacs/comments/8q84dl/tip_how_to_easily_manage_your_emails_with_mu4e/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-21T03:50:12'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: .emacs.d/config.org at master · rememberYou/.emacs.d · GitHub
+      url: https://github.com/rememberYou/.emacs.d/blob/master/config.org
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-21T03:50:12'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Mu4e - WikEmacs
+      url: https://wikemacs.org/wiki/Mu4e
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-21T03:50:16'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: mu4e get attachment - Tìm trên Google
+      url: https://www.google.com/search?q=mu4e%20get%20attachment
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-21T03:50:12'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: How can I easily download/save an attachment in mu4e? - Emacs Stack Exchange
+      url: https://emacs.stackexchange.com/questions/25045/how-can-i-easily-download-save-an-attachment-in-mu4e
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-21T03:50:21'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 720
+      title: isync - ArchWiki
+      url: https://wiki.archlinux.org/title/Isync
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-21T03:50:27'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Replacing offlineimap with mbsync — mcgrof
+      url: https://people.kernel.org/mcgrof/replacing-offlineimap-with-mbsync
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-21T03:50:30'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Update-interval doesn''t work · Issue #1052 · djcb/mu · GitHub'
+      url: https://github.com/djcb/mu/issues/1052
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-21T03:50:39'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Notmuch of a mail setup Part 1- mbsync, msmtp and systemd | Assorted
+        Nerdery
+      url: https://bostonenginerd.com/posts/notmuch-of-a-mail-setup-part-1-mbsync-msmtp-and-systemd/
       zoom: 0.75
