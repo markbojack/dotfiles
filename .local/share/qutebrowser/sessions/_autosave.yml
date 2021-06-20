@@ -1,176 +1,196 @@
 windows:
-- geometry: !!binary |
+- active: true
+  geometry: !!binary |
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
-  - active: true
-    history:
-    - last_visited: '2021-06-20T20:11:41'
-      pinned: false
-      title: markbojack (Mark Bojack)
-      url: https://github.com/markbojack
-    - last_visited: '2021-06-20T20:12:27'
-      original-url: https://gist.github.com/mine
-      pinned: false
-      title: markbojack’s gists
-      url: https://gist.github.com/markbojack
-    - last_visited: '2021-06-20T20:12:56'
-      pinned: false
-      title: markbojack’s gists
-      url: https://gist.github.com/markbojack/public
-    - last_visited: '2021-06-20T20:12:58'
-      pinned: false
-      title: markbojack’s gists
-      url: https://gist.github.com/markbojack
-    - last_visited: '2021-06-20T20:13:06'
-      pinned: false
-      title: Manual debloat/backup Samsung Galaxy S8 (no root)
-      url: https://gist.github.com/markbojack/6052e7939e4086598281c1b6f24f1673
-    - last_visited: '2021-06-20T20:13:13'
-      pinned: false
-      title: markbojack’s gists
-      url: https://gist.github.com/markbojack
-    - last_visited: '2021-06-20T20:13:31'
-      pinned: false
-      title: markbojack (Mark Bojack)
-      url: https://github.com/markbojack
-    - last_visited: '2021-06-20T20:13:49'
-      pinned: false
-      title: Create a new Gist
-      url: https://gist.github.com/
-    - last_visited: '2021-06-20T20:14:55'
-      original-url: https://gist.github.com/
-      pinned: false
-      title: Installing Doom Emacs on an Arch-Based Distro
-      url: https://gist.github.com/markbojack/cbaacd464e4fd981fa9a0e8c0faa85d6
-    - last_visited: '2021-06-20T20:15:05'
-      pinned: false
-      title: markbojack’s gists
-      url: https://gist.github.com/markbojack
-    - last_visited: '2021-06-20T20:15:18'
-      pinned: false
-      title: Manual debloat/backup Samsung Galaxy S8 (no root)
-      url: https://gist.github.com/markbojack/6052e7939e4086598281c1b6f24f1673
-    - last_visited: '2021-06-20T20:15:21'
-      pinned: false
-      title: markbojack’s gists
-      url: https://gist.github.com/markbojack
-    - last_visited: '2021-06-20T20:15:32'
-      pinned: false
-      title: Installing Doom Emacs on an Arch-Based Distro
-      url: https://gist.github.com/markbojack/cbaacd464e4fd981fa9a0e8c0faa85d6
-    - last_visited: '2021-06-20T20:15:45'
-      original-url: https://gist.github.com/markbojack/cbaacd464e4fd981fa9a0e8c0faa85d6
-      pinned: false
-      title: markbojack’s gists
-      url: https://gist.github.com/markbojack
-    - last_visited: '2021-06-20T20:15:57'
-      pinned: false
-      title: Create a new Gist
-      url: https://gist.github.com/
-    - last_visited: '2021-06-20T20:16:01'
-      pinned: false
-      title: markbojack’s gists
-      url: https://gist.github.com/markbojack
-    - last_visited: '2021-06-20T20:16:05'
-      pinned: false
-      title: Create a new Gist
-      url: https://gist.github.com/
-    - last_visited: '2021-06-20T20:17:03'
-      pinned: false
-      title: markbojack’s gists
-      url: https://gist.github.com/markbojack
-    - last_visited: '2021-06-20T20:17:26'
-      pinned: false
-      title: Manual debloat/backup Samsung Galaxy S8 (no root)
-      url: https://gist.github.com/markbojack/6052e7939e4086598281c1b6f24f1673
-    - last_visited: '2021-06-20T20:17:33'
-      pinned: false
-      title: Revisions · Manual debloat/backup Samsung Galaxy S8 (no root)
-      url: https://gist.github.com/markbojack/6052e7939e4086598281c1b6f24f1673/revisions
-    - last_visited: '2021-06-20T20:17:34'
-      original-url: https://gist.github.com/markbojack/6052e7939e4086598281c1b6f24f1673/revisions
-      pinned: false
-      title: Manual debloat/backup Samsung Galaxy S8 (no root)
-      url: https://gist.github.com/markbojack/6052e7939e4086598281c1b6f24f1673
-    - last_visited: '2021-06-20T20:17:43'
-      pinned: false
-      title: Create a new Gist
-      url: https://gist.github.com/
-    - last_visited: '2021-06-20T20:18:51'
-      original-url: https://gist.github.com/
-      pinned: false
-      title: Installing Doom Emacs on an Arch-Based Distro
-      url: https://gist.github.com/markbojack/e3f2c90375459958a6849defc9a3d703
-    - last_visited: '2021-06-20T20:20:33'
-      pinned: false
-      title: Create a new Gist
-      url: https://gist.github.com/
-    - last_visited: '2021-06-20T20:21:12'
-      original-url: https://gist.github.com/
-      pinned: false
-      title: Installing R in Doom Emacs
-      url: https://gist.github.com/markbojack/c8038f097b7958efe646a3831b7fce75
-    - last_visited: '2021-06-20T20:21:17'
-      pinned: false
-      title: markbojack’s gists
-      url: https://gist.github.com/markbojack
-    - last_visited: '2021-06-20T20:21:22'
-      pinned: false
-      title: Installing Doom Emacs on an Arch-Based Distro
-      url: https://gist.github.com/markbojack/e3f2c90375459958a6849defc9a3d703
-    - last_visited: '2021-06-20T20:21:31'
-      pinned: false
-      title: Editing install-doomemacs.md
-      url: https://gist.github.com/markbojack/e3f2c90375459958a6849defc9a3d703/edit
-    - last_visited: '2021-06-20T20:21:40'
-      pinned: false
-      title: Installing Doom Emacs on an Arch-Based Distro
-      url: https://gist.github.com/markbojack/e3f2c90375459958a6849defc9a3d703
-    - last_visited: '2021-06-20T20:21:42'
-      pinned: false
-      title: markbojack’s gists
-      url: https://gist.github.com/markbojack
-    - last_visited: '2021-06-20T20:22:32'
-      pinned: false
-      title: Create a new Gist
-      url: https://gist.github.com/
-    - last_visited: '2021-06-20T20:23:59'
-      original-url: https://gist.github.com/
-      pinned: false
-      title: Setting up Mu4e in Doom Emacs on an Arch-Based Distro (Gmail Account)
-      url: https://gist.github.com/markbojack/7fdf9248559e7c5219879bc7ef776b7b
-    - last_visited: '2021-06-20T20:24:09'
-      pinned: false
-      title: markbojack’s gists
-      url: https://gist.github.com/markbojack
-    - last_visited: '2021-06-20T20:38:07'
-      pinned: false
-      title: Installing Doom Emacs on an Arch-Based Distro
-      url: https://gist.github.com/markbojack/e3f2c90375459958a6849defc9a3d703
-    - last_visited: '2021-06-20T20:38:38'
-      pinned: false
-      title: Editing install-doomemacs.md
-      url: https://gist.github.com/markbojack/e3f2c90375459958a6849defc9a3d703/edit
-    - last_visited: '2021-06-20T20:38:47'
-      pinned: false
-      title: Installing Doom Emacs on an Arch-Based Distro
-      url: https://gist.github.com/markbojack/e3f2c90375459958a6849defc9a3d703
-    - last_visited: '2021-06-20T20:38:51'
-      pinned: false
-      title: Revisions · Installing Doom Emacs on an Arch-Based Distro
-      url: https://gist.github.com/markbojack/e3f2c90375459958a6849defc9a3d703/revisions
-    - last_visited: '2021-06-20T20:38:52'
-      original-url: https://gist.github.com/markbojack/e3f2c90375459958a6849defc9a3d703/revisions
-      pinned: false
-      title: Installing Doom Emacs on an Arch-Based Distro
-      url: https://gist.github.com/markbojack/e3f2c90375459958a6849defc9a3d703
+  - history:
     - active: true
-      last_visited: '2021-06-20T20:38:57'
+      last_visited: '2021-06-20T23:44:06'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
       title: Home
       url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-06-20T23:48:02'
+      pinned: false
+      title: system crafter - YouTube
+      url: https://www.youtube.com/results?search_query=system+crafter
+    - last_visited: '2021-06-20T23:48:02'
+      pinned: false
+      title: System Crafters - YouTube
+      url: https://www.youtube.com/channel/UCAiiOTio8Yu69c3XnR7nQBQ
+    - last_visited: '2021-06-20T23:49:16'
+      pinned: false
+      title: System Crafters - YouTube
+      url: https://www.youtube.com/c/SystemCrafters/playlists
+    - last_visited: '2021-06-20T23:49:32'
+      pinned: false
+      title: System Crafters - YouTube
+      url: https://www.youtube.com/c/SystemCrafters/featured
+    - last_visited: '2021-06-20T23:49:40'
+      pinned: false
+      title: System Crafters - YouTube
+      url: https://www.youtube.com/c/SystemCrafters/channels
+    - last_visited: '2021-06-20T23:49:42'
+      pinned: false
+      title: System Crafters - YouTube
+      url: https://www.youtube.com/c/SystemCrafters/channels
+    - last_visited: '2021-06-20T23:49:42'
+      pinned: false
+      title: System Crafters - YouTube
+      url: https://www.youtube.com/c/SystemCrafters/channels
+    - last_visited: '2021-06-20T23:49:42'
+      pinned: false
+      title: System Crafters - YouTube
+      url: https://www.youtube.com/c/SystemCrafters/channels
+    - last_visited: '2021-06-20T23:49:42'
+      pinned: false
+      title: System Crafters - YouTube
+      url: https://www.youtube.com/c/SystemCrafters/channels
+    - last_visited: '2021-06-20T23:49:42'
+      pinned: false
+      title: System Crafters - YouTube
+      url: https://www.youtube.com/c/SystemCrafters/channels
+    - last_visited: '2021-06-20T23:49:42'
+      pinned: false
+      title: System Crafters - YouTube
+      url: https://www.youtube.com/c/SystemCrafters/channels
+    - last_visited: '2021-06-20T23:49:42'
+      pinned: false
+      title: System Crafters - YouTube
+      url: https://www.youtube.com/c/SystemCrafters/channels
+    - last_visited: '2021-06-20T23:49:42'
+      pinned: false
+      title: System Crafters - YouTube
+      url: https://www.youtube.com/c/SystemCrafters/channels
+    - last_visited: '2021-06-20T23:49:42'
+      pinned: false
+      title: System Crafters - YouTube
+      url: https://www.youtube.com/c/SystemCrafters/channels
+    - last_visited: '2021-06-20T23:49:42'
+      pinned: false
+      title: System Crafters - YouTube
+      url: https://www.youtube.com/c/SystemCrafters/channels
+    - last_visited: '2021-06-20T23:49:42'
+      pinned: false
+      title: System Crafters - YouTube
+      url: https://www.youtube.com/c/SystemCrafters/channels
+    - last_visited: '2021-06-20T23:49:42'
+      pinned: false
+      title: System Crafters - YouTube
+      url: https://www.youtube.com/c/SystemCrafters/channels
+    - last_visited: '2021-06-20T23:49:42'
+      pinned: false
+      title: System Crafters - YouTube
+      url: https://www.youtube.com/c/SystemCrafters/channels
+    - last_visited: '2021-06-20T23:49:42'
+      pinned: false
+      title: System Crafters - YouTube
+      url: https://www.youtube.com/c/SystemCrafters/channels
+    - last_visited: '2021-06-20T23:49:45'
+      pinned: false
+      title: System Crafters - YouTube
+      url: https://www.youtube.com/c/SystemCrafters/channels
+    - last_visited: '2021-06-20T23:49:47'
+      pinned: false
+      title: System Crafters - YouTube
+      url: https://www.youtube.com/c/SystemCrafters/channels
+    - last_visited: '2021-06-20T23:49:49'
+      pinned: false
+      title: System Crafters - YouTube
+      url: https://www.youtube.com/c/SystemCrafters/about
+    - last_visited: '2021-06-20T23:49:51'
+      pinned: false
+      title: System Crafters - YouTube
+      url: https://www.youtube.com/c/SystemCrafters/about
+    - last_visited: '2021-06-20T23:49:58'
+      pinned: false
+      title: System Crafters - YouTube
+      url: https://www.youtube.com/c/SystemCrafters/playlists
+    - active: true
+      last_visited: '2021-06-20T23:50:03'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: System Crafters Live! - YouTube
+      url: https://www.youtube.com/playlist?list=PLEoMzSkcN8oPfsa4bgW2VfzfHKaH7Gwv4
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-20T23:50:51'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 520
+      title: newsboat youtube playlist - Google Search
+      url: https://www.google.com/search?q=newsboat%20youtube%20playlist
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-20T23:51:29'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 120
+      title: google api - How to use YouTube Data API (v3) to get more than 15 videos
+        in an RSS reader (newsboat)? - Stack Overflow
+      url: https://stackoverflow.com/questions/56430703/how-to-use-youtube-data-api-v3-to-get-more-than-15-videos-in-an-rss-reader-ne
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-20T23:51:34'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Newsboat - ArchWiki
+      url: https://wiki.archlinux.org/title/Newsboat
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-20T23:51:17'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Use Newsboat rss reader and mpv to subscribe and play bsdnow youtube
+        feed | The FreeBSD Forums
+      url: https://forums.freebsd.org/threads/use-newsboat-rss-reader-and-mpv-to-subscribe-and-play-bsdnow-youtube-feed.67600/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-20T23:51:23'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Youtube playlists? : rss'
+      url: https://www.reddit.com/r/rss/comments/io0af2/youtube_playlists/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-20T23:51:23'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Organizing YouTube subscriptions in Newsboat RSS reader
+      url: https://samsai.eu/post/youtube-subscriptions-on-newsboat/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-20T23:51:25'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: newsboat subscribe to youtube channels and playlist rss feeds and send
+        the links to kodi
+      url: https://odysee.com/@NapoleonWils0n:6/newsboat-subscribe-to-youtube-channels:a
       zoom: 0.75
