@@ -1,101 +1,36 @@
 windows:
-- active: true
-  geometry: !!binary |
+- geometry: !!binary |
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
   - history:
-    - last_visited: '2021-06-21T11:37:21'
-      pinned: false
-      title: HSBC Personal Banking - HSBC Bank USA
-      url: https://www.us.hsbc.com/
-    - last_visited: '2021-06-21T11:38:30'
-      original-url: https://www.security.us.hsbc.com/gsa?idv_cmd=idv.SaaSSecurityCommand
-      pinned: false
-      title: 'Log on to Personal Internet Banking: Username | HSBC'
-      url: https://www.security.us.hsbc.com/gsa/SECURITY_LOGON_PAGE/
-    - last_visited: '2021-06-21T11:39:12'
-      pinned: false
-      title: Log on to Personal Internet Banking with password | HSBC
-      url: https://www.security.us.hsbc.com/gsa/SECURITY_LOGON_PAGE/#
-    - last_visited: '2021-06-21T11:39:20'
-      original-url: https://www.us.hsbc.com/bin/saas/postback.html?url=/content/hsbc/us/en_us/online/dashboard.html&idv_cmd=idv.SaaSSecurityCommand
-      pinned: false
-      title: Your homepage | Banking | HSBC
-      url: https://www.us.hsbc.com/online/dashboard/?rid=935
-    - last_visited: '2021-06-21T11:39:44'
-      original-url: https://www.us.hsbc.com/online/messages
-      pinned: false
-      title: Messages | Banking | HSBC
-      url: https://www.us.hsbc.com/online/messages/
-    - last_visited: '2021-06-21T11:40:09'
-      original-url: https://www.us.hsbc.com/online/dashboard
-      pinned: false
-      title: Your homepage | Banking | HSBC
-      url: https://www.us.hsbc.com/online/dashboard/
     - active: true
-      last_visited: '2021-06-21T11:41:42'
-      original-url: https://www.us.hsbc.com/bin/logout./content/hsbc/us/en_us/online-banking/log-off
+      last_visited: '2021-06-21T19:18:35'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Log Off
+      title: www.us.hsbc.com
       url: https://www.us.hsbc.com/online-banking/log-off/?rid=909
       zoom: 0.75
   - active: true
     history:
-    - last_visited: '2021-06-21T11:41:45'
+    - last_visited: '2021-06-21T19:18:35'
       pinned: false
       title: Outlook
       url: https://outlook.live.com/mail/0/inbox
-    - last_visited: '2021-06-21T11:41:56'
+    - last_visited: '2021-06-21T19:18:51'
       original-url: https://outlook.live.com/mail/0/inbox
       pinned: false
       title: Mail - Mark Bojack - Outlook
       url: https://outlook.live.com/mail/0/inbox/
-    - last_visited: '2021-06-21T11:41:58'
-      original-url: https://outlook.live.com/mail/0/inbox/
-      pinned: false
-      title: Mail - Mark Bojack - Outlook
-      url: https://outlook.live.com/mail/0/inbox
-    - last_visited: '2021-06-21T11:42:03'
-      original-url: https://outlook.live.com/mail/0/inbox
-      pinned: false
-      title: Mail - Mark Bojack - Outlook
-      url: https://outlook.live.com/mail/0/inbox/id/AQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoARgAAA4lIdydTkERKv2ZG1Ybxqy4HABKhdE1MPkJJuq%2BLMFjFymoAAAIBDAAAABKhdE1MPkJJuq%2BLMFjFymoABIWdd30AAAA%3D
-    - last_visited: '2021-06-21T11:42:08'
-      original-url: https://outlook.live.com/mail/0/inbox/id/AQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoARgAAA4lIdydTkERKv2ZG1Ybxqy4HABKhdE1MPkJJuq%2BLMFjFymoAAAIBDAAAABKhdE1MPkJJuq%2BLMFjFymoABIWdd30AAAA%3D
-      pinned: false
-      title: Mail - Mark Bojack - Outlook
-      url: https://outlook.live.com/mail/0/inbox
-    - last_visited: '2021-06-21T11:42:08'
-      original-url: https://outlook.live.com/mail/0/inbox
-      pinned: false
-      title: Mail - Mark Bojack - Outlook
-      url: https://outlook.live.com/mail/0/inbox/id/AQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoARgAAA4lIdydTkERKv2ZG1Ybxqy4HABKhdE1MPkJJuq%2BLMFjFymoAAAIBDAAAABKhdE1MPkJJuq%2BLMFjFymoABIWdd3wAAAA%3D
-    - last_visited: '2021-06-21T11:42:34'
-      original-url: https://outlook.live.com/mail/0/inbox/id/AQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoARgAAA4lIdydTkERKv2ZG1Ybxqy4HABKhdE1MPkJJuq%2BLMFjFymoAAAIBDAAAABKhdE1MPkJJuq%2BLMFjFymoABIWdd3wAAAA%3D
-      pinned: false
-      title: Mail - Mark Bojack - Outlook
-      url: https://outlook.live.com/mail/0/inbox
-    - last_visited: '2021-06-21T11:42:34'
-      original-url: https://outlook.live.com/mail/0/inbox
-      pinned: false
-      title: Mail - Mark Bojack - Outlook
-      url: https://outlook.live.com/mail/0/inbox/id/AQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoARgAAA4lIdydTkERKv2ZG1Ybxqy4HABKhdE1MPkJJuq%2BLMFjFymoAAAIBDAAAABKhdE1MPkJJuq%2BLMFjFymoABIHVEwkAAAA%3D
-    - last_visited: '2021-06-21T11:42:40'
-      original-url: https://outlook.live.com/mail/0/inbox/id/AQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoARgAAA4lIdydTkERKv2ZG1Ybxqy4HABKhdE1MPkJJuq%2BLMFjFymoAAAIBDAAAABKhdE1MPkJJuq%2BLMFjFymoABIHVEwkAAAA%3D
-      pinned: false
-      title: Mail - Mark Bojack - Outlook
-      url: https://outlook.live.com/mail/0/inbox/id/AQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoARgAAA4lIdydTkERKv2ZG1Ybxqy4HABKhdE1MPkJJuq%2BLMFjFymoAAAIBDAAAABKhdE1MPkJJuq%2BLMFjFymoABIHVEwgAAAA%3D
     - active: true
-      last_visited: '2021-06-21T11:42:42'
-      original-url: https://outlook.live.com/mail/0/inbox/id/AQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoARgAAA4lIdydTkERKv2ZG1Ybxqy4HABKhdE1MPkJJuq%2BLMFjFymoAAAIBDAAAABKhdE1MPkJJuq%2BLMFjFymoABIHVEwgAAAA%3D
+      last_visited: '2021-06-21T19:18:53'
+      original-url: https://outlook.live.com/mail/0/inbox/
       pinned: false
       scroll-pos:
         x: 0
         y: 0
       title: Mail - Mark Bojack - Outlook
-      url: https://outlook.live.com/mail/0/inbox/id/AQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoARgAAA4lIdydTkERKv2ZG1Ybxqy4HABKhdE1MPkJJuq%2BLMFjFymoAAAIBDAAAABKhdE1MPkJJuq%2BLMFjFymoABIHVEwcAAAA%3D
+      url: https://outlook.live.com/mail/0/inbox
       zoom: 0.75
