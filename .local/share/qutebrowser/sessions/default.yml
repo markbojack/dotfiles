@@ -1,7 +1,8 @@
 windows:
-- geometry: !!binary |
-    AdnQywADAAAAAAAQAAAAIQAABUUAAALvAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
-    IQAABUUAAALv
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAAEAAAACEAAAKiAAAC7wAAAAAAAAAABVYAAAAQAAAA
+    IQAAAqIAAALv
   tabs:
   - history: []
   - history: []
