@@ -64,11 +64,11 @@
       mu4e-attachment-dir "~/Downloads"
       mu4e-get-mail-command "mbsync -a -D -V"
 	  mu4e-maildir "~/Mail"
-      mu4e-update-interval 60
+      mu4e-update-interval 15
       mu4e-index-cleanup t              ;; full cleanup check
+      mu4e-index-lazy-check nil         ;; consider up-to-date dirs
       mu4e-index-update-error-continue t
       mu4e-index-update-error-warning t
-      mu4e-index-lazy-check nil         ;; consider up-to-date dirs
       mu4e-main-buffer-hide-personal-addresses t
 	  mu4e-change-filenames-when-moving t
 	  mu4e-drafts-folder "/[Gmail]/Drafts"
@@ -92,8 +92,3 @@
    smtpmail-smtp-server "smtp.gmail.com"
    smtpmail-smtp-service 587)
 
-(use-package mu4e-alert
-  :after mu4e
-  :hook ((after-init . mu4e-alert-enable-mode-line-display)
-         (after-init . mu4e-alert-enable-notifications))
-  :config (mu4e-alert-set-default-style 'libnotify))

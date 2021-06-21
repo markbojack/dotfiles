@@ -4,34 +4,96 @@ windows:
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
-  - history:
-    - active: true
-      last_visited: '2021-06-21T19:18:35'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: www.us.hsbc.com
-      url: https://www.us.hsbc.com/online-banking/log-off/?rid=909
-      zoom: 0.75
   - active: true
     history:
-    - last_visited: '2021-06-21T19:18:35'
+    - last_visited: '2021-06-21T22:03:30'
       pinned: false
       title: Outlook
       url: https://outlook.live.com/mail/0/inbox
-    - last_visited: '2021-06-21T19:18:51'
-      original-url: https://outlook.live.com/mail/0/inbox
+    - last_visited: '2021-06-21T22:03:47'
+      original-url: https://outlook.live.com/owa/0/?state=1&redirectTo=aHR0cHM6Ly9vdXRsb29rLmxpdmUuY29tL21haWwvMC9pbmJveC8&RpsCsrfState=c4972127-278a-d4b5-63b0-48883387f8e8&wa=wsignin1.0
       pinned: false
       title: Mail - Mark Bojack - Outlook
       url: https://outlook.live.com/mail/0/inbox/
+    - last_visited: '2021-06-21T22:03:49'
+      pinned: false
+      title: Mail - Mark Bojack - Outlook
+      url: https://outlook.live.com/mail/0/inbox
+    - last_visited: '2021-06-21T22:43:24'
+      pinned: false
+      title: Mail - Mark Bojack - Outlook
+      url: https://outlook.live.com/mail/0/inbox/id/AQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoARgAAA4lIdydTkERKv2ZG1Ybxqy4HABKhdE1MPkJJuq%2BLMFjFymoAAAIBDAAAABKhdE1MPkJJuq%2BLMFjFymoABIbekgQAAAA%3D
+    - last_visited: '2021-06-21T22:43:25'
+      pinned: false
+      title: Mail - Mark Bojack - Outlook
+      url: https://outlook.live.com/mail/0/inbox
+    - last_visited: '2021-06-21T22:43:25'
+      pinned: false
+      title: Mail - Mark Bojack - Outlook
+      url: https://outlook.live.com/mail/0/inbox/id/AQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoARgAAA4lIdydTkERKv2ZG1Ybxqy4HABKhdE1MPkJJuq%2BLMFjFymoAAAIBDAAAABKhdE1MPkJJuq%2BLMFjFymoABIbekgUAAAA%3D
+    - last_visited: '2021-06-21T22:43:29'
+      pinned: false
+      title: Mail - Mark Bojack - Outlook
+      url: https://outlook.live.com/mail/0/inbox/id/AQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoARgAAA4lIdydTkERKv2ZG1Ybxqy4HABKhdE1MPkJJuq%2BLMFjFymoAAAIBDAAAABKhdE1MPkJJuq%2BLMFjFymoABIbekgcAAAA%3D
+    - last_visited: '2021-06-21T22:43:32'
+      pinned: false
+      title: Mail - Mark Bojack - Outlook
+      url: https://outlook.live.com/mail/0/inbox
+    - last_visited: '2021-06-21T22:43:35'
+      pinned: false
+      title: Mail - Mark Bojack - Outlook
+      url: https://outlook.live.com/mail/0/AQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoALgAAA4lIdydTkERKv2ZG1Ybxqy4BABKhdE1MPkJJuq%2BLMFjFymoAAuVhpkYAAAA%3D
+    - last_visited: '2021-06-21T22:43:37'
+      pinned: false
+      title: Mail - Mark Bojack - Outlook
+      url: https://outlook.live.com/mail/0/junkemail
     - active: true
-      last_visited: '2021-06-21T19:18:53'
-      original-url: https://outlook.live.com/mail/0/inbox/
+      last_visited: '2021-06-21T22:43:40'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
       title: Mail - Mark Bojack - Outlook
       url: https://outlook.live.com/mail/0/inbox
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-21T22:41:02'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 37415
+      title: .emacs.d/config.org at master · rememberYou/.emacs.d
+      url: https://github.com/rememberYou/.emacs.d/blob/master/config.org
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-21T22:44:19'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 520
+      title: 'mu4e-update-mail-and-index: no indexing? · Issue #521 · djcb/mu'
+      url: https://github.com/djcb/mu/issues/521
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-21T22:44:21'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 2106
+      title: 'Needs to run mu4e-update-index manually after each update · Issue #1815
+        · djcb/mu'
+      url: https://github.com/djcb/mu/issues/1815
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-21T22:50:30'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 680
+      title: scheme - add-hook to emacs scratch at startup - Stack Overflow
+      url: https://stackoverflow.com/questions/16459350/add-hook-to-emacs-scratch-at-startup
       zoom: 0.75
