@@ -1,6 +1,6 @@
 " ~/.vim/sessions/copper-ingot.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 15 Tháng 6 2021 at 23:36:20.
+" Created by session.vim 2.13.1 on 22 Tháng 6 2021 at 10:50:01.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -34,7 +34,7 @@ badd +1 watchlistTips.md
 badd +1 README.md
 badd +1 /docs/NOTES.md
 badd +3 docs/NOTES.md
-badd +1 docs/fees.md
+badd +21 docs/fees.md
 argglobal
 %argdel
 $argadd ~/.config/nvim/init.vim
@@ -44,13 +44,25 @@ wincmd _ | wincmd |
 vsplit
 1wincmd h
 wincmd w
+wincmd _ | wincmd |
+split
+wincmd _ | wincmd |
+split
+2wincmd k
+wincmd w
+wincmd w
 wincmd t
 set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe 'vert 1resize ' . ((&columns * 31 + 54) / 109)
-exe 'vert 2resize ' . ((&columns * 77 + 54) / 109)
+exe 'vert 1resize ' . ((&columns * 31 + 54) / 108)
+exe '2resize ' . ((&lines * 17 + 27) / 55)
+exe 'vert 2resize ' . ((&columns * 76 + 54) / 108)
+exe '3resize ' . ((&lines * 17 + 27) / 55)
+exe 'vert 3resize ' . ((&columns * 76 + 54) / 108)
+exe '4resize ' . ((&lines * 17 + 27) / 55)
+exe 'vert 4resize ' . ((&columns * 76 + 54) / 108)
 argglobal
 enew
 " file NERD_tree_3
@@ -74,7 +86,7 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 21 - ((20 * winheight(0) + 26) / 53)
+let s:l = 21 - ((6 * winheight(0) + 8) / 17)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
@@ -82,9 +94,52 @@ normal! zt
 normal! 0
 lcd ~/copper-ingot
 wincmd w
-2wincmd w
-exe 'vert 1resize ' . ((&columns * 31 + 54) / 109)
-exe 'vert 2resize ' . ((&columns * 77 + 54) / 109)
+argglobal
+if bufexists("~/copper-ingot/README.md") | buffer ~/copper-ingot/README.md | else | edit ~/copper-ingot/README.md | endif
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+silent! normal! zE
+let s:l = 1 - ((0 * winheight(0) + 8) / 17)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+1
+normal! 0
+lcd ~/copper-ingot
+wincmd w
+argglobal
+if bufexists("~/copper-ingot/docs/NOTES.md") | buffer ~/copper-ingot/docs/NOTES.md | else | edit ~/copper-ingot/docs/NOTES.md | endif
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+silent! normal! zE
+let s:l = 1 - ((0 * winheight(0) + 8) / 17)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+1
+normal! 0
+lcd ~/copper-ingot
+wincmd w
+4wincmd w
+exe 'vert 1resize ' . ((&columns * 31 + 54) / 108)
+exe '2resize ' . ((&lines * 17 + 27) / 55)
+exe 'vert 2resize ' . ((&columns * 76 + 54) / 108)
+exe '3resize ' . ((&lines * 17 + 27) / 55)
+exe 'vert 3resize ' . ((&columns * 76 + 54) / 108)
+exe '4resize ' . ((&lines * 17 + 27) / 55)
+exe 'vert 4resize ' . ((&columns * 76 + 54) / 108)
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
@@ -113,8 +168,8 @@ if !getbufvar(s:bufnr_save, '&modified')
   endif
 endif
 execute "cd" fnameescape(s:cwd_save)
-1resize 53|vert 1resize 31|2resize 53|vert 2resize 77|
-2wincmd w
+1resize 53|vert 1resize 31|2resize 17|vert 2resize 76|3resize 17|vert 3resize 76|4resize 17|vert 4resize 76|
+4wincmd w
 tabnext 1
 if exists('s:wipebuf')
   if empty(bufname(s:wipebuf))

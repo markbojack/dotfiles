@@ -1,10 +1,10 @@
 windows:
-- geometry: !!binary |
+- active: true
+  geometry: !!binary |
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
-  - active: true
-    history:
+  - history:
     - last_visited: '2021-06-22T09:32:51'
       pinned: false
       title: Outlook
@@ -64,4 +64,69 @@ windows:
         y: 0
       title: scheme - add-hook to emacs scratch at startup - Stack Overflow
       url: https://stackoverflow.com/questions/16459350/add-hook-to-emacs-scratch-at-startup
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-22T10:20:31'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Home
+      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
+      zoom: 0.75
+  - active: true
+    history:
+    - last_visited: '2021-06-22T10:24:29'
+      original-url: https://www.tdameritrade.com/tools-and-platforms/thinkorswim/web.page
+      pinned: false
+      title: thinkorswim Web Platform | TD Ameritrade
+      url: https://www.tdameritrade.com/tools-and-platforms/thinkorswim/web.html
+    - last_visited: '2021-06-22T10:24:33'
+      pinned: false
+      title: thinkorswim Web Login | TD Ameritrade
+      url: https://trade.thinkorswim.com/
+    - last_visited: '2021-06-22T10:24:36'
+      pinned: false
+      title: thinkorswim Web Login | TD Ameritrade
+      url: https://trade.thinkorswim.com/
+    - last_visited: '2021-06-22T10:24:37'
+      original-url: https://trade.thinkorswim.com/
+      pinned: false
+      title: Log in | thinkorswim Web
+      url: https://auth.tdameritrade.com/auth?response_type=code&client_id=TDATRADERX%40AMER.OAUTHAP&code_challenge=pIhk3fR1gQ-r-opywxiRaAV3o3DGqSq3OBCGdxc059s&code_challenge_method=S256&exp=1624334076576&redirect_uri=https%3A%2F%2Ftrade.thinkorswim.com%2Foauth&cv=default
+    - last_visited: '2021-06-22T10:24:56'
+      original-url: https://auth.tdameritrade.com/oauth?client_id=TDATRADERX%40AMER.OAUTHAP&cv=default&response_type=code&redirect_uri=https%3A%2F%2Ftrade.thinkorswim.com%2Foauth&code_challenge=pIhk3fR1gQ-r-opywxiRaAV3o3DGqSq3OBCGdxc059s&code_challenge_method=S256&exp=1624334076576
+      pinned: false
+      title: thinkorswim Web Login | TD Ameritrade
+      url: https://trade.thinkorswim.com/oauth?code=H74R8T9pWBcfD2%2FPZZQaUGqAdzrHfVqqnEFJEXXKwdKDNlxuJUy9ySGgRW2YNVWLkcor4%2BDkmLGpol1pFoRwPqWITYxEmdy0ai513slrvXiUqk8ROqstxOw%2FO7Du1%2FAMt0EjR4Y0yWvrzMVnf9QOPcG%2FySOJpxRZy%2Bvs9rutWvZw764XX9Sda0OJ0%2Bv0W6yvaN4Lptyt5IR3y%2FxnayXQAP54LiS22xPjdVdQwPVlVK2YFPSuG3fpQ97ENNidnzMNIgprcpNpE%2Fi6DoMP5CwoCxTfT7N3cwAOQGXvrBqj7jSQj8Krs4e%2Bq7OnfZ2kx07xIGCNDHCY0gFg25aAqVlyBoxvDiLYv3h14ZY2W20%2BbTLBXu81Fn%2F3dTcGsDGjEPJtsSDH23d7vUBQH0SrfqV6MUP9owOBv8aULKChbYpt%2BzQwjUpr2hn%2FlkstvNm100MQuG4LYrgoVi%2FJHHvlQx4rgOn8GiubOoP1%2FWYfmDGANKhf2LzHggJCE43UxYQnSRzk6HoBrR3xWMcfF83L8N1SoUdKYIC5UMjCgepGGIUIt8Md4Nj%2B2WqACA87tLFb1L1sT%2Bmxnpy42JWCs5l94Jw3wsE6fOMkkp%2F5alhn3Ez2ACXM5HI%2BPYv1obois3t%2Fo6PDzvJcmox9Ba51Sjgb%2B93HpL7ZobewmDmY%2BK0PULSfhEJtcIeUucLLY5886F5cS7%2FEe5tc%2F1NYoE8oYADlBunaZff1MIqG%2BeVI%2FikwpLpKK4rvWNOIQGt1pk2oy4iHxJEd1fnDcmDx7hr5KzMHNm9GfWkZoe7H48PMVOYzQfET%2BR6bJefrv1xajUO%2Fr3Uf%2Ba0H8pxVNw7adg2JuYz5CMSPy4xhgnbIKRYNIR63LB2U9NHeo2ZVb3k4EFvMMsgBo3aAW2sqSKhipis%3D212FD3x19z9sWBHDJACbC00B75E
+    - last_visited: '2021-06-22T10:24:58'
+      pinned: false
+      title: thinkorswim Web Login | TD Ameritrade
+      url: https://trade.thinkorswim.com/
+    - last_visited: '2021-06-22T10:24:58'
+      pinned: false
+      title: All Account Positions | thinkorswim Web
+      url: https://trade.thinkorswim.com/
+    - last_visited: '2021-06-22T10:25:24'
+      pinned: false
+      title: Trade XOM | thinkorswim Web
+      url: https://trade.thinkorswim.com/?symbol=XOM
+    - last_visited: '2021-06-22T10:26:01'
+      pinned: false
+      title: Trade SPY | thinkorswim Web
+      url: https://trade.thinkorswim.com/?symbol=SPY
+    - last_visited: '2021-06-22T10:28:49'
+      pinned: false
+      title: Trade XOM | thinkorswim Web
+      url: https://trade.thinkorswim.com/?symbol=XOM
+    - active: true
+      last_visited: '2021-06-22T10:29:00'
+      original-url: https://trade.thinkorswim.com/?symbol=XOM
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Log in | thinkorswim Web
+      url: https://auth.tdameritrade.com/auth?response_type=code&client_id=TDATRADERX%40AMER.OAUTHAP&code_challenge=1Ctoii2PlHxqHE45wXbLe7W6K3q9B5mNwuG3sjMIsWU&code_challenge_method=S256&exp=1624334340302&redirect_uri=https%3A%2F%2Ftrade.thinkorswim.com%2Foauth&cv=default
       zoom: 0.75
