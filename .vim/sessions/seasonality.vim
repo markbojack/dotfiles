@@ -1,6 +1,6 @@
 " ~/.vim/sessions/seasonality.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 22 Tháng 6 2021 at 11:40:25.
+" Created by session.vim 2.13.1 on 22 Tháng 6 2021 at 12:56:04.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -11,7 +11,7 @@ if &background != 'dark'
 	set background=dark
 endif
 if !exists('g:colors_name') || g:colors_name != 'delek' | colorscheme delek | endif
-call setqflist([{'lnum': 12, 'col': 1, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getAndProcessSymbols.R', 'text': 'getAndProcessSymbolsBulk <- function(symbols) {'}, {'lnum': 34, 'col': 22, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'data/model-gen.R', 'text': 'gaps_out_list_etf <- getAndProcessSymbolsBulk(all_symbols_etf)'}, {'lnum': 35, 'col': 24, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'data/model-gen.R', 'text': 'gaps_out_list_stock <- getAndProcessSymbolsBulk(all_symbols_stock)'}])
+call setqflist([{'lnum': 12, 'col': 1, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getAndProcessSymbols.R', 'text': 'getAndProcessSymbolsBulk <- function(symbols) {'}, {'lnum': 25, 'col': 22, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'data/model-gen.R', 'text': 'gaps_out_list_etf <- getAndProcessSymbolsBulk(all_symbols_etf)'}, {'lnum': 26, 'col': 24, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'data/model-gen.R', 'text': 'gaps_out_list_stock <- getAndProcessSymbolsBulk(all_symbols_stock)'}])
 let SessionLoad = 1
 let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
 let v:this_session=expand("<sfile>:p")
@@ -22,7 +22,7 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
 endif
 set shortmess=aoO
 badd +11 R/getAndProcessSymbols.R
-badd +68 data/model-gen.R
+badd +5 data/model-gen.R
 badd +1 R/h-DoW.R
 badd +1 R/h-WoMoY.R
 badd +1 R/h-dec-xmasnyd.R
@@ -34,7 +34,7 @@ badd +1 R/h-holiday.R
 badd +5 R/h-MoY.R
 badd +86 R/h-report.R
 badd +1 R/h-semimonthOfYear.R
-badd +36 R/getHighPrev.R
+badd +6 R/getHighPrev.R
 badd +134 R/getHighSharpe.R
 badd +26 model-gen.R
 badd +11 NERD_tree_1
@@ -93,7 +93,7 @@ badd +1 R/sm.R
 argglobal
 %argdel
 $argadd ~/.config/nvim/init.vim
-edit R/getHighPrev.R
+edit data/model-gen.R
 set splitbelow splitright
 wincmd _ | wincmd |
 vsplit
@@ -107,9 +107,9 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe 'vert 1resize ' . ((&columns * 31 + 110) / 220)
-exe 'vert 2resize ' . ((&columns * 82 + 110) / 220)
-exe 'vert 3resize ' . ((&columns * 105 + 110) / 220)
+exe 'vert 1resize ' . ((&columns * 21 + 110) / 220)
+exe 'vert 2resize ' . ((&columns * 108 + 110) / 220)
+exe 'vert 3resize ' . ((&columns * 89 + 110) / 220)
 argglobal
 enew
 " file NERD_tree_3
@@ -132,12 +132,12 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 53 - ((43 * winheight(0) + 26) / 53)
+let s:l = 59 - ((39 * winheight(0) + 26) / 53)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-53
-normal! 0
+59
+normal! 05|
 wincmd w
 argglobal
 if bufexists("term://.//688921:R\ ") | buffer term://.//688921:R\  | else | edit term://.//688921:R\  | endif
@@ -149,17 +149,17 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 874 - ((52 * winheight(0) + 26) / 53)
+let s:l = 10053 - ((52 * winheight(0) + 26) / 53)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-874
+10053
 normal! 0
 wincmd w
 2wincmd w
-exe 'vert 1resize ' . ((&columns * 31 + 110) / 220)
-exe 'vert 2resize ' . ((&columns * 82 + 110) / 220)
-exe 'vert 3resize ' . ((&columns * 105 + 110) / 220)
+exe 'vert 1resize ' . ((&columns * 21 + 110) / 220)
+exe 'vert 2resize ' . ((&columns * 108 + 110) / 220)
+exe 'vert 3resize ' . ((&columns * 89 + 110) / 220)
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
@@ -188,7 +188,7 @@ if !getbufvar(s:bufnr_save, '&modified')
   endif
 endif
 execute "cd" fnameescape(s:cwd_save)
-1resize 53|vert 1resize 31|2resize 53|vert 2resize 82|3resize 53|vert 3resize 105|
+1resize 53|vert 1resize 21|2resize 53|vert 2resize 108|3resize 53|vert 3resize 89|
 2wincmd w
 tabnext 1
 if exists('s:wipebuf')

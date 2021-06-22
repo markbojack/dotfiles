@@ -75,58 +75,186 @@ windows:
       title: Home
       url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
       zoom: 0.75
-  - active: true
-    history:
-    - last_visited: '2021-06-22T10:24:29'
-      original-url: https://www.tdameritrade.com/tools-and-platforms/thinkorswim/web.page
+  - history:
+    - last_visited: '2021-06-22T12:39:05'
       pinned: false
-      title: thinkorswim Web Platform | TD Ameritrade
-      url: https://www.tdameritrade.com/tools-and-platforms/thinkorswim/web.html
-    - last_visited: '2021-06-22T10:24:33'
-      pinned: false
-      title: thinkorswim Web Login | TD Ameritrade
-      url: https://trade.thinkorswim.com/
-    - last_visited: '2021-06-22T10:24:36'
-      pinned: false
-      title: thinkorswim Web Login | TD Ameritrade
-      url: https://trade.thinkorswim.com/
-    - last_visited: '2021-06-22T10:24:37'
-      original-url: https://trade.thinkorswim.com/
-      pinned: false
-      title: Log in | thinkorswim Web
-      url: https://auth.tdameritrade.com/auth?response_type=code&client_id=TDATRADERX%40AMER.OAUTHAP&code_challenge=pIhk3fR1gQ-r-opywxiRaAV3o3DGqSq3OBCGdxc059s&code_challenge_method=S256&exp=1624334076576&redirect_uri=https%3A%2F%2Ftrade.thinkorswim.com%2Foauth&cv=default
-    - last_visited: '2021-06-22T10:24:56'
-      original-url: https://auth.tdameritrade.com/oauth?client_id=TDATRADERX%40AMER.OAUTHAP&cv=default&response_type=code&redirect_uri=https%3A%2F%2Ftrade.thinkorswim.com%2Foauth&code_challenge=pIhk3fR1gQ-r-opywxiRaAV3o3DGqSq3OBCGdxc059s&code_challenge_method=S256&exp=1624334076576
-      pinned: false
-      title: thinkorswim Web Login | TD Ameritrade
-      url: https://trade.thinkorswim.com/oauth?code=H74R8T9pWBcfD2%2FPZZQaUGqAdzrHfVqqnEFJEXXKwdKDNlxuJUy9ySGgRW2YNVWLkcor4%2BDkmLGpol1pFoRwPqWITYxEmdy0ai513slrvXiUqk8ROqstxOw%2FO7Du1%2FAMt0EjR4Y0yWvrzMVnf9QOPcG%2FySOJpxRZy%2Bvs9rutWvZw764XX9Sda0OJ0%2Bv0W6yvaN4Lptyt5IR3y%2FxnayXQAP54LiS22xPjdVdQwPVlVK2YFPSuG3fpQ97ENNidnzMNIgprcpNpE%2Fi6DoMP5CwoCxTfT7N3cwAOQGXvrBqj7jSQj8Krs4e%2Bq7OnfZ2kx07xIGCNDHCY0gFg25aAqVlyBoxvDiLYv3h14ZY2W20%2BbTLBXu81Fn%2F3dTcGsDGjEPJtsSDH23d7vUBQH0SrfqV6MUP9owOBv8aULKChbYpt%2BzQwjUpr2hn%2FlkstvNm100MQuG4LYrgoVi%2FJHHvlQx4rgOn8GiubOoP1%2FWYfmDGANKhf2LzHggJCE43UxYQnSRzk6HoBrR3xWMcfF83L8N1SoUdKYIC5UMjCgepGGIUIt8Md4Nj%2B2WqACA87tLFb1L1sT%2Bmxnpy42JWCs5l94Jw3wsE6fOMkkp%2F5alhn3Ez2ACXM5HI%2BPYv1obois3t%2Fo6PDzvJcmox9Ba51Sjgb%2B93HpL7ZobewmDmY%2BK0PULSfhEJtcIeUucLLY5886F5cS7%2FEe5tc%2F1NYoE8oYADlBunaZff1MIqG%2BeVI%2FikwpLpKK4rvWNOIQGt1pk2oy4iHxJEd1fnDcmDx7hr5KzMHNm9GfWkZoe7H48PMVOYzQfET%2BR6bJefrv1xajUO%2Fr3Uf%2Ba0H8pxVNw7adg2JuYz5CMSPy4xhgnbIKRYNIR63LB2U9NHeo2ZVb3k4EFvMMsgBo3aAW2sqSKhipis%3D212FD3x19z9sWBHDJACbC00B75E
-    - last_visited: '2021-06-22T10:24:58'
-      pinned: false
-      title: thinkorswim Web Login | TD Ameritrade
-      url: https://trade.thinkorswim.com/
-    - last_visited: '2021-06-22T10:24:58'
-      pinned: false
-      title: All Account Positions | thinkorswim Web
-      url: https://trade.thinkorswim.com/
-    - last_visited: '2021-06-22T10:25:24'
-      pinned: false
-      title: Trade XOM | thinkorswim Web
-      url: https://trade.thinkorswim.com/?symbol=XOM
-    - last_visited: '2021-06-22T10:26:01'
-      pinned: false
-      title: Trade SPY | thinkorswim Web
-      url: https://trade.thinkorswim.com/?symbol=SPY
-    - last_visited: '2021-06-22T10:28:49'
-      pinned: false
-      title: Trade XOM | thinkorswim Web
-      url: https://trade.thinkorswim.com/?symbol=XOM
+      title: emacs make keybinding - Google Search
+      url: https://www.google.com/search?q=emacs%20make%20keybinding
     - active: true
-      last_visited: '2021-06-22T10:29:00'
-      original-url: https://trade.thinkorswim.com/?symbol=XOM
+      last_visited: '2021-06-22T12:40:35'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Log in | thinkorswim Web
-      url: https://auth.tdameritrade.com/auth?response_type=code&client_id=TDATRADERX%40AMER.OAUTHAP&code_challenge=1Ctoii2PlHxqHE45wXbLe7W6K3q9B5mNwuG3sjMIsWU&code_challenge_method=S256&exp=1624334340302&redirect_uri=https%3A%2F%2Ftrade.thinkorswim.com%2Foauth&cv=default
+      title: emacs custom command - Google Search
+      url: https://www.google.com/search?q=emacs+custom+command&ei=eHfRYJLGEMu9rQGnm6HYDg&oq=emacs+custom+com&gs_lcp=Cgdnd3Mtd2l6EAMYADICCAAyBggAEBYQHjIGCAAQFhAeOgUIABCRAjoICAAQFhAKEB46BQghEKABUI2MBViqswVgsL0FaAFwAngBgAHaAYgB7RuSAQYwLjIyLjKYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=gws-wiz
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-06-22T12:40:41'
+      pinned: false
+      title: Emacs custom command help - Emacs Stack Exchange
+      url: https://emacs.stackexchange.com/questions/47304/emacs-custom-command-help
+    - last_visited: '2021-06-22T12:41:38'
+      pinned: false
+      title: Posts containing 'custom keybinding' - Emacs Stack Exchange
+      url: https://emacs.stackexchange.com/search?q=custom+keybinding
+    - active: true
+      last_visited: '2021-06-22T12:41:54'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 400
+      title: key bindings - Toggle minor mode with a custom keybinding - Emacs Stack
+        Exchange
+      url: https://emacs.stackexchange.com/questions/29963/toggle-minor-mode-with-a-custom-keybinding
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-06-22T12:48:46'
+      pinned: false
+      title: Inbox - markbojack.si@gmail.com - Gmail
+      url: https://mail.google.com/mail/u/0/?pli=1#inbox
+    - last_visited: '2021-06-22T12:49:00'
+      original-url: https://mail.google.com/mail/u/0/?pli=1#inbox
+      pinned: false
+      title: Settings - markbojack.si@gmail.com - Gmail
+      url: https://mail.google.com/mail/u/0/?pli=1#settings/general
+    - last_visited: '2021-06-22T12:50:17'
+      original-url: https://mail.google.com/mail/u/0/?pli=1#settings/general
+      pinned: false
+      title: Settings - markbojack.si@gmail.com - Gmail
+      url: https://mail.google.com/mail/u/0/?pli=1#settings/advanced
+    - last_visited: '2021-06-22T12:50:26'
+      original-url: https://mail.google.com/mail/u/0/?pli=1#settings/advanced
+      pinned: false
+      title: Settings - markbojack.si@gmail.com - Gmail
+      url: https://mail.google.com/mail/u/0/?pli=1#settings/general
+    - last_visited: '2021-06-22T12:50:28'
+      original-url: https://mail.google.com/mail/u/0/?pli=1#settings/general
+      pinned: false
+      title: Settings - markbojack.si@gmail.com - Gmail
+      url: https://mail.google.com/mail/u/0/?pli=1#settings/labels
+    - last_visited: '2021-06-22T12:51:02'
+      original-url: https://mail.google.com/mail/u/0/?pli=1#settings/labels
+      pinned: false
+      title: Settings - markbojack.si@gmail.com - Gmail
+      url: https://mail.google.com/mail/u/0/?pli=1#settings/inbox
+    - last_visited: '2021-06-22T12:51:07'
+      original-url: https://mail.google.com/mail/u/0/?pli=1#settings/inbox
+      pinned: false
+      title: Settings - markbojack.si@gmail.com - Gmail
+      url: https://mail.google.com/mail/u/0/?pli=1#settings/accounts
+    - last_visited: '2021-06-22T12:51:21'
+      original-url: https://mail.google.com/mail/u/0/?pli=1#settings/accounts
+      pinned: false
+      title: Settings - markbojack.si@gmail.com - Gmail
+      url: https://mail.google.com/mail/u/0/?pli=1#settings/filters
+    - last_visited: '2021-06-22T12:51:22'
+      original-url: https://mail.google.com/mail/u/0/?pli=1#settings/filters
+      pinned: false
+      title: Settings - markbojack.si@gmail.com - Gmail
+      url: https://mail.google.com/mail/u/0/?pli=1#settings/fwdandpop
+    - last_visited: '2021-06-22T12:51:26'
+      original-url: https://mail.google.com/mail/u/0/?pli=1#settings/fwdandpop
+      pinned: false
+      title: Settings - markbojack.si@gmail.com - Gmail
+      url: https://mail.google.com/mail/u/0/?pli=1#settings/addons
+    - last_visited: '2021-06-22T12:51:28'
+      original-url: https://mail.google.com/mail/u/0/?pli=1#settings/addons
+      pinned: false
+      title: Settings - markbojack.si@gmail.com - Gmail
+      url: https://mail.google.com/mail/u/0/?pli=1#settings/chat
+    - last_visited: '2021-06-22T12:51:29'
+      original-url: https://mail.google.com/mail/u/0/?pli=1#settings/chat
+      pinned: false
+      title: Settings - markbojack.si@gmail.com - Gmail
+      url: https://mail.google.com/mail/u/0/?pli=1#settings/advanced
+    - last_visited: '2021-06-22T12:51:30'
+      original-url: https://mail.google.com/mail/u/0/?pli=1#settings/advanced
+      pinned: false
+      title: Settings - markbojack.si@gmail.com - Gmail
+      url: https://mail.google.com/mail/u/0/?pli=1#settings/offline
+    - active: true
+      last_visited: '2021-06-22T12:57:29'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Settings - markbojack.si@gmail.com - Gmail
+      url: https://mail.google.com/mail/u/0/?pli=1#settings/oldthemes
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-06-22T12:51:46'
+      pinned: false
+      title: Google Account
+      url: https://myaccount.google.com/?utm_source=OGB&tab=mk&utm_medium=act&gar=1
+    - active: true
+      last_visited: '2021-06-22T12:57:27'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Google Account
+      url: https://myaccount.google.com/security?gar=1
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-06-22T12:49:09'
+      pinned: false
+      title: gmail less secure apps - Google Search
+      url: https://www.google.com/search?q=gmail%20less%20secure%20apps
+    - last_visited: '2021-06-22T12:52:22'
+      pinned: false
+      title: Control access to less secure apps - Cloud Identity Help
+      url: https://support.google.com/cloudidentity/answer/6260879?hl=en
+    - active: true
+      last_visited: '2021-06-22T12:59:23'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Sign in to your Admin console - Google Workspace Admin Help
+      url: https://support.google.com/a/answer/182076
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-22T12:59:21'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 120
+      title: Less secure apps & your Google Account - Google Account Help
+      url: https://support.google.com/accounts/answer/6010255?hl=en#zippy=%2Cuse-more-secure-apps%2Cif-less-secure-app-access-is-on-for-your-account
+      zoom: 0.75
+  - active: true
+    history:
+    - last_visited: '2021-06-22T12:59:05'
+      pinned: false
+      title: Google Account
+      url: https://myaccount.google.com/security?rapt=AEjHL4O1_gOXALKcJ-DqXgX_6joY_nAtU5aNlwknQpBJcb2gr9j8rv8RzJ2SQSeW3br1hr0XmkOlcSc7HBl4M8VoogAw4CSzaw
+    - last_visited: '2021-06-22T12:59:10'
+      pinned: false
+      title: Sign in - Google Accounts
+      url: https://accounts.google.com/signin/v2/challenge/pwd?continue=https%3A%2F%2Fmyaccount.google.com%2Fapppasswords&service=accountsettings&osid=1&rart=ANgoxccKvK8UNCu_jRoukSb1nRVLjpRCgIjLE0Suop_F_zmgYEiQEith_e3OJzPk-5xSySB6LmNucy3Nyh7OfnvXT78GPaBIKg&TL=AM3QAYbgzXGQA3HN3VRiqp9JkM--pQ-vV9NR4v37A7j0XzdySfmzNYk-jc1wRPf5&flowName=GlifWebSignIn&cid=1&flowEntry=ServiceLogin
+    - active: true
+      last_visited: '2021-06-22T12:59:23'
+      original-url: https://myaccount.google.com/apppasswords?rapt=AEjHL4PEp6BEw86yRHxMSDQENrnAMgKqYXo5Tjk41RYDC8bPHawlz67s_Quv5KPLVuWLem2hTG8_QtwErQw2xzarcLQDFXLX-Q
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Google Account
+      url: https://myaccount.google.com/security?rapt=AEjHL4PEp6BEw86yRHxMSDQENrnAMgKqYXo5Tjk41RYDC8bPHawlz67s_Quv5KPLVuWLem2hTG8_QtwErQw2xzarcLQDFXLX-Q
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-06-22T12:49:25'
+      pinned: false
+      title: Control access to less secure apps - Google Workspace Admin Help
+      url: https://support.google.com/a/answer/6260879?hl=en
+    - active: true
+      last_visited: '2021-06-22T12:59:19'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Less secure apps & your Google Account - Google Account Help
+      url: https://support.google.com/accounts/answer/6010255#zippy=%2Cif-less-secure-app-access-is-on-for-your-account
       zoom: 0.75
