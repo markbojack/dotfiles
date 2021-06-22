@@ -1,6 +1,6 @@
 " ~/.vim/sessions/seasonality.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 22 Tháng 6 2021 at 10:50:36.
+" Created by session.vim 2.13.1 on 22 Tháng 6 2021 at 11:40:25.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -21,8 +21,8 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +10 R/getAndProcessSymbols.R
-badd +39 data/model-gen.R
+badd +11 R/getAndProcessSymbols.R
+badd +68 data/model-gen.R
 badd +1 R/h-DoW.R
 badd +1 R/h-WoMoY.R
 badd +1 R/h-dec-xmasnyd.R
@@ -32,15 +32,15 @@ badd +1 R/h-WoM.R
 badd +1 R/h-DoWoM.R
 badd +1 R/h-holiday.R
 badd +5 R/h-MoY.R
-badd +72 R/h-report.R
+badd +86 R/h-report.R
 badd +1 R/h-semimonthOfYear.R
-badd +1 R/getHighPrev.R
+badd +36 R/getHighPrev.R
 badd +134 R/getHighSharpe.R
 badd +26 model-gen.R
 badd +11 NERD_tree_1
 badd +87 ~/.config/nvim/init.vim
 badd +13 ~/copper-ingot/portfolio13F.R
-badd +96 data/NOTES.md
+badd +94 data/NOTES.md
 badd +130 data/high-sharpe075/null.md
 badd +21 data/high-prev/apr-long.md
 badd +1 data/high-prev/apr-short.md
@@ -55,11 +55,11 @@ badd +7 sharpe-performance/NULL/wom.R
 badd +1 sharpe-performance/NULL/dow.R
 badd +1 sharpe0.75-performance.R
 badd +1 sharpe1.0-performance.R
-badd +22 R/packagesAndOptions.R
+badd +6 R/packagesAndOptions.R
 badd +27 ~/copper-ingot/docs/fees.md
 badd +2 data/high-prev/jun-long.md
 badd +2 data/high-prev/jun-short.md
-badd +16 README.md
+badd +9 README.md
 badd +1 data/high-prev/calendar.md
 badd +7 data/high-prev/long-cal.md
 badd +1 data/high-prev/jan-long.md
@@ -74,7 +74,7 @@ badd +1 shorts
 badd +849 data/high-sharpe/longs
 badd +176 data/high-sharpe/shorts
 badd +1 sharpe-perforance.R
-badd +552 analysis.R
+badd +12 analysis.R
 badd +260 ~/.config/picom/picom.conf
 badd +1116 data/prev-etf-long
 badd +334 data/prev-etf-short
@@ -86,10 +86,14 @@ badd +1822 data/sharpe-stock-long
 badd +917 data/sharpe-stock-short
 badd +1 R/h-semimonth.R
 badd +0 man://null(4)
+badd +8 R/report.R
+badd +1 R/maketradecount.R
+badd +3 R/m.R
+badd +1 R/sm.R
 argglobal
 %argdel
 $argadd ~/.config/nvim/init.vim
-edit R/h-report.R
+edit R/getHighPrev.R
 set splitbelow splitright
 wincmd _ | wincmd |
 vsplit
@@ -104,8 +108,8 @@ set winheight=1
 set winminwidth=0
 set winwidth=1
 exe 'vert 1resize ' . ((&columns * 31 + 110) / 220)
-exe 'vert 2resize ' . ((&columns * 73 + 110) / 220)
-exe 'vert 3resize ' . ((&columns * 114 + 110) / 220)
+exe 'vert 2resize ' . ((&columns * 82 + 110) / 220)
+exe 'vert 3resize ' . ((&columns * 105 + 110) / 220)
 argglobal
 enew
 " file NERD_tree_3
@@ -128,15 +132,15 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 377 - ((50 * winheight(0) + 26) / 53)
+let s:l = 53 - ((43 * winheight(0) + 26) / 53)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-377
+53
 normal! 0
 wincmd w
 argglobal
-if bufexists("term://.//661751:R\ ") | buffer term://.//661751:R\  | else | edit term://.//661751:R\  | endif
+if bufexists("term://.//688921:R\ ") | buffer term://.//688921:R\  | else | edit term://.//688921:R\  | endif
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -145,17 +149,17 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 1847 - ((52 * winheight(0) + 26) / 53)
+let s:l = 874 - ((52 * winheight(0) + 26) / 53)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-1847
+874
 normal! 0
 wincmd w
 2wincmd w
 exe 'vert 1resize ' . ((&columns * 31 + 110) / 220)
-exe 'vert 2resize ' . ((&columns * 73 + 110) / 220)
-exe 'vert 3resize ' . ((&columns * 114 + 110) / 220)
+exe 'vert 2resize ' . ((&columns * 82 + 110) / 220)
+exe 'vert 3resize ' . ((&columns * 105 + 110) / 220)
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
@@ -184,7 +188,7 @@ if !getbufvar(s:bufnr_save, '&modified')
   endif
 endif
 execute "cd" fnameescape(s:cwd_save)
-1resize 53|vert 1resize 31|2resize 53|vert 2resize 73|3resize 53|vert 3resize 114|
+1resize 53|vert 1resize 31|2resize 53|vert 2resize 82|3resize 53|vert 3resize 105|
 2wincmd w
 tabnext 1
 if exists('s:wipebuf')
