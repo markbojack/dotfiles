@@ -1,6 +1,5 @@
 windows:
-- active: true
-  geometry: !!binary |
+- geometry: !!binary |
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
