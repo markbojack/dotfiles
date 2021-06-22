@@ -4,85 +4,14 @@ windows:
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
-  - history:
-    - active: true
-      last_visited: '2021-06-22T20:52:43'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: dotfiles/Emacs.org at master · daviwil/dotfiles
-      url: https://github.com/daviwil/dotfiles/blob/master/Emacs.org
-      zoom: 0.75
-    - last_visited: '2021-06-22T20:52:33'
-      pinned: false
-      title: daviwil (David Wilson)
-      url: https://github.com/daviwil
-    - last_visited: '2021-06-22T20:52:32'
-      pinned: false
-      title: 'daviwil/dotfiles: The path to GNUrvana'
-      url: https://github.com/daviwil/dotfiles
-    - last_visited: '2021-06-22T20:52:24'
-      pinned: false
-      title: dotfiles/.emacs.d at master · daviwil/dotfiles
-      url: https://github.com/daviwil/dotfiles/tree/master/.emacs.d
-  - history:
-    - last_visited: '2021-06-22T20:53:14'
-      pinned: false
-      title: emacs-from-scratch/Emacs-Mail-01.org at 629aec3dbdffe99e2c361ffd10bd6727555a3bd3
-        · daviwil/emacs-from-scratch
-      url: https://github.com/daviwil/emacs-from-scratch/blob/629aec3dbdffe99e2c361ffd10bd6727555a3bd3/show-notes/Emacs-Mail-01.org
-    - active: true
-      last_visited: '2021-06-22T20:53:15'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 2947
-      title: daviwil/emacs-from-scratch at 629aec3dbdffe99e2c361ffd10bd6727555a3bd3
-      url: https://github.com/daviwil/emacs-from-scratch/tree/629aec3dbdffe99e2c361ffd10bd6727555a3bd3
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-22T20:55:49'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 160
-      title: Installing · tonsky/FiraCode Wiki
-      url: https://github.com/tonsky/FiraCode/wiki/Installing
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-22T20:56:19'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 335
-      title: Linux instructions · tonsky/FiraCode Wiki
-      url: https://github.com/tonsky/FiraCode/wiki/Linux-instructions#installing-with-a-package-manager
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-22T20:58:19'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'emacs contacting host: melpa.org:443 - Google Search'
-      url: https://www.google.com/search?q=emacs%20contacting%20host%3A%20melpa.org%3A443
-      zoom: 0.75
   - active: true
     history:
-    - last_visited: '2021-06-22T20:58:42'
-      pinned: false
-      title: 'Emacs can''t download Package Archives : emacs'
-      url: https://www.reddit.com/r/emacs/comments/a5i4ed/emacs_cant_download_package_archives/
     - active: true
-      last_visited: '2021-06-22T20:59:17'
+      last_visited: '2021-06-22T21:02:46'
       pinned: false
       scroll-pos:
         x: 0
-        y: 1080
-      title: 'Pretty please of seeing emacs running on my eReader! : emacs'
-      url: https://www.reddit.com/r/emacs/comments/o16nfa/pretty_please_of_seeing_emacs_running_on_my/
+        y: 0
+      title: Home
+      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
       zoom: 0.75
