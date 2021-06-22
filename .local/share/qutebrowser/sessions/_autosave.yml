@@ -1,10 +1,10 @@
 windows:
-- geometry: !!binary |
+- active: true
+  geometry: !!binary |
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
-  - active: true
-    history:
+  - history:
     - active: true
       last_visited: '2021-06-22T21:02:46'
       pinned: false
@@ -13,4 +13,19 @@ windows:
         y: 0
       title: Home
       url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
+      zoom: 0.75
+  - active: true
+    history:
+    - last_visited: '2021-06-23T00:34:16'
+      pinned: false
+      title: Yahoo Finance - Stock Market Live, Quotes, Business & Finance News
+      url: https://finance.yahoo.com/
+    - active: true
+      last_visited: '2021-06-23T00:34:27'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'XOM 63.66 1.07 1.71% : Exxon Mobil Corporation - Yahoo Finance'
+      url: https://finance.yahoo.com/quote/XOM?p=XOM&.tsrc=fin-srch
       zoom: 0.75
