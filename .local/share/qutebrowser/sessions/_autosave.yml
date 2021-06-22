@@ -1,0 +1,67 @@
+windows:
+- geometry: !!binary |
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
+    IQAABUUAAALv
+  tabs:
+  - active: true
+    history:
+    - last_visited: '2021-06-22T09:32:51'
+      pinned: false
+      title: Outlook
+      url: https://outlook.live.com/mail/0/inbox
+    - last_visited: '2021-06-22T09:33:02'
+      original-url: https://outlook.live.com/mail/0/inbox
+      pinned: false
+      title: Mail - Mark Bojack - Outlook
+      url: https://outlook.live.com/mail/0/inbox/
+    - active: true
+      last_visited: '2021-06-22T09:33:03'
+      original-url: https://outlook.live.com/mail/0/inbox/
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Mail - Mark Bojack - Outlook
+      url: https://outlook.live.com/mail/0/inbox
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-22T09:47:34'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: .emacs.d/config.org at master · rememberYou/.emacs.d
+      url: https://github.com/rememberYou/.emacs.d/blob/master/config.org
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-22T09:47:34'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'mu4e-update-mail-and-index: no indexing? · Issue #521 · djcb/mu'
+      url: https://github.com/djcb/mu/issues/521
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-22T09:47:30'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Needs to run mu4e-update-index manually after each update · Issue #1815
+        · djcb/mu'
+      url: https://github.com/djcb/mu/issues/1815
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-22T09:47:25'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: scheme - add-hook to emacs scratch at startup - Stack Overflow
+      url: https://stackoverflow.com/questions/16459350/add-hook-to-emacs-scratch-at-startup
+      zoom: 0.75

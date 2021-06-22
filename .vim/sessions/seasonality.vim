@@ -1,6 +1,6 @@
 " ~/.vim/sessions/seasonality.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 20 Tháng 6 2021 at 19:40:55.
+" Created by session.vim 2.13.1 on 22 Tháng 6 2021 at 09:58:31.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -32,7 +32,7 @@ badd +1 R/h-WoM.R
 badd +1 R/h-DoWoM.R
 badd +1 R/h-holiday.R
 badd +5 R/h-MoY.R
-badd +285 R/h-report.R
+badd +84 R/h-report.R
 badd +1 R/h-semimonthOfYear.R
 badd +147 R/getHighPrev.R
 badd +134 R/getHighSharpe.R
@@ -74,25 +74,28 @@ badd +1 shorts
 badd +849 data/high-sharpe/longs
 badd +176 data/high-sharpe/shorts
 badd +1 sharpe-perforance.R
-badd +7 analysis.R
+badd +10 analysis.R
 badd +260 ~/.config/picom/picom.conf
-badd +1706 data/prev-etf-long
-badd +1 data/prev-etf-short
-badd +2646 data/prev-stock-long
-badd +589 data/prev-stock-short
-badd +1269 data/sharpe-etf-long
-badd +1 data/sharpe-etf-short
-badd +1697 data/sharpe-stock-long
-badd +802 data/sharpe-stock-short
+badd +1486 data/prev-etf-long
+badd +334 data/prev-etf-short
+badd +2393 data/prev-stock-long
+badd +576 data/prev-stock-short
+badd +1023 data/sharpe-etf-long
+badd +306 data/sharpe-etf-short
+badd +1487 data/sharpe-stock-long
+badd +788 data/sharpe-stock-short
 badd +1 R/h-semimonth.R
 argglobal
 %argdel
 $argadd ~/.config/nvim/init.vim
-edit analysis.R
+edit R/h-report.R
 set splitbelow splitright
 wincmd _ | wincmd |
 vsplit
-1wincmd h
+wincmd _ | wincmd |
+vsplit
+2wincmd h
+wincmd w
 wincmd w
 wincmd t
 set winminheight=0
@@ -100,10 +103,11 @@ set winheight=1
 set winminwidth=0
 set winwidth=1
 exe 'vert 1resize ' . ((&columns * 31 + 110) / 220)
-exe 'vert 2resize ' . ((&columns * 188 + 110) / 220)
+exe 'vert 2resize ' . ((&columns * 93 + 110) / 220)
+exe 'vert 3resize ' . ((&columns * 94 + 110) / 220)
 argglobal
 enew
-" file NERD_tree_2
+" file NERD_tree_3
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -123,16 +127,35 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 7 - ((6 * winheight(0) + 26) / 53)
+let s:l = 84 - ((12 * winheight(0) + 26) / 53)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-7
+84
 normal! 0
 wincmd w
-2wincmd w
+argglobal
+if bufexists("R/getAndProcessSymbols.R") | buffer R/getAndProcessSymbols.R | else | edit R/getAndProcessSymbols.R | endif
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=0
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+silent! normal! zE
+let s:l = 24 - ((23 * winheight(0) + 26) / 53)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+24
+normal! 017|
+wincmd w
+3wincmd w
 exe 'vert 1resize ' . ((&columns * 31 + 110) / 220)
-exe 'vert 2resize ' . ((&columns * 188 + 110) / 220)
+exe 'vert 2resize ' . ((&columns * 93 + 110) / 220)
+exe 'vert 3resize ' . ((&columns * 94 + 110) / 220)
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf
@@ -161,8 +184,8 @@ if !getbufvar(s:bufnr_save, '&modified')
   endif
 endif
 execute "cd" fnameescape(s:cwd_save)
-1resize 53|vert 1resize 31|2resize 53|vert 2resize 188|
-2wincmd w
+1resize 53|vert 1resize 31|2resize 53|vert 2resize 93|3resize 53|vert 3resize 94|
+3wincmd w
 tabnext 1
 if exists('s:wipebuf')
   if empty(bufname(s:wipebuf))
