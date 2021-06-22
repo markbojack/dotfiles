@@ -5,281 +5,84 @@ windows:
     IQAABUUAAALv
   tabs:
   - history:
-    - last_visited: '2021-06-22T09:32:51'
-      pinned: false
-      title: Outlook
-      url: https://outlook.live.com/mail/0/inbox
-    - last_visited: '2021-06-22T09:33:02'
-      original-url: https://outlook.live.com/mail/0/inbox
-      pinned: false
-      title: Mail - Mark Bojack - Outlook
-      url: https://outlook.live.com/mail/0/inbox/
     - active: true
-      last_visited: '2021-06-22T09:33:03'
-      original-url: https://outlook.live.com/mail/0/inbox/
+      last_visited: '2021-06-22T20:52:43'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Mail - Mark Bojack - Outlook
-      url: https://outlook.live.com/mail/0/inbox
+      title: dotfiles/Emacs.org at master · daviwil/dotfiles
+      url: https://github.com/daviwil/dotfiles/blob/master/Emacs.org
+      zoom: 0.75
+    - last_visited: '2021-06-22T20:52:33'
+      pinned: false
+      title: daviwil (David Wilson)
+      url: https://github.com/daviwil
+    - last_visited: '2021-06-22T20:52:32'
+      pinned: false
+      title: 'daviwil/dotfiles: The path to GNUrvana'
+      url: https://github.com/daviwil/dotfiles
+    - last_visited: '2021-06-22T20:52:24'
+      pinned: false
+      title: dotfiles/.emacs.d at master · daviwil/dotfiles
+      url: https://github.com/daviwil/dotfiles/tree/master/.emacs.d
+  - history:
+    - last_visited: '2021-06-22T20:53:14'
+      pinned: false
+      title: emacs-from-scratch/Emacs-Mail-01.org at 629aec3dbdffe99e2c361ffd10bd6727555a3bd3
+        · daviwil/emacs-from-scratch
+      url: https://github.com/daviwil/emacs-from-scratch/blob/629aec3dbdffe99e2c361ffd10bd6727555a3bd3/show-notes/Emacs-Mail-01.org
+    - active: true
+      last_visited: '2021-06-22T20:53:15'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 2947
+      title: daviwil/emacs-from-scratch at 629aec3dbdffe99e2c361ffd10bd6727555a3bd3
+      url: https://github.com/daviwil/emacs-from-scratch/tree/629aec3dbdffe99e2c361ffd10bd6727555a3bd3
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-22T09:47:34'
+      last_visited: '2021-06-22T20:55:49'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 160
+      title: Installing · tonsky/FiraCode Wiki
+      url: https://github.com/tonsky/FiraCode/wiki/Installing
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-22T20:56:19'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 335
+      title: Linux instructions · tonsky/FiraCode Wiki
+      url: https://github.com/tonsky/FiraCode/wiki/Linux-instructions#installing-with-a-package-manager
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-22T20:58:19'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: .emacs.d/config.org at master · rememberYou/.emacs.d
-      url: https://github.com/rememberYou/.emacs.d/blob/master/config.org
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-22T09:47:34'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'mu4e-update-mail-and-index: no indexing? · Issue #521 · djcb/mu'
-      url: https://github.com/djcb/mu/issues/521
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-22T09:47:30'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'Needs to run mu4e-update-index manually after each update · Issue #1815
-        · djcb/mu'
-      url: https://github.com/djcb/mu/issues/1815
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-22T09:47:25'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: scheme - add-hook to emacs scratch at startup - Stack Overflow
-      url: https://stackoverflow.com/questions/16459350/add-hook-to-emacs-scratch-at-startup
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-22T10:20:31'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Home
-      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
-      zoom: 0.75
-  - history:
-    - last_visited: '2021-06-22T12:39:05'
-      pinned: false
-      title: emacs make keybinding - Google Search
-      url: https://www.google.com/search?q=emacs%20make%20keybinding
-    - active: true
-      last_visited: '2021-06-22T12:40:35'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: emacs custom command - Google Search
-      url: https://www.google.com/search?q=emacs+custom+command&ei=eHfRYJLGEMu9rQGnm6HYDg&oq=emacs+custom+com&gs_lcp=Cgdnd3Mtd2l6EAMYADICCAAyBggAEBYQHjIGCAAQFhAeOgUIABCRAjoICAAQFhAKEB46BQghEKABUI2MBViqswVgsL0FaAFwAngBgAHaAYgB7RuSAQYwLjIyLjKYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=gws-wiz
-      zoom: 0.75
-  - history:
-    - last_visited: '2021-06-22T12:40:41'
-      pinned: false
-      title: Emacs custom command help - Emacs Stack Exchange
-      url: https://emacs.stackexchange.com/questions/47304/emacs-custom-command-help
-    - last_visited: '2021-06-22T12:41:38'
-      pinned: false
-      title: Posts containing 'custom keybinding' - Emacs Stack Exchange
-      url: https://emacs.stackexchange.com/search?q=custom+keybinding
-    - active: true
-      last_visited: '2021-06-22T12:41:54'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 400
-      title: key bindings - Toggle minor mode with a custom keybinding - Emacs Stack
-        Exchange
-      url: https://emacs.stackexchange.com/questions/29963/toggle-minor-mode-with-a-custom-keybinding
-      zoom: 0.75
-  - history:
-    - last_visited: '2021-06-22T12:48:46'
-      pinned: false
-      title: Inbox - markbojack.si@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/?pli=1#inbox
-    - last_visited: '2021-06-22T12:49:00'
-      original-url: https://mail.google.com/mail/u/0/?pli=1#inbox
-      pinned: false
-      title: Settings - markbojack.si@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/?pli=1#settings/general
-    - last_visited: '2021-06-22T12:50:17'
-      original-url: https://mail.google.com/mail/u/0/?pli=1#settings/general
-      pinned: false
-      title: Settings - markbojack.si@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/?pli=1#settings/advanced
-    - last_visited: '2021-06-22T12:50:26'
-      original-url: https://mail.google.com/mail/u/0/?pli=1#settings/advanced
-      pinned: false
-      title: Settings - markbojack.si@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/?pli=1#settings/general
-    - last_visited: '2021-06-22T12:50:28'
-      original-url: https://mail.google.com/mail/u/0/?pli=1#settings/general
-      pinned: false
-      title: Settings - markbojack.si@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/?pli=1#settings/labels
-    - last_visited: '2021-06-22T12:51:02'
-      original-url: https://mail.google.com/mail/u/0/?pli=1#settings/labels
-      pinned: false
-      title: Settings - markbojack.si@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/?pli=1#settings/inbox
-    - last_visited: '2021-06-22T12:51:07'
-      original-url: https://mail.google.com/mail/u/0/?pli=1#settings/inbox
-      pinned: false
-      title: Settings - markbojack.si@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/?pli=1#settings/accounts
-    - last_visited: '2021-06-22T12:51:21'
-      original-url: https://mail.google.com/mail/u/0/?pli=1#settings/accounts
-      pinned: false
-      title: Settings - markbojack.si@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/?pli=1#settings/filters
-    - last_visited: '2021-06-22T12:51:22'
-      original-url: https://mail.google.com/mail/u/0/?pli=1#settings/filters
-      pinned: false
-      title: Settings - markbojack.si@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/?pli=1#settings/fwdandpop
-    - last_visited: '2021-06-22T12:51:26'
-      original-url: https://mail.google.com/mail/u/0/?pli=1#settings/fwdandpop
-      pinned: false
-      title: Settings - markbojack.si@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/?pli=1#settings/addons
-    - last_visited: '2021-06-22T12:51:28'
-      original-url: https://mail.google.com/mail/u/0/?pli=1#settings/addons
-      pinned: false
-      title: Settings - markbojack.si@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/?pli=1#settings/chat
-    - last_visited: '2021-06-22T12:51:29'
-      original-url: https://mail.google.com/mail/u/0/?pli=1#settings/chat
-      pinned: false
-      title: Settings - markbojack.si@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/?pli=1#settings/advanced
-    - last_visited: '2021-06-22T12:51:30'
-      original-url: https://mail.google.com/mail/u/0/?pli=1#settings/advanced
-      pinned: false
-      title: Settings - markbojack.si@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/?pli=1#settings/offline
-    - active: true
-      last_visited: '2021-06-22T12:57:29'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Settings - markbojack.si@gmail.com - Gmail
-      url: https://mail.google.com/mail/u/0/?pli=1#settings/oldthemes
-      zoom: 0.75
-  - history:
-    - last_visited: '2021-06-22T12:51:46'
-      pinned: false
-      title: Google Account
-      url: https://myaccount.google.com/?utm_source=OGB&tab=mk&utm_medium=act&gar=1
-    - active: true
-      last_visited: '2021-06-22T12:57:27'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Google Account
-      url: https://myaccount.google.com/security?gar=1
-      zoom: 0.75
-  - history:
-    - last_visited: '2021-06-22T12:49:09'
-      pinned: false
-      title: gmail less secure apps - Google Search
-      url: https://www.google.com/search?q=gmail%20less%20secure%20apps
-    - last_visited: '2021-06-22T12:52:22'
-      pinned: false
-      title: Control access to less secure apps - Cloud Identity Help
-      url: https://support.google.com/cloudidentity/answer/6260879?hl=en
-    - active: true
-      last_visited: '2021-06-22T12:59:23'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Sign in to your Admin console - Google Workspace Admin Help
-      url: https://support.google.com/a/answer/182076
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-22T12:59:21'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Less secure apps & your Google Account - Google Account Help
-      url: https://support.google.com/accounts/answer/6010255?hl=en#zippy=%2Cuse-more-secure-apps%2Cif-less-secure-app-access-is-on-for-your-account
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-22T13:00:14'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Google Account
-      url: https://myaccount.google.com/security?rapt=AEjHL4O1_gOXALKcJ-DqXgX_6joY_nAtU5aNlwknQpBJcb2gr9j8rv8RzJ2SQSeW3br1hr0XmkOlcSc7HBl4M8VoogAw4CSzaw
-      zoom: 0.75
-    - last_visited: '2021-06-22T13:00:12'
-      pinned: false
-      title: Sign in - Google Accounts
-      url: https://accounts.google.com/signin/v2/challenge/pwd?continue=https%3A%2F%2Fmyaccount.google.com%2Fapppasswords&service=accountsettings&osid=1&rart=ANgoxccKvK8UNCu_jRoukSb1nRVLjpRCgIjLE0Suop_F_zmgYEiQEith_e3OJzPk-5xSySB6LmNucy3Nyh7OfnvXT78GPaBIKg&TL=AM3QAYatAHL9fFgz7ys0gViMkoK5YaqKeq8F4OZv4zb6drvMy4HmcSsEOP8auMQ8&flowName=GlifWebSignIn&cid=1&flowEntry=ServiceLogin
-    - last_visited: '2021-06-22T12:59:53'
-      original-url: https://myaccount.google.com/security-checkup/1?continue=https%3A%2F%2Fmyaccount.google.com%2Fsecurity%3Frapt%3DAEjHL4PEp6BEw86yRHxMSDQENrnAMgKqYXo5Tjk41RYDC8bPHawlz67s_Quv5KPLVuWLem2hTG8_QtwErQw2xzarcLQDFXLX-Q
-      pinned: false
-      title: Google Account
-      url: https://myaccount.google.com/security?rapt=AEjHL4PEp6BEw86yRHxMSDQENrnAMgKqYXo5Tjk41RYDC8bPHawlz67s_Quv5KPLVuWLem2hTG8_QtwErQw2xzarcLQDFXLX-Q
-    - last_visited: '2021-06-22T12:59:43'
-      pinned: false
-      title: Security Checkup
-      url: https://myaccount.google.com/security-checkup/1?continue=https%3A%2F%2Fmyaccount.google.com%2Fsecurity%3Frapt%3DAEjHL4PEp6BEw86yRHxMSDQENrnAMgKqYXo5Tjk41RYDC8bPHawlz67s_Quv5KPLVuWLem2hTG8_QtwErQw2xzarcLQDFXLX-Q
-  - history:
-    - last_visited: '2021-06-22T12:49:25'
-      pinned: false
-      title: Control access to less secure apps - Google Workspace Admin Help
-      url: https://support.google.com/a/answer/6260879?hl=en
-    - active: true
-      last_visited: '2021-06-22T12:59:19'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Less secure apps & your Google Account - Google Account Help
-      url: https://support.google.com/accounts/answer/6010255#zippy=%2Cif-less-secure-app-access-is-on-for-your-account
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-22T13:04:21'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: linux install gpg - Google Search
-      url: https://www.google.com/search?q=linux%20install%20gpg
+      title: 'emacs contacting host: melpa.org:443 - Google Search'
+      url: https://www.google.com/search?q=emacs%20contacting%20host%3A%20melpa.org%3A443
       zoom: 0.75
   - active: true
     history:
+    - last_visited: '2021-06-22T20:58:42'
+      pinned: false
+      title: 'Emacs can''t download Package Archives : emacs'
+      url: https://www.reddit.com/r/emacs/comments/a5i4ed/emacs_cant_download_package_archives/
     - active: true
-      last_visited: '2021-06-22T13:04:25'
+      last_visited: '2021-06-22T20:59:17'
       pinned: false
       scroll-pos:
         x: 0
-        y: 1600
-      title: How To Install and Use GPG Encryption In Linux In Order To Encrypt and
-        Decrypt Files and Folder? – POFTUT
-      url: https://www.poftut.com/install-use-gpg-encrytion-linux-order-encrypt-decrypt-files-folder/
+        y: 1080
+      title: 'Pretty please of seeing emacs running on my eReader! : emacs'
+      url: https://www.reddit.com/r/emacs/comments/o16nfa/pretty_please_of_seeing_emacs_running_on_my/
       zoom: 0.75
