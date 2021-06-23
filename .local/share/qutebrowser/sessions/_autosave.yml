@@ -108,97 +108,78 @@ windows:
       pinned: false
       title: emacs doom modelline - Google Search
       url: https://www.google.com/search?q=emacs%20doom%20modelline
-    - active: true
-      last_visited: '2021-06-23T13:21:42'
+    - last_visited: '2021-06-23T13:21:42'
       pinned: false
-      scroll-pos:
-        x: 0
-        y: 3680
       title: 'seagle0128/doom-modeline: A fancy and fast mode-line inspired by minimalism
         design.'
       url: https://github.com/seagle0128/doom-modeline
-      zoom: 0.75
-  - history:
     - active: true
-      last_visited: '2021-06-23T13:25:47'
+      last_visited: '2021-06-23T14:43:02'
       pinned: false
       scroll-pos:
         x: 0
-        y: 2960
-      title: 'hlissner/emacs-doom-themes: An opinionated pack of modern color-themes'
-      url: https://github.com/hlissner/emacs-doom-themes
+        y: 3614
+      title: 'seagle0128/doom-modeline: A fancy and fast mode-line inspired by minimalism
+        design.'
+      url: https://github.com/seagle0128/doom-modeline#manual
       zoom: 0.75
   - history:
-    - active: true
-      last_visited: '2021-06-23T13:23:16'
+    - last_visited: '2021-06-23T14:52:17'
       pinned: false
-      scroll-pos:
-        x: 0
-        y: 936
-      title: 'domtronn/all-the-icons.el: A utility package to collect various Icon
-        Fonts and propertize them within Emacs.'
-      url: https://github.com/domtronn/all-the-icons.el#installation
-      zoom: 0.75
-  - history:
+      title: Outlook
+      url: https://outlook.live.com/mail/0/inbox
+    - last_visited: '2021-06-23T14:52:29'
+      original-url: https://outlook.live.com/owa/0/?state=1&redirectTo=aHR0cHM6Ly9vdXRsb29rLmxpdmUuY29tL21haWwvMC9pbmJveC8&RpsCsrfState=b8c2f067-92d1-9d86-4ad0-e9a4454960e8&wa=wsignin1.0
+      pinned: false
+      title: Outlook
+      url: https://outlook.live.com/mail/0/inbox/
+    - last_visited: '2021-06-23T14:52:31'
+      pinned: false
+      title: Mail - Mark Bojack - Outlook
+      url: https://outlook.live.com/mail/0/inbox
+    - last_visited: '2021-06-23T14:52:36'
+      pinned: false
+      title: Mail - Mark Bojack - Outlook
+      url: https://outlook.live.com/mail/0/inbox/id/AQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoARgAAA4lIdydTkERKv2ZG1Ybxqy4HABKhdE1MPkJJuq%2BLMFjFymoAAAIBDAAAABKhdE1MPkJJuq%2BLMFjFymoABIbekg4AAAA%3D
+    - last_visited: '2021-06-23T14:52:41'
+      pinned: false
+      title: Mail - Mark Bojack - Outlook
+      url: https://outlook.live.com/mail/0/inbox
+    - last_visited: '2021-06-23T14:52:41'
+      pinned: false
+      title: Mail - Mark Bojack - Outlook
+      url: https://outlook.live.com/mail/0/inbox/id/AQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoARgAAA4lIdydTkERKv2ZG1Ybxqy4HABKhdE1MPkJJuq%2BLMFjFymoAAAIBDAAAABKhdE1MPkJJuq%2BLMFjFymoABIbekgwAAAA%3D
+    - last_visited: '2021-06-23T14:53:00'
+      pinned: false
+      title: Mail - Mark Bojack - Outlook
+      url: https://outlook.live.com/mail/0/sentitems/id/AQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoARgAAA4lIdydTkERKv2ZG1Ybxqy4HABKhdE1MPkJJuq%2BLMFjFymoAAAIBDAAAABKhdE1MPkJJuq%2BLMFjFymoABIbekgwAAAA%3D
     - active: true
-      last_visited: '2021-06-23T13:32:56'
+      last_visited: '2021-06-23T14:53:01'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: DOX Amdocs Limited Stock Quote
-      url: https://finviz.com/quote.ashx?t=dox
+      title: Mail - Mark Bojack - Outlook
+      url: https://outlook.live.com/mail/0/sentitems
       zoom: 0.75
   - history:
-    - last_visited: '2021-06-23T13:38:15'
-      original-url: https://etf.com/iyc
-      pinned: false
-      title: 'IYC ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/IYC
-    - last_visited: '2021-06-23T13:38:27'
-      pinned: false
-      title: 'IYC ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/IYC#overview
-    - last_visited: '2021-06-23T13:38:31'
-      pinned: false
-      title: 'IYC ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/IYC#overview
     - active: true
-      last_visited: '2021-06-23T13:38:31'
+      last_visited: '2021-06-23T14:53:53'
       pinned: false
       scroll-pos:
         x: 0
-        y: 1120
-      title: 'IYC ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/IYC#overview
-      zoom: 0.75
-  - history:
-    - last_visited: '2021-06-23T13:54:49'
-      pinned: false
-      title: base r sort by column - Google Search
-      url: https://www.google.com/search?q=base%20r%20sort%20by%20column
-    - active: true
-      last_visited: '2021-06-23T13:54:54'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 2400
-      title: How to sort data by one or more columns with base R, dplyr and data.table
-        - Jozef's Rblog
-      url: https://jozef.io/r008-sorting-data/
+        y: 0
+      title: .config/doom · master · Derek Taylor / Dotfiles · GitLab
+      url: https://gitlab.com/dwt1/dotfiles/-/tree/master/.config/doom
       zoom: 0.75
   - active: true
     history:
-    - last_visited: '2021-06-23T14:06:36'
-      pinned: false
-      title: r make list based on columns - Google Search
-      url: https://www.google.com/search?q=r%20make%20list%20based%20on%20columns
     - active: true
-      last_visited: '2021-06-23T14:06:50'
+      last_visited: '2021-06-23T14:54:33'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: '[R] data.frame into list by columns; merge and row.names'
-      url: https://stat.ethz.ch/pipermail/r-help/2005-February/065964.html
+        y: 37515
+      title: .emacs.d/config.org at master · rememberYou/.emacs.d
+      url: https://github.com/rememberYou/.emacs.d/blob/master/config.org
       zoom: 0.75
