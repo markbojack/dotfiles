@@ -1,11 +1,12 @@
 windows:
-- geometry: !!binary |
+- active: true
+  geometry: !!binary |
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-23T18:20:53'
+      last_visited: '2021-06-23T19:05:30'
       pinned: false
       scroll-pos:
         x: 0
@@ -13,39 +14,12 @@ windows:
       title: Home
       url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
       zoom: 0.75
+  - history: []
+  - history: []
+  - history: []
   - history:
     - active: true
-      last_visited: '2021-06-23T18:20:54'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'hlissner/doom-emacs: An Emacs framework for the stubborn martian hacker'
-      url: https://github.com/hlissner/doom-emacs
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-23T18:20:54'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Doom Emacs Configuration
-      url: https://tecosaur.github.io/emacs-config/config.html
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-23T18:20:57'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'Your thoughts about Doom Emacs : emacs'
-      url: https://www.reddit.com/r/emacs/comments/jf8kjn/your_thoughts_about_doom_emacs/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-23T18:20:53'
+      last_visited: '2021-06-23T19:05:30'
       pinned: false
       scroll-pos:
         x: 0
@@ -54,74 +28,10 @@ windows:
       url: https://medium.com/urbint-engineering/emacs-doom-for-newbies-1f8038604e3b
       zoom: 0.75
   - active: true
-    history:
-    - active: true
-      last_visited: '2021-06-23T18:20:54'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: zzamboni.org | My Doom Emacs configuration, with commentary
-      url: https://zzamboni.org/post/my-doom-emacs-configuration-with-commentary/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-23T18:20:54'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Doom Emacs | Hacker News
-      url: https://news.ycombinator.com/item?id=24609289
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-23T18:20:53'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Migrating To Doom Emacs · Jethro Kuan
-      url: https://blog.jethro.dev/posts/migrating_to_doom_emacs/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-23T18:20:55'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: doom-emacs - An Emacs configuration for the stubborn martian vimmer
-      url: https://www.findbestopensource.com/product/hlissner-doom-emacs
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-23T18:20:54'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: doom-emacs/getting_started.org at develop · hlissner/doom-emacs
-      url: https://github.com/hlissner/doom-emacs/blob/develop/docs/getting_started.org
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-23T18:20:54'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'seagle0128/doom-modeline: A fancy and fast mode-line inspired by minimalism
-        design.'
-      url: https://github.com/seagle0128/doom-modeline#manual
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-23T18:20:54'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: .emacs.d/config.org at master · rememberYou/.emacs.d
-      url: https://github.com/rememberYou/.emacs.d/blob/master/config.org
-      zoom: 0.75
+    history: []
+  - history: []
+  - history: []
+  - history: []
+  - history: []
+  - history: []
+  - history: []
