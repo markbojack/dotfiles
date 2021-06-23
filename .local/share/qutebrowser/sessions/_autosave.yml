@@ -1,6 +1,5 @@
 windows:
-- active: true
-  geometry: !!binary |
+- geometry: !!binary |
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
@@ -173,8 +172,7 @@ windows:
       title: 'IYC ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
       url: https://www.etf.com/IYC#overview
       zoom: 0.75
-  - active: true
-    history:
+  - history:
     - last_visited: '2021-06-23T13:54:49'
       pinned: false
       title: base r sort by column - Google Search
@@ -184,8 +182,23 @@ windows:
       pinned: false
       scroll-pos:
         x: 0
-        y: 1840
+        y: 2400
       title: How to sort data by one or more columns with base R, dplyr and data.table
         - Jozef's Rblog
       url: https://jozef.io/r008-sorting-data/
+      zoom: 0.75
+  - active: true
+    history:
+    - last_visited: '2021-06-23T14:06:36'
+      pinned: false
+      title: r make list based on columns - Google Search
+      url: https://www.google.com/search?q=r%20make%20list%20based%20on%20columns
+    - active: true
+      last_visited: '2021-06-23T14:06:50'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: '[R] data.frame into list by columns; merge and row.names'
+      url: https://stat.ethz.ch/pipermail/r-help/2005-February/065964.html
       zoom: 0.75
