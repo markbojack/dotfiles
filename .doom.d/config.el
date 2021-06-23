@@ -51,3 +51,54 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
+
+(add-load-path! "/usr/local/share/emacs/site-lisp/mu4e")
+
+(use-package mu4e
+  :ensure nil
+  :ensure-system-package mu
+  :custom
+  (mu4e-attachment-dir "~/Downloads")
+  (mu4e-change-filenames-when-moving t)
+  (mu4e-confirm-quit nil)
+  (mu4e-compose-dont-reply-to-self t)
+  (mu4e-compose-signature-auto-include nil)
+  (mu4e-drafts-folder "/gmail/Drafts")
+  (mu4e-get-mail-command (format "mbsync -c '%s/isync/mbsyncrc' -a" xdg-config))
+  (mu4e-html2text-command "iconv -c -t utf-8 | pandoc -f html -t plain")
+  (mu4e-maildir "~/Mail")
+  (mu4e-maildir-shortcuts
+   '(("/[Gmail]/All Mail" . ?a)
+     ("/Inbox" . ?i)
+     ("/[Gmail]/Drafts" . ?D)
+     ("/[Gmail]/Sent" . ?s)
+     ("/[Gmail]/Trash" . ?T)))
+  (mu4e-refile-folder "/[Gmail]/All Mail")
+  (mu4e-sent-folder "/[Gmail]/Sent Mail")
+  (mu4e-trash-folder "/[Gmail]/Trash")
+  (mu4e-drafts-folder "/[Gmail]/Drafts")
+  (mu4e-update-interval 60)
+  (mu4e-use-fancy-chars t)
+  (mu4e-view-show-addresses t)
+  (mu4e-view-show-images t)
+  :config
+  (add-to-list 'mu4e-headers-actions '("org-contact-add" . mu4e-action-add-org-contact) t)
+  (add-to-list 'mu4e-view-actions '("org-contact-add" . mu4e-action-add-org-contact) t))
+
+(use-package mu4e-alert
+  :after mu4e
+  :hook ((after-init . mu4e-alert-enable-mode-line-display)
+         (after-init . mu4e-alert-enable-notifications))
+  :config (mu4e-alert-set-default-style 'libnotify))
+
+(use-package message
+  :ensure nil
+  :custom (send-mail-function 'smtpmail-send-it))
+
+(use-package smtpmail
+  :ensure nil
+  :custom
+  (smtpmail-smtp-server "smtp.gmail.com")
+  (smtpmail-smtp-service 587)
+  (smtpmail-smtp-user "markbojack.si")
+  (smtpmail-stream-type 'starttls))
