@@ -1,11 +1,12 @@
 windows:
-- geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAAEAAAACEAAAKiAAAC7wAAAAAAAAAABVYAAAAQAAAA
-    IQAAAqIAAALv
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
+    IQAABUUAAALv
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-23T09:12:05'
+      last_visited: '2021-06-23T10:15:40'
       pinned: false
       scroll-pos:
         x: 0
@@ -14,47 +15,93 @@ windows:
       url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
       zoom: 0.75
   - history:
-    - last_visited: '2021-06-23T09:22:54'
-      pinned: false
-      title: 'r Error: C stack usage 7977620 is too close to the limit - Google Search'
-      url: https://www.google.com/search?q=r%20Error%3A%20C%20stack%20usage%20%207977620%20is%20too%20close%20to%20the%20limit
     - active: true
-      last_visited: '2021-06-23T09:22:56'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 2080
-      title: 'r - Error: C stack usage is too close to the limit - Stack Overflow'
-      url: https://stackoverflow.com/questions/14719349/error-c-stack-usage-is-too-close-to-the-limit
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-23T09:42:42'
+      last_visited: '2021-06-23T10:25:43'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Handling | Definition of Handling by Merriam-Webster
-      url: https://www.merriam-webster.com/dictionary/handling
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-23T09:51:45'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: .config/doom · master · Derek Taylor / Dotfiles · GitLab
-      url: https://gitlab.com/dwt1/dotfiles/-/tree/master/.config/doom
+      title: 'hlissner/doom-emacs: An Emacs framework for the stubborn martian hacker'
+      url: https://github.com/hlissner/doom-emacs
       zoom: 0.75
   - active: true
     history:
     - active: true
-      last_visited: '2021-06-23T09:51:59'
+      last_visited: '2021-06-23T10:26:32'
       pinned: false
       scroll-pos:
         x: 0
-        y: 4048
-      title: 'hlissner/doom-emacs: An Emacs framework for the stubborn martian hacker'
-      url: https://github.com/hlissner/doom-emacs
+        y: 160
+      title: Doom Emacs Configuration
+      url: https://tecosaur.github.io/emacs-config/config.html
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-23T10:26:38'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Your thoughts about Doom Emacs : emacs'
+      url: https://www.reddit.com/r/emacs/comments/jf8kjn/your_thoughts_about_doom_emacs/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-23T10:26:38'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: medium.com
+      url: https://medium.com/urbint-engineering/emacs-doom-for-newbies-1f8038604e3b
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-23T10:26:55'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: zzamboni.org | My Doom Emacs configuration, with commentary
+      url: https://zzamboni.org/post/my-doom-emacs-configuration-with-commentary/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-23T10:27:03'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Doom Emacs | Hacker News
+      url: https://news.ycombinator.com/item?id=24609289
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-23T10:27:13'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Migrating To Doom Emacs · Jethro Kuan
+      url: https://blog.jethro.dev/posts/migrating_to_doom_emacs/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-23T10:27:18'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: doom-emacs - An Emacs configuration for the stubborn martian vimmer
+      url: https://www.findbestopensource.com/product/hlissner-doom-emacs
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-23T10:26:06'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 2479
+      title: doom-emacs/getting_started.org at develop · hlissner/doom-emacs
+      url: https://github.com/hlissner/doom-emacs/blob/develop/docs/getting_started.org
       zoom: 0.75
