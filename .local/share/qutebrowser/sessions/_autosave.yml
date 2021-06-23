@@ -6,7 +6,7 @@ windows:
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-23T10:15:40'
+      last_visited: '2021-06-23T13:15:00'
       pinned: false
       scroll-pos:
         x: 0
@@ -16,7 +16,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-23T10:25:43'
+      last_visited: '2021-06-23T13:15:01'
       pinned: false
       scroll-pos:
         x: 0
@@ -24,20 +24,19 @@ windows:
       title: 'hlissner/doom-emacs: An Emacs framework for the stubborn martian hacker'
       url: https://github.com/hlissner/doom-emacs
       zoom: 0.75
-  - active: true
-    history:
+  - history:
     - active: true
-      last_visited: '2021-06-23T10:26:32'
+      last_visited: '2021-06-23T13:15:06'
       pinned: false
       scroll-pos:
         x: 0
-        y: 160
+        y: 0
       title: Doom Emacs Configuration
       url: https://tecosaur.github.io/emacs-config/config.html
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-23T10:26:38'
+      last_visited: '2021-06-23T13:15:02'
       pinned: false
       scroll-pos:
         x: 0
@@ -47,7 +46,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-23T10:26:38'
+      last_visited: '2021-06-23T13:15:00'
       pinned: false
       scroll-pos:
         x: 0
@@ -57,7 +56,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-23T10:26:55'
+      last_visited: '2021-06-23T13:15:01'
       pinned: false
       scroll-pos:
         x: 0
@@ -67,7 +66,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-23T10:27:03'
+      last_visited: '2021-06-23T13:15:01'
       pinned: false
       scroll-pos:
         x: 0
@@ -77,7 +76,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-23T10:27:13'
+      last_visited: '2021-06-23T13:15:00'
       pinned: false
       scroll-pos:
         x: 0
@@ -87,7 +86,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-23T10:27:18'
+      last_visited: '2021-06-23T13:15:02'
       pinned: false
       scroll-pos:
         x: 0
@@ -97,11 +96,96 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-23T10:26:06'
+      last_visited: '2021-06-23T13:15:01'
       pinned: false
       scroll-pos:
         x: 0
-        y: 2479
+        y: 0
       title: doom-emacs/getting_started.org at develop · hlissner/doom-emacs
       url: https://github.com/hlissner/doom-emacs/blob/develop/docs/getting_started.org
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-06-23T13:21:39'
+      pinned: false
+      title: emacs doom modelline - Google Search
+      url: https://www.google.com/search?q=emacs%20doom%20modelline
+    - active: true
+      last_visited: '2021-06-23T13:21:42'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 3680
+      title: 'seagle0128/doom-modeline: A fancy and fast mode-line inspired by minimalism
+        design.'
+      url: https://github.com/seagle0128/doom-modeline
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-23T13:25:47'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 2960
+      title: 'hlissner/emacs-doom-themes: An opinionated pack of modern color-themes'
+      url: https://github.com/hlissner/emacs-doom-themes
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-23T13:23:16'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 936
+      title: 'domtronn/all-the-icons.el: A utility package to collect various Icon
+        Fonts and propertize them within Emacs.'
+      url: https://github.com/domtronn/all-the-icons.el#installation
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-23T13:32:56'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: DOX Amdocs Limited Stock Quote
+      url: https://finviz.com/quote.ashx?t=dox
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-06-23T13:38:15'
+      original-url: https://etf.com/iyc
+      pinned: false
+      title: 'IYC ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/IYC
+    - last_visited: '2021-06-23T13:38:27'
+      pinned: false
+      title: 'IYC ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/IYC#overview
+    - last_visited: '2021-06-23T13:38:31'
+      pinned: false
+      title: 'IYC ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/IYC#overview
+    - active: true
+      last_visited: '2021-06-23T13:38:31'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 1120
+      title: 'IYC ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
+      url: https://www.etf.com/IYC#overview
+      zoom: 0.75
+  - active: true
+    history:
+    - last_visited: '2021-06-23T13:54:49'
+      pinned: false
+      title: base r sort by column - Google Search
+      url: https://www.google.com/search?q=base%20r%20sort%20by%20column
+    - active: true
+      last_visited: '2021-06-23T13:54:54'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 1840
+      title: How to sort data by one or more columns with base R, dplyr and data.table
+        - Jozef's Rblog
+      url: https://jozef.io/r008-sorting-data/
       zoom: 0.75
