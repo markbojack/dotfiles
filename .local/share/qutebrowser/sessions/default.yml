@@ -5,7 +5,7 @@ windows:
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-23T10:15:40'
+      last_visited: '2021-06-23T13:15:00'
       pinned: false
       scroll-pos:
         x: 0
@@ -15,7 +15,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-23T10:25:43'
+      last_visited: '2021-06-23T13:15:01'
       pinned: false
       scroll-pos:
         x: 0
@@ -23,20 +23,19 @@ windows:
       title: 'hlissner/doom-emacs: An Emacs framework for the stubborn martian hacker'
       url: https://github.com/hlissner/doom-emacs
       zoom: 0.75
-  - active: true
-    history:
+  - history:
     - active: true
-      last_visited: '2021-06-23T10:26:32'
+      last_visited: '2021-06-23T13:15:06'
       pinned: false
       scroll-pos:
         x: 0
-        y: 2400
+        y: 0
       title: Doom Emacs Configuration
       url: https://tecosaur.github.io/emacs-config/config.html
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-23T10:26:38'
+      last_visited: '2021-06-23T13:15:02'
       pinned: false
       scroll-pos:
         x: 0
@@ -46,7 +45,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-23T10:26:38'
+      last_visited: '2021-06-23T13:15:00'
       pinned: false
       scroll-pos:
         x: 0
@@ -56,7 +55,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-23T10:26:55'
+      last_visited: '2021-06-23T13:15:01'
       pinned: false
       scroll-pos:
         x: 0
@@ -66,7 +65,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-23T10:27:03'
+      last_visited: '2021-06-23T13:15:01'
       pinned: false
       scroll-pos:
         x: 0
@@ -76,7 +75,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-23T10:27:13'
+      last_visited: '2021-06-23T13:15:00'
       pinned: false
       scroll-pos:
         x: 0
@@ -86,7 +85,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-23T10:27:18'
+      last_visited: '2021-06-23T13:15:02'
       pinned: false
       scroll-pos:
         x: 0
@@ -96,11 +95,133 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-23T10:26:06'
+      last_visited: '2021-06-23T13:15:01'
       pinned: false
       scroll-pos:
         x: 0
-        y: 2479
+        y: 0
       title: doom-emacs/getting_started.org at develop · hlissner/doom-emacs
       url: https://github.com/hlissner/doom-emacs/blob/develop/docs/getting_started.org
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-06-23T13:21:39'
+      pinned: false
+      title: emacs doom modelline - Google Search
+      url: https://www.google.com/search?q=emacs%20doom%20modelline
+    - last_visited: '2021-06-23T13:21:42'
+      pinned: false
+      title: 'seagle0128/doom-modeline: A fancy and fast mode-line inspired by minimalism
+        design.'
+      url: https://github.com/seagle0128/doom-modeline
+    - active: true
+      last_visited: '2021-06-23T14:43:02'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 3614
+      title: 'seagle0128/doom-modeline: A fancy and fast mode-line inspired by minimalism
+        design.'
+      url: https://github.com/seagle0128/doom-modeline#manual
+      zoom: 0.75
+  - active: true
+    history:
+    - last_visited: '2021-06-23T14:52:17'
+      pinned: false
+      title: Outlook
+      url: https://outlook.live.com/mail/0/inbox
+    - last_visited: '2021-06-23T14:52:29'
+      original-url: https://outlook.live.com/owa/0/?state=1&redirectTo=aHR0cHM6Ly9vdXRsb29rLmxpdmUuY29tL21haWwvMC9pbmJveC8&RpsCsrfState=b8c2f067-92d1-9d86-4ad0-e9a4454960e8&wa=wsignin1.0
+      pinned: false
+      title: Outlook
+      url: https://outlook.live.com/mail/0/inbox/
+    - last_visited: '2021-06-23T14:52:31'
+      pinned: false
+      title: Mail - Mark Bojack - Outlook
+      url: https://outlook.live.com/mail/0/inbox
+    - last_visited: '2021-06-23T14:52:36'
+      pinned: false
+      title: Mail - Mark Bojack - Outlook
+      url: https://outlook.live.com/mail/0/inbox/id/AQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoARgAAA4lIdydTkERKv2ZG1Ybxqy4HABKhdE1MPkJJuq%2BLMFjFymoAAAIBDAAAABKhdE1MPkJJuq%2BLMFjFymoABIbekg4AAAA%3D
+    - last_visited: '2021-06-23T14:52:41'
+      pinned: false
+      title: Mail - Mark Bojack - Outlook
+      url: https://outlook.live.com/mail/0/inbox
+    - last_visited: '2021-06-23T14:52:41'
+      pinned: false
+      title: Mail - Mark Bojack - Outlook
+      url: https://outlook.live.com/mail/0/inbox/id/AQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoARgAAA4lIdydTkERKv2ZG1Ybxqy4HABKhdE1MPkJJuq%2BLMFjFymoAAAIBDAAAABKhdE1MPkJJuq%2BLMFjFymoABIbekgwAAAA%3D
+    - last_visited: '2021-06-23T14:53:00'
+      pinned: false
+      title: Mail - Mark Bojack - Outlook
+      url: https://outlook.live.com/mail/0/sentitems/id/AQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoARgAAA4lIdydTkERKv2ZG1Ybxqy4HABKhdE1MPkJJuq%2BLMFjFymoAAAIBDAAAABKhdE1MPkJJuq%2BLMFjFymoABIbekgwAAAA%3D
+    - last_visited: '2021-06-23T15:59:04'
+      pinned: false
+      title: Mail - Mark Bojack - Outlook
+      url: https://outlook.live.com/mail/0/sentitems
+    - last_visited: '2021-06-23T15:59:09'
+      pinned: false
+      title: Mail - Mark Bojack - Outlook
+      url: https://outlook.live.com/mail/0/inbox
+    - last_visited: '2021-06-23T15:59:09'
+      pinned: false
+      title: Mail - Mark Bojack - Outlook
+      url: https://outlook.live.com/mail/0/inbox
+    - last_visited: '2021-06-23T16:24:47'
+      pinned: false
+      title: Mail - Mark Bojack - Outlook
+      url: https://outlook.live.com/mail/0/inbox/id/AQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoARgAAA4lIdydTkERKv2ZG1Ybxqy4HABKhdE1MPkJJuq%2BLMFjFymoAAAIBDAAAABKhdE1MPkJJuq%2BLMFjFymoABIbekhMAAAA%3D
+    - last_visited: '2021-06-23T16:29:28'
+      pinned: false
+      title: Mail - Mark Bojack - Outlook
+      url: https://outlook.live.com/mail/0/inbox
+    - active: true
+      last_visited: '2021-06-23T16:29:28'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Mail - Mark Bojack - Outlook
+      url: https://outlook.live.com/mail/0/inbox/id/AQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoARgAAA4lIdydTkERKv2ZG1Ybxqy4HABKhdE1MPkJJuq%2BLMFjFymoAAAIBDAAAABKhdE1MPkJJuq%2BLMFjFymoABIbekgwAAAA%3D
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-23T14:53:53'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: .config/doom · master · Derek Taylor / Dotfiles · GitLab
+      url: https://gitlab.com/dwt1/dotfiles/-/tree/master/.config/doom
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-23T14:54:33'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 38135
+      title: .emacs.d/config.org at master · rememberYou/.emacs.d
+      url: https://github.com/rememberYou/.emacs.d/blob/master/config.org
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-23T15:55:52'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Failed to parse package mu4e: Device 1 is not a termcap terminal device
+        - Google Search'
+      url: https://www.google.com/search?q=Failed%20to%20parse%20package%20mu4e%3A%20Device%201%20is%20not%20a%20termcap%20terminal%20device
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-23T15:56:40'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 520
+      title: 'The mu4e package fails to load mu4e with the mu4e layer. (mu4e-maildirs-extension)
+        · Issue #6028 · syl20bnr/spacemacs'
+      url: https://github.com/syl20bnr/spacemacs/issues/6028
       zoom: 0.75

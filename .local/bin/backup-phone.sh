@@ -32,7 +32,7 @@ cat DCIM/notes >> ~/vimwiki/index.md
 #exit
 
 # msg
-toilet -f mono9 COMPLETE
+toilet -f mono9 COMPLETE -w 200
 
 # youtube
 #youtube-dl -a DCIM/youtube

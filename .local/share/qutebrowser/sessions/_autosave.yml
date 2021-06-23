@@ -1,12 +1,11 @@
 windows:
-- active: true
-  geometry: !!binary |
+- geometry: !!binary |
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-23T13:15:00'
+      last_visited: '2021-06-23T17:39:45'
       pinned: false
       scroll-pos:
         x: 0
@@ -16,7 +15,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-23T13:15:01'
+      last_visited: '2021-06-23T17:39:46'
       pinned: false
       scroll-pos:
         x: 0
@@ -26,7 +25,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-23T13:15:06'
+      last_visited: '2021-06-23T17:39:46'
       pinned: false
       scroll-pos:
         x: 0
@@ -36,7 +35,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-23T13:15:02'
+      last_visited: '2021-06-23T17:39:48'
       pinned: false
       scroll-pos:
         x: 0
@@ -46,7 +45,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-23T13:15:00'
+      last_visited: '2021-06-23T17:39:45'
       pinned: false
       scroll-pos:
         x: 0
@@ -56,7 +55,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-23T13:15:01'
+      last_visited: '2021-06-23T17:39:46'
       pinned: false
       scroll-pos:
         x: 0
@@ -66,7 +65,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-23T13:15:01'
+      last_visited: '2021-06-23T17:39:46'
       pinned: false
       scroll-pos:
         x: 0
@@ -76,7 +75,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-23T13:15:00'
+      last_visited: '2021-06-23T17:39:46'
       pinned: false
       scroll-pos:
         x: 0
@@ -86,7 +85,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-23T13:15:02'
+      last_visited: '2021-06-23T17:39:47'
       pinned: false
       scroll-pos:
         x: 0
@@ -96,7 +95,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-23T13:15:01'
+      last_visited: '2021-06-23T17:39:46'
       pinned: false
       scroll-pos:
         x: 0
@@ -105,68 +104,40 @@ windows:
       url: https://github.com/hlissner/doom-emacs/blob/develop/docs/getting_started.org
       zoom: 0.75
   - history:
-    - last_visited: '2021-06-23T13:21:39'
-      pinned: false
-      title: emacs doom modelline - Google Search
-      url: https://www.google.com/search?q=emacs%20doom%20modelline
-    - last_visited: '2021-06-23T13:21:42'
-      pinned: false
-      title: 'seagle0128/doom-modeline: A fancy and fast mode-line inspired by minimalism
-        design.'
-      url: https://github.com/seagle0128/doom-modeline
     - active: true
-      last_visited: '2021-06-23T14:43:02'
+      last_visited: '2021-06-23T17:39:46'
       pinned: false
       scroll-pos:
         x: 0
-        y: 3614
+        y: 0
       title: 'seagle0128/doom-modeline: A fancy and fast mode-line inspired by minimalism
         design.'
       url: https://github.com/seagle0128/doom-modeline#manual
       zoom: 0.75
   - active: true
     history:
-    - last_visited: '2021-06-23T14:52:17'
+    - last_visited: '2021-06-23T17:39:45'
       pinned: false
       title: Outlook
-      url: https://outlook.live.com/mail/0/inbox
-    - last_visited: '2021-06-23T14:52:29'
-      original-url: https://outlook.live.com/owa/0/?state=1&redirectTo=aHR0cHM6Ly9vdXRsb29rLmxpdmUuY29tL21haWwvMC9pbmJveC8&RpsCsrfState=b8c2f067-92d1-9d86-4ad0-e9a4454960e8&wa=wsignin1.0
-      pinned: false
-      title: Outlook
-      url: https://outlook.live.com/mail/0/inbox/
-    - last_visited: '2021-06-23T14:52:31'
-      pinned: false
-      title: Mail - Mark Bojack - Outlook
-      url: https://outlook.live.com/mail/0/inbox
-    - last_visited: '2021-06-23T14:52:36'
-      pinned: false
-      title: Mail - Mark Bojack - Outlook
-      url: https://outlook.live.com/mail/0/inbox/id/AQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoARgAAA4lIdydTkERKv2ZG1Ybxqy4HABKhdE1MPkJJuq%2BLMFjFymoAAAIBDAAAABKhdE1MPkJJuq%2BLMFjFymoABIbekg4AAAA%3D
-    - last_visited: '2021-06-23T14:52:41'
-      pinned: false
-      title: Mail - Mark Bojack - Outlook
-      url: https://outlook.live.com/mail/0/inbox
-    - last_visited: '2021-06-23T14:52:41'
-      pinned: false
-      title: Mail - Mark Bojack - Outlook
       url: https://outlook.live.com/mail/0/inbox/id/AQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoARgAAA4lIdydTkERKv2ZG1Ybxqy4HABKhdE1MPkJJuq%2BLMFjFymoAAAIBDAAAABKhdE1MPkJJuq%2BLMFjFymoABIbekgwAAAA%3D
-    - last_visited: '2021-06-23T14:53:00'
+    - last_visited: '2021-06-23T17:39:58'
+      original-url: https://outlook.live.com/mail/0/inbox/id/AQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoARgAAA4lIdydTkERKv2ZG1Ybxqy4HABKhdE1MPkJJuq%2BLMFjFymoAAAIBDAAAABKhdE1MPkJJuq%2BLMFjFymoABIbekgwAAAA%3D
       pinned: false
       title: Mail - Mark Bojack - Outlook
-      url: https://outlook.live.com/mail/0/sentitems/id/AQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoARgAAA4lIdydTkERKv2ZG1Ybxqy4HABKhdE1MPkJJuq%2BLMFjFymoAAAIBDAAAABKhdE1MPkJJuq%2BLMFjFymoABIbekgwAAAA%3D
+      url: https://outlook.live.com/mail/0/inbox/id/AQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoARgAAA4lIdydTkERKv2ZG1Ybxqy4HABKhdE1MPkJJuq+LMFjFymoAAAIBDAAAABKhdE1MPkJJuq+LMFjFymoABIbekgwAAAA=/
     - active: true
-      last_visited: '2021-06-23T15:59:04'
+      last_visited: '2021-06-23T17:39:58'
+      original-url: https://outlook.live.com/mail/0/inbox/id/AQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoARgAAA4lIdydTkERKv2ZG1Ybxqy4HABKhdE1MPkJJuq+LMFjFymoAAAIBDAAAABKhdE1MPkJJuq+LMFjFymoABIbekgwAAAA=/
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Outlook
-      url: https://outlook.live.com/mail/0/sentitems
+      title: Mail - Mark Bojack - Outlook
+      url: https://outlook.live.com/mail/0/inbox
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-23T14:53:53'
+      last_visited: '2021-06-23T17:39:46'
       pinned: false
       scroll-pos:
         x: 0
@@ -176,17 +147,17 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-23T14:54:33'
+      last_visited: '2021-06-23T17:39:46'
       pinned: false
       scroll-pos:
         x: 0
-        y: 38135
+        y: 0
       title: .emacs.d/config.org at master · rememberYou/.emacs.d
       url: https://github.com/rememberYou/.emacs.d/blob/master/config.org
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-23T15:55:52'
+      last_visited: '2021-06-23T17:39:47'
       pinned: false
       scroll-pos:
         x: 0
@@ -197,11 +168,11 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-23T15:56:40'
+      last_visited: '2021-06-23T17:39:47'
       pinned: false
       scroll-pos:
         x: 0
-        y: 520
+        y: 0
       title: 'The mu4e package fails to load mu4e with the mu4e layer. (mu4e-maildirs-extension)
         · Issue #6028 · syl20bnr/spacemacs'
       url: https://github.com/syl20bnr/spacemacs/issues/6028
