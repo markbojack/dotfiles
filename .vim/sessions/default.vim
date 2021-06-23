@@ -1,6 +1,6 @@
 " ~/.vim/sessions/default.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 23 Tháng 6 2021 at 16:30:44.
+" Created by session.vim 2.13.1 on 23 Tháng 6 2021 at 16:30:58.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
