@@ -6,7 +6,7 @@ windows:
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-23T19:05:30'
+      last_visited: '2021-06-23T21:16:45'
       pinned: false
       scroll-pos:
         x: 0
@@ -14,12 +14,39 @@ windows:
       title: Home
       url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
       zoom: 0.75
-  - history: []
-  - history: []
-  - history: []
   - history:
     - active: true
-      last_visited: '2021-06-23T19:05:30'
+      last_visited: '2021-06-23T21:16:47'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'hlissner/doom-emacs: An Emacs framework for the stubborn martian hacker'
+      url: https://github.com/hlissner/doom-emacs
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-23T21:16:46'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Doom Emacs Configuration
+      url: https://tecosaur.github.io/emacs-config/config.html
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-23T21:16:49'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Your thoughts about Doom Emacs : emacs'
+      url: https://www.reddit.com/r/emacs/comments/jf8kjn/your_thoughts_about_doom_emacs/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-23T21:16:50'
       pinned: false
       scroll-pos:
         x: 0
@@ -27,11 +54,220 @@ windows:
       title: medium.com
       url: https://medium.com/urbint-engineering/emacs-doom-for-newbies-1f8038604e3b
       zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-23T21:16:46'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: zzamboni.org | My Doom Emacs configuration, with commentary
+      url: https://zzamboni.org/post/my-doom-emacs-configuration-with-commentary/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-23T21:16:46'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Doom Emacs | Hacker News
+      url: https://news.ycombinator.com/item?id=24609289
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-23T21:16:46'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Migrating To Doom Emacs · Jethro Kuan
+      url: https://blog.jethro.dev/posts/migrating_to_doom_emacs/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-23T21:16:47'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: doom-emacs - An Emacs configuration for the stubborn martian vimmer
+      url: https://www.findbestopensource.com/product/hlissner-doom-emacs
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-23T21:16:46'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: doom-emacs/getting_started.org at develop · hlissner/doom-emacs
+      url: https://github.com/hlissner/doom-emacs/blob/develop/docs/getting_started.org
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-23T21:16:47'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'seagle0128/doom-modeline: A fancy and fast mode-line inspired by minimalism
+        design.'
+      url: https://github.com/seagle0128/doom-modeline#manual
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-23T21:16:48'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: .emacs.d/config.org at master · rememberYou/.emacs.d
+      url: https://github.com/rememberYou/.emacs.d/blob/master/config.org
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-06-23T21:19:25'
+      original-url: https://www.tdameritrade.com/home.page
+      pinned: false
+      title: Online Stock Trading, Investing, Brokerage | TD Ameritrade
+      url: https://www.tdameritrade.com/home.html
+    - last_visited: '2021-06-23T21:19:44'
+      original-url: https://invest.ameritrade.com/grid/p/login
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/grid/p/site
+    - last_visited: '2021-06-23T21:20:03'
+      original-url: https://invest.ameritrade.com/grid/p/login
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/grid/p/site
+    - last_visited: '2021-06-23T21:20:09'
+      original-url: https://invest.ameritrade.com/grid/p/site
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/grid/p/site#r=home
+    - last_visited: '2021-06-23T21:20:09'
+      original-url: https://invest.ameritrade.com/grid/p/site#r=home
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/grid/p/site#r=search?query=Securities%20with%20Special%20Margin%20Requirements
+    - last_visited: '2021-06-23T21:20:11'
+      original-url: https://invest.ameritrade.com/grid/p/site#r=search?query=Securities%20with%20Special%20Margin%20Requirements
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/grid/p/site#r=home
+    - active: true
+      last_visited: '2021-06-23T21:20:12'
+      original-url: https://invest.ameritrade.com/grid/p/site#r=home
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 80
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/grid/p/site#r=search
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-06-23T21:20:19'
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?filter=A
+    - last_visited: '2021-06-23T21:21:07'
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=Q
+    - last_visited: '2021-06-23T21:23:25'
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=I
+    - last_visited: '2021-06-23T21:24:02'
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=X
+    - last_visited: '2021-06-23T21:24:42'
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=V
+    - last_visited: '2021-06-23T21:26:49'
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=S
+    - last_visited: '2021-06-23T21:36:23'
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=G
+    - last_visited: '2021-06-23T21:36:56'
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=A
+    - last_visited: '2021-06-23T21:37:04'
+      pinned: false
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=I
+    - active: true
+      last_visited: '2021-06-23T21:37:12'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 1464
+      title: TD Ameritrade
+      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=J
+      zoom: 0.75
   - active: true
-    history: []
-  - history: []
-  - history: []
-  - history: []
-  - history: []
-  - history: []
-  - history: []
+    history:
+    - last_visited: '2021-06-23T21:37:51'
+      original-url: https://www.tdameritrade.com/tools-and-platforms/thinkorswim/web.page
+      pinned: false
+      title: thinkorswim Web Platform | TD Ameritrade
+      url: https://www.tdameritrade.com/tools-and-platforms/thinkorswim/web.html
+    - last_visited: '2021-06-23T21:37:58'
+      pinned: false
+      title: thinkorswim Web Login | TD Ameritrade
+      url: https://trade.thinkorswim.com/
+    - last_visited: '2021-06-23T21:38:19'
+      pinned: false
+      title: thinkorswim Web Login | TD Ameritrade
+      url: https://trade.thinkorswim.com/
+    - last_visited: '2021-06-23T21:38:21'
+      original-url: https://trade.thinkorswim.com/
+      pinned: false
+      title: Log in | thinkorswim Web
+      url: https://auth.tdameritrade.com/auth?response_type=code&client_id=TDATRADERX%40AMER.OAUTHAP&code_challenge=zqLjD05GCCmZ_AW6WHNclzvr5MQPircYqdaNMb1tsiM&code_challenge_method=S256&exp=1624460900110&redirect_uri=https%3A%2F%2Ftrade.thinkorswim.com%2Foauth&cv=default
+    - last_visited: '2021-06-23T21:38:34'
+      original-url: https://auth.tdameritrade.com/oauth?client_id=TDATRADERX%40AMER.OAUTHAP&cv=default&response_type=code&redirect_uri=https%3A%2F%2Ftrade.thinkorswim.com%2Foauth&code_challenge=zqLjD05GCCmZ_AW6WHNclzvr5MQPircYqdaNMb1tsiM&code_challenge_method=S256&exp=1624460900110
+      pinned: false
+      title: thinkorswim Web Login | TD Ameritrade
+      url: https://trade.thinkorswim.com/oauth?code=NcbLnHlxymUogAx52Er6%2B6r%2BwqsXZazRodZu9tYpmfYKqxvAYdzkWhrcCxe7XseJJkhq5aAljJp%2BjI25gR8scJzRB1SEWc6a4uetQlHftoIQNFnON1HTwSESxG2E3E%2B7ZEjwN%2Fw7Q%2BgNFTU11qzKT9xRcxjsNXLib7bGexDp%2BbNrHfPemIpbnrZOa1VsUjJ5VdPtlSXaiyAr%2FDlEwPFsFfVQW1hq1GJoqBo6Z8X9OiG5TVc9cClIh8P8fxN7OYe72T3cW5Hl6r91pOHCYFHqnlWgOMLh%2BoMXEJDm3sHrl9swBcbbpRdYRCmn5jmoOtfjc%2FqtAp7Sj0XGi2QKqBRvGOVyB3e7o1rI22OXT6kfyUdc1Zl6Gk3GKFcRaC5MGkEZGEPXabiFxyQZdZ1kGR8GYZ8W6adXBKNyvfu69jZLxMazpkkXIbbFsTqw4ENhrm4%2Baz4sm100MQuG4LYrgoVi%2FJHHvlFxYb8z226673YwNAEU7wRYwYTlIw2%2BF9EiceEKOdqNywmC0t5F%2BA1gf7zmA7ByMFepXkr1Z%2FnS9uihHKyfD05yfy2AqnRfrRJhl7I%2FLztBPOC6o%2Fq6PwuyQQL32yoCRv7lYx81tGSJEyhKb7DZUHgQLHLJT09M9oqouYHPgUHg3Yv%2F5Sl32a%2FRAj8g50VJ2MabOe%2Fs5WddoYGlpCiMnGdcjkkDxDAPP2kTpS%2FUNkxaFKVNZfgbXEe2sBGmR4z7%2FgU3aS7l9b08kJnvOaoJlRpxewMRyaHxbWPGhZKb3UkFgOzOWWm%2FmRr3smRbTNOmWV8KpF0lvzDC%2FM6695ihA7fLMRTNm9Q1fbcIfD1uKvzO3zHfGhVsRF%2BZ9q90dRRZ5rTuHPVCOATNjuoefkP%2BcnqLXeGq8LPv1Hb%2B5%2BFKwqGMMZu2V1979CAfrnUyYgmh7Z9jJJF2212FD3x19z9sWBHDJACbC00B75E
+    - last_visited: '2021-06-23T21:39:02'
+      pinned: false
+      title: thinkorswim Web Login | TD Ameritrade
+      url: https://trade.thinkorswim.com/
+    - last_visited: '2021-06-23T21:39:02'
+      pinned: false
+      title: All Account Positions | thinkorswim Web
+      url: https://trade.thinkorswim.com/
+    - last_visited: '2021-06-23T21:39:49'
+      pinned: false
+      title: Trade JPMpD | thinkorswim Web
+      url: https://trade.thinkorswim.com/?symbol=JPMpD
+    - last_visited: '2021-06-23T21:39:55'
+      pinned: false
+      title: Trade JPM | thinkorswim Web
+      url: https://trade.thinkorswim.com/?symbol=JPM
+    - last_visited: '2021-06-23T21:40:52'
+      pinned: false
+      title: Trade SPY | thinkorswim Web
+      url: https://trade.thinkorswim.com/?symbol=SPY
+    - last_visited: '2021-06-23T21:41:56'
+      pinned: false
+      title: Trade XOM | thinkorswim Web
+      url: https://trade.thinkorswim.com/?symbol=XOM
+    - active: true
+      last_visited: '2021-06-23T21:43:00'
+      original-url: https://trade.thinkorswim.com/?symbol=XOM
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Log in | thinkorswim Web
+      url: https://auth.tdameritrade.com/auth?response_type=code&client_id=TDATRADERX%40AMER.OAUTHAP&code_challenge=0z_LNR3VH4axHsXhQyDjZTYWN9c5MI3i3DCYXiVegn8&code_challenge_method=S256&exp=1624461179196&redirect_uri=https%3A%2F%2Ftrade.thinkorswim.com%2Foauth&cv=default
+      zoom: 0.75
