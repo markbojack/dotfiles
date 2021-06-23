@@ -1,4 +1,4 @@
 #!/bin/sh
-~/.local/bin/push-all
+push-all
 [[ $(pgrep -x qutebrowser) ]] && qutebrowser ":quit --save"
 poweroff
