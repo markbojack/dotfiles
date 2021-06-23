@@ -6,53 +6,13 @@ windows:
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-23T21:16:45'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Home
-      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-23T21:16:47'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'hlissner/doom-emacs: An Emacs framework for the stubborn martian hacker'
-      url: https://github.com/hlissner/doom-emacs
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-23T21:16:46'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Doom Emacs Configuration
-      url: https://tecosaur.github.io/emacs-config/config.html
-      zoom: 0.75
-  - history:
-    - active: true
       last_visited: '2021-06-23T21:16:49'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
+        y: 3440
       title: 'Your thoughts about Doom Emacs : emacs'
       url: https://www.reddit.com/r/emacs/comments/jf8kjn/your_thoughts_about_doom_emacs/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-23T21:16:50'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: medium.com
-      url: https://medium.com/urbint-engineering/emacs-doom-for-newbies-1f8038604e3b
       zoom: 0.75
   - history:
     - active: true
@@ -64,17 +24,8 @@ windows:
       title: zzamboni.org | My Doom Emacs configuration, with commentary
       url: https://zzamboni.org/post/my-doom-emacs-configuration-with-commentary/
       zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-23T21:16:46'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Doom Emacs | Hacker News
-      url: https://news.ycombinator.com/item?id=24609289
-      zoom: 0.75
-  - history:
+  - active: true
+    history:
     - active: true
       last_visited: '2021-06-23T21:16:46'
       pinned: false
@@ -86,6 +37,16 @@ windows:
       zoom: 0.75
   - history:
     - active: true
+      last_visited: '2021-06-23T23:40:48'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'hlissner/doom-emacs: An Emacs framework for the stubborn martian hacker'
+      url: https://github.com/hlissner/doom-emacs/
+      zoom: 0.75
+  - history:
+    - active: true
       last_visited: '2021-06-23T21:16:47'
       pinned: false
       scroll-pos:
@@ -93,111 +54,4 @@ windows:
         y: 0
       title: doom-emacs - An Emacs configuration for the stubborn martian vimmer
       url: https://www.findbestopensource.com/product/hlissner-doom-emacs
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-23T21:16:46'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: doom-emacs/getting_started.org at develop · hlissner/doom-emacs
-      url: https://github.com/hlissner/doom-emacs/blob/develop/docs/getting_started.org
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-23T21:16:47'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'seagle0128/doom-modeline: A fancy and fast mode-line inspired by minimalism
-        design.'
-      url: https://github.com/seagle0128/doom-modeline#manual
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-23T21:16:48'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: .emacs.d/config.org at master · rememberYou/.emacs.d
-      url: https://github.com/rememberYou/.emacs.d/blob/master/config.org
-      zoom: 0.75
-  - active: true
-    history:
-    - last_visited: '2021-06-23T21:19:25'
-      original-url: https://www.tdameritrade.com/home.page
-      pinned: false
-      title: Online Stock Trading, Investing, Brokerage | TD Ameritrade
-      url: https://www.tdameritrade.com/home.html
-    - last_visited: '2021-06-23T21:19:44'
-      original-url: https://invest.ameritrade.com/grid/p/login
-      pinned: false
-      title: TD Ameritrade
-      url: https://invest.ameritrade.com/grid/p/site
-    - last_visited: '2021-06-23T21:20:03'
-      original-url: https://invest.ameritrade.com/grid/p/login
-      pinned: false
-      title: TD Ameritrade
-      url: https://invest.ameritrade.com/grid/p/site
-    - last_visited: '2021-06-23T21:20:09'
-      original-url: https://invest.ameritrade.com/grid/p/site
-      pinned: false
-      title: TD Ameritrade
-      url: https://invest.ameritrade.com/grid/p/site#r=home
-    - last_visited: '2021-06-23T21:20:09'
-      original-url: https://invest.ameritrade.com/grid/p/site#r=home
-      pinned: false
-      title: TD Ameritrade
-      url: https://invest.ameritrade.com/grid/p/site#r=search?query=Securities%20with%20Special%20Margin%20Requirements
-    - last_visited: '2021-06-23T21:20:11'
-      original-url: https://invest.ameritrade.com/grid/p/site#r=search?query=Securities%20with%20Special%20Margin%20Requirements
-      pinned: false
-      title: TD Ameritrade
-      url: https://invest.ameritrade.com/grid/p/site#r=home
-    - last_visited: '2021-06-23T21:20:12'
-      original-url: https://invest.ameritrade.com/grid/p/site#r=home
-      pinned: false
-      title: TD Ameritrade
-      url: https://invest.ameritrade.com/grid/p/site#r=search
-    - last_visited: '2021-06-23T22:20:19'
-      original-url: https://invest.ameritrade.com/grid/p/site#r=search
-      pinned: false
-      title: TD Ameritrade Login
-      url: https://invest.ameritrade.com/grid/p/login?dboxId=grdLogout&logout=T
-    - last_visited: '2021-06-23T22:42:27'
-      original-url: https://invest.ameritrade.com/grid/p/login?dboxId=grdLogout&logout=T
-      pinned: false
-      title: TD Ameritrade Authentication
-      url: https://auth.tdameritrade.com/auth?response_type=code&client_id=TDARETAILWEB%40AMER.OAUTHAP&redirect_uri=https%3A%2F%2Finvest.ameritrade.com%2Fgrid%2Fm%2Fcafelogin&cv=default&lang=en-us&state=&code_challenge=tP9CtaXPfD-V2igGhU0NkjWoie_Rngha5RSB_VrjRHw&code_challenge_method=S256&exp=1624464746449&ext_sp_page=ma
-    - last_visited: '2021-06-23T22:42:43'
-      original-url: https://invest.ameritrade.com/grid/p/site
-      pinned: false
-      title: TD Ameritrade
-      url: https://invest.ameritrade.com/grid/p/site#r=home
-    - last_visited: '2021-06-23T22:42:44'
-      original-url: https://invest.ameritrade.com/grid/p/site
-      pinned: false
-      title: TD Ameritrade
-      url: https://invest.ameritrade.com/grid/p/site#r=home
-    - last_visited: '2021-06-23T22:43:06'
-      original-url: https://invest.ameritrade.com/grid/p/site#r=home
-      pinned: false
-      title: TD Ameritrade
-      url: https://invest.ameritrade.com/grid/p/site#r=search?query=Securities%20with%20Special%20Margin%20Requirements
-    - last_visited: '2021-06-23T23:08:22'
-      pinned: false
-      title: TD Ameritrade
-      url: https://invest.ameritrade.com/grid/p/site#r=positions
-    - active: true
-      last_visited: '2021-06-23T23:08:56'
-      original-url: https://invest.ameritrade.com/grid/p/site#r=positions
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: TD Ameritrade Login
-      url: https://invest.ameritrade.com/grid/p/login?dboxId=grdLogout&logout=L
       zoom: 0.75
