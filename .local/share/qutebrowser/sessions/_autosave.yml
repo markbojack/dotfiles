@@ -1,5 +1,6 @@
 windows:
-- geometry: !!binary |
+- active: true
+  geometry: !!binary |
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
@@ -124,7 +125,8 @@ windows:
       title: .emacs.d/config.org at master · rememberYou/.emacs.d
       url: https://github.com/rememberYou/.emacs.d/blob/master/config.org
       zoom: 0.75
-  - history:
+  - active: true
+    history:
     - last_visited: '2021-06-23T21:19:25'
       original-url: https://www.tdameritrade.com/home.page
       pinned: false
@@ -180,65 +182,22 @@ windows:
       pinned: false
       title: TD Ameritrade
       url: https://invest.ameritrade.com/grid/p/site#r=home
-    - active: true
-      last_visited: '2021-06-23T22:43:06'
+    - last_visited: '2021-06-23T22:43:06'
       original-url: https://invest.ameritrade.com/grid/p/site#r=home
       pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
       title: TD Ameritrade
       url: https://invest.ameritrade.com/grid/p/site#r=search?query=Securities%20with%20Special%20Margin%20Requirements
-      zoom: 0.75
-  - active: true
-    history:
-    - last_visited: '2021-06-23T22:43:13'
+    - last_visited: '2021-06-23T23:08:22'
       pinned: false
       title: TD Ameritrade
-      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?filter=A
-    - last_visited: '2021-06-23T22:43:27'
-      pinned: false
-      title: TD Ameritrade
-      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=V
+      url: https://invest.ameritrade.com/grid/p/site#r=positions
     - active: true
-      last_visited: '2021-06-23T22:47:07'
+      last_visited: '2021-06-23T23:08:56'
+      original-url: https://invest.ameritrade.com/grid/p/site#r=positions
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: TD Ameritrade
-      url: https://invest.ameritrade.com/cgi-bin/apps/u/MarginReq?pagehandler=PHMarginRequirements&filter=I
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-23T22:43:53'
-      original-url: https://etf.com/vclt
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 200
-      title: 'VCLT ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/VCLT
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-23T22:47:02'
-      original-url: https://etf.com/iglb
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 160
-      title: 'IGLB ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/IGLB
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-23T22:49:11'
-      original-url: https://etf.com/igib
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'IGIB ETF Report: Ratings, Analysis, Quotes, Holdings | ETF.com'
-      url: https://www.etf.com/IGIB
+      title: TD Ameritrade Login
+      url: https://invest.ameritrade.com/grid/p/login?dboxId=grdLogout&logout=L
       zoom: 0.75
