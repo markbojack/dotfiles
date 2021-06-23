@@ -5,7 +5,7 @@ windows:
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-23T17:39:45'
+      last_visited: '2021-06-23T18:20:53'
       pinned: false
       scroll-pos:
         x: 0
@@ -15,7 +15,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-23T17:39:46'
+      last_visited: '2021-06-23T18:20:54'
       pinned: false
       scroll-pos:
         x: 0
@@ -25,7 +25,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-23T17:39:46'
+      last_visited: '2021-06-23T18:20:54'
       pinned: false
       scroll-pos:
         x: 0
@@ -35,7 +35,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-23T17:39:48'
+      last_visited: '2021-06-23T18:20:57'
       pinned: false
       scroll-pos:
         x: 0
@@ -45,7 +45,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-23T17:39:45'
+      last_visited: '2021-06-23T18:20:53'
       pinned: false
       scroll-pos:
         x: 0
@@ -53,9 +53,10 @@ windows:
       title: medium.com
       url: https://medium.com/urbint-engineering/emacs-doom-for-newbies-1f8038604e3b
       zoom: 0.75
-  - history:
+  - active: true
+    history:
     - active: true
-      last_visited: '2021-06-23T17:39:46'
+      last_visited: '2021-06-23T18:20:54'
       pinned: false
       scroll-pos:
         x: 0
@@ -65,7 +66,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-23T17:39:46'
+      last_visited: '2021-06-23T18:20:54'
       pinned: false
       scroll-pos:
         x: 0
@@ -75,7 +76,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-23T17:39:46'
+      last_visited: '2021-06-23T18:20:53'
       pinned: false
       scroll-pos:
         x: 0
@@ -85,7 +86,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-23T17:39:47'
+      last_visited: '2021-06-23T18:20:55'
       pinned: false
       scroll-pos:
         x: 0
@@ -95,7 +96,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-23T17:39:46'
+      last_visited: '2021-06-23T18:20:54'
       pinned: false
       scroll-pos:
         x: 0
@@ -105,7 +106,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-23T17:39:46'
+      last_visited: '2021-06-23T18:20:54'
       pinned: false
       scroll-pos:
         x: 0
@@ -114,66 +115,13 @@ windows:
         design.'
       url: https://github.com/seagle0128/doom-modeline#manual
       zoom: 0.75
-  - active: true
-    history:
-    - last_visited: '2021-06-23T17:39:45'
-      pinned: false
-      title: Outlook
-      url: https://outlook.live.com/mail/0/inbox/id/AQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoARgAAA4lIdydTkERKv2ZG1Ybxqy4HABKhdE1MPkJJuq%2BLMFjFymoAAAIBDAAAABKhdE1MPkJJuq%2BLMFjFymoABIbekgwAAAA%3D
-    - last_visited: '2021-06-23T17:39:58'
-      original-url: https://outlook.live.com/mail/0/inbox/id/AQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoARgAAA4lIdydTkERKv2ZG1Ybxqy4HABKhdE1MPkJJuq%2BLMFjFymoAAAIBDAAAABKhdE1MPkJJuq%2BLMFjFymoABIbekgwAAAA%3D
-      pinned: false
-      title: Mail - Mark Bojack - Outlook
-      url: https://outlook.live.com/mail/0/inbox/id/AQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoARgAAA4lIdydTkERKv2ZG1Ybxqy4HABKhdE1MPkJJuq+LMFjFymoAAAIBDAAAABKhdE1MPkJJuq+LMFjFymoABIbekgwAAAA=/
-    - active: true
-      last_visited: '2021-06-23T17:39:58'
-      original-url: https://outlook.live.com/mail/0/inbox/id/AQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoARgAAA4lIdydTkERKv2ZG1Ybxqy4HABKhdE1MPkJJuq+LMFjFymoAAAIBDAAAABKhdE1MPkJJuq+LMFjFymoABIbekgwAAAA=/
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Mail - Mark Bojack - Outlook
-      url: https://outlook.live.com/mail/0/inbox
-      zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-23T17:39:46'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: .config/doom · master · Derek Taylor / Dotfiles · GitLab
-      url: https://gitlab.com/dwt1/dotfiles/-/tree/master/.config/doom
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-23T17:39:46'
+      last_visited: '2021-06-23T18:20:54'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
       title: .emacs.d/config.org at master · rememberYou/.emacs.d
       url: https://github.com/rememberYou/.emacs.d/blob/master/config.org
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-23T17:39:47'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'Failed to parse package mu4e: Device 1 is not a termcap terminal device
-        - Google Search'
-      url: https://www.google.com/search?q=Failed%20to%20parse%20package%20mu4e%3A%20Device%201%20is%20not%20a%20termcap%20terminal%20device
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-23T17:39:47'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'The mu4e package fails to load mu4e with the mu4e layer. (mu4e-maildirs-extension)
-        · Issue #6028 · syl20bnr/spacemacs'
-      url: https://github.com/syl20bnr/spacemacs/issues/6028
       zoom: 0.75
