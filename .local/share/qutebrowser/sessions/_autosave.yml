@@ -10,48 +10,18 @@ windows:
       pinned: false
       scroll-pos:
         x: 0
-        y: 3440
+        y: 0
       title: 'Your thoughts about Doom Emacs : emacs'
       url: https://www.reddit.com/r/emacs/comments/jf8kjn/your_thoughts_about_doom_emacs/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-23T21:16:46'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: zzamboni.org | My Doom Emacs configuration, with commentary
-      url: https://zzamboni.org/post/my-doom-emacs-configuration-with-commentary/
       zoom: 0.75
   - active: true
     history:
     - active: true
-      last_visited: '2021-06-23T21:16:46'
+      last_visited: '2021-06-24T00:01:10'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Migrating To Doom Emacs · Jethro Kuan
-      url: https://blog.jethro.dev/posts/migrating_to_doom_emacs/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-23T23:40:48'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'hlissner/doom-emacs: An Emacs framework for the stubborn martian hacker'
-      url: https://github.com/hlissner/doom-emacs/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-23T21:16:47'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: doom-emacs - An Emacs configuration for the stubborn martian vimmer
-      url: https://www.findbestopensource.com/product/hlissner-doom-emacs
+      title: 'I''m a beginner in Emacs and trying out some small Key binds : DoomEmacs'
+      url: https://www.reddit.com/r/DoomEmacs/comments/o5iev0/im_a_beginner_in_emacs_and_trying_out_some_small/
       zoom: 0.75
