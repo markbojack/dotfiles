@@ -1,39 +1,16 @@
 windows:
-- active: true
-  geometry: !!binary |
+- geometry: !!binary |
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
-  - history:
-    - last_visited: '2021-06-22T20:37:13'
-      pinned: false
-      title: .emacs.d/config.org at master · rememberYou/.emacs.d
-      url: https://github.com/rememberYou/.emacs.d/blob/master/config.org
+  - active: true
+    history:
     - active: true
-      last_visited: '2021-06-22T20:39:06'
+      last_visited: '2021-06-22T21:02:46'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
       title: Home
       url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
-      zoom: 0.75
-  - active: true
-    history:
-    - last_visited: '2021-06-22T20:43:45'
-      pinned: false
-      title: .emacs.d/config.org at master · rememberYou/.emacs.d
-      url: https://github.com/rememberYou/.emacs.d/blob/master/config.org
-    - last_visited: '2021-06-22T20:44:00'
-      pinned: false
-      title: rememberYou (Terencio Agozzino)
-      url: https://github.com/rememberYou
-    - active: true
-      last_visited: '2021-06-22T20:44:13'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 681
-      title: "rememberYou/.emacs.d: \U0001F389 Personal GNU Emacs configuration"
-      url: https://github.com/rememberYou/.emacs.d
       zoom: 0.75

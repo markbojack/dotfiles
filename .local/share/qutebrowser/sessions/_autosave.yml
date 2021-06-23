@@ -1,12 +1,11 @@
 windows:
-- active: true
-  geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
-    IQAABUUAAALv
+- geometry: !!binary |
+    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAAEAAAACEAAAKiAAAC7wAAAAAAAAAABVYAAAAQAAAA
+    IQAAAqIAAALv
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-22T21:02:46'
+      last_visited: '2021-06-23T09:12:05'
       pinned: false
       scroll-pos:
         x: 0
@@ -14,18 +13,48 @@ windows:
       title: Home
       url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
       zoom: 0.75
-  - active: true
-    history:
-    - last_visited: '2021-06-23T00:34:16'
+  - history:
+    - last_visited: '2021-06-23T09:22:54'
       pinned: false
-      title: Yahoo Finance - Stock Market Live, Quotes, Business & Finance News
-      url: https://finance.yahoo.com/
+      title: 'r Error: C stack usage 7977620 is too close to the limit - Google Search'
+      url: https://www.google.com/search?q=r%20Error%3A%20C%20stack%20usage%20%207977620%20is%20too%20close%20to%20the%20limit
     - active: true
-      last_visited: '2021-06-23T00:34:27'
+      last_visited: '2021-06-23T09:22:56'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 2080
+      title: 'r - Error: C stack usage is too close to the limit - Stack Overflow'
+      url: https://stackoverflow.com/questions/14719349/error-c-stack-usage-is-too-close-to-the-limit
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-23T09:42:42'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: 'XOM 63.66 1.07 1.71% : Exxon Mobil Corporation - Yahoo Finance'
-      url: https://finance.yahoo.com/quote/XOM?p=XOM&.tsrc=fin-srch
+      title: Handling | Definition of Handling by Merriam-Webster
+      url: https://www.merriam-webster.com/dictionary/handling
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-23T09:51:45'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: .config/doom · master · Derek Taylor / Dotfiles · GitLab
+      url: https://gitlab.com/dwt1/dotfiles/-/tree/master/.config/doom
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-23T09:51:59'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 4048
+      title: 'hlissner/doom-emacs: An Emacs framework for the stubborn martian hacker'
+      url: https://github.com/hlissner/doom-emacs
       zoom: 0.75
