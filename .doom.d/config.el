@@ -59,12 +59,14 @@
 	  mu4e-compose-signature (concat "Mark Bojack\n" "https://github.com/markbojack\n" "Sent with mu4e from Doom Emacs\n")
       mu4e-update-interval (* 1 60)
       mu4e-attachment-dir "~/Downloads"
-      mu4e-get-mail-command "mbsync -a -D -V"
+;      mu4e-get-mail-command "mbsync -a -D -V"
+      mu4e-get-mail-command "mbsync -a"
 	  mu4e-maildir "~/Mail"
-      mu4e-index-cleanup t              ;; full cleanup check
-      mu4e-index-lazy-check nil         ;; consider up-to-date dirs
-      mu4e-index-update-error-continue t
-      mu4e-index-update-error-warning t
+      mu4e-index-update-error-warning nil       ;; you need this bc you have gpg2 encrypted pass in your ~/.mbsyncrc
+;      mu4e-index-cleanup t              ;; full cleanup check
+;      mu4e-index-lazy-check nil         ;; consider up-to-date dirs
+;      mu4e-index-update-error-continue t
+;      mu4e-index-update-error-warning t
       mu4e-main-buffer-hide-personal-addresses t
 	  mu4e-change-filenames-when-moving t
 	  mu4e-drafts-folder "/[Gmail]/Drafts"
