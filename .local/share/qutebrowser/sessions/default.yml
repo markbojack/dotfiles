@@ -1,32 +1,31 @@
 windows:
-- active: true
-  geometry: !!binary |
+- geometry: !!binary |
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-24T17:39:22'
+      last_visited: '2021-06-24T20:32:55'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: 'Your thoughts about Doom Emacs : emacs'
+      title: www.reddit.com
       url: https://www.reddit.com/r/emacs/comments/jf8kjn/your_thoughts_about_doom_emacs/
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-24T17:39:22'
+      last_visited: '2021-06-24T20:32:55'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: 'I''m a beginner in Emacs and trying out some small Key binds : DoomEmacs'
+      title: www.reddit.com
       url: https://www.reddit.com/r/DoomEmacs/comments/o5iev0/im_a_beginner_in_emacs_and_trying_out_some_small/
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-24T17:39:20'
+      last_visited: '2021-06-24T20:32:55'
       pinned: false
       scroll-pos:
         x: 0
@@ -36,44 +35,42 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-24T17:39:20'
+      last_visited: '2021-06-24T20:32:55'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: 'benbusby/whoogle-search: A self-hosted, ad-free, privacy-respecting
-        metasearch engine'
+      title: github.com
       url: https://github.com/benbusby/whoogle-search
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-24T17:39:22'
+      last_visited: '2021-06-24T20:32:55'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: 'Whoogle Search - A self-hosted, ad-free/AMP-free/tracking-free, privacy
-        respecting alternative to Google Search : selfhosted'
+      title: www.reddit.com
       url: https://www.reddit.com/r/selfhosted/comments/ggronz/whoogle_search_a_selfhosted/
       zoom: 0.75
   - active: true
     history:
     - active: true
-      last_visited: '2021-06-24T17:39:20'
+      last_visited: '2021-06-24T20:32:55'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: AUR (en) - whoogle
+      title: aur.archlinux.org
       url: https://aur.archlinux.org/packages/whoogle/
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-24T17:39:20'
+      last_visited: '2021-06-24T20:32:55'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Brave Search
+      title: search.brave.com
       url: https://search.brave.com/
       zoom: 0.75

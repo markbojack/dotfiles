@@ -1,0 +1,21 @@
+windows:
+- geometry: !!binary |
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
+    IQAABUUAAALv
+  tabs:
+  - active: true
+    history:
+    - last_visited: '2021-06-24T22:54:00'
+      pinned: false
+      title: Exxon Mobil Corporation (XOM) Stock Price, News, Quote & History - Yahoo
+        Finance
+      url: https://finance.yahoo.com/
+    - active: true
+      last_visited: '2021-06-24T22:54:15'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'XOM 64.11 -0.15 -0.23% : Exxon Mobil Corporation - Yahoo Finance'
+      url: https://finance.yahoo.com/quote/XOM?p=XOM
+      zoom: 0.75

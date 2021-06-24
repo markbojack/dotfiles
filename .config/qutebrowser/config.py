@@ -305,7 +305,7 @@ c.downloads.location.directory = '~/Downloads'
 # the search engine name to the search term, e.g. `:open google
 # qutebrowser`.
 # Type: Dict
-c.url.searchengines = {'DEFAULT': 'https://www.google.com/search?q={}'} #, 'ddg': 'https://duckduckgo.com/?q={}', 'aw': 'https://wiki.archlinux.org/?search={}', 'yt': 'https://www.youtube.com/results?search_query={}'}
+c.url.searchengines = {'DEFAULT': 'https://search.brave.com/search?q={}'} #, 'ddg': 'https://duckduckgo.com/?q={}', 'aw': 'https://wiki.archlinux.org/?search={}', 'yt': 'https://www.youtube.com/results?search_query={}'}
 
 # Text color of the completion widget. May be a single color to use for
 # all columns or a list of three colors, one for each column.
@@ -516,7 +516,7 @@ config.bind('pd', 'config-cycle downloads.location.prompt True False')
 config.bind('e', 'hint links spawn alacritty -e nvim {hint-url}')
 # go home
 config.bind(',h', 'open file:///home/mark/p-dot-script/qutebrowser/html/homepage.html')
-config.bind('go', 'open https://google.com')
+config.bind('bs', 'open https://search.brave.com')
 config.bind(',o', 'set-cmd-text -s :open')
 config.bind(',a', 'config-cycle content.blocking.enabled true false')
 config.bind(',t', 'set-cmd-text -s :tab-focus')
