@@ -57,7 +57,7 @@
 (setq user-mail-address "markbojack.si@gmail.com"
       user-full-name  "Mark Bojack"
 	  mu4e-compose-signature (concat "Mark Bojack\n" "https://github.com/markbojack\n" "Sent with mu4e from Doom Emacs\n")
-      mu4e-update-interval (* 5 60)
+      mu4e-update-interval (* 1 60)
       mu4e-attachment-dir "~/Downloads"
       mu4e-get-mail-command "mbsync -a -D -V"
 	  mu4e-maildir "~/Mail"
