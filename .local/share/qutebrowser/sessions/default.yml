@@ -1,76 +1,28 @@
 windows:
-- geometry: !!binary |
+- active: true
+  geometry: !!binary |
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
-  - history:
-    - active: true
-      last_visited: '2021-06-24T20:32:55'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: www.reddit.com
-      url: https://www.reddit.com/r/emacs/comments/jf8kjn/your_thoughts_about_doom_emacs/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-24T20:32:55'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: www.reddit.com
-      url: https://www.reddit.com/r/DoomEmacs/comments/o5iev0/im_a_beginner_in_emacs_and_trying_out_some_small/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-24T20:32:55'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: whoogle - Google Search
-      url: https://www.google.com/search?q=whoogle&ei=tV3UYJ_kEa-zmAXj3J-YCA&oq=whoogle&gs_lcp=Cgdnd3Mtd2l6EAMyAggAMgIIADICCAAyAggAMgQIABAKMgQIABAKMgQIABAKMgQIABAKMgIIADIECAAQCjoHCC4QChCTAjoICAAQsQMQkQI6CAgAELEDEIMBOgUIABCxAzoFCAAQkQI6AgguOggILhCxAxCDAToFCC4QsQM6CwguEMcBEK8BEJMCOgQILhAKSgUIOBIBMUoECEEYAFDHEljiKGDRLGgDcAB4AIABrwGIAa8NkgEEMC4xMpgBAKABAaoBB2d3cy13aXrAAQE&sclient=gws-wiz&ved=0ahUKEwjfkv6Wh7DxAhWvGaYKHWPuB4MQ4dUDCBE&uact=5
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-24T20:32:55'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: github.com
-      url: https://github.com/benbusby/whoogle-search
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-24T20:32:55'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: www.reddit.com
-      url: https://www.reddit.com/r/selfhosted/comments/ggronz/whoogle_search_a_selfhosted/
-      zoom: 0.75
   - active: true
     history:
     - active: true
-      last_visited: '2021-06-24T20:32:55'
+      last_visited: '2021-06-25T04:04:24'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: aur.archlinux.org
-      url: https://aur.archlinux.org/packages/whoogle/
+        y: 2479
+      title: emacs-from-scratch/Emacs-Mail-01.org at 629aec3dbdffe99e2c361ffd10bd6727555a3bd3
+        · daviwil/emacs-from-scratch
+      url: https://github.com/daviwil/emacs-from-scratch/blob/629aec3dbdffe99e2c361ffd10bd6727555a3bd3/show-notes/Emacs-Mail-01.org
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-24T20:32:55'
+      last_visited: '2021-06-25T04:04:35'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: search.brave.com
-      url: https://search.brave.com/
+        y: 35947
+      title: .emacs.d/config.org at master · rememberYou/.emacs.d
+      url: https://github.com/rememberYou/.emacs.d/blob/master/config.org
       zoom: 0.75

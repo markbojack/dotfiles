@@ -1,13 +1,80 @@
 ;;; $DOOMDIR/config.el -*- lexical-binding: t; -*-
 
+(setq doom-font (font-spec :family "RobotoMono Nerd Font" :size 10 :weight 'bold)
+      doom-variable-pitch-font (font-spec :family "sans" :size 13)
+      doom-theme 'doom-one
+      org-directory "~/Documents/org/"
+      display-line-numbers-type 'relative
+      evil-split-window-below t
+      evil-vsplit-window-right t)
+
+;; PACKAGES ====================================================================
+;; MU4E ------------------------------------------------------------------------
+(add-load-path! "/usr/local/share/emacs/site-lisp/mu4e")
+(setq user-full-name "Mark Bojack"
+      user-mail-address "markbojack.si@gmail.com"
+      mu4e-index-update-in-background t         ;; needed for gmail
+      mu4e-get-mail-command "mbsync -a -c ~/p-dot-script/.mbsyncrc"     ;; bc i has custom .mbsyncrc
+      mu4e-maildir "~/Mail"
+      mu4e-attachment-dir "~/Downloads"
+      mu4e-compose-signature (concat "Mark Bojack\n" "https://github.com/markbojack\n" "Sent with mu4e from Doom Emacs\n")
+      mu4e-main-buffer-hide-personal-addresses t
+      mu4e-drafts-folder "/[Gmail]/Drafts"
+      mu4e-sent-folder   "/[Gmail]/Sent Mail"
+      mu4e-refile-folder "/[Gmail]/All Mail"
+      mu4e-trash-folder  "/[Gmail]/Trash"
+      mu4e-maildir-shortcuts
+        '((:maildir "/Inbox"    :key ?i)
+          (:maildir "/[Gmail]/Sent Mail" :key ?s)
+          (:maildir "/[Gmail]/Trash"     :key ?t)
+          (:maildir "/[Gmail]/Drafts"    :key ?d)
+          (:maildir "/[Gmail]/All Mail"  :key ?a))
+      ;mu4e-update-interval (* 1 60)
+      ;mu4e-index-update-error-warning nil      ;; need this bc you have gpg2 encrypted pass in your ~/.mbsyncrc
+      ;mu4e-index-update-error-continue t
+      starttls-use-gnutls t
+      smtpmail-starttls-credentials '(("smtp.gmail.com" 587 nil nil))
+      smtpmail-auth-credentials '(("smtp.gmail.com" 587 "markbojack.si@gmail.com" nil))
+      smtpmail-default-smtp-server "smtp.gmail.com"
+      smtpmail-smtp-server "smtp.gmail.com"
+      smtpmail-smtp-service 587)
+
+;; ORG SUPER AGENDA ------------------------------------------------------------
+;; https://github.com/alphapapa/org-super-agenda
+(use-package! org-super-agenda
+  :after org-agenda     ;; you can also do (after! org-agenda (setq ... ))
+  :init
+  (setq org-super-agenda-groups '((:name "Today"
+                                   :time-grid t
+                                   :scheduled today)
+                                  (:name "Due today"
+                                   :deadline today)
+                                  (:name "Important"
+                                   :priority "A")
+                                  (:name "Overdue"
+                                   :deadline past)
+                                  (:name "Due soon"
+                                   :deadline future)
+                                  (:name "Big Outcomes"
+                                   :tag "bo")))
+  :config
+  (org-super-agenda-mode))
+
+
+;; NOTES =======================================================================
+
 ;; Place your private configuration here! Remember, you do not need to run 'doom
 ;; sync' after modifying this file!
 
+;; https://github.com/hlissner/doom-emacs-private/blob/master/config.el
 
-;; Some functionality uses this to identify you, e.g. GPG configuration, email
-;; clients, file templates and snippets.
-(setq user-full-name "Mark Bojack"
-      user-mail-address "markbojack.si@gmail.com")
+; How do I maximize/fullscreen Emacs on startup?
+; #+BEGIN_SRC elisp
+; (add-to-list 'initial-frame-alist '(fullscreen . maximized))
+; #+END_SRC
+;
+; Some window managers may not understand/work with =maximized= (or may not
+; produce the desired effect), in that case try ~fullboth~ or ~fullscreen~.
 
 ;; Doom exposes five (optional) variables for controlling fonts in Doom. Here
 ;; are the three important ones:
@@ -17,24 +84,6 @@
 ;; + `doom-big-font' -- used for `doom-big-font-mode'; use this for
 ;;   presentations or streaming.
 ;;
-;; They all accept either a font-spec, font string ("Input Mono-12"), or xlfd
-;; font string. You generally only need these two:
-;; (setq doom-font (font-spec :family "Roboto Mono Nerd Font" :size 12 :weight 'semi-light)
-;;       doom-variable-pitch-font (font-spec :family "sans" :size 13))
-
-;; There are two ways to load a theme. Both assume the theme is installed and
-;; available. You can either set `doom-theme' or manually load a theme with the
-;; `load-theme' function. This is the default:
-(setq doom-theme 'doom-one)
-
-;; If you use `org' and don't want your org files in the default location below,
-;; change `org-directory'. It must be set before org loads!
-(setq org-directory "~/org/")
-
-;; This determines the style of line numbers in effect. If set to `nil', line
-;; numbers are disabled. For relative line numbers, set this to `relative'.
-(setq display-line-numbers-type t)
-
 ;; Here are some additional functions/macros that could help you configure Doom:
 ;;
 ;; - `load!' for loading external *.el files relative to this one
@@ -51,40 +100,3 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
-
-(add-load-path! "/usr/local/share/emacs/site-lisp/mu4e")
-
-(setq user-mail-address "markbojack.si@gmail.com"
-      user-full-name  "Mark Bojack"
-	  mu4e-compose-signature (concat "Mark Bojack\n" "https://github.com/markbojack\n" "Sent with mu4e from Doom Emacs\n")
-      mu4e-update-interval (* 1 60)
-      mu4e-attachment-dir "~/Downloads"
-;      mu4e-get-mail-command "mbsync -a -D -V"
-      mu4e-get-mail-command "mbsync -a"
-	  mu4e-maildir "~/Mail"
-      mu4e-index-update-error-warning nil       ;; you need this bc you have gpg2 encrypted pass in your ~/.mbsyncrc
-;      mu4e-index-cleanup t              ;; full cleanup check
-;      mu4e-index-lazy-check nil         ;; consider up-to-date dirs
-;      mu4e-index-update-error-continue t
-;      mu4e-index-update-error-warning t
-      mu4e-main-buffer-hide-personal-addresses t
-	  mu4e-change-filenames-when-moving t
-	  mu4e-drafts-folder "/[Gmail]/Drafts"
-	  mu4e-sent-folder   "/[Gmail]/Sent Mail"
-	  mu4e-refile-folder "/[Gmail]/All Mail"
-	  mu4e-trash-folder  "/[Gmail]/Trash"
-      mu4e-maildir-shortcuts
-      '((:maildir "/Inbox"    :key ?i)
-        (:maildir "/[Gmail]/Sent Mail" :key ?s)
-        (:maildir "/[Gmail]/Trash"     :key ?t)
-        (:maildir "/[Gmail]/Drafts"    :key ?d)
-        (:maildir "/[Gmail]/All Mail"  :key ?a))
-
-      message-send-mail-function 'smtpmail-send-it
-        starttls-use-gnutls t
-        smtpmail-starttls-credentials '(("smtp.gmail.com" 587 nil nil))
-        smtpmail-auth-credentials
-        '(("smtp.gmail.com" 587 "markbojack.si@gmail.com" nil))
-        smtpmail-default-smtp-server "smtp.gmail.com"
-        smtpmail-smtp-server "smtp.gmail.com"
-        smtpmail-smtp-service 587)

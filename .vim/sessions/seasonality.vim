@@ -1,6 +1,6 @@
 " ~/.vim/sessions/seasonality.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 24 Tháng 6 2021 at 22:57:34.
+" Created by session.vim 2.13.1 on 25 Tháng 6 2021 at 00:20:15.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
