@@ -3,38 +3,25 @@ windows:
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
-  - history:
+  - active: true
+    history:
     - active: true
-      last_visited: '2021-06-25T12:50:46'
+      last_visited: '2021-06-25T13:45:51'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: github.com
+      title: emacs-from-scratch/Emacs-Mail-01.org at 629aec3dbdffe99e2c361ffd10bd6727555a3bd3
+        · daviwil/emacs-from-scratch
       url: https://github.com/daviwil/emacs-from-scratch/blob/629aec3dbdffe99e2c361ffd10bd6727555a3bd3/show-notes/Emacs-Mail-01.org
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-25T12:50:46'
+      last_visited: '2021-06-25T13:45:50'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: github.com
+      title: .emacs.d/config.org at master · rememberYou/.emacs.d
       url: https://github.com/rememberYou/.emacs.d/blob/master/config.org
-      zoom: 0.75
-  - active: true
-    history:
-    - last_visited: '2021-06-25T13:33:42'
-      pinned: false
-      title: qqq holdings - Brave Search
-      url: https://search.brave.com/search?q=qqq%20holdings
-    - active: true
-      last_visited: '2021-06-25T13:33:47'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 690
-      title: About QQQ - Holdings and Sector Allocations - Invesco QQQ
-      url: https://www.invesco.com/qqq-etf/en/about.html
       zoom: 0.75
