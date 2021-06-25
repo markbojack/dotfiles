@@ -2,6 +2,5 @@
 
 while :
 do
-	bkp_check=$(pgrep -fl backup-phone.sh | wc -l)
-	[[ $bkp_check -ne 0 ]] && echo "🔵" || echo ""
+	[[ $(pgrep -fl backup-phone.sh) ]] && echo "🔵" || echo ""
 done

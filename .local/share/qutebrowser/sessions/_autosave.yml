@@ -14,33 +14,16 @@ windows:
       title: Home
       url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
       zoom: 0.75
-  - history:
-    - last_visited: '2021-06-25T22:24:40'
-      pinned: false
-      title: zaiste emacs - Google Search
-      url: https://www.google.com/search?q=zaiste%20emacs
+  - active: true
+    history:
     - active: true
-      last_visited: '2021-06-25T22:35:52'
+      last_visited: '2021-06-26T00:40:12'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: 'zaiste/.doom.d: Private Doom Emacs Configuration'
-      url: https://github.com/zaiste/.doom.d
-      zoom: 0.75
-    - last_visited: '2021-06-25T22:35:42'
-      pinned: false
-      title: .doom.d/init.el at master · zaiste/.doom.d
-      url: https://github.com/zaiste/.doom.d/blob/master/init.el
-  - history:
-    - active: true
-      last_visited: '2021-06-25T23:32:42'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'zaiste/.doom.d: Private Doom Emacs Configuration'
-      url: https://github.com/zaiste/.doom.d
+      title: Live stock, index, futures, Forex and Bitcoin charts on TradingView
+      url: https://www.tradingview.com/chart/vpYiBxKy/
       zoom: 0.75
   - history:
     - last_visited: '2021-06-25T23:32:47'
@@ -58,22 +41,42 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-25T23:49:37'
+      last_visited: '2021-06-26T00:20:04'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: org delete stored link - Google Search
-      url: https://www.google.com/search?q=org%20delete%20stored%20link
+      title: org-babel show rownames - Google Search
+      url: https://www.google.com/search?q=org-babel%20show%20rownames
       zoom: 0.75
-  - active: true
-    history:
+  - history:
     - active: true
-      last_visited: '2021-06-25T23:49:54'
+      last_visited: '2021-06-26T00:22:21'
       pinned: false
       scroll-pos:
         x: 0
-        y: 2280
-      title: in org-mode, how to remove a link? - Emacs Stack Exchange
-      url: https://emacs.stackexchange.com/questions/10707/in-org-mode-how-to-remove-a-link
+        y: 0
+      title: 'Org-babel-dev: DONE Handling of table column names and hlines across
+        languages'
+      url: http://eschulte.github.io/babel-dev/DONE-Handling-of-table-column-names-and-hlines-across-languages.html
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-26T00:22:27'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Environment of a Code Block (The Org Manual)
+      url: https://orgmode.org/manual/Environment-of-a-Code-Block.html
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-26T00:22:32'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: '[Orgmode] [babel] RFC: column and row names in babel tables'
+      url: https://lists.gnu.org/archive/html/emacs-orgmode/2010-04/msg00307.html
       zoom: 0.75

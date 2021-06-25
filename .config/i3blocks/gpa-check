@@ -2,6 +2,5 @@
 
 while :
 do
-	gpa_check=$(pgrep -fl push-all | wc -l)
-	[[ $gpa_check -ne 0 ]] && echo "🔴" || echo ""
+	[[ $(pgrep -fl push-all) ]] && echo "🔴" || echo ""
 done
