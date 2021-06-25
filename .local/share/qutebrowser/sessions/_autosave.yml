@@ -1,0 +1,26 @@
+windows:
+- geometry: !!binary |
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
+    IQAABUUAAALv
+  tabs:
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-25T12:50:46'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: github.com
+      url: https://github.com/daviwil/emacs-from-scratch/blob/629aec3dbdffe99e2c361ffd10bd6727555a3bd3/show-notes/Emacs-Mail-01.org
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-25T12:50:46'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: github.com
+      url: https://github.com/rememberYou/.emacs.d/blob/master/config.org
+      zoom: 0.75
