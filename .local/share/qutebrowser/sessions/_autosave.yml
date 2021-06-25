@@ -14,17 +14,6 @@ windows:
       title: Home
       url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
       zoom: 0.75
-  - active: true
-    history:
-    - active: true
-      last_visited: '2021-06-25T22:52:09'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Yahoo Finance - Stock Market Live, Quotes, Business & Finance News
-      url: https://finance.yahoo.com/
-      zoom: 0.75
   - history:
     - last_visited: '2021-06-25T22:24:40'
       pinned: false
@@ -43,3 +32,48 @@ windows:
       pinned: false
       title: .doom.d/init.el at master · zaiste/.doom.d
       url: https://github.com/zaiste/.doom.d/blob/master/init.el
+  - history:
+    - active: true
+      last_visited: '2021-06-25T23:32:42'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'zaiste/.doom.d: Private Doom Emacs Configuration'
+      url: https://github.com/zaiste/.doom.d
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-06-25T23:32:47'
+      pinned: false
+      title: 'zaiste/.doom.d: Private Doom Emacs Configuration'
+      url: https://github.com/zaiste/.doom.d
+    - active: true
+      last_visited: '2021-06-25T23:32:48'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: .doom.d/config.el at master · zaiste/.doom.d
+      url: https://github.com/zaiste/.doom.d/blob/master/config.el
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-25T23:49:37'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: org delete stored link - Google Search
+      url: https://www.google.com/search?q=org%20delete%20stored%20link
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-25T23:49:54'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 2280
+      title: in org-mode, how to remove a link? - Emacs Stack Exchange
+      url: https://emacs.stackexchange.com/questions/10707/in-org-mode-how-to-remove-a-link
+      zoom: 0.75

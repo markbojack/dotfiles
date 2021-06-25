@@ -62,6 +62,8 @@
         smtpmail-smtp-server "smtp.gmail.com"
         smtpmail-smtp-service 587))
 
+;; ORG -------------------------------------------------------------------------
+(setq org-link-search-must-match-exact-headline nil)    ;; to target words with a link
 ;; ORG SUPER AGENDA ------------------------------------------------------------
 ;; https://github.com/alphapapa/org-super-agenda
 (use-package! org-super-agenda
