@@ -3,8 +3,7 @@ windows:
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
-  - active: true
-    history:
+  - history:
     - active: true
       last_visited: '2021-06-25T20:56:51'
       pinned: false
@@ -13,4 +12,29 @@ windows:
         y: 0
       title: Home
       url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-25T21:15:33'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: XOM 64.65 ▲ +0.2% Unnamed
+      url: https://www.tradingview.com/chart/vpYiBxKy/
+      zoom: 0.75
+  - active: true
+    history:
+    - last_visited: '2021-06-25T21:01:29'
+      pinned: false
+      title: doom emacs multiedit - Google Search
+      url: https://www.google.com/search?q=doom%20emacs%20multiedit
+    - active: true
+      last_visited: '2021-06-25T21:01:33'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 1430
+      title: 'hlissner/evil-multiedit: Multiple cursors for evil-mode, based on iedit'
+      url: https://github.com/hlissner/evil-multiedit
       zoom: 0.75
