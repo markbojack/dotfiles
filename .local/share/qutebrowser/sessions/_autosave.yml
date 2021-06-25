@@ -1,5 +1,6 @@
 windows:
-- geometry: !!binary |
+- active: true
+  geometry: !!binary |
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
@@ -13,28 +14,32 @@ windows:
       title: Home
       url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
       zoom: 0.75
-  - history:
+  - active: true
+    history:
     - active: true
-      last_visited: '2021-06-25T21:15:33'
+      last_visited: '2021-06-25T22:52:09'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: XOM 64.65 ▲ +0.2% Unnamed
-      url: https://www.tradingview.com/chart/vpYiBxKy/
+      title: Yahoo Finance - Stock Market Live, Quotes, Business & Finance News
+      url: https://finance.yahoo.com/
       zoom: 0.75
-  - active: true
-    history:
-    - last_visited: '2021-06-25T21:01:29'
+  - history:
+    - last_visited: '2021-06-25T22:24:40'
       pinned: false
-      title: doom emacs multiedit - Google Search
-      url: https://www.google.com/search?q=doom%20emacs%20multiedit
+      title: zaiste emacs - Google Search
+      url: https://www.google.com/search?q=zaiste%20emacs
     - active: true
-      last_visited: '2021-06-25T21:01:33'
+      last_visited: '2021-06-25T22:35:52'
       pinned: false
       scroll-pos:
         x: 0
-        y: 1430
-      title: 'hlissner/evil-multiedit: Multiple cursors for evil-mode, based on iedit'
-      url: https://github.com/hlissner/evil-multiedit
+        y: 0
+      title: 'zaiste/.doom.d: Private Doom Emacs Configuration'
+      url: https://github.com/zaiste/.doom.d
       zoom: 0.75
+    - last_visited: '2021-06-25T22:35:42'
+      pinned: false
+      title: .doom.d/init.el at master · zaiste/.doom.d
+      url: https://github.com/zaiste/.doom.d/blob/master/init.el
