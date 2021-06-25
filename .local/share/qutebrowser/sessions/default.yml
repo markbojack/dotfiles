@@ -4,25 +4,87 @@ windows:
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
-  - active: true
-    history:
+  - history:
     - active: true
-      last_visited: '2021-06-25T04:04:24'
+      last_visited: '2021-06-25T13:45:51'
       pinned: false
       scroll-pos:
         x: 0
-        y: 2479
+        y: 0
       title: emacs-from-scratch/Emacs-Mail-01.org at 629aec3dbdffe99e2c361ffd10bd6727555a3bd3
         · daviwil/emacs-from-scratch
       url: https://github.com/daviwil/emacs-from-scratch/blob/629aec3dbdffe99e2c361ffd10bd6727555a3bd3/show-notes/Emacs-Mail-01.org
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-25T04:04:35'
+      last_visited: '2021-06-25T13:45:50'
       pinned: false
       scroll-pos:
         x: 0
-        y: 35947
+        y: 0
       title: .emacs.d/config.org at master · rememberYou/.emacs.d
       url: https://github.com/rememberYou/.emacs.d/blob/master/config.org
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-25T14:16:45'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: doom emacs no word lists can be found for en_US - Brave Search
+      url: https://search.brave.com/search?q=doom%20emacs%20no%20word%20lists%20can%20be%20found%20for%20en_US
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-25T14:17:01'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Error Enabling Flyspell Mode – Sudhir Khanger
+      url: https://sudhirkhanger.com/2015/11/04/error-enabling-flyspell-mode/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-25T14:17:02'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'flycheck - Error: No word lists can be found for the language "en_US"
+        - Emacs Stack Exchange'
+      url: https://emacs.stackexchange.com/questions/53885/error-no-word-lists-can-be-found-for-the-language-en-us
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-25T14:17:19'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: doom emacs no word lists can be found for en_US - Google Search
+      url: https://www.google.com/search?q=doom%20emacs%20no%20word%20lists%20can%20be%20found%20for%20en_US
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-25T14:17:23'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'spacemacs - Error enabling Flyspell mode (Error: No word lists can be
+        found for the language "en_US") - Emacs Stack Exchange'
+      url: https://emacs.stackexchange.com/questions/63906/error-enabling-flyspell-mode-error-no-word-lists-can-be-found-for-the-language
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-25T14:17:43'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Arch Linux - aspell-en 2020.12.07-1 (x86_64)
+      url: https://archlinux.org/packages/extra/x86_64/aspell-en/
       zoom: 0.75

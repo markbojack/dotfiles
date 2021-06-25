@@ -1,6 +1,6 @@
 " ~/.vim/sessions/seasonality.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 25 Tháng 6 2021 at 13:45:45.
+" Created by session.vim 2.13.1 on 25 Tháng 6 2021 at 14:57:55.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -75,7 +75,7 @@ badd +1 shorts
 badd +849 data/high-sharpe/longs
 badd +176 data/high-sharpe/shorts
 badd +1 sharpe-perforance.R
-badd +11 analysis.R
+badd +2 analysis.R
 badd +260 ~/.config/picom/picom.conf
 badd +1116 data/prev-etf-long
 badd +334 data/prev-etf-short
@@ -109,7 +109,7 @@ exe 'vert 1resize ' . ((&columns * 31 + 110) / 220)
 exe 'vert 2resize ' . ((&columns * 188 + 110) / 220)
 argglobal
 enew
-" file NERD_tree_2
+" file NERD_tree_3
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -129,11 +129,11 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 2 - ((1 * winheight(0) + 26) / 53)
+let s:l = 7 - ((6 * winheight(0) + 26) / 53)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-2
+7
 normal! 0
 wincmd w
 2wincmd w
