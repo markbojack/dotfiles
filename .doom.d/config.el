@@ -1,12 +1,11 @@
 ;;; $DOOMDIR/config.el -*- lexical-binding: t; -*-
 
-(mu4e t)
 ;; SET UP ======================================================================
 ;; setq ------------------------------------------------------------------------
 (setq user-full-name "Mark Bojack"
       user-mail-address "markbojack.si@gmail.com"
       doom-font (font-spec :family "RobotoMono Nerd Font" :size 10 :weight 'bold)
-      doom-big-font (font-spec :family "RobotoMono Nerd Font" :size 15)
+      ;doom-big-font (font-spec :family "RobotoMono Nerd Font" :size 15)
       doom-variable-pitch-font (font-spec :family "sans" :size 13)
       doom-theme 'doom-one
       org-directory "~/Documents/org/"
@@ -24,8 +23,10 @@
 
 ;; PACKAGES ====================================================================
 ;; MU4E ------------------------------------------------------------------------
+(mu4e t)
 (use-package! mu4e
   :ensure nil
+  ;:defer 20 ; Wait until 20 seconds after startup
   :load-path "/usr/share/emacs/site-lisp/mu4e/"
   :config
   (setq mu4e-index-update-in-background t         ;; needed for gmail
@@ -46,6 +47,12 @@
           (:maildir "/[Gmail]/Trash"     :key ?t)
           (:maildir "/[Gmail]/Drafts"    :key ?d)
           (:maildir "/[Gmail]/All Mail"  :key ?a))))
+;;(setq mu4e-bookmarks
+  ;;'((:name "Unread messages" :query "flag:unread AND NOT flag:trashed" :key ?i)
+    ;;(:name "Today's messages" :query "date:today..now" :key ?t)
+    ;;(:name "The Boss" :query "from:stallman" :key ?s)
+    ;;(:name "Last 7 days" :query "date:7d..now" :hide-unread t :key ?w)
+    ;;(:name "Messages with images" :query "mime:image/*" :key ?p)))
 
 ;; SMTPMAIL --------------------------------------------------------------------
 (use-package! smtpmail

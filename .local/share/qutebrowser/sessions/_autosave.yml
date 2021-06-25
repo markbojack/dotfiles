@@ -4,35 +4,18 @@ windows:
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
-  - history:
-    - active: true
-      last_visited: '2021-06-25T17:36:06'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 2679
-      title: emacs-from-scratch/Emacs-Mail-01.org at 629aec3dbdffe99e2c361ffd10bd6727555a3bd3
-        · daviwil/emacs-from-scratch
-      url: https://github.com/daviwil/emacs-from-scratch/blob/629aec3dbdffe99e2c361ffd10bd6727555a3bd3/show-notes/Emacs-Mail-01.org
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-25T18:56:46'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: '"mu4e t" - Google Search'
-      url: https://www.google.com/search?q=%22mu4e%20t%22
-      zoom: 0.75
   - active: true
     history:
+    - last_visited: '2021-06-25T19:04:38'
+      pinned: false
+      title: Queries (Mu4e 1.4.12 user manual)
+      url: https://www.djcbsoftware.nl/code/mu/mu4e/Queries.html
     - active: true
-      last_visited: '2021-06-25T18:56:53'
+      last_visited: '2021-06-25T19:06:06'
       pinned: false
       scroll-pos:
         x: 0
-        y: 760
-      title: 'Cannot get Mu4e-Alert to run on startup : spacemacs'
-      url: https://www.reddit.com/r/spacemacs/comments/ch2txa/cannot_get_mu4ealert_to_run_on_startup/
+        y: 1380
+      title: Home
+      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
       zoom: 0.75
