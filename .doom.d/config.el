@@ -10,10 +10,12 @@
 
 ;; spelling in text files only if text-mode-hook changed to 1
 ;; originally flyspell-mode
-(dolist (hook '(text-mode-hook))
-        (add-hook hook (lambda () (flyspell-overlay -1))))
-(dolist (hook '(change-log-mode-hook log-edit-mode-hook))
-        (add-hook hook (lambda () (flyspell-overlay -1))))
+;; (dolist (hook '(text-mode-hook))
+        ;; (add-hook hook (lambda () (ispell-mode nil))))
+;; (dolist (hook '(change-log-mode-hook log-edit-mode-hook))
+        ;; (add-hook hook (lambda () (flyspell-overlay nil))))
+
+(add-hook 'text-mode-hook (lambda () (flyspell-mode -1)))
 
 ;; PACKAGES ====================================================================
 ;; MU4E ------------------------------------------------------------------------
