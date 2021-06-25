@@ -7,7 +7,7 @@ esac
 # FOR NEOMUTT
 #	LSWC=$(ls ~/.local/share/mail/markbojack.si@gmail.com/INBOX/new/ | wc -l)
 # FOR MU4E:
-LSWC=$(ls ~/Mail/Inbox/new/ | wc -l)
+LSWC=$(ls ~/.mail/Inbox/new/ | wc -l)
 
 # to span you can also add bgcolor='#01A252'
 # more on pango:
