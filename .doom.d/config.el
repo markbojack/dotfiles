@@ -6,14 +6,14 @@
       org-directory "~/Documents/org/"
       display-line-numbers-type 'relative
       evil-split-window-below t
-      evil-vsplit-window-right t
-      flyspell-mode -1)
+      evil-vsplit-window-right t)
 
-;; spelling in text files only
-;;(dolist (hook '(text-mode-hook))
-;;(add-hook hook (lambda () (flyspell-mode nil))))
-;;(dolist (hook '(change-log-mode-hook log-edit-mode-hook))
-;;(add-hook hook (lambda () (flyspell-mode nil))))
+;; spelling in text files only if text-mode-hook changed to 1
+;; originally flyspell-mode
+(dolist (hook '(text-mode-hook))
+        (add-hook hook (lambda () (flyspell-overlay -1))))
+(dolist (hook '(change-log-mode-hook log-edit-mode-hook))
+        (add-hook hook (lambda () (flyspell-overlay -1))))
 
 ;; PACKAGES ====================================================================
 ;; MU4E ------------------------------------------------------------------------

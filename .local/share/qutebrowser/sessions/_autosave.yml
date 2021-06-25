@@ -96,27 +96,41 @@ windows:
       pinned: false
       title: doom emacs toggle ispell - Google Search
       url: https://www.google.com/search?q=doom+emacs+toggle+ispell&ei=RYbVYKLvOZeEr7wPr5mCwAY&oq=doom+emacs+toggle+ispell&gs_lcp=Cgdnd3Mtd2l6EAMyBwghEAoQoAEyBwghEAoQoAE6CAghEBYQHRAeOgYIABAWEB46AggASgQIQRgAUJXrAljogANgsYIDaABwAngAgAGZAYgB3Q6SAQQwLjE1mAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=gws-wiz&ved=0ahUKEwjipeOAorLxAhUXwosBHa-MAGgQ4dUDCBE&uact=5
+    - last_visited: '2021-06-25T14:32:22'
+      pinned: false
+      title: emacs toggle ispell - Google Search
+      url: https://www.google.com/search?q=emacs+toggle+ispell&ei=eIbVYI_GJJus0QTyx66QBA&oq=emacs+toggle+ispell&gs_lcp=Cgdnd3Mtd2l6EANKBAhBGABQlEtY-lRgxlZoAHACeACAAZgBiAHaB5IBAzEuN5gBAKABAaoBB2d3cy13aXrAAQE&sclient=gws-wiz&ved=0ahUKEwiP4vaYorLxAhUbVpQKHfKjC0IQ4dUDCBE&uact=5
     - active: true
-      last_visited: '2021-06-25T14:32:22'
+      last_visited: '2021-06-25T15:09:05'
       pinned: false
       scroll-pos:
         x: 0
-        y: 240
-      title: emacs toggle ispell - Google Search
-      url: https://www.google.com/search?q=emacs+toggle+ispell&ei=eIbVYI_GJJus0QTyx66QBA&oq=emacs+toggle+ispell&gs_lcp=Cgdnd3Mtd2l6EANKBAhBGABQlEtY-lRgxlZoAHACeACAAZgBiAHaB5IBAzEuN5gBAKABAaoBB2d3cy13aXrAAQE&sclient=gws-wiz&ved=0ahUKEwiP4vaYorLxAhUbVpQKHfKjC0IQ4dUDCBE&uact=5
+        y: 200
+      title: emacs flyspell off org mode - Google Search
+      url: https://www.google.com/search?q=emacs+flyspell+off+org+mode&ei=hIbVYJqiOZCV0wSn45PIBg&oq=emacs+flyspell+off+org+mode&gs_lcp=Cgdnd3Mtd2l6EAM6AggAOgYIABAWEB46BQgAEJECOggIIRAWEB0QHjoFCCEQoAFKBAhBGABQya2FAViL6YUBYJnrhQFoBHACeAKAAYwCiAGsK5IBBjAuMjcuNpgBAKABAaoBB2d3cy13aXrAAQE&sclient=gws-wiz&ved=0ahUKEwia9OeeorLxAhWQypQKHafxBGkQ4dUDCBE&uact=5
       zoom: 0.75
+    - last_visited: '2021-06-25T15:09:04'
+      pinned: false
+      title: emacs - Can't properly disable flyspell in org mode - Stack Overflow
+      url: https://stackoverflow.com/questions/21279118/cant-properly-disable-flyspell-in-org-mode
   - active: true
     history:
     - active: true
-      last_visited: '2021-06-25T14:49:45'
+      last_visited: '2021-06-25T15:09:07'
       pinned: false
       scroll-pos:
         x: 0
-        y: 360
-      title: 'EmacsWiki: Fly Spell'
-      url: https://www.emacswiki.org/emacs/FlySpell
+        y: 400
+      title: emacs - Can't properly disable flyspell in org mode - Stack Overflow
+      url: https://stackoverflow.com/questions/21279118/cant-properly-disable-flyspell-in-org-mode
       zoom: 0.75
-    - last_visited: '2021-06-25T14:48:11'
+  - history:
+    - active: true
+      last_visited: '2021-06-25T15:09:15'
       pinned: false
-      title: fly spell site:emacswiki.org at DuckDuckGo
-      url: https://duckduckgo.com/?q=fly+spell+site%3Aemacswiki.org&ia=web
+      scroll-pos:
+        x: 0
+        y: 0
+      title: emacs - How to enable flyspell in org-mode by default - Super User
+      url: https://superuser.com/questions/695096/how-to-enable-flyspell-in-org-mode-by-default
+      zoom: 0.75
