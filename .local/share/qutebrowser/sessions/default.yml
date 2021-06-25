@@ -3,133 +3,18 @@ windows:
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
-  - history:
-    - active: true
-      last_visited: '2021-06-25T14:21:29'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: emacs-from-scratch/Emacs-Mail-01.org at 629aec3dbdffe99e2c361ffd10bd6727555a3bd3
-        · daviwil/emacs-from-scratch
-      url: https://github.com/daviwil/emacs-from-scratch/blob/629aec3dbdffe99e2c361ffd10bd6727555a3bd3/show-notes/Emacs-Mail-01.org
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-25T14:21:29'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: .emacs.d/config.org at master · rememberYou/.emacs.d
-      url: https://github.com/rememberYou/.emacs.d/blob/master/config.org
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-25T14:21:29'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: doom emacs no word lists can be found for en_US - Brave Search
-      url: https://search.brave.com/search?q=doom%20emacs%20no%20word%20lists%20can%20be%20found%20for%20en_US
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-25T14:21:29'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Error Enabling Flyspell Mode – Sudhir Khanger
-      url: https://sudhirkhanger.com/2015/11/04/error-enabling-flyspell-mode/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-25T14:21:29'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'flycheck - Error: No word lists can be found for the language "en_US"
-        - Emacs Stack Exchange'
-      url: https://emacs.stackexchange.com/questions/53885/error-no-word-lists-can-be-found-for-the-language-en-us
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-25T14:21:29'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: doom emacs no word lists can be found for en_US - Google Search
-      url: https://www.google.com/search?q=doom%20emacs%20no%20word%20lists%20can%20be%20found%20for%20en_US
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-25T14:21:29'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'spacemacs - Error enabling Flyspell mode (Error: No word lists can be
-        found for the language "en_US") - Emacs Stack Exchange'
-      url: https://emacs.stackexchange.com/questions/63906/error-enabling-flyspell-mode-error-no-word-lists-can-be-found-for-the-language
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-25T14:21:29'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Arch Linux - aspell-en 2020.12.07-1 (x86_64)
-      url: https://archlinux.org/packages/extra/x86_64/aspell-en/
-      zoom: 0.75
-  - history:
-    - last_visited: '2021-06-25T14:31:19'
-      pinned: false
-      title: doom emacs toggle spelling - Google Search
-      url: https://www.google.com/search?q=doom%20emacs%20toggle%20spelling
-    - last_visited: '2021-06-25T14:32:09'
-      pinned: false
-      title: doom emacs toggle ispell - Google Search
-      url: https://www.google.com/search?q=doom+emacs+toggle+ispell&ei=RYbVYKLvOZeEr7wPr5mCwAY&oq=doom+emacs+toggle+ispell&gs_lcp=Cgdnd3Mtd2l6EAMyBwghEAoQoAEyBwghEAoQoAE6CAghEBYQHRAeOgYIABAWEB46AggASgQIQRgAUJXrAljogANgsYIDaABwAngAgAGZAYgB3Q6SAQQwLjE1mAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=gws-wiz&ved=0ahUKEwjipeOAorLxAhUXwosBHa-MAGgQ4dUDCBE&uact=5
-    - last_visited: '2021-06-25T14:32:22'
-      pinned: false
-      title: emacs toggle ispell - Google Search
-      url: https://www.google.com/search?q=emacs+toggle+ispell&ei=eIbVYI_GJJus0QTyx66QBA&oq=emacs+toggle+ispell&gs_lcp=Cgdnd3Mtd2l6EANKBAhBGABQlEtY-lRgxlZoAHACeACAAZgBiAHaB5IBAzEuN5gBAKABAaoBB2d3cy13aXrAAQE&sclient=gws-wiz&ved=0ahUKEwiP4vaYorLxAhUbVpQKHfKjC0IQ4dUDCBE&uact=5
-    - active: true
-      last_visited: '2021-06-25T15:09:05'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 200
-      title: emacs flyspell off org mode - Google Search
-      url: https://www.google.com/search?q=emacs+flyspell+off+org+mode&ei=hIbVYJqiOZCV0wSn45PIBg&oq=emacs+flyspell+off+org+mode&gs_lcp=Cgdnd3Mtd2l6EAM6AggAOgYIABAWEB46BQgAEJECOggIIRAWEB0QHjoFCCEQoAFKBAhBGABQya2FAViL6YUBYJnrhQFoBHACeAKAAYwCiAGsK5IBBjAuMjcuNpgBAKABAaoBB2d3cy13aXrAAQE&sclient=gws-wiz&ved=0ahUKEwia9OeeorLxAhWQypQKHafxBGkQ4dUDCBE&uact=5
-      zoom: 0.75
-    - last_visited: '2021-06-25T15:09:04'
-      pinned: false
-      title: emacs - Can't properly disable flyspell in org mode - Stack Overflow
-      url: https://stackoverflow.com/questions/21279118/cant-properly-disable-flyspell-in-org-mode
   - active: true
     history:
+    - last_visited: '2021-06-25T19:04:38'
+      pinned: false
+      title: Queries (Mu4e 1.4.12 user manual)
+      url: https://www.djcbsoftware.nl/code/mu/mu4e/Queries.html
     - active: true
-      last_visited: '2021-06-25T15:09:07'
+      last_visited: '2021-06-25T19:06:06'
       pinned: false
       scroll-pos:
         x: 0
-        y: 600
-      title: emacs - Can't properly disable flyspell in org mode - Stack Overflow
-      url: https://stackoverflow.com/questions/21279118/cant-properly-disable-flyspell-in-org-mode
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-25T15:09:15'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: emacs - How to enable flyspell in org-mode by default - Super User
-      url: https://superuser.com/questions/695096/how-to-enable-flyspell-in-org-mode-by-default
+        y: 1380
+      title: Home
+      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
       zoom: 0.75
