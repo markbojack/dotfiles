@@ -10,7 +10,7 @@ windows:
       pinned: false
       scroll-pos:
         x: 0
-        y: 720
+        y: 0
       title: autocomplete - How to enable auto-complete in Emacs Org-babel? - Stack
         Overflow
       url: https://stackoverflow.com/questions/14704077/how-to-enable-auto-complete-in-emacs-org-babel
@@ -24,45 +24,6 @@ windows:
         y: 0
       title: terencio-agozzino.com
       url: http://terencio-agozzino.com/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-26T19:46:24'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: sachac (Sacha Chua)
-      url: https://github.com/sachac
-      zoom: 0.75
-  - history:
-    - last_visited: '2021-06-26T19:43:33'
-      pinned: false
-      title: 'angrybacon/dotemacs: My Emacs configuration'
-      url: https://github.com/angrybacon/dotemacs
-    - active: true
-      last_visited: '2021-06-26T19:46:41'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: angrybacon (Mathieu Marques)
-      url: https://github.com/angrybacon
-      zoom: 0.75
-  - history:
-    - last_visited: '2021-06-26T19:53:33'
-      pinned: false
-      title: emacs-from-scratch/Emacs-Mail-01.org at 629aec3dbdffe99e2c361ffd10bd6727555a3bd3
-        · daviwil/emacs-from-scratch
-      url: https://github.com/daviwil/emacs-from-scratch/blob/629aec3dbdffe99e2c361ffd10bd6727555a3bd3/show-notes/Emacs-Mail-01.org
-    - active: true
-      last_visited: '2021-06-26T19:53:40'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: daviwil (David Wilson)
-      url: https://github.com/daviwil
       zoom: 0.75
   - history:
     - active: true
@@ -146,7 +107,7 @@ windows:
       pinned: false
       scroll-pos:
         x: 0
-        y: 860
+        y: 400
       title: 'using babel to put your init file in org : emacs'
       url: https://www.reddit.com/r/emacs/comments/5d4hqq/using_babel_to_put_your_init_file_in_org/
       zoom: 0.75
@@ -160,14 +121,13 @@ windows:
       title: .emacs.d/config.org at master · danielmai/.emacs.d
       url: https://github.com/danielmai/.emacs.d/blob/master/config.org
       zoom: 0.75
-  - active: true
-    history:
+  - history:
     - active: true
       last_visited: '2021-06-26T23:01:39'
       pinned: false
       scroll-pos:
         x: 0
-        y: 873
+        y: 0
       title: dotfiles/emacs at master · ninrod/dotfiles
       url: https://github.com/ninrod/dotfiles/tree/master/emacs
       zoom: 0.75
@@ -178,7 +138,7 @@ windows:
       pinned: false
       scroll-pos:
         x: 0
-        y: 3600
+        y: 0
       title: elisp - Can I use org-mode to structure my .emacs or other .el configuration
         file? - Emacs Stack Exchange
       url: https://emacs.stackexchange.com/questions/3143/can-i-use-org-mode-to-structure-my-emacs-or-other-el-configuration-file
@@ -221,7 +181,7 @@ windows:
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
+        y: 520
       title: elisp - Can I use org-mode to structure my .emacs or other .el configuration
         file? - Emacs Stack Exchange
       url: https://emacs.stackexchange.com/questions/3143/can-i-use-org-mode-to-structure-my-emacs-or-other-el-configuration-file
@@ -311,4 +271,29 @@ windows:
         y: 0
       title: emacs.d/config.org at master · floscr/emacs.d
       url: https://github.com/floscr/emacs.d/blob/master/modules/private/org/config.org
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-06-27T01:20:18'
+      pinned: false
+      title: r tidy starts with - Google Search
+      url: https://www.google.com/search?q=r%20tidy%20starts%20with
+    - active: true
+      last_visited: '2021-06-27T01:21:06'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: r tidy starts with mutate across - Google Search
+      url: https://www.google.com/search?q=r+tidy+starts+with+mutate+across&ei=4W_XYJHPOYfb0ATmu4mIBw&oq=r+tidy+starts+with+mutate+across&gs_lcp=Cgdnd3Mtd2l6EAM6BQghEKABOggIIRAWEB0QHjoHCCEQChCgAUoECEEYAFDJ3AJY5-4CYOfyAmgAcAJ4AIABgwGIAYMOkgEEMS4xNJgBAKABAaoBB2d3cy13aXrAAQE&sclient=gws-wiz&ved=0ahUKEwjRw8X39LXxAhWHLZQKHeZdAnEQ4dUDCBI&uact=5
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-27T01:21:29'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 3280
+      title: Apply a function (or functions) across multiple columns — across • dplyr
+      url: https://dplyr.tidyverse.org/reference/across.html
       zoom: 0.75
