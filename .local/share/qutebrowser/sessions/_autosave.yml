@@ -146,22 +146,64 @@ windows:
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
+        y: 860
       title: 'using babel to put your init file in org : emacs'
       url: https://www.reddit.com/r/emacs/comments/5d4hqq/using_babel_to_put_your_init_file_in_org/
       zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-26T23:00:45'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: .emacs.d/config.org at master · danielmai/.emacs.d
+      url: https://github.com/danielmai/.emacs.d/blob/master/config.org
+      zoom: 0.75
   - active: true
     history:
+    - active: true
+      last_visited: '2021-06-26T23:01:39'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 873
+      title: dotfiles/emacs at master · ninrod/dotfiles
+      url: https://github.com/ninrod/dotfiles/tree/master/emacs
+      zoom: 0.75
+  - history:
     - active: true
       last_visited: '2021-06-26T22:57:23'
       original-url: http://emacs.stackexchange.com/questions/3143/can-i-use-org-mode-to-structure-my-emacs-or-other-el-configuration-file
       pinned: false
       scroll-pos:
         x: 0
-        y: 1840
+        y: 3600
       title: elisp - Can I use org-mode to structure my .emacs or other .el configuration
         file? - Emacs Stack Exchange
       url: https://emacs.stackexchange.com/questions/3143/can-i-use-org-mode-to-structure-my-emacs-or-other-el-configuration-file
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-26T23:00:06'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'pascalfleury/emacs-config: My personal Emacs configs, consisting mostly
+        of configuration of free tools.'
+      url: https://github.com/pascalfleury/emacs-config
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-26T23:00:14'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 540
+      title: Whats the best way to package my Emacs installation (packages and config)
+        so that it can quickly be installed anywhere? - Stack Overflow
+      url: https://stackoverflow.com/questions/25430029/whats-the-best-way-to-package-my-emacs-installation-packages-and-config-so-tha/25430745#25430745
       zoom: 0.75
   - history:
     - active: true
