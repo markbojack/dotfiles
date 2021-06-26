@@ -158,6 +158,12 @@
   ;;:config (setq org-fancy-priorities-list '("⚡" "⬆" "⬇" "☕")))
   :config (setq org-fancy-priorities-list '("" "" "" "")))  ; do same icon with diff colors
 
+(map! :desc "Create Sparse Tree" :ne "SPC / s" #'org-sparse-tree)
+(map! :desc "Create Sparse Tree for Tags" :ne "SPC / t" #'org-tags-sparse-tree)
+(map! :ne "M-/" #'comment-or-uncomment-region)
+(map! :ne "SPC n r" #'deadgrep)
+(map! :ne "SPC n b" #'org-brain-visualize)
+(map! :ne "SPC n p" #'counsel-org-capture)
 
 ;(setq +org-capture-todo-file "tasks.org")
 ;(set-popup-rule! "^\\*Org Agenda" :side 'bottom :size 0.90 :select t :ttl nil)
@@ -167,6 +173,32 @@
       ;org-priority-faces '((65 :foreground "#e45649") ; 65 in ASCII is A, etc or type ?A, ?B, etc
                            ;(66 :foreground "#da8548")
                            ;(67 :foreground "#0098dd")))
+
+;;https://github.com/Kungsgeten/org-brain
+(use-package org-brain
+  :ensure t
+  :init
+  (with-eval-after-load 'evil
+    (evil-set-initial-state 'org-brain-visualize-mode 'emacs))
+  :config
+  (bind-key "C-c b" 'org-brain-prefix-map org-mode-map)
+  (setq org-id-track-globally t)
+  (setq org-id-locations-file "~/.emacs.d/.org-id-locations")
+  (add-hook 'before-save-hook #'org-brain-ensure-ids-in-buffer)
+  (push '("b" "Brain" plain (function org-brain-goto-end)
+          "* %i%?" :empty-lines 1)
+        org-capture-templates)
+  (setq org-brain-visualize-default-choices 'all)
+  (setq org-brain-title-max-length 12)
+  (setq org-brain-include-file-entries nil
+        org-brain-file-entries-use-title nil))
+
+;; Allows you to edit entries directly from org-brain-visualize
+(use-package polymode
+  :config
+  (add-hook 'org-brain-visualize-mode-hook #'org-brain-polymode))
+
+
 
 ;; NOTES =======================================================================
 

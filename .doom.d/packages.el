@@ -44,3 +44,5 @@
 (package! org-fancy-priorities)
 (package! org-super-agenda)
 (package! evil-multiedit)
+(package! org-brain)
+(package! polymode)

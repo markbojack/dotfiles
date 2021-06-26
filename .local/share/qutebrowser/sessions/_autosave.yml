@@ -1,11 +1,12 @@
 windows:
-- geometry: !!binary |
+- active: true
+  geometry: !!binary |
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-26T16:18:14'
+      last_visited: '2021-06-26T17:28:48'
       pinned: false
       scroll-pos:
         x: 0
@@ -13,64 +14,50 @@ windows:
       title: Home
       url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
       zoom: 0.75
+  - history: []
+  - history: []
+  - history: []
+  - history: []
+  - history: []
+  - history: []
+  - history: []
+  - history: []
+  - history: []
+  - history: []
+  - history: []
+  - history: []
+  - history: []
+  - history: []
   - history:
     - active: true
-      last_visited: '2021-06-26T16:18:15'
+      last_visited: '2021-06-26T17:28:48'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: .doom.d/config.el at master · zaiste/.doom.d
-      url: https://github.com/zaiste/.doom.d/blob/master/config.el
+      title: Doom Emacs Configuration
+      url: https://tecosaur.github.io/emacs-config/config.html
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-26T16:18:15'
+      last_visited: '2021-06-26T17:28:48'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: 'Org-babel-dev: DONE Handling of table column names and hlines across
-        languages'
-      url: http://eschulte.github.io/babel-dev/DONE-Handling-of-table-column-names-and-hlines-across-languages.html
+      title: Sacha Chua's Emacs configuration
+      url: https://pages.sachachua.com/.emacs.d/Sacha.html
       zoom: 0.75
+  - history: []
   - history:
     - active: true
-      last_visited: '2021-06-26T16:18:15'
+      last_visited: '2021-06-26T17:28:48'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: orgmode.org
-      url: https://orgmode.org/manual/Environment-of-a-Code-Block.html
-      zoom: 0.75
-  - history:
-    - last_visited: '2021-06-26T16:39:41'
-      pinned: false
-      title: org fancy priorities - Google Search
-      url: https://www.google.com/search?q=org%20fancy%20priorities
-    - active: true
-      last_visited: '2021-06-26T16:39:46'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 1330
-      title: 'harrybournis/org-fancy-priorities: Display Org Mode priorities as custom
-        strings'
-      url: https://github.com/harrybournis/org-fancy-priorities
+      title: Emacs Config – Jamie Collinson
+      url: https://jamiecollinson.com/blog/my-emacs-config/
       zoom: 0.75
   - active: true
-    history:
-    - last_visited: '2021-06-26T16:48:52'
-      pinned: false
-      title: font awesome cheat sheet - Google Search
-      url: https://www.google.com/search?q=font%20awesome%20cheat%20sheet
-    - active: true
-      last_visited: '2021-06-26T16:49:07'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 770
-      title: Cheatsheet | Font Awesome
-      url: https://fontawesome.com/v5/cheatsheet
-      zoom: 0.75
+    history: []
