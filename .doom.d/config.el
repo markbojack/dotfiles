@@ -94,7 +94,7 @@
 ;(add-hook! 'org-mode-hook #'+org-pretty-mode #'mixed-pitch-mode)
 ;(add-hook! 'org-mode-hook (company-mode -1))
 ;(add-hook! 'org-capture-mode-hook (company-mode -1))
-(setq org-agenda-files (list ~/Documents/org/remind.org))
+(setq org-agenda-files '("~/Documents/org/remind.org"))
 ;;(setq org-agenda-files (directory-files-recursively "~/Documents/org/" "\.org$"))
 ;
 ;(setq org-ellipsis " ▾ "
@@ -151,13 +151,22 @@
                       ;:background nil
                       ;:height 1.75
                       ;:weight 'bold)
-;
-;(setq org-fancy-priorities-list '("⚡" "⬆" "⬇" "☕")))
+
+(use-package org-fancy-priorities
+  :ensure t
+  :hook (org-mode . org-fancy-priorities-mode)
+  ;;:config (setq org-fancy-priorities-list '("⚡" "⬆" "⬇" "☕")))
+  :config (setq org-fancy-priorities-list '("" "" "" "")))  ; do same icon with diff colors
+
 
 ;(setq +org-capture-todo-file "tasks.org")
 ;(set-popup-rule! "^\\*Org Agenda" :side 'bottom :size 0.90 :select t :ttl nil)
 ;(set-popup-rule! "^CAPTURE.*\\.org$" :side 'bottom :size 0.90 :select t :ttl nil)
 ;(set-popup-rule! "^\\*org-brain" :side 'right :size 1.00 :select t :ttl nil)
+;(setq org-agenda-skip-scheduled-if-done t
+      ;org-priority-faces '((65 :foreground "#e45649") ; 65 in ASCII is A, etc or type ?A, ?B, etc
+                           ;(66 :foreground "#da8548")
+                           ;(67 :foreground "#0098dd")))
 
 ;; NOTES =======================================================================
 

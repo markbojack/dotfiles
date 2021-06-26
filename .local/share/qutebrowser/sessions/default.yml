@@ -1,11 +1,12 @@
 windows:
 - geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
-    IQAABUUAAALv
+    AdnQywADAAAAAAAPAAAADwAABUYAAALwAAAAEAAAABAAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
+    EAAABUUAAALv
   tabs:
-  - history:
+  - active: true
+    history:
     - active: true
-      last_visited: '2021-06-25T20:56:51'
+      last_visited: '2021-06-26T11:48:44'
       pinned: false
       scroll-pos:
         x: 0
@@ -13,44 +14,19 @@ windows:
       title: Home
       url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
       zoom: 0.75
-  - active: true
-    history:
-    - active: true
-      last_visited: '2021-06-26T00:40:12'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: XOM 64.42 ▼ −0.15% Unnamed
-      url: https://www.tradingview.com/chart/vpYiBxKy/
-      zoom: 0.75
   - history:
-    - last_visited: '2021-06-25T23:32:47'
-      pinned: false
-      title: 'zaiste/.doom.d: Private Doom Emacs Configuration'
-      url: https://github.com/zaiste/.doom.d
     - active: true
-      last_visited: '2021-06-25T23:32:48'
+      last_visited: '2021-06-26T11:48:45'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
+        y: 2014
       title: .doom.d/config.el at master · zaiste/.doom.d
       url: https://github.com/zaiste/.doom.d/blob/master/config.el
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-26T00:20:04'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: org-babel show rownames - Google Search
-      url: https://www.google.com/search?q=org-babel%20show%20rownames
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-26T00:22:21'
+      last_visited: '2021-06-26T11:48:44'
       pinned: false
       scroll-pos:
         x: 0
@@ -61,21 +37,11 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-26T00:22:27'
+      last_visited: '2021-06-26T12:43:15'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
       title: Environment of a Code Block (The Org Manual)
       url: https://orgmode.org/manual/Environment-of-a-Code-Block.html
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-26T00:22:32'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: '[Orgmode] [babel] RFC: column and row names in babel tables'
-      url: https://lists.gnu.org/archive/html/emacs-orgmode/2010-04/msg00307.html
       zoom: 0.75

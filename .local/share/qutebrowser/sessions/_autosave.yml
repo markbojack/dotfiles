@@ -1,12 +1,11 @@
 windows:
-- active: true
-  geometry: !!binary |
+- geometry: !!binary |
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-26T11:48:44'
+      last_visited: '2021-06-26T16:18:14'
       pinned: false
       scroll-pos:
         x: 0
@@ -16,27 +15,17 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-26T11:48:45'
+      last_visited: '2021-06-26T16:18:15'
       pinned: false
       scroll-pos:
         x: 0
-        y: 2014
+        y: 0
       title: .doom.d/config.el at master · zaiste/.doom.d
       url: https://github.com/zaiste/.doom.d/blob/master/config.el
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-26T11:48:44'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: org-babel show rownames - Google Search
-      url: https://www.google.com/search?q=org-babel%20show%20rownames
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-26T11:48:44'
+      last_visited: '2021-06-26T16:18:15'
       pinned: false
       scroll-pos:
         x: 0
@@ -45,14 +34,43 @@ windows:
         languages'
       url: http://eschulte.github.io/babel-dev/DONE-Handling-of-table-column-names-and-hlines-across-languages.html
       zoom: 0.75
-  - active: true
-    history:
+  - history:
     - active: true
-      last_visited: '2021-06-26T12:43:15'
+      last_visited: '2021-06-26T16:18:15'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Environment of a Code Block (The Org Manual)
+      title: orgmode.org
       url: https://orgmode.org/manual/Environment-of-a-Code-Block.html
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-06-26T16:39:41'
+      pinned: false
+      title: org fancy priorities - Google Search
+      url: https://www.google.com/search?q=org%20fancy%20priorities
+    - active: true
+      last_visited: '2021-06-26T16:39:46'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 1330
+      title: 'harrybournis/org-fancy-priorities: Display Org Mode priorities as custom
+        strings'
+      url: https://github.com/harrybournis/org-fancy-priorities
+      zoom: 0.75
+  - active: true
+    history:
+    - last_visited: '2021-06-26T16:48:52'
+      pinned: false
+      title: font awesome cheat sheet - Google Search
+      url: https://www.google.com/search?q=font%20awesome%20cheat%20sheet
+    - active: true
+      last_visited: '2021-06-26T16:49:07'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 770
+      title: Cheatsheet | Font Awesome
+      url: https://fontawesome.com/v5/cheatsheet
       zoom: 0.75
