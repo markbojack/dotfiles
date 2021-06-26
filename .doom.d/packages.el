@@ -50,6 +50,6 @@
 ;(unpin! t)
 
 (package! mu4e-alert)
-(package! org-fancy-priorities)
-(package! org-super-agenda)
+;(package! org-fancy-priorities)
+;(package! org-super-agenda)
 (package! evil-multiedit)

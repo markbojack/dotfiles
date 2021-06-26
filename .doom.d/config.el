@@ -8,10 +8,14 @@
       ;doom-big-font (font-spec :family "RobotoMono Nerd Font" :size 15)
       doom-variable-pitch-font (font-spec :family "sans" :size 13)
       doom-theme 'doom-one
-      org-directory "~/Documents/org/"
       display-line-numbers-type 'relative
       evil-split-window-below t
-      evil-vsplit-window-right t)
+      evil-vsplit-window-right t
+      ess-indent-offset 2)
+
+(setq org-highest-priority ?A)
+(setq org-lowest-priority ?E)
+(setq org-default-priority ?B)
 
 ;; flyspell --------------------------------------------------------------------
 (dolist (hook '(change-log-mode-hook log-edit-mode-hook))
@@ -63,88 +67,92 @@
         smtpmail-smtp-service 587))
 
 ;; ORG -------------------------------------------------------------------------
-(setq org-link-search-must-match-exact-headline nil)    ;; to target words with a link
+(setq org-link-search-must-match-exact-headline nil)    ;; target words with a link
+(setq org-directory "~/Documents/org/")
 
 ;; ORG SUPER AGENDA ------------------------------------------------------------
 ;; https://github.com/alphapapa/org-super-agenda
-(use-package! org-super-agenda
-  :after org-agenda     ;; you can also do (after! org-agenda (setq ... ))
-  :init
-  (setq org-super-agenda-groups '((:name "Today"
-                                   :time-grid t
-                                   :scheduled today)
-                                  (:name "Due today"
-                                   :deadline today)
-                                  (:name "Important"
-                                   :priority "A")
-                                  (:name "Overdue"
-                                   :deadline past)
-                                  (:name "Due soon"
-                                   :deadline future)
-                                  (:name "Big Outcomes"
-                                   :tag "bo")))
-  :config
-  (org-super-agenda-mode))
+;(use-package! org-super-agenda
+  ;:after org-agenda     ;; you can also do (after! org-agenda (setq ... ))
+  ;:init
+  ;(setq org-super-agenda-groups '((:name "Today"
+                                   ;:time-grid t
+                                   ;:scheduled today)
+                                  ;(:name "Due today"
+                                   ;:deadline today)
+                                  ;(:name "Important"
+                                   ;:priority "A")
+                                  ;(:name "Overdue"
+                                   ;:deadline past)
+                                  ;(:name "Due soon"
+                                   ;:deadline future)
+                                  ;(:name "Big Outcomes"
+                                   ;:tag "bo")))
+  ;:config
+  ;(org-super-agenda-mode))
 
-(add-hook! 'org-mode-hook #'+org-pretty-mode #'mixed-pitch-mode)
-(add-hook! 'org-mode-hook (company-mode -1))
-(add-hook! 'org-capture-mode-hook (company-mode -1))
-
-(setq org-ellipsis " ▾ "
-      org-bullets-bullet-list '("·")
-      org-tags-column -80
-      org-agenda-files (ignore-errors (directory-files +org-dir t "\\.org$" t))
-      org-log-done 'time
-      css-indent-offset 2
-      org-refile-targets (quote ((nil :maxlevel . 1))))
-      ;org-capture-templates '(("x" "Note" entry
-                               ;(file+olp+datetree "journal.org")
-                               ;"**** [ ] %U %?" :prepend t :kill-buffer t)
-                              ;("t" "Task" entry
-                               ;(file+headline "tasks.org" "Inbox")
-                               ;"* [ ] %?\n%i" :prepend t :kill-buffer t)))
-
-(after! org
-  (set-face-attribute 'org-link nil
-                      :weight 'normal
-                      :background nil)
-  (set-face-attribute 'org-code nil
-                      :foreground "#a9a1e1"
-                      :background nil)
-  (set-face-attribute 'org-date nil
-                      :foreground "#5B6268"
-                      :background nil)
-  (set-face-attribute 'org-level-1 nil
-                      :foreground "steelblue2"
-                      :background nil
-                      :height 1.2
-                      :weight 'normal)
-  (set-face-attribute 'org-level-2 nil
-                      :foreground "slategray2"
-                      :background nil
-                      :height 1.0
-                      :weight 'normal)
-  (set-face-attribute 'org-level-3 nil
-                      :foreground "SkyBlue2"
-                      :background nil
-                      :height 1.0
-                      :weight 'normal)
-  (set-face-attribute 'org-level-4 nil
-                      :foreground "DodgerBlue2"
-                      :background nil
-                      :height 1.0
-                      :weight 'normal)
-  (set-face-attribute 'org-level-5 nil
-                      :weight 'normal)
-  (set-face-attribute 'org-level-6 nil
-                      :weight 'normal)
-  (set-face-attribute 'org-document-title nil
-                      :foreground "SlateGray1"
-                      :background nil
-                      :height 1.75
-                      :weight 'bold)
-
-(setq org-fancy-priorities-list '("⚡" "⬆" "⬇" "☕")))
+;(add-hook! 'org-mode-hook #'+org-pretty-mode #'mixed-pitch-mode)
+;(add-hook! 'org-mode-hook (company-mode -1))
+;(add-hook! 'org-capture-mode-hook (company-mode -1))
+(setq org-agenda-files (list ~/Documents/org/remind.org))
+;;(setq org-agenda-files (directory-files-recursively "~/Documents/org/" "\.org$"))
+;
+;(setq org-ellipsis " ▾ "
+      ;org-bullets-bullet-list '("·")
+      ;org-tags-column -80
+      ;org-agenda-files (ignore-errors (directory-files +org-dir t "\\.org$" t))
+      ;org-log-done 'time
+      ;org-refile-targets (quote ((nil :maxlevel . 1)))
+      ;org-agenda-skip-scheduled-if-done t
+      ;org-tags-column -80)
+      ;;org-capture-templates '(("x" "Note" entry
+                               ;;(file+olp+datetree "journal.org")
+                               ;;"**** [ ] %U %?" :prepend t :kill-buffer t)
+                              ;;("t" "Task" entry
+                               ;;(file+headline "tasks.org" "Inbox")
+                               ;;"* [ ] %?\n%i" :prepend t :kill-buffer t)))
+;
+;(after! org
+  ;(set-face-attribute 'org-link nil
+                      ;:weight 'normal
+                      ;:background nil)
+  ;(set-face-attribute 'org-code nil
+                      ;:foreground "#a9a1e1"
+                      ;:background nil)
+  ;(set-face-attribute 'org-date nil
+                      ;:foreground "#5B6268"
+                      ;:background nil)
+  ;(set-face-attribute 'org-level-1 nil
+                      ;:foreground "steelblue2"
+                      ;:background nil
+                      ;:height 1.2
+                      ;:weight 'normal)
+  ;(set-face-attribute 'org-level-2 nil
+                      ;:foreground "slategray2"
+                      ;:background nil
+                      ;:height 1.0
+                      ;:weight 'normal)
+  ;(set-face-attribute 'org-level-3 nil
+                      ;:foreground "SkyBlue2"
+                      ;:background nil
+                      ;:height 1.0
+                      ;:weight 'normal)
+  ;(set-face-attribute 'org-level-4 nil
+                      ;:foreground "DodgerBlue2"
+                      ;:background nil
+                      ;:height 1.0
+                      ;:weight 'normal)
+  ;(set-face-attribute 'org-level-5 nil
+                      ;:weight 'normal)
+  ;(set-face-attribute 'org-level-6 nil
+                      ;:weight 'normal)
+  ;(set-face-attribute 'org-document-title nil
+                      ;:foreground "SlateGray1"
+                      ;:background nil
+                      ;:height 1.75
+                      ;:weight 'bold)
+;
+;(setq org-fancy-priorities-list '("⚡" "⬆" "⬇" "☕")))
 
 ;(setq +org-capture-todo-file "tasks.org")
 ;(set-popup-rule! "^\\*Org Agenda" :side 'bottom :size 0.90 :select t :ttl nil)
