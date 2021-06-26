@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#ijlkjljdljljf
+
 while :
 do
 	[[ $(pgrep -fl push-all) ]] && echo "🔴" || echo ""
