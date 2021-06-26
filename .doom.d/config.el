@@ -174,7 +174,7 @@
                            ;(66 :foreground "#da8548")
                            ;(67 :foreground "#0098dd")))
 
-;;https://github.com/Kungsgeten/org-brain
+;; https://github.com/Kungsgeten/org-brain
 (use-package org-brain
   :ensure t
   :init
@@ -195,8 +195,8 @@
 
 ;; Allows you to edit entries directly from org-brain-visualize
 (use-package polymode
-  :config
-  (add-hook 'org-brain-visualize-mode-hook #'org-brain-polymode))
+  :init
+  (setq org-brain-visualize-mode-hook t))
 
 
 
