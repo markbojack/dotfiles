@@ -1,221 +1,66 @@
 windows:
-- active: true
-  geometry: !!binary |
+- geometry: !!binary |
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-26T18:50:07'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Home
-      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-26T18:50:10'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: .doom.d/config.el at master · zaiste/.doom.d
-      url: https://github.com/zaiste/.doom.d/blob/master/config.el
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-26T18:50:07'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'Org-babel-dev: DONE Handling of table column names and hlines across
-        languages'
-      url: http://eschulte.github.io/babel-dev/DONE-Handling-of-table-column-names-and-hlines-across-languages.html
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-26T18:50:10'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Environment of a Code Block (The Org Manual)
-      url: https://orgmode.org/manual/Environment-of-a-Code-Block.html
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-26T18:50:10'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'harrybournis/org-fancy-priorities: Display Org Mode priorities as custom
-        strings'
-      url: https://github.com/harrybournis/org-fancy-priorities
-      zoom: 0.75
-  - history:
-    - active: true
       last_visited: '2021-06-26T18:50:12'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: Cheatsheet | Font Awesome
-      url: https://fontawesome.com/v5/cheatsheet
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-26T18:50:10'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'Kungsgeten/org-brain: Org-mode wiki + concept-mapping'
-      url: https://github.com/Kungsgeten/org-brain
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-26T18:50:12'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'Literate Emacs Config in Org-Mode : emacs'
-      url: https://www.reddit.com/r/emacs/comments/83usco/literate_emacs_config_in_orgmode/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-26T18:50:10'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: dotemacs/dotemacs.org at master · angrybacon/dotemacs
-      url: https://github.com/angrybacon/dotemacs/blob/master/dotemacs.org
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-26T18:50:10'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: The world’s fastest framework for building websites | Hugo
-      url: https://gohugo.io/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-26T18:50:10'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: jamiecollinson.com/content/post at master · jamiecollinson/jamiecollinson.com
-      url: https://github.com/jamiecollinson/jamiecollinson.com/tree/master/content/post
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-26T18:50:10'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: emagicians-starter-kit/Programming.org at master · jonnay/emagicians-starter-kit
-      url: https://github.com/jonnay/emagicians-starter-kit/blob/master/Programming.org#prettify-symbols
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-26T18:50:10'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: elisp - Can I use org-mode to structure my .emacs or other .el configuration
-        file? - Emacs Stack Exchange
-      url: https://emacs.stackexchange.com/questions/3143/can-i-use-org-mode-to-structure-my-emacs-or-other-el-configuration-file
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-26T18:50:10'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: dot-emacs/config.org at master · novoid/dot-emacs
-      url: https://github.com/novoid/dot-emacs/blob/master/config.org
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-26T18:50:10'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: zzamboni.org | My Doom Emacs configuration, with commentary
-      url: https://zzamboni.org/post/my-doom-emacs-configuration-with-commentary/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-26T18:50:10'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Doom Emacs Configuration
-      url: https://tecosaur.github.io/emacs-config/config.html
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-26T18:50:10'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Sacha Chua's Emacs configuration
-      url: https://pages.sachachua.com/.emacs.d/Sacha.html
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-26T18:50:10'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Doom Emacs Configuration - 若叶知秋
-      url: https://www.cheng92.com/emacs/doom-emacs-with-org/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-26T18:50:10'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Emacs Config – Jamie Collinson
-      url: https://jamiecollinson.com/blog/my-emacs-config/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-26T18:50:12'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
+        y: 720
       title: autocomplete - How to enable auto-complete in Emacs Org-babel? - Stack
         Overflow
       url: https://stackoverflow.com/questions/14704077/how-to-enable-auto-complete-in-emacs-org-babel
       zoom: 0.75
-  - active: true
-    history:
+  - history:
     - active: true
-      last_visited: '2021-06-26T18:56:53'
+      last_visited: '2021-06-26T19:44:31'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: 'Kungsgeten/org-brain: Org-mode wiki + concept-mapping'
-      url: https://github.com/Kungsgeten/org-brain
+      title: terencio-agozzino.com
+      url: http://terencio-agozzino.com/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-26T19:46:24'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: sachac (Sacha Chua)
+      url: https://github.com/sachac
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-06-26T19:43:33'
+      pinned: false
+      title: 'angrybacon/dotemacs: My Emacs configuration'
+      url: https://github.com/angrybacon/dotemacs
+    - active: true
+      last_visited: '2021-06-26T19:46:41'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: angrybacon (Mathieu Marques)
+      url: https://github.com/angrybacon
+      zoom: 0.75
+  - active: true
+    history:
+    - last_visited: '2021-06-26T19:53:33'
+      pinned: false
+      title: emacs-from-scratch/Emacs-Mail-01.org at 629aec3dbdffe99e2c361ffd10bd6727555a3bd3
+        · daviwil/emacs-from-scratch
+      url: https://github.com/daviwil/emacs-from-scratch/blob/629aec3dbdffe99e2c361ffd10bd6727555a3bd3/show-notes/Emacs-Mail-01.org
+    - active: true
+      last_visited: '2021-06-26T19:53:40'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: daviwil (David Wilson)
+      url: https://github.com/daviwil
       zoom: 0.75
