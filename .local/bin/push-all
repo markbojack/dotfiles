@@ -13,7 +13,7 @@ fi
 
 # NB cronjobs only backed up with change of p-dot-script repo, but who cares
 cd ~/p-dot-script
-if [ "git status --porcelain" ]; then
+if [ git status --porcelain ]; then
 	echo "p-dot-script"
  	cp /var/spool/cron/mark ~/p-dot-script/linked/mark
 	git add .
