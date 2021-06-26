@@ -1,5 +1,6 @@
 windows:
-- geometry: !!binary |
+- active: true
+  geometry: !!binary |
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
@@ -48,8 +49,7 @@ windows:
       title: angrybacon (Mathieu Marques)
       url: https://github.com/angrybacon
       zoom: 0.75
-  - active: true
-    history:
+  - history:
     - last_visited: '2021-06-26T19:53:33'
       pinned: false
       title: emacs-from-scratch/Emacs-Mail-01.org at 629aec3dbdffe99e2c361ffd10bd6727555a3bd3
@@ -63,4 +63,26 @@ windows:
         y: 0
       title: daviwil (David Wilson)
       url: https://github.com/daviwil
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-26T21:53:42'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: emacs setq vs setq-default - Google Search
+      url: https://www.google.com/search?q=emacs%20setq%20vs%20setq-default
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-26T21:53:46'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 520
+      title: elisp - The difference between setq and setq-default in Emacs Lisp -
+        Stack Overflow
+      url: https://stackoverflow.com/questions/18172728/the-difference-between-setq-and-setq-default-in-emacs-lisp
       zoom: 0.75
