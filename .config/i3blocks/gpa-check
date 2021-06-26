@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-#jsd;fajs
 while :
 do
 	[[ $(pgrep -fl push-all) ]] && echo "🔴" || echo ""
