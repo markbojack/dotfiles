@@ -23,7 +23,7 @@ if [ "$(git status --porcelain)" ]; then
 fi
 
 cd ~/Documents
-if [ "$(git status --porcelain | wc -l)" -ne 0 ]; then
+if [ "$(git status --porcelain)" ]; then
 	echo "Documents"
 	git add .
 	git commit -m "update"
@@ -32,7 +32,7 @@ if [ "$(git status --porcelain | wc -l)" -ne 0 ]; then
 fi
 
 cd ~/seasonality
-if [ "$(git status --porcelain | wc -l)" -ne 0 ]; then
+if [ "$(git status --porcelain)" ]; then
 	echo "seasonality"
 	git add .
 	git commit -m "update"
@@ -41,7 +41,7 @@ if [ "$(git status --porcelain | wc -l)" -ne 0 ]; then
 fi
 
 cd ~/vimwiki
-if [ "$(git status --porcelain | wc -l)" -ne 0 ]; then
+if [ "$(git status --porcelain)" ]; then
 	echo "vimwiki"
 	git add .
 	git commit -m "update"
@@ -50,7 +50,7 @@ if [ "$(git status --porcelain | wc -l)" -ne 0 ]; then
 fi
 
 cd ~/copper-ingot
-if [ "$(git status --porcelain | wc -l)" -ne 0 ]; then
+if [ "$(git status --porcelain)" ]; then
 	echo "copper-ingot"
 	git add .
 	git commit -m "update"
