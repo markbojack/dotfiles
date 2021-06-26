@@ -1,12 +1,11 @@
 windows:
-- active: true
-  geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
-    IQAABUUAAALv
+- geometry: !!binary |
+    AdnQywADAAAAAAAPAAAADwAABUYAAALwAAAAEAAAABAAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
+    EAAABUUAAALv
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-25T20:56:51'
+      last_visited: '2021-06-26T11:48:44'
       pinned: false
       scroll-pos:
         x: 0
@@ -17,21 +16,17 @@ windows:
   - active: true
     history:
     - active: true
-      last_visited: '2021-06-26T00:40:12'
+      last_visited: '2021-06-26T11:48:44'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Live stock, index, futures, Forex and Bitcoin charts on TradingView
+      title: XOM 64.66 ▲ +0.22% Unnamed
       url: https://www.tradingview.com/chart/vpYiBxKy/
       zoom: 0.75
   - history:
-    - last_visited: '2021-06-25T23:32:47'
-      pinned: false
-      title: 'zaiste/.doom.d: Private Doom Emacs Configuration'
-      url: https://github.com/zaiste/.doom.d
     - active: true
-      last_visited: '2021-06-25T23:32:48'
+      last_visited: '2021-06-26T11:48:45'
       pinned: false
       scroll-pos:
         x: 0
@@ -41,7 +36,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-26T00:20:04'
+      last_visited: '2021-06-26T11:48:44'
       pinned: false
       scroll-pos:
         x: 0
@@ -51,7 +46,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-26T00:22:21'
+      last_visited: '2021-06-26T11:48:44'
       pinned: false
       scroll-pos:
         x: 0
@@ -62,17 +57,17 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-26T00:22:27'
+      last_visited: '2021-06-26T11:48:45'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Environment of a Code Block (The Org Manual)
+      title: orgmode.org
       url: https://orgmode.org/manual/Environment-of-a-Code-Block.html
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-26T00:22:32'
+      last_visited: '2021-06-26T11:48:44'
       pinned: false
       scroll-pos:
         x: 0
