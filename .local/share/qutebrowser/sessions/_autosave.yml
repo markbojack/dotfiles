@@ -74,8 +74,7 @@ windows:
       title: emacs setq vs setq-default - Google Search
       url: https://www.google.com/search?q=emacs%20setq%20vs%20setq-default
       zoom: 0.75
-  - active: true
-    history:
+  - history:
     - active: true
       last_visited: '2021-06-26T21:53:46'
       pinned: false
@@ -85,4 +84,189 @@ windows:
       title: elisp - The difference between setq and setq-default in Emacs Lisp -
         Stack Overflow
       url: https://stackoverflow.com/questions/18172728/the-difference-between-setq-and-setq-default-in-emacs-lisp
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-26T22:37:30'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Deprecated | Definition of Deprecated by Merriam-Webster
+      url: https://www.merriam-webster.com/dictionary/deprecated
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-06-26T22:51:22'
+      pinned: false
+      title: doom emacs use config.org - Google Search
+      url: https://www.google.com/search?q=doom%20emacs%20use%20config.org
+    - active: true
+      last_visited: '2021-06-26T22:56:31'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 680
+      title: emacs use config.org - Google Search
+      url: https://www.google.com/search?q=emacs+use+config.org&ei=-UzXYJGHD62Kr7wP5oqhuA8&oq=emacs+use+config.org&gs_lcp=Cgdnd3Mtd2l6EANKBAhBGABQt-ASWNLkEmD-5xJoAHAAeACAAeUBiAH2BZIBBTAuNS4xmAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=gws-wiz&ved=0ahUKEwjR55jS07XxAhUtxYsBHWZFCPcQ4dUDCBE&uact=5
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-26T22:55:57'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: My Doom Emacs Configuration | ☴ so it flows ☵
+      url: https://www.soitflows.xyz/posts/my-doom-emacs-configuration/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-26T22:56:13'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Dan Girshovich - doom-config
+      url: https://dangirsh.org/projects/doom-config.html
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-26T22:56:15'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: emacs/doom.d/config.org · master · Justine Kizhakkinedath / dotfiles
+        · GitLab
+      url: https://gitlab.com/justinekizhak/dotfiles/blob/master/emacs/doom.d/config.org
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-26T22:56:42'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'using babel to put your init file in org : emacs'
+      url: https://www.reddit.com/r/emacs/comments/5d4hqq/using_babel_to_put_your_init_file_in_org/
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-26T22:57:23'
+      original-url: http://emacs.stackexchange.com/questions/3143/can-i-use-org-mode-to-structure-my-emacs-or-other-el-configuration-file
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 1840
+      title: elisp - Can I use org-mode to structure my .emacs or other .el configuration
+        file? - Emacs Stack Exchange
+      url: https://emacs.stackexchange.com/questions/3143/can-i-use-org-mode-to-structure-my-emacs-or-other-el-configuration-file
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-26T22:56:45'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'A list of people with nice emacs config files : emacs'
+      url: https://www.reddit.com/r/emacs/comments/9aygls/a_list_of_people_with_nice_emacs_config_files/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-26T22:56:50'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: elisp - Can I use org-mode to structure my .emacs or other .el configuration
+        file? - Emacs Stack Exchange
+      url: https://emacs.stackexchange.com/questions/3143/can-i-use-org-mode-to-structure-my-emacs-or-other-el-configuration-file
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-26T22:56:54'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Literate Emacs Config in Org-Mode : emacs'
+      url: https://www.reddit.com/r/emacs/comments/83usco/literate_emacs_config_in_orgmode/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-26T22:55:15'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 1240
+      title: Literate doom-emacs config
+      url: https://dotdoom.rgoswami.me/config.html
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-06-26T22:51:28'
+      pinned: false
+      title: doom-emacs/getting_started.org at develop · hlissner/doom-emacs
+      url: https://github.com/hlissner/doom-emacs/blob/develop/docs/getting_started.org
+    - active: true
+      last_visited: '2021-06-26T22:54:52'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: doom-emacs/getting_started.org at develop · hlissner/doom-emacs
+      url: https://github.com/hlissner/doom-emacs/blob/develop/docs/getting_started.org#reloading-your-config
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-26T22:51:39'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 320
+      title: 'Doom emacs literate config : emacs'
+      url: https://www.reddit.com/r/emacs/comments/empzmz/doom_emacs_literate_config/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-26T22:52:03'
+      pinned: false
+      scroll-pos:
+        x: 97
+        y: 6440
+      title: emacs/doom.d/config.org · master · Justine Kizhakkinedath / dotfiles
+        · GitLab
+      url: https://gitlab.com/justinekizhak/dotfiles/blob/master/emacs/doom.d/config.org
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-26T22:52:05'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 5160
+      title: 'MatthewZMD/.emacs.d: M-EMACS, a full-featured GNU Emacs configuration
+        "distribution"'
+      url: https://github.com/MatthewZMD/.emacs.d
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-26T22:52:10'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: emacs.d/config.org at master · floscr/emacs.d
+      url: https://github.com/floscr/emacs.d/blob/master/config.org
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-26T22:52:12'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: emacs.d/config.org at master · floscr/emacs.d
+      url: https://github.com/floscr/emacs.d/blob/master/modules/private/org/config.org
       zoom: 0.75
