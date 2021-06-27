@@ -108,14 +108,9 @@
         smtpmail-smtp-server "smtp.gmail.com"
         smtpmail-smtp-service 587))
 
-;; #+PROPERTY: results graphics
-;; # #+PROPERTY: cache yes
-;; # #+PROPERTY: exports both
-;; # #+PROPERTY: tangle yes
-;; results value is for console ouput and minimal in-line output
 (setq org-babel-default-header-args:R '((:session)
                                         (:results . "output")))
-
+(setq scroll-down-aggressively 0.01)
 
 (setq org-directory "~/Documents/org/"
       org-agenda-files '("~/Documents/org/remind.org")

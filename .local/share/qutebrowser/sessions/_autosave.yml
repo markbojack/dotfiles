@@ -6,82 +6,34 @@ windows:
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-28T04:38:36'
+      last_visited: '2021-06-28T05:12:21'
       pinned: false
       scroll-pos:
         x: 0
-        y: 9120
-      title: 'org-R: Computing and data visualisation in Org-mode using R'
-      url: https://orgmode.org/worg/org-tutorials/org-R/org-R.html
+        y: 400
+      title: emacs scroll down console output - Google Search
+      url: https://www.google.com/search?q=emacs%20scroll%20down%20console%20output
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-28T04:38:37'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 7280
-      title: R Source Code Blocks in Org Mode
-      url: https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-R.html#fn.2
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-28T04:55:29'
+      last_visited: '2021-06-28T05:12:25'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Test
-      url: file:///home/mark/Documents/org/r-test.html
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-28T04:57:34'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Test
-      url: file:///home/mark/Documents/org/r-test.html
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-28T04:58:21'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: r-test.html
-      url: file:///home/mark/Documents/org/r-test.html
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-28T04:58:49'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: r-test.html
-      url: file:///home/mark/Documents/org/r-test.html
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-28T04:59:07'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: r-test.html
-      url: file:///home/mark/Documents/org/r-test.html
+      title: shell - How to autoscroll a window to always show the end of a growing
+        buffer? - Emacs Stack Exchange
+      url: https://emacs.stackexchange.com/questions/41242/how-to-autoscroll-a-window-to-always-show-the-end-of-a-growing-buffer
       zoom: 0.75
   - active: true
     history:
     - active: true
-      last_visited: '2021-06-28T04:59:31'
+      last_visited: '2021-06-28T05:12:27'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: Test
-      url: file:///home/mark/Documents/org/r-test.html
+        y: 760
+      title: In ESS/Emacs, how can I get the R process buffer to scroll to the bottom
+        after a C-c C-j or C-c C-r - Stack Overflow
+      url: https://stackoverflow.com/questions/2710442/in-ess-emacs-how-can-i-get-the-r-process-buffer-to-scroll-to-the-bottom-after-a
       zoom: 0.75

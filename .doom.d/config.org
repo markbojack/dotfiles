@@ -1,11 +1,13 @@
 #+TITLE: Doom Emacs Config
 #+AUTHOR: Mark Bojack
-#+DESCRIPTION: Personal Doom Emacs Config
+#+EMAIL: markbojack@outlook.com
+#+DESCRIPTION: Personal config.org document for Doom Emacs (v2.0.9)
 #+STARTUP: overview
 #+PROPERTY: header-args :results silent
 
 * Background
-Doom Emacs config.org file.  For optimal performance, also see packages.el and init.el.
+Doom Emacs config.org file.  A work in progress, but maintained constantly on an Arch-based system.
+For optimal performance, also see packages.el and init.el.
 
 * Sources
 - [[https://github.com/daviwil][David Wilson]]
@@ -220,18 +222,20 @@ In case I change my mind later, here's how you set all files in the org folder t
 TODO: is this an alternative to org-agenda-files or is it deprecated?
 (setq +org-capture-todo-file "tasks.org")
 
+some alternatives (deprecated?) if scroll-down-aggressively is bad
+  (setq comint-prompt-read-only t)
+  (setq comint-scroll-to-bottom-on-input t)
+  (setq comint-scroll-to-bottom-on-output t)
+  (setq comint-move-point-for-output t)
+
+
 **** setq
 
 #+begin_src emacs-lisp :tangle yes
 
-;; #+PROPERTY: results graphics
-;; # #+PROPERTY: cache yes
-;; # #+PROPERTY: exports both
-;; # #+PROPERTY: tangle yes
-;; results value is for console ouput and minimal in-line output
 (setq org-babel-default-header-args:R '((:session)
                                         (:results . "output")))
-
+(setq scroll-down-aggressively 0.01)
 
 (setq org-directory "~/Documents/org/"
       org-agenda-files '("~/Documents/org/remind.org")
