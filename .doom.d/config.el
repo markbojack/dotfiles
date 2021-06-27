@@ -1,5 +1,3 @@
-;;; $DOOMDIR/config.el -*- lexical-binding: t; -*-
-
 ;; Make gc pauses faster by decreasing the threshold.
 (setq gc-cons-threshold (* 10 1000 1000))
 

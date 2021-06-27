@@ -1,22 +1,103 @@
 windows:
-- active: true
-  geometry: !!binary |
+- geometry: !!binary |
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
-  - active: true
-    history:
-    - last_visited: '2021-06-27T15:15:52'
-      pinned: false
-      title: elisp - The difference between setq and setq-default in Emacs Lisp -
-        Stack Overflow
-      url: https://stackoverflow.com/questions/18172728/the-difference-between-setq-and-setq-default-in-emacs-lisp
+  - history:
     - active: true
-      last_visited: '2021-06-27T15:48:03'
+      last_visited: '2021-06-28T00:41:19'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
       title: Home
       url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-28T00:51:07'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 616
+      title: '$DOOMDIR/config.el -*- lexical-binding: t; -*- - Google Search'
+      url: https://www.google.com/search?q=%24DOOMDIR/config.el%20-%2A-%20lexical-binding%3A%20t%3B%20-%2A-
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-28T00:52:53'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: emacs :tangle yes - Google Search
+      url: https://www.google.com/search?q=emacs%20%3Atangle%20yes
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-28T00:53:10'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Looking for a quick way to tangle all source blocks into a single file
+        [org][noob] : emacs'
+      url: https://www.reddit.com/r/emacs/comments/5pdieq/looking_for_a_quick_way_to_tangle_all_source/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-28T00:53:05'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: org mode - How to tangle all code blocks to a common file - Emacs Stack
+        Exchange
+      url: https://emacs.stackexchange.com/questions/40721/how-to-tangle-all-code-blocks-to-a-common-file
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-06-28T00:54:03'
+      pinned: false
+      title: '#+STARTUP: hideeverything - Google Search'
+      url: https://www.google.com/search?q=%23%2BSTARTUP%3A%20hideeverything
+    - active: true
+      last_visited: '2021-06-28T00:54:36'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: '#+STARTUP: showeverything - Google Search'
+      url: https://www.google.com/search?q=%23%2BSTARTUP%3A+showeverything&ei=OrvYYImVG5KA0wT4iLLYBg&oq=%23%2BSTARTUP%3A+showeverything&gs_lcp=Cgdnd3Mtd2l6EAMyBwghEAoQoAE6BQghEKABOgYIABAWEB46CAgAEBYQChAeOgQIABAeOgcIABDJAxAeOgYIABANEB46BgghEA0QFUoECEEYAFDU2wFY5vsBYMD9AWgBcAJ4AIABnAGIAdUYkgEEMC4yN5gBAKABAaoBB2d3cy13aXrAAQE&sclient=gws-wiz&ved=0ahUKEwiJmoL3sLjxAhUSwJQKHXiEDGsQ4dUDCBE&uact=5
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-28T00:54:43'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Initial visibility (The Org Manual)
+      url: https://orgmode.org/manual/Initial-visibility.html
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-28T00:54:45'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 360
+      title: 'Org mode initial visibility with #+STARTUP - Emacs Stack Exchange'
+      url: https://emacs.stackexchange.com/questions/27523/org-mode-initial-visibility-with-startup
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-28T00:55:44'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 520
+      title: 'Emacs org-mode: how to hide the enumerated list items descriptions by
+        default - Stack Overflow'
+      url: https://stackoverflow.com/questions/26297598/emacs-org-mode-how-to-hide-the-enumerated-list-items-descriptions-by-default
       zoom: 0.75

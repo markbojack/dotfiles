@@ -1,13 +1,13 @@
-#+TITLE: config.org
-#+AUTHOR: mark bojack
+#+TITLE: Doom Emacs Config
+#+AUTHOR: Mark Bojack
+#+DESCRIPTION: Personal Doom Emacs Config
+#+STARTUP: hideeverything
 #+PROPERTY: header-args :results silent
 
 * Background
-
 Doom Emacs config.org file.  For optimal performance, also see packages.el and init.el.
 
 * Sources
-
 - [[https://github.com/daviwil][David Wilson]]
 - [[https://gitlab.com/dwt1][Derek Taylor]]
 - [[https://github.com/jwiegley/dot-emacs/][John Wiegley]]
@@ -19,9 +19,6 @@ Doom Emacs config.org file.  For optimal performance, also see packages.el and i
 Faster startup.  A David Wilson Emacs thing.  Perhaps it works in Doom Emacs?
 
 #+begin_src emacs-lisp :tangle yes
-
-;;; $DOOMDIR/config.el -*- lexical-binding: t; -*-
-
 ;; Make gc pauses faster by decreasing the threshold.
 (setq gc-cons-threshold (* 10 1000 1000))
 
