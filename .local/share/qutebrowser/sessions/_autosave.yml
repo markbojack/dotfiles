@@ -1,103 +1,57 @@
 windows:
-- geometry: !!binary |
+- active: true
+  geometry: !!binary |
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
   - history:
+    - last_visited: '2021-06-28T01:09:17'
+      pinned: false
+      title: emacs code blocks retain variable - Google Search
+      url: https://www.google.com/search?q=emacs%20code%20blocks%20retain%20variable
+    - last_visited: '2021-06-28T01:23:46'
+      pinned: false
+      title: code blocks org mode - Google Search
+      url: https://www.google.com/search?q=code+blocks+org+mode&ei=zL7YYIm9L7SYr7wPs-MI&oq=code+blocks+org+mode&gs_lcp=Cgdnd3Mtd2l6EAMyAggAOgQIABBDOgUIABCRAjoICC4QsQMQgwE6CAgAELEDEIMBOgUIABCxAzoHCAAQyQMQQzoFCAAQkgM6BAguEEM6BwguELEDEEM6BwgAELEDEEM6AgguOgsILhCxAxDHARCjAjoECAAQAzoKCAAQsQMQgwEQQzoECAAQCjoGCAAQFhAeSgQIQRgAUKKHLVjE5i1gyOgtaAVwAngEgAGYAYgBshqSAQQwLjI5mAEAoAEBqgEHZ3dzLXdperABAMABAQ&sclient=gws-wiz&ved=0ahUKEwiJ04CrtLjxAhU0zIsBHbMxAgAQ4dUDCBE&uact=5
     - active: true
-      last_visited: '2021-06-28T00:41:19'
+      last_visited: '2021-06-28T01:23:54'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 720
+      title: r code blocks org mode - Google Search
+      url: https://www.google.com/search?q=r+code+blocks+org+mode&ei=MsLYYLf6HcHLmAWf-67ABw&oq=r+code+blocks+org+mode&gs_lcp=Cgdnd3Mtd2l6EAM6BAgAEA1KBAhBGABQoy9YgzFg6jRoAHACeACAAXGIAb4CkgEDMS4ymAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=gws-wiz&ved=0ahUKEwi329vJt7jxAhXBJaYKHZ-9C3gQ4dUDCBE&uact=5
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-28T01:36:16'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Home
-      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-28T00:51:07'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 616
-      title: '$DOOMDIR/config.el -*- lexical-binding: t; -*- - Google Search'
-      url: https://www.google.com/search?q=%24DOOMDIR/config.el%20-%2A-%20lexical-binding%3A%20t%3B%20-%2A-
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-28T00:52:53'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: emacs :tangle yes - Google Search
-      url: https://www.google.com/search?q=emacs%20%3Atangle%20yes
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-28T00:53:10'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'Looking for a quick way to tangle all source blocks into a single file
-        [org][noob] : emacs'
-      url: https://www.reddit.com/r/emacs/comments/5pdieq/looking_for_a_quick_way_to_tangle_all_source/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-28T00:53:05'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: org mode - How to tangle all code blocks to a common file - Emacs Stack
-        Exchange
-      url: https://emacs.stackexchange.com/questions/40721/how-to-tangle-all-code-blocks-to-a-common-file
-      zoom: 0.75
-  - history:
-    - last_visited: '2021-06-28T00:54:03'
-      pinned: false
-      title: '#+STARTUP: hideeverything - Google Search'
-      url: https://www.google.com/search?q=%23%2BSTARTUP%3A%20hideeverything
-    - active: true
-      last_visited: '2021-06-28T00:54:36'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: '#+STARTUP: showeverything - Google Search'
-      url: https://www.google.com/search?q=%23%2BSTARTUP%3A+showeverything&ei=OrvYYImVG5KA0wT4iLLYBg&oq=%23%2BSTARTUP%3A+showeverything&gs_lcp=Cgdnd3Mtd2l6EAMyBwghEAoQoAE6BQghEKABOgYIABAWEB46CAgAEBYQChAeOgQIABAeOgcIABDJAxAeOgYIABANEB46BgghEA0QFUoECEEYAFDU2wFY5vsBYMD9AWgBcAJ4AIABnAGIAdUYkgEEMC4yN5gBAKABAaoBB2d3cy13aXrAAQE&sclient=gws-wiz&ved=0ahUKEwiJmoL3sLjxAhUSwJQKHXiEDGsQ4dUDCBE&uact=5
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-28T00:54:43'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Initial visibility (The Org Manual)
-      url: https://orgmode.org/manual/Initial-visibility.html
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-28T00:54:45'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 360
-      title: 'Org mode initial visibility with #+STARTUP - Emacs Stack Exchange'
-      url: https://emacs.stackexchange.com/questions/27523/org-mode-initial-visibility-with-startup
+      title: drift.org
+      url: http://www.stats.ox.ac.uk/~davison/software/org-babel/drift.org.html
       zoom: 0.75
   - active: true
     history:
     - active: true
-      last_visited: '2021-06-28T00:55:44'
+      last_visited: '2021-06-28T01:35:43'
       pinned: false
       scroll-pos:
         x: 0
-        y: 520
-      title: 'Emacs org-mode: how to hide the enumerated list items descriptions by
-        default - Stack Overflow'
-      url: https://stackoverflow.com/questions/26297598/emacs-org-mode-how-to-hide-the-enumerated-list-items-descriptions-by-default
+        y: 160
+      title: R Source Code Blocks in Org Mode – Emacs, Arduino, Raspberry Pi, Linux
+        and Programming etc
+      url: http://tech.memoryimprintstudio.com/r-source-code-blocks-in-org-mode/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-28T01:57:17'
+      original-url: http://orgmode.org/worg/org-contrib/babel/languages/ob-doc-R.html#fn.2
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: R Source Code Blocks in Org Mode
+      url: https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-R.html#fn.2
       zoom: 0.75

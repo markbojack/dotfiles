@@ -1,7 +1,7 @@
 #+TITLE: Doom Emacs Config
 #+AUTHOR: Mark Bojack
 #+DESCRIPTION: Personal Doom Emacs Config
-#+STARTUP: hideeverything
+#+STARTUP: overview
 #+PROPERTY: header-args :results silent
 
 * Background
@@ -21,7 +21,6 @@ Faster startup.  A David Wilson Emacs thing.  Perhaps it works in Doom Emacs?
 #+begin_src emacs-lisp :tangle yes
 ;; Make gc pauses faster by decreasing the threshold.
 (setq gc-cons-threshold (* 10 1000 1000))
-
 #+end_src
 
 * Mappings
@@ -235,8 +234,15 @@ TODO: is this an alternative to org-agenda-files or is it deprecated?
 
 #+begin_src emacs-lisp :tangle yes
 
+(setq org-babel-default-header-args:R '((:results . "output")))
+
 (setq org-directory "~/Documents/org/"
       org-agenda-files '("~/Documents/org/remind.org")
+      ;; overview         top-level headlines only
+      ;; content          all headlines
+      ;; showall          no folding of any entries
+      ;; showeverything   show even drawer contents
+      org-startup-folded t
       org-link-search-must-match-exact-headline nil     ;; target words with a link
       org-highest-priority ?A
       org-default-priority ?B

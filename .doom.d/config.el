@@ -112,8 +112,15 @@
         smtpmail-smtp-server "smtp.gmail.com"
         smtpmail-smtp-service 587))
 
+(setq org-babel-default-header-args:R '((:results . "output")))
+
 (setq org-directory "~/Documents/org/"
       org-agenda-files '("~/Documents/org/remind.org")
+      ;; overview         top-level headlines only
+      ;; content          all headlines
+      ;; showall          no folding of any entries
+      ;; showeverything   show even drawer contents
+      org-startup-folded t
       org-link-search-must-match-exact-headline nil     ;; target words with a link
       org-highest-priority ?A
       org-default-priority ?B
