@@ -1,35 +1,7 @@
-#+TITLE: config.org
-#+AUTHOR: mark bojack
-#+PROPERTY: header-args :results silent
-
-* Background
-
-Doom Emacs config.org file.  For optimal performance, also see packages.el and init.el.
-
-* Sources
-
-- [[https://github.com/daviwil][David Wilson]]
-- [[https://gitlab.com/dwt1][Derek Taylor]]
-- [[https://github.com/jwiegley/dot-emacs/][John Wiegley]]
-- [[https://github.com/angrybacon/dotemacs][Mathieu Marques]]
-- [[https://github.com/sachac][Sacha Chua]]
-
-* Startup
-
-Faster startup.  A David Wilson Emacs thing.  Perhaps it works in Doom Emacs?
-
-#+begin_src emacs-lisp :tangle yes
-
 ;;; $DOOMDIR/config.el -*- lexical-binding: t; -*-
 
 ;; Make gc pauses faster by decreasing the threshold.
 (setq gc-cons-threshold (* 10 1000 1000))
-
-#+end_src
-
-* Mappings
-
-#+begin_src emacs-lisp :tangle yes
 
 (map! :desc "Create Sparse Tree" :ne "SPC / s" #'org-sparse-tree)
 (map! :desc "Create Sparse Tree for Tags" :ne "SPC / t" #'org-tags-sparse-tree)
@@ -37,17 +9,6 @@ Faster startup.  A David Wilson Emacs thing.  Perhaps it works in Doom Emacs?
 (map! :ne "SPC n r" #'deadgrep)
 (map! :ne "SPC n b" #'org-brain-visualize)
 (map! :ne "SPC n p" #'counsel-org-capture)
-
-#+end_src
-
-* Defaults
-
-** Part 1: setq-default :TODO:
-
-TODO: How the hell do I get doom-big-font to work?  Check DT's config?
-TODO: Do I actually need all this crap?
-
-#+begin_src emacs-lisp :tangle yes
 
 (setq-default ad-redefinition-action 'accept         ; Silence warnings for redefinition
               auto-save-list-file-prefix nil         ; Prevent tracking for auto-saves
@@ -77,11 +38,6 @@ TODO: Do I actually need all this crap?
               window-combination-resize t            ; Resize windows proportionally
               x-stretch-cursor t)                    ; Stretch cursor to the glyph width
 
-#+end_src
-
-** Part 2: setq
-
-#+begin_src emacs-lisp :tangle yes
 (setq user-full-name "Mark Bojack"
       user-mail-address "markbojack.si@gmail.com"
       doom-font (font-spec :family "RobotoMono Nerd Font" :size 10 :weight 'bold)
@@ -96,12 +52,6 @@ TODO: Do I actually need all this crap?
       make-backup-files t
       confirm-kill-emacs nil)
 
-#+end_src
-
-** Part 3: Misc
-
-#+begin_src emacs-lisp :tangle yes
-
 (blink-cursor-mode 0)                   ; Prefer a still cursor
 (delete-selection-mode 1)               ; Replace region when inserting text
 (fset 'yes-or-no-p 'y-or-n-p)           ; Replace yes/no prompts with y/n
@@ -111,51 +61,13 @@ TODO: Do I actually need all this crap?
 (put 'upcase-region 'disabled nil)      ; Enable upcase-region
 (set-default-coding-systems 'utf-8)     ; Default to utf-8 encoding
 
-#+end_src
-
-* Indenting
-
-#+begin_src emacs-lisp :tangle yes
-
 (put 'add-function 'lisp-indent-function 2)
 (put 'advice-add 'lisp-indent-function 2)
 (put 'plist-put 'lisp-indent-function 2)
 
-#+end_src
-
-* Fullscreen
-
-Increases the robustness of the fullscreen setting across various DEs/WMs.
-
-#+begin_src emacs-lisp :tangle yes
-
 (pcase window-system
   ('w32 (set-frame-parameter nil 'fullscreen 'fullboth))
   (_ (set-frame-parameter nil 'fullscreen 'maximized)))
-
-#+end_src
-
-And if that doesn't work, then here's some crap from stackoverflow:
-
-How do I maximize/fullscreen Emacs on startup?
-
-(add-to-list 'initial-frame-alist '(fullscreen . maximized))
-
-Some window managers may not understand/work with =maximized= (or may not
-produce the desired effect), in that case try ~fullboth~ or ~fullscreen~.
-
-* Packages
-
-** flyspell :TODO:
-
-TODO: REMOVE THIS AND REPLACE WITH ASPELL STUFF
-
-Just adding hooks to (try) to get it to do what I want.
-Adjusting flyspell-overlay works, but generates an error.
-Using flyspell-mode works okay until I edit the org file,
-then flyspell mode becomes enabled.  Help.
-
-#+begin_src emacs-lisp :tangle yes
 
 ;; (dolist (hook '(change-log-mode-hook log-edit-mode-hook))
         ;; (add-hook hook (lambda () (flyspell-mode -1))))
@@ -164,15 +76,6 @@ then flyspell mode becomes enabled.  Help.
 ;; (add-hook 'text-mode-hook
           ;; (lambda ()
             ;; (when (not (equal major-mode 'org-mode)) (flyspell-mode t))))
-
-#+end_src
-
-** mu4e :TODO:
-
-This is actually pretty solid and it works.  Remember to check the documentation on the homepage with H.
-TODO: Some sources say the :config should be :init
-
-#+begin_src emacs-lisp :tangle yes
 
 ;; (mu4e t) ;; do i need this?
 (use-package! mu4e
@@ -202,15 +105,6 @@ TODO: Some sources say the :config should be :init
         '((:name "From Dad" :query "from:Bojack" :key ?u :hide t)
           (:name "Today's messages" :query "date:today..now" :key ?t :hide t))))
 
-#+end_src
-
-** smtpmail :TODO:
-
-Another solid config, and this code is essential to get mu4e running.
-TODO: is it :config or :init?
-
-#+begin_src emacs-lisp :tangle yes
-
 (use-package! smtpmail
   :config
   (setq starttls-use-gnutls t
@@ -219,24 +113,6 @@ TODO: is it :config or :init?
         smtpmail-default-smtp-server "smtp.gmail.com"
         smtpmail-smtp-server "smtp.gmail.com"
         smtpmail-smtp-service 587))
-
-#+end_src
-
-** org
-
-*** vanilla org :TODO:
-
-Obviously, this needs to be organized.  Still deciding if I like the old-school or Doom formats.  So Doom formatting is it for now.
-
-In case I change my mind later, here's how you set all files in the org folder to be agenda files:
-(setq org-agenda-files (directory-files-recursively "~/Documents/org/" "\.org$"))
-
-TODO: is this an alternative to org-agenda-files or is it deprecated?
-(setq +org-capture-todo-file "tasks.org")
-
-**** setq
-
-#+begin_src emacs-lisp :tangle yes
 
 (setq org-directory "~/Documents/org/"
       org-agenda-files '("~/Documents/org/remind.org")
@@ -262,30 +138,12 @@ TODO: is this an alternative to org-agenda-files or is it deprecated?
                                (file+headline "tasks.org" "Inbox")
                                "* [ ] %?\n%i" :prepend t :kill-buffer t)))
 
-#+end_src
-
-**** hook
-
-#+begin_src emacs-lisp :tangle yes
-
 ;; (add-hook! 'org-mode-hook #'+org-pretty-mode #'mixed-pitch-mode)  ;;  i don't like this
 (add-hook! 'org-mode-hook (company-mode -1))
 (add-hook! 'org-capture-mode-hook (company-mode -1))
 
-#+end_src
-
-**** popup rules
-
-#+begin_src emacs-lisp :tangle yes
-
 (set-popup-rule! "^\\*Org Agenda" :side 'bottom :size 0.90 :select t :ttl nil)
 (set-popup-rule! "^CAPTURE.*\\.org$" :side 'bottom :size 0.90 :select t :ttl nil)
-
-#+end_src
-
-**** after
-
-#+begin_src emacs-lisp :tangle yes
 
 (after! org
   (set-face-attribute 'org-link nil
@@ -327,14 +185,6 @@ TODO: is this an alternative to org-agenda-files or is it deprecated?
                       :height 1.75
                       :weight 'bold)
 
-#+end_src
-
-*** org super agenda
-
-[[https://github.com/alphapapa/org-super-agenda][Github.]]
-
-#+begin_src emacs-lisp :tangle yes
-
 (use-package! org-super-agenda
   :after org-agenda     ;; you can also do (after! org-agenda (setq ... ))
   :init
@@ -354,25 +204,11 @@ TODO: is this an alternative to org-agenda-files or is it deprecated?
   :config
   (org-super-agenda-mode))
 
-#+end_src
-
-*** org fancy priorities
-
-#+begin_src emacs-lisp :tangle yes
-
 (use-package org-fancy-priorities
   :ensure t
   :hook (org-mode . org-fancy-priorities-mode)
   ;; :config (setq org-fancy-priorities-list '("⚡" "⬆" "⬇" "☕")))
   :config (setq org-fancy-priorities-list '("" "" "")))      ;; the same icon with diff colors looks nice too
-
-#+end_src
-
-*** org brain
-
-[[https://github.com/Kungsgeten/org-brain][Github.]]
-
-#+begin_src emacs-lisp :tangle yes
 
 (use-package org-brain
   :ensure t
@@ -392,15 +228,3 @@ TODO: is this an alternative to org-agenda-files or is it deprecated?
   (setq org-brain-title-max-length 12)
   (setq org-brain-include-file-entries nil
         org-brain-file-entries-use-title nil))
-
-#+end_src
-
-* Notes
-
-Here are some additional functions/macros that could help you configure Doom:
-- `load!' for loading external *.el files relative to this one
-- `after!' for running code after a package has loaded
-- `add-load-path!' for adding directories to the `load-path', relative to
-  this file. Emacs searches the `load-path' when you load packages with
-  `require' or `use-package'.
-- `map!' for binding new keys
