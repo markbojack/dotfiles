@@ -5,53 +5,83 @@ windows:
     IQAABUUAAALv
   tabs:
   - history:
-    - last_visited: '2021-06-28T01:09:17'
-      pinned: false
-      title: emacs code blocks retain variable - Google Search
-      url: https://www.google.com/search?q=emacs%20code%20blocks%20retain%20variable
-    - last_visited: '2021-06-28T01:23:46'
-      pinned: false
-      title: code blocks org mode - Google Search
-      url: https://www.google.com/search?q=code+blocks+org+mode&ei=zL7YYIm9L7SYr7wPs-MI&oq=code+blocks+org+mode&gs_lcp=Cgdnd3Mtd2l6EAMyAggAOgQIABBDOgUIABCRAjoICC4QsQMQgwE6CAgAELEDEIMBOgUIABCxAzoHCAAQyQMQQzoFCAAQkgM6BAguEEM6BwguELEDEEM6BwgAELEDEEM6AgguOgsILhCxAxDHARCjAjoECAAQAzoKCAAQsQMQgwEQQzoECAAQCjoGCAAQFhAeSgQIQRgAUKKHLVjE5i1gyOgtaAVwAngEgAGYAYgBshqSAQQwLjI5mAEAoAEBqgEHZ3dzLXdperABAMABAQ&sclient=gws-wiz&ved=0ahUKEwiJ04CrtLjxAhU0zIsBHbMxAgAQ4dUDCBE&uact=5
     - active: true
-      last_visited: '2021-06-28T01:23:54'
+      last_visited: '2021-06-28T04:38:36'
       pinned: false
       scroll-pos:
         x: 0
-        y: 720
-      title: r code blocks org mode - Google Search
-      url: https://www.google.com/search?q=r+code+blocks+org+mode&ei=MsLYYLf6HcHLmAWf-67ABw&oq=r+code+blocks+org+mode&gs_lcp=Cgdnd3Mtd2l6EAM6BAgAEA1KBAhBGABQoy9YgzFg6jRoAHACeACAAXGIAb4CkgEDMS4ymAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=gws-wiz&ved=0ahUKEwi329vJt7jxAhXBJaYKHZ-9C3gQ4dUDCBE&uact=5
+        y: 9120
+      title: 'org-R: Computing and data visualisation in Org-mode using R'
+      url: https://orgmode.org/worg/org-tutorials/org-R/org-R.html
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-28T01:36:16'
+      last_visited: '2021-06-28T04:38:37'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 7280
+      title: R Source Code Blocks in Org Mode
+      url: https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-R.html#fn.2
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-28T04:55:29'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: drift.org
-      url: http://www.stats.ox.ac.uk/~davison/software/org-babel/drift.org.html
+      title: Test
+      url: file:///home/mark/Documents/org/r-test.html
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-28T04:57:34'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Test
+      url: file:///home/mark/Documents/org/r-test.html
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-28T04:58:21'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: r-test.html
+      url: file:///home/mark/Documents/org/r-test.html
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-28T04:58:49'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: r-test.html
+      url: file:///home/mark/Documents/org/r-test.html
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-28T04:59:07'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: r-test.html
+      url: file:///home/mark/Documents/org/r-test.html
       zoom: 0.75
   - active: true
     history:
     - active: true
-      last_visited: '2021-06-28T01:35:43'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 160
-      title: R Source Code Blocks in Org Mode – Emacs, Arduino, Raspberry Pi, Linux
-        and Programming etc
-      url: http://tech.memoryimprintstudio.com/r-source-code-blocks-in-org-mode/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-28T01:57:17'
-      original-url: http://orgmode.org/worg/org-contrib/babel/languages/ob-doc-R.html#fn.2
+      last_visited: '2021-06-28T04:59:31'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: R Source Code Blocks in Org Mode
-      url: https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-R.html#fn.2
+      title: Test
+      url: file:///home/mark/Documents/org/r-test.html
       zoom: 0.75

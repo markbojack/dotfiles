@@ -142,24 +142,14 @@ produce the desired effect), in that case try ~fullboth~ or ~fullscreen~.
 
 * Packages
 
-** flyspell :TODO:
+** flyspell
 
-TODO: REMOVE THIS AND REPLACE WITH ASPELL STUFF
-
-Just adding hooks to (try) to get it to do what I want.
-Adjusting flyspell-overlay works, but generates an error.
-Using flyspell-mode works okay until I edit the org file,
-then flyspell mode becomes enabled.  Help.
 
 #+begin_src emacs-lisp :tangle yes
 
-;; (dolist (hook '(change-log-mode-hook log-edit-mode-hook))
-        ;; (add-hook hook (lambda () (flyspell-mode -1))))
-;;
-;; ;; this should enable flyspell mode for all text docs but org mode
-;; (add-hook 'text-mode-hook
-          ;; (lambda ()
-            ;; (when (not (equal major-mode 'org-mode)) (flyspell-mode t))))
+(remove-hook 'text-mode-hook #'spell-fu-mode)
+;; Then enable it where you want it. e.g.
+(add-hook 'markdown-mode-hook #'spell-fu-mode)
 
 #+end_src
 
@@ -234,7 +224,14 @@ TODO: is this an alternative to org-agenda-files or is it deprecated?
 
 #+begin_src emacs-lisp :tangle yes
 
-(setq org-babel-default-header-args:R '((:results . "output")))
+;; #+PROPERTY: results graphics
+;; # #+PROPERTY: cache yes
+;; # #+PROPERTY: exports both
+;; # #+PROPERTY: tangle yes
+;; results value is for console ouput and minimal in-line output
+(setq org-babel-default-header-args:R '((:session)
+                                        (:results . "output")))
+
 
 (setq org-directory "~/Documents/org/"
       org-agenda-files '("~/Documents/org/remind.org")
