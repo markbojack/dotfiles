@@ -1,9 +1,14 @@
 #+TITLE: Doom Emacs Config
 #+AUTHOR: Mark Bojack
 #+EMAIL: markbojack@outlook.com
+#+date: @@html:<!--@@{{{git-rev}}}@@html:-->@@@@latex:\\\Large\bfseries@@ {{{modification-time(%Y-%m-%d, t)}}} @@latex:\\\normalsize\mdseries@@{{{modification-time(%H:%M, t)}}} @@latex:\acr{\lowercase{@@{{{timezone}}}@@latex:}}\iffalse@@, {{{git-rev}}}@@latex:\fi@@
+#+MACRO: timezone (eval (substring (shell-command-to-string "date +%Z") 0 -1))
 #+DESCRIPTION: Personal config.org document for Doom Emacs (v2.0.9)
 #+STARTUP: overview
-#+PROPERTY: header-args :results silent
+#+PROPERTY: header-args:emacs-lisp :tangle yes :comments link
+#+PROPERTY: header-args:shell :tangle "setup.sh"
+#+PROPERTY: header-args :tangle no :results silent :eval no-export
+#+OPTIONS: coverpage:yes
 
 Alphabetize this later, also TOC?
 
@@ -19,6 +24,7 @@ For optimal performance, use in conjunction with packages.el and init.el.
 - [[https://github.com/jwiegley/dot-emacs/][John Wiegley]]
 - [[https://github.com/angrybacon/dotemacs][Mathieu Marques]]
 - [[https://github.com/sachac][Sacha Chua]]
+- [[https://github.com/tecosaur/emacs-config][tecosaur]]
 
 * Speed
 According to [[https://nullprogram.com/blog/2016/12/22/][Chris Wellons]], the below makes this config run a little faster.
@@ -52,20 +58,75 @@ Mostly from [[https://github.com/zaiste/][Jakub Neander]].
       user-mail-address "markbojack.si@gmail.com")
 #+END_SRC
 
-* TODO
+* Defaults
+** setq-default
+Selected variable settings from [[https://github.com/angrybacon/dotemacs][Mathieu Marques']] "Better Defaults."
 
+#+BEGIN_SRC emacs-lisp
+(setq-default cursor-in-non-selected-windows nil     ; Hide the cursor in inactive windows
+              custom-unlispify-menu-entries nil      ; Prefer kebab-case for titles
+              custom-unlispify-tag-names nil         ; Prefer kebab-case for symbols
+              delete-by-moving-to-trash t            ; Delete files to trash
+              fill-column 80                         ; Set width for automatic line breaks
+              help-window-select t                   ; Focus new help windows when opened
+              initial-scratch-message ""             ; Empty the initial *scratch* buffer
+              mouse-yank-at-point t                  ; Yank at point rather than pointer
+              read-process-output-max (* 1024 1024)  ; Increase read size per process
+              recenter-positions '(5 top bottom)     ; Set re-centering positions
+              scroll-conservatively 101              ; Avoid recentering when scrolling far
+              scroll-margin 2                        ; Add a margin when scrolling vertically
+              show-help-function nil                 ; Disable help text everywhere
+              tab-always-indent 'complete            ; Tab indents first then tries completions
+              tab-width 4                            ; Smaller width for tab characters
+              uniquify-buffer-name-style 'forward    ; Better than filename<2> for same-name buffers
+              window-combination-resize t            ; Take new window space from all windows (not just current)
+              x-stretch-cursor t)                    ; Stretch cursor to the glyph width
+#+END_SRC
 
-#+begin_src emacs-lisp
-(setq doom-font (font-spec :family "RobotoMono Nerd Font" :size 10 :weight 'bold)
-      ;doom-big-font (font-spec :family "RobotoMono Nerd Font" :size 14))
-      doom-variable-pitch-font (font-spec :family "sans" :size 13)
-      doom-theme 'doom-one
+** setq
+#+BEGIN_SRC emacs-lisp
+(setq doom-theme 'doom-one
       display-line-numbers-type 'relative
       evil-split-window-below t
       evil-vsplit-window-right t
-      ess-indent-offset 2
       auto-save-default t
       make-backup-files t
-      confirm-kill-emacs nil)
+      confirm-kill-emacs nil
+      undo-limit 80000000)
+#+END_SRC
 
-#+end_src
+* Spelling
+Thanks [[https://www.reddit.com/r/emacs/comments/mr3urh/disable_spellfumode_in_doomemacs/][Reddit]]!
+Disable spell-fu-mode in Doom Emacs.  Re-add the hook selectively.
+
+#+BEGIN_SRC emacs-lisp
+(remove-hook 'text-mode-hook #'spell-fu-mode)
+(add-hook 'markdown-mode-hook #'spell-fu-mode)
+#+END_SRC
+
+* Font
+From [[https://gitlab.com/dwt1][Derek Taylor's]] config:
++ 'doom-font' -- standard monospace font that is used for most things in Emacs.
++ 'doom-variable-pitch-font' -- variable font which is useful in some Emacs plugins.
++ 'doom-big-font' -- used in doom-big-font-mode; useful for presentations.
++ 'font-lock-comment-face' -- for comments.
++ 'font-lock-keyword-face' -- for keywords with special significance like 'setq' in elisp.
++ 'global-prettify-symbols-mode' -- change certain keywords to symbols, such as lambda!
+
+'global-prettify-symbols-mode' note above is retained just for reference.
+
+I can't customize doom-big-font 😭
+
+#+BEGIN_SRC emacs-lisp
+(setq doom-font (font-spec :family "RobotoMono Nerd Font" :size 10 :weight 'bold)
+      ;; doom-big-font (font-spec :family "RobotoMono Nerd Font" :size 14))
+      doom-variable-pitch-font (font-spec :family "sans" :size 13))
+
+(after! doom-themes
+  (setq doom-themes-enable-bold t
+        doom-themes-enable-italic t))
+
+(custom-set-faces!
+  '(font-lock-comment-face :slant italic)
+  '(font-lock-keyword-face :slant italic))
+#+END_SRC
