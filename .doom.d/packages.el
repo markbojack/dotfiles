@@ -41,8 +41,6 @@
 ;; ...Or *all* packages (NOT RECOMMENDED; will likely break things)
 ;(unpin! t)
 
-(package! mu4e-alert)
-
 (package! org-fancy-priorities)
 (package! org-super-agenda)
 (package! org-brain)

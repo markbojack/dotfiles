@@ -1,43 +1,43 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
-    IQAABUUAAALv
+    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAAEAAAACEAAAKiAAAC7wAAAAAAAAAABVYAAAAQAAAA
+    IQAAAqIAAALv
   tabs:
-  - history:
+  - active: true
+    history:
     - active: true
-      last_visited: '2021-06-28T21:39:36'
+      last_visited: '2021-06-29T03:23:39'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
+        y: 6670
       title: Doom Emacs Configuration
       url: https://tecosaur.github.io/emacs-config/config.html
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-28T21:39:37'
+      last_visited: '2021-06-29T04:02:42'
       pinned: false
       scroll-pos:
         x: 0
-        y: 719
-      title: dotemacs/dotemacs.org at master · angrybacon/dotemacs
-      url: https://github.com/angrybacon/dotemacs/blob/master/dotemacs.org#use-better-defaults
+        y: 72710
+      title: Doom Emacs Configuration
+      url: https://tecosaur.github.io/emacs-config/config.html#rebuild-mail-index
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-28T22:13:10'
+      last_visited: '2021-06-29T03:23:39'
       pinned: false
       scroll-pos:
         x: 0
-        y: 2120
+        y: 0
       title: zzamboni.org | My Doom Emacs configuration, with commentary
       url: https://zzamboni.org/post/my-doom-emacs-configuration-with-commentary/
       zoom: 0.75
-  - active: true
-    history:
+  - history:
     - active: true
-      last_visited: '2021-06-28T22:41:05'
+      last_visited: '2021-06-29T03:23:39'
       pinned: false
       scroll-pos:
         x: 0

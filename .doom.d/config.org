@@ -31,7 +31,6 @@ Alphabetize this later, also TOC?
 
 * Configs
 ** init.el
-
 #+BEGIN_SRC emacs-lisp :tangle init.el
 ;;; init.el -*- lexical-binding: t; -*-
 
@@ -203,7 +202,7 @@ Alphabetize this later, also TOC?
        ;;zig               ; C, but simpler
 
        :email
-       (mu4e +gmail)
+       (mu4e +org +gmail)
        smtpmail
        ;;notmuch
        ;;(wanderlust +gmail)
@@ -220,8 +219,8 @@ Alphabetize this later, also TOC?
        literate
        (default +bindings +smartparens))
 #+END_SRC
-** packages.el
 
+** packages.el
 #+BEGIN_SRC emacs-lisp :tangle packages.el
 ;; -*- no-byte-compile: t; -*-
 ;;; $DOOMDIR/packages.el
@@ -265,8 +264,6 @@ Alphabetize this later, also TOC?
 ;; ...Or *all* packages (NOT RECOMMENDED; will likely break things)
 ;(unpin! t)
 
-(package! mu4e-alert)
-
 (package! org-fancy-priorities)
 (package! org-super-agenda)
 (package! org-brain)
@@ -304,7 +301,6 @@ Alphabetize this later, also TOC?
 ;; (package! tldr)
 ;; (package! wc-mode)
 #+END_SRC
-
 
 * Defaults
 ** setq-default
@@ -436,18 +432,60 @@ David's figure was modified in concordance with the config of [[https://github.c
 #+END_SRC
 
 * Spelling
-Thanks [[https://www.reddit.com/r/emacs/comments/mr3urh/disable_spellfumode_in_doomemacs/][Reddit]]!
-Disable spell-fu-mode in Doom Emacs.  Re-add the hook selectively.
+Thanks [[https://www.reddit.com/r/emacs/comments/mr3urh/disable_spellfumode_in_doomemacs/][Reddit]]!  Disable spell-fu-mode, then re-add other hooks selectively.
 
 #+BEGIN_SRC emacs-lisp
 (remove-hook 'text-mode-hook #'spell-fu-mode)
 (add-hook 'markdown-mode-hook #'spell-fu-mode)
 #+END_SRC
 
+* =mu4e=
+Some quick notes:
+- ~mu4e-index-update-in-background~ is needed for Gmail to work
+- I take advantage of the ~-c~ flag for ~mbsync~ because I also have =neomutt= installed
+- ~mu4e-index-update-error-warning nil~ is needed if your =~/.mbsyncrc= contains the follwing line of code (I just use =pass=, so I don't need this): ~PassCmd "gpg2 -q --for-your-eyes-only --no-tty -d ~/.password-store/your@gmail.com.gpg'~
+
+#+BEGIN_SRC emacs-lisp
+(add-to-list 'load-path "/usr/share/emacs/site-lisp/mu4e/")
+
+(setq mu4e-index-update-in-background t
+      mu4e-get-mail-command "mbsync -a -c ~/p-dot-script/.mbsyncrc"
+      mu4e-update-interval (* 1 60)
+      mu4e-attachment-dir "~/Downloads"
+      mu4e-compose-signature (concat "Mark Bojack\n" "https://github.com/markbojack\n" "Sent with mu4e from Doom Emacs\n")
+      mu4e-main-buffer-hide-personal-addresses t
+      mu4e-drafts-folder "/[Gmail]/Drafts"
+      mu4e-sent-folder   "/[Gmail]/Sent Mail"
+      mu4e-refile-folder "/[Gmail]/All Mail"
+      mu4e-trash-folder  "/[Gmail]/Trash"
+      mu4e-maildir-shortcuts
+      '((:maildir "/Inbox"    :key ?i)
+        (:maildir "/[Gmail]/Sent Mail" :key ?s)
+        (:maildir "/[Gmail]/Trash"     :key ?t)
+        (:maildir "/[Gmail]/Drafts"    :key ?d)
+        (:maildir "/[Gmail]/All Mail"  :key ?a))
+      mu4e-bookmarks
+      '((:name "Family" :query "from:Bojack" :key ?f :hide t)
+        (:name "Today's messages" :query "date:today..now" :key ?t :hide t))))
+#+END_SRC
+
+* =smtpmail=
+This code block is essential to getting Gmail to work with =mu4e=.
+
+#+BEGIN_SRC emacs-lisp
+(setq starttls-use-gnutls t
+      smtpmail-starttls-credentials '(("smtp.gmail.com" 587 nil nil))
+      smtpmail-auth-credentials '(("smtp.gmail.com" 587 "markbojack.si@gmail.com" nil))
+      smtpmail-default-smtp-server "smtp.gmail.com"
+      smtpmail-smtp-server "smtp.gmail.com"
+      smtpmail-smtp-service 587)
+#+END_SRC
+
+
 
 
 #+BEGIN_SRC emacs-lisp
-(put 'add-function 'lisp-indent-function 4)
-(put 'advice-add 'lisp-indent-function 4)
-(put 'plist-put 'lisp-indent-function 4)
+;; (put 'add-function 'lisp-indent-function 4)
+;; (put 'advice-add 'lisp-indent-function 4)
+;; (put 'plist-put 'lisp-indent-function 4)
 #+END_SRC

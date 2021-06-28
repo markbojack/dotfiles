@@ -82,8 +82,41 @@
 (add-hook 'markdown-mode-hook #'spell-fu-mode)
 ;; Spelling:1 ends here
 
-;; [[file:config.org::*Spelling][Spelling:2]]
-(put 'add-function 'lisp-indent-function 4)
-(put 'advice-add 'lisp-indent-function 4)
-(put 'plist-put 'lisp-indent-function 4)
-;; Spelling:2 ends here
+;; [[file:config.org::*=mu4e=][=mu4e=:1]]
+(add-to-list 'load-path "/usr/share/emacs/site-lisp/mu4e/")
+
+(setq mu4e-index-update-in-background t
+      mu4e-get-mail-command "mbsync -a -c ~/p-dot-script/.mbsyncrc"
+      mu4e-update-interval (* 1 60)
+      mu4e-attachment-dir "~/Downloads"
+      mu4e-compose-signature (concat "Mark Bojack\n" "https://github.com/markbojack\n" "Sent with mu4e from Doom Emacs\n")
+      mu4e-main-buffer-hide-personal-addresses t
+      mu4e-drafts-folder "/[Gmail]/Drafts"
+      mu4e-sent-folder   "/[Gmail]/Sent Mail"
+      mu4e-refile-folder "/[Gmail]/All Mail"
+      mu4e-trash-folder  "/[Gmail]/Trash"
+      mu4e-maildir-shortcuts
+      '((:maildir "/Inbox"    :key ?i)
+        (:maildir "/[Gmail]/Sent Mail" :key ?s)
+        (:maildir "/[Gmail]/Trash"     :key ?t)
+        (:maildir "/[Gmail]/Drafts"    :key ?d)
+        (:maildir "/[Gmail]/All Mail"  :key ?a))
+      mu4e-bookmarks
+      '((:name "Family" :query "from:Bojack" :key ?f :hide t)
+        (:name "Today's messages" :query "date:today..now" :key ?t :hide t))))
+;; =mu4e=:1 ends here
+
+;; [[file:config.org::*=smtpmail=][=smtpmail=:1]]
+(setq starttls-use-gnutls t
+      smtpmail-starttls-credentials '(("smtp.gmail.com" 587 nil nil))
+      smtpmail-auth-credentials '(("smtp.gmail.com" 587 "markbojack.si@gmail.com" nil))
+      smtpmail-default-smtp-server "smtp.gmail.com"
+      smtpmail-smtp-server "smtp.gmail.com"
+      smtpmail-smtp-service 587)
+;; =smtpmail=:1 ends here
+
+;; [[file:config.org::*=smtpmail=][=smtpmail=:2]]
+;; (put 'add-function 'lisp-indent-function 4)
+;; (put 'advice-add 'lisp-indent-function 4)
+;; (put 'plist-put 'lisp-indent-function 4)
+;; =smtpmail=:2 ends here

@@ -10,9 +10,19 @@ windows:
       pinned: false
       scroll-pos:
         x: 0
-        y: 6640
+        y: 6670
       title: Doom Emacs Configuration
       url: https://tecosaur.github.io/emacs-config/config.html
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-29T04:02:42'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 72710
+      title: Doom Emacs Configuration
+      url: https://tecosaur.github.io/emacs-config/config.html#rebuild-mail-index
       zoom: 0.75
   - history:
     - active: true
@@ -35,27 +45,45 @@ windows:
       url: https://raw.githubusercontent.com/zzamboni/dot-doom/master/doom.org
       zoom: 0.75
   - history:
-    - last_visited: '2021-06-29T03:33:31'
-      pinned: false
-      title: emacs delete selection mode - Google Search
-      url: https://www.google.com/search?q=emacs%20delete%20selection%20mode
     - active: true
-      last_visited: '2021-06-29T03:33:34'
+      last_visited: '2021-06-29T04:32:51'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 120
+      title: doom emacs package cl is deprecated - Google Search
+      url: https://www.google.com/search?q=doom%20emacs%20package%20cl%20is%20deprecated
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-29T04:32:55'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: 'EmacsWiki: Delete Selection Mode'
-      url: https://www.emacswiki.org/emacs/DeleteSelectionMode#:~:text=Delete%20Selection%20mode%20lets%20you,key%20(%20'DEL'%20).
+      title: 'On startup, "Package cl is deprecated" is shown in the minibuffer ·
+        Issue #3372 · hlissner/doom-emacs'
+      url: https://github.com/hlissner/doom-emacs/issues/3372
       zoom: 0.75
   - active: true
     history:
     - active: true
-      last_visited: '2021-06-29T03:49:48'
+      last_visited: '2021-06-29T04:32:58'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: emacs lisp indent function - Google Search
-      url: https://www.google.com/search?q=emacs%20lisp%20indent%20function
+        y: 1280
+      title: 'Package cl is deprecated in Emacs-27 · Issue #35 · kiwanami/emacs-epc'
+      url: https://github.com/kiwanami/emacs-epc/issues/35
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-29T04:40:04'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 837
+      title: 'On startup, "Package cl is deprecated" is shown in the minibuffer ·
+        Issue #3372 · hlissner/doom-emacs'
+      url: https://github.com/hlissner/doom-emacs/issues/3372#issuecomment-643567913
       zoom: 0.75
