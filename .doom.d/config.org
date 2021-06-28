@@ -1,6 +1,6 @@
 #+TITLE: Doom Emacs Config
 #+AUTHOR: Mark Bojack
-#+EMAIL: markbojack@outlook.com
+#+EMAIL: markbojack.si@gmail.com
 #+date: @@html:<!--@@{{{git-rev}}}@@html:-->@@@@latex:\\\Large\bfseries@@ {{{modification-time(%Y-%m-%d, t)}}} @@latex:\\\normalsize\mdseries@@{{{modification-time(%H:%M, t)}}} @@latex:\acr{\lowercase{@@{{{timezone}}}@@latex:}}\iffalse@@, {{{git-rev}}}@@latex:\fi@@
 #+MACRO: timezone (eval (substring (shell-command-to-string "date +%Z") 0 -1))
 #+DESCRIPTION: Personal config.org document for Doom Emacs (v2.0.9)
@@ -15,14 +15,17 @@ Alphabetize this later, also TOC?
 * Background
 ** Update Frequency
 - Continually maintained on an Arch-based system.
+
 ** Credit
 - For additional inspiration, or to see how I pasted together this config, check the [[Sources][Sources]] section
+
 ** For new users
 - This is a literate config, so it generates =init.el= and =packages.el=
 - As you know, if =init.el= or =packages.el= are modified, run ~doom/reload~ with =SPC h r r=
 - Modifying =config.org=
   + Modifications to this file will be realized after running the edited code block with =C-c C-c=
   + In some cases though, ~doom/restart-and-restore~ (=SPC q r=) will be needed
+
 ** Special note on R
 - If R fails to work properly for whatever reason, try =SPC q r= as a preliminary measure
 
@@ -302,6 +305,7 @@ Alphabetize this later, also TOC?
 ;; (package! wc-mode)
 #+END_SRC
 
+
 * Defaults
 ** setq-default
 Selected variable settings from [[https://github.com/angrybacon/dotemacs][Mathieu Marques']] "Better Defaults."
@@ -339,7 +343,18 @@ TODO https://stackoverflow.com/questions/53769315/emacs-ess-indent-after
       make-backup-files t
       ess-indent-offset 2
       confirm-kill-emacs nil
-      undo-limit 80000000)
+      undo-limit 80000000
+      tab-line-mode t)
+#+END_SRC
+
+** Miscellaneous
+#+BEGIN_SRC emacs-lisp
+(fset 'yes-or-no-p 'y-or-n-p)           ; Replace yes/no prompts with y/n
+(global-subword-mode t)                 ; Iterate through CamelCase words
+(mouse-avoidance-mode 'exile)           ; Avoid collision of mouse with point
+(put 'downcase-region 'disabled nil)    ; Enable downcase-region C-x C-l
+(put 'upcase-region 'disabled nil)      ; Enable upcase-region C-x C-u
+(set-default-coding-systems 'utf-8)     ; Default to utf-8 encoding
 #+END_SRC
 
 * Font
@@ -429,3 +444,10 @@ Disable spell-fu-mode in Doom Emacs.  Re-add the hook selectively.
 (add-hook 'markdown-mode-hook #'spell-fu-mode)
 #+END_SRC
 
+
+
+#+BEGIN_SRC emacs-lisp
+(put 'add-function 'lisp-indent-function 4)
+(put 'advice-add 'lisp-indent-function 4)
+(put 'plist-put 'lisp-indent-function 4)
+#+END_SRC

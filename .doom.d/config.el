@@ -28,8 +28,18 @@
       make-backup-files t
       ess-indent-offset 2
       confirm-kill-emacs nil
-      undo-limit 80000000)
+      undo-limit 80000000
+      tab-line-mode t)
 ;; setq:1 ends here
+
+;; [[file:config.org::*Miscellaneous][Miscellaneous:1]]
+(fset 'yes-or-no-p 'y-or-n-p)           ; Replace yes/no prompts with y/n
+(global-subword-mode t)                 ; Iterate through CamelCase words
+(mouse-avoidance-mode 'exile)           ; Avoid collision of mouse with point
+(put 'downcase-region 'disabled nil)    ; Enable downcase-region C-x C-l
+(put 'upcase-region 'disabled nil)      ; Enable upcase-region C-x C-u
+(set-default-coding-systems 'utf-8)     ; Default to utf-8 encoding
+;; Miscellaneous:1 ends here
 
 ;; [[file:config.org::*Font][Font:1]]
 (setq doom-font (font-spec :family "RobotoMono Nerd Font" :size 10 :weight 'bold)
@@ -71,3 +81,9 @@
 (remove-hook 'text-mode-hook #'spell-fu-mode)
 (add-hook 'markdown-mode-hook #'spell-fu-mode)
 ;; Spelling:1 ends here
+
+;; [[file:config.org::*Spelling][Spelling:2]]
+(put 'add-function 'lisp-indent-function 4)
+(put 'advice-add 'lisp-indent-function 4)
+(put 'plist-put 'lisp-indent-function 4)
+;; Spelling:2 ends here
