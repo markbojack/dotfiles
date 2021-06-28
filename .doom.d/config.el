@@ -1,25 +1,3 @@
-;; [[file:config.org::*Speed][Speed:1]]
-;;; config.el -*- lexical-binding: t; -*-
-;; Speed:1 ends here
-
-;; [[file:config.org::*Speed][Speed:2]]
-(setq gc-cons-threshold (* 8 1024 1024))
-;; Speed:2 ends here
-
-;; [[file:config.org::*Mappings][Mappings:1]]
-(map! :desc "Create Sparse Tree" :ne "SPC / s" #'org-sparse-tree)
-(map! :desc "Create Sparse Tree for Tags" :ne "SPC / t" #'org-tags-sparse-tree)
-(map! :ne "M-/" #'comment-or-uncomment-region)
-(map! :ne "SPC n r" #'deadgrep)
-(map! :ne "SPC n b" #'org-brain-visualize)
-(map! :ne "SPC n p" #'counsel-org-capture)
-;; Mappings:1 ends here
-
-;; [[file:config.org::*Personal Information][Personal Information:1]]
-(setq user-full-name "Mark Bojack"
-      user-mail-address "markbojack.si@gmail.com")
-;; Personal Information:1 ends here
-
 ;; [[file:config.org::*setq-default][setq-default:1]]
 (setq-default cursor-in-non-selected-windows nil     ; Hide the cursor in inactive windows
               custom-unlispify-menu-entries nil      ; Prefer kebab-case for titles
@@ -53,11 +31,6 @@
       undo-limit 80000000)
 ;; setq:1 ends here
 
-;; [[file:config.org::*Spelling][Spelling:1]]
-(remove-hook 'text-mode-hook #'spell-fu-mode)
-(add-hook 'markdown-mode-hook #'spell-fu-mode)
-;; Spelling:1 ends here
-
 ;; [[file:config.org::*Font][Font:1]]
 (setq doom-font (font-spec :family "RobotoMono Nerd Font" :size 10 :weight 'bold)
       ;; doom-big-font (font-spec :family "RobotoMono Nerd Font" :size 14))
@@ -71,3 +44,30 @@
   '(font-lock-comment-face :slant italic)
   '(font-lock-keyword-face :slant italic))
 ;; Font:1 ends here
+
+;; [[file:config.org::*Mappings][Mappings:1]]
+(map! :desc "Create Sparse Tree" :ne "SPC / s" #'org-sparse-tree)
+(map! :desc "Create Sparse Tree for Tags" :ne "SPC / t" #'org-tags-sparse-tree)
+(map! :ne "M-/" #'comment-or-uncomment-region)
+(map! :ne "SPC n r" #'deadgrep)
+(map! :ne "SPC n b" #'org-brain-visualize)
+(map! :ne "SPC n p" #'counsel-org-capture)
+;; Mappings:1 ends here
+
+;; [[file:config.org::*Personal Information][Personal Information:1]]
+(setq user-full-name "Mark Bojack"
+      user-mail-address "markbojack.si@gmail.com")
+;; Personal Information:1 ends here
+
+;; [[file:config.org::*Speed][Speed:1]]
+;;; config.el -*- lexical-binding: t; -*-
+;; Speed:1 ends here
+
+;; [[file:config.org::*Speed][Speed:2]]
+(setq gc-cons-threshold (* 8 1024 1024))
+;; Speed:2 ends here
+
+;; [[file:config.org::*Spelling][Spelling:1]]
+(remove-hook 'text-mode-hook #'spell-fu-mode)
+(add-hook 'markdown-mode-hook #'spell-fu-mode)
+;; Spelling:1 ends here

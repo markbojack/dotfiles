@@ -1,3 +1,4 @@
+;; [[file:config.org::*packages.el][packages.el:1]]
 ;; -*- no-byte-compile: t; -*-
 ;;; $DOOMDIR/packages.el
 
@@ -78,3 +79,4 @@
 ;; (package! ox-gemini)
 ;; (package! tldr)
 ;; (package! wc-mode)
+;; packages.el:1 ends here

@@ -1,3 +1,4 @@
+;; [[file:config.org::*init.el][init.el:1]]
 ;;; init.el -*- lexical-binding: t; -*-
 
 ;; NOTE Press 'SPC h d h' (or 'C-h d h' for non-vim users) to access Doom's
@@ -184,3 +185,4 @@
        :config
        literate
        (default +bindings +smartparens))
+;; init.el:1 ends here

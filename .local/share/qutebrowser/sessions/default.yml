@@ -6,7 +6,7 @@ windows:
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-28T12:34:48'
+      last_visited: '2021-06-28T21:39:36'
       pinned: false
       scroll-pos:
         x: 0
@@ -14,54 +14,34 @@ windows:
       title: Doom Emacs Configuration
       url: https://tecosaur.github.io/emacs-config/config.html
       zoom: 0.75
-  - active: true
-    history:
+  - history:
     - active: true
-      last_visited: '2021-06-28T12:34:48'
+      last_visited: '2021-06-28T21:39:37'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
+        y: 719
       title: dotemacs/dotemacs.org at master · angrybacon/dotemacs
       url: https://github.com/angrybacon/dotemacs/blob/master/dotemacs.org#use-better-defaults
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-28T12:34:48'
+      last_visited: '2021-06-28T22:13:10'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
+        y: 2120
       title: zzamboni.org | My Doom Emacs configuration, with commentary
       url: https://zzamboni.org/post/my-doom-emacs-configuration-with-commentary/
       zoom: 0.75
-  - history:
+  - active: true
+    history:
     - active: true
-      last_visited: '2021-06-28T12:34:49'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: zzamboni.org | literateconfig
-      url: https://zzamboni.org/tags/literateconfig/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-28T12:34:48'
+      last_visited: '2021-06-28T22:41:05'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
       title: https://raw.githubusercontent.com/zzamboni/dot-doom/master/doom.org
       url: https://raw.githubusercontent.com/zzamboni/dot-doom/master/doom.org
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-28T12:34:50'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'Doom emacs literate config : emacs'
-      url: https://www.reddit.com/r/emacs/comments/empzmz/doom_emacs_literate_config/
       zoom: 0.75
