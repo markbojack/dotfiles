@@ -41,32 +41,40 @@
 ;(unpin! t)
 
 (package! mu4e-alert)
+
 (package! org-fancy-priorities)
 (package! org-super-agenda)
-(package! evil-multiedit)
 (package! org-brain)
-(package! polymode)
-(package! flycheck-aspell)
 (package! org-bullets)
+
+(package! evil-multiedit)
+(package! polymode)
+
+(package! flycheck-aspell)
+
 (package! emojify)
+
 (package! elpher)
+(package! elfeed-goodies)
+
+(package! dired-open)
+(package! peep-dired)
+
 (package! rainbow-mode)
 (package! resize-window)
+(package! dmenu)
+
+(package! password-store)
 
 ;; dt packages
 ;; (package! async)
 ;; (package! calfw)
 ;; (package! calfw-org)
 ;; (package! dashboard)
-;; (package! dired-open)
-;; (package! dmenu)
-;; (package! elfeed-goodies)
 ;; (package! exwm)
 ;; (package! hyperbole)
 ;; (package! ivy-posframe)
 ;; (package! mastodon)
 ;; (package! ox-gemini)
-;; (package! peep-dired)
-;; (package! password-store)
 ;; (package! tldr)
 ;; (package! wc-mode)

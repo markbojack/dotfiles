@@ -6,8 +6,8 @@
 #+PROPERTY: header-args :results silent
 
 * Background
-Doom Emacs config.org file.  A work in progress, but maintained constantly on an Arch-based system.
-For optimal performance, also see packages.el and init.el.
+Doom Emacs config.org file.  A work in progress, but continually maintained on an Arch-based system.
+For optimal performance, use in conjunction with packages.el and init.el.
 
 * Sources
 - [[https://github.com/daviwil][David Wilson]]
@@ -79,11 +79,34 @@ TODO: Do I actually need all this crap?
 
 ** Part 2: setq
 
+Settings related to fonts within Doom Emacs:
++ 'doom-font' -- standard monospace font that is used for most things in Emacs.
++ 'doom-variable-pitch-font' -- variable font which is useful in some Emacs plugins.
++ 'doom-big-font' -- used in doom-big-font-mode; useful for presentations.
++ 'font-lock-comment-face' -- for comments.
++ 'font-lock-keyword-face' -- for keywords with special significance like 'setq' in elisp.
++ 'global-prettify-symbols-mode' -- change certain keywords to symbols, such as lambda!
+
+#+BEGIN_SRC emacs-lisp
+;; (setq doom-font (font-spec :family "Source Code Pro" :size 15)
+;;       doom-variable-pitch-font (font-spec :family "Ubuntu" :size 15)
+;; (after! doom-themes
+;;   (setq doom-themes-enable-bold t
+;;         doom-themes-enable-italic t))
+;; (custom-set-faces!
+;;   '(font-lock-comment-face :slant italic)
+;;   '(font-lock-keyword-face :slant italic))
+#+END_SRC
+
+
+
+
+
 #+begin_src emacs-lisp :tangle yes
 (setq user-full-name "Mark Bojack"
       user-mail-address "markbojack.si@gmail.com"
       doom-font (font-spec :family "RobotoMono Nerd Font" :size 10 :weight 'bold)
-      ;doom-big-font (font-spec :family "sans" :size 16)
+      doom-big-font (font-spec :family "Source Code Pro" :size 24))
       doom-variable-pitch-font (font-spec :family "sans" :size 13)
       doom-theme 'doom-one
       display-line-numbers-type 'relative

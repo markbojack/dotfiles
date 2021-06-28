@@ -1,45 +1,16 @@
-;; Make gc pauses faster by decreasing the threshold.
-(setq gc-cons-threshold (* 10 1000 1000))
-
-(map! :desc "Create Sparse Tree" :ne "SPC / s" #'org-sparse-tree)
-(map! :desc "Create Sparse Tree for Tags" :ne "SPC / t" #'org-tags-sparse-tree)
-(map! :ne "M-/" #'comment-or-uncomment-region)
-(map! :ne "SPC n r" #'deadgrep)
-(map! :ne "SPC n b" #'org-brain-visualize)
-(map! :ne "SPC n p" #'counsel-org-capture)
-
-(setq-default ad-redefinition-action 'accept         ; Silence warnings for redefinition
-              auto-save-list-file-prefix nil         ; Prevent tracking for auto-saves
-              cursor-in-non-selected-windows nil     ; Hide the cursor in inactive windows
-              cursor-type '(hbar . 2)                ; Underline-shaped cursor
-              custom-unlispify-menu-entries nil      ; Prefer kebab-case for titles
-              custom-unlispify-tag-names nil         ; Prefer kebab-case for symbols
-              delete-by-moving-to-trash t            ; Delete files to trash
-              fill-column 80                         ; Set width for automatic line breaks
-              gc-cons-threshold (* 8 1024 1024)      ; We're not using Game Boys anymore
-              help-window-select t                   ; Focus new help windows when opened
-              indent-tabs-mode nil                   ; Stop using tabs to indent
-              inhibit-startup-screen t               ; Disable start-up screen
-              initial-scratch-message ""             ; Empty the initial *scratch* buffer
-              mouse-yank-at-point t                  ; Yank at point rather than pointer
-              read-process-output-max (* 1024 1024)  ; Increase read size per process
-              recenter-positions '(5 top bottom)     ; Set re-centering positions
-              scroll-conservatively 101              ; Avoid recentering when scrolling far
-              scroll-margin 2                        ; Add a margin when scrolling vertically
-              select-enable-clipboard t              ; Merge system's and Emacs' clipboard
-              sentence-end-double-space nil          ; Use a single space after dots
-              show-help-function nil                 ; Disable help text everywhere
-              tab-always-indent 'complete            ; Tab indents first then tries completions
-              tab-width 4                            ; Smaller width for tab characters
-              uniquify-buffer-name-style 'forward    ; Uniquify buffer names
-              warning-minimum-level :error           ; Skip warning buffers
-              window-combination-resize t            ; Resize windows proportionally
-              x-stretch-cursor t)                    ; Stretch cursor to the glyph width
+;; (setq doom-font (font-spec :family "Source Code Pro" :size 15)
+;;       doom-variable-pitch-font (font-spec :family "Ubuntu" :size 15)
+;; (after! doom-themes
+;;   (setq doom-themes-enable-bold t
+;;         doom-themes-enable-italic t))
+;; (custom-set-faces!
+;;   '(font-lock-comment-face :slant italic)
+;;   '(font-lock-keyword-face :slant italic))
 
 (setq user-full-name "Mark Bojack"
       user-mail-address "markbojack.si@gmail.com"
       doom-font (font-spec :family "RobotoMono Nerd Font" :size 10 :weight 'bold)
-      ;doom-big-font (font-spec :family "sans" :size 16)
+      doom-big-font (font-spec :family "Source Code Pro" :size 24))
       doom-variable-pitch-font (font-spec :family "sans" :size 13)
       doom-theme 'doom-one
       display-line-numbers-type 'relative

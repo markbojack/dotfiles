@@ -1,21 +1,16 @@
 windows:
 - geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
-    IQAABUUAAALv
+    AdnQywADAAAAAAAPAAAADwAABUYAAALwAAAAEAAAABAAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
+    EAAABUUAAALv
   tabs:
   - active: true
     history:
-    - last_visited: '2021-06-27T15:15:52'
-      pinned: false
-      title: elisp - The difference between setq and setq-default in Emacs Lisp -
-        Stack Overflow
-      url: https://stackoverflow.com/questions/18172728/the-difference-between-setq-and-setq-default-in-emacs-lisp
     - active: true
-      last_visited: '2021-06-27T15:48:03'
+      last_visited: '2021-06-28T05:12:21'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: Home
-      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
+        y: 400
+      title: emacs scroll down console output - Google Search
+      url: https://www.google.com/search?q=emacs%20scroll%20down%20console%20output
       zoom: 0.75
