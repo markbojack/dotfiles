@@ -29,6 +29,20 @@ Alphabetize this later, also TOC?
 ** Special note on R
 - If R fails to work properly for whatever reason, try =SPC q r= as a preliminary measure
 
+* Speed
+According to [[https://nullprogram.com/blog/2016/12/22/][Chris Wellons]], the below makes this config run a little faster.
+
+#+BEGIN_SRC emacs-lisp
+;;; config.el -*- lexical-binding: t; -*-
+#+END_SRC
+
+A [[https://github.com/daviwil][David Wilson]] trick: "Make gc pauses faster by decreasing the threshold."
+David's figure was modified in concordance with the config of [[https://github.com/angrybacon/dotemacs][Mathieu Marques]].
+
+#+BEGIN_SRC emacs-lisp
+(setq gc-cons-threshold (* 8 1024 1024))
+#+END_SRC
+
 * Configs
 ** init.el
 #+BEGIN_SRC emacs-lisp :tangle init.el
@@ -416,20 +430,6 @@ Mostly from [[https://github.com/zaiste/][Jakub Neander]].
 - [[https://github.com/tecosaur/emacs-config][tecosaur]]
 - [[https://github.com/rememberYou][Terencio Agozzino]]
 - [[https://www.emacswiki.org/][Wiki]]
-
-* Speed
-According to [[https://nullprogram.com/blog/2016/12/22/][Chris Wellons]], the below makes this config run a little faster.
-
-#+BEGIN_SRC emacs-lisp
-;;; config.el -*- lexical-binding: t; -*-
-#+END_SRC
-
-A [[https://github.com/daviwil][David Wilson]] trick: "Make gc pauses faster by decreasing the threshold."
-David's figure was modified in concordance with the config of [[https://github.com/angrybacon/dotemacs][Mathieu Marques]].
-
-#+BEGIN_SRC emacs-lisp
-(setq gc-cons-threshold (* 8 1024 1024))
-#+END_SRC
 
 * Spelling
 Thanks [[https://www.reddit.com/r/emacs/comments/mr3urh/disable_spellfumode_in_doomemacs/][Reddit]]!  Disable spell-fu-mode, then re-add other hooks selectively.

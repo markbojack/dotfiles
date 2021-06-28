@@ -1,3 +1,11 @@
+;; [[file:config.org::*Speed][Speed:1]]
+;;; config.el -*- lexical-binding: t; -*-
+;; Speed:1 ends here
+
+;; [[file:config.org::*Speed][Speed:2]]
+(setq gc-cons-threshold (* 8 1024 1024))
+;; Speed:2 ends here
+
 ;; [[file:config.org::*setq-default][setq-default:1]]
 (setq-default cursor-in-non-selected-windows nil     ; Hide the cursor in inactive windows
               custom-unlispify-menu-entries nil      ; Prefer kebab-case for titles
@@ -68,14 +76,6 @@
 (setq user-full-name "Mark Bojack"
       user-mail-address "markbojack.si@gmail.com")
 ;; Personal Information:1 ends here
-
-;; [[file:config.org::*Speed][Speed:1]]
-;;; config.el -*- lexical-binding: t; -*-
-;; Speed:1 ends here
-
-;; [[file:config.org::*Speed][Speed:2]]
-(setq gc-cons-threshold (* 8 1024 1024))
-;; Speed:2 ends here
 
 ;; [[file:config.org::*Spelling][Spelling:1]]
 (remove-hook 'text-mode-hook #'spell-fu-mode)
