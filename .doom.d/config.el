@@ -1,10 +1,6 @@
-;; [[file:config.org::*Speed][Speed:1]]
+;; [[file:config.org::*Let's get started][Let's get started:1]]
 ;;; config.el -*- lexical-binding: t; -*-
-;; Speed:1 ends here
-
-;; [[file:config.org::*Speed][Speed:2]]
-(setq gc-cons-threshold (* 8 1024 1024))
-;; Speed:2 ends here
+;; Let's get started:1 ends here
 
 ;; [[file:config.org::*setq-default][setq-default:1]]
 (setq-default cursor-in-non-selected-windows nil     ; Hide the cursor in inactive windows
@@ -32,6 +28,7 @@
       display-line-numbers-type 'relative
       evil-split-window-below t
       evil-vsplit-window-right t
+      gc-cons-threshold (* 8 1024 1024)
       auto-save-default t
       make-backup-files t
       ess-indent-offset 2
