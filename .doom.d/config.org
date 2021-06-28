@@ -13,8 +13,18 @@
 Alphabetize this later, also TOC?
 
 * Background
-Doom Emacs config.org file.  A work in progress, but continually maintained on an Arch-based system.
-For optimal performance, use in conjunction with packages.el and init.el.
+** Update Frequency
+- Continually maintained on an Arch-based system.
+** Credit
+- For additional inspiration, or to see how I pasted together this config, check the [[Sources][Sources]] section
+** For new users
+- This is a literate config, so it generates =init.el= and =packages.el=
+- As you know, if =init.el= or =packages.el= are modified, run ~doom/reload~ with =SPC h r r=
+- Modifying =config.org=
+  + Modifications to this file will be realized after running the edited code block with =C-c C-c=
+  + In some cases though, ~doom/restart-and-restore~ (=SPC q r=) will be needed
+** Special note on R
+- If R fails to work properly for whatever reason, try =SPC q r= as a preliminary measure
 
 * Sources
 - [[https://nullprogram.com/blog/2016/12/22/][Chris Wellons]]
@@ -84,6 +94,8 @@ Selected variable settings from [[https://github.com/angrybacon/dotemacs][Mathie
 #+END_SRC
 
 ** setq
+TODO https://stackoverflow.com/questions/53769315/emacs-ess-indent-after
+
 #+BEGIN_SRC emacs-lisp
 (setq doom-theme 'doom-one
       display-line-numbers-type 'relative
@@ -91,6 +103,7 @@ Selected variable settings from [[https://github.com/angrybacon/dotemacs][Mathie
       evil-vsplit-window-right t
       auto-save-default t
       make-backup-files t
+      ess-indent-offset 2
       confirm-kill-emacs nil
       undo-limit 80000000)
 #+END_SRC
