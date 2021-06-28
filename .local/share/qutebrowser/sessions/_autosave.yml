@@ -1,42 +1,41 @@
 windows:
-- active: true
-  geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
-    IQAABUUAAALv
+- geometry: !!binary |
+    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAAEAAAACEAAAKiAAAC7wAAAAAAAAAABVYAAAAQAAAA
+    IQAAAqIAAALv
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-28T09:44:42'
+      last_visited: '2021-06-28T10:04:46'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: emacs scroll down console output - Google Search
-      url: https://www.google.com/search?q=emacs%20scroll%20down%20console%20output
-      zoom: 0.75
-  - active: true
-    history:
-    - last_visited: '2021-06-28T09:56:13'
-      pinned: false
-      title: could not resize 'doom-font' for some reason - Google Search
-      url: https://www.google.com/search?q=could%20not%20resize%20%27doom-font%27%20for%20some%20reason
-    - active: true
-      last_visited: '2021-06-28T09:58:00'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 800
-      title: doom emacs big font - Google Search
-      url: https://www.google.com/search?q=doom+emacs+big+font&ei=TDrZYOq_NvK1mgeotrT4Cw&oq=doom+emacs+big+font&gs_lcp=Cgdnd3Mtd2l6EAMyCAghEBYQHRAeMggIIRAWEB0QHjIICCEQFhAdEB4yCAghEBYQHRAeMggIIRAWEB0QHjoHCCEQChCgAToFCAAQkQI6BAguEEM6BAgAEEM6CggAELEDEIMBEEM6CAgAELEDEIMBOgQIABADOgcILhBDEJMCOgcILhCxAxBDOgcIABCxAxBDOgsILhCxAxDHARCjAjoNCC4QsQMQgwEQQxCTAjoFCC4QkQI6AgguOgIIADoGCAAQFhAeOggIABAWEAoQHkoECEEYAFDykwZYm7gGYKG_BmgCcAJ4BIAB-AGIAe8dkgEGMC4yNC4ymAEAoAEBqgEHZ3dzLXdperABAMABAQ&sclient=gws-wiz&ved=0ahUKEwjqld-OqrnxAhXymuYKHSgbDb8Q4dUDCBE&uact=5
+        y: 6616
+      title: Doom Emacs Configuration
+      url: https://tecosaur.github.io/emacs-config/config.html
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-28T09:58:05'
+      last_visited: '2021-06-28T10:51:47'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: 'doom-big-font-mode doesn''t use a separate font anymore · Issue #1428
-        · hlissner/doom-emacs'
-      url: https://github.com/hlissner/doom-emacs/issues/1428
+        y: 759
+      title: dotemacs/dotemacs.org at master · angrybacon/dotemacs
+      url: https://github.com/angrybacon/dotemacs/blob/master/dotemacs.org#use-better-defaults
+      zoom: 0.75
+  - active: true
+    history:
+    - last_visited: '2021-06-28T10:58:49'
+      pinned: false
+      title: emacs mouse yank at point - Google Search
+      url: https://www.google.com/search?q=emacs%20mouse%20yank%20at%20point
+    - active: true
+      last_visited: '2021-06-28T10:58:59'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 480
+      title: yank - How to get mouse copy like done on Lisp Machine Zmacs/ZWEI? -
+        Emacs Stack Exchange
+      url: https://emacs.stackexchange.com/questions/38446/how-to-get-mouse-copy-like-done-on-lisp-machine-zmacs-zwei
       zoom: 0.75
