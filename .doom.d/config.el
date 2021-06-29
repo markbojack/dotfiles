@@ -31,9 +31,13 @@
       gc-cons-threshold (* 8 1024 1024)
       auto-save-default t
       make-backup-files t
-      ess-indent-offset 2
       confirm-kill-emacs nil
+      ;; ess-offset-continued '(straight 4)        ;; indent after pipe, etc
+      ess-indent-offset 4                       ;; indent all lines
       undo-limit 80000000
+      truncate-string-ellipsis "…"                ; Unicode ellispis are nicer than "...", and also save /precious/ space
+      password-cache-expiry nil                   ; I can trust my computers ... can't I?
+      evil-want-fine-undo t                       ; By default while in insert all changes are one big blob. Be more granular
       tab-line-mode t)
 ;; setq:1 ends here
 
@@ -44,6 +48,9 @@
 (put 'downcase-region 'disabled nil)    ; Enable downcase-region C-x C-l
 (put 'upcase-region 'disabled nil)      ; Enable upcase-region C-x C-u
 (set-default-coding-systems 'utf-8)     ; Default to utf-8 encoding
+(display-time-mode 1)                             ; Enable time in the mode-line
+(unless (string-match-p "^Power N/A" (battery))   ; On laptops...
+  (display-battery-mode 1))                       ; it's nice to know how much power you have
 ;; Miscellaneous:1 ends here
 
 ;; [[file:config.org::*Font][Font:1]]
@@ -59,6 +66,14 @@
   '(font-lock-comment-face :slant italic)
   '(font-lock-keyword-face :slant italic))
 ;; Font:1 ends here
+
+;; [[file:config.org::*Fullscreen][Fullscreen:1]]
+(pcase window-system
+  ('w32 (set-frame-parameter nil 'fullscreen 'fullboth))
+  (_ (set-frame-parameter nil 'fullscreen 'maximized)))
+
+;; (add-to-list 'initial-frame-alist '(fullscreen . maximized))
+;; Fullscreen:1 ends here
 
 ;; [[file:config.org::*Mappings][Mappings:1]]
 (map! :desc "Create Sparse Tree" :ne "SPC / s" #'org-sparse-tree)
@@ -117,3 +132,96 @@
 ;; (put 'advice-add 'lisp-indent-function 4)
 ;; (put 'plist-put 'lisp-indent-function 4)
 ;; =smtpmail=:2 ends here
+
+;; [[file:config.org::*=org=][=org=:1]]
+(setq org-babel-default-header-args:R '((:session)
+                                        (:results . "output")))
+(setq scroll-down-aggressively 0.01)
+
+(setq org-directory "~/Documents/org/"
+
+      ;; org-agenda-files (directory-files-recursively "~/Documents/org/" "\.org$")  ;; make everything an agenda file
+      org-agenda-files '("~/Documents/org/remind.org")
+      ;; overview         top-level headlines only
+      ;; content          all headlines
+      ;; showall          no folding of any entries
+      ;; showeverything   show even drawer contents
+      org-startup-folded t
+      org-link-search-must-match-exact-headline nil     ;; target words with a link
+      org-highest-priority ?A
+      org-default-priority ?B
+      org-lowest-priority ?C                            ;; does this really have to be ?E by default?
+      org-ellipsis " ▾ "
+      org-bullets-bullet-list '("·")
+      org-tags-column -80
+      org-agenda-files (ignore-errors (directory-files +org-dir t "\\.org$" t))
+      org-log-done 'time
+      org-refile-targets (quote ((nil :maxlevel . 1)))
+      org-tags-column -80
+      org-agenda-skip-scheduled-if-done t
+      org-priority-faces '((65 :foreground "#e45649")   ;; 65 in ASCII is A, etc or type ?A, ?B, etc
+                           (66 :foreground "#da8548")
+                           (67 :foreground "#0098dd"))
+      org-capture-templates '(("x" "Note" entry
+                               (file+olp+datetree "journal.org")
+                               "**** [ ] %U %?" :prepend t :kill-buffer t)
+                              ("t" "Task" entry
+                               (file+headline "tasks.org" "Inbox")
+                               "* [ ] %?\n%i" :prepend t :kill-buffer t)))
+
+
+
+
+;; (add-hook! 'org-mode-hook #'+org-pretty-mode #'mixed-pitch-mode)  ;;  i don't like this
+(add-hook! 'org-mode-hook (company-mode -1))
+(add-hook! 'org-capture-mode-hook (company-mode -1))
+
+
+
+
+(set-popup-rule! "^\\*Org Agenda" :side 'bottom :size 0.90 :select t :ttl nil)
+(set-popup-rule! "^CAPTURE.*\\.org$" :side 'bottom :size 0.90 :select t :ttl nil)
+
+
+
+
+(after! org
+  (set-face-attribute 'org-link nil
+                      :weight 'normal
+                      :background nil)
+  (set-face-attribute 'org-code nil
+                      :foreground "#a9a1e1"
+                      :background nil)
+  (set-face-attribute 'org-date nil
+                      :foreground "#5B6268"
+                      :background nil)
+  (set-face-attribute 'org-level-1 nil
+                      :foreground "steelblue2"
+                      :background nil
+                      :height 1.2
+                      :weight 'normal)
+  (set-face-attribute 'org-level-2 nil
+                      :foreground "slategray2"
+                      :background nil
+                      :height 1.0
+                      :weight 'normal)
+  (set-face-attribute 'org-level-3 nil
+                      :foreground "SkyBlue2"
+                      :background nil
+                      :height 1.0
+                      :weight 'normal)
+  (set-face-attribute 'org-level-4 nil
+                      :foreground "DodgerBlue2"
+                      :background nil
+                      :height 1.0
+                      :weight 'normal)
+  (set-face-attribute 'org-level-5 nil
+                      :weight 'normal)
+  (set-face-attribute 'org-level-6 nil
+                      :weight 'normal)
+  (set-face-attribute 'org-document-title nil
+                      :foreground "SlateGray1"
+                      :background nil
+                      :height 1.75
+                      :weight 'bold)
+;; =org=:1 ends here
