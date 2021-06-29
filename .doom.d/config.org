@@ -12,10 +12,10 @@
 
 * Background
 ** Update Frequency
-- Continually maintained on an Arch-based system.
+Continually maintained on an Arch-based system.
 
 ** Credit
-- For additional inspiration, or to see how I pasted together this config, check the [[Sources][Sources]] section
+For additional inspiration, or to see how I pasted together this config, check the [[Sources][Sources]] section
 
 ** For new users
 - This is a literate config, so it generates =init.el= and =packages.el=
@@ -25,8 +25,13 @@
   + Modifications to this file will be realized after running the edited code block with =C-c C-c=
   + In some cases though, ~doom/restart-and-restore~ (=SPC q r=) will be needed
 
-** Special note on R
-- If R fails to work properly for whatever reason, try =SPC q r= as a preliminary measure
+** Charming, little quirks
+*** R
+If R fails to work properly for whatever reason, try =SPC q r= as a preliminary measure
+
+*** Startup warning
+- ~Package cl is deprecated~, for now, always appears at Doom startup because one of my beloved packages calls =cl=, which is not used by Doom (it uses =cl-lib=)
+- This matter was declared a "no-fix" bug, and the solution provided on [[https://github.com/kiwanami/emacs-epc/issues/35][this site]] does not fix the issue anymore (/womp womp/)
 
 ** Let's get started
 According to [[https://nullprogram.com/blog/2016/12/22/][Chris Wellons]], the below makes this config run a little faster.
@@ -461,7 +466,7 @@ Some quick notes:
         (:maildir "/[Gmail]/All Mail"  :key ?a))
       mu4e-bookmarks
       '((:name "Family" :query "from:Bojack" :key ?f :hide t)
-        (:name "Today's messages" :query "date:today..now" :key ?t :hide t))))
+        (:name "Today's messages" :query "date:today..now" :key ?t :hide t)))
 #+END_SRC
 
 * =smtpmail=

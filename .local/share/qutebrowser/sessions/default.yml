@@ -4,29 +4,30 @@ windows:
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
-  - history:
+  - active: true
+    history:
     - active: true
-      last_visited: '2021-06-29T03:23:39'
+      last_visited: '2021-06-29T20:29:37'
       pinned: false
       scroll-pos:
         x: 0
-        y: 6670
+        y: 0
       title: Doom Emacs Configuration
       url: https://tecosaur.github.io/emacs-config/config.html
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-29T04:02:42'
+      last_visited: '2021-06-29T20:29:37'
       pinned: false
       scroll-pos:
         x: 0
-        y: 72710
+        y: 73921
       title: Doom Emacs Configuration
       url: https://tecosaur.github.io/emacs-config/config.html#rebuild-mail-index
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-29T03:23:39'
+      last_visited: '2021-06-29T20:29:37'
       pinned: false
       scroll-pos:
         x: 0
@@ -36,7 +37,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-29T03:23:39'
+      last_visited: '2021-06-29T20:29:37'
       pinned: false
       scroll-pos:
         x: 0
@@ -44,14 +45,43 @@ windows:
       title: https://raw.githubusercontent.com/zzamboni/dot-doom/master/doom.org
       url: https://raw.githubusercontent.com/zzamboni/dot-doom/master/doom.org
       zoom: 0.75
-  - active: true
-    history:
+  - history:
     - active: true
-      last_visited: '2021-06-29T05:06:07'
+      last_visited: '2021-06-29T21:01:11'
       pinned: false
       scroll-pos:
         x: 0
-        y: 360
-      title: doom emacs package cl is deprecated - Google Search
-      url: https://www.google.com/search?q=doom%20emacs%20package%20cl%20is%20deprecated
+        y: 0
+      title: CL1! 73.32 ▲ +0.56% Unnamed
+      url: https://www.tradingview.com/chart/vpYiBxKy/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-29T21:08:07'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: CVX 104.11 ▲ +0.12% Unnamed
+      url: https://www.tradingview.com/chart/vpYiBxKy/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-29T21:07:22'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: BP 26.42 ▼ −0.15% Unnamed
+      url: https://www.tradingview.com/chart/vpYiBxKy/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-29T21:13:30'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: XOM 63.43 ▲ +0.67% Unnamed
+      url: https://www.tradingview.com/chart/vpYiBxKy/
       zoom: 0.75

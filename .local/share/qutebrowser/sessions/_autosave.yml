@@ -10,17 +10,7 @@ windows:
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: Doom Emacs Configuration
-      url: https://tecosaur.github.io/emacs-config/config.html
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-29T20:29:37'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
+        y: 6640
       title: Doom Emacs Configuration
       url: https://tecosaur.github.io/emacs-config/config.html#rebuild-mail-index
       zoom: 0.75
@@ -46,109 +36,52 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-06-29T20:29:38'
+      last_visited: '2021-06-29T21:01:11'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: doom emacs package cl is deprecated - Google Search
-      url: https://www.google.com/search?q=doom%20emacs%20package%20cl%20is%20deprecated
+      title: CL1! 73.30 ▲ +0.53% Unnamed
+      url: https://www.tradingview.com/chart/vpYiBxKy/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-29T21:08:07'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: CVX 104.18 ▲ +0.18% Unnamed
+      url: https://www.tradingview.com/chart/vpYiBxKy/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-29T21:07:22'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: BP 26.44 ▼ −0.09% Unnamed
+      url: https://www.tradingview.com/chart/vpYiBxKy/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-06-29T21:13:30'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: XOM 63.42 ▲ +0.65% Unnamed
+      url: https://www.tradingview.com/chart/vpYiBxKy/
       zoom: 0.75
   - active: true
     history:
-    - last_visited: '2021-06-29T20:30:45'
-      original-url: https://www.tdameritrade.com/tools-and-platforms/thinkorswim/web.page
-      pinned: false
-      title: thinkorswim Web Platform | TD Ameritrade
-      url: https://www.tdameritrade.com/tools-and-platforms/thinkorswim/web.html
-    - last_visited: '2021-06-29T20:30:49'
-      pinned: false
-      title: thinkorswim Web Login | TD Ameritrade
-      url: https://trade.thinkorswim.com/
-    - last_visited: '2021-06-29T20:31:15'
-      pinned: false
-      title: thinkorswim Web Login | TD Ameritrade
-      url: https://trade.thinkorswim.com/
-    - last_visited: '2021-06-29T20:31:16'
-      original-url: https://trade.thinkorswim.com/
-      pinned: false
-      title: Log in | thinkorswim Web
-      url: https://auth.tdameritrade.com/auth?response_type=code&client_id=TDATRADERX%40AMER.OAUTHAP&code_challenge=3ZT3ANrY5YeD-_pzIaNxE-vtSOscQyxBkx_YN2l_nT4&code_challenge_method=S256&exp=1624975275920&redirect_uri=https%3A%2F%2Ftrade.thinkorswim.com%2Foauth&cv=default
-    - last_visited: '2021-06-29T20:31:48'
-      original-url: https://auth.tdameritrade.com/oauth?client_id=TDATRADERX%40AMER.OAUTHAP&cv=default&response_type=code&redirect_uri=https%3A%2F%2Ftrade.thinkorswim.com%2Foauth&code_challenge=3ZT3ANrY5YeD-_pzIaNxE-vtSOscQyxBkx_YN2l_nT4&code_challenge_method=S256&exp=1624975275920
-      pinned: false
-      title: thinkorswim Web Login | TD Ameritrade
-      url: https://trade.thinkorswim.com/oauth?code=6JiQZ6lmqFlW9A9MF3%2BGvLfY29%2FbA9RMZ%2FKyRHrLqe8CaeG1R5cfkPDDPuEA6w0AuYPaMtA4anxiUgbs3DokpQq68K74sGXpajPxWxjsSvcaBAuWZTu8HLQjkVzCc3kb43AT0VGzCGVhbc7UHRIinMU4b3N79LZPQYU56GisQL8Co4gFp54Os8JtbrRnTmTxzLM4RPIfAS1l3FmagHS%2FUoCSMG3JM3XkCcY6A6NVU76S7f87SmvzvbLbzS7bMOLIKsBXogSCLZRLa1eCUfGiNZXR8%2FYOKV7ac5QY8bs3oP7gvcX6WtAt7aHoLqtIcwEikgmfOHKSBeYTvunNGH5znmwm7DPoO%2BdqaYIPj3juxMCC%2BNLFKtwnIEw9HZrrHZ%2BCMQ7t3q3wCfGTeHqwz8FDnB%2BVJh4koF1USDDSENJjBNo12xlaMwEbrmdyH4P100MQuG4LYrgoVi%2FJHHvltcC0tSRlD4kDDZS%2BmmEdpvVN5EEVqQp%2FbPWCs17lQ2smxNYV1KIkEvodyVa9jOkDrNqhIzt%2BT86I0Nzb2Rf3%2BasnXskDvLjoZE%2BKJbR0YPuvm2fS%2BgZvqHbu2BUk7ORGPEjCmlSJDsNG3EYyeOxguUm6HGo1M3CKJaf6EJyixnj5qGsy98vJUSQSRji8FAJmT9hk5s6MPSTAN%2BmlIUqT7QTa%2F5PGurSd30Iv9Qa3d3C7q8pzyWvM6We8bYmqmOHsXWhRz6z%2Fr0LkE8ZaHfBjlJyqXhZeH7vEWWTOh%2B5dR6HWfgyv6P0kACfpg5zzEjdNEuxEUSJxmyjci6PBHAGyl1ks0ozyR%2FxKMu1zr4ZH3hHYEUw4iUyN9iOFjKS6bbKd2cMSDNbv1FL2fi0UG%2BNfZ3NiF4uJ5m12NSzXT5wjti%2FfBSWAK5DqvdDNqdk%3D212FD3x19z9sWBHDJACbC00B75E
-    - last_visited: '2021-06-29T20:32:33'
-      pinned: false
-      title: thinkorswim Web Login | TD Ameritrade
-      url: https://trade.thinkorswim.com/
-    - last_visited: '2021-06-29T20:32:33'
-      pinned: false
-      title: All Account Positions | thinkorswim Web
-      url: https://trade.thinkorswim.com/
-    - last_visited: '2021-06-29T20:32:43'
-      pinned: false
-      title: Trade XOM | thinkorswim Web
-      url: https://trade.thinkorswim.com/?symbol=XOM
-    - last_visited: '2021-06-29T20:37:50'
-      pinned: false
-      title: Trade /CL[Q21] | thinkorswim Web
-      url: https://trade.thinkorswim.com/?symbol=%2FCL%3AXNYM
-    - last_visited: '2021-06-29T20:39:36'
-      pinned: false
-      title: Trade XOM | thinkorswim Web
-      url: https://trade.thinkorswim.com/?symbol=XOM
-    - last_visited: '2021-06-29T20:41:17'
-      pinned: false
-      title: Trade USO | thinkorswim Web
-      url: https://trade.thinkorswim.com/?symbol=USO
-    - last_visited: '2021-06-29T20:42:34'
-      pinned: false
-      title: Trade /CL[Q21] | thinkorswim Web
-      url: https://trade.thinkorswim.com/?symbol=%2FCL%3AXNYM
-    - last_visited: '2021-06-29T20:44:44'
-      pinned: false
-      title: Trade XOM | thinkorswim Web
-      url: https://trade.thinkorswim.com/?symbol=XOM
-    - last_visited: '2021-06-29T20:45:42'
-      pinned: false
-      title: Trade /CL[Q21] | thinkorswim Web
-      url: https://trade.thinkorswim.com/?symbol=%2FCL%3AXNYM
-    - last_visited: '2021-06-29T20:46:57'
-      pinned: false
-      title: Trade SPY | thinkorswim Web
-      url: https://trade.thinkorswim.com/?symbol=SPY
-    - last_visited: '2021-06-29T20:47:09'
-      pinned: false
-      title: Trade QQQ | thinkorswim Web
-      url: https://trade.thinkorswim.com/?symbol=QQQ
-    - last_visited: '2021-06-29T20:47:15'
-      pinned: false
-      title: Trade XOM | thinkorswim Web
-      url: https://trade.thinkorswim.com/?symbol=XOM
-    - last_visited: '2021-06-29T20:47:38'
-      pinned: false
-      title: Trade CVX | thinkorswim Web
-      url: https://trade.thinkorswim.com/?symbol=CVX
-    - last_visited: '2021-06-29T20:47:43'
-      pinned: false
-      title: Trade CP | thinkorswim Web
-      url: https://trade.thinkorswim.com/?symbol=CP
-    - last_visited: '2021-06-29T20:47:53'
-      pinned: false
-      title: Trade BP | thinkorswim Web
-      url: https://trade.thinkorswim.com/?symbol=BP
-    - last_visited: '2021-06-29T20:48:51'
-      pinned: false
-      title: thinkorswim Web Login | TD Ameritrade
-      url: https://trade.thinkorswim.com/?symbol=XOM
     - active: true
-      last_visited: '2021-06-29T20:49:07'
+      last_visited: '2021-06-29T21:55:40'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: thinkorswim Web Login | TD Ameritrade
-      url: https://trade.thinkorswim.com/?symbol=XOM
+      title: r - Emacs ESS indent after %>% - Stack Overflow
+      url: https://stackoverflow.com/questions/53769315/emacs-ess-indent-after
       zoom: 0.75

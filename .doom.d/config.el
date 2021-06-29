@@ -100,7 +100,7 @@
         (:maildir "/[Gmail]/All Mail"  :key ?a))
       mu4e-bookmarks
       '((:name "Family" :query "from:Bojack" :key ?f :hide t)
-        (:name "Today's messages" :query "date:today..now" :key ?t :hide t))))
+        (:name "Today's messages" :query "date:today..now" :key ?t :hide t)))
 ;; =mu4e=:1 ends here
 
 ;; [[file:config.org::*=smtpmail=][=smtpmail=:1]]
