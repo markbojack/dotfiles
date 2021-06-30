@@ -16,8 +16,8 @@
               scroll-conservatively 101              ; Avoid recentering when scrolling far
               scroll-margin 2                        ; Add a margin when scrolling vertically
               show-help-function nil                 ; Disable help text everywhere
-              tab-always-indent 'complete            ; Tab indents first then tries completions
-              tab-width 4                            ; Smaller width for tab characters
+              tab-always-indent t
+              tab-width 2                            ; Smaller width for tab characters
               uniquify-buffer-name-style 'forward    ; Better than filename<2> for same-name buffers
               window-combination-resize t            ; Take new window space from all windows (not just current)
               x-stretch-cursor t)                    ; Stretch cursor to the glyph width
@@ -82,6 +82,7 @@
 (map! :ne "SPC n r" #'deadgrep)
 (map! :ne "SPC n b" #'org-brain-visualize)
 (map! :ne "SPC n p" #'counsel-org-capture)
+(map! :ne "M-u" #'mu4e-update-index)
 ;; Mappings:1 ends here
 
 ;; [[file:config.org::*Personal Information][Personal Information:1]]
@@ -93,6 +94,12 @@
 (remove-hook 'text-mode-hook #'spell-fu-mode)
 (add-hook 'markdown-mode-hook #'spell-fu-mode)
 ;; Spelling:1 ends here
+
+;; [[file:config.org::*=ess/R=][=ess/R=:1]]
+(setq org-babel-default-header-args:R '((:session)
+                                        (:results . "output")))
+(setq scroll-down-aggressively 0.01)
+;; =ess/R=:1 ends here
 
 ;; [[file:config.org::*=mu4e=][=mu4e=:1]]
 (add-to-list 'load-path "/usr/share/emacs/site-lisp/mu4e/")
@@ -115,7 +122,7 @@
         (:maildir "/[Gmail]/All Mail"  :key ?a))
       mu4e-bookmarks
       '((:name "Family" :query "from:Bojack" :key ?f :hide t)
-        (:name "Today's messages" :query "date:today..now" :key ?t :hide t)))
+        (:name "Today's messages" :query "date:today..now" :key ?t :hide nil)))
 ;; =mu4e=:1 ends here
 
 ;; [[file:config.org::*=smtpmail=][=smtpmail=:1]]
@@ -134,10 +141,6 @@
 ;; =smtpmail=:2 ends here
 
 ;; [[file:config.org::*=org=][=org=:1]]
-(setq org-babel-default-header-args:R '((:session)
-                                        (:results . "output")))
-(setq scroll-down-aggressively 0.01)
-
 (setq org-directory "~/Documents/org/"
 
       ;; org-agenda-files (directory-files-recursively "~/Documents/org/" "\.org$")  ;; make everything an agenda file
@@ -169,21 +172,12 @@
                                (file+headline "tasks.org" "Inbox")
                                "* [ ] %?\n%i" :prepend t :kill-buffer t)))
 
-
-
-
 ;; (add-hook! 'org-mode-hook #'+org-pretty-mode #'mixed-pitch-mode)  ;;  i don't like this
 (add-hook! 'org-mode-hook (company-mode -1))
 (add-hook! 'org-capture-mode-hook (company-mode -1))
 
-
-
-
 (set-popup-rule! "^\\*Org Agenda" :side 'bottom :size 0.90 :select t :ttl nil)
 (set-popup-rule! "^CAPTURE.*\\.org$" :side 'bottom :size 0.90 :select t :ttl nil)
-
-
-
 
 (after! org
   (set-face-attribute 'org-link nil
@@ -199,29 +193,47 @@
                       :foreground "steelblue2"
                       :background nil
                       :height 1.2
-                      :weight 'normal)
+                      :weight 'bold)
   (set-face-attribute 'org-level-2 nil
                       :foreground "slategray2"
                       :background nil
                       :height 1.0
-                      :weight 'normal)
+                      :weight 'bold)
   (set-face-attribute 'org-level-3 nil
                       :foreground "SkyBlue2"
                       :background nil
                       :height 1.0
-                      :weight 'normal)
+                      :weight 'bold)
   (set-face-attribute 'org-level-4 nil
                       :foreground "DodgerBlue2"
                       :background nil
                       :height 1.0
-                      :weight 'normal)
+                      :weight 'bold)
   (set-face-attribute 'org-level-5 nil
-                      :weight 'normal)
+                      :weight 'bold)
   (set-face-attribute 'org-level-6 nil
-                      :weight 'normal)
+                      :weight 'bold)
   (set-face-attribute 'org-document-title nil
                       :foreground "SlateGray1"
                       :background nil
                       :height 1.75
-                      :weight 'bold)
+                      :weight 'bold))
 ;; =org=:1 ends here
+
+;; [[file:config.org::*=org-super-agenda=][=org-super-agenda=:1]]
+(after! org-agenda
+  (setq org-super-agenda-mode t
+        org-super-agenda-groups '((:name "Today"
+                                   :time-grid t
+                                   :scheduled today)
+                                  (:name "Due today"
+                                   :deadline today)
+                                  (:name "Important"
+                                   :priority "A")
+                                  (:name "Overdue"
+                                   :deadline past)
+                                  (:name "Due soon"
+                                   :deadline future)
+                                  (:name "Big Outcomes"
+                                   :tag "bo"))))
+;; =org-super-agenda=:1 ends here

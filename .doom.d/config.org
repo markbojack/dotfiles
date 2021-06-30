@@ -1,7 +1,7 @@
 #+TITLE: Doom Emacs Config
 #+AUTHOR: Mark Bojack
 #+EMAIL: markbojack.si@gmail.com
-#+date: @@html:<!--@@{{{git-rev}}}@@html:-->@@@@latex:\\\Large\bfseries@@ {{{modification-time(%Y-%m-%d, t)}}} @@latex:\\\normalsize\mdseries@@{{{modification-time(%H:%M, t)}}} @@latex:\acr{\lowercase{@@{{{timezone}}}@@latex:}}\iffalse@@, {{{git-rev}}}@@latex:\fi@@
+#+DATE: @@html:<!--@@{{{git-rev}}}@@html:-->@@@@latex:\\\Large\bfseries@@ {{{modification-time(%Y-%m-%d, t)}}} @@latex:\\\normalsize\mdseries@@{{{modification-time(%H:%M, t)}}} @@latex:\acr{\lowercase{@@{{{timezone}}}@@latex:}}\iffalse@@, {{{git-rev}}}@@latex:\fi@@
 #+MACRO: timezone (eval (substring (shell-command-to-string "date +%Z") 0 -1))
 #+DESCRIPTION: Personal config.org document for Doom Emacs (v2.0.9)
 #+STARTUP: overview
@@ -84,7 +84,7 @@ According to [[https://nullprogram.com/blog/2016/12/22/][Chris Wellons]], the be
        neotree           ; a project drawer, like NERDTree for vim
        ophints           ; highlight the region an operation acts on
        (popup +defaults)   ; tame sudden yet inevitable temporary windows
-       tabs              ; a tab bar for Emacs
+       ;;tabs              ; a tab bar for Emacs
        ;;treemacs          ; a project drawer, like neotree but cooler
        unicode           ; extended unicode support for various languages
        vc-gutter         ; vcs diff in the fringe
@@ -214,7 +214,6 @@ According to [[https://nullprogram.com/blog/2016/12/22/][Chris Wellons]], the be
 
        :email
        (mu4e +org +gmail)
-       smtpmail
        ;;notmuch
        ;;(wanderlust +gmail)
 
@@ -331,8 +330,8 @@ Selected variable settings from [[https://github.com/angrybacon/dotemacs][Mathie
               scroll-conservatively 101              ; Avoid recentering when scrolling far
               scroll-margin 2                        ; Add a margin when scrolling vertically
               show-help-function nil                 ; Disable help text everywhere
-              tab-always-indent 'complete            ; Tab indents first then tries completions
-              tab-width 4                            ; Smaller width for tab characters
+              tab-always-indent t
+              tab-width 2                            ; Smaller width for tab characters
               uniquify-buffer-name-style 'forward    ; Better than filename<2> for same-name buffers
               window-combination-resize t            ; Take new window space from all windows (not just current)
               x-stretch-cursor t)                    ; Stretch cursor to the glyph width
@@ -424,6 +423,7 @@ Mostly from [[https://github.com/zaiste/][Jakub Neander]].
 (map! :ne "SPC n r" #'deadgrep)
 (map! :ne "SPC n b" #'org-brain-visualize)
 (map! :ne "SPC n p" #'counsel-org-capture)
+(map! :ne "M-u" #'mu4e-update-index)
 #+END_SRC
 
 * Personal Information
@@ -459,6 +459,26 @@ Thanks [[https://www.reddit.com/r/emacs/comments/mr3urh/disable_spellfumode_in_d
 (add-hook 'markdown-mode-hook #'spell-fu-mode)
 #+END_SRC
 
+* =ess/R=
+For working with =.org= files, we should keep some settings in mind.
+
+To get blocks (in R, they are often referred to as "chunks" instead) to talk to each other, you need the ~:session~ header.
+
+If ~:results~ is set to ~"output"~, then the output will be shown in an =.org= file below the chunk, as well as in the console.  If set to ~"value"~ however, there will be minimal inline output, but full console output.
+
+To create inline plots, use the below header, which will also output a =.png= file (plotting inline always requires the making of a file):
+~#+BEGIN_SRC R :file <filename>.png :results file graphics~
+
+In order to export to an HTML document with =C-c C-e h h=, you need this header (where each plot will need a dedicated file):
+~#+BEGIN_SRC R :file <filename>.png :results file graphics :exports both~
+
+~scroll-down-aggressively~ does not apply to =.org= files, but instead just forces the console output window to always show the most recent output to avoid scrolling down.
+
+#+BEGIN_SRC emacs-lisp
+(setq org-babel-default-header-args:R '((:session)
+                                        (:results . "output")))
+(setq scroll-down-aggressively 0.01)
+#+END_SRC
 * =mu4e=
 Some quick notes:
 - ~mu4e-index-update-in-background~ is needed for Gmail to work
@@ -486,10 +506,10 @@ Some quick notes:
         (:maildir "/[Gmail]/All Mail"  :key ?a))
       mu4e-bookmarks
       '((:name "Family" :query "from:Bojack" :key ?f :hide t)
-        (:name "Today's messages" :query "date:today..now" :key ?t :hide t)))
+        (:name "Today's messages" :query "date:today..now" :key ?t :hide nil)))
 #+END_SRC
 
-* =smtpmail=
+* =smtpmail= :TODO:
 This code block is essential to getting Gmail to work with =mu4e=.
 
 #+BEGIN_SRC emacs-lisp
@@ -510,7 +530,7 @@ This code block is essential to getting Gmail to work with =mu4e=.
 ;; (put 'plist-put 'lisp-indent-function 4)
 #+END_SRC
 
-* =org=
+* =org= :TODO:
 
 TODO: is this an alternative to org-agenda-files or is it deprecated?
 (setq +org-capture-todo-file "tasks.org")
@@ -521,14 +541,7 @@ some alternatives (deprecated?) if scroll-down-aggressively is bad
   (setq comint-scroll-to-bottom-on-output t)
   (setq comint-move-point-for-output t)
 
-
-
 #+BEGIN_SRC emacs-lisp
-
-(setq org-babel-default-header-args:R '((:session)
-                                        (:results . "output")))
-(setq scroll-down-aggressively 0.01)
-
 (setq org-directory "~/Documents/org/"
 
       ;; org-agenda-files (directory-files-recursively "~/Documents/org/" "\.org$")  ;; make everything an agenda file
@@ -560,21 +573,12 @@ some alternatives (deprecated?) if scroll-down-aggressively is bad
                                (file+headline "tasks.org" "Inbox")
                                "* [ ] %?\n%i" :prepend t :kill-buffer t)))
 
-
-
-
 ;; (add-hook! 'org-mode-hook #'+org-pretty-mode #'mixed-pitch-mode)  ;;  i don't like this
 (add-hook! 'org-mode-hook (company-mode -1))
 (add-hook! 'org-capture-mode-hook (company-mode -1))
 
-
-
-
 (set-popup-rule! "^\\*Org Agenda" :side 'bottom :size 0.90 :select t :ttl nil)
 (set-popup-rule! "^CAPTURE.*\\.org$" :side 'bottom :size 0.90 :select t :ttl nil)
-
-
-
 
 (after! org
   (set-face-attribute 'org-link nil
@@ -590,30 +594,48 @@ some alternatives (deprecated?) if scroll-down-aggressively is bad
                       :foreground "steelblue2"
                       :background nil
                       :height 1.2
-                      :weight 'normal)
+                      :weight 'bold)
   (set-face-attribute 'org-level-2 nil
                       :foreground "slategray2"
                       :background nil
                       :height 1.0
-                      :weight 'normal)
+                      :weight 'bold)
   (set-face-attribute 'org-level-3 nil
                       :foreground "SkyBlue2"
                       :background nil
                       :height 1.0
-                      :weight 'normal)
+                      :weight 'bold)
   (set-face-attribute 'org-level-4 nil
                       :foreground "DodgerBlue2"
                       :background nil
                       :height 1.0
-                      :weight 'normal)
+                      :weight 'bold)
   (set-face-attribute 'org-level-5 nil
-                      :weight 'normal)
+                      :weight 'bold)
   (set-face-attribute 'org-level-6 nil
-                      :weight 'normal)
+                      :weight 'bold)
   (set-face-attribute 'org-document-title nil
                       :foreground "SlateGray1"
                       :background nil
                       :height 1.75
-                      :weight 'bold)
+                      :weight 'bold))
+#+END_SRC
 
+* =org-super-agenda=
+#+BEGIN_SRC emacs-lisp
+(after! org-agenda
+  (setq org-super-agenda-mode t
+        org-super-agenda-groups '((:name "Today"
+                                   :time-grid t
+                                   :scheduled today)
+                                  (:name "Due today"
+                                   :deadline today)
+                                  (:name "Important"
+                                   :priority "A")
+                                  (:name "Overdue"
+                                   :deadline past)
+                                  (:name "Due soon"
+                                   :deadline future)
+                                  (:name "Big Outcomes"
+                                   :tag "bo"))))
 #+END_SRC
