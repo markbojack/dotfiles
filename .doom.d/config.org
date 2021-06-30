@@ -374,7 +374,6 @@ I'm still experimenting with the ess variables; [[https://stackoverflow.com/ques
   (display-battery-mode 1))                       ; it's nice to know how much power you have
 #+end_src
 
-
 * Font
 From [[https://gitlab.com/dwt1][Derek Taylor's]] config:
 + 'doom-font' -- standard monospace font that is used for most things in Emacs.
@@ -428,40 +427,8 @@ Mostly from [[https://github.com/zaiste/][Jakub Neander]].
 (map! :ne "M-u" #'mu4e-update-index)
 #+end_src
 
-* Personal Information
-#+begin_src emacs-lisp
-(setq user-full-name "Mark Bojack"
-      user-mail-address "markbojack.si@gmail.com")
-#+end_src
-
-* Sources
-- [[https://nullprogram.com/blog/2016/12/22/][Chris Wellons]]
-- [[https://github.com/daviwil][David Wilson]]
-- [[https://gitlab.com/dwt1][Derek Taylor]]
-- [[https://discord.com/channels/406534637242810369/579041038669447178][Discord]]
-- [[https://github.com/hlissner][Henrik Lissner]]
-- [[https://github.com/zaiste/][Jakub Neander]]
-- [[https://github.com/jwiegley/dot-emacs/][John Wiegley]]
-- [[https://github.com/angrybacon/dotemacs][Mathieu Marques]]
-- [[https://www.reddit.com/r/DoomEmacs/][r/DoomEmacs]]
-- [[https://www.reddit.com/r/emacs/][r/emacs]]
-- [[https://www.reddit.com/r/emacsporn/][r/emacsporn]]
-- [[https://www.reddit.com/r/orgmode/][r/orgmode]]
-- [[https://github.com/sachac][Sacha Chua]]
-- [[https://emacs.stackexchange.com/][Stack Exchange]]
-- [[https://github.com/tecosaur/emacs-config][tecosaur]]
-- [[https://github.com/rememberYou][Terencio Agozzino]]
-- [[https://www.emacswiki.org/][Wiki]]
-
-* Spelling
-Thanks [[https://www.reddit.com/r/emacs/comments/mr3urh/disable_spellfumode_in_doomemacs/][Reddit]]!  Disable spell-fu-mode, then re-add other hooks selectively.
-
-#+begin_src emacs-lisp
-(remove-hook 'text-mode-hook #'spell-fu-mode)
-(add-hook 'markdown-mode-hook #'spell-fu-mode)
-#+end_src
-
-* =ess/R= :TODO:
+* Packages
+** =ess/R= :TODO:
 
 TODO: some alternatives (deprecated?) if scroll-down-aggressively is bad
   (setq comint-prompt-read-only t)
@@ -493,7 +460,7 @@ In order to export to an HTML document with =C-c C-e h h=, you need this header 
 (setq scroll-down-aggressively 0.01)
 #+end_src
 
-* =mu4e=
+** =mu4e=
 Some quick notes:
 - ~mu4e-index-update-in-background~ is needed for Gmail to work
 - I take advantage of the ~-c~ flag for ~mbsync~ because I also have =neomutt= installed
@@ -523,7 +490,7 @@ Some quick notes:
         (:name "Today's messages" :query "date:today..now" :key ?t :hide nil)))
 #+end_src
 
-* =smtpmail=
+** =smtpmail=
 This code block is essential to getting Gmail to work with =mu4e=.
 
 #+begin_src emacs-lisp
@@ -535,7 +502,7 @@ This code block is essential to getting Gmail to work with =mu4e=.
       smtpmail-smtp-service 587)
 #+end_src
 
-* =org= :TODO:
+** =org= :TODO:
 
 TODO: is this an alternative to org-agenda-files or is it deprecated?
 (setq +org-capture-todo-file "tasks.org")
@@ -626,7 +593,7 @@ TODO: see if fancy priorities work else see zaiste vid
                       :weight 'bold))
 #+end_src
 
-* =org-super-agenda= :TODO:
+** =org-super-agenda= :TODO:
 TODO see if this works; if not, review zaiste video
 Check out this package on [[https://github.com/alphapapa/org-super-agenda][Github]] for lots more info.
 
@@ -648,7 +615,7 @@ Check out this package on [[https://github.com/alphapapa/org-super-agenda][Githu
                                    :tag "bo"))))
 #+end_src
 
-* =org-brain=
+** =org-brain=
 Check out the [[https://github.com/Kungsgeten/org-brain][Github]].
 
 #+begin_src emacs-lisp
@@ -660,7 +627,7 @@ Check out the [[https://github.com/Kungsgeten/org-brain][Github]].
   :config
   (bind-key "C-c b" 'org-brain-prefix-map org-mode-map)
   (setq org-id-track-globally t)
-  (setq org-id-locations-file "~/.emacs.d/.org-id-locations")
+  (setq org-id-locations-file "~/Documents/org/.ordids")
   (add-hook 'before-save-hook #'org-brain-ensure-ids-in-buffer)
   (set-popup-rule! "^\\*org-brain" :side 'right :size 1.00 :select t :ttl nil)
   (push '("b" "Brain" plain (function org-brain-goto-end)
@@ -670,4 +637,36 @@ Check out the [[https://github.com/Kungsgeten/org-brain][Github]].
   (setq org-brain-title-max-length 12)
   (setq org-brain-include-file-entries nil
         org-brain-file-entries-use-title nil))
+#+end_src
+* Personal Information
+#+begin_src emacs-lisp
+(setq user-full-name "Mark Bojack"
+      user-mail-address "markbojack.si@gmail.com")
+#+end_src
+
+* Sources
+- [[https://nullprogram.com/blog/2016/12/22/][Chris Wellons]]
+- [[https://github.com/daviwil][David Wilson]]
+- [[https://gitlab.com/dwt1][Derek Taylor]]
+- [[https://discord.com/channels/406534637242810369/579041038669447178][Discord]]
+- [[https://github.com/hlissner][Henrik Lissner]]
+- [[https://github.com/zaiste/][Jakub Neander]]
+- [[https://github.com/jwiegley/dot-emacs/][John Wiegley]]
+- [[https://github.com/angrybacon/dotemacs][Mathieu Marques]]
+- [[https://www.reddit.com/r/DoomEmacs/][r/DoomEmacs]]
+- [[https://www.reddit.com/r/emacs/][r/emacs]]
+- [[https://www.reddit.com/r/emacsporn/][r/emacsporn]]
+- [[https://www.reddit.com/r/orgmode/][r/orgmode]]
+- [[https://github.com/sachac][Sacha Chua]]
+- [[https://emacs.stackexchange.com/][Stack Exchange]]
+- [[https://github.com/tecosaur/emacs-config][tecosaur]]
+- [[https://github.com/rememberYou][Terencio Agozzino]]
+- [[https://www.emacswiki.org/][Wiki]]
+
+* Spelling
+Thanks [[https://www.reddit.com/r/emacs/comments/mr3urh/disable_spellfumode_in_doomemacs/][Reddit]]!  Disable spell-fu-mode, then re-add other hooks selectively.
+
+#+begin_src emacs-lisp
+(remove-hook 'text-mode-hook #'spell-fu-mode)
+(add-hook 'markdown-mode-hook #'spell-fu-mode)
 #+end_src

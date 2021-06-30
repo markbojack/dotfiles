@@ -4,8 +4,7 @@ windows:
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
-  - active: true
-    history:
+  - history:
     - active: true
       last_visited: '2021-06-30T22:57:45'
       pinned: false
@@ -14,4 +13,15 @@ windows:
         y: 0
       title: Home
       url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-30T23:03:59'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Yahoo Finance - Stock Market Live, Quotes, Business & Finance News
+      url: https://finance.yahoo.com/
       zoom: 0.75

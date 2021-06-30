@@ -82,16 +82,6 @@
 (map! :ne "M-u" #'mu4e-update-index)
 ;; Mappings:1 ends here
 
-;; [[file:config.org::*Personal Information][Personal Information:1]]
-(setq user-full-name "Mark Bojack"
-      user-mail-address "markbojack.si@gmail.com")
-;; Personal Information:1 ends here
-
-;; [[file:config.org::*Spelling][Spelling:1]]
-(remove-hook 'text-mode-hook #'spell-fu-mode)
-(add-hook 'markdown-mode-hook #'spell-fu-mode)
-;; Spelling:1 ends here
-
 ;; [[file:config.org::*=ess/R=][=ess/R=:1]]
 (setq org-babel-default-header-args:r '((:session)
                                         (:results . "output")))
@@ -243,7 +233,7 @@
   :config
   (bind-key "C-c b" 'org-brain-prefix-map org-mode-map)
   (setq org-id-track-globally t)
-  (setq org-id-locations-file "~/.emacs.d/.org-id-locations")
+  (setq org-id-locations-file "~/Documents/org/.ordids")
   (add-hook 'before-save-hook #'org-brain-ensure-ids-in-buffer)
   (set-popup-rule! "^\\*org-brain" :side 'right :size 1.00 :select t :ttl nil)
   (push '("b" "Brain" plain (function org-brain-goto-end)
@@ -254,3 +244,13 @@
   (setq org-brain-include-file-entries nil
         org-brain-file-entries-use-title nil))
 ;; =org-brain=:1 ends here
+
+;; [[file:config.org::*Personal Information][Personal Information:1]]
+(setq user-full-name "Mark Bojack"
+      user-mail-address "markbojack.si@gmail.com")
+;; Personal Information:1 ends here
+
+;; [[file:config.org::*Spelling][Spelling:1]]
+(remove-hook 'text-mode-hook #'spell-fu-mode)
+(add-hook 'markdown-mode-hook #'spell-fu-mode)
+;; Spelling:1 ends here
