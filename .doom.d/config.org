@@ -1,14 +1,14 @@
-#+TITLE: Doom Emacs Config
-#+AUTHOR: Mark Bojack
-#+EMAIL: markbojack.si@gmail.com
-#+DATE: @@html:<!--@@{{{git-rev}}}@@html:-->@@@@latex:\\\Large\bfseries@@ {{{modification-time(%Y-%m-%d, t)}}} @@latex:\\\normalsize\mdseries@@{{{modification-time(%H:%M, t)}}} @@latex:\acr{\lowercase{@@{{{timezone}}}@@latex:}}\iffalse@@, {{{git-rev}}}@@latex:\fi@@
-#+MACRO: timezone (eval (substring (shell-command-to-string "date +%Z") 0 -1))
-#+DESCRIPTION: Personal config.org document for Doom Emacs (v2.0.9)
-#+STARTUP: overview
-#+PROPERTY: header-args:emacs-lisp :tangle yes :comments link
-#+PROPERTY: header-args:shell :tangle "setup.sh"
-#+PROPERTY: header-args :tangle no :results silent :eval no-export
-#+OPTIONS: coverpage:yes
+#+title: Doom Emacs Config
+#+author: Mark Bojack
+#+email: markbojack.si@gmail.com
+#+date: @@html:<!--@@{{{git-rev}}}@@html:-->@@@@latex:\\\large\bfseries@@ {{{modification-time(%y-%m-%d, t)}}} @@latex:\\\normalsize\mdseries@@{{{modification-time(%h:%m, t)}}} @@latex:\acr{\lowercase{@@{{{timezone}}}@@latex:}}\iffalse@@, {{{git-rev}}}@@latex:\fi@@
+#+macro: timezone (eval (substring (shell-command-to-string "date +%z") 0 -1))
+#+description: personal config.org document for doom emacs (v2.0.9)
+#+startup: overview
+#+property: header-args:emacs-lisp :tangle yes :comments link
+#+property: header-args:shell :tangle "setup.sh"
+#+property: header-args :tangle no :results silent :eval no-export
+#+options: coverpage:yes
 
 * Background
 ** Update Frequency
@@ -36,13 +36,13 @@ If R fails to work properly for whatever reason, try =SPC q r= as a preliminary 
 ** Let's get started
 According to [[https://nullprogram.com/blog/2016/12/22/][Chris Wellons]], the below makes this config run a little faster.
 
-#+BEGIN_SRC emacs-lisp
+#+begin_src emacs-lisp
 ;;; config.el -*- lexical-binding: t; -*-
-#+END_SRC
+#+end_src
 
 * Configs
 ** init.el
-#+BEGIN_SRC emacs-lisp :tangle init.el
+#+begin_src emacs-lisp :tangle init.el
 ;;; init.el -*- lexical-binding: t; -*-
 
 ;; NOTE Press 'SPC h d h' (or 'C-h d h' for non-vim users) to access Doom's
@@ -228,10 +228,10 @@ According to [[https://nullprogram.com/blog/2016/12/22/][Chris Wellons]], the be
        :config
        literate
        (default +bindings +smartparens))
-#+END_SRC
+#+end_src
 
 ** packages.el
-#+BEGIN_SRC emacs-lisp :tangle packages.el
+#+begin_src emacs-lisp :tangle packages.el
 ;; -*- no-byte-compile: t; -*-
 ;;; $DOOMDIR/packages.el
 
@@ -295,6 +295,7 @@ According to [[https://nullprogram.com/blog/2016/12/22/][Chris Wellons]], the be
 (package! rainbow-mode)
 (package! resize-window)
 (package! dmenu)
+;; (package! centaur-tabs) ; or just use tabs in init.el
 
 (package! password-store)
 
@@ -310,39 +311,41 @@ According to [[https://nullprogram.com/blog/2016/12/22/][Chris Wellons]], the be
 ;; (package! ox-gemini)
 ;; (package! tldr)
 ;; (package! wc-mode)
-#+END_SRC
+#+end_src
 
 * Defaults
 ** setq-default
 Selected variable settings from [[https://github.com/angrybacon/dotemacs][Mathieu Marques']] "Better Defaults."
+(setq-default indent-tabs-mode nil)
+(setq-default tab-width 4)
+(setq indent-line-function 'insert-tab)
 
-#+BEGIN_SRC emacs-lisp
-(setq-default cursor-in-non-selected-windows nil     ; Hide the cursor in inactive windows
-              custom-unlispify-menu-entries nil      ; Prefer kebab-case for titles
-              custom-unlispify-tag-names nil         ; Prefer kebab-case for symbols
-              delete-by-moving-to-trash t            ; Delete files to trash
-              fill-column 80                         ; Set width for automatic line breaks
-              help-window-select t                   ; Focus new help windows when opened
-              initial-scratch-message ""             ; Empty the initial *scratch* buffer
-              mouse-yank-at-point t                  ; Yank at point rather than pointer
-              read-process-output-max (* 1024 1024)  ; Increase read size per process
-              recenter-positions '(5 top bottom)     ; Set re-centering positions
-              scroll-conservatively 101              ; Avoid recentering when scrolling far
-              scroll-margin 2                        ; Add a margin when scrolling vertically
-              show-help-function nil                 ; Disable help text everywhere
-              tab-always-indent t
-              tab-width 2                            ; Smaller width for tab characters
-              uniquify-buffer-name-style 'forward    ; Better than filename<2> for same-name buffers
-              window-combination-resize t            ; Take new window space from all windows (not just current)
-              x-stretch-cursor t)                    ; Stretch cursor to the glyph width
-#+END_SRC
+#+begin_src emacs-lisp
+(setq-default cursor-in-non-selected-windows nil        ; hide the cursor in inactive windows
+              custom-unlispify-menu-entries nil         ; prefer kebab-case for titles
+              custom-unlispify-tag-names nil            ; prefer kebab-case for symbols
+              delete-by-moving-to-trash t               ; delete files to trash
+              fill-column 80                            ; set width for automatic line breaks
+              help-window-select t                      ; focus new help windows when opened
+              initial-scratch-message ""                ; empty the initial *scratch* buffer
+              mouse-yank-at-point t                     ; yank at point rather than pointer
+              read-process-output-max (* 1024 1024)     ; increase read size per process
+              recenter-positions '(5 top bottom)        ; set re-centering positions
+              scroll-conservatively 101                 ; avoid recentering when scrolling far
+              scroll-margin 2                           ; add a margin when scrolling vertically
+              show-help-function nil                    ; disable help text everywhere
+              tab-width 4                               ; smaller width for tab characters
+              uniquify-buffer-name-style 'forward       ; better than filename<2> for same-name buffers
+              window-combination-resize t               ; take new window space from all windows (not just current)
+              x-stretch-cursor t)                       ; stretch cursor to the glyph width
+#+end_src
 
 ** setq
 ~gc-cons-threshold~ is a [[https://github.com/daviwil][David Wilson]] trick: "Make gc pauses faster by decreasing the threshold." David's figure was modified in concordance with the config of [[https://github.com/angrybacon/dotemacs][Mathieu Marques]].
 
 I'm still experimenting with the ess variables; [[https://stackoverflow.com/questions/53769315/emacs-ess-indent-after][explanation here]].
 
-#+BEGIN_SRC emacs-lisp
+#+begin_src emacs-lisp
 (setq doom-theme 'doom-one
       display-line-numbers-type 'relative
       evil-split-window-below t
@@ -350,18 +353,16 @@ I'm still experimenting with the ess variables; [[https://stackoverflow.com/ques
       gc-cons-threshold (* 8 1024 1024)
       auto-save-default t
       make-backup-files t
-      confirm-kill-emacs nil
-      ;; ess-offset-continued '(straight 4)        ;; indent after pipe, etc
-      ess-indent-offset 4                       ;; indent all lines
-      undo-limit 80000000
-      truncate-string-ellipsis "…"                ; Unicode ellispis are nicer than "...", and also save /precious/ space
-      password-cache-expiry nil                   ; I can trust my computers ... can't I?
-      evil-want-fine-undo t                       ; By default while in insert all changes are one big blob. Be more granular
-      tab-line-mode t)
-#+END_SRC
+      confirm-kill-emacs nil                    ; just shutdown without message
+      ;; ess-offset-continued '(straight 4)        ; indent after pipe, etc
+      ess-indent-offset 4                       ; indent all lines
+      undo-limit 80000000                       ; increase undo storage to 80mib
+      truncate-string-ellipsis "…"              ; unicode ellispis are nicer than "...", and also save /precious/ space
+      password-cache-expiry nil)                ; i can trust my computers ... can't i?
+#+end_src
 
 ** Miscellaneous
-#+BEGIN_SRC emacs-lisp
+#+begin_src emacs-lisp
 (fset 'yes-or-no-p 'y-or-n-p)           ; Replace yes/no prompts with y/n
 (global-subword-mode t)                 ; Iterate through CamelCase words
 (mouse-avoidance-mode 'exile)           ; Avoid collision of mouse with point
@@ -371,7 +372,8 @@ I'm still experimenting with the ess variables; [[https://stackoverflow.com/ques
 (display-time-mode 1)                             ; Enable time in the mode-line
 (unless (string-match-p "^Power N/A" (battery))   ; On laptops...
   (display-battery-mode 1))                       ; it's nice to know how much power you have
-#+END_SRC
+#+end_src
+
 
 * Font
 From [[https://gitlab.com/dwt1][Derek Taylor's]] config:
@@ -386,7 +388,7 @@ From [[https://gitlab.com/dwt1][Derek Taylor's]] config:
 
 I can't customize doom-big-font 😭
 
-#+BEGIN_SRC emacs-lisp
+#+begin_src emacs-lisp
 (setq doom-font (font-spec :family "RobotoMono Nerd Font" :size 10 :weight 'bold)
       ;; doom-big-font (font-spec :family "RobotoMono Nerd Font" :size 14))
       doom-variable-pitch-font (font-spec :family "sans" :size 13))
@@ -398,25 +400,25 @@ I can't customize doom-big-font 😭
 (custom-set-faces!
   '(font-lock-comment-face :slant italic)
   '(font-lock-keyword-face :slant italic))
-#+END_SRC
+#+end_src
 
 * Fullscreen
 Increases the robustness of the fullscreen setting across various DEs/WMs.
 Some window managers may not understand/work with =maximized= (or may not produce the desired effect), in that case try ~fullboth~ or ~fullscreen~.
 [[https://emacs.stackexchange.com/questions/2999/how-to-maximize-my-emacs-frame-on-start-up][Here is more info.]]
 
-#+BEGIN_SRC emacs-lisp
+#+begin_src emacs-lisp
 (pcase window-system
   ('w32 (set-frame-parameter nil 'fullscreen 'fullboth))
   (_ (set-frame-parameter nil 'fullscreen 'maximized)))
 
 ;; (add-to-list 'initial-frame-alist '(fullscreen . maximized))
-#+END_SRC
+#+end_src
 
 * Mappings
 Mostly from [[https://github.com/zaiste/][Jakub Neander]].
 
-#+BEGIN_SRC emacs-lisp
+#+begin_src emacs-lisp
 (map! :desc "Create Sparse Tree" :ne "SPC / s" #'org-sparse-tree)
 (map! :desc "Create Sparse Tree for Tags" :ne "SPC / t" #'org-tags-sparse-tree)
 (map! :ne "M-/" #'comment-or-uncomment-region)
@@ -424,13 +426,13 @@ Mostly from [[https://github.com/zaiste/][Jakub Neander]].
 (map! :ne "SPC n b" #'org-brain-visualize)
 (map! :ne "SPC n p" #'counsel-org-capture)
 (map! :ne "M-u" #'mu4e-update-index)
-#+END_SRC
+#+end_src
 
 * Personal Information
-#+BEGIN_SRC emacs-lisp
+#+begin_src emacs-lisp
 (setq user-full-name "Mark Bojack"
       user-mail-address "markbojack.si@gmail.com")
-#+END_SRC
+#+end_src
 
 * Sources
 - [[https://nullprogram.com/blog/2016/12/22/][Chris Wellons]]
@@ -454,12 +456,23 @@ Mostly from [[https://github.com/zaiste/][Jakub Neander]].
 * Spelling
 Thanks [[https://www.reddit.com/r/emacs/comments/mr3urh/disable_spellfumode_in_doomemacs/][Reddit]]!  Disable spell-fu-mode, then re-add other hooks selectively.
 
-#+BEGIN_SRC emacs-lisp
+#+begin_src emacs-lisp
 (remove-hook 'text-mode-hook #'spell-fu-mode)
 (add-hook 'markdown-mode-hook #'spell-fu-mode)
-#+END_SRC
+#+end_src
 
-* =ess/R=
+* =ess/R= :TODO:
+
+TODO: some alternatives (deprecated?) if scroll-down-aggressively is bad
+  (setq comint-prompt-read-only t)
+  (setq comint-scroll-to-bottom-on-input t)
+  (setq comint-scroll-to-bottom-on-output t)
+  (setq comint-move-point-for-output t)
+
+
+
+
+
 For working with =.org= files, we should keep some settings in mind.
 
 To get blocks (in R, they are often referred to as "chunks" instead) to talk to each other, you need the ~:session~ header.
@@ -474,18 +487,19 @@ In order to export to an HTML document with =C-c C-e h h=, you need this header 
 
 ~scroll-down-aggressively~ does not apply to =.org= files, but instead just forces the console output window to always show the most recent output to avoid scrolling down.
 
-#+BEGIN_SRC emacs-lisp
-(setq org-babel-default-header-args:R '((:session)
+#+begin_src emacs-lisp
+(setq org-babel-default-header-args:r '((:session)
                                         (:results . "output")))
 (setq scroll-down-aggressively 0.01)
-#+END_SRC
+#+end_src
+
 * =mu4e=
 Some quick notes:
 - ~mu4e-index-update-in-background~ is needed for Gmail to work
 - I take advantage of the ~-c~ flag for ~mbsync~ because I also have =neomutt= installed
 - ~mu4e-index-update-error-warning nil~ is needed if your =~/.mbsyncrc= contains the follwing line of code (I just use =pass=, so I don't need this): ~PassCmd "gpg2 -q --for-your-eyes-only --no-tty -d ~/.password-store/your@gmail.com.gpg'~
 
-#+BEGIN_SRC emacs-lisp
+#+begin_src emacs-lisp
 (add-to-list 'load-path "/usr/share/emacs/site-lisp/mu4e/")
 
 (setq mu4e-index-update-in-background t
@@ -507,41 +521,27 @@ Some quick notes:
       mu4e-bookmarks
       '((:name "Family" :query "from:Bojack" :key ?f :hide t)
         (:name "Today's messages" :query "date:today..now" :key ?t :hide nil)))
-#+END_SRC
+#+end_src
 
-* =smtpmail= :TODO:
+* =smtpmail=
 This code block is essential to getting Gmail to work with =mu4e=.
 
-#+BEGIN_SRC emacs-lisp
+#+begin_src emacs-lisp
 (setq starttls-use-gnutls t
       smtpmail-starttls-credentials '(("smtp.gmail.com" 587 nil nil))
       smtpmail-auth-credentials '(("smtp.gmail.com" 587 "markbojack.si@gmail.com" nil))
       smtpmail-default-smtp-server "smtp.gmail.com"
       smtpmail-smtp-server "smtp.gmail.com"
       smtpmail-smtp-service 587)
-#+END_SRC
-
-
-
-
-#+BEGIN_SRC emacs-lisp
-;; (put 'add-function 'lisp-indent-function 4)
-;; (put 'advice-add 'lisp-indent-function 4)
-;; (put 'plist-put 'lisp-indent-function 4)
-#+END_SRC
+#+end_src
 
 * =org= :TODO:
 
 TODO: is this an alternative to org-agenda-files or is it deprecated?
 (setq +org-capture-todo-file "tasks.org")
+TODO: see if fancy priorities work else see zaiste vid
 
-some alternatives (deprecated?) if scroll-down-aggressively is bad
-  (setq comint-prompt-read-only t)
-  (setq comint-scroll-to-bottom-on-input t)
-  (setq comint-scroll-to-bottom-on-output t)
-  (setq comint-move-point-for-output t)
-
-#+BEGIN_SRC emacs-lisp
+#+begin_src emacs-lisp
 (setq org-directory "~/Documents/org/"
 
       ;; org-agenda-files (directory-files-recursively "~/Documents/org/" "\.org$")  ;; make everything an agenda file
@@ -573,9 +573,14 @@ some alternatives (deprecated?) if scroll-down-aggressively is bad
                                (file+headline "tasks.org" "Inbox")
                                "* [ ] %?\n%i" :prepend t :kill-buffer t)))
 
+;; Fancy priorities mode
+;; (setq org-fancy-priorities-list '("⚡" "⬆" "⬇" "☕"))
+(setq org-fancy-priorities-list '("" "" ""))
+
 ;; (add-hook! 'org-mode-hook #'+org-pretty-mode #'mixed-pitch-mode)  ;;  i don't like this
 (add-hook! 'org-mode-hook (company-mode -1))
 (add-hook! 'org-capture-mode-hook (company-mode -1))
+(add-hook! 'org-mode-hook (org-fancy-priorities-mode))
 
 (set-popup-rule! "^\\*Org Agenda" :side 'bottom :size 0.90 :select t :ttl nil)
 (set-popup-rule! "^CAPTURE.*\\.org$" :side 'bottom :size 0.90 :select t :ttl nil)
@@ -619,10 +624,13 @@ some alternatives (deprecated?) if scroll-down-aggressively is bad
                       :background nil
                       :height 1.75
                       :weight 'bold))
-#+END_SRC
+#+end_src
 
-* =org-super-agenda=
-#+BEGIN_SRC emacs-lisp
+* =org-super-agenda= :TODO:
+TODO see if this works; if not, review zaiste video
+Check out this package on [[https://github.com/alphapapa/org-super-agenda][Github]] for lots more info.
+
+#+begin_src emacs-lisp
 (after! org-agenda
   (setq org-super-agenda-mode t
         org-super-agenda-groups '((:name "Today"
@@ -638,4 +646,28 @@ some alternatives (deprecated?) if scroll-down-aggressively is bad
                                    :deadline future)
                                   (:name "Big Outcomes"
                                    :tag "bo"))))
-#+END_SRC
+#+end_src
+
+* =org-brain=
+Check out the [[https://github.com/Kungsgeten/org-brain][Github]].
+
+#+begin_src emacs-lisp
+(use-package org-brain
+  :ensure t
+  :init
+  (with-eval-after-load 'evil
+    (evil-set-initial-state 'org-brain-visualize-mode 'emacs))
+  :config
+  (bind-key "C-c b" 'org-brain-prefix-map org-mode-map)
+  (setq org-id-track-globally t)
+  (setq org-id-locations-file "~/.emacs.d/.org-id-locations")
+  (add-hook 'before-save-hook #'org-brain-ensure-ids-in-buffer)
+  (set-popup-rule! "^\\*org-brain" :side 'right :size 1.00 :select t :ttl nil)
+  (push '("b" "Brain" plain (function org-brain-goto-end)
+          "* %i%?" :empty-lines 1)
+        org-capture-templates)
+  (setq org-brain-visualize-default-choices 'all)
+  (setq org-brain-title-max-length 12)
+  (setq org-brain-include-file-entries nil
+        org-brain-file-entries-use-title nil))
+#+end_src

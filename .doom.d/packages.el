@@ -62,6 +62,7 @@
 (package! rainbow-mode)
 (package! resize-window)
 (package! dmenu)
+;; (package! centaur-tabs) ; or just use tabs in init.el
 
 (package! password-store)
 

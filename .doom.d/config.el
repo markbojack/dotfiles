@@ -3,24 +3,23 @@
 ;; Let's get started:1 ends here
 
 ;; [[file:config.org::*setq-default][setq-default:1]]
-(setq-default cursor-in-non-selected-windows nil     ; Hide the cursor in inactive windows
-              custom-unlispify-menu-entries nil      ; Prefer kebab-case for titles
-              custom-unlispify-tag-names nil         ; Prefer kebab-case for symbols
-              delete-by-moving-to-trash t            ; Delete files to trash
-              fill-column 80                         ; Set width for automatic line breaks
-              help-window-select t                   ; Focus new help windows when opened
-              initial-scratch-message ""             ; Empty the initial *scratch* buffer
-              mouse-yank-at-point t                  ; Yank at point rather than pointer
-              read-process-output-max (* 1024 1024)  ; Increase read size per process
-              recenter-positions '(5 top bottom)     ; Set re-centering positions
-              scroll-conservatively 101              ; Avoid recentering when scrolling far
-              scroll-margin 2                        ; Add a margin when scrolling vertically
-              show-help-function nil                 ; Disable help text everywhere
-              tab-always-indent t
-              tab-width 2                            ; Smaller width for tab characters
-              uniquify-buffer-name-style 'forward    ; Better than filename<2> for same-name buffers
-              window-combination-resize t            ; Take new window space from all windows (not just current)
-              x-stretch-cursor t)                    ; Stretch cursor to the glyph width
+(setq-default cursor-in-non-selected-windows nil        ; hide the cursor in inactive windows
+              custom-unlispify-menu-entries nil         ; prefer kebab-case for titles
+              custom-unlispify-tag-names nil            ; prefer kebab-case for symbols
+              delete-by-moving-to-trash t               ; delete files to trash
+              fill-column 80                            ; set width for automatic line breaks
+              help-window-select t                      ; focus new help windows when opened
+              initial-scratch-message ""                ; empty the initial *scratch* buffer
+              mouse-yank-at-point t                     ; yank at point rather than pointer
+              read-process-output-max (* 1024 1024)     ; increase read size per process
+              recenter-positions '(5 top bottom)        ; set re-centering positions
+              scroll-conservatively 101                 ; avoid recentering when scrolling far
+              scroll-margin 2                           ; add a margin when scrolling vertically
+              show-help-function nil                    ; disable help text everywhere
+              tab-width 4                               ; smaller width for tab characters
+              uniquify-buffer-name-style 'forward       ; better than filename<2> for same-name buffers
+              window-combination-resize t               ; take new window space from all windows (not just current)
+              x-stretch-cursor t)                       ; stretch cursor to the glyph width
 ;; setq-default:1 ends here
 
 ;; [[file:config.org::*setq][setq:1]]
@@ -31,14 +30,12 @@
       gc-cons-threshold (* 8 1024 1024)
       auto-save-default t
       make-backup-files t
-      confirm-kill-emacs nil
-      ;; ess-offset-continued '(straight 4)        ;; indent after pipe, etc
-      ess-indent-offset 4                       ;; indent all lines
-      undo-limit 80000000
-      truncate-string-ellipsis "…"                ; Unicode ellispis are nicer than "...", and also save /precious/ space
-      password-cache-expiry nil                   ; I can trust my computers ... can't I?
-      evil-want-fine-undo t                       ; By default while in insert all changes are one big blob. Be more granular
-      tab-line-mode t)
+      confirm-kill-emacs nil                    ; just shutdown without message
+      ;; ess-offset-continued '(straight 4)        ; indent after pipe, etc
+      ess-indent-offset 4                       ; indent all lines
+      undo-limit 80000000                       ; increase undo storage to 80mib
+      truncate-string-ellipsis "…"              ; unicode ellispis are nicer than "...", and also save /precious/ space
+      password-cache-expiry nil)                ; i can trust my computers ... can't i?
 ;; setq:1 ends here
 
 ;; [[file:config.org::*Miscellaneous][Miscellaneous:1]]
@@ -96,7 +93,7 @@
 ;; Spelling:1 ends here
 
 ;; [[file:config.org::*=ess/R=][=ess/R=:1]]
-(setq org-babel-default-header-args:R '((:session)
+(setq org-babel-default-header-args:r '((:session)
                                         (:results . "output")))
 (setq scroll-down-aggressively 0.01)
 ;; =ess/R=:1 ends here
@@ -134,12 +131,6 @@
       smtpmail-smtp-service 587)
 ;; =smtpmail=:1 ends here
 
-;; [[file:config.org::*=smtpmail=][=smtpmail=:2]]
-;; (put 'add-function 'lisp-indent-function 4)
-;; (put 'advice-add 'lisp-indent-function 4)
-;; (put 'plist-put 'lisp-indent-function 4)
-;; =smtpmail=:2 ends here
-
 ;; [[file:config.org::*=org=][=org=:1]]
 (setq org-directory "~/Documents/org/"
 
@@ -172,9 +163,14 @@
                                (file+headline "tasks.org" "Inbox")
                                "* [ ] %?\n%i" :prepend t :kill-buffer t)))
 
+;; Fancy priorities mode
+;; (setq org-fancy-priorities-list '("⚡" "⬆" "⬇" "☕"))
+(setq org-fancy-priorities-list '("" "" ""))
+
 ;; (add-hook! 'org-mode-hook #'+org-pretty-mode #'mixed-pitch-mode)  ;;  i don't like this
 (add-hook! 'org-mode-hook (company-mode -1))
 (add-hook! 'org-capture-mode-hook (company-mode -1))
+(add-hook! 'org-mode-hook (org-fancy-priorities-mode))
 
 (set-popup-rule! "^\\*Org Agenda" :side 'bottom :size 0.90 :select t :ttl nil)
 (set-popup-rule! "^CAPTURE.*\\.org$" :side 'bottom :size 0.90 :select t :ttl nil)
@@ -237,3 +233,24 @@
                                   (:name "Big Outcomes"
                                    :tag "bo"))))
 ;; =org-super-agenda=:1 ends here
+
+;; [[file:config.org::*=org-brain=][=org-brain=:1]]
+(use-package org-brain
+  :ensure t
+  :init
+  (with-eval-after-load 'evil
+    (evil-set-initial-state 'org-brain-visualize-mode 'emacs))
+  :config
+  (bind-key "C-c b" 'org-brain-prefix-map org-mode-map)
+  (setq org-id-track-globally t)
+  (setq org-id-locations-file "~/.emacs.d/.org-id-locations")
+  (add-hook 'before-save-hook #'org-brain-ensure-ids-in-buffer)
+  (set-popup-rule! "^\\*org-brain" :side 'right :size 1.00 :select t :ttl nil)
+  (push '("b" "Brain" plain (function org-brain-goto-end)
+          "* %i%?" :empty-lines 1)
+        org-capture-templates)
+  (setq org-brain-visualize-default-choices 'all)
+  (setq org-brain-title-max-length 12)
+  (setq org-brain-include-file-entries nil
+        org-brain-file-entries-use-title nil))
+;; =org-brain=:1 ends here

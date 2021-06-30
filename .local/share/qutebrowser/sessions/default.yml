@@ -4,105 +4,18 @@ windows:
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
-  - history:
-    - active: true
-      last_visited: '2021-06-29T20:29:37'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 7240
-      title: Doom Emacs Configuration
-      url: https://tecosaur.github.io/emacs-config/config.html#rebuild-mail-index
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-29T20:29:37'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 2200
-      title: zzamboni.org | My Doom Emacs configuration, with commentary
-      url: https://zzamboni.org/post/my-doom-emacs-configuration-with-commentary/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-29T20:29:37'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: https://raw.githubusercontent.com/zzamboni/dot-doom/master/doom.org
-      url: https://raw.githubusercontent.com/zzamboni/dot-doom/master/doom.org
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-29T21:01:11'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: CL1! 73.08 ▲ +0.23% Unnamed
-      url: https://www.tradingview.com/chart/vpYiBxKy/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-29T21:08:07'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: CVX 103.81 ▼ −0.17% Unnamed
-      url: https://www.tradingview.com/chart/vpYiBxKy/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-29T21:07:22'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: BP 26.35 ▼ −0.42% Unnamed
-      url: https://www.tradingview.com/chart/vpYiBxKy/
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-29T21:13:30'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: XOM 62.87 ▼ −0.22% Unnamed
-      url: https://www.tradingview.com/chart/vpYiBxKy/
-      zoom: 0.75
   - active: true
     history:
+    - last_visited: '2021-06-30T21:03:53'
+      pinned: false
+      title: Doom Emacs Configuration
+      url: https://tecosaur.github.io/emacs-config/config.html#rebuild-mail-index
     - active: true
-      last_visited: '2021-06-29T22:20:50'
+      last_visited: '2021-06-30T22:57:39'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: 'weird indentation problem · Issue #50 · hlissner/doom-emacs'
-      url: https://github.com/hlissner/doom-emacs/issues/50
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-29T22:21:03'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: I tried Org Mode the other day and gave up when Emacs didn't allow me
-        to edit an... | Hacker News
-      url: https://news.ycombinator.com/item?id=26359043
-      zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-06-29T22:21:11'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: hlissner/doom-emacs - docs/faq.org at develop - doom-emacs - V-NOUGHT
-      url: https://git.v0.io/hlissner/doom-emacs/src/branch/develop/docs/faq.org?lang=ru-RU
+      title: Home
+      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
       zoom: 0.75
