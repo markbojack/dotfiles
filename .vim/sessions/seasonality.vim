@@ -1,6 +1,6 @@
 " ~/.vim/sessions/seasonality.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 01 Tháng 7 2021 at 02:51:47.
+" Created by session.vim 2.13.1 on 01 Tháng 7 2021 at 03:13:07.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -22,7 +22,7 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
 endif
 set shortmess=aoO
 badd +1 R/getAndProcessSymbols.R
-badd +120 R/report.R
+badd +399 R/report.R
 badd +97 model-gen.R
 badd +74 data/model-gen.R
 badd +1 R/h-DoW.R
@@ -60,7 +60,7 @@ badd +7 R/packagesAndOptions.R
 badd +27 ~/copper-ingot/docs/fees.md
 badd +2 data/high-prev/jun-long.md
 badd +2 data/high-prev/jun-short.md
-badd +12 README.md
+badd +7 README.md
 badd +1 data/high-prev/calendar.md
 badd +7 data/high-prev/long-cal.md
 badd +1 data/high-prev/jan-long.md
@@ -75,7 +75,7 @@ badd +1 shorts
 badd +849 data/high-sharpe/longs
 badd +176 data/high-sharpe/shorts
 badd +1 sharpe-perforance.R
-badd +13 analysis.R
+badd +26 analysis.R
 badd +260 ~/.config/picom/picom.conf
 badd +1116 data/prev-etf-long
 badd +334 data/prev-etf-short
@@ -131,12 +131,12 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 5 - ((4 * winheight(0) + 26) / 53)
+let s:l = 6 - ((5 * winheight(0) + 26) / 53)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-5
-normal! 0
+6
+normal! 025|
 wincmd w
 2wincmd w
 exe 'vert 1resize ' . ((&columns * 31 + 110) / 220)
