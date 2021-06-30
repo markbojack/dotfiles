@@ -460,7 +460,9 @@ In order to export to an HTML document with =C-c C-e h h=, you need this header 
 (setq scroll-down-aggressively 0.01)
 #+end_src
 
-** =mu4e=
+** =mu4e= :TODO:
+TODO: auto run mu4e-update-index at start
+
 Some quick notes:
 - ~mu4e-index-update-in-background~ is needed for Gmail to work
 - I take advantage of the ~-c~ flag for ~mbsync~ because I also have =neomutt= installed

@@ -1,6 +1,6 @@
 " ~/.vim/sessions/seasonality.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 28 Tháng 6 2021 at 22:09:44.
+" Created by session.vim 2.13.1 on 01 Tháng 7 2021 at 02:51:47.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -92,7 +92,7 @@ badd +1 R/m.R
 badd +1 R/sm.R
 badd +1 R/q.R
 badd +50 gann.R
-badd +0 relative-return.R
+badd +1 relative-return.R
 argglobal
 %argdel
 $argadd ~/.config/nvim/init.vim
@@ -131,12 +131,12 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 13 - ((12 * winheight(0) + 26) / 53)
+let s:l = 5 - ((4 * winheight(0) + 26) / 53)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-13
-normal! 06|
+5
+normal! 0
 wincmd w
 2wincmd w
 exe 'vert 1resize ' . ((&columns * 31 + 110) / 220)
