@@ -1,40 +1,17 @@
 windows:
-- geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
-    IQAABUUAAALv
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAAEAAAACEAAAKiAAAC7wAAAAAAAAAABVYAAAAQAAAA
+    IQAAAqIAAALv
   tabs:
-  - history:
-    - active: true
-      last_visited: '2021-07-01T16:24:21'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Home
-      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
-      zoom: 0.75
-  - history:
-    - last_visited: '2021-07-01T16:24:21'
-      pinned: false
-      title: Outlook
-      url: https://outlook.live.com/mail/0/inbox/id/AQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoARgAAA4lIdydTkERKv2ZG1Ybxqy4HABKhdE1MPkJJuq%2BLMFjFymoAAAIBDAAAABKhdE1MPkJJuq%2BLMFjFymoABI3pFwoAAAA%3D
-    - active: true
-      last_visited: '2021-07-01T16:24:55'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: outlook.live.com
-      url: https://outlook.live.com/owa/auth/frowny.aspx?app=Mail&st=0&ru=/mail/0/inbox/id/AQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoARgAAA4lIdydTkERKv2ZG1Ybxqy4HABKhdE1MPkJJuq%2BLMFjFymoAAAIBDAAAABKhdE1MPkJJuq%2BLMFjFymoABI3pFwoAAAA%3D&msg=undefined&et=ServerError&esrc=StartupData&err=Error%3A%20NetworkResponseError&wsver=undefined&ebe=undefined&efe=undefined&reqid=undefined&cId=D247C6265CB144E98A8437C9B5654889&estack=Error%3A%20NetworkResponseError%0A%20%20%20%20at%20i%20(https%3A%2F%2Foutlook.live.com%2Fmail%2F0%2Finbox%2Fid%2FAQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoARgAAA4lIdydTkERKv2ZG1Ybxqy4HABKhdE1MPkJJuq%252BLMFjFymoAAAIBDAAAABKhdE1MPkJJuq%252BLMFjFymoABI3pFwoAAAA%253D%3A377%3A152961)%0A%20%20%20%20at%20https%3A%2F%2Foutlook.live.com%2Fmail%2F0%2Finbox%2Fid%2FAQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoARgAAA4lIdydTkERKv2ZG1Ybxqy4HABKhdE1MPkJJuq%252BLMFjFymoAAAIBDAAAABKhdE1MPkJJuq%252BLMFjFymoABI3pFwoAAAA%253D%3A377%3A77763
-      zoom: 0.75
   - active: true
     history:
     - active: true
-      last_visited: '2021-07-01T16:24:21'
+      last_visited: '2021-07-01T23:54:49'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: en-gb.facebook.com
-      url: https://en-gb.facebook.com/index.php?next=https%3A%2F%2Fwww.facebook.com%2Fconfirmcontact.php%3Fc%3D21451%26x%3D1%26z%3D0%26gfid%3DAQAnuzZfeE7ooUTdBqA
+        y: 360
+      title: Internal and external storage - Termux Wiki
+      url: https://wiki.termux.com/wiki/Internal_and_external_storage
       zoom: 0.75

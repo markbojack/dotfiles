@@ -1,36 +1,77 @@
 windows:
-- geometry: !!binary |
+- active: true
+  geometry: !!binary |
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
   - history:
+    - last_visited: '2021-07-02T02:19:20'
+      original-url: https://www.google.com/url?q=https://gist.github.com/markbojack/6fd53c98938c46b51d30e484518b7113&source=gmail&ust=1625253540154000&usg=AFQjCNGJJnfgkLq8u3GwUS_NaddY1LPGuQ
+      pinned: false
+      title: Backup a Samsung Galaxy S8 using SSH
+      url: https://gist.github.com/markbojack/6fd53c98938c46b51d30e484518b7113
+    - last_visited: '2021-07-02T02:22:02'
+      pinned: false
+      title: markbojack’s gists
+      url: https://gist.github.com/markbojack
+    - last_visited: '2021-07-02T02:22:05'
+      pinned: false
+      title: markbojack (Mark Bojack)
+      url: https://github.com/markbojack
+    - last_visited: '2021-07-02T02:22:50'
+      pinned: false
+      title: markbojack/dotfiles
+      url: https://github.com/markbojack/dotfiles
+    - last_visited: '2021-07-02T02:22:51'
+      pinned: false
+      title: dotfiles/.doom.d at main · markbojack/dotfiles
+      url: https://github.com/markbojack/dotfiles/tree/main/.doom.d
     - active: true
-      last_visited: '2021-07-01T18:29:38'
+      last_visited: '2021-07-02T02:23:01'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Home
-      url: file:///home/mark/p-dot-script/qutebrowser/html/homepage.html
+      title: dotfiles/config.org at main · markbojack/dotfiles
+      url: https://github.com/markbojack/dotfiles/blob/main/.doom.d/config.org
       zoom: 0.75
-  - history:
-    - active: true
-      last_visited: '2021-07-01T18:29:39'
+    - last_visited: '2021-07-02T02:22:58'
       pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Error
-      url: https://outlook.live.com/mail/0/inbox/id/AQMkADAwATM3ZmYAZS1kN2FkLWRkADVlLTAwAi0wMAoARgAAA4lIdydTkERKv2ZG1Ybxqy4HABKhdE1MPkJJuq+LMFjFymoAAAIBDAAAABKhdE1MPkJJuq+LMFjFymoABI3pFwoAAAA=
-      zoom: 0.75
+      title: Page not found · GitHub
+      url: https://github.com/markbojack/dotfiles/blob/main/.doom.d/Sources
   - active: true
     history:
+    - last_visited: '2021-07-02T04:31:09'
+      pinned: false
+      title: markbojack (Mark Bojack)
+      url: https://github.com/markbojack
+    - last_visited: '2021-07-02T04:31:18'
+      original-url: https://gist.github.com/mine
+      pinned: false
+      title: markbojack’s gists
+      url: https://gist.github.com/markbojack
+    - last_visited: '2021-07-02T04:31:28'
+      pinned: false
+      title: markbojack’s gists
+      url: https://gist.github.com/markbojack#backup-a-samsung-galaxy-s8-using-ssh
+    - last_visited: '2021-07-02T04:31:31'
+      pinned: false
+      title: markbojack’s gists
+      url: https://gist.github.com/markbojack#on-the-receiving-computerserver
+    - last_visited: '2021-07-02T04:31:36'
+      pinned: false
+      title: Backup a Samsung Galaxy S8 using SSH
+      url: https://gist.github.com/markbojack/6fd53c98938c46b51d30e484518b7113
+    - last_visited: '2021-07-02T04:31:40'
+      pinned: false
+      title: Editing ssh-bkp.md
+      url: https://gist.github.com/markbojack/6fd53c98938c46b51d30e484518b7113/edit
     - active: true
-      last_visited: '2021-07-01T18:29:40'
+      last_visited: '2021-07-02T04:35:13'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Facebook – log in or sign up
-      url: https://en-gb.facebook.com/index.php?next=https%3A%2F%2Fwww.facebook.com%2Fconfirmcontact.php%3Fc%3D21451%26x%3D1%26z%3D0%26gfid%3DAQAnuzZfeE7ooUTdBqA
+      title: Backup a Samsung Galaxy S8 using SSH
+      url: https://gist.github.com/markbojack/6fd53c98938c46b51d30e484518b7113
       zoom: 0.75
