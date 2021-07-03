@@ -48,12 +48,17 @@
 (display-time-mode 1)                             ; Enable time in the mode-line
 (unless (string-match-p "^Power N/A" (battery))   ; On laptops...
   (display-battery-mode 1))                       ; it's nice to know how much power you have
+
+;; Org mode: Replace list hyphen with dot
+(font-lock-add-keywords 'org-mode
+                        '(("^ *\\([-]\\) "
+                          (0 (prog1 () (compose-region (match-beginning 1) (match-end 1) "•"))))))
 ;; Miscellaneous:1 ends here
 
 ;; [[file:config.org::*Font][Font:1]]
 (setq doom-font (font-spec :family "RobotoMono Nerd Font" :size 10 :weight 'bold)
       ;; doom-big-font (font-spec :family "RobotoMono Nerd Font" :size 14))
-      doom-variable-pitch-font (font-spec :family "sans" :size 13))
+      doom-variable-pitch-font (font-spec :family "RobotoMono Nerd Font" :size 10)) ; :family originally sans
 
 (after! doom-themes
   (setq doom-themes-enable-bold t
@@ -91,7 +96,8 @@
 ;; [[file:config.org::*=mu4e=][=mu4e=:1]]
 (add-to-list 'load-path "/usr/share/emacs/site-lisp/mu4e/")
 
-(setq mu4e-index-update-in-background t
+(setq mu4e-change-filenames-when-moving t       ; avoids mail syncing issues with mbsync
+      mu4e-index-update-in-background t         ; needed for gmail to work
       mu4e-get-mail-command "mbsync -a -c ~/p-dot-script/.mbsyncrc"
       mu4e-update-interval (* 1 60)
       mu4e-attachment-dir "~/Downloads"
@@ -110,6 +116,8 @@
       mu4e-bookmarks
       '((:name "Family" :query "from:Bojack" :key ?f :hide t)
         (:name "Today's messages" :query "date:today..now" :key ?t :hide nil)))
+
+(add-hook! 'mu4e-main-mode-hook (mu4e-update-index))    ; custom hook bc mu4e doesn't do it at start
 ;; =mu4e=:1 ends here
 
 ;; [[file:config.org::*=smtpmail=][=smtpmail=:1]]
@@ -131,11 +139,12 @@
       ;; showall          no folding of any entries
       ;; showeverything   show even drawer contents
       org-startup-folded t
-      org-link-search-must-match-exact-headline nil     ;; target words with a link
+      org-link-search-must-match-exact-headline nil     ; target words with a link
       org-highest-priority ?A
       org-default-priority ?B
-      org-lowest-priority ?C                            ;; does this really have to be ?E by default?
-      org-ellipsis " ▾ "
+      org-lowest-priority ?C                            ; does this really have to be ?E by default?
+      ;; org-hide-emphasis-markers t                    ; hides the characters added (ie * / _ ~ =) to emphasize text
+      org-ellipsis " ▾"
       org-bullets-bullet-list '("·")
       org-tags-column -80
       org-agenda-files (ignore-errors (directory-files +org-dir t "\\.org$" t))
@@ -206,24 +215,6 @@
                       :weight 'bold))
 ;; =org=:1 ends here
 
-;; [[file:config.org::*=org-super-agenda=][=org-super-agenda=:1]]
-(after! org-agenda
-  (setq org-super-agenda-mode t
-        org-super-agenda-groups '((:name "Today"
-                                   :time-grid t
-                                   :scheduled today)
-                                  (:name "Due today"
-                                   :deadline today)
-                                  (:name "Important"
-                                   :priority "A")
-                                  (:name "Overdue"
-                                   :deadline past)
-                                  (:name "Due soon"
-                                   :deadline future)
-                                  (:name "Big Outcomes"
-                                   :tag "bo"))))
-;; =org-super-agenda=:1 ends here
-
 ;; [[file:config.org::*=org-brain=][=org-brain=:1]]
 (use-package org-brain
   :ensure t
@@ -244,6 +235,31 @@
   (setq org-brain-include-file-entries nil
         org-brain-file-entries-use-title nil))
 ;; =org-brain=:1 ends here
+
+;; [[file:config.org::*=org-bullets=][=org-bullets=:1]]
+(use-package org-bullets
+  :hook (org-mode . org-bullets-mode)
+  :config
+  (setq org-bullets-bullet-list '("◉" "⁑" "⁂" "❖" "✮" "✱" "✸")))
+;; =org-bullets=:1 ends here
+
+;; [[file:config.org::*=org-super-agenda=][=org-super-agenda=:1]]
+(after! org-agenda
+  (setq org-super-agenda-mode t
+        org-super-agenda-groups '((:name "Today"
+                                   :time-grid t
+                                   :scheduled today)
+                                  (:name "Due today"
+                                   :deadline today)
+                                  (:name "Important"
+                                   :priority "A")
+                                  (:name "Overdue"
+                                   :deadline past)
+                                  (:name "Due soon"
+                                   :deadline future)
+                                  (:name "Big Outcomes"
+                                   :tag "bo"))))
+;; =org-super-agenda=:1 ends here
 
 ;; [[file:config.org::*Personal Information][Personal Information:1]]
 (setq user-full-name "Mark Bojack"

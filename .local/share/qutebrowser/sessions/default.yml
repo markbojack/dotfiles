@@ -1,17 +1,41 @@
 windows:
-- active: true
-  geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAAAqMAAALwAAAAEAAAACEAAAKiAAAC7wAAAAAAAAAABVYAAAAQAAAA
-    IQAAAqIAAALv
+- geometry: !!binary |
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
+    IQAABUUAAALv
   tabs:
   - active: true
     history:
+    - last_visited: '2021-07-02T04:31:09'
+      pinned: false
+      title: markbojack (Mark Bojack)
+      url: https://github.com/markbojack
+    - last_visited: '2021-07-02T04:31:18'
+      original-url: https://gist.github.com/mine
+      pinned: false
+      title: markbojack’s gists
+      url: https://gist.github.com/markbojack
+    - last_visited: '2021-07-02T04:31:28'
+      pinned: false
+      title: markbojack’s gists
+      url: https://gist.github.com/markbojack#backup-a-samsung-galaxy-s8-using-ssh
+    - last_visited: '2021-07-02T04:31:31'
+      pinned: false
+      title: markbojack’s gists
+      url: https://gist.github.com/markbojack#on-the-receiving-computerserver
+    - last_visited: '2021-07-02T04:31:36'
+      pinned: false
+      title: Backup a Samsung Galaxy S8 using SSH
+      url: https://gist.github.com/markbojack/6fd53c98938c46b51d30e484518b7113
+    - last_visited: '2021-07-02T04:31:40'
+      pinned: false
+      title: Editing ssh-bkp.md
+      url: https://gist.github.com/markbojack/6fd53c98938c46b51d30e484518b7113/edit
     - active: true
-      last_visited: '2021-07-01T23:54:49'
+      last_visited: '2021-07-02T04:35:13'
       pinned: false
       scroll-pos:
         x: 0
-        y: 360
-      title: Internal and external storage - Termux Wiki
-      url: https://wiki.termux.com/wiki/Internal_and_external_storage
+        y: 0
+      title: Backup a Samsung Galaxy S8 using SSH
+      url: https://gist.github.com/markbojack/6fd53c98938c46b51d30e484518b7113
       zoom: 0.75

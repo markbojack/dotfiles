@@ -14,6 +14,7 @@ declare -a options=(
 "Poweroff"
 "Reboot"
 "Suspend"
+"Off screen"
 )
 
 
@@ -63,6 +64,13 @@ case $choice in
     'Suspend')
         if [[ "$(echo -e "No\nYes" | dmenu -i -h 18 -fn "Roboto Mono Nerd Font-8" -p "${choice}?" "${@}" )" == "Yes" ]]; then
             systemctl suspend
+        else
+            output "User chose not to suspend." && exit 0
+        fi
+        ;;
+    'Off screen')
+        if [[ "$(echo -e "No\nYes" | dmenu -i -h 18 -fn "Roboto Mono Nerd Font-8" -p "${choice}?" "${@}" )" == "Yes" ]]; then
+            screen-off
         else
             output "User chose not to suspend." && exit 0
         fi
