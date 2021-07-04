@@ -1,41 +1,25 @@
 windows:
 - geometry: !!binary |
-    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
-    IQAABUUAAALv
+    AdnQywADAAAAAAAPAAAADwAABUYAAALwAAAAEAAAABAAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
+    EAAABUUAAALv
   tabs:
   - active: true
     history:
-    - last_visited: '2021-07-02T04:31:09'
+    - last_visited: '2021-07-03T22:22:07'
       pinned: false
-      title: markbojack (Mark Bojack)
-      url: https://github.com/markbojack
-    - last_visited: '2021-07-02T04:31:18'
-      original-url: https://gist.github.com/mine
-      pinned: false
-      title: markbojack’s gists
-      url: https://gist.github.com/markbojack
-    - last_visited: '2021-07-02T04:31:28'
-      pinned: false
-      title: markbojack’s gists
-      url: https://gist.github.com/markbojack#backup-a-samsung-galaxy-s8-using-ssh
-    - last_visited: '2021-07-02T04:31:31'
-      pinned: false
-      title: markbojack’s gists
-      url: https://gist.github.com/markbojack#on-the-receiving-computerserver
-    - last_visited: '2021-07-02T04:31:36'
-      pinned: false
-      title: Backup a Samsung Galaxy S8 using SSH
-      url: https://gist.github.com/markbojack/6fd53c98938c46b51d30e484518b7113
-    - last_visited: '2021-07-02T04:31:40'
-      pinned: false
-      title: Editing ssh-bkp.md
-      url: https://gist.github.com/markbojack/6fd53c98938c46b51d30e484518b7113/edit
+      title: daviwil (David Wilson)
+      url: https://github.com/daviwil
     - active: true
-      last_visited: '2021-07-02T04:35:13'
+      last_visited: '2021-07-03T22:22:46'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: Backup a Samsung Galaxy S8 using SSH
-      url: https://gist.github.com/markbojack/6fd53c98938c46b51d30e484518b7113
+        y: 917
+      title: 'daviwil/emacs-from-scratch: An example of a fully custom Emacs configuration
+        developed live on YouTube!'
+      url: https://github.com/daviwil/emacs-from-scratch
       zoom: 0.75
+    - last_visited: '2021-07-03T22:22:44'
+      pinned: false
+      title: daviwil/emacs-from-scratch at 1a13fcf0dd6afb41fce71bf93c5571931999fed8
+      url: https://github.com/daviwil/emacs-from-scratch/tree/1a13fcf0dd6afb41fce71bf93c5571931999fed8

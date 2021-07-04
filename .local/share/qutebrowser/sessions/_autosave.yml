@@ -4,33 +4,15 @@ windows:
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
-  - history:
-    - last_visited: '2021-07-03T22:22:07'
-      pinned: false
-      title: daviwil (David Wilson)
-      url: https://github.com/daviwil
-    - active: true
-      last_visited: '2021-07-03T22:22:46'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 917
-      title: 'daviwil/emacs-from-scratch: An example of a fully custom Emacs configuration
-        developed live on YouTube!'
-      url: https://github.com/daviwil/emacs-from-scratch
-      zoom: 0.75
-    - last_visited: '2021-07-03T22:22:44'
-      pinned: false
-      title: daviwil/emacs-from-scratch at 1a13fcf0dd6afb41fce71bf93c5571931999fed8
-      url: https://github.com/daviwil/emacs-from-scratch/tree/1a13fcf0dd6afb41fce71bf93c5571931999fed8
   - active: true
     history:
     - active: true
-      last_visited: '2021-07-03T22:23:08'
+      last_visited: '2021-07-04T09:48:29'
       pinned: false
       scroll-pos:
         x: 0
-        y: 919
-      title: emacs-from-scratch/Emacs-05.org at master · daviwil/emacs-from-scratch
-      url: https://github.com/daviwil/emacs-from-scratch/blob/master/show-notes/Emacs-05.org
+        y: 0
+      title: 'daviwil/emacs-from-scratch: An example of a fully custom Emacs configuration
+        developed live on YouTube!'
+      url: https://github.com/daviwil/emacs-from-scratch
       zoom: 0.75
