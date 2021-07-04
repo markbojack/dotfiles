@@ -4,15 +4,25 @@ windows:
     AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
     IQAABUUAAALv
   tabs:
-  - active: true
-    history:
+  - history:
     - active: true
-      last_visited: '2021-07-04T13:47:50'
+      last_visited: '2021-07-04T16:56:54'
       pinned: false
       scroll-pos:
         x: 0
-        y: 880
+        y: 920
       title: 'daviwil/emacs-from-scratch: An example of a fully custom Emacs configuration
         developed live on YouTube!'
       url: https://github.com/daviwil/emacs-from-scratch
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-07-04T16:57:03'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 573
+      title: emacs-from-scratch/Emacs-06.org at master · daviwil/emacs-from-scratch
+      url: https://github.com/daviwil/emacs-from-scratch/blob/master/show-notes/Emacs-06.org
       zoom: 0.75

@@ -7,7 +7,7 @@
                         custom-unlispify-menu-entries nil         ; prefer kebab-case for titles
                         custom-unlispify-tag-names nil            ; prefer kebab-case for symbols
                                 delete-by-moving-to-trash t               ; delete files to trash
-              fill-column 80                            ; set width for automatic line breaks
+              fill-column 140                           ; set width for automatic line breaks
               help-window-select t                      ; focus new help windows when opened
               initial-scratch-message ""                ; empty the initial *scratch* buffer
               mouse-yank-at-point t                     ; yank at point rather than pointer
@@ -118,6 +118,13 @@
 ;; mu4e:1 ends here
 
 ;; [[file:config.org::*org-mode][org-mode:1]]
+;; If you only want to see the agenda for today
+;; (setq org-agenda-span 'day)
+
+(setq org-agenda-start-with-log-mode t)
+(setq org-log-done 'time)       ; can be nil, time, or note
+(setq org-log-into-drawer t)
+
 ;; Replace list hyphens with dots
 (font-lock-add-keywords 'org-mode
                         '(("^ *\\([-]\\) "
@@ -125,8 +132,9 @@
 
 (setq org-directory "~/Documents"
 
-      ;; org-agenda-files (directory-files-recursively "~/Documents/org/" "\.org$")  ;; make everything an agenda file
-      org-agenda-files '("~/Documents/remind.org")
+      ;; org-agenda-files (directory-files-recursively "~/Documents/" "\.org$")  ;; make everything an agenda file
+      ;; org-agenda-files (ignore-errors (directory-files +org-dir t "\\.org$" t))
+      org-agenda-files '("remind.org" "birthday.org")
 
       ;; For FOLDS:
         ;; overview         top-level headlines only
@@ -143,7 +151,6 @@
       org-ellipsis " ▾"
       org-bullets-bullet-list '("·")
       org-tags-column -80
-      org-agenda-files (ignore-errors (directory-files +org-dir t "\\.org$" t))
       org-log-done 'time
       org-refile-targets (quote ((nil :maxlevel . 1)))
       org-tags-column -80
