@@ -1,25 +1,18 @@
 windows:
-- geometry: !!binary |
-    AdnQywADAAAAAAAPAAAADwAABUYAAALwAAAAEAAAABAAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
-    EAAABUUAAALv
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
+    IQAABUUAAALv
   tabs:
   - active: true
     history:
-    - last_visited: '2021-07-03T22:22:07'
-      pinned: false
-      title: daviwil (David Wilson)
-      url: https://github.com/daviwil
     - active: true
-      last_visited: '2021-07-03T22:22:46'
+      last_visited: '2021-07-04T13:47:50'
       pinned: false
       scroll-pos:
         x: 0
-        y: 917
+        y: 880
       title: 'daviwil/emacs-from-scratch: An example of a fully custom Emacs configuration
         developed live on YouTube!'
       url: https://github.com/daviwil/emacs-from-scratch
       zoom: 0.75
-    - last_visited: '2021-07-03T22:22:44'
-      pinned: false
-      title: daviwil/emacs-from-scratch at 1a13fcf0dd6afb41fce71bf93c5571931999fed8
-      url: https://github.com/daviwil/emacs-from-scratch/tree/1a13fcf0dd6afb41fce71bf93c5571931999fed8

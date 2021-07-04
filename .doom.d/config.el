@@ -4,9 +4,9 @@
 
 ;; [[file:config.org::*setq-default][setq-default:1]]
 (setq-default cursor-in-non-selected-windows nil        ; hide the cursor in inactive windows
-              custom-unlispify-menu-entries nil         ; prefer kebab-case for titles
-              custom-unlispify-tag-names nil            ; prefer kebab-case for symbols
-              delete-by-moving-to-trash t               ; delete files to trash
+                        custom-unlispify-menu-entries nil         ; prefer kebab-case for titles
+                        custom-unlispify-tag-names nil            ; prefer kebab-case for symbols
+                                delete-by-moving-to-trash t               ; delete files to trash
               fill-column 80                            ; set width for automatic line breaks
               help-window-select t                      ; focus new help windows when opened
               initial-scratch-message ""                ; empty the initial *scratch* buffer
@@ -24,7 +24,9 @@
 
 ;; [[file:config.org::*setq][setq:1]]
 (setq doom-theme 'doom-one
-      display-line-numbers-type 'relative
+      ;; display-line-numbers-type 'relative
+      display-line-numbers-type nil
+      mixed-pitch-set-height t                  ; let's you set the :size for variable-pitch-font
       evil-split-window-below t
       evil-vsplit-window-right t
       gc-cons-threshold (* 8 1024 1024)
@@ -48,17 +50,12 @@
 (display-time-mode 1)                             ; Enable time in the mode-line
 (unless (string-match-p "^Power N/A" (battery))   ; On laptops...
   (display-battery-mode 1))                       ; it's nice to know how much power you have
-
-;; Org mode: Replace list hyphen with dot
-(font-lock-add-keywords 'org-mode
-                        '(("^ *\\([-]\\) "
-                          (0 (prog1 () (compose-region (match-beginning 1) (match-end 1) "•"))))))
 ;; Miscellaneous:1 ends here
 
 ;; [[file:config.org::*Font][Font:1]]
-(setq doom-font (font-spec :family "RobotoMono Nerd Font" :size 10 :weight 'bold)
-      ;; doom-big-font (font-spec :family "RobotoMono Nerd Font" :size 14))
-      doom-variable-pitch-font (font-spec :family "RobotoMono Nerd Font" :size 10)) ; :family originally sans
+(setq doom-font (font-spec :family "RobotoMono Nerd Font" :size 10)                     ; flavor of the month
+      ;; doom-font (font-spec :family "RobotoMono Nerd Font" :size 10 :weight 'bold)    ; go-to
+      doom-variable-pitch-font (font-spec :family "SF Pro Text" :size 11))              ; :family originally sans
 
 (after! doom-themes
   (setq doom-themes-enable-bold t
@@ -87,13 +84,13 @@
 (map! :ne "M-u" #'mu4e-update-index)
 ;; Mappings:1 ends here
 
-;; [[file:config.org::*=ess/R=][=ess/R=:1]]
+;; [[file:config.org::*ess/R][ess/R:1]]
 (setq org-babel-default-header-args:r '((:session)
                                         (:results . "output")))
 (setq scroll-down-aggressively 0.01)
-;; =ess/R=:1 ends here
+;; ess/R:1 ends here
 
-;; [[file:config.org::*=mu4e=][=mu4e=:1]]
+;; [[file:config.org::*mu4e][mu4e:1]]
 (add-to-list 'load-path "/usr/share/emacs/site-lisp/mu4e/")
 
 (setq mu4e-change-filenames-when-moving t       ; avoids mail syncing issues with mbsync
@@ -118,32 +115,31 @@
         (:name "Today's messages" :query "date:today..now" :key ?t :hide nil)))
 
 (add-hook! 'mu4e-main-mode-hook (mu4e-update-index))    ; custom hook bc mu4e doesn't do it at start
-;; =mu4e=:1 ends here
+;; mu4e:1 ends here
 
-;; [[file:config.org::*=smtpmail=][=smtpmail=:1]]
-(setq starttls-use-gnutls t
-      smtpmail-starttls-credentials '(("smtp.gmail.com" 587 nil nil))
-      smtpmail-auth-credentials '(("smtp.gmail.com" 587 "markbojack.si@gmail.com" nil))
-      smtpmail-default-smtp-server "smtp.gmail.com"
-      smtpmail-smtp-server "smtp.gmail.com"
-      smtpmail-smtp-service 587)
-;; =smtpmail=:1 ends here
+;; [[file:config.org::*org-mode][org-mode:1]]
+;; Replace list hyphens with dots
+(font-lock-add-keywords 'org-mode
+                        '(("^ *\\([-]\\) "
+                          (0 (prog1 () (compose-region (match-beginning 1) (match-end 1) "•"))))))
 
-;; [[file:config.org::*=org=][=org=:1]]
-(setq org-directory "~/Documents/org/"
+(setq org-directory "~/Documents"
 
       ;; org-agenda-files (directory-files-recursively "~/Documents/org/" "\.org$")  ;; make everything an agenda file
-      org-agenda-files '("~/Documents/org/remind.org")
-      ;; overview         top-level headlines only
-      ;; content          all headlines
-      ;; showall          no folding of any entries
-      ;; showeverything   show even drawer contents
+      org-agenda-files '("~/Documents/remind.org")
+
+      ;; For FOLDS:
+        ;; overview         top-level headlines only
+        ;; content          all headlines
+        ;; showall          no folding of any entries
+        ;; showeverything   show even drawer contents
       org-startup-folded t
+
       org-link-search-must-match-exact-headline nil     ; target words with a link
       org-highest-priority ?A
       org-default-priority ?B
       org-lowest-priority ?C                            ; does this really have to be ?E by default?
-      ;; org-hide-emphasis-markers t                    ; hides the characters added (ie * / _ ~ =) to emphasize text
+      org-hide-emphasis-markers t                    ; hides the characters added (ie * / _ ~ =) to emphasize text
       org-ellipsis " ▾"
       org-bullets-bullet-list '("·")
       org-tags-column -80
@@ -166,10 +162,17 @@
 ;; (setq org-fancy-priorities-list '("⚡" "⬆" "⬇" "☕"))
 (setq org-fancy-priorities-list '("" "" ""))
 
-;; (add-hook! 'org-mode-hook #'+org-pretty-mode #'mixed-pitch-mode)  ;;  i don't like this
+(add-hook! 'org-mode-hook #'+org-pretty-mode #'mixed-pitch-mode)  ;  i don't like this
 (add-hook! 'org-mode-hook (company-mode -1))
 (add-hook! 'org-capture-mode-hook (company-mode -1))
 (add-hook! 'org-mode-hook (org-fancy-priorities-mode))
+
+;; this is to get a zen-mode like appearance by default
+(defun org-mode-visual-fill ()
+  (setq visual-fill-column-width 140
+        visual-fill-column-center-text t)
+  (visual-fill-column-mode 1))
+(add-hook! 'org-mode-hook (org-mode-visual-fill))
 
 (set-popup-rule! "^\\*Org Agenda" :side 'bottom :size 0.90 :select t :ttl nil)
 (set-popup-rule! "^CAPTURE.*\\.org$" :side 'bottom :size 0.90 :select t :ttl nil)
@@ -187,7 +190,7 @@
   (set-face-attribute 'org-level-1 nil
                       :foreground "steelblue2"
                       :background nil
-                      :height 1.2
+                      :height 1.0
                       :weight 'bold)
   (set-face-attribute 'org-level-2 nil
                       :foreground "slategray2"
@@ -211,11 +214,11 @@
   (set-face-attribute 'org-document-title nil
                       :foreground "SlateGray1"
                       :background nil
-                      :height 1.75
+                      :height 1.2
                       :weight 'bold))
-;; =org=:1 ends here
+;; org-mode:1 ends here
 
-;; [[file:config.org::*=org-brain=][=org-brain=:1]]
+;; [[file:config.org::*org-brain][org-brain:1]]
 (use-package org-brain
   :ensure t
   :init
@@ -234,16 +237,16 @@
   (setq org-brain-title-max-length 12)
   (setq org-brain-include-file-entries nil
         org-brain-file-entries-use-title nil))
-;; =org-brain=:1 ends here
+;; org-brain:1 ends here
 
-;; [[file:config.org::*=org-bullets=][=org-bullets=:1]]
+;; [[file:config.org::*org-bullets][org-bullets:1]]
 (use-package org-bullets
   :hook (org-mode . org-bullets-mode)
   :config
   (setq org-bullets-bullet-list '("◉" "⁑" "⁂" "❖" "✮" "✱" "✸")))
-;; =org-bullets=:1 ends here
+;; org-bullets:1 ends here
 
-;; [[file:config.org::*=org-super-agenda=][=org-super-agenda=:1]]
+;; [[file:config.org::*org-super-agenda][org-super-agenda:1]]
 (after! org-agenda
   (setq org-super-agenda-mode t
         org-super-agenda-groups '((:name "Today"
@@ -259,7 +262,16 @@
                                    :deadline future)
                                   (:name "Big Outcomes"
                                    :tag "bo"))))
-;; =org-super-agenda=:1 ends here
+;; org-super-agenda:1 ends here
+
+;; [[file:config.org::*smtpmail][smtpmail:1]]
+(setq starttls-use-gnutls t
+      smtpmail-starttls-credentials '(("smtp.gmail.com" 587 nil nil))
+      smtpmail-auth-credentials '(("smtp.gmail.com" 587 "markbojack.si@gmail.com" nil))
+      smtpmail-default-smtp-server "smtp.gmail.com"
+      smtpmail-smtp-server "smtp.gmail.com"
+      smtpmail-smtp-service 587)
+;; smtpmail:1 ends here
 
 ;; [[file:config.org::*Personal Information][Personal Information:1]]
 (setq user-full-name "Mark Bojack"
