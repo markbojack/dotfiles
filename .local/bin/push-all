@@ -5,7 +5,7 @@
 gd="git --git-dir=$HOME/dotfiles/ --work-tree=$HOME"
 if [ "$gd  status --porcelain" ]; then
 	echo "dotfiles"
-	$gd add ~/README.md ~/.bashrc ~/.config/nvim ~/.vim/sessions ~/.Xresources ~/.config/sxiv/exec ~/.config/alacritty/alacritty.yml ~/.config/i3/config ~/.config/i3status/i3status.conf ~/.config/picom/picom.conf ~/.config/i3blocks ~/.gtkrc-2.0 ~/.config/gtk-3.0/settings.ini ~/.config/i3-scrot.conf ~/.local/bin ~/.config/qutebrowser/autoconfig.yml ~/.config/qutebrowser/config.py ~/.config/youtube-dl.conf ~/.config/qutebrowser/userscripts ~/.config/mpv/input.conf ~/.local/share/qutebrowser/sessions ~/.config/ranger ~/.config/fontconfig/conf.d ~/.keynavrc ~/.config/amfora/config.toml ~/.config/qalculate/qalc.cfg ~/.config/polybar ~/.w3m/keymap ~/.config/youtube-viewer/youtube-viewer.conf
+	$gd add ~/README.md ~/.bashrc ~/.config/nvim ~/.vim/sessions ~/.Xresources ~/.config/sxiv/exec ~/.config/alacritty/alacritty.yml ~/.config/i3/config ~/.config/i3status/i3status.conf ~/.config/picom/picom.conf ~/.config/i3blocks ~/.gtkrc-2.0 ~/.config/gtk-3.0/settings.ini ~/.config/i3-scrot.conf ~/.local/bin ~/.config/qutebrowser/autoconfig.yml ~/.config/qutebrowser/config.py ~/.config/youtube-dl.conf ~/.config/qutebrowser/userscripts ~/.config/mpv/input.conf ~/.local/share/qutebrowser/sessions ~/.config/ranger ~/.config/fontconfig/conf.d ~/.keynavrc ~/.config/amfora/config.toml ~/.config/qalculate/qalc.cfg ~/.config/polybar ~/.w3m/keymap ~/.config/youtube-viewer/youtube-viewer.conf ~/.emacs.d
 	$gd commit -m "update" -a
 	$gd push -u origin main -q
 	echo -e "\n"
