@@ -1,0 +1,116 @@
+windows:
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAAPAAAAIAAABUYAAALwAAAAEAAAACEAAAVFAAAC7wAAAAAAAAAABVYAAAAQAAAA
+    IQAABUUAAALv
+  tabs:
+  - history:
+    - active: true
+      last_visited: '2021-07-06T02:00:41'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'daviwil/emacs-from-scratch: An example of a fully custom Emacs configuration
+        developed live on YouTube!'
+      url: https://github.com/daviwil/emacs-from-scratch
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-07-06T02:00:41'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: daviwil/emacs-from-scratch at 3075158cae210060888001c0d76a58a4178f6a00
+      url: https://github.com/daviwil/emacs-from-scratch/tree/3075158cae210060888001c0d76a58a4178f6a00
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-07-06T02:00:41'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: emacs-from-scratch/Emacs-Tips-DisplayBuffer-1.org at master · daviwil/emacs-from-scratch
+      url: https://github.com/daviwil/emacs-from-scratch/blob/master/show-notes/Emacs-Tips-DisplayBuffer-1.org
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-07-06T02:00:41'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: dotfiles/Emacs.org at master · daviwil/dotfiles
+      url: https://github.com/daviwil/dotfiles/blob/master/Emacs.org
+      zoom: 0.75
+  - history:
+    - last_visited: '2021-07-06T02:00:41'
+      pinned: false
+      title: exwm logout - Google Search
+      url: https://www.google.com/search?q=exwm+logout&ei=GB3jYLObDcqf9QP9obvgAQ&oq=exwm+logout&gs_lcp=Cgdnd3Mtd2l6EAMyBAgAEA0yBAgAEA0yBAgAEA0yBAgAEA0yBAgAEA0yBAgAEA0yBAgAEA0yBAgAEA0yBAgAEA0yBAgAEA06BggAEA0QHjoICAAQDRAFEB46BggAEBYQHjoCCAA6BQghEKABOgYIABANEApKBAhBGABQqUhY0Fdgl1loAXACeACAAYUBiAH9CJIBBDExLjKYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=gws-wiz&ved=0ahUKEwizh8vVl8zxAhXKT30KHf3QDhwQ4dUDCA4&uact=5
+    - last_visited: '2021-07-06T02:11:02'
+      pinned: false
+      title: exwm xset r - Google Search
+      url: https://www.google.com/search?q=exwm+xset+r&ei=2VbjYO7SCsnerQHS54so&oq=exwm+xset+r&gs_lcp=Cgdnd3Mtd2l6EAMyBQghEKABMgUIIRCgAToECAAQDToGCAAQDRAKOgYIABANEB46BggAEBYQHjoICAAQDRAFEB46BQgAEJECOggIABCxAxCDAToICC4QsQMQgwE6DgguELEDEIMBEMcBEKMCOggILhCRAhCTAjoFCC4QsQM6AggAOgoIABCxAxCDARAKOgcIABCxAxAKOgkIABAKEEYQ-QE6BAgAEApKBAhBGABQ2L0lWOHrJWCL7SVoAnACeASAAbYBiAH5CpIBBDE3LjGYAQCgAQGqAQdnd3Mtd2l6sAEAwAEB&sclient=gws-wiz&ved=0ahUKEwiuo83fzszxAhVJbysKHdLzAgUQ4dUDCA4&uact=5
+    - active: true
+      last_visited: '2021-07-06T02:11:09'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: exwm xset r - Google Search
+      url: https://www.google.com/search?q=exwm+xset+r&nirf=exam+xset+r&sa=X&ved=2ahUKEwiHmq6H0czxAhXOfH0KHd3TC-kQ8BYoAXoECAEQMA&biw=1778&bih=940
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-07-06T02:11:15'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Don''t forget about "xset r rate" to speed up your keyboard. : emacs'
+      url: https://www.reddit.com/r/emacs/comments/2y9qik/dont_forget_about_xset_r_rate_to_speed_up_your/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-07-06T02:11:19'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Set mark in EXWM buffers : emacs'
+      url: https://www.reddit.com/r/emacs/comments/d6mihu/set_mark_in_exwm_buffers/
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-07-06T02:11:29'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'setxkbmap don''t work in line mode · Issue #144 · ch11ng/exwm'
+      url: https://github.com/ch11ng/exwm/issues/144
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-07-06T02:11:33'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 360
+      title: debian - Having problems starting EXWM - Emacs Stack Exchange
+      url: https://emacs.stackexchange.com/questions/39220/having-problems-starting-exwm
+      zoom: 0.75
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-07-06T02:12:37'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 1400
+      title: Home · ch11ng/exwm Wiki
+      url: https://github.com/ch11ng/exwm/wiki
+      zoom: 0.75
