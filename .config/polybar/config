@@ -1,215 +1,141 @@
-;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
-;   ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
-;   ██████╔╝██║   ██║██║   ╚████╔╝ ██████╔╝███████║██████╔╝
-;   ██╔═══╝ ██║   ██║██║    ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
-;   ██║     ╚██████╔╝███████╗██║   ██████╔╝██║  ██║██║  ██║
-;   ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
-;   https://github.com/polybar/polybar
-;   https://github.com/polybar/polybar/wiki/Configuration
-;	hide tray script:
-;	https://git.astrak.co/astrak/dots/commit/e8402193fa1ad701f122f6401c6ac9375f70d5f3
-
-[colors]
-;background = ${xrdb:color0:#222}
-background = #FF272822
-background-alt = #444
-;foreground = ${xrdb:color7:#222}
-foreground = #dfdfdf
-foreground-alt = #555
-primary = #ffb52a
-secondary = #e60053
-alert = #bd2c40
-
-[bar/mark]
-;monitor = ${env:MONITOR:HDMI-1}
-;width = X% and offset-x = Y%, so that X + 2 * Y = 100
-;Y=(100-x)/2
-width = 98.75%
-height = 18
-offset-x = 0.625%
-offset-y = 0.4%
-radius = 8.0
-fixed-center = true
-background = ${colors.background}
-foreground = ${colors.foreground}
-line-size = 0
-line-color = #f00
-border-size = 0
-border-color = #00000000
-padding-left = 3
-padding-right = 18
-module-margin-left = 1
-module-margin-right = 1
-
-font-0 = DejaVu Sans:pixelsize=8;1
-font-1 = Font Awesome 5 Free:pixelsize=7;2
-font-2 = Font Awesome 5 Free Solid:pixelsize=7;2
-font-3 = Font Awesome 5 Brands:pixelsize=7;2
-font-4 = Weather Icons:pixelsize=8;2
-font-5 = PowerLineSymbols:pixelsize=8;2
-font-6 = Noto Color Emoji:pixelsize=8;2
-
-modules-left = i3
-modules-center = gpacheck ytdlcheck bkpcheck
-modules-right = mail bandwidth checkupdates cpu pulseaudio date
-
-tray-position = right
-tray-padding = 4
-tray-detached = true
-tray-maxsize = 10
-tray-offset-x = -8
-tray-offset-y = 0
-tray-background = ${self.background}
-
-wm-restack = i3
-override-redirect = true
-scroll-up = i3wm-wsnext
-scroll-down = i3wm-wsprev
-cursor-click = pointer
-cursor-scroll = ns-resize
-
-[module/i3]
-type = internal/i3
-format = <label-state> <label-mode>
-index-sort = true
-wrapping-scroll = false
-
-; Only show workspaces on the same output as the bar
-; pin-workspaces = true
-
-;               
-ws-icon-0 = 1;
-ws-icon-1 = 2;
-ws-icon-2 = 3;
-ws-icon-3 = 4;
-ws-icon-4 = 5;
-
-label-mode-padding = 2
-label-mode-foreground = #000
-label-mode-background = ${colors.primary}
-
-; focused = Active workspace on focused monitor
-label-focused = %icon%
-label-focused-background = ${colors.background-alt}
-label-focused-underline= ${colors.primary}
-label-focused-padding = 2
-
-; unfocused = Inactive workspace on any monitor
-label-unfocused = %icon%
-label-unfocused-padding = 2
-
-; visible = Active workspace on unfocused monitor
-label-visible = %icon%
-label-visible-background = ${self.label-focused-background}
-label-visible-underline = ${self.label-focused-underline}
-label-visible-padding = ${self.label-focused-padding}
-
-; urgent = Workspace with urgency hint set
-label-urgent = %icon%
-label-urgent-background = ${colors.alert}
-label-urgent-padding = 2
-
-; MODULES ====================================================================
-[module/gpacheck]
-type = custom/script
-tail = true
-label = %output%
-exec-if = pgrep -fl push-all
-${\033[0;31m}
-NC='\033[0m' # No Color
-printf "I ${RED}love${NC} Stack Overflow\n"
-exec = echo -e "" 
-label-foreground = $(colors.secondary)
-foreground = $(colors.secondary)
-
-[module/ytdlcheck]
-type = custom/script
-tail = true
-label = %output%
-exec-if = pgrep -fl youtube-dl
-exec = echo "YOUTUBE" 
-
-[module/bkpcheck]
-type = custom/script
-tail = true
-label = %output%
-exec-if = pgrep -fl backup-phone.sh
-exec = echo "BKP" 
-
-[module/mail]
-type = custom/script
-interval = 150
-format-prefix = "M"
-format-prefix-foreground = #5b
-label = %output%
-exec = [[ $(ls ~/.local/share/mail/markbojack.si@gmail.com/INBOX/new/) ]] && echo "hello" || echo "empty"
-
-[module/bandwidth]
-type = custom/script
-tail = true
-format-prefix = "W"
-label = %output%
-INTERFACE=enp3s0
-INLABEL="" 
-OUTLABEL="" 
-exec = ~/.config/i3blocks/bandwidth
-
-[module/date]
-type = internal/date
-interval = 5
-date = "%Y-%m-%d"
-date-alt = 
-time = %H:%M
-time-alt = %H:%M:%S
-format-prefix = 
-format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #0a6cf5
-label = %date% %time%
-
-[module/pulseaudio]
-type = internal/pulseaudio
-format-volume = <label-volume> <bar-volume>
-label-volume = %percentage%%
-label-volume-foreground = ${root.foreground}
-label-muted = 🔇 muted
-label-muted-foreground = #666
-bar-volume-width = 10
-bar-volume-foreground-0 = #55aa55
-bar-volume-foreground-1 = #55aa55
-bar-volume-foreground-2 = #55aa55
-bar-volume-foreground-3 = #55aa55
-bar-volume-foreground-4 = #55aa55
-bar-volume-foreground-5 = #f5a70a
-bar-volume-foreground-6 = #ff5555
-bar-volume-gradient = false
-bar-volume-indicator = |
-bar-volume-indicator-font = 2
-bar-volume-fill = ─
-bar-volume-fill-font = 2
-bar-volume-empty = ─
-bar-volume-empty-font = 2
-bar-volume-empty-foreground = ${colors.foreground-alt}
-
-[module/cpu]
-type = internal/cpu
-interval = 2
-format-prefix = " "
-format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #f90000
-label = %percentage:2%%
-
-[module/checkupdates]
-type = custom/script
-interval = 14320
-format-prefix = "U"
-label = %output%
-exec = [[ $(yay -Qu) ]] && echo "UPDATES $(yay -Qu | wc -l)" || "NONE"
+; Docs: https://github.com/polybar/polybar
+;==========================================================
 
 [settings]
 screenchange-reload = true
 
 [global/wm]
-margin-top = 5
-margin-bottom = 5
+margin-top = 0
+margin-bottom = 0
 
-; vim:ft=dosini
+[colors]
+background = #f0232635
+background-alt = #576075
+foreground = #A6Accd
+foreground-alt = #555
+primary = #ffb52a
+secondary = #e60053
+alert = #bd2c40
+underline-1 = #c792ea
+
+[bar/panel]
+width = 100%
+height = 18
+offset-x = 0
+offset-y = 0
+fixed-center = true
+enable-ipc = true
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+line-size = 2
+line-color = #f00
+
+border-size = 0
+border-color = #00000000
+
+padding-top = 5
+padding-left = 1
+padding-right = 1
+
+module-margin = 1
+
+font-0 = "Cantarell:size=11:weight=bold;2"
+font-1 = "Font Awesome:size=12;2"
+font-2 = "Material Icons:size=12;5"
+font-3 = "Fira Mono:size=11;-3"
+
+modules-left = exwm-workspace
+modules-right = cpu temperature battery date
+
+tray-position = right
+tray-padding = 2
+tray-maxsize = 28
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+[module/exwm-workspace]
+type = custom/ipc
+hook-0 = emacsclient -e "exwm-workspace-current-index" | sed -e 's/^"//' -e 's/"$//'
+initial = 1
+format-underline = ${colors.underline-1}
+format-padding = 1
+
+[module/cpu]
+type = internal/cpu
+interval = 2
+format = <label> <ramp-coreload>
+format-underline = ${colors.underline-1}
+click-left = emacsclient -e "(proced)"
+label = %percentage:2%%
+ramp-coreload-spacing = 0
+ramp-coreload-0 = ▁
+ramp-coreload-0-foreground = ${colors.foreground-alt}
+ramp-coreload-1 = ▂
+ramp-coreload-2 = ▃
+ramp-coreload-3 = ▄
+ramp-coreload-4 = ▅
+ramp-coreload-5 = ▆
+ramp-coreload-6 = ▇
+
+[module/date]
+type = internal/date
+interval = 5
+
+date = "%a %b %e"
+date-alt = "%A %B %d %Y"
+
+time = %l:%M %p
+time-alt = %H:%M:%S
+
+format-prefix-foreground = ${colors.foreground-alt}
+format-underline = ${colors.underline-1}
+
+label = %date% %time%
+
+[module/battery]
+type = internal/battery
+battery = BAT0
+adapter = ADP1
+full-at = 98
+time-format = %-l:%M
+
+label-charging = %percentage%% / %time%
+format-charging = <animation-charging> <label-charging>
+format-charging-underline = ${colors.underline-1}
+
+label-discharging = %percentage%% / %time%
+format-discharging = <ramp-capacity> <label-discharging>
+format-discharging-underline = ${self.format-charging-underline}
+
+format-full = <ramp-capacity> <label-full>
+format-full-underline = ${self.format-charging-underline}
+
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
+
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-3 = 
+animation-charging-4 = 
+animation-charging-framerate = 750
+
+[module/temperature]
+type = internal/temperature
+thermal-zone = 0
+warn-temperature = 60
+
+format = <label>
+format-underline = ${colors.underline-1}
+format-warn = <label-warn>
+format-warn-underline = ${self.format-underline}
+
+label = %temperature-c%
+label-warn = %temperature-c%!
+label-warn-foreground = ${colors.secondary}

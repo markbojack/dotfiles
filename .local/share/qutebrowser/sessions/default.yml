@@ -6,7 +6,7 @@ windows:
   tabs:
   - history:
     - active: true
-      last_visited: '2021-07-05T17:04:37'
+      last_visited: '2021-07-05T22:29:50'
       pinned: false
       scroll-pos:
         x: 0
@@ -17,17 +17,17 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-07-05T17:04:38'
+      last_visited: '2021-07-05T22:29:50'
       pinned: false
       scroll-pos:
         x: 0
-        y: 120
+        y: 0
       title: daviwil/emacs-from-scratch at 3075158cae210060888001c0d76a58a4178f6a00
       url: https://github.com/daviwil/emacs-from-scratch/tree/3075158cae210060888001c0d76a58a4178f6a00
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-07-05T17:04:39'
+      last_visited: '2021-07-05T22:29:50'
       pinned: false
       scroll-pos:
         x: 0
@@ -37,7 +37,7 @@ windows:
       zoom: 0.75
   - history:
     - active: true
-      last_visited: '2021-07-05T17:04:40'
+      last_visited: '2021-07-05T22:29:50'
       pinned: false
       scroll-pos:
         x: 0
@@ -47,16 +47,12 @@ windows:
       zoom: 0.75
   - active: true
     history:
-    - last_visited: '2021-07-05T17:11:04'
-      pinned: false
-      title: emacs zoom - Google Search
-      url: https://www.google.com/search?q=emacs%20zoom
     - active: true
-      last_visited: '2021-07-05T17:11:07'
+      last_visited: '2021-07-05T22:29:50'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: emacs zoom in/zoom out - Stack Overflow
-      url: https://stackoverflow.com/questions/5533110/emacs-zoom-in-zoom-out#:~:text=Try%20C-x%20C-%2B%20and,without%20typing%20C-x%20C-%20again.
+      title: exwm logout - Google Search
+      url: https://www.google.com/search?q=exwm+logout&ei=GB3jYLObDcqf9QP9obvgAQ&oq=exwm+logout&gs_lcp=Cgdnd3Mtd2l6EAMyBAgAEA0yBAgAEA0yBAgAEA0yBAgAEA0yBAgAEA0yBAgAEA0yBAgAEA0yBAgAEA0yBAgAEA0yBAgAEA06BggAEA0QHjoICAAQDRAFEB46BggAEBYQHjoCCAA6BQghEKABOgYIABANEApKBAhBGABQqUhY0Fdgl1loAXACeACAAYUBiAH9CJIBBDExLjKYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=gws-wiz&ved=0ahUKEwizh8vVl8zxAhXKT30KHf3QDhwQ4dUDCA4&uact=5
       zoom: 0.75
