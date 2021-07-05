@@ -6,7 +6,7 @@ windows:
   tabs:
   - history:
     - active: true
-      last_visited: '2021-07-05T07:42:55'
+      last_visited: '2021-07-05T17:04:37'
       pinned: false
       scroll-pos:
         x: 0
@@ -15,14 +15,48 @@ windows:
         developed live on YouTube!'
       url: https://github.com/daviwil/emacs-from-scratch
       zoom: 0.75
-  - active: true
-    history:
+  - history:
     - active: true
-      last_visited: '2021-07-05T07:42:56'
+      last_visited: '2021-07-05T17:04:38'
       pinned: false
       scroll-pos:
         x: 0
-        y: 1415
-      title: emacs-from-scratch/Emacs-06.org at master · daviwil/emacs-from-scratch
-      url: https://github.com/daviwil/emacs-from-scratch/blob/master/show-notes/Emacs-06.org
+        y: 120
+      title: daviwil/emacs-from-scratch at 3075158cae210060888001c0d76a58a4178f6a00
+      url: https://github.com/daviwil/emacs-from-scratch/tree/3075158cae210060888001c0d76a58a4178f6a00
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-07-05T17:04:39'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: emacs-from-scratch/Emacs-Tips-DisplayBuffer-1.org at master · daviwil/emacs-from-scratch
+      url: https://github.com/daviwil/emacs-from-scratch/blob/master/show-notes/Emacs-Tips-DisplayBuffer-1.org
+      zoom: 0.75
+  - history:
+    - active: true
+      last_visited: '2021-07-05T17:04:40'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: dotfiles/Emacs.org at master · daviwil/dotfiles
+      url: https://github.com/daviwil/dotfiles/blob/master/Emacs.org
+      zoom: 0.75
+  - active: true
+    history:
+    - last_visited: '2021-07-05T17:11:04'
+      pinned: false
+      title: emacs zoom - Google Search
+      url: https://www.google.com/search?q=emacs%20zoom
+    - active: true
+      last_visited: '2021-07-05T17:11:07'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: emacs zoom in/zoom out - Stack Overflow
+      url: https://stackoverflow.com/questions/5533110/emacs-zoom-in-zoom-out#:~:text=Try%20C-x%20C-%2B%20and,without%20typing%20C-x%20C-%20again.
       zoom: 0.75

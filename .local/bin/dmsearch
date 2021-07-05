@@ -47,7 +47,7 @@ else
 	#options[sourceforge]="https://sourceforge.net/directory/?q="
 	#options[stackoverflow]="https://stackoverflow.com/search?q="
 	#options[startpage]="https://www.startpage.com/do/dsearch?query="
-	options[thesaurus]="https://www.thesaurus.com/misspelling?term="
+	options[thesaurus]="https://www.thesaurus.com/browse/"
 	#options[translate]="https://translate.google.com/?sl=auto&tl=en&text="
 	#options[urban]="https://www.urbandictionary.com/define.php?term="
 	#options[wayback]="https://web.archive.org/web/*/"
