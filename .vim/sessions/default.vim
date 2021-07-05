@@ -1,6 +1,6 @@
 " ~/.vim/sessions/default.vim:
 " Vim session script.
-" Created by session.vim 2.13.1 on 04 Tháng 7 2021 at 20:07:03.
+" Created by session.vim 2.13.1 on 05 Tháng 7 2021 at 09:22:37.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -11,20 +11,19 @@ if &background != 'dark'
 	set background=dark
 endif
 if !exists('g:colors_name') || g:colors_name != 'delek' | colorscheme delek | endif
-call setqflist([])
+call setqflist([{'lnum': 43, 'col': 15, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'old/old R/h-report.R', 'text': '# gaps_out <- getAndProcessSymbols(symbol)'}, {'lnum': 93, 'col': 15, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'old/old R/h-report.R', 'text': '		gaps_out <- getAndProcessSymbols(symbol)'}, {'lnum': 34, 'col': 22, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'old/old R/model-gen.R', 'text': 'gaps_out_list_etf <- getAndProcessSymbolsBulk(all_symbols_etf)'}, {'lnum': 35, 'col': 24, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'old/old R/model-gen.R', 'text': 'gaps_out_list_stock <- getAndProcessSymbolsBulk(all_symbols_stock)'}, {'lnum': 1, 'col': 1, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/getAndProcessSymbols.R', 'text': 'getAndProcessSymbols <- function(symbol) {'}, {'lnum': 66, 'col': 13, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/report.R', 'text': 'gaps_out <- getAndProcessSymbols(symbol)'}, {'lnum': 122, 'col': 15, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'R/report.R', 'text': '		gaps_out <- getAndProcessSymbols(symbol)'}, {'lnum': 5, 'col': 1, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'model-gen.R', 'text': 'getAndProcessSymbolsBulk <- function(symbols) {'}, {'lnum': 57, 'col': 22, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'model-gen.R', 'text': 'gaps_out_list_etf <- getAndProcessSymbolsBulk(all_symbols_etf)'}, {'lnum': 58, 'col': 24, 'pattern': '', 'valid': 1, 'vcol': 0, 'nr': -1, 'type': '', 'module': '', 'filename': 'model-gen.R', 'text': 'gaps_out_list_stock <- getAndProcessSymbolsBulk(all_symbols_stock)'}])
 let SessionLoad = 1
 let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
 let v:this_session=expand("<sfile>:p")
 silent only
-cd ~/vimwiki
+cd ~/seasonality
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +0 index.md
 argglobal
 %argdel
-edit index.md
+$argadd ~/.config/nvim/init.vim
 set splitbelow splitright
 wincmd t
 set winminheight=0
@@ -32,6 +31,7 @@ set winheight=1
 set winminwidth=0
 set winwidth=1
 argglobal
+enew
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -40,13 +40,6 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-silent! normal! zE
-let s:l = 27 - ((20 * winheight(0) + 22) / 44)
-if s:l < 1 | let s:l = 1 | endif
-exe s:l
-normal! zt
-27
-normal! 037|
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
 "   silent exe 'bwipe ' . s:wipebuf

@@ -4,9 +4,9 @@
 
 ;; [[file:config.org::*setq-default][setq-default:1]]
 (setq-default cursor-in-non-selected-windows nil        ; hide the cursor in inactive windows
-                        custom-unlispify-menu-entries nil         ; prefer kebab-case for titles
-                        custom-unlispify-tag-names nil            ; prefer kebab-case for symbols
-                                delete-by-moving-to-trash t               ; delete files to trash
+              custom-unlispify-menu-entries nil         ; prefer kebab-case for titles
+              custom-unlispify-tag-names nil            ; prefer kebab-case for symbols
+              delete-by-moving-to-trash t               ; delete files to trash
               fill-column 140                           ; set width for automatic line breaks
               help-window-select t                      ; focus new help windows when opened
               initial-scratch-message ""                ; empty the initial *scratch* buffer
@@ -26,9 +26,9 @@
 (setq doom-theme 'doom-one
       ;; display-line-numbers-type 'relative
       display-line-numbers-type nil
-      mixed-pitch-set-height t                  ; let's you set the :size for variable-pitch-font
       evil-split-window-below t
       evil-vsplit-window-right t
+      mixed-pitch-set-height t                  ; let's you set the :size for variable-pitch-font
       gc-cons-threshold (* 8 1024 1024)
       auto-save-default t
       make-backup-files t
@@ -42,11 +42,7 @@
 
 ;; [[file:config.org::*Miscellaneous][Miscellaneous:1]]
 (fset 'yes-or-no-p 'y-or-n-p)           ; Replace yes/no prompts with y/n
-(global-subword-mode t)                 ; Iterate through CamelCase words
 (mouse-avoidance-mode 'exile)           ; Avoid collision of mouse with point
-(put 'downcase-region 'disabled nil)    ; Enable downcase-region C-x C-l
-(put 'upcase-region 'disabled nil)      ; Enable upcase-region C-x C-u
-(set-default-coding-systems 'utf-8)     ; Default to utf-8 encoding
 (display-time-mode 1)                             ; Enable time in the mode-line
 (unless (string-match-p "^Power N/A" (battery))   ; On laptops...
   (display-battery-mode 1))                       ; it's nice to know how much power you have
@@ -289,3 +285,39 @@
 (remove-hook 'text-mode-hook #'spell-fu-mode)
 (add-hook 'markdown-mode-hook #'spell-fu-mode)
 ;; Spelling:1 ends here
+
+;; [[file:config.org::*Text Manipulation][Text Manipulation:1]]
+(global-subword-mode t)                 ; Iterate through CamelCase words
+(put 'downcase-region 'disabled nil)    ; Enable downcase-region C-x C-l
+(put 'upcase-region 'disabled nil)      ; Enable upcase-region C-x C-u
+(set-default-coding-systems 'utf-8)     ; Default to utf-8 encoding
+;; Text Manipulation:1 ends here
+
+;; [[file:config.org::*EXPERIMENTAL][EXPERIMENTAL:1]]
+; random images on home screen
+;; (let ((alternatives '("doom-emacs-flugo-slant_out_purple-small.png")))
+;;    ;;((alternatives '("doom-emacs-color.png" "doom-emacs-bw-light.svg")))
+;;   (setq fancy-splash-image
+;;         (concat doom-private-dir "splash/"
+;;                 (nth (random (length alternatives)) alternatives))))
+
+; getting rid of item in the doom dashboard
+;; (setq +doom-dashboard-menu-sections (cl-subseq +doom-dashboard-menu-sections 0 2))
+
+; this goes with mixed-pitch-mode which evidently changes the cursor?
+(setq mixed-pitch-variable-pitch-cursor nil)
+
+; start fullscreen
+;; (add-to-list 'initial-frame-alist '(fullscreen . maximized))
+
+; truncates lines in ivy childframes
+;; (setq posframe-arghandler
+;;       (lambda (buffer-or-name key value)
+;;         (or (and (eq key :lines-truncate)
+;;                  (equal ivy-posframe-buffer
+;;                         (if (stringp buffer-or-name)
+;;                             buffer-or-name
+;;                           (buffer-name buffer-or-name)))
+;;                  t)
+;;             value)))
+;; EXPERIMENTAL:1 ends here
